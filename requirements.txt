@@ -1,0 +1,4 @@
+ultralytics>=8.3,<9
+huggingface-hub>=0.28,<2
+opencv-python>=4.10,<5
+kagglehub>=0.3,<1

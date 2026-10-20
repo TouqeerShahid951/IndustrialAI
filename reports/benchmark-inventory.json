@@ -1,0 +1,18 @@
+{
+  "valid": true,
+  "errors": [],
+  "manifest_sha256": "8e2c7462706191c70d8f76666f26f0acb04ad980290dd0f09ec0277cbfb433f2",
+  "inventory": {
+    "clips": 2,
+    "splits": {
+      "development": 2
+    },
+    "duration_seconds": 124.58320008527875,
+    "camera_groups": 2,
+    "site_groups": 2,
+    "data_gaps": [
+      "Clean, verified independent CCTV and independent labels required",
+      "No accepted operating targets or certified safety validation"
+    ]
+  }
+}

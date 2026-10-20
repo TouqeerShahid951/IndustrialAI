@@ -1,0 +1,162 @@
+{
+  "review_status": "single_reviewer",
+  "notes": "Previously inspected development example; not independently reviewed. No smoking or intrusion event annotations. Nearby helmet boxes seeded from baseline and visually adjusted; potential annotation bias.",
+  "reviewed_intervals": {
+    "fire": [
+      [
+        0,
+        15.0
+      ]
+    ],
+    "smoke": [
+      [
+        0,
+        15.0
+      ]
+    ]
+  },
+  "excluded_intervals": [],
+  "events": [],
+  "frames": [
+    {
+      "time_seconds": 3,
+      "review_status": "reviewed",
+      "image_width": 1920,
+      "image_height": 1080,
+      "objects": [
+        {
+          "class": "no_helmet",
+          "bbox_xyxy": [
+            409,
+            402,
+            432,
+            425
+          ]
+        },
+        {
+          "class": "helmet",
+          "bbox_xyxy": [
+            980,
+            542,
+            1040,
+            606
+          ]
+        },
+        {
+          "class": "helmet",
+          "bbox_xyxy": [
+            1250,
+            744,
+            1310,
+            814
+          ]
+        }
+      ]
+    },
+    {
+      "time_seconds": 6,
+      "review_status": "reviewed",
+      "image_width": 1920,
+      "image_height": 1080,
+      "objects": [
+        {
+          "class": "no_helmet",
+          "bbox_xyxy": [
+            407,
+            419,
+            432,
+            444
+          ]
+        },
+        {
+          "class": "helmet",
+          "bbox_xyxy": [
+            1080,
+            550,
+            1135,
+            620
+          ]
+        },
+        {
+          "class": "helmet",
+          "bbox_xyxy": [
+            1250,
+            710,
+            1315,
+            778
+          ]
+        }
+      ]
+    },
+    {
+      "time_seconds": 9,
+      "review_status": "reviewed",
+      "image_width": 1920,
+      "image_height": 1080,
+      "objects": [
+        {
+          "class": "no_helmet",
+          "bbox_xyxy": [
+            496,
+            446,
+            522,
+            477
+          ]
+        },
+        {
+          "class": "helmet",
+          "bbox_xyxy": [
+            1090,
+            548,
+            1145,
+            606
+          ]
+        },
+        {
+          "class": "helmet",
+          "bbox_xyxy": [
+            1256,
+            674,
+            1336,
+            748
+          ]
+        }
+      ]
+    },
+    {
+      "time_seconds": 12,
+      "review_status": "reviewed",
+      "image_width": 1920,
+      "image_height": 1080,
+      "objects": [
+        {
+          "class": "no_helmet",
+          "bbox_xyxy": [
+            620,
+            476,
+            647,
+            515
+          ]
+        },
+        {
+          "class": "helmet",
+          "bbox_xyxy": [
+            1020,
+            495,
+            1080,
+            548
+          ]
+        },
+        {
+          "class": "helmet",
+          "bbox_xyxy": [
+            1288,
+            572,
+            1355,
+            636
+          ]
+        }
+      ]
+    }
+  ]
+}

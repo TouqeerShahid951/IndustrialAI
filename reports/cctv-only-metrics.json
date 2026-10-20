@@ -1,0 +1,86 @@
+[
+  {
+    "model": "fire_smoke",
+    "clip": "helmet.mp4",
+    "frames": 360,
+    "frames_with_boxes": 23,
+    "classes": {
+      "fire": 23
+    },
+    "pipeline_fps": 55.16698094060186,
+    "video": "/Users/tabbasi/Downloads/IndustrialAI/outputs/run-99ywekzj/fire_smoke/0-helmet.mp4",
+    "confirmed_frames": 13,
+    "first_raw_seconds": 7.5,
+    "first_confirmed_seconds": 7.583333333333333
+  },
+  {
+    "model": "fire_smoke",
+    "clip": "smoke_pos_testpos05.821.avi",
+    "frames": 514,
+    "frames_with_boxes": 25,
+    "classes": {
+      "smoke": 25
+    },
+    "pipeline_fps": 107.41914965218011,
+    "video": "/Users/tabbasi/Downloads/IndustrialAI/outputs/run-99ywekzj/fire_smoke/1-smoke_pos_testpos05.821.mp4",
+    "confirmed_frames": 17,
+    "first_raw_seconds": 0.0,
+    "first_confirmed_seconds": 0.42639377465089007
+  },
+  {
+    "model": "helmet",
+    "clip": "helmet.mp4",
+    "frames": 360,
+    "frames_with_boxes": 360,
+    "classes": {
+      "Hardhat": 875,
+      "NO-Hardhat": 14
+    },
+    "pipeline_fps": 61.7044879268915,
+    "video": "/Users/tabbasi/Downloads/IndustrialAI/outputs/run-dp63bd9x/helmet/0-helmet.mp4",
+    "confirmed_frames": 358,
+    "first_raw_seconds": 0.0,
+    "first_confirmed_seconds": 0.08333333333333333
+  },
+  {
+    "model": "helmet",
+    "clip": "smoke_pos_testpos05.821.avi",
+    "frames": 514,
+    "frames_with_boxes": 177,
+    "classes": {
+      "NO-Hardhat": 181,
+      "Hardhat": 34
+    },
+    "pipeline_fps": 105.15068473395982,
+    "video": "/Users/tabbasi/Downloads/IndustrialAI/outputs/run-dp63bd9x/helmet/1-smoke_pos_testpos05.821.mp4",
+    "confirmed_frames": 120,
+    "first_raw_seconds": 1.4923782112781152,
+    "first_confirmed_seconds": 7.248694169065131
+  },
+  {
+    "model": "cigarette",
+    "clip": "helmet.mp4",
+    "frames": 360,
+    "frames_with_boxes": 0,
+    "classes": {},
+    "pipeline_fps": 24.3612842047371,
+    "video": "/Users/tabbasi/Downloads/IndustrialAI/outputs/run-9cxby6ku/cigarette/0-helmet.mp4",
+    "confirmed_frames": 0,
+    "first_raw_seconds": null,
+    "first_confirmed_seconds": null
+  },
+  {
+    "model": "cigarette",
+    "clip": "smoke_pos_testpos05.821.avi",
+    "frames": 514,
+    "frames_with_boxes": 3,
+    "classes": {
+      "cigarette": 3
+    },
+    "pipeline_fps": 23.824506000439975,
+    "video": "/Users/tabbasi/Downloads/IndustrialAI/outputs/run-9cxby6ku/cigarette/1-smoke_pos_testpos05.821.mp4",
+    "confirmed_frames": 0,
+    "first_raw_seconds": 68.86259460611875,
+    "first_confirmed_seconds": null
+  }
+]

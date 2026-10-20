@@ -1,0 +1,22 @@
+[
+  {
+    "model": "fire_smoke",
+    "size": 640,
+    "run": "/Users/tabbasi/Downloads/IndustrialAI/outputs/run-5dwghwu2"
+  },
+  {
+    "model": "fire_smoke",
+    "size": 1280,
+    "run": "/Users/tabbasi/Downloads/IndustrialAI/outputs/run-zqv1w1l_"
+  },
+  {
+    "model": "helmet",
+    "size": 640,
+    "run": "/Users/tabbasi/Downloads/IndustrialAI/outputs/run-a7p2c9ay"
+  },
+  {
+    "model": "helmet",
+    "size": 1280,
+    "run": "/Users/tabbasi/Downloads/IndustrialAI/outputs/run-vyutwstj"
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "review_status": "single_reviewer",
+  "notes": "Previously inspected development example; not independently reviewed. No smoking or intrusion event annotations.",
+  "reviewed_intervals": {
+    "fire": [
+      [
+        0,
+        109.58320008527875
+      ]
+    ],
+    "smoke": [
+      [
+        0,
+        109.58320008527875
+      ]
+    ]
+  },
+  "excluded_intervals": [],
+  "events": [
+    {
+      "kind": "smoke",
+      "start_seconds": 0,
+      "end_seconds": 109.58320008527875,
+      "review_status": "reviewed",
+      "note": "Smoke already visible at clip start; physical onset unknown; source contours retained."
+    }
+  ],
+  "frames": []
+}

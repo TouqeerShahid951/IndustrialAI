@@ -1,0 +1,7 @@
+{
+  "status": "proposed_not_accepted",
+  "event_recall_minimum": 0.9,
+  "false_alerts_per_camera_hour_maximum": 0.125,
+  "fire_smoke_p95_confirmation_seconds_maximum": 5,
+  "note": "Engineering discussion targets only; no gate can pass before independent data, adequate exposure and accepted policy."
+}

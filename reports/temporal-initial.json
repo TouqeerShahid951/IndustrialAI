@@ -1,0 +1,65 @@
+[
+  {
+    "clip": "helmet.mp4",
+    "hazard_present": false,
+    "raw_frames": 6,
+    "confirmed_frames": 2,
+    "frames": 90
+  },
+  {
+    "clip": "fire_neg_negsVideo2.859.avi",
+    "hazard_present": false,
+    "raw_frames": 10,
+    "confirmed_frames": 8,
+    "frames": 52
+  },
+  {
+    "clip": "fire_neg_negsVideo3.860.avi",
+    "hazard_present": false,
+    "raw_frames": 0,
+    "confirmed_frames": 0,
+    "frames": 54
+  },
+  {
+    "clip": "fire_pos_posVideo1.868.avi",
+    "hazard_present": true,
+    "raw_frames": 91,
+    "confirmed_frames": 84,
+    "frames": 98
+  },
+  {
+    "clip": "fire_pos_posVideo10.869.avi",
+    "hazard_present": true,
+    "raw_frames": 79,
+    "confirmed_frames": 77,
+    "frames": 79
+  },
+  {
+    "clip": "smoke_neg_testneg01.807.avi",
+    "hazard_present": false,
+    "raw_frames": 0,
+    "confirmed_frames": 0,
+    "frames": 84
+  },
+  {
+    "clip": "smoke_neg_testneg05.811.avi",
+    "hazard_present": false,
+    "raw_frames": 0,
+    "confirmed_frames": 0,
+    "frames": 84
+  },
+  {
+    "clip": "smoke_pos_testpos06.822.avi",
+    "hazard_present": true,
+    "raw_frames": 44,
+    "confirmed_frames": 37,
+    "frames": 67
+  },
+  {
+    "clip": "smoke_pos_testpos08.824.avi",
+    "hazard_present": true,
+    "raw_frames": 70,
+    "confirmed_frames": 54,
+    "frames": 121
+  }
+]

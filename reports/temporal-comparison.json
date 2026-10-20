@@ -1,0 +1,222 @@
+[
+  {
+    "clip": "helmet.mp4",
+    "model": "fire_smoke",
+    "frames": 90,
+    "raw_frames": 6,
+    "confirmed_frames": 2,
+    "first_raw_seconds": 7.5,
+    "first_confirmed_seconds": 8.166666666666666,
+    "confirmation_delay_seconds": 0.6666666666666661,
+    "run": "outputs/run-lwd4y8qk"
+  },
+  {
+    "clip": "helmet.mp4",
+    "model": "helmet",
+    "frames": 90,
+    "raw_frames": 90,
+    "confirmed_frames": 88,
+    "first_raw_seconds": 0.0,
+    "first_confirmed_seconds": 0.3333333333333333,
+    "confirmation_delay_seconds": 0.3333333333333333,
+    "run": "outputs/run-lwd4y8qk"
+  },
+  {
+    "clip": "helmet.mp4",
+    "model": "cigarette",
+    "frames": 90,
+    "raw_frames": 0,
+    "confirmed_frames": 0,
+    "first_raw_seconds": null,
+    "first_confirmed_seconds": null,
+    "confirmation_delay_seconds": null,
+    "run": "outputs/run-lwd4y8qk"
+  },
+  {
+    "clip": "fire_neg_negsVideo2.859.avi",
+    "model": "fire_smoke",
+    "frames": 52,
+    "raw_frames": 10,
+    "confirmed_frames": 8,
+    "first_raw_seconds": 4.5,
+    "first_confirmed_seconds": 5.1,
+    "confirmation_delay_seconds": 0.5999999999999996,
+    "run": "outputs/run-1gteobj4"
+  },
+  {
+    "clip": "fire_neg_negsVideo3.860.avi",
+    "model": "fire_smoke",
+    "frames": 54,
+    "raw_frames": 0,
+    "confirmed_frames": 0,
+    "first_raw_seconds": null,
+    "first_confirmed_seconds": null,
+    "confirmation_delay_seconds": null,
+    "run": "outputs/run-1gteobj4"
+  },
+  {
+    "clip": "fire_pos_posVideo1.868.avi",
+    "model": "fire_smoke",
+    "frames": 98,
+    "raw_frames": 91,
+    "confirmed_frames": 84,
+    "first_raw_seconds": 0.6,
+    "first_confirmed_seconds": 2.7,
+    "confirmation_delay_seconds": 2.1,
+    "run": "outputs/run-1gteobj4"
+  },
+  {
+    "clip": "fire_pos_posVideo10.869.avi",
+    "model": "fire_smoke",
+    "frames": 79,
+    "raw_frames": 79,
+    "confirmed_frames": 77,
+    "first_raw_seconds": 0.0,
+    "first_confirmed_seconds": 0.2002002002002002,
+    "confirmation_delay_seconds": 0.2002002002002002,
+    "run": "outputs/run-1gteobj4"
+  },
+  {
+    "clip": "smoke_neg_testneg01.807.avi",
+    "model": "fire_smoke",
+    "frames": 84,
+    "raw_frames": 0,
+    "confirmed_frames": 0,
+    "first_raw_seconds": null,
+    "first_confirmed_seconds": null,
+    "confirmation_delay_seconds": null,
+    "run": "outputs/run-1gteobj4"
+  },
+  {
+    "clip": "smoke_neg_testneg05.811.avi",
+    "model": "fire_smoke",
+    "frames": 84,
+    "raw_frames": 0,
+    "confirmed_frames": 0,
+    "first_raw_seconds": null,
+    "first_confirmed_seconds": null,
+    "confirmation_delay_seconds": null,
+    "run": "outputs/run-1gteobj4"
+  },
+  {
+    "clip": "smoke_pos_testpos06.822.avi",
+    "model": "fire_smoke",
+    "frames": 67,
+    "raw_frames": 44,
+    "confirmed_frames": 37,
+    "first_raw_seconds": 0.0,
+    "first_confirmed_seconds": 0.6,
+    "confirmation_delay_seconds": 0.6,
+    "run": "outputs/run-1gteobj4"
+  },
+  {
+    "clip": "smoke_pos_testpos08.824.avi",
+    "model": "fire_smoke",
+    "frames": 121,
+    "raw_frames": 70,
+    "confirmed_frames": 54,
+    "first_raw_seconds": 0.0,
+    "first_confirmed_seconds": 0.4,
+    "confirmation_delay_seconds": 0.4,
+    "run": "outputs/run-1gteobj4"
+  },
+  {
+    "clip": "fire_neg_negsVideo2.859.avi",
+    "model": "fire_smoke",
+    "frames": 52,
+    "raw_frames": 13,
+    "confirmed_frames": 11,
+    "first_raw_seconds": 3.6,
+    "first_confirmed_seconds": 4.5,
+    "confirmation_delay_seconds": 0.8999999999999999,
+    "run": "outputs/run-06vbtmt1"
+  },
+  {
+    "clip": "fire_neg_negsVideo3.860.avi",
+    "model": "fire_smoke",
+    "frames": 54,
+    "raw_frames": 0,
+    "confirmed_frames": 0,
+    "first_raw_seconds": null,
+    "first_confirmed_seconds": null,
+    "confirmation_delay_seconds": null,
+    "run": "outputs/run-06vbtmt1"
+  },
+  {
+    "clip": "fire_pos_posVideo1.868.avi",
+    "model": "fire_smoke",
+    "frames": 98,
+    "raw_frames": 92,
+    "confirmed_frames": 88,
+    "first_raw_seconds": 0.6,
+    "first_confirmed_seconds": 2.7,
+    "confirmation_delay_seconds": 2.1,
+    "run": "outputs/run-06vbtmt1"
+  },
+  {
+    "clip": "fire_pos_posVideo10.869.avi",
+    "model": "fire_smoke",
+    "frames": 79,
+    "raw_frames": 79,
+    "confirmed_frames": 77,
+    "first_raw_seconds": 0.0,
+    "first_confirmed_seconds": 0.2002002002002002,
+    "confirmation_delay_seconds": 0.2002002002002002,
+    "run": "outputs/run-06vbtmt1"
+  },
+  {
+    "clip": "helmet.mp4",
+    "model": "fire_smoke",
+    "frames": 120,
+    "raw_frames": 7,
+    "confirmed_frames": 2,
+    "first_raw_seconds": 7.5,
+    "first_confirmed_seconds": 10.125,
+    "confirmation_delay_seconds": 2.625,
+    "run": "outputs/run-06vbtmt1"
+  },
+  {
+    "clip": "smoke_neg_testneg01.807.avi",
+    "model": "fire_smoke",
+    "frames": 84,
+    "raw_frames": 0,
+    "confirmed_frames": 0,
+    "first_raw_seconds": null,
+    "first_confirmed_seconds": null,
+    "confirmation_delay_seconds": null,
+    "run": "outputs/run-06vbtmt1"
+  },
+  {
+    "clip": "smoke_neg_testneg05.811.avi",
+    "model": "fire_smoke",
+    "frames": 84,
+    "raw_frames": 5,
+    "confirmed_frames": 0,
+    "first_raw_seconds": 0.6,
+    "first_confirmed_seconds": null,
+    "confirmation_delay_seconds": null,
+    "run": "outputs/run-06vbtmt1"
+  },
+  {
+    "clip": "smoke_pos_testpos06.822.avi",
+    "model": "fire_smoke",
+    "frames": 67,
+    "raw_frames": 46,
+    "confirmed_frames": 41,
+    "first_raw_seconds": 0.0,
+    "first_confirmed_seconds": 0.6,
+    "confirmation_delay_seconds": 0.6,
+    "run": "outputs/run-06vbtmt1"
+  },
+  {
+    "clip": "smoke_pos_testpos08.824.avi",
+    "model": "fire_smoke",
+    "frames": 121,
+    "raw_frames": 66,
+    "confirmed_frames": 53,
+    "first_raw_seconds": 0.0,
+    "first_confirmed_seconds": 0.4,
+    "confirmation_delay_seconds": 0.4,
+    "run": "outputs/run-06vbtmt1"
+  }
+]

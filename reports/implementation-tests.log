@@ -1,0 +1,27 @@
+test_duplicate_and_wrong_class_do_not_inflate_matches (test_audit_metrics.MatchingCheck.test_duplicate_and_wrong_class_do_not_inflate_matches) ... ok
+test_group_leakage_and_duplicates (test_benchmark_data.ManifestChecks.test_group_leakage_and_duplicates) ... ok
+test_locked_test_quality_and_lock_changes (test_benchmark_data.ManifestChecks.test_locked_test_quality_and_lock_changes) ... ok
+test_malformed_rows_and_frame_labels_are_reported (test_benchmark_data.ManifestChecks.test_malformed_rows_and_frame_labels_are_reported) ... ok
+test_manifest_paths_hashes_and_annotations (test_benchmark_data.ManifestChecks.test_manifest_paths_hashes_and_annotations) ... ok
+test_unreviewed_labels_and_invalid_exclusion_kinds_rejected (test_benchmark_data.ManifestChecks.test_unreviewed_labels_and_invalid_exclusion_kinds_rejected) ... ok
+test_ambiguous_and_unmonitored_intervals_do_not_hide_observable_errors (test_benchmark_events.EventScoringChecks.test_ambiguous_and_unmonitored_intervals_do_not_hide_observable_errors) ... ok
+test_candidate_merging_is_separate_from_event_scoring (test_benchmark_events.EventScoringChecks.test_candidate_merging_is_separate_from_event_scoring) ... ok
+test_matches_delay_duplicates_and_wrong_class (test_benchmark_events.EventScoringChecks.test_matches_delay_duplicates_and_wrong_class) ... ok
+test_undefined_rates_and_validation (test_benchmark_events.EventScoringChecks.test_undefined_rates_and_validation) ... ok
+test_checkpoint_requires_one_model_and_existing_file (test_evaluate.EvaluationChecks.test_checkpoint_requires_one_model_and_existing_file) ... ok
+test_image_video_and_csv_with_fake_detector (test_evaluate.EvaluationChecks.test_image_video_and_csv_with_fake_detector) ... ok
+test_media_discovery_and_validation (test_evaluate.EvaluationChecks.test_media_discovery_and_validation) ... ok
+test_partial_archive_reads (test_fetch_firesense.RangeZipCheck.test_partial_archive_reads) ... ok
+test_observations_provenance_coverage_and_incomplete_runs (test_run_benchmark.BenchmarkPipelineChecks.test_observations_provenance_coverage_and_incomplete_runs) ... ok
+test_truncated_recording_has_only_one_sample_of_coverage (test_run_benchmark.BenchmarkPipelineChecks.test_truncated_recording_has_only_one_sample_of_coverage) ... ok
+test_models_do_not_share_detections (test_sampling_audit.SamplingAuditChecks.test_models_do_not_share_detections) ... ok
+test_spatial_persistence_and_empty_frames (test_temporal.TemporalCheck.test_spatial_persistence_and_empty_frames) ... ok
+test_elapsed_time_and_causal_confirmation (test_temporal.TimedTemporalChecks.test_elapsed_time_and_causal_confirmation) ... ok
+test_timestamp_validation_and_spatial_identity (test_temporal.TimedTemporalChecks.test_timestamp_validation_and_spatial_identity) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 2.263s
+
+OK
+fire_smoke: sample.avi: 2 frames, 2 detections
+fire_smoke: sample.jpg: 1 frames, 1 detections

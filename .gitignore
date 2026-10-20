@@ -1,0 +1,21 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+data/*
+outputs/*
+*.pt
+.DS_Store
+.env
+.env.*
+!.env.example
+runs/
+reports/alipan-sign-in.png
+
+# Benchmark metadata is public-reviewable; footage and private sources stay local.
+benchmark/footage/
+benchmark/private/
+benchmark/**/*.mp4
+benchmark/**/*.avi
+benchmark/**/*.mov
+benchmark/**/*.mkv
+benchmark/**/*.webm
