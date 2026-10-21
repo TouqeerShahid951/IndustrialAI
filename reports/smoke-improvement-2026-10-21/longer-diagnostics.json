@@ -1,0 +1,47 @@
+[
+  {
+    "model_id": "current",
+    "run": "/Users/tabbasi/Downloads/IndustrialAI/outputs/longer-industrial-comparison/run-8evogzli",
+    "raw_detection_frames": {
+      "4_tr6.mp4": {
+        "fire": 0,
+        "smoke": 0
+      },
+      "1_tr19.mp4": {
+        "fire": 0,
+        "smoke": 0
+      }
+    },
+    "semantic_scoring": "not_scored_uncertain_process_haze"
+  },
+  {
+    "model_id": "early-domestic",
+    "run": "/Users/tabbasi/Downloads/IndustrialAI/outputs/longer-industrial-comparison/run-4itr9tde",
+    "raw_detection_frames": {
+      "4_tr6.mp4": {
+        "fire": 0,
+        "smoke": 119
+      },
+      "1_tr19.mp4": {
+        "fire": 0,
+        "smoke": 4
+      }
+    },
+    "semantic_scoring": "not_scored_uncertain_process_haze"
+  },
+  {
+    "model_id": "yolo26s-alternative",
+    "run": "/Users/tabbasi/Downloads/IndustrialAI/outputs/longer-industrial-comparison/run-eogxoqvy",
+    "raw_detection_frames": {
+      "4_tr6.mp4": {
+        "fire": 0,
+        "smoke": 41
+      },
+      "1_tr19.mp4": {
+        "fire": 1,
+        "smoke": 0
+      }
+    },
+    "semantic_scoring": "not_scored_uncertain_process_haze"
+  }
+]

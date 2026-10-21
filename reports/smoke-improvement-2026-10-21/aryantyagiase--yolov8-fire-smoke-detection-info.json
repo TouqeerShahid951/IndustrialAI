@@ -1,0 +1,59 @@
+{
+  "_id": "6a8fe12b9852566469f19cb9",
+  "id": "aryantyagiase/yolov8-fire-smoke-detection",
+  "private": false,
+  "pipeline_tag": "object-detection",
+  "library_name": "ultralytics",
+  "tags": [
+    "ultralytics",
+    "onnx",
+    "object-detection",
+    "yolov8",
+    "fire-detection",
+    "smoke-detection",
+    "computer-vision",
+    "pytorch",
+    "region:us"
+  ],
+  "downloads": 518,
+  "likes": 1,
+  "modelId": "aryantyagiase/yolov8-fire-smoke-detection",
+  "author": "aryantyagiase",
+  "sha": "4adc31e5869136b85a4bcd0e91ebc5f9fdd3c2ce",
+  "lastModified": "2026-08-27T07:24:27.000Z",
+  "gated": false,
+  "disabled": false,
+  "model-index": null,
+  "config": {},
+  "cardData": {
+    "tags": [
+      "object-detection",
+      "yolov8",
+      "ultralytics",
+      "fire-detection",
+      "smoke-detection",
+      "computer-vision",
+      "pytorch",
+      "onnx"
+    ],
+    "library_name": "ultralytics",
+    "pipeline_tag": "object-detection"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "best.onnx"
+    },
+    {
+      "rfilename": "best.pt"
+    }
+  ],
+  "spaces": [],
+  "createdAt": "2026-08-27T07:03:07.000Z",
+  "usedStorage": 18874368
+}

@@ -1,0 +1,164 @@
+{
+  "_id": "6749e1231c3ce26dc42aca7e",
+  "id": "TommyNgx/YOLOv10-Fire-and-Smoke-Detection",
+  "private": false,
+  "pipeline_tag": "object-detection",
+  "library_name": "pytorch",
+  "tags": [
+    "pytorch",
+    "safetensors",
+    "object-detection",
+    "fire-detection",
+    "smoke-detection",
+    "dataset:fire-smoke-dataset",
+    "base_model:Ultralytics/YOLO11",
+    "base_model:finetune:Ultralytics/YOLO11",
+    "license:apache-2.0",
+    "model-index",
+    "region:us"
+  ],
+  "downloads": 6,
+  "likes": 30,
+  "modelId": "TommyNgx/YOLOv10-Fire-and-Smoke-Detection",
+  "author": "TommyNgx",
+  "sha": "c4f0f354b2f37d8c8c3f2b0647045feca4e756af",
+  "lastModified": "2025-08-06T05:12:20.000Z",
+  "gated": "auto",
+  "disabled": false,
+  "widgetData": [
+    {
+      "src": "https://huggingface.co/TommyNgx/YOLOv10-Fire-and-Smoke-Detection/resolve/main/examples/example1.jpg",
+      "example_title": "Fire"
+    },
+    {
+      "src": "https://huggingface.co/TommyNgx/YOLOv10-Fire-and-Smoke-Detection/resolve/main/examples/example1.jpg",
+      "example_title": "Smoke"
+    }
+  ],
+  "model-index": [
+    {
+      "name": "YOLOv10-Fire-Smoke-Detection",
+      "results": [
+        {
+          "task": {
+            "type": "object-detection",
+            "name": "Object Detection"
+          },
+          "dataset": {
+            "name": "Fire and Smoke Dataset",
+            "type": "fire-smoke-dataset"
+          },
+          "metrics": [
+            {
+              "type": "mAP",
+              "value": 0.85,
+              "verified": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "config": {},
+  "cardData": {
+    "tags": [
+      "object-detection",
+      "fire-detection",
+      "smoke-detection"
+    ],
+    "license": "apache-2.0",
+    "datasets": [
+      "fire-smoke-dataset"
+    ],
+    "model-index": [
+      {
+        "name": "YOLOv10-Fire-Smoke-Detection",
+        "results": [
+          {
+            "task": {
+              "type": "object-detection",
+              "name": "Object Detection"
+            },
+            "dataset": {
+              "name": "Fire and Smoke Dataset",
+              "type": "fire-smoke-dataset"
+            },
+            "metrics": [
+              {
+                "type": "mAP",
+                "value": 0.85,
+                "verified": false
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "widget": [
+      {
+        "src": "https://huggingface.co/TommyNgx/YOLOv10-Fire-and-Smoke-Detection/resolve/main/examples/example1.jpg",
+        "example_title": "Fire"
+      },
+      {
+        "src": "https://huggingface.co/TommyNgx/YOLOv10-Fire-and-Smoke-Detection/resolve/main/examples/example1.jpg",
+        "example_title": "Smoke"
+      }
+    ],
+    "library_name": "pytorch",
+    "base_model": [
+      "Ultralytics/YOLO11"
+    ],
+    "metrics": [
+      "recall"
+    ]
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "app.py"
+    },
+    {
+      "rfilename": "best.pt"
+    },
+    {
+      "rfilename": "config.json"
+    },
+    {
+      "rfilename": "examples/example1.jpg"
+    },
+    {
+      "rfilename": "examples/example2.jpg"
+    },
+    {
+      "rfilename": "examples/example3.jpg"
+    },
+    {
+      "rfilename": "model.safetensors"
+    },
+    {
+      "rfilename": "preprocessor_config.json"
+    },
+    {
+      "rfilename": "pytorch_model.bin"
+    },
+    {
+      "rfilename": "requirements.txt"
+    }
+  ],
+  "spaces": [
+    "Hamza26051/myspace"
+  ],
+  "createdAt": "2024-11-29T15:43:31.000Z",
+  "safetensors": {
+    "parameters": {
+      "F16": 31800332
+    },
+    "total": 31800332
+  },
+  "usedStorage": 225436510
+}

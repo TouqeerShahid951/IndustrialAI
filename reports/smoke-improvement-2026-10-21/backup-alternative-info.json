@@ -1,0 +1,63 @@
+{
+  "_id": "6a9e3683db5f26fa5d906c27",
+  "id": "nobita111222/fire-smoke-yolov8n",
+  "private": false,
+  "pipeline_tag": "object-detection",
+  "library_name": "ultralytics",
+  "tags": [
+    "ultralytics",
+    "yolov8",
+    "object-detection",
+    "fire-detection",
+    "smoke-detection",
+    "pytorch",
+    "license:agpl-3.0",
+    "region:us"
+  ],
+  "downloads": 186,
+  "likes": 0,
+  "modelId": "nobita111222/fire-smoke-yolov8n",
+  "author": "nobita111222",
+  "sha": "5e835df891f1296e60d44d5dfc956b344e8cc66b",
+  "lastModified": "2026-09-07T03:58:59.000Z",
+  "gated": false,
+  "disabled": false,
+  "model-index": null,
+  "config": {},
+  "cardData": {
+    "license": "agpl-3.0",
+    "tags": [
+      "ultralytics",
+      "yolov8",
+      "object-detection",
+      "fire-detection",
+      "smoke-detection",
+      "pytorch"
+    ],
+    "library_name": "ultralytics",
+    "pipeline_tag": "object-detection"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "best.pt"
+    },
+    {
+      "rfilename": "confusion_matrix.png"
+    },
+    {
+      "rfilename": "last.pt"
+    },
+    {
+      "rfilename": "results.png"
+    }
+  ],
+  "spaces": [],
+  "createdAt": "2026-09-07T03:58:59.000Z",
+  "usedStorage": 12804390
+}

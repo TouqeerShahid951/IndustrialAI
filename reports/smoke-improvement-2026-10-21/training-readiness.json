@@ -1,0 +1,31 @@
+{
+  "status": "not_ready_for_defensible_source_isolated_fine_tuning",
+  "training_started": false,
+  "candidate_dataset": "badsaarow/d-fire",
+  "pool_rows": 600,
+  "pool_image_category_counts": {
+    "negative": 304,
+    "fire": 19,
+    "smoke": 152,
+    "both": 125
+  },
+  "own_camera_prefix_subset": {
+    "negative": 204,
+    "fire": 2,
+    "smoke": 92,
+    "both": 2
+  },
+  "published_class_mapping": {
+    "0": "smoke",
+    "1": "fire"
+  },
+  "limitations": [
+    "600 row/label records inspected; no training image subset downloaded or accepted",
+    "Camera and incident IDs absent from inspected mirror rows; adjacent images cannot be randomly split safely",
+    "Only four fire-containing samples among the 300 AoF-prefix row records inspected; industrial relevance of candidate images not visually established. Published camera/incident groups unavailable.",
+    "Other inspected rows have WEB prefix; camera identity, source rights and overlap with evaluated footage unresolved",
+    "Existing twenty-image pilot already regressed; repeating it alone is not justified",
+    "No independently labeled industrial steam/dust/reflection negative training set yet",
+    "Current 33 comparison scenes and their source groups reserved from training; assistant plume boxes remain ambiguous and unusable for training"
+  ]
+}

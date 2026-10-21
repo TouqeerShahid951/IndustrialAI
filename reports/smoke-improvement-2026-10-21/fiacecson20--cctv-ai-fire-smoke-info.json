@@ -1,0 +1,79 @@
+{
+  "_id": "6a02da7d622f47fe8f570196",
+  "id": "fiacecson20/cctv-ai-fire-smoke",
+  "private": false,
+  "pipeline_tag": "object-detection",
+  "library_name": "ultralytics",
+  "tags": [
+    "ultralytics",
+    "onnx",
+    "yolov8",
+    "object-detection",
+    "cctv",
+    "fire-smoke",
+    "base_model:Ultralytics/YOLOv8",
+    "base_model:quantized:Ultralytics/YOLOv8",
+    "license:mit",
+    "region:us"
+  ],
+  "downloads": 0,
+  "likes": 0,
+  "modelId": "fiacecson20/cctv-ai-fire-smoke",
+  "author": "fiacecson20",
+  "sha": "343990e42d99a5d27e9f35fc7c80880dc5f43f45",
+  "lastModified": "2026-05-12T07:45:16.000Z",
+  "gated": false,
+  "disabled": false,
+  "model-index": null,
+  "config": {},
+  "cardData": {
+    "license": "mit",
+    "library_name": "ultralytics",
+    "pipeline_tag": "object-detection",
+    "tags": [
+      "yolov8",
+      "object-detection",
+      "cctv",
+      "fire-smoke"
+    ],
+    "base_model": "Ultralytics/YOLOv8"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "BoxF1_curve.png"
+    },
+    {
+      "rfilename": "BoxPR_curve.png"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "args.yaml"
+    },
+    {
+      "rfilename": "best.onnx"
+    },
+    {
+      "rfilename": "confusion_matrix.png"
+    },
+    {
+      "rfilename": "results.csv"
+    },
+    {
+      "rfilename": "results.png"
+    },
+    {
+      "rfilename": "val_batch0_labels.jpg"
+    },
+    {
+      "rfilename": "val_batch0_pred.jpg"
+    }
+  ],
+  "spaces": [],
+  "createdAt": "2026-05-12T07:45:01.000Z",
+  "usedStorage": 40691418
+}

@@ -1,0 +1,131 @@
+{
+  "_id": "6a9028296fce58d122130579",
+  "id": "Beehzod/yolov26-fire-smoke-detection",
+  "private": false,
+  "pipeline_tag": "object-detection",
+  "library_name": "ultralytics",
+  "tags": [
+    "ultralytics",
+    "yolo",
+    "yolov26",
+    "fire-detection",
+    "smoke-detection",
+    "object-detection",
+    "license:cc-by-4.0",
+    "model-index",
+    "region:us"
+  ],
+  "downloads": 287,
+  "likes": 0,
+  "modelId": "Beehzod/yolov26-fire-smoke-detection",
+  "author": "Beehzod",
+  "sha": "6443bc2577f92db13ee3301a34224f6b87f2415e",
+  "lastModified": "2026-08-27T12:06:04.000Z",
+  "gated": false,
+  "disabled": false,
+  "model-index": [
+    {
+      "name": "yolov26-fire-smoke-detection",
+      "results": [
+        {
+          "task": {
+            "type": "object-detection"
+          },
+          "metrics": [
+            {
+              "name": "mAP50",
+              "type": "mAP",
+              "value": 0.9177,
+              "verified": false
+            },
+            {
+              "name": "mAP50-95",
+              "type": "mAP",
+              "value": 0.8299,
+              "verified": false
+            },
+            {
+              "name": "precision",
+              "type": "precision",
+              "value": 0.9167,
+              "verified": false
+            },
+            {
+              "name": "recall",
+              "type": "recall",
+              "value": 0.8958,
+              "verified": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "config": {},
+  "cardData": {
+    "license": "cc-by-4.0",
+    "library_name": "ultralytics",
+    "pipeline_tag": "object-detection",
+    "base_model": "yolov26-fire-detection",
+    "tags": [
+      "yolo",
+      "yolov26",
+      "fire-detection",
+      "smoke-detection",
+      "object-detection",
+      "ultralytics"
+    ],
+    "model-index": [
+      {
+        "name": "yolov26-fire-smoke-detection",
+        "results": [
+          {
+            "task": {
+              "type": "object-detection"
+            },
+            "metrics": [
+              {
+                "name": "mAP50",
+                "type": "mAP",
+                "value": 0.9177,
+                "verified": false
+              },
+              {
+                "name": "mAP50-95",
+                "type": "mAP",
+                "value": 0.8299,
+                "verified": false
+              },
+              {
+                "name": "precision",
+                "type": "precision",
+                "value": 0.9167,
+                "verified": false
+              },
+              {
+                "name": "recall",
+                "type": "recall",
+                "value": 0.8958,
+                "verified": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "best.pt"
+    }
+  ],
+  "spaces": [],
+  "createdAt": "2026-08-27T12:06:01.000Z",
+  "usedStorage": 20319173
+}

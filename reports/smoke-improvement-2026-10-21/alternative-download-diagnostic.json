@@ -1,0 +1,23 @@
+{
+  "expected": {
+    "type": "file",
+    "oid": "4e2976bd56adfa4fd1dabc229a200f72139b0cd6",
+    "size": 9437184,
+    "lfs": {
+      "oid": "50c491b2120efc51875043e97bc11cd8dfc71b0a8ba3ba65d9425e35beec571f",
+      "size": 9437184,
+      "pointerSize": 132
+    },
+    "xetHash": "5c1a398f5119efbdd9f2db00e285006cf2f5fe0634ca6e113910335b858457b7",
+    "path": "best.pt"
+  },
+  "status": 200,
+  "bytes": 10485760,
+  "headers": {
+    "Content-Length": "10485760",
+    "Content-Range": null,
+    "Content-Type": "application/octet-stream",
+    "Content-Encoding": null
+  },
+  "sha256": "50c491b2120efc51875043e97bc11cd8dfc71b0a8ba3ba65d9425e35beec571f"
+}

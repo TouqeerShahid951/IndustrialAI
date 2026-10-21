@@ -1,0 +1,236 @@
+{
+  "stage_path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/comparison-sources/batch-lyw4uapw",
+  "sources": [
+    {
+      "clip_id": "clip-001",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-candidates-2026-10-20/kmu-hard-negatives/smoke_or_flame_like_object_1.avi",
+      "sha256": "0a463939f7665880c764f260e9b72309f5ca7b600b8a06b29ad817bc0ad09d7d",
+      "stage_path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/comparison-sources/batch-lyw4uapw/00-clip-001.avi",
+      "group": "human_reviewed_development"
+    },
+    {
+      "clip_id": "clip-002",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-candidates-2026-10-20/kmu-hard-negatives/smoke_or_flame_like_object_2.avi",
+      "sha256": "7657e63b43c51f28c67dc8b8e2f75305c9995726593d809ed8d016d0211272b9",
+      "stage_path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/comparison-sources/batch-lyw4uapw/01-clip-002.avi",
+      "group": "human_reviewed_development"
+    },
+    {
+      "clip_id": "clip-003",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-candidates-2026-10-20/kmu-hard-negatives/smoke_or_flame_like_object_3.avi",
+      "sha256": "26a8524f1e85220c28b92d60a3db34def810e7cb17533b36291413afd3e31a2e",
+      "stage_path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/comparison-sources/batch-lyw4uapw/02-clip-003.avi",
+      "group": "human_reviewed_development"
+    },
+    {
+      "clip_id": "clip-004",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-candidates-2026-10-20/kmu-hard-negatives/smoke_or_flame_like_object_4.avi",
+      "sha256": "c8ce9de19f1fa5952d083de6067a80b5d93a9e4ab74434c8776f5c3ce4354efb",
+      "stage_path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/comparison-sources/batch-lyw4uapw/03-clip-004.avi",
+      "group": "human_reviewed_development"
+    },
+    {
+      "clip_id": "clip-005",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-direct-2026-10-20/ucf-crime/Arson049_x264.mp4",
+      "sha256": "39e84aee4bbcc2694fbea6ffc1a057d67fe45edb24b146922bb22c85cd0ea4af",
+      "stage_path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/comparison-sources/batch-lyw4uapw/04-clip-005.mp4",
+      "group": "human_reviewed_development"
+    },
+    {
+      "clip_id": "clip-006",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-direct-2026-10-20/ucf-crime/Arson012_x264.mp4",
+      "sha256": "09d554015dd65fc9de16666b3eef158387e0a80c798255681dbb5e98d653dedd",
+      "stage_path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/comparison-sources/batch-lyw4uapw/05-clip-006.mp4",
+      "group": "human_reviewed_development"
+    },
+    {
+      "clip_id": "clip-007",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-direct-2026-10-20/ucf-crime/Arson017_x264.mp4",
+      "sha256": "918036914402b7a11d05450bdf0d8f40a0e9ba2a5ad9456644f93bc747fcf53f",
+      "stage_path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/comparison-sources/batch-lyw4uapw/06-clip-007.mp4",
+      "group": "human_reviewed_development"
+    },
+    {
+      "clip_id": "B01",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/bilkent/sEmptyR1.avi",
+      "sha256": "ca7167b18899071ff9b672251fd0d4413a7c708c731aee5d7fad70bd80283e61",
+      "stage_path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/comparison-sources/batch-lyw4uapw/07-B01.avi",
+      "group": "bilkent"
+    },
+    {
+      "clip_id": "B06",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/bilkent/sWasteBasket.avi",
+      "sha256": "dc97293166e64144b13175ebffdacbb5d43e872c4b37290253fd40c0a42adbc7",
+      "stage_path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/comparison-sources/batch-lyw4uapw/08-B06.avi",
+      "group": "bilkent"
+    },
+    {
+      "clip_id": "B05",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/bilkent/sParkingLot.avi",
+      "sha256": "b9fabc240b238bb416b107175e6884e5e29da81a7e0c3424baf36416d4bef4f4",
+      "stage_path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/comparison-sources/batch-lyw4uapw/09-B05.avi",
+      "group": "bilkent"
+    },
+    {
+      "clip_id": "W01",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/workplace/0_te23.mp4",
+      "sha256": "e2c053d84413775e6becaf0dc2a1dd69cbfbb47a5747704345ede650d1987a7f",
+      "stage_path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/comparison-sources/batch-lyw4uapw/10-W01.mp4",
+      "group": "workplace"
+    },
+    {
+      "clip_id": "W08",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/workplace/7_te4.mp4",
+      "sha256": "edffc7547cd187b138e05c92440732e8ada60fe96061d90b9b0022ba4065a48d",
+      "stage_path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/comparison-sources/batch-lyw4uapw/11-W08.mp4",
+      "group": "workplace"
+    },
+    {
+      "clip_id": "B02",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/bilkent/sEmptyR2.avi",
+      "sha256": "865fb88dd2b1913b6e0434e9a249ef6c14cb91c57e9b3c43c32f1d3062ad6349",
+      "stage_path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/comparison-sources/batch-lyw4uapw/12-B02.avi",
+      "group": "bilkent"
+    },
+    {
+      "clip_id": "B03",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/bilkent/sBehindtheFence.avi",
+      "sha256": "2f06938f7be9b7d29c1931a24c8f6c44b124f37667e3a1606cbf5c51f4076c74",
+      "stage_path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/comparison-sources/batch-lyw4uapw/13-B03.avi",
+      "group": "bilkent"
+    },
+    {
+      "clip_id": "B04",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/bilkent/sBtFence2.avi",
+      "sha256": "57fe9ff477c3626a5034cc6448a04218bf7f0cf336a9cd7733c24dafef3dee62",
+      "stage_path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/comparison-sources/batch-lyw4uapw/14-B04.avi",
+      "group": "bilkent"
+    },
+    {
+      "clip_id": "W02",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/workplace/1_te11.mp4",
+      "sha256": "c0bc265f24fc1b970a1cb49f2050ca092857e4f4c987f71d8f717d90bdf455e8",
+      "stage_path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/comparison-sources/batch-lyw4uapw/15-W02.mp4",
+      "group": "workplace"
+    },
+    {
+      "clip_id": "W03",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/workplace/2_te12.mp4",
+      "sha256": "d41907f5de114dc6c7af495e101d0b29a917f843d3a609b1b91f237d7089d595",
+      "stage_path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/comparison-sources/batch-lyw4uapw/16-W03.mp4",
+      "group": "workplace"
+    },
+    {
+      "clip_id": "W04",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/workplace/3_te8.mp4",
+      "sha256": "0f2dd18398bce85d48caa69fa2339129794110a82e83e060983860613be621ce",
+      "stage_path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/comparison-sources/batch-lyw4uapw/17-W04.mp4",
+      "group": "workplace"
+    },
+    {
+      "clip_id": "W05",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/workplace/4_te5.mp4",
+      "sha256": "e1625075af049a642505e815cbf3243499fcdc136422c2ecf5725cab5c4bc9eb",
+      "stage_path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/comparison-sources/batch-lyw4uapw/18-W05.mp4",
+      "group": "workplace"
+    },
+    {
+      "clip_id": "W06",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/workplace/5_te13.mp4",
+      "sha256": "8dfdf568985de2ad21aa68389ab08de7c337ccc5fda3fea9111b2361cccb15bd",
+      "stage_path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/comparison-sources/batch-lyw4uapw/19-W06.mp4",
+      "group": "workplace"
+    },
+    {
+      "clip_id": "W07",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/workplace/6_te12.mp4",
+      "sha256": "8c68b419e195b935e59ca962fad427fff9bede854184d2d9652172b259ef3b8a",
+      "stage_path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/comparison-sources/batch-lyw4uapw/20-W07.mp4",
+      "group": "workplace"
+    },
+    {
+      "clip_id": "R01",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/rise/0-7-2019-01-18-3544-899-4026-1381-320-320-7989-1547835180-1547835355.mp4",
+      "sha256": "1b9785345b06b6c73f6847647a664068ed35a35c829a8c38937e5a85d2536be6",
+      "stage_path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/comparison-sources/batch-lyw4uapw/21-R01.mp4",
+      "group": "rise"
+    },
+    {
+      "clip_id": "R02",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/rise/0-1-2019-01-17-6007-928-6509-1430-320-320-4662-1547736675-1547736850.mp4",
+      "sha256": "59141aaa9ff7ceba45d0703323e483daf1375266a6edfe423fba2b4d033c420b",
+      "stage_path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/comparison-sources/batch-lyw4uapw/22-R02.mp4",
+      "group": "rise"
+    },
+    {
+      "clip_id": "R03",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/rise/0-12-2019-02-02-1626-1015-2129-1518-320-320-8513-1549135470-1549135645.mp4",
+      "sha256": "e318d1e095886a1941a4172c23e532f08c2f006d1a1b071dd524831cee6aa4e6",
+      "stage_path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/comparison-sources/batch-lyw4uapw/23-R03.mp4",
+      "group": "rise"
+    },
+    {
+      "clip_id": "R04",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/rise/0-5-2018-10-07-4365-994-4867-1496-320-320-5237-1538921000-1538921175.mp4",
+      "sha256": "befcccd902bd7e8b62b584b0afd7c2ab13f184768ac7013ff98df272d93aef55",
+      "stage_path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/comparison-sources/batch-lyw4uapw/24-R04.mp4",
+      "group": "rise"
+    },
+    {
+      "clip_id": "R05",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/rise/1-0-2019-02-03-3018-478-3536-996-320-320-8637-1549220140-1549220315.mp4",
+      "sha256": "56ddc16ae7d02de7d6ba602ee2c265c3bdc4d962d21f61ba7be46029289d106b",
+      "stage_path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/comparison-sources/batch-lyw4uapw/25-R05.mp4",
+      "group": "rise"
+    },
+    {
+      "clip_id": "R06",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/rise/1-0-2019-02-04-3018-478-3536-996-320-320-9191-1549308890-1549309065.mp4",
+      "sha256": "03b8fc699f36ea07d324a25f7b0d6e1de190f0fc36fc73b7f028b6bdfc2421bf",
+      "stage_path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/comparison-sources/batch-lyw4uapw/26-R06.mp4",
+      "group": "rise"
+    },
+    {
+      "clip_id": "R07",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/rise/1-0-2019-02-03-3018-478-3536-996-320-320-11373-1549234060-1549234235.mp4",
+      "sha256": "39c1bcc747c00da5d871534de57839f8e46d463980d07d697233bd4ca973eed0",
+      "stage_path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/comparison-sources/batch-lyw4uapw/27-R07.mp4",
+      "group": "rise"
+    },
+    {
+      "clip_id": "R08",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/rise/1-0-2019-02-02-3018-478-3536-996-320-320-8862-1549133815-1549133990.mp4",
+      "sha256": "2009f33ab0680527b35ed6512140dc7c8c22a43aa143fa18f1e14b78851b3db7",
+      "stage_path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/comparison-sources/batch-lyw4uapw/28-R08.mp4",
+      "group": "rise"
+    },
+    {
+      "clip_id": "R09",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/rise/2-0-2019-02-03-2617-1625-3124-2132-320-320-5765-1549217710-1549217885.mp4",
+      "sha256": "ba8a721da67eea5e85c910a3878f3c48d97d29d98757468a3fd4259a536f6e30",
+      "stage_path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/comparison-sources/batch-lyw4uapw/29-R09.mp4",
+      "group": "rise"
+    },
+    {
+      "clip_id": "R10",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/rise/2-1-2018-06-12-874-1602-1380-2108-320-320-5807-1528816535-1528816710.mp4",
+      "sha256": "efd1832e0e89e06d85edc752634caf78c7367784ebe067fa8f6a6d39261cc220",
+      "stage_path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/comparison-sources/batch-lyw4uapw/30-R10.mp4",
+      "group": "rise"
+    },
+    {
+      "clip_id": "R11",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/rise/2-0-2019-02-03-2617-1625-3124-2132-320-320-7349-1549227800-1549227975.mp4",
+      "sha256": "9b47c4ad862bb3ba827ab42241337a6597f6c2b9e6a4842a019ce8a4ce74101b",
+      "stage_path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/comparison-sources/batch-lyw4uapw/31-R11.mp4",
+      "group": "rise"
+    },
+    {
+      "clip_id": "R12",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/rise/2-1-2018-06-12-874-1602-1380-2108-320-320-4691-1528809420-1528809605.mp4",
+      "sha256": "d10d6b00486a69619e694c35c1633c4211b12e84750682c84f573206736ab415",
+      "stage_path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/comparison-sources/batch-lyw4uapw/32-R12.mp4",
+      "group": "rise"
+    }
+  ]
+}

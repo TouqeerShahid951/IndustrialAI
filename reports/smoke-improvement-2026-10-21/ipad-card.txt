@@ -1,0 +1,144 @@
+# IPAD: Industrial Process Anomaly Detection Dataset
+
+This is the official IPAD dataset for video anomaly detection in industrial scenarios.
+
+## Dataset Description
+
+- **Paper**: [IPAD: Industrial Process Anomaly Detection Dataset](https://arxiv.org/abs/2404.15033)
+- **Project Page**: [https://ljf1113.github.io/IPAD_VAD](https://ljf1113.github.io/IPAD_VAD)
+- **Authors**: Jinfan Liu, Yichao Yan, Junjie Li, et al. (Shanghai Jiao Tong University & Lenovo Research)
+- **Conference**: ACM MM 2024
+
+## Key Features
+
+- **16 Industrial Devices**: 12 synthetic + 4 real-world scenarios
+- **597,979 Video Frames**: Over 6 hours of footage
+- **Periodicity Annotations**: Unique temporal features for industrial processes
+- **39 Anomaly Classes**: Various types including:
+  - Appearance anomalies (color, shape changes)
+  - Position anomalies (shifts, tilts)
+  - Motion anomalies (lagging, speed changes)
+  - Logic anomalies (sorting errors, wrong sequences)
+
+## Dataset Structure
+
+```
+ipad_dataset/
+├── S01_conveyer_belt/
+├── S02_automatic_lifter/
+├── S03_forklift_truck/
+├── S04_manual_cutter/
+├── S05_90_conveyer/
+├── S06_180_conveyer/
+├── S07_z_lifter/
+├── S08_box_sorter/
+├── S09_mechanical_gripper/
+├── S10_standing_crane/
+├── S11_automatic_cutter/
+├── S12_drilling_machine/
+├── R01_conveyer_belt_real/
+├── R02_automatic_lifter_real/
+├── R03_forklift_truck_real/
+└── R04_manual_cutter_real/
+```
+
+Each device folder contains:
+- `training/frames/`: Normal operation videos
+- `testing/frames/`: Both normal and anomalous videos
+- Frame-level annotations for anomalies
+
+## Statistics
+
+- **Total Frames**: 597,979
+- **Training Frames**: 430,867 (normal only)
+- **Testing Frames**: 167,112 (normal + anomalies)
+- **Resolution**: 2492 × 988 pixels
+- **Frame Rate**: Variable (5-30 second cycles)
+
+## Differences from Existing Datasets
+
+Unlike human-centric VAD datasets (UCSD Ped, Avenue, ShanghaiTech):
+- ✅ **Object-centric**: Anomalies can occur anywhere in frame
+- ✅ **Periodic**: Equipment has cyclic motion patterns
+- ✅ **Industrial-specific**: Real factory scenarios
+- ✅ **Synthetic + Real**: Domain adaptation capability
+
+## Usage
+
+### Download and Extract
+
+```python
+from huggingface_hub import hf_hub_download
+import zipfile
+
+# Download the dataset
+zip_path = hf_hub_download(
+    repo_id="MSherbinii/ipad-industrial-anomaly",
+    filename="ipad_dataset.zip",
+    repo_type="dataset"
+)
+
+# Extract
+with zipfile.ZipFile(zip_path, 'r') as zip_ref:
+    zip_ref.extractall("./ipad_data")
+```
+
+### Load with PyTorch
+
+```python
+from torch.utils.data import Dataset
+import cv2
+import os
+
+class IPADDataset(Dataset):
+    def __init__(self, root_dir, device="S01", split="train"):
+        self.root = os.path.join(root_dir, f"{device}/{split}/frames")
+        # ... implementation
+
+    def __getitem__(self, idx):
+        # Load 16-frame video clip
+        frames = []
+        for i in range(idx, idx+16):
+            frame = cv2.imread(f"{self.root}/frame_{i:05d}.jpg")
+            frame = cv2.resize(frame, (256, 256))
+            frames.append(frame)
+        return torch.tensor(frames)
+```
+
+## Baseline Results
+
+From the original paper using Video Swin Transformer + Periodic Memory:
+
+| Device | AUC (%) | Device | AUC (%) |
+|--------|---------|--------|---------|
+| S01 | 69.5 | S07 | 60.6 |
+| S02 | 63.9 | S08 | 85.6 |
+| S03 | 70.6 | S09 | 71.2 |
+| S04 | 58.3 | S10 | 62.2 |
+| S05 | 86.2 | S11 | 60.9 |
+| S06 | 61.2 | S12 | 67.1 |
+| R01 | 84.4 | R03 | 43.5 |
+| R02 | 75.4 | R04 | 76.7 |
+| **Average** | **68.6** | | |
+
+## Citation
+
+```bibtex
+@article{liu2024ipad,
+  author    = {Jinfan Liu, Yichao Yan, Junjie Li, Weiming Zhao,
+               Pengzhi Chu, Xingdong Sheng, Yunhui Liu and Xiaokang Yang},
+  title     = {IPAD: Industrial Process Anomaly Detection Dataset},
+  year      = {2024},
+  journal   = {arXiv preprint arXiv:2404.15033},
+}
+```
+
+## License
+
+Please refer to the original paper and project page for license information.
+
+## Acknowledgments
+
+- Original dataset creators: Shanghai Jiao Tong University & Lenovo Research
+- Uploaded to HuggingFace Hub by: MSherbinii
+- Part of the IPAD VAD reproduction and improvement project

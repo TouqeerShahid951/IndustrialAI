@@ -1,0 +1,173 @@
+{
+  "_id": "6a66933e3f47b6978d1f18cc",
+  "id": "fireviewer/rtdetr-v2-r50-fire-smoke",
+  "private": false,
+  "pipeline_tag": "object-detection",
+  "library_name": "transformers",
+  "tags": [
+    "transformers",
+    "safetensors",
+    "rt_detr_v2",
+    "object-detection",
+    "fireviewer",
+    "fire",
+    "smoke",
+    "wildfire",
+    "rtdetr-v2",
+    "dataset:fireviewer/fire-smoke-detection-corpus-v1",
+    "base_model:PekingU/rtdetr_v2_r50vd",
+    "base_model:finetune:PekingU/rtdetr_v2_r50vd",
+    "license:other",
+    "endpoints_compatible",
+    "region:us"
+  ],
+  "downloads": 148,
+  "likes": 0,
+  "modelId": "fireviewer/rtdetr-v2-r50-fire-smoke",
+  "author": "fireviewer",
+  "sha": "a48813e0c3af00c680596908f4a8301af8c1b260",
+  "lastModified": "2026-10-10T10:13:53.000Z",
+  "gated": false,
+  "disabled": false,
+  "model-index": null,
+  "config": {
+    "architectures": [
+      "RTDetrV2ForObjectDetection"
+    ],
+    "model_type": "rt_detr_v2"
+  },
+  "cardData": {
+    "license": "other",
+    "pipeline_tag": "object-detection",
+    "base_model": "PekingU/rtdetr_v2_r50vd",
+    "datasets": [
+      "fireviewer/fire-smoke-detection-corpus-v1"
+    ],
+    "tags": [
+      "fireviewer",
+      "fire",
+      "smoke",
+      "wildfire",
+      "rtdetr-v2",
+      "object-detection"
+    ],
+    "library_name": "transformers",
+    "license_name": "fireviewer-model-use-license-v1.0",
+    "license_link": "https://huggingface.co/fireviewer/rtdetr-v2-r50-fire-smoke/blob/b16bc79df05a69bfd90a7130d77fdbbd0d556465/CHECKPOINT_LICENSE.md"
+  },
+  "transformersInfo": {
+    "auto_model": "AutoModelForObjectDetection",
+    "pipeline_tag": "object-detection",
+    "processor": "AutoTokenizer"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "CHANGELOG.md"
+    },
+    {
+      "rfilename": "CHECKPOINT_LICENSE.md"
+    },
+    {
+      "rfilename": "CHECKPOINT_RIGHTS.md"
+    },
+    {
+      "rfilename": "CITATION.md"
+    },
+    {
+      "rfilename": "COMMERCIAL_USE.md"
+    },
+    {
+      "rfilename": "MODEL_ARTIFACTS_MANIFEST.json"
+    },
+    {
+      "rfilename": "MODEL_RIGHTS_POLICY.md"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "RIGHTS_AND_ATTRIBUTION.md"
+    },
+    {
+      "rfilename": "THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "rfilename": "TRAINING_DATA_MANIFEST.json"
+    },
+    {
+      "rfilename": "assets/contract-audit-20260728.png"
+    },
+    {
+      "rfilename": "assets/contract-audit-20260728.svg"
+    },
+    {
+      "rfilename": "assets/detector-comparison-20260728.png"
+    },
+    {
+      "rfilename": "assets/detector-comparison-20260728.svg"
+    },
+    {
+      "rfilename": "benchmark/benchmark-final.png"
+    },
+    {
+      "rfilename": "benchmark/independent-evaluation.json"
+    },
+    {
+      "rfilename": "config.json"
+    },
+    {
+      "rfilename": "evaluation/CONTRACT-AUDIT-20260728.md"
+    },
+    {
+      "rfilename": "evaluation/evaluation-plan.json"
+    },
+    {
+      "rfilename": "evaluation/evaluation-results.json"
+    },
+    {
+      "rfilename": "evaluation/evaluation-selection.jsonl"
+    },
+    {
+      "rfilename": "evaluation/rtdetr-reproduction.json"
+    },
+    {
+      "rfilename": "evaluation/run_rtdetr_reproduction.py"
+    },
+    {
+      "rfilename": "fireviewer_inference.py"
+    },
+    {
+      "rfilename": "model.safetensors"
+    },
+    {
+      "rfilename": "model.safetensors.sha256"
+    },
+    {
+      "rfilename": "preflight-report.json"
+    },
+    {
+      "rfilename": "preprocessor_config.json"
+    },
+    {
+      "rfilename": "trainer_state.json"
+    },
+    {
+      "rfilename": "training-provenance.json"
+    },
+    {
+      "rfilename": "training_args.bin"
+    }
+  ],
+  "spaces": [],
+  "createdAt": "2026-07-26T23:07:42.000Z",
+  "safetensors": {
+    "parameters": {
+      "F32": 42859154
+    },
+    "total": 42859154
+  },
+  "usedStorage": 172037486
+}

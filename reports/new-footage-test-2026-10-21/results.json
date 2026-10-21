@@ -1,0 +1,2218 @@
+{
+  "status": "completed_unreviewed_inference",
+  "execution_date": "2026-10-21",
+  "gate_passed": false,
+  "scored_accuracy": false,
+  "configuration": {
+    "device": "mps",
+    "confidence": 0.25,
+    "imgsz": 640,
+    "stride": 1,
+    "max_frames": 2000,
+    "timestamp_source": "container"
+  },
+  "checkpoint": {
+    "fire_smoke": {
+      "path": "/Users/tabbasi/.cache/huggingface/hub/blobs/d0/d0808d193c3652bc5025e59587e6b925824970c9f8a534d3a94a5b94f88ab528",
+      "sha256": "b91633799ceb052c814b4f8b77a37efc9a40f002d528df97d74463585fa4f28f"
+    }
+  },
+  "parameters": {
+    "legacy": {
+      "hits": 3,
+      "window": 5,
+      "overlap": 0.1
+    },
+    "timed": {
+      "min_hits": 3,
+      "min_span_seconds": 1.0,
+      "window_seconds": 2.0,
+      "overlap": 0.1
+    },
+    "fixed_hz": 2,
+    "merge_gap_seconds": 2,
+    "maximum_coverage_gap_seconds": 2,
+    "head_iou_thresholds": [
+      0.5,
+      0.3
+    ]
+  },
+  "groups": {
+    "workplace": {
+      "clips": 8,
+      "frames": 1658,
+      "nominal_playback_seconds": 67.17264437725399,
+      "raw_boxes": {
+        "fire": 0,
+        "smoke": 128
+      },
+      "clips_with_raw_candidates": {
+        "fire": [],
+        "smoke": [
+          "W04",
+          "W08"
+        ]
+      },
+      "clips_with_timed_candidates": {
+        "fire": [],
+        "smoke": [
+          "W04",
+          "W08"
+        ]
+      },
+      "event_counts": {
+        "raw": {
+          "fire": 0,
+          "smoke": 2
+        },
+        "legacy": {
+          "fire": 0,
+          "smoke": 2
+        },
+        "fixed_2hz": {
+          "fire": 0,
+          "smoke": 2
+        },
+        "timed": {
+          "fire": 0,
+          "smoke": 2
+        }
+      }
+    },
+    "bilkent": {
+      "clips": 6,
+      "frames": 5481,
+      "nominal_playback_seconds": 414.96,
+      "raw_boxes": {
+        "fire": 26,
+        "smoke": 3387
+      },
+      "clips_with_raw_candidates": {
+        "fire": [
+          "B01",
+          "B02"
+        ],
+        "smoke": [
+          "B01",
+          "B03",
+          "B04",
+          "B05",
+          "B06"
+        ]
+      },
+      "clips_with_timed_candidates": {
+        "fire": [
+          "B02"
+        ],
+        "smoke": [
+          "B03",
+          "B04",
+          "B05",
+          "B06"
+        ]
+      },
+      "event_counts": {
+        "raw": {
+          "fire": 2,
+          "smoke": 15
+        },
+        "legacy": {
+          "fire": 1,
+          "smoke": 19
+        },
+        "fixed_2hz": {
+          "fire": 1,
+          "smoke": 24
+        },
+        "timed": {
+          "fire": 1,
+          "smoke": 16
+        }
+      }
+    },
+    "rise": {
+      "clips": 12,
+      "frames": 432,
+      "nominal_playback_seconds": 36.0,
+      "raw_boxes": {
+        "fire": 0,
+        "smoke": 158
+      },
+      "clips_with_raw_candidates": {
+        "fire": [],
+        "smoke": [
+          "R01",
+          "R03",
+          "R04",
+          "R06",
+          "R07",
+          "R08"
+        ]
+      },
+      "publisher_clip_label_agreement": {
+        "TP": 2,
+        "FP": 4,
+        "FN": 4,
+        "TN": 2
+      },
+      "comparison_scope": "Appearance-only clip flag versus publisher industrial-emission labels; no fire hazard, localization, event timing, negative exposure or real-time performance claim."
+    }
+  },
+  "clips": [
+    {
+      "review_id": "W01",
+      "source_family": "workplace",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/workplace/0_te23.mp4",
+      "source_sha256": "e2c053d84413775e6becaf0dc2a1dd69cbfbb47a5747704345ede650d1987a7f",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/review/annotations/W01.json",
+      "annotation_sha256": "961141c251334461b89647e88ddd59d4e5f6b65ac87a5bf72f78487ece4648bc",
+      "annotation_status": "unreviewed",
+      "nominal_duration_seconds": 10.477582350549003,
+      "observed_frames": 241,
+      "first_timestamp": 0.0,
+      "last_timestamp": 10.39757015046767,
+      "timestamp_basis": [
+        "container"
+      ],
+      "stats": {
+        "fire": {
+          "raw_boxes": 0,
+          "raw_detected_frames": 0,
+          "first_raw_candidate_seconds": null,
+          "last_raw_candidate_seconds": null,
+          "raw_confidence_range": [
+            null,
+            null
+          ],
+          "timed_boxes": 0,
+          "timed_detected_frames": 0,
+          "first_timed_confirmation_seconds": null
+        },
+        "smoke": {
+          "raw_boxes": 0,
+          "raw_detected_frames": 0,
+          "first_raw_candidate_seconds": null,
+          "last_raw_candidate_seconds": null,
+          "raw_confidence_range": [
+            null,
+            null
+          ],
+          "timed_boxes": 0,
+          "timed_detected_frames": 0,
+          "first_timed_confirmation_seconds": null
+        }
+      },
+      "prediction_latency_seconds": {
+        "p50": 0.007759624975733459,
+        "p95": 0.01527245802571997
+      },
+      "inference_fps": 71.69055754101807,
+      "pipeline_fps": 49.1476786523904,
+      "elapsed_seconds": 4.903588665998541,
+      "annotated_video": "/Users/tabbasi/Downloads/IndustrialAI/outputs/new-footage/run-c6drqth3/fire_smoke/0-00-W01.mp4",
+      "events": {
+        "raw": [],
+        "legacy": [],
+        "fixed_2hz": [],
+        "timed": []
+      }
+    },
+    {
+      "review_id": "W02",
+      "source_family": "workplace",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/workplace/1_te11.mp4",
+      "source_sha256": "c0bc265f24fc1b970a1cb49f2050ca092857e4f4c987f71d8f717d90bdf455e8",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/review/annotations/W02.json",
+      "annotation_sha256": "bfb735a4ba8197005573c17a85492a03b6eb844b1348d04ed4e260281d904dce",
+      "annotation_status": "unreviewed",
+      "nominal_duration_seconds": 7.946752722872126,
+      "observed_frames": 197,
+      "first_timestamp": 0.0,
+      "last_timestamp": 7.90641387656313,
+      "timestamp_basis": [
+        "container"
+      ],
+      "stats": {
+        "fire": {
+          "raw_boxes": 0,
+          "raw_detected_frames": 0,
+          "first_raw_candidate_seconds": null,
+          "last_raw_candidate_seconds": null,
+          "raw_confidence_range": [
+            null,
+            null
+          ],
+          "timed_boxes": 0,
+          "timed_detected_frames": 0,
+          "first_timed_confirmation_seconds": null
+        },
+        "smoke": {
+          "raw_boxes": 0,
+          "raw_detected_frames": 0,
+          "first_raw_candidate_seconds": null,
+          "last_raw_candidate_seconds": null,
+          "raw_confidence_range": [
+            null,
+            null
+          ],
+          "timed_boxes": 0,
+          "timed_detected_frames": 0,
+          "first_timed_confirmation_seconds": null
+        }
+      },
+      "prediction_latency_seconds": {
+        "p50": 0.010508208011742681,
+        "p95": 0.019929133565165104
+      },
+      "inference_fps": 82.85119725770156,
+      "pipeline_fps": 55.52547729773564,
+      "elapsed_seconds": 3.5479208750184625,
+      "annotated_video": "/Users/tabbasi/Downloads/IndustrialAI/outputs/new-footage/run-c6drqth3/fire_smoke/1-01-W02.mp4",
+      "events": {
+        "raw": [],
+        "legacy": [],
+        "fixed_2hz": [],
+        "timed": []
+      }
+    },
+    {
+      "review_id": "W03",
+      "source_family": "workplace",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/workplace/2_te12.mp4",
+      "source_sha256": "d41907f5de114dc6c7af495e101d0b29a917f843d3a609b1b91f237d7089d595",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/review/annotations/W03.json",
+      "annotation_sha256": "31ebe13a6178d977a5f57696afb9ef39d017dd9a006b0f22f4e271e29d8f2bd4",
+      "annotation_status": "unreviewed",
+      "nominal_duration_seconds": 10.41480276535177,
+      "observed_frames": 261,
+      "first_timestamp": 0.0,
+      "last_timestamp": 10.374796665311102,
+      "timestamp_basis": [
+        "container"
+      ],
+      "stats": {
+        "fire": {
+          "raw_boxes": 0,
+          "raw_detected_frames": 0,
+          "first_raw_candidate_seconds": null,
+          "last_raw_candidate_seconds": null,
+          "raw_confidence_range": [
+            null,
+            null
+          ],
+          "timed_boxes": 0,
+          "timed_detected_frames": 0,
+          "first_timed_confirmation_seconds": null
+        },
+        "smoke": {
+          "raw_boxes": 0,
+          "raw_detected_frames": 0,
+          "first_raw_candidate_seconds": null,
+          "last_raw_candidate_seconds": null,
+          "raw_confidence_range": [
+            null,
+            null
+          ],
+          "timed_boxes": 0,
+          "timed_detected_frames": 0,
+          "first_timed_confirmation_seconds": null
+        }
+      },
+      "prediction_latency_seconds": {
+        "p50": 0.007664333970751613,
+        "p95": 0.0079029580228962
+      },
+      "inference_fps": 129.8394203114172,
+      "pipeline_fps": 76.17958411933967,
+      "elapsed_seconds": 3.4261147920042276,
+      "annotated_video": "/Users/tabbasi/Downloads/IndustrialAI/outputs/new-footage/run-c6drqth3/fire_smoke/2-02-W03.mp4",
+      "events": {
+        "raw": [],
+        "legacy": [],
+        "fixed_2hz": [],
+        "timed": []
+      }
+    },
+    {
+      "review_id": "W04",
+      "source_family": "workplace",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/workplace/3_te8.mp4",
+      "source_sha256": "0f2dd18398bce85d48caa69fa2339129794110a82e83e060983860613be621ce",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/review/annotations/W04.json",
+      "annotation_sha256": "4ad011963b2fecea96c1fd080135d2871354973c2828bc479a18022a5cda7a7e",
+      "annotation_status": "unreviewed",
+      "nominal_duration_seconds": 3.0,
+      "observed_frames": 75,
+      "first_timestamp": 0.0,
+      "last_timestamp": 2.96,
+      "timestamp_basis": [
+        "container"
+      ],
+      "stats": {
+        "fire": {
+          "raw_boxes": 0,
+          "raw_detected_frames": 0,
+          "first_raw_candidate_seconds": null,
+          "last_raw_candidate_seconds": null,
+          "raw_confidence_range": [
+            null,
+            null
+          ],
+          "timed_boxes": 0,
+          "timed_detected_frames": 0,
+          "first_timed_confirmation_seconds": null
+        },
+        "smoke": {
+          "raw_boxes": 75,
+          "raw_detected_frames": 75,
+          "first_raw_candidate_seconds": 0.0,
+          "last_raw_candidate_seconds": 2.96,
+          "raw_confidence_range": [
+            0.6375625133514404,
+            0.7754728198051453
+          ],
+          "timed_boxes": 50,
+          "timed_detected_frames": 50,
+          "first_timed_confirmation_seconds": 1.0
+        }
+      },
+      "prediction_latency_seconds": {
+        "p50": 0.009232625016011298,
+        "p95": 0.011485458776587621
+      },
+      "inference_fps": 104.47152036134852,
+      "pipeline_fps": 61.64484894015012,
+      "elapsed_seconds": 1.216646666987799,
+      "annotated_video": "/Users/tabbasi/Downloads/IndustrialAI/outputs/new-footage/run-c6drqth3/fire_smoke/3-03-W04.mp4",
+      "events": {
+        "raw": [
+          {
+            "clip_id": "W04",
+            "kind": "smoke",
+            "start_seconds": 0.0,
+            "end_seconds": 3.0
+          }
+        ],
+        "legacy": [
+          {
+            "clip_id": "W04",
+            "kind": "smoke",
+            "start_seconds": 0.08,
+            "end_seconds": 3.0
+          }
+        ],
+        "fixed_2hz": [
+          {
+            "clip_id": "W04",
+            "kind": "smoke",
+            "start_seconds": 1.0,
+            "end_seconds": 2.56
+          }
+        ],
+        "timed": [
+          {
+            "clip_id": "W04",
+            "kind": "smoke",
+            "start_seconds": 1.0,
+            "end_seconds": 3.0
+          }
+        ]
+      }
+    },
+    {
+      "review_id": "W05",
+      "source_family": "workplace",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/workplace/4_te5.mp4",
+      "source_sha256": "e1625075af049a642505e815cbf3243499fcdc136422c2ecf5725cab5c4bc9eb",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/review/annotations/W05.json",
+      "annotation_sha256": "bffce8fbd3ed658fa97facb46c0a610b84ab9b55baa72d543f7fd98b6fca9fac",
+      "annotation_status": "unreviewed",
+      "nominal_duration_seconds": 10.439609597397316,
+      "observed_frames": 262,
+      "first_timestamp": 0.0,
+      "last_timestamp": 10.39960349735665,
+      "timestamp_basis": [
+        "container"
+      ],
+      "stats": {
+        "fire": {
+          "raw_boxes": 0,
+          "raw_detected_frames": 0,
+          "first_raw_candidate_seconds": null,
+          "last_raw_candidate_seconds": null,
+          "raw_confidence_range": [
+            null,
+            null
+          ],
+          "timed_boxes": 0,
+          "timed_detected_frames": 0,
+          "first_timed_confirmation_seconds": null
+        },
+        "smoke": {
+          "raw_boxes": 0,
+          "raw_detected_frames": 0,
+          "first_raw_candidate_seconds": null,
+          "last_raw_candidate_seconds": null,
+          "raw_confidence_range": [
+            null,
+            null
+          ],
+          "timed_boxes": 0,
+          "timed_detected_frames": 0,
+          "first_timed_confirmation_seconds": null
+        }
+      },
+      "prediction_latency_seconds": {
+        "p50": 0.007723604503553361,
+        "p95": 0.00798318094748538
+      },
+      "inference_fps": 128.65655808632096,
+      "pipeline_fps": 73.8453082822253,
+      "elapsed_seconds": 3.547957292001229,
+      "annotated_video": "/Users/tabbasi/Downloads/IndustrialAI/outputs/new-footage/run-c6drqth3/fire_smoke/4-04-W05.mp4",
+      "events": {
+        "raw": [],
+        "legacy": [],
+        "fixed_2hz": [],
+        "timed": []
+      }
+    },
+    {
+      "review_id": "W06",
+      "source_family": "workplace",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/workplace/5_te13.mp4",
+      "source_sha256": "8dfdf568985de2ad21aa68389ab08de7c337ccc5fda3fea9111b2361cccb15bd",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/review/annotations/W06.json",
+      "annotation_sha256": "9ebf2fbec77bd2bb59f034dbb1b0acadd703ac234d20cf458cda5e71937da4f6",
+      "annotation_status": "unreviewed",
+      "nominal_duration_seconds": 10.448098820658805,
+      "observed_frames": 261,
+      "first_timestamp": 0.0,
+      "last_timestamp": 10.408092720618138,
+      "timestamp_basis": [
+        "container"
+      ],
+      "stats": {
+        "fire": {
+          "raw_boxes": 0,
+          "raw_detected_frames": 0,
+          "first_raw_candidate_seconds": null,
+          "last_raw_candidate_seconds": null,
+          "raw_confidence_range": [
+            null,
+            null
+          ],
+          "timed_boxes": 0,
+          "timed_detected_frames": 0,
+          "first_timed_confirmation_seconds": null
+        },
+        "smoke": {
+          "raw_boxes": 0,
+          "raw_detected_frames": 0,
+          "first_raw_candidate_seconds": null,
+          "last_raw_candidate_seconds": null,
+          "raw_confidence_range": [
+            null,
+            null
+          ],
+          "timed_boxes": 0,
+          "timed_detected_frames": 0,
+          "first_timed_confirmation_seconds": null
+        }
+      },
+      "prediction_latency_seconds": {
+        "p50": 0.007765916991047561,
+        "p95": 0.00820204196497798
+      },
+      "inference_fps": 126.74493566160463,
+      "pipeline_fps": 71.1742251734473,
+      "elapsed_seconds": 3.667057833983563,
+      "annotated_video": "/Users/tabbasi/Downloads/IndustrialAI/outputs/new-footage/run-c6drqth3/fire_smoke/5-05-W06.mp4",
+      "events": {
+        "raw": [],
+        "legacy": [],
+        "fixed_2hz": [],
+        "timed": []
+      }
+    },
+    {
+      "review_id": "W07",
+      "source_family": "workplace",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/workplace/6_te12.mp4",
+      "source_sha256": "8c68b419e195b935e59ca962fad427fff9bede854184d2d9652172b259ef3b8a",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/review/annotations/W07.json",
+      "annotation_sha256": "4c25ee71204edf241519dd392961f760db2ec3f92b64df35cf29d66ce6c4be83",
+      "annotation_status": "unreviewed",
+      "nominal_duration_seconds": 10.43681374542497,
+      "observed_frames": 260,
+      "first_timestamp": 0.0,
+      "last_timestamp": 10.396807645384303,
+      "timestamp_basis": [
+        "container"
+      ],
+      "stats": {
+        "fire": {
+          "raw_boxes": 0,
+          "raw_detected_frames": 0,
+          "first_raw_candidate_seconds": null,
+          "last_raw_candidate_seconds": null,
+          "raw_confidence_range": [
+            null,
+            null
+          ],
+          "timed_boxes": 0,
+          "timed_detected_frames": 0,
+          "first_timed_confirmation_seconds": null
+        },
+        "smoke": {
+          "raw_boxes": 0,
+          "raw_detected_frames": 0,
+          "first_raw_candidate_seconds": null,
+          "last_raw_candidate_seconds": null,
+          "raw_confidence_range": [
+            null,
+            null
+          ],
+          "timed_boxes": 0,
+          "timed_detected_frames": 0,
+          "first_timed_confirmation_seconds": null
+        }
+      },
+      "prediction_latency_seconds": {
+        "p50": 0.007733853999525309,
+        "p95": 0.007982659788103775
+      },
+      "inference_fps": 128.5950397271873,
+      "pipeline_fps": 76.55230500630853,
+      "elapsed_seconds": 3.3963706250069663,
+      "annotated_video": "/Users/tabbasi/Downloads/IndustrialAI/outputs/new-footage/run-c6drqth3/fire_smoke/6-06-W07.mp4",
+      "events": {
+        "raw": [],
+        "legacy": [],
+        "fixed_2hz": [],
+        "timed": []
+      }
+    },
+    {
+      "review_id": "W08",
+      "source_family": "workplace",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/workplace/7_te4.mp4",
+      "source_sha256": "edffc7547cd187b138e05c92440732e8ada60fe96061d90b9b0022ba4065a48d",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/review/annotations/W08.json",
+      "annotation_sha256": "4b2190987c085e170c9a55495dc0d0ac7714ffd212d534dc1190828f0bebc171",
+      "annotation_status": "unreviewed",
+      "nominal_duration_seconds": 4.008984375,
+      "observed_frames": 101,
+      "first_timestamp": 0.0,
+      "last_timestamp": 3.9689843750000007,
+      "timestamp_basis": [
+        "container"
+      ],
+      "stats": {
+        "fire": {
+          "raw_boxes": 0,
+          "raw_detected_frames": 0,
+          "first_raw_candidate_seconds": null,
+          "last_raw_candidate_seconds": null,
+          "raw_confidence_range": [
+            null,
+            null
+          ],
+          "timed_boxes": 0,
+          "timed_detected_frames": 0,
+          "first_timed_confirmation_seconds": null
+        },
+        "smoke": {
+          "raw_boxes": 53,
+          "raw_detected_frames": 51,
+          "first_raw_candidate_seconds": 0.04,
+          "last_raw_candidate_seconds": 3.9689843750000007,
+          "raw_confidence_range": [
+            0.2600668668746948,
+            0.6289072036743164
+          ],
+          "timed_boxes": 18,
+          "timed_detected_frames": 18,
+          "first_timed_confirmation_seconds": 1.048984375
+        }
+      },
+      "prediction_latency_seconds": {
+        "p50": 0.008841584029141814,
+        "p95": 0.010673250013496727
+      },
+      "inference_fps": 113.58122127987563,
+      "pipeline_fps": 64.2559567245404,
+      "elapsed_seconds": 1.5718387080123648,
+      "annotated_video": "/Users/tabbasi/Downloads/IndustrialAI/outputs/new-footage/run-c6drqth3/fire_smoke/7-07-W08.mp4",
+      "events": {
+        "raw": [
+          {
+            "clip_id": "W08",
+            "kind": "smoke",
+            "start_seconds": 0.04,
+            "end_seconds": 4.008677289603961
+          }
+        ],
+        "legacy": [
+          {
+            "clip_id": "W08",
+            "kind": "smoke",
+            "start_seconds": 0.12,
+            "end_seconds": 2.048984375
+          }
+        ],
+        "fixed_2hz": [
+          {
+            "clip_id": "W08",
+            "kind": "smoke",
+            "start_seconds": 2.008984375,
+            "end_seconds": 2.048984375
+          }
+        ],
+        "timed": [
+          {
+            "clip_id": "W08",
+            "kind": "smoke",
+            "start_seconds": 1.048984375,
+            "end_seconds": 4.008677289603961
+          }
+        ]
+      }
+    },
+    {
+      "review_id": "B01",
+      "source_family": "bilkent",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/bilkent/sEmptyR1.avi",
+      "source_sha256": "ca7167b18899071ff9b672251fd0d4413a7c708c731aee5d7fad70bd80283e61",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/review/annotations/B01.json",
+      "annotation_sha256": "75b8f380f0bb741f8c3e3a9a157fa74aca3afc30329345e669209ad80538a07d",
+      "annotation_status": "unreviewed",
+      "nominal_duration_seconds": 28.979999999999997,
+      "observed_frames": 483,
+      "first_timestamp": 0.0,
+      "last_timestamp": 28.919999999999995,
+      "timestamp_basis": [
+        "container"
+      ],
+      "stats": {
+        "fire": {
+          "raw_boxes": 2,
+          "raw_detected_frames": 2,
+          "first_raw_candidate_seconds": 8.4,
+          "last_raw_candidate_seconds": 8.879999999999999,
+          "raw_confidence_range": [
+            0.2573041617870331,
+            0.3380914330482483
+          ],
+          "timed_boxes": 0,
+          "timed_detected_frames": 0,
+          "first_timed_confirmation_seconds": null
+        },
+        "smoke": {
+          "raw_boxes": 1,
+          "raw_detected_frames": 1,
+          "first_raw_candidate_seconds": 6.779999999999999,
+          "last_raw_candidate_seconds": 6.779999999999999,
+          "raw_confidence_range": [
+            0.32931819558143616,
+            0.32931819558143616
+          ],
+          "timed_boxes": 0,
+          "timed_detected_frames": 0,
+          "first_timed_confirmation_seconds": null
+        }
+      },
+      "prediction_latency_seconds": {
+        "p50": 0.008120707992929965,
+        "p95": 0.008578179241158067
+      },
+      "inference_fps": 120.90172057134905,
+      "pipeline_fps": 116.72954506709965,
+      "elapsed_seconds": 4.1377699169679545,
+      "annotated_video": "/Users/tabbasi/Downloads/IndustrialAI/outputs/new-footage/run-c6drqth3/fire_smoke/8-08-B01.mp4",
+      "events": {
+        "raw": [
+          {
+            "clip_id": "B01",
+            "kind": "fire",
+            "start_seconds": 8.4,
+            "end_seconds": 8.94
+          },
+          {
+            "clip_id": "B01",
+            "kind": "smoke",
+            "start_seconds": 6.779999999999999,
+            "end_seconds": 6.84
+          }
+        ],
+        "legacy": [],
+        "fixed_2hz": [],
+        "timed": []
+      }
+    },
+    {
+      "review_id": "B02",
+      "source_family": "bilkent",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/bilkent/sEmptyR2.avi",
+      "source_sha256": "865fb88dd2b1913b6e0434e9a249ef6c14cb91c57e9b3c43c32f1d3062ad6349",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/review/annotations/B02.json",
+      "annotation_sha256": "ed2799b42aa69c56dd5232176614c40549ff71399514ef7165439888ef1d84d8",
+      "annotation_status": "unreviewed",
+      "nominal_duration_seconds": 23.939999999999998,
+      "observed_frames": 342,
+      "first_timestamp": 0.0,
+      "last_timestamp": 23.87,
+      "timestamp_basis": [
+        "container"
+      ],
+      "stats": {
+        "fire": {
+          "raw_boxes": 24,
+          "raw_detected_frames": 24,
+          "first_raw_candidate_seconds": 8.05,
+          "last_raw_candidate_seconds": 10.22,
+          "raw_confidence_range": [
+            0.2561569809913635,
+            0.6067535281181335
+          ],
+          "timed_boxes": 14,
+          "timed_detected_frames": 14,
+          "first_timed_confirmation_seconds": 9.100000000000001
+        },
+        "smoke": {
+          "raw_boxes": 0,
+          "raw_detected_frames": 0,
+          "first_raw_candidate_seconds": null,
+          "last_raw_candidate_seconds": null,
+          "raw_confidence_range": [
+            null,
+            null
+          ],
+          "timed_boxes": 0,
+          "timed_detected_frames": 0,
+          "first_timed_confirmation_seconds": null
+        }
+      },
+      "prediction_latency_seconds": {
+        "p50": 0.008184999984223396,
+        "p95": 0.011074794374871999
+      },
+      "inference_fps": 116.80382038523645,
+      "pipeline_fps": 112.61755694680251,
+      "elapsed_seconds": 3.0368266660370864,
+      "annotated_video": "/Users/tabbasi/Downloads/IndustrialAI/outputs/new-footage/run-c6drqth3/fire_smoke/9-09-B02.mp4",
+      "events": {
+        "raw": [
+          {
+            "clip_id": "B02",
+            "kind": "fire",
+            "start_seconds": 8.05,
+            "end_seconds": 10.290000000000003
+          }
+        ],
+        "legacy": [
+          {
+            "clip_id": "B02",
+            "kind": "fire",
+            "start_seconds": 8.190000000000001,
+            "end_seconds": 10.290000000000003
+          }
+        ],
+        "fixed_2hz": [
+          {
+            "clip_id": "B02",
+            "kind": "fire",
+            "start_seconds": 9.030000000000001,
+            "end_seconds": 10.080000000000002
+          }
+        ],
+        "timed": [
+          {
+            "clip_id": "B02",
+            "kind": "fire",
+            "start_seconds": 9.100000000000001,
+            "end_seconds": 10.290000000000003
+          }
+        ]
+      }
+    },
+    {
+      "review_id": "B03",
+      "source_family": "bilkent",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/bilkent/sBehindtheFence.avi",
+      "source_sha256": "2f06938f7be9b7d29c1931a24c8f6c44b124f37667e3a1606cbf5c51f4076c74",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/review/annotations/B03.json",
+      "annotation_sha256": "0840243841b97b162b6fe22e1b429d8fa6d6f8ee72e8dbd7a07bddcbc96aebcd",
+      "annotation_status": "unreviewed",
+      "nominal_duration_seconds": 63.0,
+      "observed_frames": 630,
+      "first_timestamp": 0.0,
+      "last_timestamp": 62.900000000000006,
+      "timestamp_basis": [
+        "container"
+      ],
+      "stats": {
+        "fire": {
+          "raw_boxes": 0,
+          "raw_detected_frames": 0,
+          "first_raw_candidate_seconds": null,
+          "last_raw_candidate_seconds": null,
+          "raw_confidence_range": [
+            null,
+            null
+          ],
+          "timed_boxes": 0,
+          "timed_detected_frames": 0,
+          "first_timed_confirmation_seconds": null
+        },
+        "smoke": {
+          "raw_boxes": 376,
+          "raw_detected_frames": 313,
+          "first_raw_candidate_seconds": 5.2,
+          "last_raw_candidate_seconds": 62.7,
+          "raw_confidence_range": [
+            0.25095248222351074,
+            0.8237144351005554
+          ],
+          "timed_boxes": 314,
+          "timed_detected_frames": 266,
+          "first_timed_confirmation_seconds": 6.2
+        }
+      },
+      "prediction_latency_seconds": {
+        "p50": 0.008987187000457197,
+        "p95": 0.010431324850651435
+      },
+      "inference_fps": 111.24661436726569,
+      "pipeline_fps": 103.5828045313864,
+      "elapsed_seconds": 6.082090582989622,
+      "annotated_video": "/Users/tabbasi/Downloads/IndustrialAI/outputs/new-footage/run-c6drqth3/fire_smoke/10-10-B03.mp4",
+      "events": {
+        "raw": [
+          {
+            "clip_id": "B03",
+            "kind": "smoke",
+            "start_seconds": 5.2,
+            "end_seconds": 17.7
+          },
+          {
+            "clip_id": "B03",
+            "kind": "smoke",
+            "start_seconds": 20.3,
+            "end_seconds": 47.400000000000006
+          },
+          {
+            "clip_id": "B03",
+            "kind": "smoke",
+            "start_seconds": 50.0,
+            "end_seconds": 54.6
+          },
+          {
+            "clip_id": "B03",
+            "kind": "smoke",
+            "start_seconds": 60.0,
+            "end_seconds": 62.800000000000004
+          }
+        ],
+        "legacy": [
+          {
+            "clip_id": "B03",
+            "kind": "smoke",
+            "start_seconds": 5.5,
+            "end_seconds": 9.9
+          },
+          {
+            "clip_id": "B03",
+            "kind": "smoke",
+            "start_seconds": 12.0,
+            "end_seconds": 17.7
+          },
+          {
+            "clip_id": "B03",
+            "kind": "smoke",
+            "start_seconds": 20.5,
+            "end_seconds": 47.400000000000006
+          },
+          {
+            "clip_id": "B03",
+            "kind": "smoke",
+            "start_seconds": 50.400000000000006,
+            "end_seconds": 52.300000000000004
+          },
+          {
+            "clip_id": "B03",
+            "kind": "smoke",
+            "start_seconds": 60.300000000000004,
+            "end_seconds": 62.400000000000006
+          }
+        ],
+        "fixed_2hz": [
+          {
+            "clip_id": "B03",
+            "kind": "smoke",
+            "start_seconds": 6.5,
+            "end_seconds": 6.6000000000000005
+          },
+          {
+            "clip_id": "B03",
+            "kind": "smoke",
+            "start_seconds": 13.0,
+            "end_seconds": 13.100000000000001
+          },
+          {
+            "clip_id": "B03",
+            "kind": "smoke",
+            "start_seconds": 17.5,
+            "end_seconds": 17.6
+          },
+          {
+            "clip_id": "B03",
+            "kind": "smoke",
+            "start_seconds": 22.0,
+            "end_seconds": 36.6
+          },
+          {
+            "clip_id": "B03",
+            "kind": "smoke",
+            "start_seconds": 40.0,
+            "end_seconds": 44.6
+          },
+          {
+            "clip_id": "B03",
+            "kind": "smoke",
+            "start_seconds": 51.0,
+            "end_seconds": 51.6
+          },
+          {
+            "clip_id": "B03",
+            "kind": "smoke",
+            "start_seconds": 61.5,
+            "end_seconds": 62.1
+          }
+        ],
+        "timed": [
+          {
+            "clip_id": "B03",
+            "kind": "smoke",
+            "start_seconds": 6.2,
+            "end_seconds": 9.9
+          },
+          {
+            "clip_id": "B03",
+            "kind": "smoke",
+            "start_seconds": 13.0,
+            "end_seconds": 17.7
+          },
+          {
+            "clip_id": "B03",
+            "kind": "smoke",
+            "start_seconds": 21.700000000000003,
+            "end_seconds": 47.400000000000006
+          },
+          {
+            "clip_id": "B03",
+            "kind": "smoke",
+            "start_seconds": 51.0,
+            "end_seconds": 52.300000000000004
+          },
+          {
+            "clip_id": "B03",
+            "kind": "smoke",
+            "start_seconds": 61.2,
+            "end_seconds": 62.800000000000004
+          }
+        ]
+      }
+    },
+    {
+      "review_id": "B04",
+      "source_family": "bilkent",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/bilkent/sBtFence2.avi",
+      "source_sha256": "57fe9ff477c3626a5034cc6448a04218bf7f0cf336a9cd7733c24dafef3dee62",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/review/annotations/B04.json",
+      "annotation_sha256": "bf0f65c84a1407d1f3fe7d85d4dda84633a4908a1060f86bf20a1c22a98e6053",
+      "annotation_status": "unreviewed",
+      "nominal_duration_seconds": 140.0,
+      "observed_frames": 1400,
+      "first_timestamp": 0.0,
+      "last_timestamp": 139.9,
+      "timestamp_basis": [
+        "container"
+      ],
+      "stats": {
+        "fire": {
+          "raw_boxes": 0,
+          "raw_detected_frames": 0,
+          "first_raw_candidate_seconds": null,
+          "last_raw_candidate_seconds": null,
+          "raw_confidence_range": [
+            null,
+            null
+          ],
+          "timed_boxes": 0,
+          "timed_detected_frames": 0,
+          "first_timed_confirmation_seconds": null
+        },
+        "smoke": {
+          "raw_boxes": 915,
+          "raw_detected_frames": 767,
+          "first_raw_candidate_seconds": 4.9,
+          "last_raw_candidate_seconds": 139.9,
+          "raw_confidence_range": [
+            0.25003916025161743,
+            0.8165808916091919
+          ],
+          "timed_boxes": 845,
+          "timed_detected_frames": 706,
+          "first_timed_confirmation_seconds": 6.300000000000001
+        }
+      },
+      "prediction_latency_seconds": {
+        "p50": 0.009137603978160769,
+        "p95": 0.010290404528495856
+      },
+      "inference_fps": 110.19423174328328,
+      "pipeline_fps": 102.36516791930362,
+      "elapsed_seconds": 13.676527166971937,
+      "annotated_video": "/Users/tabbasi/Downloads/IndustrialAI/outputs/new-footage/run-c6drqth3/fire_smoke/11-11-B04.mp4",
+      "events": {
+        "raw": [
+          {
+            "clip_id": "B04",
+            "kind": "smoke",
+            "start_seconds": 4.9,
+            "end_seconds": 21.400000000000002
+          },
+          {
+            "clip_id": "B04",
+            "kind": "smoke",
+            "start_seconds": 31.6,
+            "end_seconds": 42.400000000000006
+          },
+          {
+            "clip_id": "B04",
+            "kind": "smoke",
+            "start_seconds": 44.5,
+            "end_seconds": 63.900000000000006
+          },
+          {
+            "clip_id": "B04",
+            "kind": "smoke",
+            "start_seconds": 66.10000000000001,
+            "end_seconds": 117.10000000000001
+          },
+          {
+            "clip_id": "B04",
+            "kind": "smoke",
+            "start_seconds": 119.30000000000001,
+            "end_seconds": 129.4
+          },
+          {
+            "clip_id": "B04",
+            "kind": "smoke",
+            "start_seconds": 131.8,
+            "end_seconds": 140.0
+          }
+        ],
+        "legacy": [
+          {
+            "clip_id": "B04",
+            "kind": "smoke",
+            "start_seconds": 8.1,
+            "end_seconds": 21.400000000000002
+          },
+          {
+            "clip_id": "B04",
+            "kind": "smoke",
+            "start_seconds": 33.0,
+            "end_seconds": 33.6
+          },
+          {
+            "clip_id": "B04",
+            "kind": "smoke",
+            "start_seconds": 35.9,
+            "end_seconds": 42.400000000000006
+          },
+          {
+            "clip_id": "B04",
+            "kind": "smoke",
+            "start_seconds": 44.800000000000004,
+            "end_seconds": 53.800000000000004
+          },
+          {
+            "clip_id": "B04",
+            "kind": "smoke",
+            "start_seconds": 59.900000000000006,
+            "end_seconds": 63.400000000000006
+          },
+          {
+            "clip_id": "B04",
+            "kind": "smoke",
+            "start_seconds": 66.3,
+            "end_seconds": 71.4
+          },
+          {
+            "clip_id": "B04",
+            "kind": "smoke",
+            "start_seconds": 73.5,
+            "end_seconds": 73.7
+          },
+          {
+            "clip_id": "B04",
+            "kind": "smoke",
+            "start_seconds": 75.8,
+            "end_seconds": 114.80000000000001
+          },
+          {
+            "clip_id": "B04",
+            "kind": "smoke",
+            "start_seconds": 119.5,
+            "end_seconds": 125.80000000000001
+          },
+          {
+            "clip_id": "B04",
+            "kind": "smoke",
+            "start_seconds": 132.0,
+            "end_seconds": 140.0
+          }
+        ],
+        "fixed_2hz": [
+          {
+            "clip_id": "B04",
+            "kind": "smoke",
+            "start_seconds": 9.0,
+            "end_seconds": 21.1
+          },
+          {
+            "clip_id": "B04",
+            "kind": "smoke",
+            "start_seconds": 34.5,
+            "end_seconds": 34.6
+          },
+          {
+            "clip_id": "B04",
+            "kind": "smoke",
+            "start_seconds": 37.5,
+            "end_seconds": 42.1
+          },
+          {
+            "clip_id": "B04",
+            "kind": "smoke",
+            "start_seconds": 45.5,
+            "end_seconds": 53.6
+          },
+          {
+            "clip_id": "B04",
+            "kind": "smoke",
+            "start_seconds": 60.0,
+            "end_seconds": 63.1
+          },
+          {
+            "clip_id": "B04",
+            "kind": "smoke",
+            "start_seconds": 68.5,
+            "end_seconds": 71.10000000000001
+          },
+          {
+            "clip_id": "B04",
+            "kind": "smoke",
+            "start_seconds": 77.0,
+            "end_seconds": 85.60000000000001
+          },
+          {
+            "clip_id": "B04",
+            "kind": "smoke",
+            "start_seconds": 89.0,
+            "end_seconds": 96.60000000000001
+          },
+          {
+            "clip_id": "B04",
+            "kind": "smoke",
+            "start_seconds": 100.0,
+            "end_seconds": 111.60000000000001
+          },
+          {
+            "clip_id": "B04",
+            "kind": "smoke",
+            "start_seconds": 120.5,
+            "end_seconds": 125.60000000000001
+          },
+          {
+            "clip_id": "B04",
+            "kind": "smoke",
+            "start_seconds": 133.0,
+            "end_seconds": 139.6
+          }
+        ],
+        "timed": [
+          {
+            "clip_id": "B04",
+            "kind": "smoke",
+            "start_seconds": 6.300000000000001,
+            "end_seconds": 21.400000000000002
+          },
+          {
+            "clip_id": "B04",
+            "kind": "smoke",
+            "start_seconds": 32.9,
+            "end_seconds": 42.400000000000006
+          },
+          {
+            "clip_id": "B04",
+            "kind": "smoke",
+            "start_seconds": 45.5,
+            "end_seconds": 53.800000000000004
+          },
+          {
+            "clip_id": "B04",
+            "kind": "smoke",
+            "start_seconds": 58.7,
+            "end_seconds": 63.900000000000006
+          },
+          {
+            "clip_id": "B04",
+            "kind": "smoke",
+            "start_seconds": 67.8,
+            "end_seconds": 115.80000000000001
+          },
+          {
+            "clip_id": "B04",
+            "kind": "smoke",
+            "start_seconds": 120.30000000000001,
+            "end_seconds": 128.1
+          },
+          {
+            "clip_id": "B04",
+            "kind": "smoke",
+            "start_seconds": 132.8,
+            "end_seconds": 140.0
+          }
+        ]
+      }
+    },
+    {
+      "review_id": "B05",
+      "source_family": "bilkent",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/bilkent/sParkingLot.avi",
+      "source_sha256": "b9fabc240b238bb416b107175e6884e5e29da81a7e0c3424baf36416d4bef4f4",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/review/annotations/B05.json",
+      "annotation_sha256": "dacf41bc120d574dd6a55455a3fcf9d7a579d0e0c2ff965432091fb046825832",
+      "annotation_status": "unreviewed",
+      "nominal_duration_seconds": 69.04,
+      "observed_frames": 1726,
+      "first_timestamp": 0.0,
+      "last_timestamp": 69.0,
+      "timestamp_basis": [
+        "container"
+      ],
+      "stats": {
+        "fire": {
+          "raw_boxes": 0,
+          "raw_detected_frames": 0,
+          "first_raw_candidate_seconds": null,
+          "last_raw_candidate_seconds": null,
+          "raw_confidence_range": [
+            null,
+            null
+          ],
+          "timed_boxes": 0,
+          "timed_detected_frames": 0,
+          "first_timed_confirmation_seconds": null
+        },
+        "smoke": {
+          "raw_boxes": 1093,
+          "raw_detected_frames": 978,
+          "first_raw_candidate_seconds": 9.64,
+          "last_raw_candidate_seconds": 68.16,
+          "raw_confidence_range": [
+            0.25148600339889526,
+            0.8041610717773438
+          ],
+          "timed_boxes": 1052,
+          "timed_detected_frames": 937,
+          "first_timed_confirmation_seconds": 10.64
+        }
+      },
+      "prediction_latency_seconds": {
+        "p50": 0.009157708496786654,
+        "p95": 0.009681833485956304
+      },
+      "inference_fps": 111.16972787739977,
+      "pipeline_fps": 104.28650411146774,
+      "elapsed_seconds": 16.550559583003633,
+      "annotated_video": "/Users/tabbasi/Downloads/IndustrialAI/outputs/new-footage/run-c6drqth3/fire_smoke/12-12-B05.mp4",
+      "events": {
+        "raw": [
+          {
+            "clip_id": "B05",
+            "kind": "smoke",
+            "start_seconds": 9.64,
+            "end_seconds": 48.88
+          },
+          {
+            "clip_id": "B05",
+            "kind": "smoke",
+            "start_seconds": 53.44,
+            "end_seconds": 56.92
+          },
+          {
+            "clip_id": "B05",
+            "kind": "smoke",
+            "start_seconds": 59.56,
+            "end_seconds": 68.2
+          }
+        ],
+        "legacy": [
+          {
+            "clip_id": "B05",
+            "kind": "smoke",
+            "start_seconds": 9.76,
+            "end_seconds": 46.84
+          },
+          {
+            "clip_id": "B05",
+            "kind": "smoke",
+            "start_seconds": 53.52,
+            "end_seconds": 56.92
+          },
+          {
+            "clip_id": "B05",
+            "kind": "smoke",
+            "start_seconds": 60.800000000000004,
+            "end_seconds": 67.6
+          }
+        ],
+        "fixed_2hz": [
+          {
+            "clip_id": "B05",
+            "kind": "smoke",
+            "start_seconds": 11.0,
+            "end_seconds": 33.56
+          },
+          {
+            "clip_id": "B05",
+            "kind": "smoke",
+            "start_seconds": 36.52,
+            "end_seconds": 46.56
+          },
+          {
+            "clip_id": "B05",
+            "kind": "smoke",
+            "start_seconds": 55.0,
+            "end_seconds": 56.56
+          },
+          {
+            "clip_id": "B05",
+            "kind": "smoke",
+            "start_seconds": 63.0,
+            "end_seconds": 67.04
+          }
+        ],
+        "timed": [
+          {
+            "clip_id": "B05",
+            "kind": "smoke",
+            "start_seconds": 10.64,
+            "end_seconds": 48.88
+          },
+          {
+            "clip_id": "B05",
+            "kind": "smoke",
+            "start_seconds": 54.44,
+            "end_seconds": 56.92
+          },
+          {
+            "clip_id": "B05",
+            "kind": "smoke",
+            "start_seconds": 60.76,
+            "end_seconds": 68.2
+          }
+        ]
+      }
+    },
+    {
+      "review_id": "B06",
+      "source_family": "bilkent",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/bilkent/sWasteBasket.avi",
+      "source_sha256": "dc97293166e64144b13175ebffdacbb5d43e872c4b37290253fd40c0a42adbc7",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/review/annotations/B06.json",
+      "annotation_sha256": "cd40fa1048a7948190749d8aa8dfa9bdf372a192b30509602f4877f519c1676e",
+      "annotation_status": "unreviewed",
+      "nominal_duration_seconds": 90.0,
+      "observed_frames": 900,
+      "first_timestamp": 0.0,
+      "last_timestamp": 89.9,
+      "timestamp_basis": [
+        "container"
+      ],
+      "stats": {
+        "fire": {
+          "raw_boxes": 0,
+          "raw_detected_frames": 0,
+          "first_raw_candidate_seconds": null,
+          "last_raw_candidate_seconds": null,
+          "raw_confidence_range": [
+            null,
+            null
+          ],
+          "timed_boxes": 0,
+          "timed_detected_frames": 0,
+          "first_timed_confirmation_seconds": null
+        },
+        "smoke": {
+          "raw_boxes": 1002,
+          "raw_detected_frames": 749,
+          "first_raw_candidate_seconds": 1.2000000000000002,
+          "last_raw_candidate_seconds": 82.10000000000001,
+          "raw_confidence_range": [
+            0.2506677508354187,
+            0.8861786723136902
+          ],
+          "timed_boxes": 944,
+          "timed_detected_frames": 709,
+          "first_timed_confirmation_seconds": 2.5
+        }
+      },
+      "prediction_latency_seconds": {
+        "p50": 0.009331187524367124,
+        "p95": 0.009684696159092709
+      },
+      "inference_fps": 108.42136364679465,
+      "pipeline_fps": 101.55600825416823,
+      "elapsed_seconds": 8.862104916013777,
+      "annotated_video": "/Users/tabbasi/Downloads/IndustrialAI/outputs/new-footage/run-c6drqth3/fire_smoke/13-13-B06.mp4",
+      "events": {
+        "raw": [
+          {
+            "clip_id": "B06",
+            "kind": "smoke",
+            "start_seconds": 1.2000000000000002,
+            "end_seconds": 82.2
+          }
+        ],
+        "legacy": [
+          {
+            "clip_id": "B06",
+            "kind": "smoke",
+            "start_seconds": 2.1,
+            "end_seconds": 82.2
+          }
+        ],
+        "fixed_2hz": [
+          {
+            "clip_id": "B06",
+            "kind": "smoke",
+            "start_seconds": 3.5,
+            "end_seconds": 27.6
+          },
+          {
+            "clip_id": "B06",
+            "kind": "smoke",
+            "start_seconds": 30.5,
+            "end_seconds": 82.10000000000001
+          }
+        ],
+        "timed": [
+          {
+            "clip_id": "B06",
+            "kind": "smoke",
+            "start_seconds": 2.5,
+            "end_seconds": 82.2
+          }
+        ]
+      }
+    },
+    {
+      "review_id": "R01",
+      "source_family": "rise",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/rise/0-7-2019-01-18-3544-899-4026-1381-320-320-7989-1547835180-1547835355.mp4",
+      "source_sha256": "1b9785345b06b6c73f6847647a664068ed35a35c829a8c38937e5a85d2536be6",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/review/annotations/R01.json",
+      "annotation_sha256": "4c9ef4eba401968e93763de150c022a7bb3bdd04bda5600e9258d2ca588fccdc",
+      "annotation_status": "unreviewed",
+      "nominal_duration_seconds": 3.0,
+      "observed_frames": 36,
+      "first_timestamp": 0.0,
+      "last_timestamp": 2.9166666666666665,
+      "timestamp_basis": [
+        "container"
+      ],
+      "stats": {
+        "fire": {
+          "raw_boxes": 0,
+          "raw_detected_frames": 0,
+          "first_raw_candidate_seconds": null,
+          "last_raw_candidate_seconds": null,
+          "raw_confidence_range": [
+            null,
+            null
+          ]
+        },
+        "smoke": {
+          "raw_boxes": 40,
+          "raw_detected_frames": 32,
+          "first_raw_candidate_seconds": 0.25,
+          "last_raw_candidate_seconds": 2.9166666666666665,
+          "raw_confidence_range": [
+            0.25210604071617126,
+            0.7189487218856812
+          ]
+        }
+      },
+      "prediction_latency_seconds": {
+        "p50": 0.010720979509642348,
+        "p95": 0.013149260266800411
+      },
+      "inference_fps": 76.28227044207406,
+      "pipeline_fps": 71.31687349776016,
+      "elapsed_seconds": 0.5047893750015646,
+      "annotated_video": "/Users/tabbasi/Downloads/IndustrialAI/outputs/new-footage/run-c6drqth3/fire_smoke/14-14-R01.mp4",
+      "temporal_scoring": "not_applicable_time_lapse",
+      "publisher_smoke_emission_label": "positive",
+      "publisher_label_state": 4,
+      "publisher_label_state_admin": 23,
+      "appearance_smoke_flag": true
+    },
+    {
+      "review_id": "R02",
+      "source_family": "rise",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/rise/0-1-2019-01-17-6007-928-6509-1430-320-320-4662-1547736675-1547736850.mp4",
+      "source_sha256": "59141aaa9ff7ceba45d0703323e483daf1375266a6edfe423fba2b4d033c420b",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/review/annotations/R02.json",
+      "annotation_sha256": "b02dd6cad63f4e4bdb278055eead1d156cdb8b443ace175056f78bb721fd713c",
+      "annotation_status": "unreviewed",
+      "nominal_duration_seconds": 3.0,
+      "observed_frames": 36,
+      "first_timestamp": 0.0,
+      "last_timestamp": 2.9166666666666665,
+      "timestamp_basis": [
+        "container"
+      ],
+      "stats": {
+        "fire": {
+          "raw_boxes": 0,
+          "raw_detected_frames": 0,
+          "first_raw_candidate_seconds": null,
+          "last_raw_candidate_seconds": null,
+          "raw_confidence_range": [
+            null,
+            null
+          ]
+        },
+        "smoke": {
+          "raw_boxes": 0,
+          "raw_detected_frames": 0,
+          "first_raw_candidate_seconds": null,
+          "last_raw_candidate_seconds": null,
+          "raw_confidence_range": [
+            null,
+            null
+          ]
+        }
+      },
+      "prediction_latency_seconds": {
+        "p50": 0.010019979003118351,
+        "p95": 0.010244781529763713
+      },
+      "inference_fps": 100.22339147402907,
+      "pipeline_fps": 96.15805178641884,
+      "elapsed_seconds": 0.37438362499233335,
+      "annotated_video": "/Users/tabbasi/Downloads/IndustrialAI/outputs/new-footage/run-c6drqth3/fire_smoke/15-15-R02.mp4",
+      "temporal_scoring": "not_applicable_time_lapse",
+      "publisher_smoke_emission_label": "positive",
+      "publisher_label_state": 5,
+      "publisher_label_state_admin": 23,
+      "appearance_smoke_flag": false
+    },
+    {
+      "review_id": "R03",
+      "source_family": "rise",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/rise/0-12-2019-02-02-1626-1015-2129-1518-320-320-8513-1549135470-1549135645.mp4",
+      "source_sha256": "e318d1e095886a1941a4172c23e532f08c2f006d1a1b071dd524831cee6aa4e6",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/review/annotations/R03.json",
+      "annotation_sha256": "2ab4bf142d3cbc2a9f39b7f5878ae9ed03e7fbd91a9c9fa56b41282141b23795",
+      "annotation_status": "unreviewed",
+      "nominal_duration_seconds": 3.0,
+      "observed_frames": 36,
+      "first_timestamp": 0.0,
+      "last_timestamp": 2.9166666666666665,
+      "timestamp_basis": [
+        "container"
+      ],
+      "stats": {
+        "fire": {
+          "raw_boxes": 0,
+          "raw_detected_frames": 0,
+          "first_raw_candidate_seconds": null,
+          "last_raw_candidate_seconds": null,
+          "raw_confidence_range": [
+            null,
+            null
+          ]
+        },
+        "smoke": {
+          "raw_boxes": 1,
+          "raw_detected_frames": 1,
+          "first_raw_candidate_seconds": 1.1666666666666665,
+          "last_raw_candidate_seconds": 1.1666666666666665,
+          "raw_confidence_range": [
+            0.261038213968277,
+            0.261038213968277
+          ]
+        }
+      },
+      "prediction_latency_seconds": {
+        "p50": 0.009996124979807064,
+        "p95": 0.010443958482937887
+      },
+      "inference_fps": 100.27996021597387,
+      "pipeline_fps": 95.46148065443825,
+      "elapsed_seconds": 0.37711545801721513,
+      "annotated_video": "/Users/tabbasi/Downloads/IndustrialAI/outputs/new-footage/run-c6drqth3/fire_smoke/16-16-R03.mp4",
+      "temporal_scoring": "not_applicable_time_lapse",
+      "publisher_smoke_emission_label": "negative",
+      "publisher_label_state": -1,
+      "publisher_label_state_admin": 16,
+      "appearance_smoke_flag": true
+    },
+    {
+      "review_id": "R04",
+      "source_family": "rise",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/rise/0-5-2018-10-07-4365-994-4867-1496-320-320-5237-1538921000-1538921175.mp4",
+      "source_sha256": "befcccd902bd7e8b62b584b0afd7c2ab13f184768ac7013ff98df272d93aef55",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/review/annotations/R04.json",
+      "annotation_sha256": "fad73d75eaf4efc757286454a535a182afe29bb15b4e2fcc5ada85dc33306d50",
+      "annotation_status": "unreviewed",
+      "nominal_duration_seconds": 3.0,
+      "observed_frames": 36,
+      "first_timestamp": 0.0,
+      "last_timestamp": 2.9166666666666665,
+      "timestamp_basis": [
+        "container"
+      ],
+      "stats": {
+        "fire": {
+          "raw_boxes": 0,
+          "raw_detected_frames": 0,
+          "first_raw_candidate_seconds": null,
+          "last_raw_candidate_seconds": null,
+          "raw_confidence_range": [
+            null,
+            null
+          ]
+        },
+        "smoke": {
+          "raw_boxes": 13,
+          "raw_detected_frames": 11,
+          "first_raw_candidate_seconds": 0.08333333333333333,
+          "last_raw_candidate_seconds": 2.4166666666666665,
+          "raw_confidence_range": [
+            0.2514503598213196,
+            0.6873231530189514
+          ]
+        }
+      },
+      "prediction_latency_seconds": {
+        "p50": 0.010020979505497962,
+        "p95": 0.012846885510953143
+      },
+      "inference_fps": 94.99136024115245,
+      "pipeline_fps": 89.8523521439627,
+      "elapsed_seconds": 0.4006572910002433,
+      "annotated_video": "/Users/tabbasi/Downloads/IndustrialAI/outputs/new-footage/run-c6drqth3/fire_smoke/17-17-R04.mp4",
+      "temporal_scoring": "not_applicable_time_lapse",
+      "publisher_smoke_emission_label": "negative",
+      "publisher_label_state": 16,
+      "publisher_label_state_admin": -1,
+      "appearance_smoke_flag": true
+    },
+    {
+      "review_id": "R05",
+      "source_family": "rise",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/rise/1-0-2019-02-03-3018-478-3536-996-320-320-8637-1549220140-1549220315.mp4",
+      "source_sha256": "56ddc16ae7d02de7d6ba602ee2c265c3bdc4d962d21f61ba7be46029289d106b",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/review/annotations/R05.json",
+      "annotation_sha256": "759163fb01f7ad7db2a9699df0aaf4412e96562bfd70c6fd6a3559fb6d58a5d0",
+      "annotation_status": "unreviewed",
+      "nominal_duration_seconds": 3.0,
+      "observed_frames": 36,
+      "first_timestamp": 0.0,
+      "last_timestamp": 2.9166666666666665,
+      "timestamp_basis": [
+        "container"
+      ],
+      "stats": {
+        "fire": {
+          "raw_boxes": 0,
+          "raw_detected_frames": 0,
+          "first_raw_candidate_seconds": null,
+          "last_raw_candidate_seconds": null,
+          "raw_confidence_range": [
+            null,
+            null
+          ]
+        },
+        "smoke": {
+          "raw_boxes": 0,
+          "raw_detected_frames": 0,
+          "first_raw_candidate_seconds": null,
+          "last_raw_candidate_seconds": null,
+          "raw_confidence_range": [
+            null,
+            null
+          ]
+        }
+      },
+      "prediction_latency_seconds": {
+        "p50": 0.010036812484031543,
+        "p95": 0.010199541749898344
+      },
+      "inference_fps": 99.91678267098366,
+      "pipeline_fps": 96.27087415746627,
+      "elapsed_seconds": 0.37394487496931106,
+      "annotated_video": "/Users/tabbasi/Downloads/IndustrialAI/outputs/new-footage/run-c6drqth3/fire_smoke/18-18-R05.mp4",
+      "temporal_scoring": "not_applicable_time_lapse",
+      "publisher_smoke_emission_label": "positive",
+      "publisher_label_state": -1,
+      "publisher_label_state_admin": 23,
+      "appearance_smoke_flag": false
+    },
+    {
+      "review_id": "R06",
+      "source_family": "rise",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/rise/1-0-2019-02-04-3018-478-3536-996-320-320-9191-1549308890-1549309065.mp4",
+      "source_sha256": "03b8fc699f36ea07d324a25f7b0d6e1de190f0fc36fc73b7f028b6bdfc2421bf",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/review/annotations/R06.json",
+      "annotation_sha256": "c7c3f9bd63f680f845d2c8b3dc62f81c6fe8f19602068667b7879e2aabac316a",
+      "annotation_status": "unreviewed",
+      "nominal_duration_seconds": 3.0,
+      "observed_frames": 36,
+      "first_timestamp": 0.0,
+      "last_timestamp": 2.9166666666666665,
+      "timestamp_basis": [
+        "container"
+      ],
+      "stats": {
+        "fire": {
+          "raw_boxes": 0,
+          "raw_detected_frames": 0,
+          "first_raw_candidate_seconds": null,
+          "last_raw_candidate_seconds": null,
+          "raw_confidence_range": [
+            null,
+            null
+          ]
+        },
+        "smoke": {
+          "raw_boxes": 29,
+          "raw_detected_frames": 24,
+          "first_raw_candidate_seconds": 0.0,
+          "last_raw_candidate_seconds": 2.833333333333333,
+          "raw_confidence_range": [
+            0.28925424814224243,
+            0.7873130440711975
+          ]
+        }
+      },
+      "prediction_latency_seconds": {
+        "p50": 0.010737000004155561,
+        "p95": 0.012428750487742946
+      },
+      "inference_fps": 91.9719656630931,
+      "pipeline_fps": 85.4385344777388,
+      "elapsed_seconds": 0.42135554197011515,
+      "annotated_video": "/Users/tabbasi/Downloads/IndustrialAI/outputs/new-footage/run-c6drqth3/fire_smoke/19-19-R06.mp4",
+      "temporal_scoring": "not_applicable_time_lapse",
+      "publisher_smoke_emission_label": "positive",
+      "publisher_label_state": 5,
+      "publisher_label_state_admin": 23,
+      "appearance_smoke_flag": true
+    },
+    {
+      "review_id": "R07",
+      "source_family": "rise",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/rise/1-0-2019-02-03-3018-478-3536-996-320-320-11373-1549234060-1549234235.mp4",
+      "source_sha256": "39c1bcc747c00da5d871534de57839f8e46d463980d07d697233bd4ca973eed0",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/review/annotations/R07.json",
+      "annotation_sha256": "6a46949fca6ac474bf9cf5e56157c6a893e1d3aa1e0164173a4605e5a71b8f43",
+      "annotation_status": "unreviewed",
+      "nominal_duration_seconds": 3.0,
+      "observed_frames": 36,
+      "first_timestamp": 0.0,
+      "last_timestamp": 2.9166666666666665,
+      "timestamp_basis": [
+        "container"
+      ],
+      "stats": {
+        "fire": {
+          "raw_boxes": 0,
+          "raw_detected_frames": 0,
+          "first_raw_candidate_seconds": null,
+          "last_raw_candidate_seconds": null,
+          "raw_confidence_range": [
+            null,
+            null
+          ]
+        },
+        "smoke": {
+          "raw_boxes": 34,
+          "raw_detected_frames": 34,
+          "first_raw_candidate_seconds": 0.08333333333333333,
+          "last_raw_candidate_seconds": 2.9166666666666665,
+          "raw_confidence_range": [
+            0.2649911046028137,
+            0.7228789329528809
+          ]
+        }
+      },
+      "prediction_latency_seconds": {
+        "p50": 0.010466166480910033,
+        "p95": 0.010786854501930065
+      },
+      "inference_fps": 95.55245344650696,
+      "pipeline_fps": 89.7559105944203,
+      "elapsed_seconds": 0.4010877920081839,
+      "annotated_video": "/Users/tabbasi/Downloads/IndustrialAI/outputs/new-footage/run-c6drqth3/fire_smoke/20-20-R07.mp4",
+      "temporal_scoring": "not_applicable_time_lapse",
+      "publisher_smoke_emission_label": "negative",
+      "publisher_label_state": 4,
+      "publisher_label_state_admin": 16,
+      "appearance_smoke_flag": true
+    },
+    {
+      "review_id": "R08",
+      "source_family": "rise",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/rise/1-0-2019-02-02-3018-478-3536-996-320-320-8862-1549133815-1549133990.mp4",
+      "source_sha256": "2009f33ab0680527b35ed6512140dc7c8c22a43aa143fa18f1e14b78851b3db7",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/review/annotations/R08.json",
+      "annotation_sha256": "08a7fce821dacdd3611c086c1f13b792e43af1988779c7dd7d3fa2975d53fbea",
+      "annotation_status": "unreviewed",
+      "nominal_duration_seconds": 3.0,
+      "observed_frames": 36,
+      "first_timestamp": 0.0,
+      "last_timestamp": 2.9166666666666665,
+      "timestamp_basis": [
+        "container"
+      ],
+      "stats": {
+        "fire": {
+          "raw_boxes": 0,
+          "raw_detected_frames": 0,
+          "first_raw_candidate_seconds": null,
+          "last_raw_candidate_seconds": null,
+          "raw_confidence_range": [
+            null,
+            null
+          ]
+        },
+        "smoke": {
+          "raw_boxes": 41,
+          "raw_detected_frames": 36,
+          "first_raw_candidate_seconds": 0.0,
+          "last_raw_candidate_seconds": 2.9166666666666665,
+          "raw_confidence_range": [
+            0.2637246549129486,
+            0.8646317720413208
+          ]
+        }
+      },
+      "prediction_latency_seconds": {
+        "p50": 0.010652854020008817,
+        "p95": 0.011492322984850034
+      },
+      "inference_fps": 93.55512348626326,
+      "pipeline_fps": 86.38071125147981,
+      "elapsed_seconds": 0.4167597080231644,
+      "annotated_video": "/Users/tabbasi/Downloads/IndustrialAI/outputs/new-footage/run-c6drqth3/fire_smoke/21-21-R08.mp4",
+      "temporal_scoring": "not_applicable_time_lapse",
+      "publisher_smoke_emission_label": "negative",
+      "publisher_label_state": -1,
+      "publisher_label_state_admin": 16,
+      "appearance_smoke_flag": true
+    },
+    {
+      "review_id": "R09",
+      "source_family": "rise",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/rise/2-0-2019-02-03-2617-1625-3124-2132-320-320-5765-1549217710-1549217885.mp4",
+      "source_sha256": "ba8a721da67eea5e85c910a3878f3c48d97d29d98757468a3fd4259a536f6e30",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/review/annotations/R09.json",
+      "annotation_sha256": "957a6fd52d06820bee63d1f32a3b43e4747219ef39ed4f00d5eeab7191274655",
+      "annotation_status": "unreviewed",
+      "nominal_duration_seconds": 3.0,
+      "observed_frames": 36,
+      "first_timestamp": 0.0,
+      "last_timestamp": 2.9166666666666665,
+      "timestamp_basis": [
+        "container"
+      ],
+      "stats": {
+        "fire": {
+          "raw_boxes": 0,
+          "raw_detected_frames": 0,
+          "first_raw_candidate_seconds": null,
+          "last_raw_candidate_seconds": null,
+          "raw_confidence_range": [
+            null,
+            null
+          ]
+        },
+        "smoke": {
+          "raw_boxes": 0,
+          "raw_detected_frames": 0,
+          "first_raw_candidate_seconds": null,
+          "last_raw_candidate_seconds": null,
+          "raw_confidence_range": [
+            null,
+            null
+          ]
+        }
+      },
+      "prediction_latency_seconds": {
+        "p50": 0.010073666519019753,
+        "p95": 0.010304041745257564
+      },
+      "inference_fps": 99.54761083715194,
+      "pipeline_fps": 95.97534507569368,
+      "elapsed_seconds": 0.3750963330385275,
+      "annotated_video": "/Users/tabbasi/Downloads/IndustrialAI/outputs/new-footage/run-c6drqth3/fire_smoke/22-22-R09.mp4",
+      "temporal_scoring": "not_applicable_time_lapse",
+      "publisher_smoke_emission_label": "positive",
+      "publisher_label_state": 5,
+      "publisher_label_state_admin": 23,
+      "appearance_smoke_flag": false
+    },
+    {
+      "review_id": "R10",
+      "source_family": "rise",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/rise/2-1-2018-06-12-874-1602-1380-2108-320-320-5807-1528816535-1528816710.mp4",
+      "source_sha256": "efd1832e0e89e06d85edc752634caf78c7367784ebe067fa8f6a6d39261cc220",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/review/annotations/R10.json",
+      "annotation_sha256": "e0d7bdf2a5c06c3e0015f1d0b18fb0fb1f66e4e9704092cc7c7a2d5e200d11fa",
+      "annotation_status": "unreviewed",
+      "nominal_duration_seconds": 3.0,
+      "observed_frames": 36,
+      "first_timestamp": 0.0,
+      "last_timestamp": 2.9166666666666665,
+      "timestamp_basis": [
+        "container"
+      ],
+      "stats": {
+        "fire": {
+          "raw_boxes": 0,
+          "raw_detected_frames": 0,
+          "first_raw_candidate_seconds": null,
+          "last_raw_candidate_seconds": null,
+          "raw_confidence_range": [
+            null,
+            null
+          ]
+        },
+        "smoke": {
+          "raw_boxes": 0,
+          "raw_detected_frames": 0,
+          "first_raw_candidate_seconds": null,
+          "last_raw_candidate_seconds": null,
+          "raw_confidence_range": [
+            null,
+            null
+          ]
+        }
+      },
+      "prediction_latency_seconds": {
+        "p50": 0.010053707985207438,
+        "p95": 0.010213135508820415
+      },
+      "inference_fps": 99.69244302580726,
+      "pipeline_fps": 96.14470829713174,
+      "elapsed_seconds": 0.3744355840026401,
+      "annotated_video": "/Users/tabbasi/Downloads/IndustrialAI/outputs/new-footage/run-c6drqth3/fire_smoke/23-23-R10.mp4",
+      "temporal_scoring": "not_applicable_time_lapse",
+      "publisher_smoke_emission_label": "positive",
+      "publisher_label_state": -1,
+      "publisher_label_state_admin": 23,
+      "appearance_smoke_flag": false
+    },
+    {
+      "review_id": "R11",
+      "source_family": "rise",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/rise/2-0-2019-02-03-2617-1625-3124-2132-320-320-7349-1549227800-1549227975.mp4",
+      "source_sha256": "9b47c4ad862bb3ba827ab42241337a6597f6c2b9e6a4842a019ce8a4ce74101b",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/review/annotations/R11.json",
+      "annotation_sha256": "241409eab6a87a9cf7d08e7a235e7fef36ced6450261fc21cec34494ad1c9ee7",
+      "annotation_status": "unreviewed",
+      "nominal_duration_seconds": 3.0,
+      "observed_frames": 36,
+      "first_timestamp": 0.0,
+      "last_timestamp": 2.9166666666666665,
+      "timestamp_basis": [
+        "container"
+      ],
+      "stats": {
+        "fire": {
+          "raw_boxes": 0,
+          "raw_detected_frames": 0,
+          "first_raw_candidate_seconds": null,
+          "last_raw_candidate_seconds": null,
+          "raw_confidence_range": [
+            null,
+            null
+          ]
+        },
+        "smoke": {
+          "raw_boxes": 0,
+          "raw_detected_frames": 0,
+          "first_raw_candidate_seconds": null,
+          "last_raw_candidate_seconds": null,
+          "raw_confidence_range": [
+            null,
+            null
+          ]
+        }
+      },
+      "prediction_latency_seconds": {
+        "p50": 0.01009554200572893,
+        "p95": 0.010233291977783665
+      },
+      "inference_fps": 99.52206408329535,
+      "pipeline_fps": 95.88268229539416,
+      "elapsed_seconds": 0.37545883300481364,
+      "annotated_video": "/Users/tabbasi/Downloads/IndustrialAI/outputs/new-footage/run-c6drqth3/fire_smoke/24-24-R11.mp4",
+      "temporal_scoring": "not_applicable_time_lapse",
+      "publisher_smoke_emission_label": "negative",
+      "publisher_label_state": 16,
+      "publisher_label_state_admin": 16,
+      "appearance_smoke_flag": false
+    },
+    {
+      "review_id": "R12",
+      "source_family": "rise",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/rise/2-1-2018-06-12-874-1602-1380-2108-320-320-4691-1528809420-1528809605.mp4",
+      "source_sha256": "d10d6b00486a69619e694c35c1633c4211b12e84750682c84f573206736ab415",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/review/annotations/R12.json",
+      "annotation_sha256": "82372d654c798df16ea8991abca9f7470e81058ca542527e74b4adcce6c96843",
+      "annotation_status": "unreviewed",
+      "nominal_duration_seconds": 3.0,
+      "observed_frames": 36,
+      "first_timestamp": 0.0,
+      "last_timestamp": 2.9166666666666665,
+      "timestamp_basis": [
+        "container"
+      ],
+      "stats": {
+        "fire": {
+          "raw_boxes": 0,
+          "raw_detected_frames": 0,
+          "first_raw_candidate_seconds": null,
+          "last_raw_candidate_seconds": null,
+          "raw_confidence_range": [
+            null,
+            null
+          ]
+        },
+        "smoke": {
+          "raw_boxes": 0,
+          "raw_detected_frames": 0,
+          "first_raw_candidate_seconds": null,
+          "last_raw_candidate_seconds": null,
+          "raw_confidence_range": [
+            null,
+            null
+          ]
+        }
+      },
+      "prediction_latency_seconds": {
+        "p50": 0.010094478988321498,
+        "p95": 0.01023316649661865
+      },
+      "inference_fps": 99.30205826185167,
+      "pipeline_fps": 95.74850060724508,
+      "elapsed_seconds": 0.3759849999914877,
+      "annotated_video": "/Users/tabbasi/Downloads/IndustrialAI/outputs/new-footage/run-c6drqth3/fire_smoke/25-25-R12.mp4",
+      "temporal_scoring": "not_applicable_time_lapse",
+      "publisher_smoke_emission_label": "negative",
+      "publisher_label_state": -1,
+      "publisher_label_state_admin": 16,
+      "appearance_smoke_flag": false
+    }
+  ],
+  "prediction_latency_seconds": {
+    "p50": 0.008796583977527916,
+    "p95": 0.01066829200135544
+  },
+  "source_queue_sha256": "0bf79b3e8f0fb384a23e536d6e0b7fa849567306d60ffeaa29d3c29e2d4176e3",
+  "run_provenance": [
+    {
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/new-footage/run-c6drqth3",
+      "metadata": {
+        "status": "complete",
+        "configuration": {
+          "device": "mps",
+          "confidence": 0.25,
+          "imgsz": 640,
+          "stride": 1,
+          "max_frames": 2000,
+          "timestamp_source": "container"
+        },
+        "source_hashes": {
+          "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/workplace/0_te23.mp4": "e2c053d84413775e6becaf0dc2a1dd69cbfbb47a5747704345ede650d1987a7f",
+          "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/workplace/1_te11.mp4": "c0bc265f24fc1b970a1cb49f2050ca092857e4f4c987f71d8f717d90bdf455e8",
+          "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/workplace/2_te12.mp4": "d41907f5de114dc6c7af495e101d0b29a917f843d3a609b1b91f237d7089d595",
+          "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/workplace/3_te8.mp4": "0f2dd18398bce85d48caa69fa2339129794110a82e83e060983860613be621ce",
+          "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/workplace/4_te5.mp4": "e1625075af049a642505e815cbf3243499fcdc136422c2ecf5725cab5c4bc9eb",
+          "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/workplace/5_te13.mp4": "8dfdf568985de2ad21aa68389ab08de7c337ccc5fda3fea9111b2361cccb15bd",
+          "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/workplace/6_te12.mp4": "8c68b419e195b935e59ca962fad427fff9bede854184d2d9652172b259ef3b8a",
+          "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/workplace/7_te4.mp4": "edffc7547cd187b138e05c92440732e8ada60fe96061d90b9b0022ba4065a48d",
+          "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/bilkent/sEmptyR1.avi": "ca7167b18899071ff9b672251fd0d4413a7c708c731aee5d7fad70bd80283e61",
+          "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/bilkent/sEmptyR2.avi": "865fb88dd2b1913b6e0434e9a249ef6c14cb91c57e9b3c43c32f1d3062ad6349",
+          "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/bilkent/sBehindtheFence.avi": "2f06938f7be9b7d29c1931a24c8f6c44b124f37667e3a1606cbf5c51f4076c74",
+          "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/bilkent/sBtFence2.avi": "57fe9ff477c3626a5034cc6448a04218bf7f0cf336a9cd7733c24dafef3dee62",
+          "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/bilkent/sParkingLot.avi": "b9fabc240b238bb416b107175e6884e5e29da81a7e0c3424baf36416d4bef4f4",
+          "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/bilkent/sWasteBasket.avi": "dc97293166e64144b13175ebffdacbb5d43e872c4b37290253fd40c0a42adbc7",
+          "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/rise/0-7-2019-01-18-3544-899-4026-1381-320-320-7989-1547835180-1547835355.mp4": "1b9785345b06b6c73f6847647a664068ed35a35c829a8c38937e5a85d2536be6",
+          "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/rise/0-1-2019-01-17-6007-928-6509-1430-320-320-4662-1547736675-1547736850.mp4": "59141aaa9ff7ceba45d0703323e483daf1375266a6edfe423fba2b4d033c420b",
+          "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/rise/0-12-2019-02-02-1626-1015-2129-1518-320-320-8513-1549135470-1549135645.mp4": "e318d1e095886a1941a4172c23e532f08c2f006d1a1b071dd524831cee6aa4e6",
+          "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/rise/0-5-2018-10-07-4365-994-4867-1496-320-320-5237-1538921000-1538921175.mp4": "befcccd902bd7e8b62b584b0afd7c2ab13f184768ac7013ff98df272d93aef55",
+          "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/rise/1-0-2019-02-03-3018-478-3536-996-320-320-8637-1549220140-1549220315.mp4": "56ddc16ae7d02de7d6ba602ee2c265c3bdc4d962d21f61ba7be46029289d106b",
+          "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/rise/1-0-2019-02-04-3018-478-3536-996-320-320-9191-1549308890-1549309065.mp4": "03b8fc699f36ea07d324a25f7b0d6e1de190f0fc36fc73b7f028b6bdfc2421bf",
+          "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/rise/1-0-2019-02-03-3018-478-3536-996-320-320-11373-1549234060-1549234235.mp4": "39c1bcc747c00da5d871534de57839f8e46d463980d07d697233bd4ca973eed0",
+          "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/rise/1-0-2019-02-02-3018-478-3536-996-320-320-8862-1549133815-1549133990.mp4": "2009f33ab0680527b35ed6512140dc7c8c22a43aa143fa18f1e14b78851b3db7",
+          "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/rise/2-0-2019-02-03-2617-1625-3124-2132-320-320-5765-1549217710-1549217885.mp4": "ba8a721da67eea5e85c910a3878f3c48d97d29d98757468a3fd4259a536f6e30",
+          "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/rise/2-1-2018-06-12-874-1602-1380-2108-320-320-5807-1528816535-1528816710.mp4": "efd1832e0e89e06d85edc752634caf78c7367784ebe067fa8f6a6d39261cc220",
+          "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/rise/2-0-2019-02-03-2617-1625-3124-2132-320-320-7349-1549227800-1549227975.mp4": "9b47c4ad862bb3ba827ab42241337a6597f6c2b9e6a4842a019ce8a4ce74101b",
+          "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/rise/2-1-2018-06-12-874-1602-1380-2108-320-320-4691-1528809420-1528809605.mp4": "d10d6b00486a69619e694c35c1633c4211b12e84750682c84f573206736ab415"
+        },
+        "checkpoints": {
+          "fire_smoke": {
+            "path": "/Users/tabbasi/.cache/huggingface/hub/blobs/d0/d0808d193c3652bc5025e59587e6b925824970c9f8a534d3a94a5b94f88ab528",
+            "sha256": "b91633799ceb052c814b4f8b77a37efc9a40f002d528df97d74463585fa4f28f"
+          }
+        },
+        "code_hashes": {
+          "/Users/tabbasi/Downloads/IndustrialAI/evaluate.py": "12cdcabf945a364117730522b239db5d8e1e7e698da3ebc64d01b2b876598545"
+        },
+        "versions": {
+          "ultralytics": "8.4.183",
+          "torch": "2.14.1",
+          "opencv-python": "4.14.0.94"
+        },
+        "artifacts": {
+          "detections.csv": "5b74485a77ffbb24552bce959c666b7b0a2a66281f014010101e8a166517d093",
+          "frames.csv": "d755d9d1ee9b9bffb85e33b663148693c6ec294ff503376cd1d3ac73c3b01922",
+          "summary.json": "6623bcbe3572228e66cd2b4931a60386a920d1f7a3a874427b456870e25e3c69"
+        }
+      }
+    }
+  ],
+  "analysis_code_hashes": {
+    "scripts/run_benchmark.py": "380293e1071c2bd6a48502be57108bce3b85654a09320140642ba2e809d2bbe1",
+    "scripts/benchmark_data.py": "6b76fddc6a0aadded948e731dc1e0c1bcf0607c98188b115fb028b94600078ed",
+    "scripts/benchmark_events.py": "14d12acd70aa2be5f6849e36621941b8400c5a4d2b4e7d57d971882e18906d14",
+    "temporal.py": "1a7f09175bb7e400ea973b2de064ed341777dcb92efde15fe1a72e5472a72d2a"
+  },
+  "limitations": [
+    "Primary event/box labels remain unreviewed: no precision/recall or false-alert-rate calculation",
+    "Time-lapse clips excluded from temporal scoring and camera-hour exposure",
+    "Public source training overlap unknown; one factory site and short clips are not independent production validation",
+    "Candidate event intervals merge gaps up to two seconds; event bounds do not mean a box appeared on every intervening frame"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "status": "passed_for_artifact_integrity",
+  "screens": 14,
+  "desktop": 13,
+  "narrow_screen": 1,
+  "all_pngs_decodable": true,
+  "all_hashes_match": true,
+  "all_local_index_links_exist": true,
+  "application_built": false,
+  "interactive_accessibility_verified": false,
+  "model_accuracy_retested": false,
+  "review_notes": "Static design review with shared implementation contracts; small raster inconsistencies are listed in interaction-spec.md"
+}

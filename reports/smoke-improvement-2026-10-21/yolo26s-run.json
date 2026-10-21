@@ -1,0 +1,20 @@
+{
+  "model": {
+    "model_id": "yolo26s-alternative",
+    "repository": "Beehzod/yolov26-fire-smoke-detection",
+    "revision": "6443bc2577f92db13ee3301a34224f6b87f2415e",
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/model-candidates-2026-10-21/yolo26s-alternative.pt",
+    "sha256": "283c996482e26013f6e60559ad25c49f38f3aa9937961c8c33aaa7d0fc8d1d59",
+    "classes": {
+      "0": "Fire",
+      "1": "Smoke"
+    },
+    "canonical_mapping": {
+      "Fire": "fire",
+      "Smoke": "smoke"
+    },
+    "parameters": 9949412,
+    "actual_bytes": 20319173
+  },
+  "run": "/Users/tabbasi/Downloads/IndustrialAI/outputs/smoke-model-comparison/run-dvrurphm"
+}

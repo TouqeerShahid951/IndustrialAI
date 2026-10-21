@@ -1,0 +1,1707 @@
+{
+  "scope": "Diagnostic replays on development clips; not parameter selection or independent validation",
+  "baseline_report_sha256": "b1c76420b7acc1cd35627af6db1628f671a800f7059c463add46d0ffa733e109",
+  "fixed_settings": {
+    "min_hits": 3,
+    "window_seconds": 2,
+    "overlap": 0.1
+  },
+  "original_log_one_factor_replays": [
+    {
+      "confidence": 0.25,
+      "min_span_seconds": 1,
+      "score": {
+        "TP": 0,
+        "FP": 1,
+        "FN": 1,
+        "event_recall": 0.0,
+        "event_precision": 0.0,
+        "negative_seconds": 102.79166666666666,
+        "false_events_per_camera_hour": 35.022294284556146,
+        "confirmation_delays_seconds": [],
+        "confirmation_delay_seconds": {
+          "p50": null,
+          "p95": null
+        },
+        "excluded_predictions": 2,
+        "excluded_seconds": 82.73333333333333,
+        "ambiguous_seconds": 42.66666666666667,
+        "unmonitored_seconds": 40.06666666666667
+      },
+      "clips": [
+        {
+          "clip_id": "clip-001",
+          "events": [],
+          "score": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "event_recall": null,
+            "event_precision": null,
+            "negative_seconds": 7.125,
+            "false_events_per_camera_hour": 0.0,
+            "confirmation_delays_seconds": [],
+            "confirmation_delay_seconds": {
+              "p50": null,
+              "p95": null
+            },
+            "excluded_predictions": 0,
+            "excluded_seconds": 0,
+            "ambiguous_seconds": 0,
+            "unmonitored_seconds": 0
+          }
+        },
+        {
+          "clip_id": "clip-002",
+          "events": [],
+          "score": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "event_recall": null,
+            "event_precision": null,
+            "negative_seconds": 22.083333333333332,
+            "false_events_per_camera_hour": 0.0,
+            "confirmation_delays_seconds": [],
+            "confirmation_delay_seconds": {
+              "p50": null,
+              "p95": null
+            },
+            "excluded_predictions": 0,
+            "excluded_seconds": 0,
+            "ambiguous_seconds": 0,
+            "unmonitored_seconds": 0
+          }
+        },
+        {
+          "clip_id": "clip-003",
+          "events": [
+            {
+              "clip_id": "clip-003",
+              "kind": "smoke",
+              "start_seconds": 14.833333333333332,
+              "end_seconds": 16.083333333333332
+            }
+          ],
+          "score": {
+            "TP": 0,
+            "FP": 1,
+            "FN": 0,
+            "event_recall": null,
+            "event_precision": 0.0,
+            "negative_seconds": 35.916666666666664,
+            "false_events_per_camera_hour": 100.23201856148492,
+            "confirmation_delays_seconds": [],
+            "confirmation_delay_seconds": {
+              "p50": null,
+              "p95": null
+            },
+            "excluded_predictions": 0,
+            "excluded_seconds": 0,
+            "ambiguous_seconds": 0,
+            "unmonitored_seconds": 0
+          }
+        },
+        {
+          "clip_id": "clip-004",
+          "events": [],
+          "score": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "event_recall": null,
+            "event_precision": null,
+            "negative_seconds": 37.666666666666664,
+            "false_events_per_camera_hour": 0.0,
+            "confirmation_delays_seconds": [],
+            "confirmation_delay_seconds": {
+              "p50": null,
+              "p95": null
+            },
+            "excluded_predictions": 0,
+            "excluded_seconds": 0,
+            "ambiguous_seconds": 0,
+            "unmonitored_seconds": 0
+          }
+        },
+        {
+          "clip_id": "clip-005",
+          "events": [],
+          "score": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "event_recall": null,
+            "event_precision": null,
+            "negative_seconds": 0,
+            "false_events_per_camera_hour": null,
+            "confirmation_delays_seconds": [],
+            "confirmation_delay_seconds": {
+              "p50": null,
+              "p95": null
+            },
+            "excluded_predictions": 0,
+            "excluded_seconds": 12.866666666666667,
+            "ambiguous_seconds": 12.866666666666667,
+            "unmonitored_seconds": 0
+          }
+        },
+        {
+          "clip_id": "clip-006",
+          "events": [
+            {
+              "clip_id": "clip-006",
+              "kind": "smoke",
+              "start_seconds": 18.1,
+              "end_seconds": 18.133333333333333
+            },
+            {
+              "clip_id": "clip-006",
+              "kind": "smoke",
+              "start_seconds": 23.8,
+              "end_seconds": 28.5
+            }
+          ],
+          "score": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "event_recall": null,
+            "event_precision": null,
+            "negative_seconds": 0,
+            "false_events_per_camera_hour": null,
+            "confirmation_delays_seconds": [],
+            "confirmation_delay_seconds": {
+              "p50": null,
+              "p95": null
+            },
+            "excluded_predictions": 2,
+            "excluded_seconds": 29.8,
+            "ambiguous_seconds": 29.8,
+            "unmonitored_seconds": 0
+          }
+        },
+        {
+          "clip_id": "clip-007",
+          "events": [],
+          "score": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 1,
+            "event_recall": 0.0,
+            "event_precision": null,
+            "negative_seconds": 0,
+            "false_events_per_camera_hour": null,
+            "confirmation_delays_seconds": [],
+            "confirmation_delay_seconds": {
+              "p50": null,
+              "p95": null
+            },
+            "excluded_predictions": 0,
+            "excluded_seconds": 40.06666666666667,
+            "ambiguous_seconds": 0,
+            "unmonitored_seconds": 40.06666666666667
+          }
+        }
+      ]
+    },
+    {
+      "confidence": 0.25,
+      "min_span_seconds": 0.75,
+      "score": {
+        "TP": 0,
+        "FP": 1,
+        "FN": 1,
+        "event_recall": 0.0,
+        "event_precision": 0.0,
+        "negative_seconds": 102.79166666666666,
+        "false_events_per_camera_hour": 35.022294284556146,
+        "confirmation_delays_seconds": [],
+        "confirmation_delay_seconds": {
+          "p50": null,
+          "p95": null
+        },
+        "excluded_predictions": 3,
+        "excluded_seconds": 82.73333333333333,
+        "ambiguous_seconds": 42.66666666666667,
+        "unmonitored_seconds": 40.06666666666667
+      },
+      "clips": [
+        {
+          "clip_id": "clip-001",
+          "events": [],
+          "score": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "event_recall": null,
+            "event_precision": null,
+            "negative_seconds": 7.125,
+            "false_events_per_camera_hour": 0.0,
+            "confirmation_delays_seconds": [],
+            "confirmation_delay_seconds": {
+              "p50": null,
+              "p95": null
+            },
+            "excluded_predictions": 0,
+            "excluded_seconds": 0,
+            "ambiguous_seconds": 0,
+            "unmonitored_seconds": 0
+          }
+        },
+        {
+          "clip_id": "clip-002",
+          "events": [],
+          "score": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "event_recall": null,
+            "event_precision": null,
+            "negative_seconds": 22.083333333333332,
+            "false_events_per_camera_hour": 0.0,
+            "confirmation_delays_seconds": [],
+            "confirmation_delay_seconds": {
+              "p50": null,
+              "p95": null
+            },
+            "excluded_predictions": 0,
+            "excluded_seconds": 0,
+            "ambiguous_seconds": 0,
+            "unmonitored_seconds": 0
+          }
+        },
+        {
+          "clip_id": "clip-003",
+          "events": [
+            {
+              "clip_id": "clip-003",
+              "kind": "smoke",
+              "start_seconds": 14.583333333333332,
+              "end_seconds": 16.083333333333332
+            }
+          ],
+          "score": {
+            "TP": 0,
+            "FP": 1,
+            "FN": 0,
+            "event_recall": null,
+            "event_precision": 0.0,
+            "negative_seconds": 35.916666666666664,
+            "false_events_per_camera_hour": 100.23201856148492,
+            "confirmation_delays_seconds": [],
+            "confirmation_delay_seconds": {
+              "p50": null,
+              "p95": null
+            },
+            "excluded_predictions": 0,
+            "excluded_seconds": 0,
+            "ambiguous_seconds": 0,
+            "unmonitored_seconds": 0
+          }
+        },
+        {
+          "clip_id": "clip-004",
+          "events": [],
+          "score": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "event_recall": null,
+            "event_precision": null,
+            "negative_seconds": 37.666666666666664,
+            "false_events_per_camera_hour": 0.0,
+            "confirmation_delays_seconds": [],
+            "confirmation_delay_seconds": {
+              "p50": null,
+              "p95": null
+            },
+            "excluded_predictions": 0,
+            "excluded_seconds": 0,
+            "ambiguous_seconds": 0,
+            "unmonitored_seconds": 0
+          }
+        },
+        {
+          "clip_id": "clip-005",
+          "events": [],
+          "score": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "event_recall": null,
+            "event_precision": null,
+            "negative_seconds": 0,
+            "false_events_per_camera_hour": null,
+            "confirmation_delays_seconds": [],
+            "confirmation_delay_seconds": {
+              "p50": null,
+              "p95": null
+            },
+            "excluded_predictions": 0,
+            "excluded_seconds": 12.866666666666667,
+            "ambiguous_seconds": 12.866666666666667,
+            "unmonitored_seconds": 0
+          }
+        },
+        {
+          "clip_id": "clip-006",
+          "events": [
+            {
+              "clip_id": "clip-006",
+              "kind": "smoke",
+              "start_seconds": 13.166666666666666,
+              "end_seconds": 13.299999999999999
+            },
+            {
+              "clip_id": "clip-006",
+              "kind": "smoke",
+              "start_seconds": 18.1,
+              "end_seconds": 18.133333333333333
+            },
+            {
+              "clip_id": "clip-006",
+              "kind": "smoke",
+              "start_seconds": 23.266666666666666,
+              "end_seconds": 28.5
+            }
+          ],
+          "score": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "event_recall": null,
+            "event_precision": null,
+            "negative_seconds": 0,
+            "false_events_per_camera_hour": null,
+            "confirmation_delays_seconds": [],
+            "confirmation_delay_seconds": {
+              "p50": null,
+              "p95": null
+            },
+            "excluded_predictions": 3,
+            "excluded_seconds": 29.8,
+            "ambiguous_seconds": 29.8,
+            "unmonitored_seconds": 0
+          }
+        },
+        {
+          "clip_id": "clip-007",
+          "events": [],
+          "score": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 1,
+            "event_recall": 0.0,
+            "event_precision": null,
+            "negative_seconds": 0,
+            "false_events_per_camera_hour": null,
+            "confirmation_delays_seconds": [],
+            "confirmation_delay_seconds": {
+              "p50": null,
+              "p95": null
+            },
+            "excluded_predictions": 0,
+            "excluded_seconds": 40.06666666666667,
+            "ambiguous_seconds": 0,
+            "unmonitored_seconds": 40.06666666666667
+          }
+        }
+      ]
+    },
+    {
+      "confidence": 0.25,
+      "min_span_seconds": 0.5,
+      "score": {
+        "TP": 0,
+        "FP": 2,
+        "FN": 1,
+        "event_recall": 0.0,
+        "event_precision": 0.0,
+        "negative_seconds": 102.79166666666666,
+        "false_events_per_camera_hour": 70.04458856911229,
+        "confirmation_delays_seconds": [],
+        "confirmation_delay_seconds": {
+          "p50": null,
+          "p95": null
+        },
+        "excluded_predictions": 3,
+        "excluded_seconds": 82.73333333333333,
+        "ambiguous_seconds": 42.66666666666667,
+        "unmonitored_seconds": 40.06666666666667
+      },
+      "clips": [
+        {
+          "clip_id": "clip-001",
+          "events": [],
+          "score": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "event_recall": null,
+            "event_precision": null,
+            "negative_seconds": 7.125,
+            "false_events_per_camera_hour": 0.0,
+            "confirmation_delays_seconds": [],
+            "confirmation_delay_seconds": {
+              "p50": null,
+              "p95": null
+            },
+            "excluded_predictions": 0,
+            "excluded_seconds": 0,
+            "ambiguous_seconds": 0,
+            "unmonitored_seconds": 0
+          }
+        },
+        {
+          "clip_id": "clip-002",
+          "events": [],
+          "score": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "event_recall": null,
+            "event_precision": null,
+            "negative_seconds": 22.083333333333332,
+            "false_events_per_camera_hour": 0.0,
+            "confirmation_delays_seconds": [],
+            "confirmation_delay_seconds": {
+              "p50": null,
+              "p95": null
+            },
+            "excluded_predictions": 0,
+            "excluded_seconds": 0,
+            "ambiguous_seconds": 0,
+            "unmonitored_seconds": 0
+          }
+        },
+        {
+          "clip_id": "clip-003",
+          "events": [
+            {
+              "clip_id": "clip-003",
+              "kind": "smoke",
+              "start_seconds": 14.333333333333332,
+              "end_seconds": 16.083333333333332
+            },
+            {
+              "clip_id": "clip-003",
+              "kind": "smoke",
+              "start_seconds": 24.541666666666664,
+              "end_seconds": 24.666666666666664
+            }
+          ],
+          "score": {
+            "TP": 0,
+            "FP": 2,
+            "FN": 0,
+            "event_recall": null,
+            "event_precision": 0.0,
+            "negative_seconds": 35.916666666666664,
+            "false_events_per_camera_hour": 200.46403712296984,
+            "confirmation_delays_seconds": [],
+            "confirmation_delay_seconds": {
+              "p50": null,
+              "p95": null
+            },
+            "excluded_predictions": 0,
+            "excluded_seconds": 0,
+            "ambiguous_seconds": 0,
+            "unmonitored_seconds": 0
+          }
+        },
+        {
+          "clip_id": "clip-004",
+          "events": [],
+          "score": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "event_recall": null,
+            "event_precision": null,
+            "negative_seconds": 37.666666666666664,
+            "false_events_per_camera_hour": 0.0,
+            "confirmation_delays_seconds": [],
+            "confirmation_delay_seconds": {
+              "p50": null,
+              "p95": null
+            },
+            "excluded_predictions": 0,
+            "excluded_seconds": 0,
+            "ambiguous_seconds": 0,
+            "unmonitored_seconds": 0
+          }
+        },
+        {
+          "clip_id": "clip-005",
+          "events": [],
+          "score": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "event_recall": null,
+            "event_precision": null,
+            "negative_seconds": 0,
+            "false_events_per_camera_hour": null,
+            "confirmation_delays_seconds": [],
+            "confirmation_delay_seconds": {
+              "p50": null,
+              "p95": null
+            },
+            "excluded_predictions": 0,
+            "excluded_seconds": 12.866666666666667,
+            "ambiguous_seconds": 12.866666666666667,
+            "unmonitored_seconds": 0
+          }
+        },
+        {
+          "clip_id": "clip-006",
+          "events": [
+            {
+              "clip_id": "clip-006",
+              "kind": "smoke",
+              "start_seconds": 12.966666666666667,
+              "end_seconds": 13.299999999999999
+            },
+            {
+              "clip_id": "clip-006",
+              "kind": "smoke",
+              "start_seconds": 17.1,
+              "end_seconds": 18.133333333333333
+            },
+            {
+              "clip_id": "clip-006",
+              "kind": "smoke",
+              "start_seconds": 21.933333333333334,
+              "end_seconds": 28.5
+            }
+          ],
+          "score": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "event_recall": null,
+            "event_precision": null,
+            "negative_seconds": 0,
+            "false_events_per_camera_hour": null,
+            "confirmation_delays_seconds": [],
+            "confirmation_delay_seconds": {
+              "p50": null,
+              "p95": null
+            },
+            "excluded_predictions": 3,
+            "excluded_seconds": 29.8,
+            "ambiguous_seconds": 29.8,
+            "unmonitored_seconds": 0
+          }
+        },
+        {
+          "clip_id": "clip-007",
+          "events": [],
+          "score": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 1,
+            "event_recall": 0.0,
+            "event_precision": null,
+            "negative_seconds": 0,
+            "false_events_per_camera_hour": null,
+            "confirmation_delays_seconds": [],
+            "confirmation_delay_seconds": {
+              "p50": null,
+              "p95": null
+            },
+            "excluded_predictions": 0,
+            "excluded_seconds": 40.06666666666667,
+            "ambiguous_seconds": 0,
+            "unmonitored_seconds": 40.06666666666667
+          }
+        }
+      ]
+    },
+    {
+      "confidence": 0.25,
+      "min_span_seconds": 0.25,
+      "score": {
+        "TP": 1,
+        "FP": 2,
+        "FN": 0,
+        "event_recall": 1.0,
+        "event_precision": 0.3333333333333333,
+        "negative_seconds": 102.79166666666666,
+        "false_events_per_camera_hour": 70.04458856911229,
+        "confirmation_delays_seconds": [
+          1.3666666666666671
+        ],
+        "confirmation_delay_seconds": {
+          "p50": 1.3666666666666671,
+          "p95": 1.3666666666666671
+        },
+        "excluded_predictions": 3,
+        "excluded_seconds": 82.73333333333333,
+        "ambiguous_seconds": 42.66666666666667,
+        "unmonitored_seconds": 40.06666666666667
+      },
+      "clips": [
+        {
+          "clip_id": "clip-001",
+          "events": [],
+          "score": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "event_recall": null,
+            "event_precision": null,
+            "negative_seconds": 7.125,
+            "false_events_per_camera_hour": 0.0,
+            "confirmation_delays_seconds": [],
+            "confirmation_delay_seconds": {
+              "p50": null,
+              "p95": null
+            },
+            "excluded_predictions": 0,
+            "excluded_seconds": 0,
+            "ambiguous_seconds": 0,
+            "unmonitored_seconds": 0
+          }
+        },
+        {
+          "clip_id": "clip-002",
+          "events": [],
+          "score": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "event_recall": null,
+            "event_precision": null,
+            "negative_seconds": 22.083333333333332,
+            "false_events_per_camera_hour": 0.0,
+            "confirmation_delays_seconds": [],
+            "confirmation_delay_seconds": {
+              "p50": null,
+              "p95": null
+            },
+            "excluded_predictions": 0,
+            "excluded_seconds": 0,
+            "ambiguous_seconds": 0,
+            "unmonitored_seconds": 0
+          }
+        },
+        {
+          "clip_id": "clip-003",
+          "events": [
+            {
+              "clip_id": "clip-003",
+              "kind": "smoke",
+              "start_seconds": 14.083333333333332,
+              "end_seconds": 16.083333333333332
+            },
+            {
+              "clip_id": "clip-003",
+              "kind": "smoke",
+              "start_seconds": 24.291666666666664,
+              "end_seconds": 24.666666666666664
+            }
+          ],
+          "score": {
+            "TP": 0,
+            "FP": 2,
+            "FN": 0,
+            "event_recall": null,
+            "event_precision": 0.0,
+            "negative_seconds": 35.916666666666664,
+            "false_events_per_camera_hour": 200.46403712296984,
+            "confirmation_delays_seconds": [],
+            "confirmation_delay_seconds": {
+              "p50": null,
+              "p95": null
+            },
+            "excluded_predictions": 0,
+            "excluded_seconds": 0,
+            "ambiguous_seconds": 0,
+            "unmonitored_seconds": 0
+          }
+        },
+        {
+          "clip_id": "clip-004",
+          "events": [],
+          "score": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "event_recall": null,
+            "event_precision": null,
+            "negative_seconds": 37.666666666666664,
+            "false_events_per_camera_hour": 0.0,
+            "confirmation_delays_seconds": [],
+            "confirmation_delay_seconds": {
+              "p50": null,
+              "p95": null
+            },
+            "excluded_predictions": 0,
+            "excluded_seconds": 0,
+            "ambiguous_seconds": 0,
+            "unmonitored_seconds": 0
+          }
+        },
+        {
+          "clip_id": "clip-005",
+          "events": [],
+          "score": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "event_recall": null,
+            "event_precision": null,
+            "negative_seconds": 0,
+            "false_events_per_camera_hour": null,
+            "confirmation_delays_seconds": [],
+            "confirmation_delay_seconds": {
+              "p50": null,
+              "p95": null
+            },
+            "excluded_predictions": 0,
+            "excluded_seconds": 12.866666666666667,
+            "ambiguous_seconds": 12.866666666666667,
+            "unmonitored_seconds": 0
+          }
+        },
+        {
+          "clip_id": "clip-006",
+          "events": [
+            {
+              "clip_id": "clip-006",
+              "kind": "smoke",
+              "start_seconds": 12.666666666666666,
+              "end_seconds": 13.299999999999999
+            },
+            {
+              "clip_id": "clip-006",
+              "kind": "smoke",
+              "start_seconds": 17.03333333333333,
+              "end_seconds": 18.133333333333333
+            },
+            {
+              "clip_id": "clip-006",
+              "kind": "smoke",
+              "start_seconds": 21.7,
+              "end_seconds": 28.5
+            }
+          ],
+          "score": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "event_recall": null,
+            "event_precision": null,
+            "negative_seconds": 0,
+            "false_events_per_camera_hour": null,
+            "confirmation_delays_seconds": [],
+            "confirmation_delay_seconds": {
+              "p50": null,
+              "p95": null
+            },
+            "excluded_predictions": 3,
+            "excluded_seconds": 29.8,
+            "ambiguous_seconds": 29.8,
+            "unmonitored_seconds": 0
+          }
+        },
+        {
+          "clip_id": "clip-007",
+          "events": [
+            {
+              "clip_id": "clip-007",
+              "kind": "smoke",
+              "start_seconds": 35.36666666666667,
+              "end_seconds": 35.5
+            }
+          ],
+          "score": {
+            "TP": 1,
+            "FP": 0,
+            "FN": 0,
+            "event_recall": 1.0,
+            "event_precision": 1.0,
+            "negative_seconds": 0,
+            "false_events_per_camera_hour": null,
+            "confirmation_delays_seconds": [
+              1.3666666666666671
+            ],
+            "confirmation_delay_seconds": {
+              "p50": 1.3666666666666671,
+              "p95": 1.3666666666666671
+            },
+            "excluded_predictions": 0,
+            "excluded_seconds": 40.06666666666667,
+            "ambiguous_seconds": 0,
+            "unmonitored_seconds": 40.06666666666667
+          }
+        }
+      ]
+    },
+    {
+      "confidence": 0.3,
+      "min_span_seconds": 1,
+      "score": {
+        "TP": 0,
+        "FP": 1,
+        "FN": 1,
+        "event_recall": 0.0,
+        "event_precision": 0.0,
+        "negative_seconds": 102.79166666666666,
+        "false_events_per_camera_hour": 35.022294284556146,
+        "confirmation_delays_seconds": [],
+        "confirmation_delay_seconds": {
+          "p50": null,
+          "p95": null
+        },
+        "excluded_predictions": 2,
+        "excluded_seconds": 82.73333333333333,
+        "ambiguous_seconds": 42.66666666666667,
+        "unmonitored_seconds": 40.06666666666667
+      },
+      "clips": [
+        {
+          "clip_id": "clip-001",
+          "events": [],
+          "score": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "event_recall": null,
+            "event_precision": null,
+            "negative_seconds": 7.125,
+            "false_events_per_camera_hour": 0.0,
+            "confirmation_delays_seconds": [],
+            "confirmation_delay_seconds": {
+              "p50": null,
+              "p95": null
+            },
+            "excluded_predictions": 0,
+            "excluded_seconds": 0,
+            "ambiguous_seconds": 0,
+            "unmonitored_seconds": 0
+          }
+        },
+        {
+          "clip_id": "clip-002",
+          "events": [],
+          "score": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "event_recall": null,
+            "event_precision": null,
+            "negative_seconds": 22.083333333333332,
+            "false_events_per_camera_hour": 0.0,
+            "confirmation_delays_seconds": [],
+            "confirmation_delay_seconds": {
+              "p50": null,
+              "p95": null
+            },
+            "excluded_predictions": 0,
+            "excluded_seconds": 0,
+            "ambiguous_seconds": 0,
+            "unmonitored_seconds": 0
+          }
+        },
+        {
+          "clip_id": "clip-003",
+          "events": [
+            {
+              "clip_id": "clip-003",
+              "kind": "smoke",
+              "start_seconds": 14.833333333333332,
+              "end_seconds": 16.041666666666664
+            }
+          ],
+          "score": {
+            "TP": 0,
+            "FP": 1,
+            "FN": 0,
+            "event_recall": null,
+            "event_precision": 0.0,
+            "negative_seconds": 35.916666666666664,
+            "false_events_per_camera_hour": 100.23201856148492,
+            "confirmation_delays_seconds": [],
+            "confirmation_delay_seconds": {
+              "p50": null,
+              "p95": null
+            },
+            "excluded_predictions": 0,
+            "excluded_seconds": 0,
+            "ambiguous_seconds": 0,
+            "unmonitored_seconds": 0
+          }
+        },
+        {
+          "clip_id": "clip-004",
+          "events": [],
+          "score": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "event_recall": null,
+            "event_precision": null,
+            "negative_seconds": 37.666666666666664,
+            "false_events_per_camera_hour": 0.0,
+            "confirmation_delays_seconds": [],
+            "confirmation_delay_seconds": {
+              "p50": null,
+              "p95": null
+            },
+            "excluded_predictions": 0,
+            "excluded_seconds": 0,
+            "ambiguous_seconds": 0,
+            "unmonitored_seconds": 0
+          }
+        },
+        {
+          "clip_id": "clip-005",
+          "events": [],
+          "score": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "event_recall": null,
+            "event_precision": null,
+            "negative_seconds": 0,
+            "false_events_per_camera_hour": null,
+            "confirmation_delays_seconds": [],
+            "confirmation_delay_seconds": {
+              "p50": null,
+              "p95": null
+            },
+            "excluded_predictions": 0,
+            "excluded_seconds": 12.866666666666667,
+            "ambiguous_seconds": 12.866666666666667,
+            "unmonitored_seconds": 0
+          }
+        },
+        {
+          "clip_id": "clip-006",
+          "events": [
+            {
+              "clip_id": "clip-006",
+              "kind": "smoke",
+              "start_seconds": 18.1,
+              "end_seconds": 18.133333333333333
+            },
+            {
+              "clip_id": "clip-006",
+              "kind": "smoke",
+              "start_seconds": 27.5,
+              "end_seconds": 27.633333333333333
+            }
+          ],
+          "score": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "event_recall": null,
+            "event_precision": null,
+            "negative_seconds": 0,
+            "false_events_per_camera_hour": null,
+            "confirmation_delays_seconds": [],
+            "confirmation_delay_seconds": {
+              "p50": null,
+              "p95": null
+            },
+            "excluded_predictions": 2,
+            "excluded_seconds": 29.8,
+            "ambiguous_seconds": 29.8,
+            "unmonitored_seconds": 0
+          }
+        },
+        {
+          "clip_id": "clip-007",
+          "events": [],
+          "score": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 1,
+            "event_recall": 0.0,
+            "event_precision": null,
+            "negative_seconds": 0,
+            "false_events_per_camera_hour": null,
+            "confirmation_delays_seconds": [],
+            "confirmation_delay_seconds": {
+              "p50": null,
+              "p95": null
+            },
+            "excluded_predictions": 0,
+            "excluded_seconds": 40.06666666666667,
+            "ambiguous_seconds": 0,
+            "unmonitored_seconds": 40.06666666666667
+          }
+        }
+      ]
+    },
+    {
+      "confidence": 0.35,
+      "min_span_seconds": 1,
+      "score": {
+        "TP": 0,
+        "FP": 1,
+        "FN": 1,
+        "event_recall": 0.0,
+        "event_precision": 0.0,
+        "negative_seconds": 102.79166666666666,
+        "false_events_per_camera_hour": 35.022294284556146,
+        "confirmation_delays_seconds": [],
+        "confirmation_delay_seconds": {
+          "p50": null,
+          "p95": null
+        },
+        "excluded_predictions": 1,
+        "excluded_seconds": 82.73333333333333,
+        "ambiguous_seconds": 42.66666666666667,
+        "unmonitored_seconds": 40.06666666666667
+      },
+      "clips": [
+        {
+          "clip_id": "clip-001",
+          "events": [],
+          "score": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "event_recall": null,
+            "event_precision": null,
+            "negative_seconds": 7.125,
+            "false_events_per_camera_hour": 0.0,
+            "confirmation_delays_seconds": [],
+            "confirmation_delay_seconds": {
+              "p50": null,
+              "p95": null
+            },
+            "excluded_predictions": 0,
+            "excluded_seconds": 0,
+            "ambiguous_seconds": 0,
+            "unmonitored_seconds": 0
+          }
+        },
+        {
+          "clip_id": "clip-002",
+          "events": [],
+          "score": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "event_recall": null,
+            "event_precision": null,
+            "negative_seconds": 22.083333333333332,
+            "false_events_per_camera_hour": 0.0,
+            "confirmation_delays_seconds": [],
+            "confirmation_delay_seconds": {
+              "p50": null,
+              "p95": null
+            },
+            "excluded_predictions": 0,
+            "excluded_seconds": 0,
+            "ambiguous_seconds": 0,
+            "unmonitored_seconds": 0
+          }
+        },
+        {
+          "clip_id": "clip-003",
+          "events": [
+            {
+              "clip_id": "clip-003",
+              "kind": "smoke",
+              "start_seconds": 14.833333333333332,
+              "end_seconds": 16.041666666666664
+            }
+          ],
+          "score": {
+            "TP": 0,
+            "FP": 1,
+            "FN": 0,
+            "event_recall": null,
+            "event_precision": 0.0,
+            "negative_seconds": 35.916666666666664,
+            "false_events_per_camera_hour": 100.23201856148492,
+            "confirmation_delays_seconds": [],
+            "confirmation_delay_seconds": {
+              "p50": null,
+              "p95": null
+            },
+            "excluded_predictions": 0,
+            "excluded_seconds": 0,
+            "ambiguous_seconds": 0,
+            "unmonitored_seconds": 0
+          }
+        },
+        {
+          "clip_id": "clip-004",
+          "events": [],
+          "score": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "event_recall": null,
+            "event_precision": null,
+            "negative_seconds": 37.666666666666664,
+            "false_events_per_camera_hour": 0.0,
+            "confirmation_delays_seconds": [],
+            "confirmation_delay_seconds": {
+              "p50": null,
+              "p95": null
+            },
+            "excluded_predictions": 0,
+            "excluded_seconds": 0,
+            "ambiguous_seconds": 0,
+            "unmonitored_seconds": 0
+          }
+        },
+        {
+          "clip_id": "clip-005",
+          "events": [],
+          "score": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "event_recall": null,
+            "event_precision": null,
+            "negative_seconds": 0,
+            "false_events_per_camera_hour": null,
+            "confirmation_delays_seconds": [],
+            "confirmation_delay_seconds": {
+              "p50": null,
+              "p95": null
+            },
+            "excluded_predictions": 0,
+            "excluded_seconds": 12.866666666666667,
+            "ambiguous_seconds": 12.866666666666667,
+            "unmonitored_seconds": 0
+          }
+        },
+        {
+          "clip_id": "clip-006",
+          "events": [
+            {
+              "clip_id": "clip-006",
+              "kind": "smoke",
+              "start_seconds": 18.1,
+              "end_seconds": 18.133333333333333
+            }
+          ],
+          "score": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "event_recall": null,
+            "event_precision": null,
+            "negative_seconds": 0,
+            "false_events_per_camera_hour": null,
+            "confirmation_delays_seconds": [],
+            "confirmation_delay_seconds": {
+              "p50": null,
+              "p95": null
+            },
+            "excluded_predictions": 1,
+            "excluded_seconds": 29.8,
+            "ambiguous_seconds": 29.8,
+            "unmonitored_seconds": 0
+          }
+        },
+        {
+          "clip_id": "clip-007",
+          "events": [],
+          "score": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 1,
+            "event_recall": 0.0,
+            "event_precision": null,
+            "negative_seconds": 0,
+            "false_events_per_camera_hour": null,
+            "confirmation_delays_seconds": [],
+            "confirmation_delay_seconds": {
+              "p50": null,
+              "p95": null
+            },
+            "excluded_predictions": 0,
+            "excluded_seconds": 40.06666666666667,
+            "ambiguous_seconds": 0,
+            "unmonitored_seconds": 40.06666666666667
+          }
+        }
+      ]
+    },
+    {
+      "confidence": 0.5,
+      "min_span_seconds": 1,
+      "score": {
+        "TP": 0,
+        "FP": 1,
+        "FN": 1,
+        "event_recall": 0.0,
+        "event_precision": 0.0,
+        "negative_seconds": 102.79166666666666,
+        "false_events_per_camera_hour": 35.022294284556146,
+        "confirmation_delays_seconds": [],
+        "confirmation_delay_seconds": {
+          "p50": null,
+          "p95": null
+        },
+        "excluded_predictions": 0,
+        "excluded_seconds": 82.73333333333333,
+        "ambiguous_seconds": 42.66666666666667,
+        "unmonitored_seconds": 40.06666666666667
+      },
+      "clips": [
+        {
+          "clip_id": "clip-001",
+          "events": [],
+          "score": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "event_recall": null,
+            "event_precision": null,
+            "negative_seconds": 7.125,
+            "false_events_per_camera_hour": 0.0,
+            "confirmation_delays_seconds": [],
+            "confirmation_delay_seconds": {
+              "p50": null,
+              "p95": null
+            },
+            "excluded_predictions": 0,
+            "excluded_seconds": 0,
+            "ambiguous_seconds": 0,
+            "unmonitored_seconds": 0
+          }
+        },
+        {
+          "clip_id": "clip-002",
+          "events": [],
+          "score": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "event_recall": null,
+            "event_precision": null,
+            "negative_seconds": 22.083333333333332,
+            "false_events_per_camera_hour": 0.0,
+            "confirmation_delays_seconds": [],
+            "confirmation_delay_seconds": {
+              "p50": null,
+              "p95": null
+            },
+            "excluded_predictions": 0,
+            "excluded_seconds": 0,
+            "ambiguous_seconds": 0,
+            "unmonitored_seconds": 0
+          }
+        },
+        {
+          "clip_id": "clip-003",
+          "events": [
+            {
+              "clip_id": "clip-003",
+              "kind": "smoke",
+              "start_seconds": 14.875,
+              "end_seconds": 16.041666666666664
+            }
+          ],
+          "score": {
+            "TP": 0,
+            "FP": 1,
+            "FN": 0,
+            "event_recall": null,
+            "event_precision": 0.0,
+            "negative_seconds": 35.916666666666664,
+            "false_events_per_camera_hour": 100.23201856148492,
+            "confirmation_delays_seconds": [],
+            "confirmation_delay_seconds": {
+              "p50": null,
+              "p95": null
+            },
+            "excluded_predictions": 0,
+            "excluded_seconds": 0,
+            "ambiguous_seconds": 0,
+            "unmonitored_seconds": 0
+          }
+        },
+        {
+          "clip_id": "clip-004",
+          "events": [],
+          "score": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "event_recall": null,
+            "event_precision": null,
+            "negative_seconds": 37.666666666666664,
+            "false_events_per_camera_hour": 0.0,
+            "confirmation_delays_seconds": [],
+            "confirmation_delay_seconds": {
+              "p50": null,
+              "p95": null
+            },
+            "excluded_predictions": 0,
+            "excluded_seconds": 0,
+            "ambiguous_seconds": 0,
+            "unmonitored_seconds": 0
+          }
+        },
+        {
+          "clip_id": "clip-005",
+          "events": [],
+          "score": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "event_recall": null,
+            "event_precision": null,
+            "negative_seconds": 0,
+            "false_events_per_camera_hour": null,
+            "confirmation_delays_seconds": [],
+            "confirmation_delay_seconds": {
+              "p50": null,
+              "p95": null
+            },
+            "excluded_predictions": 0,
+            "excluded_seconds": 12.866666666666667,
+            "ambiguous_seconds": 12.866666666666667,
+            "unmonitored_seconds": 0
+          }
+        },
+        {
+          "clip_id": "clip-006",
+          "events": [],
+          "score": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 0,
+            "event_recall": null,
+            "event_precision": null,
+            "negative_seconds": 0,
+            "false_events_per_camera_hour": null,
+            "confirmation_delays_seconds": [],
+            "confirmation_delay_seconds": {
+              "p50": null,
+              "p95": null
+            },
+            "excluded_predictions": 0,
+            "excluded_seconds": 29.8,
+            "ambiguous_seconds": 29.8,
+            "unmonitored_seconds": 0
+          }
+        },
+        {
+          "clip_id": "clip-007",
+          "events": [],
+          "score": {
+            "TP": 0,
+            "FP": 0,
+            "FN": 1,
+            "event_recall": 0.0,
+            "event_precision": null,
+            "negative_seconds": 0,
+            "false_events_per_camera_hour": null,
+            "confirmation_delays_seconds": [],
+            "confirmation_delay_seconds": {
+              "p50": null,
+              "p95": null
+            },
+            "excluded_predictions": 0,
+            "excluded_seconds": 40.06666666666667,
+            "ambiguous_seconds": 0,
+            "unmonitored_seconds": 40.06666666666667
+          }
+        }
+      ]
+    }
+  ],
+  "lower_confidence_diagnostic_replays": [
+    {
+      "clip_id": "clip-003",
+      "run": "/Users/tabbasi/Downloads/IndustrialAI/outputs/smoke-diagnostic/run-v_0wwnp4",
+      "confidence": 0.1,
+      "min_span_seconds": 1,
+      "smoke_boxes": 157,
+      "detected_frames": 124,
+      "first_candidate": 13.833333333333332,
+      "last_candidate": 34.875,
+      "events": [
+        {
+          "clip_id": "clip-003",
+          "kind": "smoke",
+          "start_seconds": 14.833333333333332,
+          "end_seconds": 17.708333333333332
+        },
+        {
+          "clip_id": "clip-003",
+          "kind": "smoke",
+          "start_seconds": 23.791666666666664,
+          "end_seconds": 25.791666666666664
+        }
+      ],
+      "score": {
+        "TP": 0,
+        "FP": 2,
+        "FN": 0,
+        "event_recall": null,
+        "event_precision": 0.0,
+        "negative_seconds": 35.916666666666664,
+        "false_events_per_camera_hour": 200.46403712296984,
+        "confirmation_delays_seconds": [],
+        "confirmation_delay_seconds": {
+          "p50": null,
+          "p95": null
+        },
+        "excluded_predictions": 0,
+        "excluded_seconds": 0,
+        "ambiguous_seconds": 0,
+        "unmonitored_seconds": 0
+      }
+    },
+    {
+      "clip_id": "clip-003",
+      "run": "/Users/tabbasi/Downloads/IndustrialAI/outputs/smoke-diagnostic/run-v_0wwnp4",
+      "confidence": 0.15,
+      "min_span_seconds": 1,
+      "smoke_boxes": 115,
+      "detected_frames": 90,
+      "first_candidate": 13.833333333333332,
+      "last_candidate": 25.333333333333332,
+      "events": [
+        {
+          "clip_id": "clip-003",
+          "kind": "smoke",
+          "start_seconds": 14.833333333333332,
+          "end_seconds": 16.25
+        },
+        {
+          "clip_id": "clip-003",
+          "kind": "smoke",
+          "start_seconds": 24.458333333333332,
+          "end_seconds": 25.375
+        }
+      ],
+      "score": {
+        "TP": 0,
+        "FP": 2,
+        "FN": 0,
+        "event_recall": null,
+        "event_precision": 0.0,
+        "negative_seconds": 35.916666666666664,
+        "false_events_per_camera_hour": 200.46403712296984,
+        "confirmation_delays_seconds": [],
+        "confirmation_delay_seconds": {
+          "p50": null,
+          "p95": null
+        },
+        "excluded_predictions": 0,
+        "excluded_seconds": 0,
+        "ambiguous_seconds": 0,
+        "unmonitored_seconds": 0
+      }
+    },
+    {
+      "clip_id": "clip-003",
+      "run": "/Users/tabbasi/Downloads/IndustrialAI/outputs/smoke-diagnostic/run-v_0wwnp4",
+      "confidence": 0.2,
+      "min_span_seconds": 1,
+      "smoke_boxes": 89,
+      "detected_frames": 75,
+      "first_candidate": 13.833333333333332,
+      "last_candidate": 24.625,
+      "events": [
+        {
+          "clip_id": "clip-003",
+          "kind": "smoke",
+          "start_seconds": 14.833333333333332,
+          "end_seconds": 16.25
+        }
+      ],
+      "score": {
+        "TP": 0,
+        "FP": 1,
+        "FN": 0,
+        "event_recall": null,
+        "event_precision": 0.0,
+        "negative_seconds": 35.916666666666664,
+        "false_events_per_camera_hour": 100.23201856148492,
+        "confirmation_delays_seconds": [],
+        "confirmation_delay_seconds": {
+          "p50": null,
+          "p95": null
+        },
+        "excluded_predictions": 0,
+        "excluded_seconds": 0,
+        "ambiguous_seconds": 0,
+        "unmonitored_seconds": 0
+      }
+    },
+    {
+      "clip_id": "clip-003",
+      "run": "/Users/tabbasi/Downloads/IndustrialAI/outputs/smoke-diagnostic/run-v_0wwnp4",
+      "confidence": 0.25,
+      "min_span_seconds": 1,
+      "smoke_boxes": 72,
+      "detected_frames": 65,
+      "first_candidate": 13.833333333333332,
+      "last_candidate": 24.625,
+      "events": [
+        {
+          "clip_id": "clip-003",
+          "kind": "smoke",
+          "start_seconds": 14.833333333333332,
+          "end_seconds": 16.083333333333332
+        }
+      ],
+      "score": {
+        "TP": 0,
+        "FP": 1,
+        "FN": 0,
+        "event_recall": null,
+        "event_precision": 0.0,
+        "negative_seconds": 35.916666666666664,
+        "false_events_per_camera_hour": 100.23201856148492,
+        "confirmation_delays_seconds": [],
+        "confirmation_delay_seconds": {
+          "p50": null,
+          "p95": null
+        },
+        "excluded_predictions": 0,
+        "excluded_seconds": 0,
+        "ambiguous_seconds": 0,
+        "unmonitored_seconds": 0
+      }
+    },
+    {
+      "clip_id": "clip-007",
+      "run": "/Users/tabbasi/Downloads/IndustrialAI/outputs/smoke-diagnostic/run-walosxyt",
+      "confidence": 0.1,
+      "min_span_seconds": 1,
+      "smoke_boxes": 30,
+      "detected_frames": 30,
+      "first_candidate": 35.0,
+      "last_candidate": 36.233333333333334,
+      "events": [
+        {
+          "clip_id": "clip-007",
+          "kind": "smoke",
+          "start_seconds": 36.0,
+          "end_seconds": 36.266666666666666
+        }
+      ],
+      "score": {
+        "TP": 1,
+        "FP": 0,
+        "FN": 0,
+        "event_recall": 1.0,
+        "event_precision": 1.0,
+        "negative_seconds": 0,
+        "false_events_per_camera_hour": null,
+        "confirmation_delays_seconds": [
+          2.0
+        ],
+        "confirmation_delay_seconds": {
+          "p50": 2.0,
+          "p95": 2.0
+        },
+        "excluded_predictions": 0,
+        "excluded_seconds": 40.06666666666667,
+        "ambiguous_seconds": 0,
+        "unmonitored_seconds": 40.06666666666667
+      }
+    },
+    {
+      "clip_id": "clip-007",
+      "run": "/Users/tabbasi/Downloads/IndustrialAI/outputs/smoke-diagnostic/run-walosxyt",
+      "confidence": 0.15,
+      "min_span_seconds": 1,
+      "smoke_boxes": 18,
+      "detected_frames": 18,
+      "first_candidate": 35.1,
+      "last_candidate": 36.03333333333333,
+      "events": [],
+      "score": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 1,
+        "event_recall": 0.0,
+        "event_precision": null,
+        "negative_seconds": 0,
+        "false_events_per_camera_hour": null,
+        "confirmation_delays_seconds": [],
+        "confirmation_delay_seconds": {
+          "p50": null,
+          "p95": null
+        },
+        "excluded_predictions": 0,
+        "excluded_seconds": 40.06666666666667,
+        "ambiguous_seconds": 0,
+        "unmonitored_seconds": 40.06666666666667
+      }
+    },
+    {
+      "clip_id": "clip-007",
+      "run": "/Users/tabbasi/Downloads/IndustrialAI/outputs/smoke-diagnostic/run-walosxyt",
+      "confidence": 0.2,
+      "min_span_seconds": 1,
+      "smoke_boxes": 15,
+      "detected_frames": 15,
+      "first_candidate": 35.1,
+      "last_candidate": 35.56666666666666,
+      "events": [],
+      "score": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 1,
+        "event_recall": 0.0,
+        "event_precision": null,
+        "negative_seconds": 0,
+        "false_events_per_camera_hour": null,
+        "confirmation_delays_seconds": [],
+        "confirmation_delay_seconds": {
+          "p50": null,
+          "p95": null
+        },
+        "excluded_predictions": 0,
+        "excluded_seconds": 40.06666666666667,
+        "ambiguous_seconds": 0,
+        "unmonitored_seconds": 40.06666666666667
+      }
+    },
+    {
+      "clip_id": "clip-007",
+      "run": "/Users/tabbasi/Downloads/IndustrialAI/outputs/smoke-diagnostic/run-walosxyt",
+      "confidence": 0.25,
+      "min_span_seconds": 1,
+      "smoke_boxes": 10,
+      "detected_frames": 10,
+      "first_candidate": 35.1,
+      "last_candidate": 35.46666666666667,
+      "events": [],
+      "score": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 1,
+        "event_recall": 0.0,
+        "event_precision": null,
+        "negative_seconds": 0,
+        "false_events_per_camera_hour": null,
+        "confirmation_delays_seconds": [],
+        "confirmation_delay_seconds": {
+          "p50": null,
+          "p95": null
+        },
+        "excluded_predictions": 0,
+        "excluded_seconds": 40.06666666666667,
+        "ambiguous_seconds": 0,
+        "unmonitored_seconds": 40.06666666666667
+      }
+    }
+  ],
+  "verification": {
+    "original_default_smoke_events_reproduced_for_all_seven": true,
+    "diagnostic_runs_hash_checked": true,
+    "diagnostic_frame_counts_complete": true
+  }
+}

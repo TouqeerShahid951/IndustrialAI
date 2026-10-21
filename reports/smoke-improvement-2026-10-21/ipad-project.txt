@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="IPAD: Industrial Process Anomaly Detection">
+  <meta name="keywords" content="Video Anomaly Detection, Dataset">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>IPAD: Industrial Process Anomaly Detection Dataset</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-1 publication-title">IPAD: Industrial Process Anomaly Detection Dataset</h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="http://github.com/LJF1113">Jinfan Liu</a><sup>1</sup>,</span>
+            <span class="author-block">
+              Yichao Yan</a><sup>1</sup>,</span>
+            <span class="author-block">
+              Junjie Li</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              Weiming Zhao</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              Pengzhi Chu</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              Xingdong Sheng</a><sup>2</sup>,
+            </span>
+            <span class="author-block">
+              Yunhui Liu</a><sup>2</sup>
+            </span>
+            <span class="author-block">
+              Xiaokang Yang</a><sup>1</sup>
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>Shanghai Jiao Tong University,</span>
+            <span class="author-block"><sup>2</sup>Lenovo Research</span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href="https://arxiv.org/pdf/2404.15033"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://arxiv.org/abs/2404.15033"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- Dataset Link. -->
+              <span class="link-block">
+                <a href="https://drive.google.com/file/d/1SwSScNzhzE6t8N9JxK843SsqthmFdZIv/view?usp=drive_link"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="far fa-images"></i>
+                  </span>
+                  <span>Dataset</span>
+                  </a>
+                </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/LJF1113/IPAD"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <video id="IPAD_intro" autoplay muted loop playsinline height="100%">
+        <source src="./static/videos/IPAD_intro.mp4"
+                type="video/mp4">
+      </video>
+    </div>
+  </div>
+</section>
+
+
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Video anomaly detection (VAD) is a challenging task aiming to recognize anomalies in video frames, 
+            and existing large-scale VAD researches primarily focus on road traffic and human activity scenes. 
+            In industrial scenes, there are often a variety of unpredictable anomalies, and the VAD method can 
+            play a significant role in these scenarios. However, there is a lack of applicable datasets and methods 
+            specifically tailored for industrial production scenarios due to concerns regarding privacy and security.
+            To bridge this gap, we propose a new dataset, IPAD, specifically designed for VAD in industrial 
+            scenarios. The industrial processes in our dataset are chosen through on-site factory research and 
+            discussions with engineers. This dataset covers 16 different industrial devices and contains over 
+            6 hours of both synthetic and real-world video footage. Moreover, we annotate the key feature of the 
+            industrial process, ie, periodicity. Based on the proposed dataset, we introduce a period memory 
+            module and a sliding window inspection mechanism to effectively investigate the periodic information 
+            in a basic reconstruction model. Our framework leverages LoRA adapter to explore the effective migration 
+            of pretrained models, which are initially trained using synthetic data, into real-world scenarios. 
+            Our proposed dataset and method will fill the gap in the field of industrial video anomaly detection 
+            and drive the process of video understanding tasks as well as smart factory deployment.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
+
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <div class="hero-body">
+            <img src="./static/images/Dataset.png"
+                 class="dataset"
+                 alt="Interpolation end reference image."/>
+            </img>
+        </div>
+      </div>
+    </div>
+
+    <!-- Paper video. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Video</h2>
+          <div class="hero-body">
+            <video id="IPAD" controls playsinline height="100%">
+              <source src="./static/videos/IPAD.mp4"
+                      type="video/mp4">
+            </video>
+          </div>
+      </div>
+    </div>
+    <!--/ Paper video. -->
+  </div>
+</section>
+
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{liu2024ipad,
+  author    = {Jinfan Liu, Yichao Yan, Junjie Li, Weiming Zhao, Pengzhi Chu, Xingdong Sheng, Yunhui Liu and Xiaokang Yang},
+  title     = {IPAD: Industrial Process Anomaly Detection Dataset},
+  year      = {2024},
+  journal   = {arXiv preprint arXiv:2404.15033},
+}</code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link" href="https://github.com/LJF1113" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p>
+            This means you are free to borrow the <a
+              href="https://github.com/nerfies/nerfies.github.io">source code</a> of this website,
+            we just ask that you link back to this page in the footer.
+            Please remember to remove the analytics code included in the header of the website which
+            you do not want on your website.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

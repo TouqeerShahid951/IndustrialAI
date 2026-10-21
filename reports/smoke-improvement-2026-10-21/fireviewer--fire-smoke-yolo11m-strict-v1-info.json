@@ -1,0 +1,109 @@
+{
+  "_id": "6a9b1071b082d9660b532d1c",
+  "id": "fireviewer/fire-smoke-yolo11m-strict-v1",
+  "private": false,
+  "pipeline_tag": "object-detection",
+  "library_name": "ultralytics",
+  "tags": [
+    "ultralytics",
+    "onnx",
+    "fireviewer",
+    "fire",
+    "smoke",
+    "wildfire",
+    "yolo11",
+    "object-detection",
+    "dataset:fireviewer/fire-smoke-detection-corpus-v1",
+    "license:agpl-3.0",
+    "region:us"
+  ],
+  "downloads": 190,
+  "likes": 0,
+  "modelId": "fireviewer/fire-smoke-yolo11m-strict-v1",
+  "author": "fireviewer",
+  "sha": "e1c5ed92c19cb1dc7aa2cc7a814e77277807fa19",
+  "lastModified": "2026-10-10T10:13:51.000Z",
+  "gated": false,
+  "disabled": false,
+  "model-index": null,
+  "config": {},
+  "cardData": {
+    "license": "agpl-3.0",
+    "pipeline_tag": "object-detection",
+    "datasets": [
+      "fireviewer/fire-smoke-detection-corpus-v1"
+    ],
+    "tags": [
+      "fireviewer",
+      "fire",
+      "smoke",
+      "wildfire",
+      "yolo11",
+      "object-detection",
+      "onnx"
+    ],
+    "library_name": "ultralytics"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "CHANGELOG.md"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "RIGHTS_AND_ATTRIBUTION.md"
+    },
+    {
+      "rfilename": "THIRD_PARTY_NOTICES.md"
+    },
+    {
+      "rfilename": "artifact-manifest.json"
+    },
+    {
+      "rfilename": "benchmark/benchmark-final.png"
+    },
+    {
+      "rfilename": "benchmark/independent-evaluation.json"
+    },
+    {
+      "rfilename": "inference.py"
+    },
+    {
+      "rfilename": "labels.json"
+    },
+    {
+      "rfilename": "model.onnx"
+    },
+    {
+      "rfilename": "model.pt"
+    },
+    {
+      "rfilename": "provenance/materialization-receipt.json"
+    },
+    {
+      "rfilename": "provenance/source-manifest.json"
+    },
+    {
+      "rfilename": "requirements.txt"
+    },
+    {
+      "rfilename": "run-receipt.json"
+    },
+    {
+      "rfilename": "training/environment.txt"
+    },
+    {
+      "rfilename": "training/resolved-training-config.json"
+    },
+    {
+      "rfilename": "validation/metrics.json"
+    }
+  ],
+  "spaces": [],
+  "createdAt": "2026-09-04T18:39:45.000Z",
+  "usedStorage": 121737526
+}

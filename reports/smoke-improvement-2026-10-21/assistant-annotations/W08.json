@@ -1,0 +1,35 @@
+{
+  "review_status": "single_reviewer",
+  "reviewer": "assistant_visual_review",
+  "human_confirmed": false,
+  "user_authorized_assistant_review": true,
+  "source_sha256": "edffc7547cd187b138e05c92440732e8ada60fe96061d90b9b0022ba4065a48d",
+  "review_id": "W08",
+  "reviewed_intervals": {
+    "fire": [
+      [
+        0,
+        4.008984375
+      ]
+    ],
+    "smoke": [
+      [
+        0,
+        4.008984375
+      ]
+    ]
+  },
+  "events": [],
+  "frames": [],
+  "excluded_intervals": [],
+  "method": "Unannotated chronological contact sheets: every third factory frame; approximately one-second smoke samples plus 0.2-second onset and 0.5-second doorway sequences. Full source decode verified. Boundaries are coarse and uncertain windows excluded.",
+  "limitations": [
+    "Single assistant reviewer; previous detector failure examples already known, not blinded independent validation",
+    "Visible plume appearance does not chemically verify combustion; no production-accuracy claim"
+  ],
+  "assessment": {
+    "fire": "absent_visible",
+    "smoke": "absent_visible"
+  },
+  "notes": "No visible flame or developing/drifting smoke plume. Static floor shading, daylight patches and machinery remain stable. W08 contains a moving forklift. Absence refers to visible evidence at this image quality."
+}

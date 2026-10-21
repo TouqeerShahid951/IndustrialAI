@@ -1,0 +1,973 @@
+IPAD: Industrial Process Anomaly Detection Dataset
+Jinfan Liu
+Shanghai Jiao Tong University
+Shanghai, China
+ljflnjz@sjtu.edu.cn
+Yichao Yan
+Shanghai Jiao Tong University
+Shanghai, China
+yanyichao@sjtu.edu.cn
+Junjie Li
+Shanghai Jiao Tong University
+Shanghai, China
+junjieli00@sjtu.edu.cn
+Weiming Zhao
+Shanghai Jiao Tong University
+Shanghai, China
+weiming.zhao@sjtu.edu.cn
+Pengzhi Chu
+Shanghai Jiao Tong University
+Shanghai, China
+pzchu@sjtu.edu.cn
+Xingdong Sheng
+Lenovo Research
+Shanghai, China
+shengxd1@lenovo.com
+Yunhui Liu
+Lenovo Research
+Shanghai, China
+liuyhp@lenovo.com
+Xiaokang Yang
+Shanghai Jiao Tong University
+Shanghai, China
+xkyang@sjtu.edu.cn
+ABSTRACT
+Video anomaly detection (VAD) is a challenging task aiming to
+recognize anomalies in video frames, and existing large-scale VAD
+researches primarily focus on road traffic and human activity scenes.
+In industrial scenes, there are often a variety of unpredictable anom-
+alies, and the VAD method can play a significant role in these
+scenarios. However, there is a lack of applicable datasets and meth-
+ods specifically tailored for industrial production scenarios due to
+concerns regarding privacy and security. To bridge this gap, we
+propose a new dataset, IPAD, specifically designed for VAD in
+industrial scenarios. The industrial processes in our dataset are
+chosen through on-site factory research and discussions with engi-
+neers. This dataset covers 16 different industrial devices and con-
+tains over 6 hours of both synthetic and real-world video footage.
+Moreover, we annotate the key feature of the industrial process,
+i.e., periodicity. Based on the proposed dataset, we introduce a
+period memory module and a sliding window inspection mecha-
+nism to effectively investigate the periodic information in a basic
+reconstruction model. Our framework leverages LoRA adapter to
+explore the effective migration of pretrained models, which are
+initially trained using synthetic data, into real-world scenarios. Our
+proposed dataset and method will fill the gap in the field of in-
+dustrial video anomaly detection and drive the process of video
+understanding tasks as well as smart factory deployment. Project
+page: https://ljf1113.github.io/IPAD_VAD.
+CCS CONCEPTS
+• Computing methodologies → Scene anomaly detection ;
+Reconstruction.
+Permission to make digital or hard copies of all or part of this work for personal or
+classroom use is granted without fee provided that copies are not made or distributed
+for profit or commercial advantage and that copies bear this notice and the full citation
+on the first page. Copyrights for components of this work owned by others than the
+author(s) must be honored. Abstracting with credit is permitted. To copy otherwise, or
+republish, to post on servers or to redistribute to lists, requires prior specific permission
+and/or a fee. Request permissions from permissions@acm.org.
+MM’24, October 28 - November 1, 2024, Melbourne, Australia.
+© 2018 Copyright held by the owner/author(s). Publication rights licensed to ACM.
+ACM ISBN 978-1-4503-XXXX-X/18/06
+https://doi.org/XXXXXXX.XXXXXXX
+(a) UCSD (b) Avenue (c) ShanghaiTech
+(d) Ours (object-centric)
+(e) Ours (Periodic)
+Figure 1: (a)-(c) show the existing human-centric datasets. (d)
+presents different anomalous regions under the same device
+in our dataset. (e) shows a periodic action of the automatic
+lifter in our dataset.
+KEYWORDS
+Deep Learning, Video Anomaly Detection, Dataset, Reconstruction
+Model
+ACM Reference Format:
+Jinfan Liu, Yichao Yan, Junjie Li, Weiming Zhao, Pengzhi Chu, Xingdong
+Sheng, Yunhui Liu, and Xiaokang Yang. 2018. IPAD: Industrial Process
+Anomaly Detection Dataset. In Proceedings of Make sure to enter the correct
+conference title from your rights confirmation email (MM’24)Proceedings of
+the 32nd ACM International Conference on Multimedia (MM’24), October 28-
+November 1, 2024, Melbourne, Australia. ACM, New York, NY, USA, 10 pages.
+https://doi.org/XXXXXXX.XXXXXXX
+arXiv:2404.15033v1  [cs.CV]  23 Apr 2024
+MM’24, October 28 - November 1, 2024, Melbourne, Australia. author name and author name, et al.
+Common Period Light Changing Camera Jittering Shape Anomaly Color Anomaly
+Forklift Truck Manual Cutter Automatic Lifter (Real)Manual Cutter (Real)Forklift Truck (Real)
+Location Anomaly
+NORMAL ABNORMAL
+Automatic Lifter
+Figure 2: The first line shows part of the devices in our dataset. The second line shows some of the normal and abnormal cases.
+1 INTRODUCTION
+Video Anomaly Detection (VAD) has emerged as a crucial tech-
+nology in various real-world applications, including traffic safety
+and intelligent surveillance, due to its remarkable ability to detect
+multiple anomalous events that may occur in videos. To facilitate
+the practical implementation of VAD methods, researchers have
+made significant contributions by introducing rich video datasets
+and related frameworks tailored to this problem. These datasets
+cover a wide range of scenarios, with a particular focus on campus
+and traffic scenes, capturing both normal and abnormal behaviors
+of pedestrians and vehicles from the surveillance camera perspec-
+tive [1, 2, 6, 22, 30, 32, 34, 36, 39, 57]. The availability of diverse
+video datasets has paved the way for advanced video anomaly de-
+tection approaches. These works have been widely applied in traffic
+scenarios, including campuses and streets, thereby effectively ad-
+dressing public safety concerns through the expeditious detection
+of anomalies [8, 11, 14, 17, 21, 25, 26, 28, 31, 42, 43, 53, 54, 56, 58].
+In addition to traffic scenarios, the manufacturing industry is
+often plagued by a multitude of unpredictable anomalies during
+equipment operation. Equipment and objects at work can exhibit a
+wide range of anomalies in appearance and movement, which defy
+easy categorization, making it challenging to establish a specific
+framework that encompasses all possible situations. Consequently,
+substantial human monitoring is required to supervise equipment
+operations. It would be desirable if we could integrate a video anom-
+aly detection framework into factory surveillance, which could
+largely alleviate the burden on human monitoring.
+However, it is non-trivial to solve this task due to challenges
+from both data and methodology perspectives. On the one hand, in
+contrast to the easily accessible road surveillance data, industrial
+video data is not easy to capture because (1) video information cap-
+tured within factories would raise concerns regardingprivacy and
+security, making it exceedingly difficult to achieve public access
+to such data for dataset creation; (2) From an anomaly setting per-
+spective, intentionally making abnormalities can not only damage
+machinery but also lead to safety accidents.
+Another substantial challenge arises in the methodological as-
+pect. Anomaly detection in industrial scenarios differs significantly
+from tasks in traffic scenarios, both in terms of spatial and tempo-
+ral considerations. (1) State-of-the-art VAD methods heavily rely
+on person/object detection results [3, 15, 37, 48, 50]. However, ac-
+curately detecting each device and object in industrial scenes is
+unfeasible. Because anomalies in industrial scenes can occur any-
+where within the frame, as opposed to being restricted to pedestrian
+or specific object areas as commonly observed in the traffic scenes,
+as illustrated in Figure 1. (2) At the temporal level, there exists
+meaningful periodic information regarding the operation process
+of equipment, which is absent in human-centric scenarios. Existing
+methods did not fully exploit the benefits from periodic features.
+Consequently, directly applying them to industrial scenarios would
+lead to sub-optimal performance.
+To address these challenges and advance the role of VAD in en-
+hancing the manufacturing industry, we first introduce an industrial-
+specific video anomaly detection dataset. The dataset contains both
+synthetic and real-world data, including 16 distinct devices com-
+monly found in industrial settings, each accompanied by corre-
+sponding anomalies specific to the respective devices. Some of the
+normal and abnormal cases in our dataset are shown in Figure 2. To
+ensure the usefulness of the dataset, all devices and anomalies are
+representative of actual production environments, chosen through
+on-site factory research and discussions with engineers. To account
+for these real-world challenges, our dataset includes variations in
+illumination and camera jitter as part of the training and testing
+sets. We deliberately define these variations as normal conditions
+to help VAD algorithms distinguish between genuine anomalies
+and common environmental factors that may induce changes in
+video appearance. In addition, we field collected four sets of real
+data that have correspondence with the synthetic data. In this way,
+we hope to verify the value proposed by the synthetic data.
+To address the misfit of existing methods in industrial scenar-
+ios, we propose a novel video anomaly detection framework that
+investigates the significance of periodic features. By introducing a
+IPAD: Industrial Process Anomaly Detection Dataset MM’24, October 28 - November 1, 2024, Melbourne, Australia.
+Dataset Year Frames Resolution Content Data Type Anomaly Periodic
+classes information
+Subway [2] 2008 125,475 512 × 384 Pedestrians Video 8 ✗
+UCSD Ped [22] 2010 18,560 360 × 240 Campus Video 10 ✗
+CUHK Avenue [30] 2013 30,652 640 × 360 Pedestrians Video 5 ✗
+ShanghaiTech [32] 2017 317,398 856 × 480 Campus Video 11 ✗
+MVTec AD [4] 2019 5,354 multiple Industrial Image - ✗
+Street Scene [36] 2020 203,257 1280 × 720 Traffic Video 17 ✗
+ITTB Corridor [39] 2020 483,566 1920 × 1080 Pedestrians Video 10 ✗
+BTAD [33] 2021 2,830 multiple Industrial Image - ✗
+UBnormal [1] 2022 236,902 1280 × 720 Human action Video 22 ✗
+NWPU Campus [6] 2023 1,466,073 multiple Campus Video 28 ✗
+Real-IAD [47] 2024 151,050 multiple Industrial Image 30 ✗
+IPAD (Ours) 2024 597,979 2492 × 988 Industrial Video 39 !
+Table 1: Comparison with existing datasets. To the best of our knowledge, we are the first to propose a video anomaly detection
+dataset for industrial scenarios. Periodicity information is also introduced to adapt to real factory scenarios.
+periodic memory module and a sliding window inspection mech-
+anism into the reconstruction-based VAD model, we implicitly
+and explicitly explore the periodic information to accomplish the
+VAD task. Through extensive experimentation on our industrial
+video anomaly detection dataset, we demonstrate that our proposed
+method outperforms existing VAD models. Meanwhile, we explore
+parameter-efficient fine-tuning to quickly migrate models trained
+on synthetic data to real scenarios, which can validate the feasibility
+and usefulness of our synthetic data in real-world scenarios.
+The main contributions of this paper include:
+• We propose a dataset with real and synthetic data for video
+anomaly detection in industrial scenarios. To the best of
+our knowledge, this is the first video anomaly dataset for
+industrial scenes.
+• We propose a novel framework that marries the traditional
+reconstruction-based model with periodic information by
+introducing a period memory module and a sliding window
+inspection mechanism.
+• Our work serves to fill the existing gap for video anomaly de-
+tection in industrial settings. Utilizing the synthetic data, we
+explore an efficient finetuning approach to swiftly migrating
+models to real-world scenarios.
+2 RELATED WORK
+2.1 Video Anomaly Detection
+In the field of video anomaly detection, researchers typically lever-
+age video datasets containing both normal and annotated anom-
+aly videos for training anomaly detection models. The availabil-
+ity of rich and detailed labeling in the anomaly data often con-
+tributes to the models exhibiting good performance in the test
+set [42, 53, 54, 56]. Due to the challenge of capturing anomalies in
+various scenarios, researchers have introduced datasets that exclu-
+sively contain normal videos in the training set, aiming to reduce
+the reliance on labeled abnormal data, which is called One-Class
+Classification (OCC) task. Existing widely used video datasets [1,
+2, 6, 22, 30, 32, 34, 36, 39] primarily focus on pedestrian and traffic
+scenarios, with a significant emphasis on human-centric anomalies.
+Therefore, it lacks a complete video anomaly detection dataset for
+industrial scenarios.
+The mainstream frameworks for OCC problem can be broadly
+categorized into two classes: reconstruction-based models and
+prediction-based models. Autoencoder (AE) structure [ 14] was
+firstly used for video frame reconstruction in the context of anomaly
+detection. MemAE [11] introduced a memory structure to enhance
+the optimization of feature information in the reconstruction pro-
+cess. In addition to AE, some methods utilize Generative Adversarial
+Networks (GANs) [12] for video frame reconstruction, enabling dif-
+ferentiation of anomalies based on reconstruction results [17, 25, 31].
+To recognize the object motion more accurately, optical flow is often
+incorporated to enhance recognition of object motion and guide
+detection of anomalous movements [8, 21, 28, 58]. Recently, some
+methods focus on extracting background information separately
+to analyze anomalies within different scenes [6, 43]. However, due
+to the lack of periodicity information, all these methods may en-
+counter challenges when dealing with industrial scenarios that
+present strong periodic characteristics.
+2.2 Image-Based Industrial Anomaly Detection
+In recent years, data-driven methods for industrial anomaly de-
+tection have gained significant attention. There are several image-
+based datasets [4, 33] for industrial anomaly detection. These datasets
+primarily focus on single-image anomaly detection, where the goal
+is to jointly determine the presence of an anomaly and localize
+the specific regions. This line of work is known as anomaly local-
+ization [45]. The dominant approaches to this task can be gener-
+ally categorized into four branches: image reconstruction-based
+model [27, 44, 46, 49, 55], image generation-based model [13, 24, 41,
+MM’24, October 28 - November 1, 2024, Melbourne, Australia. author name and author name, et al.
+0
+2
+4
+6
+8
+S01 S02 S03 S04 S05 S06 S07 S08 S09 S10 S11 S12
+Train Test
+Frames(× 104)
+0
+1
+2
+3
+R01 R02 R03 R04
+Train (Real Data) Test (Real Data)
+Frames(× 104)
+S01: Conveyer Belt
+S02: Automatic Lifter
+S03: Forklift Truck
+S04: Manual Cutter
+S05: 90° Conveyer
+S06: 180° Conveyer
+S07: Z-lifter
+S08: Box Sorter
+S09: Mechanical Gripper
+S10: Standing Crane
+S11: Automatic Cutter
+S12: Drilling Machine
+R01: Conveyer Belt (Real Data)
+R02: Automatic Lifter (Real Data)
+R03: Forklift Truck (Real Data)
+R04: Manual Cutter (Real Data)
+Figure 3: Dataset statistics. The bar chart shows the percent-
+age of train data and test data in different cases. The specific
+devices in each case are given in the table.
+52], deep feature embedding based model [5, 18, 38, 40, 51] and self-
+supervision learning based model [20, 35]. However, these methods
+primarily focus on detecting appearance anomalies within still im-
+ages and do not explicitly incorporate temporal information from
+videos. Therefore, it is unfeasible to directly apply these methods
+to video anomaly detection in industrial scenarios.
+2.3 Synthetic Data in Video Understanding
+Many video datasets constructed from synthetic data are emerging
+in the field of video understanding, due to the flexibility of gener-
+ating diverse and large amounts of videos. Virtual KITTI [ 10] is
+a widely used video synthesis dataset well suited for many video
+understanding tasks. CARLA [9] proposed an open-world simulator
+that can capture synthetic video data by customizing the position
+and viewpoint of the camera. In the video anomaly detection task,
+UBnormal [1] is an excellent work based on a synthesized dataset.
+It emulates various action behaviors, including those of pedestrians
+and vehicles, and establishes corresponding abnormal events.
+These publicly accessible synthetic datasets exemplify the vi-
+ability of utilizing simulated data for video understanding tasks.
+Consequently, we also construct a synthetic dataset, aiming to over-
+come the challenges associated with data acquisition in industrial
+scenarios. Nevertheless, it is important to acknowledge the limi-
+tations of synthetic data, particularly in terms of disparities with
+real-world data. To mitigate the effects of such discrepancies, we
+have incorporated real-scene video data into our dataset as well.
+3 DATASET
+3.1 Description of Dataset
+The comprehensive dataset comprises a blend of real and virtual
+data. The real data was acquired through live photography collec-
+tion, while the virtual data was meticulously crafted using Solid-
+Works software, resulting in the creation of 16 distinct models of
+industrial equipment. These models encompass a range of machin-
+ery such as conveyor belts, lift tables, cutting machines, drilling
+machines, machine grippers, cranes, etc. The animation simulation
+feature within the SolidWorks software enabled us to design spe-
+cific cycle actions and abnormalities for each device. By setting
+the desired action trajectories, we were able to generate videos by
+rendering the 3D models. In contrast to capturing live video data
+from factories, the animation generation process in SolidWorks
+offers greater flexibility and control. To replicate real-world con-
+ditions, we utilized controlled light source points. This enabled us
+to simulate realistic changes in light and variations in viewpoints.
+To bridge the gap between the simulated and real-world data, we
+incorporated four realistic cases captured by a camera (from R01
+to R04), resulting in a total of 16 different devices. These real data
+scenarios all have counterparts in the synthetic data (from S01 to
+S04), which are used to explore the migration effect of the model
+under different data dimensions.
+To align with the distribution of anomalous data in real-world
+scenarios, we only include normal cases in the training set. In the
+test set, we intentionally introduced a wide range of anomalies
+to evaluate the performance of the anomaly detection system: ap-
+pearance anomalies ( e.g., color change, shape change), position
+anomalies (e.g., position shift, angle tilt), short-term motion anom-
+alies (e.g., lagging, a large change in speed), and logic anomalies
+(e.g., sorting error, wrong sequence of actions). Additionally, we de-
+signed specific anomalies for different types of industrial equipment
+in our dataset. For example, the cutting machine cuts in the wrong
+position, the forklift truck does not lift the object successfully. In
+addition to the previously mentioned anomalies, we have also in-
+corporated lighting variations and viewpoint jitter as normal cases
+in both the training and testing sets. These variations introduce
+significant pixel-level variations in the video frames. Some of the
+normal and abnormal cases in our dataset are shown in Figure 2.
+3.2 Dataset Statistics
+IPAD dataset comprises a total of 597,979 frames, with 430,867
+frames allocated for training data and 167,112 frames for the test
+data. The quantitative comparison between our datasets and other
+VAD datasets is reported in Table 1. Compared to most existing
+datasets, our dataset boasts a larger data size, surpassing the major-
+ity of them, with the exception of NWPU Campus. Additionally, we
+excel in terms of video resolution and anomaly classes, outperform-
+ing all other datasets in this aspect. For the main content of the
+video, to the best of our knowledge, we are the first to propose a
+video anomaly detection dataset that focuses on industrial scenarios.
+Figure 3 presents the distribution of data across different industrial
+equipment scenarios within the dataset, which includes a total of
+16 different devices (12 animated models and 4 real data scenario).
+During collection, we ensure that the data is relatively evenly dis-
+tributed among the various scenarios. A notable difference between
+our dataset and existing multi-scene datasets is that the primary
+content of the frames remains relatively consistent across different
+scenes in existing datasets. However, there are significant variations
+between scenes in IPAD.
+Regarding data labeling, we initially labeled the test data at the
+frame level to facilitate the evaluation of the model performance.
+Additionally, since our video data exhibits a pronounced cyclical
+nature, we conducted periodic cropping on the videos within both
+the training and test sets. The operation cycles of different devices
+vary in length, ranging from 5 seconds to 30 seconds. However, it is
+important to note that the cycle time length remains relatively fixed
+within each specific device, except for cases where anomalies occur,
+leading to variations in the cycle length. Certainly, periodicity is a
+noteworthy timing feature in industrial scenarios, and providing
+IPAD: Industrial Process Anomaly Detection Dataset MM’24, October 28 - November 1, 2024, Melbourne, Australia.
+Real Data
+Memory 𝑴Weight ෝw
+Address
+Calculate
+෠𝐹
+ I3D DecoderReconstructed
+Frame
+𝐼in
+𝐼out
+0 t𝑡𝑝
+𝑃𝑠𝑐𝑜𝑟𝑒
+Memory Module
+Period Localization
+𝐿𝑝𝑒𝑟𝑖𝑜𝑑
+𝑤 𝑤′
+Softmax
+0 t𝑡𝑝
+sum
+𝑖
+(𝑤𝑖,𝑡) 
+Weight Update
+Synthetic Data
+Pretrain
+Video Swin Transformer Encoder
+Pretrained
+VST
+Encoder
+Finetune
+LoRA_A
+LoRA_B
+∆𝑊𝑞,𝑣 Matrix
+Freeze
+Figure 4: The proposed reconstruction-based model with periodic information. The model undergoes an initial pre-training
+phase using synthetic data. Subsequently, the encoder segment is fine-tuned through a combination of real data and LoRA [ 16],
+enhancing its performance and adaptability. The features of the input video clip are first extracted by the video swin transformer
+to get 𝐹 . Then addressing to the memory module and period classification are performed separately to get the initial weights 𝑊
+and period relative position 𝑡𝑝 . Then the weights are updated to get ˆ𝑤 , which in turn is computed to get the output feature ˆ𝐹 .
+Finally, the reconstructed video frame is obtained using the I3D decoder.
+t0 tm
+Periodic
+Localization
+4 4354Abnormal! 5 9876 Normal
+𝐼𝑖𝑛
+Periodic
+Localization
+Figure 5: Sliding window. The sequence represents an action
+cycle, where each square represents an input video clip.
+relevant annotations to indicate the periodic nature of the data
+can greatly contribute to improving the performance of anomaly
+detection methods.
+Overall, our proposed dataset has several advantages over other
+existing video anomaly detection datasets: 1) new video content
+(industrial); 2) both real and synthetic data; and 3) rich periodic
+data and corresponding labels.
+4 METHOD
+Existing methods in the field of analyzing human-centric data are
+typically designed to handle irregular patterns and do not explicitly
+incorporate periodic information. However, in the operation of
+industrial equipment, cyclic movements play a central role, offering
+a valuable opportunity to leverage long-periodical information
+for anomaly detection. Hence, we hypothesize that exploiting the
+periodic feature can assist in localizing short video sequences within
+the corresponding positions of the period.
+4.1 Reconstruction Model
+Our model follows a reconstruction-based structure, leveraging
+the Auto-Encoder (AE) as its fundamental architecture. The in-
+put video sequence is initially processed by the encoder to extract
+spatio-temporal features, resulting in a high-dimensional feature
+vector. This feature is subsequently utilized as input for image
+reconstruction, accomplished by the decoder component. The re-
+constructed image is then compared with the original input video
+frame, enabling the computation of an anomaly score. In the fea-
+ture extraction stage, conventional methods typically employ a 3D
+convolution (or 2D convolution for single images) to construct the
+encoder. However, in our approach, we opt to utilize the Video Swin
+Transformer as the feature extractor, inspired by its exceptional fea-
+ture extraction capabilities demonstrated in [29]. The Transformer
+structure enables effective feature extraction by leveraging the in-
+herent strengths of self-attention mechanisms. For the decoder part,
+we use the inverse convolution structure of I3D [7].
+4.2 Periodic Memory Structure
+To leverage the periodic features of video sequences, we introduce
+a periodic memory structure into our reconstruction framework.
+The specific architecture of this memory module is illustrated in
+Figure 4. In real-world scenarios, the length of the action period of
+industrial equipment cannot be determined. Therefore we need to
+design a generalized structure to extract and utilize the periodic
+information. To address this challenge, we draw inspiration from
+the mem-AE approach [11] and adopt a strategy of saving and re-
+trieving the features of the complete cycle in temporal order during
+the training phase. we initially perform video clip localization in
+terms of temporal periods and associate the corresponding memory
+addresses with features extracted by the encoder. Subsequently,
+MM’24, October 28 - November 1, 2024, Melbourne, Australia. author name and author name, et al.
+Method S01 S02 S03 S04 S05 S06 S07 S08 S09 S10 S11 S12 R01 R02 R03 R04 Avg.
+conAE [14] 63.1 47.7 53.0 34.7 82.9 46.6 58.3 69.1 53.0 55.3 39.8 50.4 77.6 64.3 40.7 70.1 56.7
+memAE [11] 63.2 50.6 65.6 49.5 78.8 45.9 57.9 84.7 65.7 59.9 49.4 50.7 77.9 65.0 41.6 70.7 61.1
+AstNet [19] 67.7 52.0 61.0 51.6 80.4 54.1 54.5 82.6 59.8 55.7 47.8 60.8 79.8 66.8 42.1 67.6 61.5
+DMAD [23] 55.9 55.3 47.9 47.9 69.3 61.0 66.9 87.5 69.7 67.0 56.0 55.8 79.5 68.5 43.1 63.1 62.2
+V-Swin-T [29] 68.2 60.0 66.6 54.7 85.6 53.3 59.5 88.5 69.7 60.5 54.8 69.1 81.1 74.1 42.3 75.5 66.5
+Ours 69.5 63.9 70.6 58.3 86.2 61.2 60.6 85.6 71.2 62.2 60.9 67.1 84.4 75.4 43.5 76.7 68.6
+Table 2: Main Result on the industrial period video dataset. Each result is frame-level AUC score. Best results are highlighted in
+bold and the second-best result is underlined. The last column indicates the mean value of AUC under all cases.
+we update the weights of the memory addresses based on the ac-
+quired period localization results. These updated addresses are then
+utilized to effectively select features stored in the memory.
+Specifically, to align the feature𝐹𝑖𝑛 obtained after feature extrac-
+tion by the video swin transformer with the size of the memory
+module, we perform a dimensional transformation, resulting in ˆ𝐹𝑖𝑛
+with dimensions R𝑇 ×𝐶. Additionally, we define the memory mod-
+ule as ˆ𝑀 with dimensions R𝑀 ×𝐶, which stores 𝑀 features. During
+the addressing process, we calculate the preliminary feature weight
+𝑤 :
+𝑤 = ˆ𝐹𝑖𝑛 × ˆ𝑀𝑇 , 𝑤 ∈ R𝑇 ×𝑀 . (1)
+In the period classification step 𝑓𝑝 (·), we aim to determine the
+relative position of an input video segment within a cyclic mo-
+tion. Since the length of each cycle may vary, we need to map it
+to a fixed range to ensure consistent comparisons. To minimize
+the accuracy degradation caused by setting too many ranges, this
+mapping is typically a surjective rather than an injective function.
+Consequently, we obtain the relative position 𝑡𝑝 of the video seg-
+ment within the cycle, taking into account the cyclic nature of the
+motion and enabling us to analyze its temporal context accurately:
+𝑡𝑝 = argmax𝑃𝑠 𝑓𝑝 (𝐹 ), 𝑡𝑝 ∈ ( 0, 𝑡max), (2)
+where 𝑃𝑠 denotes the period localization score. After that, map 𝑡𝑝
+under the memory module size range, i.e., 𝑓𝑡 (·) : 𝑡𝑚𝑎𝑥 → 𝑀. Based
+on the obtained relative positions of the cycles, the weights of 𝑤
+are updated to obtain 𝑤
+′
+:
+𝑡
+′
+𝑝 = 𝑓𝑡 (𝑡𝑝 ), 𝑡
+′
+𝑝 ∈ ( 0, 𝑀), (3)
+for all 𝑖 ∈ [ 0, 𝑇]:
+𝑤
+′
+𝑖,𝑡 ′ =
+( 𝑤𝑖,𝑡 ′ 𝑖 𝑓 𝑡
+′
+≠ 𝑡
+′
+𝑝
+𝑤𝑖,𝑡 ′ · (1 + 𝑃𝑠,𝑡𝑝 ) 𝑖 𝑓 𝑡
+′
+= 𝑡
+′
+𝑝
+, (4)
+where 𝑤
+′
+𝑖,𝑡 ′ represents the element located in row 𝑖 and column 𝑡
+′
+of the 𝑤
+′
+matrix. By examining Equation 4, it becomes evident that
+the memory weights are primarily updated in the column vector
+dimension. To obtain the final weights ˆ𝑤 , we apply the softmax
+function to the column vector of 𝑤
+′
+. This operation is performed
+for all 𝑗 values within the range of [0, 𝑀]. So ˆ𝑤 can be specified as:
+ˆ𝑤𝑖,𝑗 =
+exp(𝑤
+′
+𝑖,𝑗 )
+Í𝑇
+𝑖=0 exp(𝑤
+′
+𝑖,𝑗 )
+. (5)
+The feature vectors ˆ𝐹𝑜𝑢𝑡 corresponding to the cycles in the mem-
+ory module are extracted based on the weights ˆ𝑤 . We calculate ˆ𝐹𝑜𝑢𝑡
+by multiplying the features stored in the memory module memory
+module ˆ𝑀 with the weight ˆ𝑤 :
+ˆ𝐹𝑜𝑢𝑡 = ˆ𝑤 × ˆ𝑀, ˆ𝐹𝑜𝑢𝑡 ∈ R𝑇 ×𝐶 . (6)
+To complete the reconstruction of the target frame, the obtained
+feature vector ˆ𝐹𝑜𝑢𝑡 is passed through the decoder part, which is
+structured similarly to the I3D (Inflated 3D) architecture [7]. The
+decoder takes the transformed feature vector ˆ𝐹𝑜𝑢𝑡 as input and
+leverages its information to reconstruct the target frame. It is im-
+portant to note that the ‘×’ symbol used in the previous formulas
+denotes matrix multiplication.
+4.3 Sliding Window Inspection
+After obtaining the relative positions of the input frames within
+the cycle using the method described in Section 4.2, we employ a
+sliding window inspection approach to detect the periodicity of
+the test video sequence. In addition to implicitly introducing pe-
+riodic information at the feature level, we try to utilize periodic
+information in a more explicit way. The specific structure of the
+sliding window is illustrated in Figure 5. Following the cycle classi-
+fication process described in Section 4.2, we obtain the prediction
+of the relative position of the cycle for each input video segment,
+denoted as 𝑡𝑝. When considering an input target frame, which is
+essentially a short video clip, we can obtain an array of relative
+positions of cycles centered around it. This array is denoted as 𝑇 𝑛𝑡𝑝 ,
+where 𝑛 represents the window size, and 𝑡 denotes the 𝑡-th target
+frame. Typically, an odd value is chosen for𝑛 to ensure a symmetric
+window around the target frame. So 𝑇 𝑛𝑡𝑝 can be specified as:
+𝑇 𝑛𝑡
+𝑝 = [𝑡𝑡 − 𝑛−1
+2
+𝑝 , 𝑡𝑡 +1− 𝑛−1
+2
+𝑝 , · · ·, 𝑡𝑡 + 𝑛−1
+2
+𝑝 ]. (7)
+Obviously, when the input video segment is the normal case, we
+will theoretically get an increasing isotropic series. On the contrary,
+when it is abnormal, the relative positions of its cycles will change
+irregularly. Therefore, in order to show this difference, we calculate
+the difference between the period prediction series and the normal
+period series:
+𝐸𝑝 = 1
+𝑛
+∑︁𝑛−1
+2
+𝑖=− 𝑛−1
+2
+|𝑡𝑡 +𝑖
+𝑝 − 𝑏𝑡 +𝑖 |, (8)
+where 𝐸𝑝 denotes the period localizing sequence error, 𝑏 refers
+to the pre-defined temporal reference sequence. When the length
+of the action cycle in the video is approximately equal to 𝑡max, 𝑏 is
+defined as [𝑡𝑝 − (𝑛 − 1)/2, 𝑡𝑝 + 1 − (𝑛 − 1)/2, · · ·, 𝑡𝑝 + (𝑛 − 1)/2]. This
+sequence provides a reference for analyzing the relative positions
+of cycles within the video.
+IPAD: Industrial Process Anomaly Detection Dataset MM’24, October 28 - November 1, 2024, Melbourne, Australia.
+Pretrain Data Finetune Data Finetune Method R01 R02 R03 R04 Avg. Finetune Trainable
+Synthetic Real Time ↓ Parameters↓
+✗ ✗ All ✗ 84.4 75.4 43.5 76.7 70.0 17min 35.9M
+✗ S01-S04 ✗ ✗ 30.5 62.1 40.5 66.8 49.9 37min 35.9M
+✗ S01-S04 All ✗ 83.7 75.1 43.8 75.4 69.5 53min 35.9M
+S01-S04 ✗ All Fully Finetune 87.9 75.9 44.1 77.1 71.3 17min 35.9M
+S01-S04 ✗ Few Shot Fully Finetune 85.1 72.6 42.8 72.2 68.2 4min 35.9M
+S01-S04 ✗ Few Shot PEFT 86.3 69.4 42.6 70.4 67.2 2.3min 10.3M
+{S01-S04}∗ ✗ Few Shot PEFT 85.4 69.9 44.5 70.6 67.6 2.3min 10.3M
+{S01-S12}∗ ✗ Few Shot PEFT 85.7 70.7 46.0 71.1 68.4 2.3min 10.3M
+Table 3: The result of hybrid learning. PEFT means Parameter-Efficient Fine-Tuning. ∗: {} denotes the training of a unified
+pretrained model using the entirety of the data available. Others indicate that each case involves individual models.
+4.4 Adapter for Parameter-efficient Finetuning
+To enhance the model’s anomaly detection accuracy in real-world
+scenarios, we opted for a training approach involving pretraining
+with synthetic data followed by finetuning with few-shot real data.
+However, integrating a large influx of data can exert significant
+training pressure on the model. To streamline the finetuning pro-
+cess with real data, we introduce an adapter structure suitable for
+transformers in the encoder segment. Drawing inspiration from
+LoRA [16], we initially freeze most pretraining parameters of the
+encoder, retaining only the Embedding and LayerNorm compo-
+nents. Within the attention module, we treat 𝑞 and 𝑣 as low-rank
+matrices, utilizing the product of two low-dimensional matrices as
+their training parameters. This strategy allowed us to substantially
+minimize training parameters while maximizing model accuracy.
+5 EXPERIMENTS
+5.1 Dataset and Evaluation Protocol
+We perform experiments on the proposed IPAD dataset. During the
+test phase, we utilize the area under the curve (AUC) to evaluate the
+performance of VAD methods. AUC is a widely adopted evaluation
+metric commonly used to assess the performance of binary classifi-
+cation models. It quantifies the area under the receiver operating
+characteristic (ROC) curve generated by the model. We concatenate
+the video frames in the test set and calculate the AUC values. It is
+important to note that the videos in the test set are divided into
+multiple shorter video segments. In many existing datasets, each
+short video segment contains a mix of normal and abnormal frames.
+Consequently, the reconstruction differences within these short
+video segments can vary significantly, so only this video segment
+needs to be normalized when calculating the anomaly score. Indeed,
+considering the characteristics of our dataset where there are more
+all-abnormal or all-normal video segments, normalizing the short
+segment may not provide meaningful results. To align with the
+specific characteristics of our dataset, we have decided to normalize
+the reconstruction error results for the entire test set within the
+same scenario.
+5.2 Implement Details
+Our dataset comprises diverse content captured from different de-
+vices, which results in significant variations in the data charac-
+teristics. As a result, training and testing the same model on the
+entire dataset may not yield optimal results due to the content
+variations. Hence, we trained and tested separate models, with each
+model weight corresponding to a specific scenario. For the video
+segment input, we adopt a configuration where each input video
+clip consists of 16 frames. We resize each frame to a dimension of
+256 × 256. By default, the encoder part of our model employs the
+Video Swin-T [29] architecture with specific parameters: 𝐶 = 96
+and layer numbers {2, 2, 6, 2}. Furthermore, we incorporate the pe-
+riodic memory module described in Section 4.2, with the number
+of mapping categories set to 200. The memory dimension is set
+to 2000. In addition, we employ the Sliding Window technique
+mentioned in Section 4.3. The window size is set to 5. During the
+training process, we set a batch size of 8 and Adam is employed as
+the default optimizer with an initial 1𝑒−4 learning rate. The model
+is trained for 50 epochs for each scene.
+5.3 Comparison with State-of-the-arts
+The main experimental results are summarized in Table 2, showcas-
+ing the performance of our proposed methods. In our experiments,
+we constructed an auto-encoder reconstruction structure utilizing
+the Video Swin Transformer as the feature extractor, referred to
+as ‘V-Swin-T’. Additionally, we enhanced this structure by incor-
+porating periodic information using the periodic memory module
+and sliding window inspection, denoted as ‘Ours’. Many methods
+in recent years have incorporated human pose information to en-
+hance accuracy on existing datasets [ 50]. However, it is evident
+that our dataset emphasizes industrial devices rather than human
+behavior. ASTNet [19] stands out as the best open-source method
+without relying on additional information. We complement our
+experiments with DMAD [ 23]. It is important to note that this
+experiment includes background annotation.
+Our approach demonstrates superior performance on the pro-
+posed dataset, achieving an average AUC of 68.6%. This signifies the
+effectiveness and optimality of our proposed methods in accurately
+detecting anomalies within the dataset. Compared to previous meth-
+ods, the transformer encoder employed in our approach enables
+the extraction of superior spatial and temporal features from the
+video data. Furthermore, in addition to enhancing the backbone
+architecture, the inclusion of periodic information plays a crucial
+role in enabling the model to better understand the underlying ac-
+tions present in the videos. This improved comprehension of video
+MM’24, October 28 - November 1, 2024, Melbourne, Australia. author name and author name, et al.
+Normal
+Anomaly
+Anomaly
+Anomaly Score
+Anomaly GT
+Light 
+Changing
+(Normal)
+Camera 
+Jittering
+(Normal)
+Ours
+Recon
+Reconstruction Error
+Color Anomaly Shape AnomalyNormal
+Figure 6: Anomaly score curves. The first row shows the detection results of two anomalies. The second row shows the case of
+light change and camera jitter, and it can be seen that our method has lower anomaly scores, which is closer to GT.
+actions contributes to enhanced anomaly detection performance,
+as evidenced by the higher AUC achieved in our experiments.
+5.4 Hybrid Learning of Synthetic and Real Data
+Considering the difficulties in collecting real-world training data
+in industrial scenarios, we explore reducing the unattainable data
+requirements with the help of synthetic data. Table 3 shows the
+experimental results under this migration task. In our dataset, syn-
+thetic scenes S01-S04 and real-world cases R01-R04 correspond to
+each other. Initially, we pursued a one-stage training approach, em-
+ploying synthetic and mixed data as the training set and testing on
+the corresponding real data. Despite the incorporation of synthetic
+data in training, this approach resulted in decreased accuracy (49.9%
+and 69.5%), highlighting the substantial differences between the
+two data types.
+To better adapt the model to real-world scenes, we adopted a
+two-stage "pretrain+finetune" training strategy. Synthetic data was
+utilized for pretraining to impart fundamental motion features,
+while finetuning with real data tailored the model to real-world
+dimensions, yielding the highest accuracy of 71.3%. Given the chal-
+lenges in real data collection, we aimed to minimize the required
+data scale by using only 1/5 of the real data for finetuning. This ap-
+proach significantly reduced data needs and finetuning time, with a
+minor accuracy reduction of 2.1%. To further mitigate model migra-
+tion costs, we integrated adapter layers into the encoder, halving
+the finetuning time while maintaining a mere 1.0% accuracy drop.
+However, these experiments necessitated a pretrained model for
+each real-world scenario, hampering rapid deployment. To address
+Recon. Period. Synthetic Data Real Data
+✗ ✓ 60.4 63.4
+✓ ✗ 65.9 66.7
+✓ ✓ 68.1 70.0
+Window. Memory.
+✗ ✓ 65.0 66.9
+✓ ✗ 66.8 68.3
+✓ ✓ 68.1 70.0
+Table 4: Ablation results for period information block (sliding
+window and memory module).
+this, we leveraged the extensive virtual data, conducting compre-
+hensive pretraining on S01-S04 and S01-S12 scenes, respectively,
+and then performing fast fine-tuning in real scenarios. This strat-
+egy led to accuracy improvements of 0.4% and 1.2%, underscoring
+the significant value of our extensive synthetic data for real-scene
+migration. Overall, by pretraining the model and incorporating the
+adapter structure, we successfully reduced data requirements to
+1/5 and training time to 1/7, albeit with a slight trade-off of 1.6%
+accuracy loss compared to training solely on real data.
+5.5 Ablation Study
+To assess the performance enhancement achieved by introducing
+periodic information, we conducted ablation experiments on both
+the periodic memory module and sliding windows. The results of
+these experiments are presented in the upper part of Table 4. When
+the periodic information is removed, the performance of the model
+experiences a dramatic drop, resulting in an AUC of 65.9 % and
+IPAD: Industrial Process Anomaly Detection Dataset MM’24, October 28 - November 1, 2024, Melbourne, Australia.
+66.7%. This demonstrates the crucial role played by the periodic
+memory module in capturing and leveraging periodic information.
+Besides, The results of the ablation experiments for each of these
+two methods are given in the lower part of Table 4, and the absence
+of each component brings about a significant decrease in AUC.
+When the periodic information is reintroduced, the performance is
+notably improved, resulting in an AUC of 68.1% and 70.0%.
+In Figure 6, the visualization results vividly illustrate the advan-
+tages of integrating periodic information into our model. Tradi-
+tional reconstruction methods often struggle to identify anomalies
+in scenarios like lighting changes, which can lead to significant pixel
+variations in video frames, resulting in heightened reconstruction
+errors and subsequently elevated anomaly scores. Incorporating
+periodic information equips the model with a deeper understanding
+of temporal dynamics and actions within video sequences. Notably,
+the visualization results showcase enhanced stability, particularly in
+handling lighting variations and viewpoint jitter scenarios. Through
+the utilization of periodic information, the model attains a more
+profound grasp of underlying video actions, effectively mitigating
+these fluctuations.
+6 CONCLUSION
+In this paper, we address the video anomaly detection (VAD) prob-
+lem in industrial scenarios. We introduce the first industrial periodic
+video anomaly detection dataset. This dataset focuses on industrial
+scenarios and serves as a valuable resource for evaluating VAD
+methods in industrial environments. Recognizing the inherent pe-
+riodic characteristics in industrial equipment actions, we propose
+a novel method that effectively integrates periodic information
+into a reconstruction-based model. Our approach leverages both
+implicit and explicit utilization of periodic information to enhance
+anomaly detection performance. Finally, the incorporation of LoRA
+adapter and synthetic data pretraining we proposed lead to a sub-
+stantial reduction in data requirements and model training time, all
+while ensuring detection accuracy. This advancement significantly
+accelerates the deployment of VAD tasks in real-world scenarios,
+facilitating their rapid implementation and efficacy.
+REFERENCES
+[1] Andra Acsintoae, Andrei Florescu, Mariana-Iuliana Georgescu, Tudor Mare, Paul
+Sumedrea, Radu Tudor Ionescu, Fahad Shahbaz Khan, and Mubarak Shah. 2022.
+Ubnormal: New benchmark for supervised open-set video anomaly detection. In
+CVPR. 20143–20153.
+[2] Amit Adam, Ehud Rivlin, Ilan Shimshoni, and Daviv Reinitz. 2008. Robust
+real-time unusual event detection using multiple fixed-location monitors. IEEE
+transactions on pattern analysis and machine intelligence (2008), 555–560.
+[3] Antonio Barbalau, Radu Tudor Ionescu, Mariana-Iuliana Georgescu, Jacob Due-
+holm, Bharathkumar Ramachandra, Kamal Nasrollahi, Fahad Shahbaz Khan,
+Thomas B Moeslund, and Mubarak Shah. 2023. SSMTL++: Revisiting self-
+supervised multi-task learning for video anomaly detection. Computer Vision
+and Image Understanding (2023), 103656.
+[4] Paul Bergmann, Michael Fauser, David Sattlegger, and Carsten Steger. 2019.
+MVTec AD–A comprehensive real-world dataset for unsupervised anomaly de-
+tection. In CVPR. 9592–9600.
+[5] Paul Bergmann, Michael Fauser, David Sattlegger, and Carsten Steger. 2020.
+Uninformed students: Student-teacher anomaly detection with discriminative
+latent embeddings. In CVPR. 4183–4192.
+[6] Congqi Cao, Yue Lu, Peng Wang, and Yanning Zhang. 2023. A New Comprehen-
+sive Benchmark for Semi-supervised Video Anomaly Detection and Anticipation.
+In CVPR. 20392–20401.
+[7] Joao Carreira and Andrew Zisserman. 2017. Quo vadis, action recognition? a
+new model and the kinetics dataset. In CVPR. 6299–6308.
+[8] Yunpeng Chang, Zhigang Tu, Wei Xie, and Junsong Yuan. 2020. Clustering driven
+deep autoencoder for video anomaly detection. In ECCV. 329–345.
+[9] Alexey Dosovitskiy, German Ros, Felipe Codevilla, Antonio Lopez, and Vladlen
+Koltun. 2017. CARLA: An open urban driving simulator. In CoRL. 1–16.
+[10] Adrien Gaidon, Qiao Wang, Yohann Cabon, and Eleonora Vig. 2016. Virtual
+worlds as proxy for multi-object tracking analysis. In CVPR. 4340–4349.
+[11] Dong Gong, Lingqiao Liu, Vuong Le, Budhaditya Saha, Moussa Reda Mansour,
+Svetha Venkatesh, and Anton van den Hengel. 2019. Memorizing normality
+to detect anomaly: Memory-augmented deep autoencoder for unsupervised
+anomaly detection. In ICCV. 1705–1714.
+[12] Ian Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley,
+Sherjil Ozair, Aaron Courville, and Yoshua Bengio. 2014. Generative adversarial
+nets. Advances in neural information processing systems 27 (2014).
+[13] Denis Gudovskiy, Shun Ishizaka, and Kazuki Kozuka. 2022. Cflow-ad: Real-time
+unsupervised anomaly detection with localization via conditional normalizing
+flows. In W ACV. 98–107.
+[14] Mahmudul Hasan, Jonghyun Choi, Jan Neumann, Amit K Roy-Chowdhury, and
+Larry S Davis. 2016. Learning temporal regularity in video sequences. In CVPR.
+733–742.
+[15] Or Hirschorn and Shai Avidan. 2023. Normalizing flows for human pose anomaly
+detection. In ICCV. 13545–13554.
+[16] Edward J Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean
+Wang, Lu Wang, and Weizhu Chen. 2022. Lora: Low-rank adaptation of large
+language models. (2022).
+[17] Samuel D Jackson and Fabio Cuzzolin. 2021. Svd-gan for real-time unsupervised
+video anomaly detection. In BMVC. 22–25.
+[18] Jin-Hwa Kim, Do-Hyeong Kim, Saehoon Yi, and Taehoon Lee. 2021. Semi-
+orthogonal embedding for efficient unsupervised anomaly segmentation. arXiv
+preprint arXiv:2105.14737 (2021).
+[19] Viet-Tuan Le and Yong-Guk Kim. 2023. Attention-based residual autoencoder
+for video anomaly detection. Applied Intelligence 53, 3 (2023), 3240–3254.
+[20] Chun-Liang Li, Kihyuk Sohn, Jinsung Yoon, and Tomas Pfister. 2021. Cutpaste:
+Self-supervised learning for anomaly detection and localization. In CVPR. 9664–
+9674.
+[21] Jing Li, Qingwang Huang, Yingjun Du, Xiantong Zhen, Shengyong Chen, and
+Ling Shao. 2021. Variational abnormal behavior detection with motion consis-
+tency. IEEE Transactions on Image Processing (2021), 275–286.
+[22] Weixin Li, Vijay Mahadevan, and Nuno Vasconcelos. 2013. Anomaly detection
+and localization in crowded scenes. IEEE transactions on pattern analysis and
+machine intelligence (2013), 18–32.
+[23] Wenrui Liu, Hong Chang, Bingpeng Ma, Shiguang Shan, and Xilin Chen. 2023.
+Diversity-measurable anomaly detection. In CVPR. 12147–12156.
+[24] Wenqian Liu, Runze Li, Meng Zheng, Srikrishna Karanam, Ziyan Wu, Bir Bhanu,
+Richard J Radke, and Octavia Camps. 2020. Towards visually explaining varia-
+tional autoencoders. In CVPR. 8642–8651.
+[25] Wen Liu, Weixin Luo, Dongze Lian, and Shenghua Gao. 2018. Future frame
+prediction for anomaly detection–a new baseline. In CVPR. 6536–6545.
+[26] Yang Liu, Zhaoyang Xia, Mengyang Zhao, Donglai Wei, Yuzheng Wang, Siao
+Liu, Bobo Ju, Gaoyun Fang, Jing Liu, and Liang Song. 2023. Learning causality-
+inspired representation consistency for video anomaly detection. In ACM MM.
+203–212.
+[27] Yunfei Liu, Chaoqun Zhuang, and Feng Lu. 2021. Unsupervised two-stage anom-
+aly detection. arXiv preprint arXiv:2103.11671 (2021).
+[28] Zhian Liu, Yongwei Nie, Chengjiang Long, Qing Zhang, and Guiqing Li. 2021.
+A hybrid video anomaly detection framework via memory-augmented flow
+reconstruction and flow-guided frame prediction. In ICCV. 13588–13597.
+[29] Ze Liu, Jia Ning, Yue Cao, Yixuan Wei, Zheng Zhang, Stephen Lin, and Han Hu.
+2022. Video swin transformer. In CVPR. 3202–3211.
+[30] Cewu Lu, Jianping Shi, and Jiaya Jia. 2013. Abnormal event detection at 150 fps
+in matlab. In ICCV. 2720–2727.
+[31] Yiwei Lu, Frank Yu, Mahesh Kumar Krishna Reddy, and Yang Wang. 2020. Few-
+shot scene-adaptive anomaly detection. In ECCV. 125–141.
+[32] Weixin Luo, Wen Liu, and Shenghua Gao. 2017. A revisit of sparse coding based
+anomaly detection in stacked rnn framework. In ICCV. 341–349.
+[33] Pankaj Mishra, Riccardo Verk, Daniele Fornasier, Claudio Piciarelli, and Gian Luca
+Foresti. 2021. VT-ADL: A vision transformer network for image anomaly detec-
+tion and localization. In ISIE. 01–06.
+[34] University of Minnesota. [n. d.]. Unusual crowd activity dataset of university of
+minnesota. http:// mha.cs.umn.edu/ proj_events.shtml#crowd ([n. d.]).
+[35] Jonathan Pirnay and Keng Chai. 2022. Inpainting transformer for anomaly
+detection. In ICIAP. 394–406.
+[36] Bharathkumar Ramachandra and Michael Jones. 2020. Street scene: A new dataset
+and evaluation protocol for video anomaly detection. In W ACV. 2569–2578.
+[37] Tal Reiss and Yedid Hoshen. 2022. Attribute-based Representations for Accurate
+and Interpretable Video Anomaly Detection. arXiv preprint arXiv:2212.00789
+(2022).
+[38] Oliver Rippel, Arnav Chavan, Chucai Lei, and Dorit Merhof. 2022. Transfer
+learning gaussian anomaly detection by fine-tuning representations. (2022),
+45–56.
+MM’24, October 28 - November 1, 2024, Melbourne, Australia. author name and author name, et al.
+[39] Royston Rodrigues, Neha Bhargava, Rajbabu Velmurugan, and Subhasis Chaud-
+huri. 2020. Multi-timescale trajectory prediction for abnormal human activity
+detection. In W ACV. 2626–2634.
+[40] Mohammadreza Salehi, Niousha Sadjadi, Soroosh Baselizadeh, Mohammad H
+Rohban, and Hamid R Rabiee. 2021. Multiresolution knowledge distillation for
+anomaly detection. In CVPR. 14902–14912.
+[41] Thomas Schlegl, Philipp Seeböck, Sebastian M Waldstein, Ursula Schmidt-Erfurth,
+and Georg Langs. 2017. Unsupervised anomaly detection with generative adver-
+sarial networks to guide marker discovery. In IPMI. 146–157.
+[42] Waqas Sultani, Chen Chen, and Mubarak Shah. 2018. Real-world anomaly detec-
+tion in surveillance videos. In CVPR. 6479–6488.
+[43] Shengyang Sun and Xiaojin Gong. 2023. Hierarchical Semantic Contrast for
+Scene-aware Video Anomaly Detection. In CVPR. 22846–22856.
+[44] Daniel Stanley Tan, Yi-Chun Chen, Trista Pei-Chun Chen, and Wei-Chao Chen.
+2021. Trustmae: A noise-resilient defect classification framework using memory-
+augmented auto-encoders with trust regions. In W ACV. 276–285.
+[45] Xian Tao, Xinyi Gong, Xin Zhang, Shaohua Yan, and Chandranath Adak. 2022.
+Deep learning for unsupervised anomaly localization in industrial images: A
+survey. IEEE Transactions on Instrumentation and Measurement (2022).
+[46] Chin-Chia Tsai, Tsung-Hsuan Wu, and Shang-Hong Lai. 2022. Multi-scale patch-
+based representation learning for image anomaly detection and segmentation. In
+W ACV. 3992–4000.
+[47] Chengjie Wang, Wenbing Zhu, Bin-Bin Gao, Zhenye Gan, Jianning Zhang, Zhi-
+hao Gu, Shuguang Qian, Mingang Chen, and Lizhuang Ma. 2024. Real-IAD: A
+Real-World Multi-View Dataset for Benchmarking Versatile Industrial Anomaly
+Detection. arXiv preprint arXiv:2403.12580 (2024).
+[48] Guodong Wang, Yunhong Wang, Jie Qin, Dongming Zhang, Xiuguo Bao, and Di
+Huang. 2022. Video anomaly detection by solving decoupled spatio-temporal
+jigsaw puzzles. In ECCV. 494–511.
+[49] Lu Wang, Dongkai Zhang, Jiahao Guo, and Yuexing Han. 2020. Image anomaly
+detection using normal data only by latent space resampling. Applied Sciences 23
+(2020), 8660.
+[50] Jian Xiao, Tianyuan Liu, and Genlin Ji. 2023. Divide and Conquer in Video
+Anomaly Detection: A Comprehensive Review and New Approach.arXiv preprint
+arXiv:2309.14622 (2023).
+[51] Yi Yan, Deming Wang, Guangliang Zhou, and Qijun Chen. 2021. Unsuper-
+vised anomaly segmentation via multilevel image reconstruction and adaptive
+attention-level transition. IEEE Transactions on Instrumentation and Measurement
+(2021), 1–12.
+[52] Jiawei Yu, Ye Zheng, Xiang Wang, Wei Li, Yushuang Wu, Rui Zhao, and Liwei
+Wu. 2021. Fastflow: Unsupervised anomaly detection and localization via 2d
+normalizing flows. arXiv preprint arXiv:2111.07677 (2021).
+[53] Muhammad Zaigham Zaheer, Arif Mahmood, Marcella Astrid, and Seung-Ik Lee.
+2020. Claws: Clustering assisted weakly supervised learning with normalcy
+suppression for anomalous event detection. In ECCV. 358–376.
+[54] Muhammad Zaigham Zaheer, Jin-ha Lee, Marcella Astrid, Arif Mahmood, and
+Seung-Ik Lee. 2021. Cleaning Label Noise with Clusters for Minimally Supervised
+Anomaly Detection. arXiv preprint arXiv:2104.14770 (2021).
+[55] Ji Zhang, Xiao Wu, Zhi-Qi Cheng, Qi He, and Wei Li. 2023. Improving Anomaly
+Segmentation with Multi-Granularity Cross-Domain Alignment. In ACM MM.
+8515–8524.
+[56] Jia-Xing Zhong, Nannan Li, Weijie Kong, Shan Liu, Thomas H Li, and Ge Li. 2019.
+Graph convolutional label noise cleaner: Train a plug-and-play action classifier
+for anomaly detection. In CVPR. 1237–1246.
+[57] Dongliang Zhu, Ruimin Hu, Shengli Song, Xiang Guo, Xixi Li, and Zheng Wang.
+2023. Cross-Illumination Video Anomaly Detection Benchmark. In ACM MM.
+2516–2525.
+[58] Xueyan Zou, Linjie Yang, Ding Liu, and Yong Jae Lee. 2021. Progressive temporal
+feature alignment network for video inpainting. In CVPR. 16448–16457.

@@ -1,0 +1,30 @@
+{
+  "selected_concept": "/Users/tabbasi/Downloads/IndustrialAI/docs/design/2026-10-21-mvp-mockups/references/selected-option-2.png",
+  "source_frames": [
+    {
+      "file": "references/W04-source.jpg",
+      "source": "data/smoke-validation-candidates-2026-10-20/workplace/3_te8.mp4",
+      "time_seconds": 0,
+      "attribution": "Onal/Dandil real-factory dataset, Mendeley xjmtb22pff/1, CC BY 4.0; Voxel51 mirror"
+    },
+    {
+      "file": "references/W08-source.jpg",
+      "source": "data/smoke-validation-candidates-2026-10-20/workplace/7_te4.mp4",
+      "time_seconds": 1,
+      "attribution": "Onal/Dandil real-factory dataset, Mendeley xjmtb22pff/1, CC BY 4.0; Voxel51 mirror"
+    },
+    {
+      "file": "references/B01-source.jpg",
+      "source": "data/smoke-validation-candidates-2026-10-20/bilkent/sEmptyR1.avi",
+      "time_seconds": 6.12,
+      "attribution": "Bilkent VisiFire research sample; source audit retains permission-review status"
+    },
+    {
+      "file": "references/B02-source.jpg",
+      "source": "data/smoke-validation-candidates-2026-10-20/bilkent/sEmptyR2.avi",
+      "time_seconds": 8.4,
+      "attribution": "Bilkent VisiFire research sample; source audit retains permission-review status"
+    }
+  ],
+  "rights_context": "Local design review only; no public hosting, dataset relabeling or commercial rights clearance claimed"
+}

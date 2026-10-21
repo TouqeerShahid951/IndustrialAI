@@ -1,0 +1,62 @@
+[
+  {
+    "clip_id": "L01",
+    "local_path": "/Users/tabbasi/Downloads/IndustrialAI/data/industrial-longer-candidates-2026-10-21/4_tr6.mp4",
+    "source_sha256": "f0e34d76de139450b97decbb4e032a525d8ce9959d972cdd0071a1de69250c6a",
+    "repository": "Voxel51/Safe_and_Unsafe_Behaviours",
+    "revision": "7369ff1830b5f6c00f7d7383eeeaa90704bfc5b5",
+    "source_file": "data/4_tr6.mp4",
+    "publisher_behavior_label": "Safe Walkway",
+    "source_license": "CC BY 4.0; original Mendeley xjmtb22pff/1",
+    "frames": 522,
+    "decoded_frames": 522,
+    "fps": 25.05,
+    "width": 1920,
+    "height": 1080,
+    "duration_seconds": 20.83832335329341,
+    "last_timestamp": 20.798403193612774,
+    "source_group": "same_factory_all_cameras_and_events_conservatively_grouped",
+    "review_status": "single_assistant_screening",
+    "limitations": [
+      "Longer than existing samples, still only seconds; not continuous camera-hours",
+      "Smoke/fire labels require visual review; publisher behavior labels are unrelated to smoke"
+    ],
+    "assistant_assessment": {
+      "fire": "no_visible_flame",
+      "smoke": "uncertain_haze_or_process_aerosol"
+    },
+    "review_method": "Original unannotated frame sequence approximately once per second; all frames decoded successfully; not independent review",
+    "training_eligible": false,
+    "review_notes": "Real machining area, machinery and workers; diffuse gray haze near machines cannot be identified as combustion smoke, steam or dust from images alone. Do not force these into a negative smoke label."
+  },
+  {
+    "clip_id": "L02",
+    "local_path": "/Users/tabbasi/Downloads/IndustrialAI/data/industrial-longer-candidates-2026-10-21/1_tr19.mp4",
+    "source_sha256": "7b706d27be01e68d6d9f808ae778a68ddfde31116a89e4e563c08b275ebd10ba",
+    "repository": "Voxel51/Safe_and_Unsafe_Behaviours",
+    "revision": "7369ff1830b5f6c00f7d7383eeeaa90704bfc5b5",
+    "source_file": "data/1_tr19.mp4",
+    "publisher_behavior_label": "Unauthorized Intervention",
+    "source_license": "CC BY 4.0; original Mendeley xjmtb22pff/1",
+    "frames": 516,
+    "decoded_frames": 516,
+    "fps": 24.8,
+    "width": 1920,
+    "height": 1080,
+    "duration_seconds": 20.806451612903224,
+    "last_timestamp": 20.766129032258064,
+    "source_group": "same_factory_all_cameras_and_events_conservatively_grouped",
+    "review_status": "single_assistant_screening",
+    "limitations": [
+      "Longer than existing samples, still only seconds; not continuous camera-hours",
+      "Smoke/fire labels require visual review; publisher behavior labels are unrelated to smoke"
+    ],
+    "assistant_assessment": {
+      "fire": "no_visible_flame",
+      "smoke": "uncertain_haze_or_process_aerosol"
+    },
+    "review_method": "Original unannotated frame sequence approximately once per second; all frames decoded successfully; not independent review",
+    "training_eligible": false,
+    "review_notes": "Real machining area, machinery and workers; diffuse gray haze near machines cannot be identified as combustion smoke, steam or dust from images alone. Do not force these into a negative smoke label."
+  }
+]

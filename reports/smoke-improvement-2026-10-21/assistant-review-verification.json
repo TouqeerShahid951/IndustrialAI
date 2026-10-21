@@ -1,0 +1,11 @@
+{
+  "valid": true,
+  "clips": 4,
+  "labels": "assistant single reviewer, user delegated; not human confirmed",
+  "annotation_sha256": {
+    "W04": "56f11fbbfcc6efe53c07aa423c55deae31caf43b0b5e256232c29ef37236eac3",
+    "W08": "a6e70a095ea6c46d30fd2a5a0836fb24b6d53008b1aaa49b60ce8fe843cd07d0",
+    "B01": "85a2543f6c7bef8a968edf31b0c6496080c70d293773b044864c441fccd6f1bd",
+    "B02": "e4c41982ff6b44797ed85afa2f55fa986a58c7e7682b238b3322d23db5dd3b24"
+  }
+}

@@ -1,0 +1,19 @@
+# NOT RUN: source-isolated, visually checked industrial training data is missing.
+model: /Users/tabbasi/.cache/huggingface/hub/models--rabahdev--fire-smoke-yolov8n/snapshots/13017fe8af477c25f5298d168e2dfede4b000753/best.pt
+data: /Users/tabbasi/Downloads/IndustrialAI/reports/smoke-improvement-2026-10-21/training-data-pending.yaml
+epochs: 10
+imgsz: 640
+batch: 4
+device: mps
+workers: 0
+seed: 42
+deterministic: true
+optimizer: AdamW
+lr0: 0.0001
+warmup_epochs: 1
+cache: false
+plots: false
+save: true
+project: /Users/tabbasi/Downloads/IndustrialAI/outputs/industrial-smoke-pilot
+name: source-isolated-pilot
+exist_ok: false

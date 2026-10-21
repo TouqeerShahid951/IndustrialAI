@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "assistant_assessments": 4,
+  "assistant_not_human_confirmed": true,
+  "original_28_unreviewed_annotations_preserved": true,
+  "old_7_user_annotations_hashes_preserved": true,
+  "original_source_queue_hash_preserved": true,
+  "distinct_checkpoints": 3,
+  "comparison_sources": 33,
+  "comparison_frames_per_model": 12700,
+  "longer_sources": 2,
+  "longer_frames_per_model": 1038,
+  "total_observations_across_models": 41214,
+  "raw_class_strings_preserved": true,
+  "time_lapse_temporal_scoring_excluded": true,
+  "default_model_changed": false,
+  "new_fine_tuning_started": false,
+  "long_duration_validation_complete": false,
+  "outcome_sha256": "439ad1452c2059293ec77d3527e4a9085d8ee5fa3a61b97861e029182926e2bf",
+  "comparison_sha256": "4901110302084c47d31f8e7df7827463538b214e1ed287ad9833d5b3796dfa29",
+  "assistant_manifest_sha256": "484bb082243bdad72da87a4080bc94db03dbb5e14782e5fc0adc004ebe84bc42",
+  "training_readiness_sha256": "348656d32374fe398f3e6defc53e58daac71b70c69f7a5b775737bd96c13ac61"
+}

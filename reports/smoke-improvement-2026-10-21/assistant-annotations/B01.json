@@ -1,0 +1,105 @@
+{
+  "review_status": "single_reviewer",
+  "reviewer": "assistant_visual_review",
+  "human_confirmed": false,
+  "user_authorized_assistant_review": true,
+  "source_sha256": "ca7167b18899071ff9b672251fd0d4413a7c708c731aee5d7fad70bd80283e61",
+  "review_id": "B01",
+  "reviewed_intervals": {
+    "smoke": [
+      [
+        0,
+        4.2
+      ],
+      [
+        4.6,
+        21.5
+      ]
+    ]
+  },
+  "events": [
+    {
+      "kind": "smoke",
+      "start_seconds": 4.6,
+      "end_seconds": 21.5,
+      "review_status": "reviewed",
+      "label_basis": "Visible moving pale/gray plume and subsequent haze; smoke appearance, source substance unverified"
+    }
+  ],
+  "frames": [
+    {
+      "time_seconds": 5.1,
+      "image_width": 320,
+      "image_height": 240,
+      "review_status": "ambiguous",
+      "objects": [
+        {
+          "class": "smoke",
+          "bbox_xyxy": [
+            90,
+            58,
+            199,
+            140
+          ]
+        }
+      ],
+      "notes": "Coarse plume extent draft; diffuse edges uncertain; not training labels"
+    },
+    {
+      "time_seconds": 6.12,
+      "image_width": 320,
+      "image_height": 240,
+      "review_status": "ambiguous",
+      "objects": [
+        {
+          "class": "smoke",
+          "bbox_xyxy": [
+            52,
+            20,
+            224,
+            146
+          ]
+        }
+      ],
+      "notes": "Coarse plume extent draft; diffuse edges uncertain; not training labels"
+    }
+  ],
+  "excluded_intervals": [
+    {
+      "kind": "smoke",
+      "start_seconds": 4.2,
+      "end_seconds": 4.6,
+      "reason": "ambiguous"
+    },
+    {
+      "kind": "smoke",
+      "start_seconds": 21.5,
+      "end_seconds": 28.979999999999997,
+      "reason": "ambiguous"
+    },
+    {
+      "kind": "fire",
+      "start_seconds": 0,
+      "end_seconds": 28.979999999999997,
+      "reason": "ambiguous"
+    }
+  ],
+  "method": "Unannotated chronological contact sheets: every third factory frame; approximately one-second smoke samples plus 0.2-second onset and 0.5-second doorway sequences. Full source decode verified. Boundaries are coarse and uncertain windows excluded.",
+  "limitations": [
+    "Single assistant reviewer; previous detector failure examples already known, not blinded independent validation",
+    "Visible plume appearance does not chemically verify combustion; no production-accuracy claim"
+  ],
+  "assessment": {
+    "fire": "uncertain_bright_occluded_doorway",
+    "smoke": "present_visible_plume",
+    "smoke_core_seconds": [
+      4.6,
+      21.5
+    ],
+    "smoke_onset_bracket_seconds": [
+      4.2,
+      4.6
+    ]
+  },
+  "notes": "Plume visibly emerges around the far doorway and spreads upward/left. No distinct resolvable flame contour. Saturation, orange/yellow illumination and occlusion prevent reliable fire-present/absent judgment; fire excluded from scoring. Faint residual haze end is uncertain."
+}

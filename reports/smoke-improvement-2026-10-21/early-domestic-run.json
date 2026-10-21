@@ -1,0 +1,14 @@
+{
+  "model": {
+    "model_id": "early-domestic",
+    "repository": "mfranzon/fire-smoke-yolov8",
+    "revision": "f1c6426b069c1849cbf13b1ef5d2a260289286db",
+    "path": "/Users/tabbasi/.cache/huggingface/hub/models--mfranzon--fire-smoke-yolov8/snapshots/f1c6426b069c1849cbf13b1ef5d2a260289286db/fire_smoke_yolov8.pt",
+    "sha256": "ac0a10257b2bc1f20c9d957f8adeeb61dd6140322fc19d0b4a116cb491776d16",
+    "classes": {
+      "0": "fire",
+      "1": "smoke"
+    }
+  },
+  "run": "/Users/tabbasi/Downloads/IndustrialAI/outputs/smoke-model-comparison/run-e6lb9bad"
+}

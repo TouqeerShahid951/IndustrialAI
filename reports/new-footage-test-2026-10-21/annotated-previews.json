@@ -1,0 +1,30 @@
+[
+  {
+    "review_id": "W04",
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/reports/new-footage-test-2026-10-21/annotated-previews/W04.mp4",
+    "sha256": "500a02d0a2ee5bcec61544bf7e7baaf87a1ddc9e3fd4f53af68ba734e4b3b842",
+    "frames": 75,
+    "codec": "h264"
+  },
+  {
+    "review_id": "W08",
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/reports/new-footage-test-2026-10-21/annotated-previews/W08.mp4",
+    "sha256": "8e3efdef11d969ddddfb164102fce2ccd45444a732f574d87b77ec318cc69372",
+    "frames": 101,
+    "codec": "h264"
+  },
+  {
+    "review_id": "B01",
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/reports/new-footage-test-2026-10-21/annotated-previews/B01.mp4",
+    "sha256": "dc441696d81965af37046afb103e2472036b2ac095aeef2de3fae09d9239ad71",
+    "frames": 483,
+    "codec": "h264"
+  },
+  {
+    "review_id": "B02",
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/reports/new-footage-test-2026-10-21/annotated-previews/B02.mp4",
+    "sha256": "ee97a7203dbef19a65fa17395fe88a5d009a1d2c23a5a2d8645fd6f56bc132be",
+    "frames": 342,
+    "codec": "h264"
+  }
+]

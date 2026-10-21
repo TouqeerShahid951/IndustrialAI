@@ -1,0 +1,16 @@
+{
+  "valid": true,
+  "clips": 7,
+  "decoded_and_inferred_frames": 5129,
+  "source_seconds": 191.525,
+  "full_frame_counts_match": true,
+  "all_observations_successful": true,
+  "timestamp_basis": "container",
+  "source_checkpoint_artifact_annotation_and_code_hashes_verified": true,
+  "reviewed_time_coverage": {
+    "fire": 1.0,
+    "smoke": 1.0
+  },
+  "manifest_sha256": "e97f415cf790b086ccc1fa4dfdd788dce9b9759b3eec2bede7f01b29ac3f05c9",
+  "report_sha256": "b1c76420b7acc1cd35627af6db1628f671a800f7059c463add46d0ffa733e109"
+}
