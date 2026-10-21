@@ -1,0 +1,42 @@
+{
+  "fire_smoke": {
+    "repository": "rabahdev/fire-smoke-yolov8n",
+    "revision": "13017fe8af477c25f5298d168e2dfede4b000753",
+    "sha256": "b91633799ceb052c814b4f8b77a37efc9a40f002d528df97d74463585fa4f28f",
+    "classes": {
+      "smoke": "smoke",
+      "fire": "fire"
+    }
+  },
+  "helmet": {
+    "repository": "keremberke/yolov8n-hard-hat-detection",
+    "revision": "287bafa2feb311ee45d21f9e9b33315ff6ff955d",
+    "sha256": "05ed3a517485292d42d6eb6c9be3987ea51cd162e04807d2741eadcac8a19e6c",
+    "classes": {
+      "Hardhat": "helmet",
+      "NO-Hardhat": "no_helmet"
+    }
+  },
+  "cigarette": {
+    "repository": "Enos-123/smoking-detection",
+    "revision": "f6756f9c9cfe9fbbbeb69efcc801632636838ad2",
+    "sha256": "0ef558d3cf049d0acbb3f2322bc9e4e53db1a107426e3669622176c30c054d82",
+    "classes": {
+      "cigarette": "cigarette"
+    }
+  },
+  "pose": {
+    "repository": "ultralytics/assets",
+    "revision": "v8.4.0",
+    "filename": "yolo11n-pose.pt",
+    "sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0",
+    "classes": {
+      "person": "person"
+    },
+    "keypoints": {
+      "nose": 0,
+      "left_wrist": 9,
+      "right_wrist": 10
+    }
+  }
+}
