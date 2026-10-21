@@ -1,6 +1,7 @@
 import hmac
 import os
 import time
+import asyncio
 from collections import defaultdict
 from pathlib import Path
 from fastapi import FastAPI, HTTPException, Request
@@ -16,6 +17,7 @@ def create_app(data_dir=None):
     settings = configure(root)
     app = FastAPI(title='Industrial AI', version='0.1.0', docs_url=None, redoc_url=None)
     app.state.store = store
+    admission_lock = asyncio.Lock()
     attempts = defaultdict(list)
 
     @app.middleware('http')
@@ -73,7 +75,23 @@ def create_app(data_dir=None):
 
     @app.get('/api/uploads')
     def uploads():
-        return []
+        return [public_upload(u) for u in store.query('SELECT * FROM uploads ORDER BY created DESC')]
+
+    def public_upload(upload):
+        return {k:v for k,v in upload.items() if k != 'path'} | {'jobs':store.query('SELECT * FROM jobs WHERE upload_id=? ORDER BY created DESC',(upload['id'],))}
+
+    @app.post('/api/uploads', status_code=202)
+    async def upload(request: Request):
+        from .media import admit_upload
+        async with admission_lock:
+            return await admit_upload(store,request.stream(),request.headers.get('x-upload-name',''))
+
+    @app.get('/api/uploads/{uid}')
+    def upload_detail(uid: str):
+        result=store.upload(uid)
+        if not result:
+            raise HTTPException(404,'Upload not found')
+        return public_upload(result)
 
     @app.get('/api/jobs/{jid}')
     def job(jid: str):
