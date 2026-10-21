@@ -5,6 +5,11 @@ data/*
 outputs/*
 *.pt
 .DS_Store
+var/
+.superpowers/
+frontend/node_modules/
+frontend/dist/
+frontend/test-results/
 .env
 .env.*
 !.env.example
