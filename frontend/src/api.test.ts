@@ -1,5 +1,5 @@
 import {describe,it,expect} from 'vitest';
-import {clock, toPreview, toSource, jobSummary} from './api';
+import {clock, interval, toPreview, toSource, jobSummary} from './api';
 describe('source-time and honest processing states',()=>{
  it('maps irregular source times without treating preview time as source',()=>{
   const map=[[0,0],[.04,.1],[.2,.2],[.25,.3]];
@@ -13,3 +13,5 @@ describe('source-time and honest processing states',()=>{
   expect(clock(65)).toBe('01:05');
  });
 });
+
+it('shows precision for a subsecond candidate interval',()=>{expect(interval(6.2,6.24)).toBe('00:06.200–00:06.240');});

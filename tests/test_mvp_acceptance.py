@@ -52,3 +52,15 @@ class AcceptanceTests(unittest.TestCase):
             self.assertEqual(client.get('/api/uploads').status_code,401)
             restarted=TestClient(create_app(root));restarted.cookies.set('industrial_session',cookie)
             self.assertEqual(restarted.get('/api/uploads').status_code,401)
+
+    def test_delete_cleans_interrupted_unregistered_previews_only_for_upload(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder);configure(root,'password-12345');app=create_app(root);client=TestClient(app)
+            csrf=client.post('/api/session',json={'password':'password-12345'}).json()['csrf']
+            upload=app.state.store.add_upload('fixture.mp4','fixture.mp4','x',1,{'duration':3})
+            partial=root/'previews'/(upload['id']+'-interrupted');partial.mkdir(parents=True)
+            (partial/'partial.mp4').write_bytes(b'partial')
+            other=root/'previews'/'other-upload';other.mkdir();(other/'keep.mp4').write_bytes(b'keep')
+            self.assertEqual(client.delete('/api/uploads/'+upload['id'],headers={'X-CSRF-Token':csrf}).status_code,200)
+            self.assertFalse((partial/'partial.mp4').exists())
+            self.assertTrue((other/'keep.mp4').exists())

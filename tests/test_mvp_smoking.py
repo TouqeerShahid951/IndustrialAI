@@ -23,3 +23,19 @@ class SmokingTests(unittest.TestCase):
         self.assertEqual(smoking_events(raw,cigarette_only),[])
         duplicate_heads=[{'time':t,'bbox':[45,2,65,22],'canonical':'no_helmet'} for t in (0,0,1)]
         self.assertEqual(helmet_events(duplicate_heads,[person(t) for t in (0,1)]),[])
+
+    def test_cigarette_in_other_hand_cannot_support_gesture(self):
+        people=[person(t,wrist=w) for t,w in [(0,90),(.5,30),(1,30),(1.5,30),(2,90)]]
+        for p in people:p['keypoints'][10]=[95,130,.9]
+        raw=[{'time':t,'bbox':[92,127,98,133]} for t in (.5,1,1.5)]
+        self.assertEqual(smoking_events(raw,people),[])
+
+    def test_ambiguous_association_resets_cycle_and_records_uncertainty(self):
+        people=[person(t,wrist=w) for t,w in [(0,90),(.5,30),(1,30),(1.5,30),(1.75,30),(2,90)]]
+        people.append(person(1.75,x=11,wrist=30,track=2))
+        raw=[{'time':t,'bbox':[57,25,63,31]} for t in (.5,1,1.5,1.75)]
+        self.assertEqual(smoking_events(raw,people),[])
+        rows={'pose':[{'time':t,'frame':n,'boxes':[p for p in people if p['time']==t]} for n,t in enumerate((0,.5,1,1.5,1.75,2))],
+              'cigarette':[{'time':b['time'],'boxes':[b]} for b in raw]}
+        _,assessment=person_incidents(rows,[],['smoking'],{'width':200,'height':250,'duration':2.5})
+        self.assertTrue(any('ambiguous' in i['reason'].lower() for i in assessment['uncertain_intervals']))

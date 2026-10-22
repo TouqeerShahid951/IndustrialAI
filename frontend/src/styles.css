@@ -6,3 +6,7 @@
 
 /* Keep the evidence and review controls together at desktop heights. */
 @media(min-width:761px){.review-page{padding-top:16px}.review-title h1{font-size:25px}.review-title{margin-bottom:8px}.review-page .evidence-frame{max-height:48vh}.review-page .transport{padding:7px 10px}.review-page .source-marks{padding-top:4px}.review-tray{margin-top:12px;padding-top:18px;gap:24px}.review-page .player-header{margin-top:0}.review-page .decision-options{gap:16px}.review-page .incident-summary h2{font-size:20px}}
+
+.mobile-nav-action{display:none}
+@media(max-width:700px){nav.open .mobile-nav-action{display:flex}.section-heading{flex-wrap:wrap}.section-heading h2{flex-basis:100%}.section-heading select{flex:1;min-width:0}}
+@media(max-width:760px){.review-title{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px;align-items:start}.review-title h1{font-size:22px}.review-meta{margin-top:8px}.review-page{padding-bottom:150px}.review-actions{position:fixed;z-index:12;bottom:0;left:0;right:0;gap:4px;padding:10px 16px max(10px,env(safe-area-inset-bottom));background:var(--canvas);border-top:1px solid var(--line)}.review-actions>.primary{min-height:44px}.review-actions>.link-button{min-height:44px;padding:6px}}

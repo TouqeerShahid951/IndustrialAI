@@ -1,3 +1,64 @@
+# Industrial Safety AI — local upload-and-review MVP
+
+The Mac MVP provides authenticated CCTV upload, full-video analysis, source-timestamp playback, incident review and evidence export. Its five capabilities are fire, smoke, suspected smoking behavior, explicit no-helmet evidence and restricted-area intrusion. The frontend follows the selected Soft Graphite and Sage mockups.
+
+## Run on this Mac
+
+The configured workspace already has dependencies and verified model weights. Start the API and single worker together:
+
+```bash
+./scripts/start_mvp.sh
+```
+
+Open **http://127.0.0.1:8008**. On first run, the generated operator password is stored privately at `var/mvp/operator-password.txt`; it is never logged. To change it, stop the application, run `.venv/bin/python -m backend.manage password`, then restart. Sessions expire after 12 hours; signing out revokes existing sessions. Runtime uploads, database, model files and exports remain in ignored `var/mvp/`.
+
+For remote access, forward the loopback port from your own computer (replace `user@mac` with your Mac SSH address):
+
+```bash
+ssh -N -L 8008:127.0.0.1:8008 user@mac
+```
+
+Then open the same localhost URL on that computer. The startup script binds locally; there is no public deployment.
+
+Fresh environment setup:
+
+```bash
+uv venv --python 3.12 .venv
+uv pip install --python .venv/bin/python -r requirements-mvp.txt
+npm --prefix frontend ci
+.venv/bin/python -m backend.manage models
+npm --prefix frontend run generate:api
+npm --prefix frontend run build
+./scripts/start_mvp.sh
+```
+
+`models` explicitly retrieves pinned publisher checkpoints; runtime verifies hashes and class names. macOS `/usr/bin/avconvert` prepares browser-compatible previews. MPS is selected explicitly in analysis configuration; choose CPU if required. There is no automatic CPU/model substitution.
+
+## Workflow and limits
+
+Upload a video, wait for preview preparation, select detections and draw a restricted polygon if intrusion is enabled. Start analysis, inspect machine candidates in the review workspace and save a confirmed, false-alarm or uncertain decision. Add missed observations manually. Incident history retains the append-only review trail. Export JSON details, CSV summaries or a selected MP4 clip with a separate source-frame manifest.
+
+Uploads are limited to 250 MiB, five minutes, 1920×1080 and nominal 60 FPS. Workspace quota is 4 GiB with a 3 GiB free-disk guard. Models process every admitted source frame sequentially in one separate worker, keeping the API responsive. A stopped worker marks running jobs interrupted on restart; retry explicitly creates a new job. Delete is blocked until active jobs stop and removes the upload's associated files and reviews permanently.
+
+These are development detectors and provisional temporal rules. A machine candidate is not a confirmed incident; no candidates does not establish safety. Smoking requires cigarette evidence and a same-person hand-to-face cycle, with ambiguity/visibility intervals recorded. No-helmet requires explicit associated evidence; intrusion depends on the configured zone and visible tracks. Preview time maps to original source time. The frame fallback uses available stills, approximately one per second. MP4 evidence exports omit audio.
+
+## Verification
+
+```bash
+.venv/bin/python -m unittest discover -s tests -v
+npm --prefix frontend test -- --run
+npm --prefix frontend run typecheck
+npm --prefix frontend run build
+# With the application running and its initial local credential file available:
+npm --prefix frontend run test:e2e
+```
+
+The last command exercises the real API, worker and all four pinned models with a disposable local fixture; it does not measure detection accuracy. Browser interaction checks and selected real development clips are documented in [implementation results](reports/mvp-implementation-2026-10-21/results.md). [Visual verification](design-qa.md) records the source mockup comparison. Safari/WebKit and a remotely connected client still require independent testing. A labeled, representative holdout set is required before deployment decisions.
+
+The original CLI evaluation workflow below remains available.
+
+---
+
 # Industrial Safety AI — model evaluation
 
 First milestone from the [project conversation](https://chatgpt.com/share/6ad64fa3-2d70-83ee-ac73-196c3818ca55): evaluate pretrained fire/smoke, hard-hat and cigarette detectors on images and recorded CCTV before building the live monitoring platform.

@@ -17,6 +17,15 @@ export async function api<T>(path:string, options:RequestInit={}):Promise<T>{
  return response.json();
 }
 export const post=<T,>(path:string,body:unknown)=>api<T>(path,{method:'POST',body:JSON.stringify(body)});
+// Retain intent IDs until a response is received, including across reloads.
+export async function mutate<T>(path:string,payload:Record<string,unknown>):Promise<T>{
+ const key='industrial:pending:'+path+':'+JSON.stringify(payload);
+ const request_id=sessionStorage.getItem(key)||crypto.randomUUID();
+ sessionStorage.setItem(key,request_id);
+ const result=await post<T>(path,{...payload,request_id});
+ sessionStorage.removeItem(key);
+ return result;
+}
 export function uploadVideo(file:File, progress:(n:number)=>void):{promise:Promise<{upload_id:string;preparation_job_id:string}>,cancel:()=>void}{
  const xhr=new XMLHttpRequest();
  const promise=new Promise<{upload_id:string;preparation_job_id:string}>((resolve,reject)=>{
@@ -30,6 +39,7 @@ export function uploadVideo(file:File, progress:(n:number)=>void):{promise:Promi
  return {promise,cancel:()=>xhr.abort()};
 }
 export function clock(t:number){t=Math.max(0,Number(t)||0);return Math.floor(t/60).toString().padStart(2,'0')+':'+Math.floor(t%60).toString().padStart(2,'0');}
+export function interval(a:number,b:number){const precise=clock(a)===clock(b);const label=(t:number)=>clock(t)+(precise?'.'+Math.floor((t%1)*1000+1e-6).toString().padStart(3,'0'):'');return label(a)+'–'+label(b);}
 export function date(t:string){return new Intl.DateTimeFormat(undefined,{day:'2-digit',month:'short',year:'numeric',hour:'2-digit',minute:'2-digit'}).format(new Date(t));}
 export function bytes(n:number){return n>=1024**3?(n/1024**3).toFixed(1)+' GB':(n/1024**2).toFixed(1)+' MB';}
 function mapTime(t:number,map:number[][],from:number,to:number){

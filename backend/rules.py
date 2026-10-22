@@ -45,7 +45,7 @@ def keypoint(person,index):
     return points[index][:2]
 
 
-def associate(box,people,mode):
+def association_choices(box,people,mode):
     a,b,c,d=box['bbox']
     center=((a+c)/2,(b+d)/2)
     choices=[]
@@ -69,6 +69,11 @@ def associate(box,people,mode):
                 continue
         choices.append((score,person))
     choices.sort(key=lambda x:x[0])
+    return choices
+
+
+def associate(box,people,mode):
+    choices=association_choices(box,people,mode)
     if not choices or (len(choices)>1 and choices[1][0]-choices[0][0]<.05):
         return None
     return choices[0][1]
@@ -141,7 +146,7 @@ def zone_events(people,zone,width,height):
     return events
 
 
-def smoking_events(raw,people):
+def smoking_events(raw,people,uncertainty=None):
     at=defaultdict(list)
     tracks=defaultdict(list)
     for p in people:
@@ -149,10 +154,24 @@ def smoking_events(raw,people):
         if p.get('track') is not None:
             tracks[p['track']].append(p)
     cigarette_hits=defaultdict(list)
+    ambiguous=set()
     for box in raw:
-        owner=associate(box,at[box['time']],'object')
-        if owner:
-            cigarette_hits[owner['track']].append(box['time'])
+        choices=association_choices(box,at[box['time']],'object')
+        if len(choices)>1 and choices[1][0]-choices[0][0]<.05:
+            ambiguous.update((p['track'],box['time']) for _,p in choices)
+            continue
+        if choices:
+            owner=choices[0][1]
+            a,b,c,d=box['bbox'];center=((a+c)/2,(b+d)/2)
+            height=owner['bbox'][3]-owner['bbox'][1]
+            for wrist_index in (9,10):
+                landmarks=[p for i in (0,wrist_index) if (p:=keypoint(owner,i)) is not None]
+                if landmarks and min(math.dist(center,p) for p in landmarks)/height<=.20:
+                    cigarette_hits[owner['track'],wrist_index].append(box['time'])
+    if uncertainty is not None:
+        for track,t in sorted(ambiguous):
+            end=min((p['time'] for p in tracks[track] if p['time']>t),default=t+.001)
+            uncertainty.append({'kind':'smoking','start':t,'end':end,'reason':'Ambiguous cigarette/person association','track':track})
     events=[]
     for track,history in tracks.items():
         for wrist_index in (9,10):
@@ -160,17 +179,17 @@ def smoking_events(raw,people):
             for p in sorted(history,key=lambda p:p['time']):
                 t=p['time'];height=p['bbox'][3]-p['bbox'][1]
                 nose,wrist=keypoint(p,0),keypoint(p,wrist_index)
-                if not nose or not wrist or height<80 or (last is not None and t-last>1):
+                if (track,t) in ambiguous or not nose or not wrist or height<80 or (last is not None and t-last>1):
                     stage='unknown';cycle_start=None;near_time=None
                 last=t
-                if not nose or not wrist or height<80:
+                if (track,t) in ambiguous or not nose or not wrist or height<80:
                     continue
                 distance=math.dist(nose,wrist)/height
                 if cycle_start is not None and t-cycle_start>8:
                     stage='unknown';cycle_start=None;near_time=None
                 if distance>=.25:
                     if stage=='near' and cycle_start is not None:
-                        hits=[v for v in cigarette_hits[track] if cycle_start<=v<=t]
+                        hits=[v for v in cigarette_hits[track,wrist_index] if cycle_start<=v<=t]
                         if timed_groups(hits):
                             events.append({'kind':'smoking','start':cycle_start,'end':t+.001,'evidence':{'track':track,'level':'temporal','label':'suspected smoking','gesture':'away → near → away','cigarette_hits':hits,'rule_version':'development-1'}})
                     stage='away';cycle_start=t;near_time=None
@@ -188,17 +207,17 @@ def person_incidents(rows,zones,selected,metadata):
     heads=[dict(box,time=r['time']) for r in rows.get('helmet',[]) for box in r['boxes']]
     cigarettes=[dict(box,time=r['time']) for r in rows.get('cigarette',[]) for box in r['boxes']]
     events=[]
+    uncertain=[]
     if 'no_helmet' in selected:
         events+=helmet_events(heads,people)
     if 'smoking' in selected:
-        events+=smoking_events(cigarettes,people)
+        events+=smoking_events(cigarettes,people,uncertain)
     if 'intrusion' in selected:
         for zone in zones:
             events+=zone_events(people,zone,metadata['width'],metadata['height'])
     for event in events:
         event['end']=min(metadata['duration'],event['end'])
     eligible=sum(1 for p in people if p.get('track') is not None and p['bbox'][3]-p['bbox'][1]>=80 and keypoint(p,0) and (keypoint(p,9) or keypoint(p,10)))
-    uncertain=[]
     if 'smoking' in selected:
         frames=rows.get('pose',[])
         intervals=[]
@@ -207,7 +226,7 @@ def person_incidents(rows,zones,selected,metadata):
             visible=[p for p in row['boxes'] if p.get('track') is not None and p['bbox'][3]-p['bbox'][1]>=80 and keypoint(p,0) and (keypoint(p,9) or keypoint(p,10))]
             if not visible or len(visible)<len(row['boxes']):
                 intervals.append([row['time'],end])
-        uncertain=[{'kind':'smoking','start':a,'end':b,'reason':'Missing, small or obscured person/face/wrist evidence'} for a,b in union_intervals(intervals)]
+        uncertain+=[{'kind':'smoking','start':a,'end':b,'reason':'Missing, small or obscured person/face/wrist evidence'} for a,b in union_intervals(intervals)]
     return events,{'person_observations':len(people),'eligible_smoking_observations':eligible,
                    'uncertain_intervals':uncertain,
                    'smoking':'limited visibility / unassessable' if not eligible else 'provisional combined-evidence rules; review required',

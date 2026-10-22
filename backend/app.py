@@ -253,6 +253,8 @@ def create_app(data_dir=None):
                 directory=root/folder/job['id']
                 if directory.exists():
                     paths.extend(str(p.relative_to(root)) for p in directory.rglob('*') if p.is_file())
+        for directory in (root/'previews').glob(uid+'-*'):
+            paths.extend(str(p.relative_to(root)) for p in directory.rglob('*') if p.is_file())
         try:
             for relative in paths:
                 path=(root/relative).resolve()
