@@ -1,0 +1,22 @@
+{
+  "archive_images": 95126,
+  "pool_images": 600,
+  "counts": {
+    "('train', 'bothFireAndSmoke')": 92,
+    "('val', 'bothFireAndSmoke')": 8,
+    "('train', 'fire')": 91,
+    "('val', 'fire')": 9,
+    "('train', 'neitherFireNorSmoke')": 172,
+    "('val', 'neitherFireNorSmoke')": 28,
+    "('train', 'smoke')": 176,
+    "('val', 'smoke')": 24
+  },
+  "rejected": {
+    "extreme crop, isolated graphic or tiny image": 61,
+    "near duplicate": 14
+  },
+  "invalid_count": 5,
+  "grouping": "Conservative category/ID blocks merged by perceptual similarity; original camera/incident identities unavailable. Internal development validation only.",
+  "manual_review": "pending",
+  "training_started": false
+}

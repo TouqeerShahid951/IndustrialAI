@@ -1,0 +1,22 @@
+[
+  {
+    "entry": "train/images/bothFireAndSmoke_CV010384_jpg.rf.cfe63cbc65888dfd8c847fd7a33f1460.jpg",
+    "reason": "category/empty-label mismatch"
+  },
+  {
+    "entry": "train/images/bothFireAndSmoke_CV019686_jpg.rf.85e22725dd6a784bfd0e5d254cabf99c.jpg",
+    "reason": "category/empty-label mismatch"
+  },
+  {
+    "entry": "train/images/fire_CV002212_jpg.rf.0fb1452e9b0e61ff47d73f1245cbc746.jpg",
+    "reason": "category/empty-label mismatch"
+  },
+  {
+    "entry": "train/images/fire_CV010316_jpg.rf.a9273a82c7c0ef4def6d20bc2d3c56c8.jpg",
+    "reason": "category/empty-label mismatch"
+  },
+  {
+    "entry": "train/images/fire_CV010881_jpg.rf.839b458cb48552e69af52722d2eef4d9.jpg",
+    "reason": "category/empty-label mismatch"
+  }
+]
