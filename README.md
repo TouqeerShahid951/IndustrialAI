@@ -12,6 +12,8 @@ The configured workspace already has dependencies and verified model weights. St
 
 Open **http://127.0.0.1:8008**. On first run, the generated operator password is stored privately at `var/mvp/operator-password.txt`; it is never logged. To change it, stop the application, run `.venv/bin/python -m backend.manage password`, then restart. Sessions expire after 12 hours; signing out revokes existing sessions. Runtime uploads, database, model files and exports remain in ignored `var/mvp/`.
 
+Initial login uses a single local operator account; there is no username to create. Enter the generated password from `var/mvp/operator-password.txt` on the login screen. Set a known password instead with `.venv/bin/python -m backend.manage password` before starting the app.
+
 For remote access, forward the loopback port from your own computer (replace `user@mac` with your Mac SSH address):
 
 ```bash
