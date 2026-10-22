@@ -1,0 +1,16 @@
+[
+  {
+    "variant": "baseline-640-mps",
+    "matched_boxes": 15,
+    "missing_boxes": 0,
+    "added_boxes": 0,
+    "max_matched_confidence_delta": 0
+  },
+  {
+    "variant": "baseline-640-cpu",
+    "matched_boxes": 15,
+    "missing_boxes": 0,
+    "added_boxes": 0,
+    "max_matched_confidence_delta": 1.430511474609375e-06
+  }
+]

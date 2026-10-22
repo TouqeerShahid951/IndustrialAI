@@ -1,0 +1,22 @@
+{
+  "hypothesis": "Frozen scene features plus a small supervised smoke head may transfer better than localized boxes",
+  "training_manifest": "reports/fasdd-pilot-2026-10-22/curated-manifest.json",
+  "training_examples": 176,
+  "validation_examples": 48,
+  "smoke_positive_categories": [
+    "smoke",
+    "bothFireAndSmoke"
+  ],
+  "ridge_lambda": 0.1,
+  "center_training_features_and_targets": true,
+  "threshold": 0,
+  "feature": "L2-normalized SigLIP2 pooled image embedding",
+  "backbone_frozen": true,
+  "whole_scene_only": true,
+  "reserved_video_frames_used_for_training": false,
+  "frozen_before_inference": true,
+  "limitations": [
+    "Approximate source groups in FASDD; exploratory pilot only",
+    "Not a calibrated smoke or hazard probability"
+  ]
+}

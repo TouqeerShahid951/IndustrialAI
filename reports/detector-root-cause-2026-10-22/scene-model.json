@@ -1,0 +1,58 @@
+{
+  "repository": "google/siglip2-base-patch16-224",
+  "revision": "75de2d55ec2d0b4efc50b3e9ad70dba96a7b2fa2",
+  "local_path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/scene-download",
+  "license": "apache-2.0",
+  "trust_remote_code": false,
+  "files": [
+    {
+      "filename": "config.json",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/scene-download/config.json",
+      "sha256": "fe8b5fe6d5734360678fd71c11c21e1ea3364bd8598d34295d9206335973ffd7",
+      "bytes": 253,
+      "published_lfs_sha256": null
+    },
+    {
+      "filename": "model.safetensors",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/scene-download/model.safetensors",
+      "sha256": "612923381c76ec5a9bed335d1c48827e3f2e506ac31b044b63b2031fadee6a0b",
+      "bytes": 1500800904,
+      "published_lfs_sha256": "612923381c76ec5a9bed335d1c48827e3f2e506ac31b044b63b2031fadee6a0b"
+    },
+    {
+      "filename": "preprocessor_config.json",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/scene-download/preprocessor_config.json",
+      "sha256": "9b36b57ebaf20f09bf4c22100ccc21877ea6bfe5aead0c00c59f8af8ccefacfc",
+      "bytes": 394,
+      "published_lfs_sha256": null
+    },
+    {
+      "filename": "special_tokens_map.json",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/scene-download/special_tokens_map.json",
+      "sha256": "baec30ea10906f16adb8c18af7a34023002c1746542612b8b41c9f09e1351351",
+      "bytes": 636,
+      "published_lfs_sha256": null
+    },
+    {
+      "filename": "tokenizer.json",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/scene-download/tokenizer.json",
+      "sha256": "cb9140fae3ac5122c972d37adf83e1248471a38147ad76f8215c8872c6fd8322",
+      "bytes": 34363039,
+      "published_lfs_sha256": "cb9140fae3ac5122c972d37adf83e1248471a38147ad76f8215c8872c6fd8322"
+    },
+    {
+      "filename": "tokenizer.model",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/scene-download/tokenizer.model",
+      "sha256": "61a7b147390c64585d6c3543dd6fc636906c9af3865a5548f27f31aee1d4c8e2",
+      "bytes": 4241003,
+      "published_lfs_sha256": "61a7b147390c64585d6c3543dd6fc636906c9af3865a5548f27f31aee1d4c8e2"
+    },
+    {
+      "filename": "tokenizer_config.json",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/scene-download/tokenizer_config.json",
+      "sha256": "14afe629fe4959b9e0d51e1852b8d9f7ad074f90a1a7125a4fcdd17f06e78fc8",
+      "bytes": 47164,
+      "published_lfs_sha256": null
+    }
+  ]
+}

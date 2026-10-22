@@ -1,0 +1,956 @@
+[
+  {
+    "variant": "baseline-640-mps",
+    "checkpoint_sha256": "b91633799ceb052c814b4f8b77a37efc9a40f002d528df97d74463585fa4f28f",
+    "imgsz": 640,
+    "device": "mps",
+    "confidence_floor": 0.01,
+    "run": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/baseline-640-mps/run-rdmti4rr",
+    "thresholds": {
+      "0.05": {
+        "fire": {
+          "positive_frames": 18,
+          "positive_with_candidate": 11,
+          "negative_frames": 39,
+          "negative_with_candidate": 12,
+          "uncertain_frames": 12,
+          "boxed_positive_frames": 15,
+          "box_TP": 8,
+          "box_FP": 23,
+          "box_FN": 7
+        },
+        "smoke": {
+          "positive_frames": 19,
+          "positive_with_candidate": 5,
+          "negative_frames": 36,
+          "negative_with_candidate": 15,
+          "uncertain_frames": 14,
+          "boxed_positive_frames": 3,
+          "box_TP": 1,
+          "box_FP": 22,
+          "box_FN": 2
+        }
+      },
+      "0.1": {
+        "fire": {
+          "positive_frames": 18,
+          "positive_with_candidate": 10,
+          "negative_frames": 39,
+          "negative_with_candidate": 5,
+          "uncertain_frames": 12,
+          "boxed_positive_frames": 15,
+          "box_TP": 8,
+          "box_FP": 8,
+          "box_FN": 7
+        },
+        "smoke": {
+          "positive_frames": 19,
+          "positive_with_candidate": 0,
+          "negative_frames": 36,
+          "negative_with_candidate": 7,
+          "uncertain_frames": 14,
+          "boxed_positive_frames": 3,
+          "box_TP": 0,
+          "box_FP": 8,
+          "box_FN": 3
+        }
+      },
+      "0.25": {
+        "fire": {
+          "positive_frames": 18,
+          "positive_with_candidate": 7,
+          "negative_frames": 39,
+          "negative_with_candidate": 0,
+          "uncertain_frames": 12,
+          "boxed_positive_frames": 15,
+          "box_TP": 4,
+          "box_FP": 1,
+          "box_FN": 11
+        },
+        "smoke": {
+          "positive_frames": 19,
+          "positive_with_candidate": 0,
+          "negative_frames": 36,
+          "negative_with_candidate": 4,
+          "uncertain_frames": 14,
+          "boxed_positive_frames": 3,
+          "box_TP": 0,
+          "box_FP": 4,
+          "box_FN": 3
+        }
+      },
+      "0.5": {
+        "fire": {
+          "positive_frames": 18,
+          "positive_with_candidate": 4,
+          "negative_frames": 39,
+          "negative_with_candidate": 0,
+          "uncertain_frames": 12,
+          "boxed_positive_frames": 15,
+          "box_TP": 2,
+          "box_FP": 0,
+          "box_FN": 13
+        },
+        "smoke": {
+          "positive_frames": 19,
+          "positive_with_candidate": 0,
+          "negative_frames": 36,
+          "negative_with_candidate": 2,
+          "uncertain_frames": 14,
+          "boxed_positive_frames": 3,
+          "box_TP": 0,
+          "box_FP": 2,
+          "box_FN": 3
+        }
+      }
+    }
+  },
+  {
+    "variant": "baseline-640-cpu",
+    "checkpoint_sha256": "b91633799ceb052c814b4f8b77a37efc9a40f002d528df97d74463585fa4f28f",
+    "imgsz": 640,
+    "device": "cpu",
+    "confidence_floor": 0.01,
+    "run": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/baseline-640-cpu/run-58du2g9f",
+    "thresholds": {
+      "0.05": {
+        "fire": {
+          "positive_frames": 18,
+          "positive_with_candidate": 11,
+          "negative_frames": 39,
+          "negative_with_candidate": 12,
+          "uncertain_frames": 12,
+          "boxed_positive_frames": 15,
+          "box_TP": 8,
+          "box_FP": 23,
+          "box_FN": 7
+        },
+        "smoke": {
+          "positive_frames": 19,
+          "positive_with_candidate": 5,
+          "negative_frames": 36,
+          "negative_with_candidate": 15,
+          "uncertain_frames": 14,
+          "boxed_positive_frames": 3,
+          "box_TP": 1,
+          "box_FP": 22,
+          "box_FN": 2
+        }
+      },
+      "0.1": {
+        "fire": {
+          "positive_frames": 18,
+          "positive_with_candidate": 10,
+          "negative_frames": 39,
+          "negative_with_candidate": 5,
+          "uncertain_frames": 12,
+          "boxed_positive_frames": 15,
+          "box_TP": 8,
+          "box_FP": 8,
+          "box_FN": 7
+        },
+        "smoke": {
+          "positive_frames": 19,
+          "positive_with_candidate": 0,
+          "negative_frames": 36,
+          "negative_with_candidate": 7,
+          "uncertain_frames": 14,
+          "boxed_positive_frames": 3,
+          "box_TP": 0,
+          "box_FP": 8,
+          "box_FN": 3
+        }
+      },
+      "0.25": {
+        "fire": {
+          "positive_frames": 18,
+          "positive_with_candidate": 7,
+          "negative_frames": 39,
+          "negative_with_candidate": 0,
+          "uncertain_frames": 12,
+          "boxed_positive_frames": 15,
+          "box_TP": 4,
+          "box_FP": 1,
+          "box_FN": 11
+        },
+        "smoke": {
+          "positive_frames": 19,
+          "positive_with_candidate": 0,
+          "negative_frames": 36,
+          "negative_with_candidate": 4,
+          "uncertain_frames": 14,
+          "boxed_positive_frames": 3,
+          "box_TP": 0,
+          "box_FP": 4,
+          "box_FN": 3
+        }
+      },
+      "0.5": {
+        "fire": {
+          "positive_frames": 18,
+          "positive_with_candidate": 4,
+          "negative_frames": 39,
+          "negative_with_candidate": 0,
+          "uncertain_frames": 12,
+          "boxed_positive_frames": 15,
+          "box_TP": 2,
+          "box_FP": 0,
+          "box_FN": 13
+        },
+        "smoke": {
+          "positive_frames": 19,
+          "positive_with_candidate": 0,
+          "negative_frames": 36,
+          "negative_with_candidate": 2,
+          "uncertain_frames": 14,
+          "boxed_positive_frames": 3,
+          "box_TP": 0,
+          "box_FP": 2,
+          "box_FN": 3
+        }
+      }
+    }
+  },
+  {
+    "variant": "baseline-1280-mps",
+    "checkpoint_sha256": "b91633799ceb052c814b4f8b77a37efc9a40f002d528df97d74463585fa4f28f",
+    "imgsz": 1280,
+    "device": "mps",
+    "confidence_floor": 0.01,
+    "run": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/baseline-1280-mps/run-gmfdob5o",
+    "thresholds": {
+      "0.05": {
+        "fire": {
+          "positive_frames": 18,
+          "positive_with_candidate": 18,
+          "negative_frames": 39,
+          "negative_with_candidate": 27,
+          "uncertain_frames": 12,
+          "boxed_positive_frames": 15,
+          "box_TP": 13,
+          "box_FP": 82,
+          "box_FN": 2
+        },
+        "smoke": {
+          "positive_frames": 19,
+          "positive_with_candidate": 18,
+          "negative_frames": 36,
+          "negative_with_candidate": 31,
+          "uncertain_frames": 14,
+          "boxed_positive_frames": 3,
+          "box_TP": 0,
+          "box_FP": 107,
+          "box_FN": 3
+        }
+      },
+      "0.1": {
+        "fire": {
+          "positive_frames": 18,
+          "positive_with_candidate": 16,
+          "negative_frames": 39,
+          "negative_with_candidate": 17,
+          "uncertain_frames": 12,
+          "boxed_positive_frames": 15,
+          "box_TP": 11,
+          "box_FP": 37,
+          "box_FN": 4
+        },
+        "smoke": {
+          "positive_frames": 19,
+          "positive_with_candidate": 14,
+          "negative_frames": 36,
+          "negative_with_candidate": 26,
+          "uncertain_frames": 14,
+          "boxed_positive_frames": 3,
+          "box_TP": 0,
+          "box_FP": 55,
+          "box_FN": 3
+        }
+      },
+      "0.25": {
+        "fire": {
+          "positive_frames": 18,
+          "positive_with_candidate": 12,
+          "negative_frames": 39,
+          "negative_with_candidate": 8,
+          "uncertain_frames": 12,
+          "boxed_positive_frames": 15,
+          "box_TP": 8,
+          "box_FP": 13,
+          "box_FN": 7
+        },
+        "smoke": {
+          "positive_frames": 19,
+          "positive_with_candidate": 4,
+          "negative_frames": 36,
+          "negative_with_candidate": 13,
+          "uncertain_frames": 14,
+          "boxed_positive_frames": 3,
+          "box_TP": 0,
+          "box_FP": 14,
+          "box_FN": 3
+        }
+      },
+      "0.5": {
+        "fire": {
+          "positive_frames": 18,
+          "positive_with_candidate": 9,
+          "negative_frames": 39,
+          "negative_with_candidate": 1,
+          "uncertain_frames": 12,
+          "boxed_positive_frames": 15,
+          "box_TP": 7,
+          "box_FP": 1,
+          "box_FN": 8
+        },
+        "smoke": {
+          "positive_frames": 19,
+          "positive_with_candidate": 3,
+          "negative_frames": 36,
+          "negative_with_candidate": 2,
+          "uncertain_frames": 14,
+          "boxed_positive_frames": 3,
+          "box_TP": 0,
+          "box_FP": 2,
+          "box_FN": 3
+        }
+      }
+    }
+  },
+  {
+    "variant": "early-640-mps",
+    "checkpoint_sha256": "ac0a10257b2bc1f20c9d957f8adeeb61dd6140322fc19d0b4a116cb491776d16",
+    "imgsz": 640,
+    "device": "mps",
+    "confidence_floor": 0.01,
+    "run": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/early-640-mps/run-pey8g2df",
+    "thresholds": {
+      "0.05": {
+        "fire": {
+          "positive_frames": 18,
+          "positive_with_candidate": 9,
+          "negative_frames": 39,
+          "negative_with_candidate": 1,
+          "uncertain_frames": 12,
+          "boxed_positive_frames": 15,
+          "box_TP": 7,
+          "box_FP": 3,
+          "box_FN": 8
+        },
+        "smoke": {
+          "positive_frames": 19,
+          "positive_with_candidate": 17,
+          "negative_frames": 36,
+          "negative_with_candidate": 24,
+          "uncertain_frames": 14,
+          "boxed_positive_frames": 3,
+          "box_TP": 0,
+          "box_FP": 59,
+          "box_FN": 3
+        }
+      },
+      "0.1": {
+        "fire": {
+          "positive_frames": 18,
+          "positive_with_candidate": 9,
+          "negative_frames": 39,
+          "negative_with_candidate": 0,
+          "uncertain_frames": 12,
+          "boxed_positive_frames": 15,
+          "box_TP": 7,
+          "box_FP": 1,
+          "box_FN": 8
+        },
+        "smoke": {
+          "positive_frames": 19,
+          "positive_with_candidate": 14,
+          "negative_frames": 36,
+          "negative_with_candidate": 17,
+          "uncertain_frames": 14,
+          "boxed_positive_frames": 3,
+          "box_TP": 0,
+          "box_FP": 27,
+          "box_FN": 3
+        }
+      },
+      "0.25": {
+        "fire": {
+          "positive_frames": 18,
+          "positive_with_candidate": 5,
+          "negative_frames": 39,
+          "negative_with_candidate": 0,
+          "uncertain_frames": 12,
+          "boxed_positive_frames": 15,
+          "box_TP": 4,
+          "box_FP": 1,
+          "box_FN": 11
+        },
+        "smoke": {
+          "positive_frames": 19,
+          "positive_with_candidate": 13,
+          "negative_frames": 36,
+          "negative_with_candidate": 7,
+          "uncertain_frames": 14,
+          "boxed_positive_frames": 3,
+          "box_TP": 0,
+          "box_FP": 7,
+          "box_FN": 3
+        }
+      },
+      "0.5": {
+        "fire": {
+          "positive_frames": 18,
+          "positive_with_candidate": 3,
+          "negative_frames": 39,
+          "negative_with_candidate": 0,
+          "uncertain_frames": 12,
+          "boxed_positive_frames": 15,
+          "box_TP": 3,
+          "box_FP": 0,
+          "box_FN": 12
+        },
+        "smoke": {
+          "positive_frames": 19,
+          "positive_with_candidate": 10,
+          "negative_frames": 36,
+          "negative_with_candidate": 4,
+          "uncertain_frames": 14,
+          "boxed_positive_frames": 3,
+          "box_TP": 0,
+          "box_FP": 4,
+          "box_FN": 3
+        }
+      }
+    }
+  },
+  {
+    "variant": "yolo26s-640-mps",
+    "checkpoint_sha256": "283c996482e26013f6e60559ad25c49f38f3aa9937961c8c33aaa7d0fc8d1d59",
+    "imgsz": 640,
+    "device": "mps",
+    "confidence_floor": 0.01,
+    "run": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/yolo26s-640-mps/run-ixhi8xjg",
+    "thresholds": {
+      "0.05": {
+        "fire": {
+          "positive_frames": 18,
+          "positive_with_candidate": 18,
+          "negative_frames": 39,
+          "negative_with_candidate": 16,
+          "uncertain_frames": 12,
+          "boxed_positive_frames": 15,
+          "box_TP": 11,
+          "box_FP": 33,
+          "box_FN": 4
+        },
+        "smoke": {
+          "positive_frames": 19,
+          "positive_with_candidate": 0,
+          "negative_frames": 36,
+          "negative_with_candidate": 3,
+          "uncertain_frames": 14,
+          "boxed_positive_frames": 3,
+          "box_TP": 0,
+          "box_FP": 5,
+          "box_FN": 3
+        }
+      },
+      "0.1": {
+        "fire": {
+          "positive_frames": 18,
+          "positive_with_candidate": 18,
+          "negative_frames": 39,
+          "negative_with_candidate": 7,
+          "uncertain_frames": 12,
+          "boxed_positive_frames": 15,
+          "box_TP": 11,
+          "box_FP": 18,
+          "box_FN": 4
+        },
+        "smoke": {
+          "positive_frames": 19,
+          "positive_with_candidate": 0,
+          "negative_frames": 36,
+          "negative_with_candidate": 2,
+          "uncertain_frames": 14,
+          "boxed_positive_frames": 3,
+          "box_TP": 0,
+          "box_FP": 3,
+          "box_FN": 3
+        }
+      },
+      "0.25": {
+        "fire": {
+          "positive_frames": 18,
+          "positive_with_candidate": 16,
+          "negative_frames": 39,
+          "negative_with_candidate": 2,
+          "uncertain_frames": 12,
+          "boxed_positive_frames": 15,
+          "box_TP": 10,
+          "box_FP": 6,
+          "box_FN": 5
+        },
+        "smoke": {
+          "positive_frames": 19,
+          "positive_with_candidate": 0,
+          "negative_frames": 36,
+          "negative_with_candidate": 0,
+          "uncertain_frames": 14,
+          "boxed_positive_frames": 3,
+          "box_TP": 0,
+          "box_FP": 0,
+          "box_FN": 3
+        }
+      },
+      "0.5": {
+        "fire": {
+          "positive_frames": 18,
+          "positive_with_candidate": 12,
+          "negative_frames": 39,
+          "negative_with_candidate": 0,
+          "uncertain_frames": 12,
+          "boxed_positive_frames": 15,
+          "box_TP": 8,
+          "box_FP": 2,
+          "box_FN": 7
+        },
+        "smoke": {
+          "positive_frames": 19,
+          "positive_with_candidate": 0,
+          "negative_frames": 36,
+          "negative_with_candidate": 0,
+          "uncertain_frames": 14,
+          "boxed_positive_frames": 3,
+          "box_TP": 0,
+          "box_FP": 0,
+          "box_FN": 3
+        }
+      }
+    }
+  },
+  {
+    "variant": "strict-640-mps",
+    "checkpoint_sha256": "4428ee4c17980d8f1995bbe624a593f63326ead85ec76f2f0cd480195bab2a4d",
+    "imgsz": 640,
+    "device": "mps",
+    "confidence_floor": 0.01,
+    "run": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/strict-640-mps/run-by0x11oz",
+    "thresholds": {
+      "0.05": {
+        "fire": {
+          "positive_frames": 18,
+          "positive_with_candidate": 13,
+          "negative_frames": 39,
+          "negative_with_candidate": 1,
+          "uncertain_frames": 12,
+          "boxed_positive_frames": 15,
+          "box_TP": 9,
+          "box_FP": 4,
+          "box_FN": 6
+        },
+        "smoke": {
+          "positive_frames": 19,
+          "positive_with_candidate": 4,
+          "negative_frames": 36,
+          "negative_with_candidate": 0,
+          "uncertain_frames": 14,
+          "boxed_positive_frames": 3,
+          "box_TP": 1,
+          "box_FP": 1,
+          "box_FN": 2
+        }
+      },
+      "0.1": {
+        "fire": {
+          "positive_frames": 18,
+          "positive_with_candidate": 12,
+          "negative_frames": 39,
+          "negative_with_candidate": 0,
+          "uncertain_frames": 12,
+          "boxed_positive_frames": 15,
+          "box_TP": 8,
+          "box_FP": 2,
+          "box_FN": 7
+        },
+        "smoke": {
+          "positive_frames": 19,
+          "positive_with_candidate": 3,
+          "negative_frames": 36,
+          "negative_with_candidate": 0,
+          "uncertain_frames": 14,
+          "boxed_positive_frames": 3,
+          "box_TP": 1,
+          "box_FP": 0,
+          "box_FN": 2
+        }
+      },
+      "0.25": {
+        "fire": {
+          "positive_frames": 18,
+          "positive_with_candidate": 10,
+          "negative_frames": 39,
+          "negative_with_candidate": 0,
+          "uncertain_frames": 12,
+          "boxed_positive_frames": 15,
+          "box_TP": 6,
+          "box_FP": 1,
+          "box_FN": 9
+        },
+        "smoke": {
+          "positive_frames": 19,
+          "positive_with_candidate": 0,
+          "negative_frames": 36,
+          "negative_with_candidate": 0,
+          "uncertain_frames": 14,
+          "boxed_positive_frames": 3,
+          "box_TP": 0,
+          "box_FP": 0,
+          "box_FN": 3
+        }
+      },
+      "0.5": {
+        "fire": {
+          "positive_frames": 18,
+          "positive_with_candidate": 7,
+          "negative_frames": 39,
+          "negative_with_candidate": 0,
+          "uncertain_frames": 12,
+          "boxed_positive_frames": 15,
+          "box_TP": 5,
+          "box_FP": 0,
+          "box_FN": 10
+        },
+        "smoke": {
+          "positive_frames": 19,
+          "positive_with_candidate": 0,
+          "negative_frames": 36,
+          "negative_with_candidate": 0,
+          "uncertain_frames": 14,
+          "boxed_positive_frames": 3,
+          "box_TP": 0,
+          "box_FP": 0,
+          "box_FN": 3
+        }
+      }
+    }
+  },
+  {
+    "variant": "strict-960-mps",
+    "checkpoint_sha256": "4428ee4c17980d8f1995bbe624a593f63326ead85ec76f2f0cd480195bab2a4d",
+    "imgsz": 960,
+    "device": "mps",
+    "confidence_floor": 0.01,
+    "run": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/strict-960-mps/run-l5rpzmun",
+    "thresholds": {
+      "0.05": {
+        "fire": {
+          "positive_frames": 18,
+          "positive_with_candidate": 17,
+          "negative_frames": 39,
+          "negative_with_candidate": 0,
+          "uncertain_frames": 12,
+          "boxed_positive_frames": 15,
+          "box_TP": 12,
+          "box_FP": 8,
+          "box_FN": 3
+        },
+        "smoke": {
+          "positive_frames": 19,
+          "positive_with_candidate": 3,
+          "negative_frames": 36,
+          "negative_with_candidate": 0,
+          "uncertain_frames": 14,
+          "boxed_positive_frames": 3,
+          "box_TP": 0,
+          "box_FP": 0,
+          "box_FN": 3
+        }
+      },
+      "0.1": {
+        "fire": {
+          "positive_frames": 18,
+          "positive_with_candidate": 15,
+          "negative_frames": 39,
+          "negative_with_candidate": 0,
+          "uncertain_frames": 12,
+          "boxed_positive_frames": 15,
+          "box_TP": 10,
+          "box_FP": 5,
+          "box_FN": 5
+        },
+        "smoke": {
+          "positive_frames": 19,
+          "positive_with_candidate": 0,
+          "negative_frames": 36,
+          "negative_with_candidate": 0,
+          "uncertain_frames": 14,
+          "boxed_positive_frames": 3,
+          "box_TP": 0,
+          "box_FP": 0,
+          "box_FN": 3
+        }
+      },
+      "0.25": {
+        "fire": {
+          "positive_frames": 18,
+          "positive_with_candidate": 14,
+          "negative_frames": 39,
+          "negative_with_candidate": 0,
+          "uncertain_frames": 12,
+          "boxed_positive_frames": 15,
+          "box_TP": 10,
+          "box_FP": 2,
+          "box_FN": 5
+        },
+        "smoke": {
+          "positive_frames": 19,
+          "positive_with_candidate": 0,
+          "negative_frames": 36,
+          "negative_with_candidate": 0,
+          "uncertain_frames": 14,
+          "boxed_positive_frames": 3,
+          "box_TP": 0,
+          "box_FP": 0,
+          "box_FN": 3
+        }
+      },
+      "0.5": {
+        "fire": {
+          "positive_frames": 18,
+          "positive_with_candidate": 10,
+          "negative_frames": 39,
+          "negative_with_candidate": 0,
+          "uncertain_frames": 12,
+          "boxed_positive_frames": 15,
+          "box_TP": 7,
+          "box_FP": 0,
+          "box_FN": 8
+        },
+        "smoke": {
+          "positive_frames": 19,
+          "positive_with_candidate": 0,
+          "negative_frames": 36,
+          "negative_with_candidate": 0,
+          "uncertain_frames": 14,
+          "boxed_positive_frames": 3,
+          "box_TP": 0,
+          "box_FP": 0,
+          "box_FN": 3
+        }
+      }
+    }
+  },
+  {
+    "variant": "fasdd-640-mps",
+    "checkpoint_sha256": "d2b0be214f45fa01d2044b960c3cb4da4bf65c06a89cf0a1967b0d40e8db4b98",
+    "imgsz": 640,
+    "device": "mps",
+    "confidence_floor": 0.01,
+    "run": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/fasdd-640-mps/run-df502y24",
+    "thresholds": {
+      "0.05": {
+        "fire": {
+          "positive_frames": 18,
+          "positive_with_candidate": 13,
+          "negative_frames": 39,
+          "negative_with_candidate": 0,
+          "uncertain_frames": 12,
+          "boxed_positive_frames": 15,
+          "box_TP": 9,
+          "box_FP": 6,
+          "box_FN": 6
+        },
+        "smoke": {
+          "positive_frames": 19,
+          "positive_with_candidate": 4,
+          "negative_frames": 36,
+          "negative_with_candidate": 3,
+          "uncertain_frames": 14,
+          "boxed_positive_frames": 3,
+          "box_TP": 1,
+          "box_FP": 3,
+          "box_FN": 2
+        }
+      },
+      "0.1": {
+        "fire": {
+          "positive_frames": 18,
+          "positive_with_candidate": 13,
+          "negative_frames": 39,
+          "negative_with_candidate": 0,
+          "uncertain_frames": 12,
+          "boxed_positive_frames": 15,
+          "box_TP": 9,
+          "box_FP": 4,
+          "box_FN": 6
+        },
+        "smoke": {
+          "positive_frames": 19,
+          "positive_with_candidate": 2,
+          "negative_frames": 36,
+          "negative_with_candidate": 3,
+          "uncertain_frames": 14,
+          "boxed_positive_frames": 3,
+          "box_TP": 0,
+          "box_FP": 3,
+          "box_FN": 3
+        }
+      },
+      "0.25": {
+        "fire": {
+          "positive_frames": 18,
+          "positive_with_candidate": 12,
+          "negative_frames": 39,
+          "negative_with_candidate": 0,
+          "uncertain_frames": 12,
+          "boxed_positive_frames": 15,
+          "box_TP": 9,
+          "box_FP": 0,
+          "box_FN": 6
+        },
+        "smoke": {
+          "positive_frames": 19,
+          "positive_with_candidate": 0,
+          "negative_frames": 36,
+          "negative_with_candidate": 2,
+          "uncertain_frames": 14,
+          "boxed_positive_frames": 3,
+          "box_TP": 0,
+          "box_FP": 2,
+          "box_FN": 3
+        }
+      },
+      "0.5": {
+        "fire": {
+          "positive_frames": 18,
+          "positive_with_candidate": 7,
+          "negative_frames": 39,
+          "negative_with_candidate": 0,
+          "uncertain_frames": 12,
+          "boxed_positive_frames": 15,
+          "box_TP": 4,
+          "box_FP": 0,
+          "box_FN": 11
+        },
+        "smoke": {
+          "positive_frames": 19,
+          "positive_with_candidate": 0,
+          "negative_frames": 36,
+          "negative_with_candidate": 0,
+          "uncertain_frames": 14,
+          "boxed_positive_frames": 3,
+          "box_TP": 0,
+          "box_FP": 0,
+          "box_FN": 3
+        }
+      }
+    }
+  },
+  {
+    "variant": "fasdd-1280-mps",
+    "checkpoint_sha256": "d2b0be214f45fa01d2044b960c3cb4da4bf65c06a89cf0a1967b0d40e8db4b98",
+    "imgsz": 1280,
+    "device": "mps",
+    "confidence_floor": 0.01,
+    "run": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/fasdd-1280-mps/run-vyeesune",
+    "thresholds": {
+      "0.05": {
+        "fire": {
+          "positive_frames": 18,
+          "positive_with_candidate": 17,
+          "negative_frames": 39,
+          "negative_with_candidate": 0,
+          "uncertain_frames": 12,
+          "boxed_positive_frames": 15,
+          "box_TP": 14,
+          "box_FP": 5,
+          "box_FN": 1
+        },
+        "smoke": {
+          "positive_frames": 19,
+          "positive_with_candidate": 0,
+          "negative_frames": 36,
+          "negative_with_candidate": 5,
+          "uncertain_frames": 14,
+          "boxed_positive_frames": 3,
+          "box_TP": 0,
+          "box_FP": 5,
+          "box_FN": 3
+        }
+      },
+      "0.1": {
+        "fire": {
+          "positive_frames": 18,
+          "positive_with_candidate": 15,
+          "negative_frames": 39,
+          "negative_with_candidate": 0,
+          "uncertain_frames": 12,
+          "boxed_positive_frames": 15,
+          "box_TP": 12,
+          "box_FP": 2,
+          "box_FN": 3
+        },
+        "smoke": {
+          "positive_frames": 19,
+          "positive_with_candidate": 0,
+          "negative_frames": 36,
+          "negative_with_candidate": 3,
+          "uncertain_frames": 14,
+          "boxed_positive_frames": 3,
+          "box_TP": 0,
+          "box_FP": 3,
+          "box_FN": 3
+        }
+      },
+      "0.25": {
+        "fire": {
+          "positive_frames": 18,
+          "positive_with_candidate": 15,
+          "negative_frames": 39,
+          "negative_with_candidate": 0,
+          "uncertain_frames": 12,
+          "boxed_positive_frames": 15,
+          "box_TP": 12,
+          "box_FP": 1,
+          "box_FN": 3
+        },
+        "smoke": {
+          "positive_frames": 19,
+          "positive_with_candidate": 0,
+          "negative_frames": 36,
+          "negative_with_candidate": 3,
+          "uncertain_frames": 14,
+          "boxed_positive_frames": 3,
+          "box_TP": 0,
+          "box_FP": 3,
+          "box_FN": 3
+        }
+      },
+      "0.5": {
+        "fire": {
+          "positive_frames": 18,
+          "positive_with_candidate": 11,
+          "negative_frames": 39,
+          "negative_with_candidate": 0,
+          "uncertain_frames": 12,
+          "boxed_positive_frames": 15,
+          "box_TP": 8,
+          "box_FP": 0,
+          "box_FN": 7
+        },
+        "smoke": {
+          "positive_frames": 19,
+          "positive_with_candidate": 0,
+          "negative_frames": 36,
+          "negative_with_candidate": 0,
+          "uncertain_frames": 14,
+          "boxed_positive_frames": 3,
+          "box_TP": 0,
+          "box_FP": 0,
+          "box_FN": 3
+        }
+      }
+    }
+  }
+]

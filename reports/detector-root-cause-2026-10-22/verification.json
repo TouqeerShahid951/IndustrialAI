@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "selected_native_frames_verified": 69,
+  "probe_variants_verified": 9,
+  "complete_native_video_runs": 3,
+  "older_regression_clips": 11,
+  "verified_inference_run_directories": 13,
+  "self_checks": [
+    "probe.py",
+    "compare.py",
+    "scene_probe.py",
+    "scene_head.py"
+  ],
+  "unit_test_command": ".venv/bin/python -m unittest tests.test_benchmark_data tests.test_benchmark_events tests.test_run_benchmark tests.test_evaluate",
+  "unit_test_result": "14 passed; executed this turn",
+  "baseline_inference_code_unchanged": true,
+  "production_model_changed": false,
+  "gate_passed": false,
+  "scene_encoder_fine_tuned": false,
+  "scene_linear_head_fitted": true,
+  "scene_backbone_spec_sha256": "ac82e39580ea2e46e950a295d9966694775d74b569ac9b3a0ed07c446db0febe",
+  "scene_evaluation_features_sha256": "14b88e075083c8e02d3f493ca89e90a3ae527a67ef7fcd8654fc30556938e9a9",
+  "report_sha256": "07cef9b86d82be5bcba67505dec98521db01f591403013785bbd7c4caefc9754",
+  "analysis_script_sha256": {
+    "scene_probe.py": "76dba235d211a743bef591469fa5509728f283ae17b6d36e9645ca12c8aa1501",
+    "scene_head.py": "c15bfda9093e1d3c3450e332a2a55251094ae01d2ece14476bb057c5b1812b14",
+    "probe.py": "48f989f40dfd08093aa2e14f832ffc90b27f48d22ffe59015a56535aec6189d5",
+    "compare.py": "2c43fd5778391a767eff97b702f39e636e9ae139cc9be3624592cb7956c5855e"
+  }
+}

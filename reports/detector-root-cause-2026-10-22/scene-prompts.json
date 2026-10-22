@@ -1,0 +1,22 @@
+{
+  "positive": [
+    "an indoor room filled with smoke",
+    "a plume of smoke in an industrial building",
+    "smoke obscuring a surveillance camera view",
+    "haze from a fire inside a room"
+  ],
+  "negative": [
+    "a clear industrial workshop with machinery",
+    "a clear indoor room with furniture",
+    "people working in a clear room",
+    "reflections on a clean factory floor",
+    "water mist from a humidifier in a room",
+    "shadows and low light in a clear room"
+  ],
+  "template": "This is a photo of {}.",
+  "decision": "maximum positive text-image logit minus maximum negative text-image logit >= 0",
+  "margin_threshold": 0,
+  "frozen_before_inference": true,
+  "use": "diagnostic scene classification, not localized smoke boxes or calibrated hazard probability",
+  "training_started": false
+}

@@ -1,0 +1,1747 @@
+{
+  "spec": {
+    "hypothesis": "Frozen scene features plus a small supervised smoke head may transfer better than localized boxes",
+    "training_manifest": "reports/fasdd-pilot-2026-10-22/curated-manifest.json",
+    "training_examples": 176,
+    "validation_examples": 48,
+    "smoke_positive_categories": [
+      "smoke",
+      "bothFireAndSmoke"
+    ],
+    "ridge_lambda": 0.1,
+    "center_training_features_and_targets": true,
+    "threshold": 0,
+    "feature": "L2-normalized SigLIP2 pooled image embedding",
+    "backbone_frozen": true,
+    "whole_scene_only": true,
+    "reserved_video_frames_used_for_training": false,
+    "frozen_before_inference": true,
+    "limitations": [
+      "Approximate source groups in FASDD; exploratory pilot only",
+      "Not a calibrated smoke or hazard probability"
+    ]
+  },
+  "script_sha256": "c15bfda9093e1d3c3450e332a2a55251094ae01d2ece14476bb057c5b1812b14",
+  "training_manifest_sha256": "1d71e0af125224eff97530e8dd659cb6b80bcef1d3b3ca9deb056e337ac3bb92",
+  "spec_sha256": "1f0a78f3a812f103fa4462fa6f5ebc28bc4b0e5c340aef0084f003991f582cc1",
+  "backbone_frozen": true,
+  "training_started": true,
+  "training_scope": "Linear scene head only; no detector or encoder fine-tuning",
+  "training_scores": {
+    "TP": 81,
+    "FP": 0,
+    "TN": 94,
+    "FN": 1,
+    "excluded": 0
+  },
+  "validation_scores": {
+    "TP": 22,
+    "FP": 2,
+    "TN": 22,
+    "FN": 2,
+    "excluded": 0
+  },
+  "evaluation_scores": {
+    "TP": 0,
+    "FP": 0,
+    "TN": 36,
+    "FN": 19,
+    "excluded": 14
+  },
+  "rows": [
+    {
+      "id": "F01-000000",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.8939923342966263
+    },
+    {
+      "id": "F01-000224",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.8789255948007597
+    },
+    {
+      "id": "F01-000420",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.9985579668861273
+    },
+    {
+      "id": "F02-000000",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.901684172213649
+    },
+    {
+      "id": "F02-000273",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.9361163911344015
+    },
+    {
+      "id": "F02-000514",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.924408312571934
+    },
+    {
+      "id": "F03-000000",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.9144255558930363
+    },
+    {
+      "id": "F03-000151",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.9793649467896199
+    },
+    {
+      "id": "F03-000275",
+      "smoke_assessment": "absent_visible",
+      "margin": -1.0672698760191155
+    },
+    {
+      "id": "F04-000000",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.6032189762153997
+    },
+    {
+      "id": "F04-000175",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.9599307210926451
+    },
+    {
+      "id": "F04-000324",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.7755227758056007
+    },
+    {
+      "id": "F05-000000",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.8639673391315665
+    },
+    {
+      "id": "F05-000201",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.9038109411745283
+    },
+    {
+      "id": "F05-000391",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.9335286398626157
+    },
+    {
+      "id": "F06-000000",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.6879538629383444
+    },
+    {
+      "id": "F06-000200",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.9448781496316834
+    },
+    {
+      "id": "F06-000373",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.8739854941563641
+    },
+    {
+      "id": "F07-000000",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.937588819861884
+    },
+    {
+      "id": "F07-000075",
+      "smoke_assessment": "absent_visible",
+      "margin": -1.0301209655433863
+    },
+    {
+      "id": "F07-000149",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.8879933468809702
+    },
+    {
+      "id": "F08-000000",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.8440100309842062
+    },
+    {
+      "id": "F08-000176",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.8971882921108305
+    },
+    {
+      "id": "F08-000303",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.9901186127694839
+    },
+    {
+      "id": "C01-000000",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.6060521476466854
+    },
+    {
+      "id": "C01-000401",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.6198339789596357
+    },
+    {
+      "id": "C01-000750",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.6684195992834672
+    },
+    {
+      "id": "C02-000000",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.6870102167531931
+    },
+    {
+      "id": "C02-000401",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.6828612030005994
+    },
+    {
+      "id": "C02-000750",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.7825638412737368
+    },
+    {
+      "id": "C03-000000",
+      "smoke_assessment": "uncertain",
+      "margin": -0.7424264641192047
+    },
+    {
+      "id": "C03-000751",
+      "smoke_assessment": "uncertain",
+      "margin": -0.8010691009910604
+    },
+    {
+      "id": "C03-001500",
+      "smoke_assessment": "uncertain",
+      "margin": -0.7124285871507683
+    },
+    {
+      "id": "C04-000000",
+      "smoke_assessment": "present",
+      "margin": -0.5126727275682301
+    },
+    {
+      "id": "C04-000751",
+      "smoke_assessment": "present",
+      "margin": -0.7718481136626512
+    },
+    {
+      "id": "C04-001500",
+      "smoke_assessment": "present",
+      "margin": -0.7089093134119586
+    },
+    {
+      "id": "C05-000000",
+      "smoke_assessment": "present",
+      "margin": -0.5897529591896116
+    },
+    {
+      "id": "C05-000602",
+      "smoke_assessment": "present",
+      "margin": -0.4824779582397812
+    },
+    {
+      "id": "C05-001126",
+      "smoke_assessment": "present",
+      "margin": -0.5771256781619694
+    },
+    {
+      "id": "C06-000000",
+      "smoke_assessment": "present",
+      "margin": -0.4891490850226456
+    },
+    {
+      "id": "C06-000601",
+      "smoke_assessment": "present",
+      "margin": -0.6091873547322955
+    },
+    {
+      "id": "C06-001125",
+      "smoke_assessment": "present",
+      "margin": -0.5912060047071628
+    },
+    {
+      "id": "C07-000000",
+      "smoke_assessment": "uncertain",
+      "margin": -0.6213342352711249
+    },
+    {
+      "id": "C07-000751",
+      "smoke_assessment": "uncertain",
+      "margin": -0.732957699728477
+    },
+    {
+      "id": "C07-001500",
+      "smoke_assessment": "uncertain",
+      "margin": -0.6971562003978582
+    },
+    {
+      "id": "C08-000000",
+      "smoke_assessment": "uncertain",
+      "margin": -0.648084145288629
+    },
+    {
+      "id": "C08-000601",
+      "smoke_assessment": "uncertain",
+      "margin": -0.5275876995136795
+    },
+    {
+      "id": "C08-001125",
+      "smoke_assessment": "present",
+      "margin": -0.6106842897337046
+    },
+    {
+      "id": "C09-000000",
+      "smoke_assessment": "present",
+      "margin": -0.5410425530947218
+    },
+    {
+      "id": "C09-000601",
+      "smoke_assessment": "present",
+      "margin": -0.3132064035660764
+    },
+    {
+      "id": "C09-001126",
+      "smoke_assessment": "present",
+      "margin": -0.5031641603271316
+    },
+    {
+      "id": "C10-000000",
+      "smoke_assessment": "present",
+      "margin": -0.6964584563964291
+    },
+    {
+      "id": "C10-000602",
+      "smoke_assessment": "present",
+      "margin": -0.743520369104818
+    },
+    {
+      "id": "C10-001126",
+      "smoke_assessment": "present",
+      "margin": -0.7565785801405465
+    },
+    {
+      "id": "C11-000000",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.4947017252522268
+    },
+    {
+      "id": "C11-000601",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.7017686335959505
+    },
+    {
+      "id": "C11-001125",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.6360192835120153
+    },
+    {
+      "id": "C12-000000",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.5469568755533237
+    },
+    {
+      "id": "C12-000601",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.5656984953881901
+    },
+    {
+      "id": "C12-001125",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.5186459043124763
+    },
+    {
+      "id": "C13-000000",
+      "smoke_assessment": "present",
+      "margin": -0.1856015462768658
+    },
+    {
+      "id": "C13-000601",
+      "smoke_assessment": "present",
+      "margin": -0.34472878213852526
+    },
+    {
+      "id": "C13-001125",
+      "smoke_assessment": "present",
+      "margin": -0.31375233959933735
+    },
+    {
+      "id": "C14-000000",
+      "smoke_assessment": "uncertain",
+      "margin": -0.5728765786656382
+    },
+    {
+      "id": "C14-000751",
+      "smoke_assessment": "uncertain",
+      "margin": -0.7818922600380347
+    },
+    {
+      "id": "C14-001500",
+      "smoke_assessment": "uncertain",
+      "margin": -0.7745860310479504
+    },
+    {
+      "id": "C15-000000",
+      "smoke_assessment": "uncertain",
+      "margin": -0.6632188703072219
+    },
+    {
+      "id": "C15-000601",
+      "smoke_assessment": "uncertain",
+      "margin": -0.7998255590261738
+    },
+    {
+      "id": "C15-001125",
+      "smoke_assessment": "uncertain",
+      "margin": -0.648397602330679
+    }
+  ],
+  "pool_rows": [
+    {
+      "id": "0",
+      "split": "val",
+      "smoke_assessment": "present",
+      "margin": 0.5698798887004282
+    },
+    {
+      "id": "2",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 1.0586718135760138
+    },
+    {
+      "id": "6",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 0.9651507299919897
+    },
+    {
+      "id": "11",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 1.1169862348196287
+    },
+    {
+      "id": "12",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 0.7642298576509876
+    },
+    {
+      "id": "13",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 0.8248757014405632
+    },
+    {
+      "id": "14",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 0.7388972416406347
+    },
+    {
+      "id": "15",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 1.0834712070236532
+    },
+    {
+      "id": "16",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 1.0552877610098046
+    },
+    {
+      "id": "17",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 0.6041723811668152
+    },
+    {
+      "id": "20",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 0.7655242140210465
+    },
+    {
+      "id": "22",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 0.7929006882913301
+    },
+    {
+      "id": "23",
+      "split": "val",
+      "smoke_assessment": "present",
+      "margin": 0.5671233496134465
+    },
+    {
+      "id": "26",
+      "split": "val",
+      "smoke_assessment": "present",
+      "margin": 1.00029536990447
+    },
+    {
+      "id": "28",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 0.6647216395309765
+    },
+    {
+      "id": "29",
+      "split": "val",
+      "smoke_assessment": "present",
+      "margin": 0.16740444754732703
+    },
+    {
+      "id": "31",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 0.9520351367321485
+    },
+    {
+      "id": "32",
+      "split": "val",
+      "smoke_assessment": "present",
+      "margin": 0.5541084983897775
+    },
+    {
+      "id": "33",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": -0.011489739738423502
+    },
+    {
+      "id": "35",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 0.999586004295089
+    },
+    {
+      "id": "39",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 0.8214370319118172
+    },
+    {
+      "id": "41",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 0.8308326679984173
+    },
+    {
+      "id": "45",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 0.8542710087288052
+    },
+    {
+      "id": "46",
+      "split": "val",
+      "smoke_assessment": "present",
+      "margin": 0.0397710902430487
+    },
+    {
+      "id": "47",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 0.8109617065348576
+    },
+    {
+      "id": "48",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 1.1450785526683682
+    },
+    {
+      "id": "50",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 0.7458215079942023
+    },
+    {
+      "id": "51",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 0.7346642378704928
+    },
+    {
+      "id": "52",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 0.6745482399457541
+    },
+    {
+      "id": "53",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 0.8474896091906068
+    },
+    {
+      "id": "55",
+      "split": "val",
+      "smoke_assessment": "present",
+      "margin": 0.4862913934674508
+    },
+    {
+      "id": "57",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 0.9916060562458116
+    },
+    {
+      "id": "58",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 0.29695178314189913
+    },
+    {
+      "id": "60",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 0.9672932206692912
+    },
+    {
+      "id": "68",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 0.892220244713658
+    },
+    {
+      "id": "69",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 0.5500600528405697
+    },
+    {
+      "id": "70",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 0.5474308940587778
+    },
+    {
+      "id": "71",
+      "split": "val",
+      "smoke_assessment": "present",
+      "margin": -0.2848086819268529
+    },
+    {
+      "id": "72",
+      "split": "val",
+      "smoke_assessment": "present",
+      "margin": 0.20263857443843608
+    },
+    {
+      "id": "75",
+      "split": "val",
+      "smoke_assessment": "present",
+      "margin": 1.0217381345235426
+    },
+    {
+      "id": "77",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 0.5673549272070759
+    },
+    {
+      "id": "80",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 0.8167101375383015
+    },
+    {
+      "id": "84",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 0.7497169436630808
+    },
+    {
+      "id": "85",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 0.8297406490936265
+    },
+    {
+      "id": "86",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 0.9426090733704415
+    },
+    {
+      "id": "87",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 1.0978286123761054
+    },
+    {
+      "id": "89",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 1.0850033442295879
+    },
+    {
+      "id": "93",
+      "split": "val",
+      "smoke_assessment": "present",
+      "margin": 0.8922889839691908
+    },
+    {
+      "id": "95",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 0.6406509631691091
+    },
+    {
+      "id": "96",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 0.7135722131132183
+    },
+    {
+      "id": "97",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 0.6885684694201926
+    },
+    {
+      "id": "100",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.9369231915560072
+    },
+    {
+      "id": "103",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.6613605366225868
+    },
+    {
+      "id": "104",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.8219407972501889
+    },
+    {
+      "id": "106",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.8175992494135074
+    },
+    {
+      "id": "107",
+      "split": "val",
+      "smoke_assessment": "absent_visible",
+      "margin": -1.10890557265611
+    },
+    {
+      "id": "109",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -1.1548969931736932
+    },
+    {
+      "id": "111",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.5580635240565401
+    },
+    {
+      "id": "112",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.25294346558633746
+    },
+    {
+      "id": "114",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.8617427865016845
+    },
+    {
+      "id": "115",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.462555477956944
+    },
+    {
+      "id": "126",
+      "split": "val",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.43315178225026973
+    },
+    {
+      "id": "128",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -1.005096536866789
+    },
+    {
+      "id": "129",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.9451716151636074
+    },
+    {
+      "id": "130",
+      "split": "val",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.6826505428549823
+    },
+    {
+      "id": "131",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.8163707619923892
+    },
+    {
+      "id": "132",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.7037098897907992
+    },
+    {
+      "id": "135",
+      "split": "val",
+      "smoke_assessment": "absent_visible",
+      "margin": -1.076054518292709
+    },
+    {
+      "id": "138",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.5886285437854473
+    },
+    {
+      "id": "141",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.794021781131899
+    },
+    {
+      "id": "143",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.23763888576979536
+    },
+    {
+      "id": "145",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.7789032462990055
+    },
+    {
+      "id": "150",
+      "split": "val",
+      "smoke_assessment": "absent_visible",
+      "margin": -1.1664853692498687
+    },
+    {
+      "id": "154",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.5886357839553327
+    },
+    {
+      "id": "155",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.9473940336599995
+    },
+    {
+      "id": "156",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.3218630247106173
+    },
+    {
+      "id": "159",
+      "split": "val",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.662642679434605
+    },
+    {
+      "id": "161",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -1.006142303055964
+    },
+    {
+      "id": "163",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.7257156742544268
+    },
+    {
+      "id": "165",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.8766296141963577
+    },
+    {
+      "id": "168",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.7924949968098822
+    },
+    {
+      "id": "173",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.9297144309270695
+    },
+    {
+      "id": "174",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.08099811213542554
+    },
+    {
+      "id": "177",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.6645277079035754
+    },
+    {
+      "id": "186",
+      "split": "val",
+      "smoke_assessment": "absent_visible",
+      "margin": 0.24949838155828302
+    },
+    {
+      "id": "187",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.9096883637434903
+    },
+    {
+      "id": "189",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.9525873910447304
+    },
+    {
+      "id": "190",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.6214899044879465
+    },
+    {
+      "id": "199",
+      "split": "val",
+      "smoke_assessment": "absent_visible",
+      "margin": 0.10215259455493597
+    },
+    {
+      "id": "200",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.9257414598480707
+    },
+    {
+      "id": "203",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.9199068433930377
+    },
+    {
+      "id": "204",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.9954702613797306
+    },
+    {
+      "id": "213",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.9177868995229248
+    },
+    {
+      "id": "214",
+      "split": "val",
+      "smoke_assessment": "absent_visible",
+      "margin": -1.0999266213439012
+    },
+    {
+      "id": "215",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -1.0514284874813438
+    },
+    {
+      "id": "220",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.8021261617532076
+    },
+    {
+      "id": "221",
+      "split": "val",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.9678893610242143
+    },
+    {
+      "id": "223",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.4892984622004464
+    },
+    {
+      "id": "225",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -1.0194375219287184
+    },
+    {
+      "id": "227",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -1.0555884074282813
+    },
+    {
+      "id": "229",
+      "split": "val",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.7420279402587748
+    },
+    {
+      "id": "231",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.896816725580518
+    },
+    {
+      "id": "234",
+      "split": "val",
+      "smoke_assessment": "absent_visible",
+      "margin": -1.496422009385152
+    },
+    {
+      "id": "238",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -1.1320096524427763
+    },
+    {
+      "id": "239",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -1.0298691259952477
+    },
+    {
+      "id": "242",
+      "split": "val",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.9331856540464196
+    },
+    {
+      "id": "246",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.996263976025699
+    },
+    {
+      "id": "247",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.9655997889099155
+    },
+    {
+      "id": "253",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.7419300526943025
+    },
+    {
+      "id": "254",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -1.0049970619904014
+    },
+    {
+      "id": "255",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -1.0964482873820414
+    },
+    {
+      "id": "258",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.9872954592299854
+    },
+    {
+      "id": "259",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.9054349087111035
+    },
+    {
+      "id": "261",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.6557121974904923
+    },
+    {
+      "id": "265",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.6688888742050787
+    },
+    {
+      "id": "267",
+      "split": "val",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.47619563293827966
+    },
+    {
+      "id": "268",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.9903523160044272
+    },
+    {
+      "id": "271",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -1.0303057552535797
+    },
+    {
+      "id": "275",
+      "split": "val",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.20398357567215128
+    },
+    {
+      "id": "276",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.9643593815443665
+    },
+    {
+      "id": "277",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -1.1813240038870894
+    },
+    {
+      "id": "279",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -1.0425477316151186
+    },
+    {
+      "id": "283",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.9863191302404488
+    },
+    {
+      "id": "285",
+      "split": "val",
+      "smoke_assessment": "absent_visible",
+      "margin": -1.1750431577427294
+    },
+    {
+      "id": "286",
+      "split": "val",
+      "smoke_assessment": "absent_visible",
+      "margin": -1.0704584862131015
+    },
+    {
+      "id": "287",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -1.1226259086888584
+    },
+    {
+      "id": "288",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -1.0186350841362588
+    },
+    {
+      "id": "292",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -1.0659461651995024
+    },
+    {
+      "id": "294",
+      "split": "val",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.885106624894435
+    },
+    {
+      "id": "296",
+      "split": "val",
+      "smoke_assessment": "absent_visible",
+      "margin": -1.2036983243525403
+    },
+    {
+      "id": "297",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.9476800733425306
+    },
+    {
+      "id": "298",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -1.0594081995887068
+    },
+    {
+      "id": "300",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -1.031275486737029
+    },
+    {
+      "id": "305",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -1.0610471931600178
+    },
+    {
+      "id": "308",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.8199664768929309
+    },
+    {
+      "id": "309",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.9677024298170276
+    },
+    {
+      "id": "313",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -1.0472556315693096
+    },
+    {
+      "id": "315",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -1.0167978981942913
+    },
+    {
+      "id": "316",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -1.0663614289470402
+    },
+    {
+      "id": "318",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -1.0439695672992024
+    },
+    {
+      "id": "320",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.8841754627474518
+    },
+    {
+      "id": "321",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.8971417104789423
+    },
+    {
+      "id": "324",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.9691384353880288
+    },
+    {
+      "id": "327",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -1.1429340981288096
+    },
+    {
+      "id": "331",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -1.0470933263336575
+    },
+    {
+      "id": "332",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -1.0048999374645058
+    },
+    {
+      "id": "338",
+      "split": "val",
+      "smoke_assessment": "absent_visible",
+      "margin": -1.4680013254992674
+    },
+    {
+      "id": "344",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -1.1970277047892133
+    },
+    {
+      "id": "345",
+      "split": "val",
+      "smoke_assessment": "absent_visible",
+      "margin": -1.0818655893432503
+    },
+    {
+      "id": "346",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.9643339733020655
+    },
+    {
+      "id": "348",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -1.0166418685669685
+    },
+    {
+      "id": "351",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -1.142850400376018
+    },
+    {
+      "id": "352",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.9288212539144882
+    },
+    {
+      "id": "354",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -1.0235945157162085
+    },
+    {
+      "id": "355",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -1.1132211051233971
+    },
+    {
+      "id": "361",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.90933493696354
+    },
+    {
+      "id": "362",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.8824643592289538
+    },
+    {
+      "id": "363",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.8375772120431069
+    },
+    {
+      "id": "364",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.6447730188938687
+    },
+    {
+      "id": "373",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.8950483982809121
+    },
+    {
+      "id": "377",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.9363169033275238
+    },
+    {
+      "id": "380",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.958664288650958
+    },
+    {
+      "id": "381",
+      "split": "val",
+      "smoke_assessment": "absent_visible",
+      "margin": -1.1017111220167475
+    },
+    {
+      "id": "383",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -1.1463337957247346
+    },
+    {
+      "id": "384",
+      "split": "val",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.7294355468307996
+    },
+    {
+      "id": "386",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.8831862527966137
+    },
+    {
+      "id": "389",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -1.0151569620214311
+    },
+    {
+      "id": "391",
+      "split": "val",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.8425346463405068
+    },
+    {
+      "id": "396",
+      "split": "train",
+      "smoke_assessment": "absent_visible",
+      "margin": -0.8929319332523056
+    },
+    {
+      "id": "402",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 0.9041746896122107
+    },
+    {
+      "id": "405",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 1.2428650010848024
+    },
+    {
+      "id": "412",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 0.9315928650301972
+    },
+    {
+      "id": "414",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 1.0640239243194325
+    },
+    {
+      "id": "417",
+      "split": "val",
+      "smoke_assessment": "present",
+      "margin": 1.1413535914788386
+    },
+    {
+      "id": "418",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 0.9734300801017433
+    },
+    {
+      "id": "432",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 0.9160692982790273
+    },
+    {
+      "id": "434",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 0.8047841841378227
+    },
+    {
+      "id": "436",
+      "split": "val",
+      "smoke_assessment": "present",
+      "margin": 1.5069252347300657
+    },
+    {
+      "id": "440",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 1.0004456603828689
+    },
+    {
+      "id": "444",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 1.067492506284211
+    },
+    {
+      "id": "447",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 1.1178550420508304
+    },
+    {
+      "id": "451",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 0.9232576682354983
+    },
+    {
+      "id": "453",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 0.9847196605814206
+    },
+    {
+      "id": "459",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 0.9427156945546018
+    },
+    {
+      "id": "468",
+      "split": "val",
+      "smoke_assessment": "present",
+      "margin": -0.5308474238620726
+    },
+    {
+      "id": "470",
+      "split": "val",
+      "smoke_assessment": "present",
+      "margin": 0.6278240806537452
+    },
+    {
+      "id": "474",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 0.3571272573034687
+    },
+    {
+      "id": "475",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 0.7462759606075786
+    },
+    {
+      "id": "476",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 1.220386516574801
+    },
+    {
+      "id": "478",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 1.0920976310835833
+    },
+    {
+      "id": "492",
+      "split": "val",
+      "smoke_assessment": "present",
+      "margin": 0.9506070259678212
+    },
+    {
+      "id": "496",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 0.9227222692499677
+    },
+    {
+      "id": "497",
+      "split": "val",
+      "smoke_assessment": "present",
+      "margin": 0.7121073229923249
+    },
+    {
+      "id": "499",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 1.0950360869752342
+    },
+    {
+      "id": "503",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 0.8524663368827241
+    },
+    {
+      "id": "511",
+      "split": "val",
+      "smoke_assessment": "present",
+      "margin": 0.9653791283636948
+    },
+    {
+      "id": "512",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 1.0632268791078856
+    },
+    {
+      "id": "517",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 0.9718963823667399
+    },
+    {
+      "id": "519",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 0.9776735507280001
+    },
+    {
+      "id": "522",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 0.6035550427821592
+    },
+    {
+      "id": "528",
+      "split": "val",
+      "smoke_assessment": "present",
+      "margin": 1.3016532469919626
+    },
+    {
+      "id": "532",
+      "split": "val",
+      "smoke_assessment": "present",
+      "margin": 0.9533230581114662
+    },
+    {
+      "id": "533",
+      "split": "val",
+      "smoke_assessment": "present",
+      "margin": 1.084273313068163
+    },
+    {
+      "id": "534",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 1.1197657317197454
+    },
+    {
+      "id": "539",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 0.710601652620829
+    },
+    {
+      "id": "540",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 0.8937913924361074
+    },
+    {
+      "id": "543",
+      "split": "val",
+      "smoke_assessment": "present",
+      "margin": 1.0242488304076103
+    },
+    {
+      "id": "549",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 0.9348254241086307
+    },
+    {
+      "id": "551",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 0.8805495349804142
+    },
+    {
+      "id": "560",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 1.0418732113368374
+    },
+    {
+      "id": "562",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 0.9937561940557564
+    },
+    {
+      "id": "564",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 0.9991278813363385
+    },
+    {
+      "id": "572",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 1.0294211327909328
+    },
+    {
+      "id": "575",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 1.0094113121119248
+    },
+    {
+      "id": "576",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 0.927948160043224
+    },
+    {
+      "id": "577",
+      "split": "val",
+      "smoke_assessment": "present",
+      "margin": 0.30598940590996687
+    },
+    {
+      "id": "578",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 0.9530963861643387
+    },
+    {
+      "id": "581",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 1.0880063035598073
+    },
+    {
+      "id": "582",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 0.8829276836957678
+    },
+    {
+      "id": "586",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 0.8084166976194429
+    },
+    {
+      "id": "587",
+      "split": "val",
+      "smoke_assessment": "present",
+      "margin": 1.083781124804225
+    },
+    {
+      "id": "590",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 0.9964801127189984
+    },
+    {
+      "id": "593",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 0.45723131047322
+    },
+    {
+      "id": "594",
+      "split": "train",
+      "smoke_assessment": "present",
+      "margin": 1.1504776257913563
+    }
+  ],
+  "weights_path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/scene-head.npz",
+  "weights_sha256": "878f05874cb18a171eaa612121dafac5071e733da795f57caa5a862ab7f2abbd",
+  "production_model_changed": false
+}

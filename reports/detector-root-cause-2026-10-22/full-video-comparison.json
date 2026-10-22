@@ -1,0 +1,4205 @@
+{
+  "manifest_sha256": "82a147b509bf4815031bfb64c600273508c042c63d72ff544099fea50a4ce4ec",
+  "analysis_sha256": "2c43fd5778391a767eff97b702f39e636e9ae139cc9be3624592cb7956c5855e",
+  "variants": [
+    {
+      "name": "baseline",
+      "overall": {
+        "fire": {
+          "frame_counts": {
+            "positive_frames": 7882,
+            "positive_hit_frames": 2137,
+            "negative_frames": 8012,
+            "negative_hit_frames": 55,
+            "excluded_frames": 4506
+          },
+          "policies": {
+            "raw": {
+              "TP": 6,
+              "FP": 15,
+              "FN": 0,
+              "event_recall": 1.0,
+              "event_precision": 0.2857142857142857,
+              "negative_seconds": 320.5734477822525,
+              "false_events_per_camera_hour": 168.44813684219773,
+              "confirmation_delays_seconds": [
+                0,
+                0,
+                4.6610000000000005,
+                12.434000000000001,
+                12.697000000000001,
+                28.82
+              ],
+              "confirmation_delay_seconds": {
+                "p50": 8.5475,
+                "p95": 24.789250000000003
+              },
+              "excluded_predictions": 12,
+              "excluded_seconds": 180.07421902569965,
+              "ambiguous_seconds": 180.074,
+              "unmonitored_seconds": 180.07421902569965,
+              "negative_scene_false_events": 2,
+              "negative_alert_span_seconds": 3.479000000000001,
+              "positive_alert_span_seconds": 121.7399857904085,
+              "positive_seconds": 315.057944974082
+            },
+            "timed": {
+              "TP": 5,
+              "FP": 2,
+              "FN": 1,
+              "event_recall": 0.8333333333333334,
+              "event_precision": 0.7142857142857143,
+              "negative_seconds": 320.5734477822525,
+              "false_events_per_camera_hour": 22.459751578959697,
+              "confirmation_delays_seconds": [
+                1.008,
+                1.119,
+                43.649,
+                51.532,
+                53.444
+              ],
+              "confirmation_delay_seconds": {
+                "p50": 43.648999999999994,
+                "p95": 53.0616
+              },
+              "excluded_predictions": 10,
+              "excluded_seconds": 180.07421902569965,
+              "ambiguous_seconds": 180.074,
+              "unmonitored_seconds": 180.07421902569965,
+              "negative_scene_false_events": 1,
+              "negative_alert_span_seconds": 1.7600000000000007,
+              "positive_alert_span_seconds": 109.935,
+              "positive_seconds": 315.057944974082
+            }
+          }
+        },
+        "smoke": {
+          "frame_counts": {
+            "positive_frames": 7509,
+            "positive_hit_frames": 26,
+            "negative_frames": 6511,
+            "negative_hit_frames": 515,
+            "excluded_frames": 6380
+          },
+          "policies": {
+            "raw": {
+              "TP": 3,
+              "FP": 5,
+              "FN": 4,
+              "event_recall": 0.42857142857142855,
+              "event_precision": 0.375,
+              "negative_seconds": 260.5734477822525,
+              "false_events_per_camera_hour": 69.07841206845316,
+              "confirmation_delays_seconds": [
+                12.175,
+                22.361,
+                8.158000000000001
+              ],
+              "confirmation_delay_seconds": {
+                "p50": 12.175,
+                "p95": 21.342399999999998
+              },
+              "excluded_predictions": 0,
+              "excluded_seconds": 255.0543521602416,
+              "ambiguous_seconds": 255.054,
+              "unmonitored_seconds": 255.0543521602416,
+              "negative_scene_false_events": 3,
+              "negative_alert_span_seconds": 24.5646244250746,
+              "positive_alert_span_seconds": 2.280000000000003,
+              "positive_seconds": 300.07781183954006
+            },
+            "timed": {
+              "TP": 1,
+              "FP": 2,
+              "FN": 6,
+              "event_recall": 0.14285714285714285,
+              "event_precision": 0.3333333333333333,
+              "negative_seconds": 260.5734477822525,
+              "false_events_per_camera_hour": 27.63136482738126,
+              "confirmation_delays_seconds": [
+                42.315000000000005
+              ],
+              "confirmation_delay_seconds": {
+                "p50": 42.315000000000005,
+                "p95": 42.315000000000005
+              },
+              "excluded_predictions": 0,
+              "excluded_seconds": 255.0543521602416,
+              "ambiguous_seconds": 255.054,
+              "unmonitored_seconds": 255.0543521602416,
+              "negative_scene_false_events": 2,
+              "negative_alert_span_seconds": 19.32433619449013,
+              "positive_alert_span_seconds": 0.03999999999999915,
+              "positive_seconds": 300.07781183954006
+            }
+          }
+        }
+      },
+      "per_clip_frames": [
+        {
+          "clip_id": "F01",
+          "kind": "fire",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 421,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "F01",
+          "kind": "smoke",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 421,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "F02",
+          "kind": "fire",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 515,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "F02",
+          "kind": "smoke",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 515,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "F03",
+          "kind": "fire",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 276,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "F03",
+          "kind": "smoke",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 276,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "F04",
+          "kind": "fire",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 325,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "F04",
+          "kind": "smoke",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 325,
+          "negative_hit_frames": 225,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "F05",
+          "kind": "fire",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 392,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "F05",
+          "kind": "smoke",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 392,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "F06",
+          "kind": "fire",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 374,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "F06",
+          "kind": "smoke",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 374,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "F07",
+          "kind": "fire",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 150,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "F07",
+          "kind": "smoke",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 150,
+          "negative_hit_frames": 2,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "F08",
+          "kind": "fire",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 304,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "F08",
+          "kind": "smoke",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 304,
+          "negative_hit_frames": 288,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C01",
+          "kind": "fire",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 751,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C01",
+          "kind": "smoke",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 751,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C02",
+          "kind": "fire",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 751,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C02",
+          "kind": "smoke",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 751,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C03",
+          "kind": "fire",
+          "positive_frames": 1501,
+          "positive_hit_frames": 99,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C03",
+          "kind": "smoke",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 1501
+        },
+        {
+          "clip_id": "C04",
+          "kind": "fire",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 1501,
+          "negative_hit_frames": 55,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C04",
+          "kind": "smoke",
+          "positive_frames": 1501,
+          "positive_hit_frames": 0,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C05",
+          "kind": "fire",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 1127
+        },
+        {
+          "clip_id": "C05",
+          "kind": "smoke",
+          "positive_frames": 1127,
+          "positive_hit_frames": 0,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C06",
+          "kind": "fire",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 1126
+        },
+        {
+          "clip_id": "C06",
+          "kind": "smoke",
+          "positive_frames": 1126,
+          "positive_hit_frames": 10,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C07",
+          "kind": "fire",
+          "positive_frames": 1501,
+          "positive_hit_frames": 22,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C07",
+          "kind": "smoke",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 1501
+        },
+        {
+          "clip_id": "C08",
+          "kind": "fire",
+          "positive_frames": 1126,
+          "positive_hit_frames": 1111,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C08",
+          "kind": "smoke",
+          "positive_frames": 375,
+          "positive_hit_frames": 1,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 751
+        },
+        {
+          "clip_id": "C09",
+          "kind": "fire",
+          "positive_frames": 1127,
+          "positive_hit_frames": 880,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C09",
+          "kind": "smoke",
+          "positive_frames": 1127,
+          "positive_hit_frames": 15,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C10",
+          "kind": "fire",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 1127
+        },
+        {
+          "clip_id": "C10",
+          "kind": "smoke",
+          "positive_frames": 1127,
+          "positive_hit_frames": 0,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C11",
+          "kind": "fire",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 1126,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C11",
+          "kind": "smoke",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 1126,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C12",
+          "kind": "fire",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 1126,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C12",
+          "kind": "smoke",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 1126,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C13",
+          "kind": "fire",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 1126
+        },
+        {
+          "clip_id": "C13",
+          "kind": "smoke",
+          "positive_frames": 1126,
+          "positive_hit_frames": 0,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C14",
+          "kind": "fire",
+          "positive_frames": 1501,
+          "positive_hit_frames": 19,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C14",
+          "kind": "smoke",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 1501
+        },
+        {
+          "clip_id": "C15",
+          "kind": "fire",
+          "positive_frames": 1126,
+          "positive_hit_frames": 6,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C15",
+          "kind": "smoke",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 1126
+        }
+      ],
+      "per_clip_events": [
+        {
+          "clip_id": "F01",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F01",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F01",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F01",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F02",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F02",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F02",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F02",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F03",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F03",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F03",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F03",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F04",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F04",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F04",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 1,
+          "negative_alert_span_seconds": 12.080000000000002,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F04",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 1,
+          "negative_alert_span_seconds": 8.2,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F05",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F05",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F05",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F05",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F06",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F06",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F06",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F06",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F07",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F07",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F07",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 1,
+          "negative_alert_span_seconds": 0.3602882305844677,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F07",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F08",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F08",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F08",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 1,
+          "negative_alert_span_seconds": 12.124336194490132,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F08",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 1,
+          "negative_alert_span_seconds": 11.124336194490132,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C01",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C01",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C01",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C01",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C02",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C02",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C02",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C02",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C03",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 18.070999999999998,
+          "positive_seconds": 60.0
+        },
+        {
+          "clip_id": "C03",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 16.351,
+          "positive_seconds": 60.0
+        },
+        {
+          "clip_id": "C03",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C03",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C04",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 2,
+          "negative_alert_span_seconds": 3.479000000000001,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C04",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 1,
+          "negative_alert_span_seconds": 1.7600000000000007,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C04",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 60.0
+        },
+        {
+          "clip_id": "C04",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 60.0
+        },
+        {
+          "clip_id": "C05",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C05",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C05",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 45.025952085181906
+        },
+        {
+          "clip_id": "C05",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 45.025952085181906
+        },
+        {
+          "clip_id": "C06",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C06",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C06",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0.4399999999999995,
+          "positive_seconds": 45.004968916518656
+        },
+        {
+          "clip_id": "C06",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 45.004968916518656
+        },
+        {
+          "clip_id": "C07",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 6.996999999999996,
+          "positive_seconds": 60.0
+        },
+        {
+          "clip_id": "C07",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 4.758000000000003,
+          "positive_seconds": 60.0
+        },
+        {
+          "clip_id": "C07",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C07",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C08",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 45.0,
+          "positive_seconds": 45.0
+        },
+        {
+          "clip_id": "C08",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 43.881,
+          "positive_seconds": 45.0
+        },
+        {
+          "clip_id": "C08",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0.03999999999999915,
+          "positive_seconds": 14.969999999999999
+        },
+        {
+          "clip_id": "C08",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 14.969999999999999
+        },
+        {
+          "clip_id": "C09",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 44.754000000000005,
+          "positive_seconds": 45.03395918367347
+        },
+        {
+          "clip_id": "C09",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 43.746,
+          "positive_seconds": 45.03395918367347
+        },
+        {
+          "clip_id": "C09",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 1.8000000000000043,
+          "positive_seconds": 45.03395918367347
+        },
+        {
+          "clip_id": "C09",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0.03999999999999915,
+          "positive_seconds": 45.03395918367347
+        },
+        {
+          "clip_id": "C10",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C10",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C10",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 45.031957409050584
+        },
+        {
+          "clip_id": "C10",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 45.031957409050584
+        },
+        {
+          "clip_id": "C11",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C11",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C11",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C11",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C12",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C12",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C12",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C12",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C13",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C13",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C13",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 45.01097424511545
+        },
+        {
+          "clip_id": "C13",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 45.01097424511545
+        },
+        {
+          "clip_id": "C14",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 6.077999999999982,
+          "positive_seconds": 60.0
+        },
+        {
+          "clip_id": "C14",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 1.198999999999998,
+          "positive_seconds": 60.0
+        },
+        {
+          "clip_id": "C14",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C14",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C15",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0.8399857904085195,
+          "positive_seconds": 45.023985790408524
+        },
+        {
+          "clip_id": "C15",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 45.023985790408524
+        },
+        {
+          "clip_id": "C15",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C15",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        }
+      ],
+      "checkpoint": {
+        "fire_smoke": {
+          "path": "/Users/tabbasi/.cache/huggingface/hub/blobs/d0/d0808d193c3652bc5025e59587e6b925824970c9f8a534d3a94a5b94f88ab528",
+          "sha256": "b91633799ceb052c814b4f8b77a37efc9a40f002d528df97d74463585fa4f28f"
+        }
+      },
+      "configuration": {
+        "device": "mps",
+        "confidence": 0.25,
+        "imgsz": 640,
+        "stride": 1,
+        "max_frames": 100000,
+        "timestamp_source": "container"
+      },
+      "runs": [
+        "/Users/tabbasi/Downloads/IndustrialAI/outputs/cctv-baseline-2026-10-22/run-xzlp2ba9"
+      ],
+      "analyzed_frames": 20400
+    },
+    {
+      "name": "early-domestic-full",
+      "overall": {
+        "fire": {
+          "frame_counts": {
+            "positive_frames": 7882,
+            "positive_hit_frames": 1327,
+            "negative_frames": 8012,
+            "negative_hit_frames": 7,
+            "excluded_frames": 4506
+          },
+          "policies": {
+            "raw": {
+              "TP": 6,
+              "FP": 24,
+              "FN": 0,
+              "event_recall": 1.0,
+              "event_precision": 0.2,
+              "negative_seconds": 320.5734477822525,
+              "false_events_per_camera_hour": 269.51701894751636,
+              "confirmation_delays_seconds": [
+                0,
+                0.54,
+                1.528,
+                7.876,
+                24.181,
+                51.046
+              ],
+              "confirmation_delay_seconds": {
+                "p50": 4.702000000000001,
+                "p95": 44.32975
+              },
+              "excluded_predictions": 2,
+              "excluded_seconds": 180.07421902569965,
+              "ambiguous_seconds": 180.074,
+              "unmonitored_seconds": 180.07421902569965,
+              "negative_scene_false_events": 2,
+              "negative_alert_span_seconds": 0.8064516129032251,
+              "positive_alert_span_seconds": 93.10398579040853,
+              "positive_seconds": 315.057944974082
+            },
+            "timed": {
+              "TP": 4,
+              "FP": 6,
+              "FN": 2,
+              "event_recall": 0.6666666666666666,
+              "event_precision": 0.4,
+              "negative_seconds": 320.5734477822525,
+              "false_events_per_camera_hour": 67.37925473687909,
+              "confirmation_delays_seconds": [
+                1.119,
+                11.435,
+                14.296000000000001,
+                34.738
+              ],
+              "confirmation_delay_seconds": {
+                "p50": 12.865500000000003,
+                "p95": 31.6717
+              },
+              "excluded_predictions": 0,
+              "excluded_seconds": 180.07421902569965,
+              "ambiguous_seconds": 180.074,
+              "unmonitored_seconds": 180.07421902569965,
+              "negative_scene_false_events": 0,
+              "negative_alert_span_seconds": 0,
+              "positive_alert_span_seconds": 66.07300000000001,
+              "positive_seconds": 315.057944974082
+            }
+          }
+        },
+        "smoke": {
+          "frame_counts": {
+            "positive_frames": 7509,
+            "positive_hit_frames": 4853,
+            "negative_frames": 6511,
+            "negative_hit_frames": 1596,
+            "excluded_frames": 6380
+          },
+          "policies": {
+            "raw": {
+              "TP": 6,
+              "FP": 16,
+              "FN": 1,
+              "event_recall": 0.8571428571428571,
+              "event_precision": 0.2727272727272727,
+              "negative_seconds": 260.5734477822525,
+              "false_events_per_camera_hour": 221.0509186190501,
+              "confirmation_delays_seconds": [
+                0,
+                0,
+                0,
+                0.019,
+                0.28800000000000003,
+                4.759
+              ],
+              "confirmation_delay_seconds": {
+                "p50": 0.0095,
+                "p95": 3.64125
+              },
+              "excluded_predictions": 5,
+              "excluded_seconds": 255.0543521602416,
+              "ambiguous_seconds": 255.054,
+              "unmonitored_seconds": 255.0543521602416,
+              "negative_scene_false_events": 12,
+              "negative_alert_span_seconds": 88.28679114050648,
+              "positive_alert_span_seconds": 210.08581183954007,
+              "positive_seconds": 300.07781183954006
+            },
+            "timed": {
+              "TP": 5,
+              "FP": 13,
+              "FN": 2,
+              "event_recall": 0.7142857142857143,
+              "event_precision": 0.2777777777777778,
+              "negative_seconds": 260.5734477822525,
+              "false_events_per_camera_hour": 179.6038713779782,
+              "confirmation_delays_seconds": [
+                1.0,
+                1.006,
+                1.0190000000000001,
+                1.0250000000000001,
+                2.448
+              ],
+              "confirmation_delay_seconds": {
+                "p50": 1.0190000000000001,
+                "p95": 2.1634
+              },
+              "excluded_predictions": 4,
+              "excluded_seconds": 255.0543521602416,
+              "ambiguous_seconds": 255.054,
+              "unmonitored_seconds": 255.0543521602416,
+              "negative_scene_false_events": 9,
+              "negative_alert_span_seconds": 77.29317052124603,
+              "positive_alert_span_seconds": 199.01581183954005,
+              "positive_seconds": 300.07781183954006
+            }
+          }
+        }
+      },
+      "per_clip_frames": [
+        {
+          "clip_id": "F01",
+          "kind": "fire",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 421,
+          "negative_hit_frames": 2,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "F01",
+          "kind": "smoke",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 421,
+          "negative_hit_frames": 8,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "F02",
+          "kind": "fire",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 515,
+          "negative_hit_frames": 5,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "F02",
+          "kind": "smoke",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 515,
+          "negative_hit_frames": 1,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "F03",
+          "kind": "fire",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 276,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "F03",
+          "kind": "smoke",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 276,
+          "negative_hit_frames": 43,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "F04",
+          "kind": "fire",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 325,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "F04",
+          "kind": "smoke",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 325,
+          "negative_hit_frames": 325,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "F05",
+          "kind": "fire",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 392,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "F05",
+          "kind": "smoke",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 392,
+          "negative_hit_frames": 79,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "F06",
+          "kind": "fire",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 374,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "F06",
+          "kind": "smoke",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 374,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "F07",
+          "kind": "fire",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 150,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "F07",
+          "kind": "smoke",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 150,
+          "negative_hit_frames": 63,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "F08",
+          "kind": "fire",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 304,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "F08",
+          "kind": "smoke",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 304,
+          "negative_hit_frames": 178,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C01",
+          "kind": "fire",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 751,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C01",
+          "kind": "smoke",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 751,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C02",
+          "kind": "fire",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 751,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C02",
+          "kind": "smoke",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 751,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C03",
+          "kind": "fire",
+          "positive_frames": 1501,
+          "positive_hit_frames": 2,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C03",
+          "kind": "smoke",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 1501
+        },
+        {
+          "clip_id": "C04",
+          "kind": "fire",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 1501,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C04",
+          "kind": "smoke",
+          "positive_frames": 1501,
+          "positive_hit_frames": 0,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C05",
+          "kind": "fire",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 1127
+        },
+        {
+          "clip_id": "C05",
+          "kind": "smoke",
+          "positive_frames": 1127,
+          "positive_hit_frames": 1127,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C06",
+          "kind": "fire",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 1126
+        },
+        {
+          "clip_id": "C06",
+          "kind": "smoke",
+          "positive_frames": 1126,
+          "positive_hit_frames": 1068,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C07",
+          "kind": "fire",
+          "positive_frames": 1501,
+          "positive_hit_frames": 165,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C07",
+          "kind": "smoke",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 1501
+        },
+        {
+          "clip_id": "C08",
+          "kind": "fire",
+          "positive_frames": 1126,
+          "positive_hit_frames": 1087,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C08",
+          "kind": "smoke",
+          "positive_frames": 375,
+          "positive_hit_frames": 1,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 751
+        },
+        {
+          "clip_id": "C09",
+          "kind": "fire",
+          "positive_frames": 1127,
+          "positive_hit_frames": 3,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C09",
+          "kind": "smoke",
+          "positive_frames": 1127,
+          "positive_hit_frames": 427,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C10",
+          "kind": "fire",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 1127
+        },
+        {
+          "clip_id": "C10",
+          "kind": "smoke",
+          "positive_frames": 1127,
+          "positive_hit_frames": 1127,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C11",
+          "kind": "fire",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 1126,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C11",
+          "kind": "smoke",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 1126,
+          "negative_hit_frames": 899,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C12",
+          "kind": "fire",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 1126,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C12",
+          "kind": "smoke",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 1126,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C13",
+          "kind": "fire",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 1126
+        },
+        {
+          "clip_id": "C13",
+          "kind": "smoke",
+          "positive_frames": 1126,
+          "positive_hit_frames": 1103,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C14",
+          "kind": "fire",
+          "positive_frames": 1501,
+          "positive_hit_frames": 43,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C14",
+          "kind": "smoke",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 1501
+        },
+        {
+          "clip_id": "C15",
+          "kind": "fire",
+          "positive_frames": 1126,
+          "positive_hit_frames": 27,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C15",
+          "kind": "smoke",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 1126
+        }
+      ],
+      "per_clip_events": [
+        {
+          "clip_id": "F01",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 1,
+          "negative_alert_span_seconds": 0.08064516129032206,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F01",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F01",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 3,
+          "negative_alert_span_seconds": 2.096774193548389,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F01",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 1,
+          "negative_alert_span_seconds": 0.04032258064516103,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F02",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 1,
+          "negative_alert_span_seconds": 0.725806451612903,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F02",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F02",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 1,
+          "negative_alert_span_seconds": 0.040322580645160144,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F02",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F03",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F03",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F03",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 2,
+          "negative_alert_span_seconds": 3.996802557953636,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F03",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 2,
+          "negative_alert_span_seconds": 1.7985611510791353,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F04",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F04",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F04",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 1,
+          "negative_alert_span_seconds": 13.0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F04",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 1,
+          "negative_alert_span_seconds": 12.0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F05",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F05",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F05",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 2,
+          "negative_alert_span_seconds": 8.974870362983644,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F05",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 2,
+          "negative_alert_span_seconds": 6.382130035899481,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F06",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F06",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F06",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F06",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F07",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F07",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F07",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 1,
+          "negative_alert_span_seconds": 3.242594075260208,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F07",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 1,
+          "negative_alert_span_seconds": 2.161729383506805,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F08",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F08",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F08",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 1,
+          "negative_alert_span_seconds": 11.924453125,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F08",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 1,
+          "negative_alert_span_seconds": 10.924453125,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C01",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C01",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C01",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C01",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C02",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C02",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C02",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C02",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C03",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0.0800000000000054,
+          "positive_seconds": 60.0
+        },
+        {
+          "clip_id": "C03",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 60.0
+        },
+        {
+          "clip_id": "C03",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C03",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C04",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C04",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C04",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 60.0
+        },
+        {
+          "clip_id": "C04",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 60.0
+        },
+        {
+          "clip_id": "C05",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C05",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C05",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 45.025952085181906,
+          "positive_seconds": 45.025952085181906
+        },
+        {
+          "clip_id": "C05",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 44.025952085181906,
+          "positive_seconds": 45.025952085181906
+        },
+        {
+          "clip_id": "C06",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C06",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C06",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 44.98596891651866,
+          "positive_seconds": 45.004968916518656
+        },
+        {
+          "clip_id": "C06",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 43.98596891651866,
+          "positive_seconds": 45.004968916518656
+        },
+        {
+          "clip_id": "C07",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 24.271999999999995,
+          "positive_seconds": 60.0
+        },
+        {
+          "clip_id": "C07",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 17.234,
+          "positive_seconds": 60.0
+        },
+        {
+          "clip_id": "C07",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C07",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C08",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 45.0,
+          "positive_seconds": 45.0
+        },
+        {
+          "clip_id": "C08",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 43.881,
+          "positive_seconds": 45.0
+        },
+        {
+          "clip_id": "C08",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0.03999999999999915,
+          "positive_seconds": 14.969999999999999
+        },
+        {
+          "clip_id": "C08",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 14.969999999999999
+        },
+        {
+          "clip_id": "C09",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0.32000000000000006,
+          "positive_seconds": 45.03395918367347
+        },
+        {
+          "clip_id": "C09",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 45.03395918367347
+        },
+        {
+          "clip_id": "C09",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 29.990959183673464,
+          "positive_seconds": 45.03395918367347
+        },
+        {
+          "clip_id": "C09",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 22.991959183673465,
+          "positive_seconds": 45.03395918367347
+        },
+        {
+          "clip_id": "C10",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C10",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C10",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 45.031957409050584,
+          "positive_seconds": 45.031957409050584
+        },
+        {
+          "clip_id": "C10",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 44.025957409050584,
+          "positive_seconds": 45.031957409050584
+        },
+        {
+          "clip_id": "C11",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C11",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C11",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 1,
+          "negative_alert_span_seconds": 45.01097424511545,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C11",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 1,
+          "negative_alert_span_seconds": 43.98597424511545,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C12",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C12",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C12",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C12",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C13",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C13",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C13",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 45.01097424511545,
+          "positive_seconds": 45.01097424511545
+        },
+        {
+          "clip_id": "C13",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 43.98597424511545,
+          "positive_seconds": 45.01097424511545
+        },
+        {
+          "clip_id": "C14",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 15.313999999999998,
+          "positive_seconds": 60.0
+        },
+        {
+          "clip_id": "C14",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 4.838000000000001,
+          "positive_seconds": 60.0
+        },
+        {
+          "clip_id": "C14",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C14",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C15",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 8.117985790408532,
+          "positive_seconds": 45.023985790408524
+        },
+        {
+          "clip_id": "C15",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0.11999999999999922,
+          "positive_seconds": 45.023985790408524
+        },
+        {
+          "clip_id": "C15",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C15",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        }
+      ],
+      "checkpoint": {
+        "fire_smoke": {
+          "path": "/Users/tabbasi/.cache/huggingface/hub/blobs/1d/1d170d6d02486a36d3deaa9c49624f69278a78468b6fc27f18c396256e68c045",
+          "sha256": "ac0a10257b2bc1f20c9d957f8adeeb61dd6140322fc19d0b4a116cb491776d16"
+        }
+      },
+      "configuration": {
+        "device": "mps",
+        "confidence": 0.25,
+        "imgsz": 640,
+        "stride": 1,
+        "max_frames": 100000,
+        "timestamp_source": "container"
+      },
+      "runs": [
+        "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/early-domestic-full/run-8kl5bxnr"
+      ],
+      "analyzed_frames": 20400
+    },
+    {
+      "name": "fasdd-1280-full",
+      "overall": {
+        "fire": {
+          "frame_counts": {
+            "positive_frames": 7882,
+            "positive_hit_frames": 6660,
+            "negative_frames": 8012,
+            "negative_hit_frames": 0,
+            "excluded_frames": 4506
+          },
+          "policies": {
+            "raw": {
+              "TP": 6,
+              "FP": 2,
+              "FN": 0,
+              "event_recall": 1.0,
+              "event_precision": 0.75,
+              "negative_seconds": 320.5734477822525,
+              "false_events_per_camera_hour": 22.459751578959697,
+              "confirmation_delays_seconds": [
+                0,
+                0,
+                0,
+                0,
+                4.0680000000000005,
+                6.621
+              ],
+              "confirmation_delay_seconds": {
+                "p50": 0.0,
+                "p95": 5.982750000000001
+              },
+              "excluded_predictions": 6,
+              "excluded_seconds": 180.07421902569965,
+              "ambiguous_seconds": 180.074,
+              "unmonitored_seconds": 180.07421902569965,
+              "negative_scene_false_events": 0,
+              "negative_alert_span_seconds": 0,
+              "positive_alert_span_seconds": 280.456944974082,
+              "positive_seconds": 315.057944974082
+            },
+            "timed": {
+              "TP": 6,
+              "FP": 0,
+              "FN": 0,
+              "event_recall": 1.0,
+              "event_precision": 1.0,
+              "negative_seconds": 320.5734477822525,
+              "false_events_per_camera_hour": 0.0,
+              "confirmation_delays_seconds": [
+                1.008,
+                1.02,
+                1.038,
+                1.0390000000000001,
+                5.107,
+                32.652
+              ],
+              "confirmation_delay_seconds": {
+                "p50": 1.0385,
+                "p95": 25.765750000000004
+              },
+              "excluded_predictions": 5,
+              "excluded_seconds": 180.07421902569965,
+              "ambiguous_seconds": 180.074,
+              "unmonitored_seconds": 180.07421902569965,
+              "negative_scene_false_events": 0,
+              "negative_alert_span_seconds": 0,
+              "positive_alert_span_seconds": 273.193944974082,
+              "positive_seconds": 315.057944974082
+            }
+          }
+        },
+        "smoke": {
+          "frame_counts": {
+            "positive_frames": 7509,
+            "positive_hit_frames": 6,
+            "negative_frames": 6511,
+            "negative_hit_frames": 261,
+            "excluded_frames": 6380
+          },
+          "policies": {
+            "raw": {
+              "TP": 1,
+              "FP": 1,
+              "FN": 6,
+              "event_recall": 0.14285714285714285,
+              "event_precision": 0.5,
+              "negative_seconds": 260.5734477822525,
+              "false_events_per_camera_hour": 13.81568241369063,
+              "confirmation_delays_seconds": [
+                2.511
+              ],
+              "confirmation_delay_seconds": {
+                "p50": 2.511,
+                "p95": 2.511
+              },
+              "excluded_predictions": 0,
+              "excluded_seconds": 255.0543521602416,
+              "ambiguous_seconds": 255.054,
+              "unmonitored_seconds": 255.0543521602416,
+              "negative_scene_false_events": 1,
+              "negative_alert_span_seconds": 13.0,
+              "positive_alert_span_seconds": 0.2400000000000002,
+              "positive_seconds": 300.07781183954006
+            },
+            "timed": {
+              "TP": 0,
+              "FP": 1,
+              "FN": 7,
+              "event_recall": 0.0,
+              "event_precision": 0.0,
+              "negative_seconds": 260.5734477822525,
+              "false_events_per_camera_hour": 13.81568241369063,
+              "confirmation_delays_seconds": [],
+              "confirmation_delay_seconds": {
+                "p50": null,
+                "p95": null
+              },
+              "excluded_predictions": 0,
+              "excluded_seconds": 255.0543521602416,
+              "ambiguous_seconds": 255.054,
+              "unmonitored_seconds": 255.0543521602416,
+              "negative_scene_false_events": 1,
+              "negative_alert_span_seconds": 12.0,
+              "positive_alert_span_seconds": 0,
+              "positive_seconds": 300.07781183954006
+            }
+          }
+        }
+      },
+      "per_clip_frames": [
+        {
+          "clip_id": "F01",
+          "kind": "fire",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 421,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "F01",
+          "kind": "smoke",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 421,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "F02",
+          "kind": "fire",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 515,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "F02",
+          "kind": "smoke",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 515,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "F03",
+          "kind": "fire",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 276,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "F03",
+          "kind": "smoke",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 276,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "F04",
+          "kind": "fire",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 325,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "F04",
+          "kind": "smoke",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 325,
+          "negative_hit_frames": 261,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "F05",
+          "kind": "fire",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 392,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "F05",
+          "kind": "smoke",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 392,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "F06",
+          "kind": "fire",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 374,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "F06",
+          "kind": "smoke",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 374,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "F07",
+          "kind": "fire",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 150,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "F07",
+          "kind": "smoke",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 150,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "F08",
+          "kind": "fire",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 304,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "F08",
+          "kind": "smoke",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 304,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C01",
+          "kind": "fire",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 751,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C01",
+          "kind": "smoke",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 751,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C02",
+          "kind": "fire",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 751,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C02",
+          "kind": "smoke",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 751,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C03",
+          "kind": "fire",
+          "positive_frames": 1501,
+          "positive_hit_frames": 457,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C03",
+          "kind": "smoke",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 1501
+        },
+        {
+          "clip_id": "C04",
+          "kind": "fire",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 1501,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C04",
+          "kind": "smoke",
+          "positive_frames": 1501,
+          "positive_hit_frames": 6,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C05",
+          "kind": "fire",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 1127
+        },
+        {
+          "clip_id": "C05",
+          "kind": "smoke",
+          "positive_frames": 1127,
+          "positive_hit_frames": 0,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C06",
+          "kind": "fire",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 1126
+        },
+        {
+          "clip_id": "C06",
+          "kind": "smoke",
+          "positive_frames": 1126,
+          "positive_hit_frames": 0,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C07",
+          "kind": "fire",
+          "positive_frames": 1501,
+          "positive_hit_frames": 1389,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C07",
+          "kind": "smoke",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 1501
+        },
+        {
+          "clip_id": "C08",
+          "kind": "fire",
+          "positive_frames": 1126,
+          "positive_hit_frames": 1126,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C08",
+          "kind": "smoke",
+          "positive_frames": 375,
+          "positive_hit_frames": 0,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 751
+        },
+        {
+          "clip_id": "C09",
+          "kind": "fire",
+          "positive_frames": 1127,
+          "positive_hit_frames": 1127,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C09",
+          "kind": "smoke",
+          "positive_frames": 1127,
+          "positive_hit_frames": 0,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C10",
+          "kind": "fire",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 1127
+        },
+        {
+          "clip_id": "C10",
+          "kind": "smoke",
+          "positive_frames": 1127,
+          "positive_hit_frames": 0,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C11",
+          "kind": "fire",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 1126,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C11",
+          "kind": "smoke",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 1126,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C12",
+          "kind": "fire",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 1126,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C12",
+          "kind": "smoke",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 1126,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C13",
+          "kind": "fire",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 1126
+        },
+        {
+          "clip_id": "C13",
+          "kind": "smoke",
+          "positive_frames": 1126,
+          "positive_hit_frames": 0,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C14",
+          "kind": "fire",
+          "positive_frames": 1501,
+          "positive_hit_frames": 1481,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C14",
+          "kind": "smoke",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 1501
+        },
+        {
+          "clip_id": "C15",
+          "kind": "fire",
+          "positive_frames": 1126,
+          "positive_hit_frames": 1080,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 0
+        },
+        {
+          "clip_id": "C15",
+          "kind": "smoke",
+          "positive_frames": 0,
+          "positive_hit_frames": 0,
+          "negative_frames": 0,
+          "negative_hit_frames": 0,
+          "excluded_frames": 1126
+        }
+      ],
+      "per_clip_events": [
+        {
+          "clip_id": "F01",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F01",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F01",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F01",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F02",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F02",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F02",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F02",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F03",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F03",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F03",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F03",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F04",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F04",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F04",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 1,
+          "negative_alert_span_seconds": 13.0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F04",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 1,
+          "negative_alert_span_seconds": 12.0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F05",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F05",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F05",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F05",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F06",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F06",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F06",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F06",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F07",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F07",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F07",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F07",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F08",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F08",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F08",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "F08",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C01",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C01",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C01",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C01",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C02",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C02",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C02",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C02",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C03",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 29.467,
+          "positive_seconds": 60.0
+        },
+        {
+          "clip_id": "C03",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 27.348,
+          "positive_seconds": 60.0
+        },
+        {
+          "clip_id": "C03",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C03",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C04",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C04",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C04",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0.2400000000000002,
+          "positive_seconds": 60.0
+        },
+        {
+          "clip_id": "C04",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 60.0
+        },
+        {
+          "clip_id": "C05",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C05",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C05",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 45.025952085181906
+        },
+        {
+          "clip_id": "C05",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 45.025952085181906
+        },
+        {
+          "clip_id": "C06",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C06",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C06",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 45.004968916518656
+        },
+        {
+          "clip_id": "C06",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 45.004968916518656
+        },
+        {
+          "clip_id": "C07",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 55.932,
+          "positive_seconds": 60.0
+        },
+        {
+          "clip_id": "C07",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 54.893,
+          "positive_seconds": 60.0
+        },
+        {
+          "clip_id": "C07",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C07",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C08",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 45.0,
+          "positive_seconds": 45.0
+        },
+        {
+          "clip_id": "C08",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 43.961,
+          "positive_seconds": 45.0
+        },
+        {
+          "clip_id": "C08",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 14.969999999999999
+        },
+        {
+          "clip_id": "C08",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 14.969999999999999
+        },
+        {
+          "clip_id": "C09",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 45.03395918367347,
+          "positive_seconds": 45.03395918367347
+        },
+        {
+          "clip_id": "C09",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 44.025959183673464,
+          "positive_seconds": 45.03395918367347
+        },
+        {
+          "clip_id": "C09",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 45.03395918367347
+        },
+        {
+          "clip_id": "C09",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 45.03395918367347
+        },
+        {
+          "clip_id": "C10",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C10",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C10",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 45.031957409050584
+        },
+        {
+          "clip_id": "C10",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 45.031957409050584
+        },
+        {
+          "clip_id": "C11",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C11",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C11",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C11",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C12",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C12",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C12",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C12",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C13",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C13",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C13",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 45.01097424511545
+        },
+        {
+          "clip_id": "C13",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 45.01097424511545
+        },
+        {
+          "clip_id": "C14",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 60.0,
+          "positive_seconds": 60.0
+        },
+        {
+          "clip_id": "C14",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 58.98,
+          "positive_seconds": 60.0
+        },
+        {
+          "clip_id": "C14",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C14",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C15",
+          "kind": "fire",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 45.023985790408524,
+          "positive_seconds": 45.023985790408524
+        },
+        {
+          "clip_id": "C15",
+          "kind": "fire",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 43.98598579040853,
+          "positive_seconds": 45.023985790408524
+        },
+        {
+          "clip_id": "C15",
+          "kind": "smoke",
+          "policy": "raw",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        },
+        {
+          "clip_id": "C15",
+          "kind": "smoke",
+          "policy": "timed",
+          "negative_scene_false_events": 0,
+          "negative_alert_span_seconds": 0,
+          "positive_alert_span_seconds": 0,
+          "positive_seconds": 0
+        }
+      ],
+      "checkpoint": {
+        "fire_smoke": {
+          "path": "/Users/tabbasi/.cache/huggingface/hub/blobs/56/565d2ba7d1c36ee3d51e07857bb074f92ccd30ab3cdf9dd0f4026d8972f6e34a",
+          "sha256": "d2b0be214f45fa01d2044b960c3cb4da4bf65c06a89cf0a1967b0d40e8db4b98"
+        }
+      },
+      "configuration": {
+        "device": "mps",
+        "confidence": 0.25,
+        "imgsz": 1280,
+        "stride": 1,
+        "max_frames": 100000,
+        "timestamp_source": "container"
+      },
+      "runs": [
+        "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/fasdd-1280-full/run-7b2tk8yn"
+      ],
+      "analyzed_frames": 20400
+    }
+  ],
+  "gate_passed": false,
+  "production_model_changed": false
+}

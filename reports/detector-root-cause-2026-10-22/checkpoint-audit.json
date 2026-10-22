@@ -1,0 +1,119 @@
+[
+  {
+    "variant": "baseline-640-mps",
+    "sha256": "b91633799ceb052c814b4f8b77a37efc9a40f002d528df97d74463585fa4f28f",
+    "classes": {
+      "0": "smoke",
+      "1": "fire"
+    },
+    "parameters": 3011238,
+    "training_args": {
+      "imgsz": 640,
+      "epochs": 50
+    }
+  },
+  {
+    "variant": "baseline-640-cpu",
+    "sha256": "b91633799ceb052c814b4f8b77a37efc9a40f002d528df97d74463585fa4f28f",
+    "classes": {
+      "0": "smoke",
+      "1": "fire"
+    },
+    "parameters": 3011238,
+    "training_args": {
+      "imgsz": 640,
+      "epochs": 50
+    }
+  },
+  {
+    "variant": "baseline-1280-mps",
+    "sha256": "b91633799ceb052c814b4f8b77a37efc9a40f002d528df97d74463585fa4f28f",
+    "classes": {
+      "0": "smoke",
+      "1": "fire"
+    },
+    "parameters": 3011238,
+    "training_args": {
+      "imgsz": 640,
+      "epochs": 50
+    }
+  },
+  {
+    "variant": "early-640-mps",
+    "sha256": "ac0a10257b2bc1f20c9d957f8adeeb61dd6140322fc19d0b4a116cb491776d16",
+    "classes": {
+      "0": "fire",
+      "1": "smoke"
+    },
+    "parameters": 3011238,
+    "training_args": {
+      "imgsz": 640,
+      "epochs": 150
+    }
+  },
+  {
+    "variant": "yolo26s-640-mps",
+    "sha256": "283c996482e26013f6e60559ad25c49f38f3aa9937961c8c33aaa7d0fc8d1d59",
+    "classes": {
+      "0": "Fire",
+      "1": "Smoke"
+    },
+    "parameters": 9949412,
+    "training_args": {
+      "imgsz": 640,
+      "epochs": 100
+    }
+  },
+  {
+    "variant": "strict-640-mps",
+    "sha256": "4428ee4c17980d8f1995bbe624a593f63326ead85ec76f2f0cd480195bab2a4d",
+    "classes": {
+      "0": "smoke_visible",
+      "1": "flame_visible"
+    },
+    "parameters": 20054550,
+    "training_args": {
+      "imgsz": 960,
+      "epochs": 12
+    }
+  },
+  {
+    "variant": "strict-960-mps",
+    "sha256": "4428ee4c17980d8f1995bbe624a593f63326ead85ec76f2f0cd480195bab2a4d",
+    "classes": {
+      "0": "smoke_visible",
+      "1": "flame_visible"
+    },
+    "parameters": 20054550,
+    "training_args": {
+      "imgsz": 960,
+      "epochs": 12
+    }
+  },
+  {
+    "variant": "fasdd-640-mps",
+    "sha256": "d2b0be214f45fa01d2044b960c3cb4da4bf65c06a89cf0a1967b0d40e8db4b98",
+    "classes": {
+      "0": "fire",
+      "1": "smoke"
+    },
+    "parameters": 2504580,
+    "training_args": {
+      "imgsz": 640,
+      "epochs": 100
+    }
+  },
+  {
+    "variant": "fasdd-1280-mps",
+    "sha256": "d2b0be214f45fa01d2044b960c3cb4da4bf65c06a89cf0a1967b0d40e8db4b98",
+    "classes": {
+      "0": "fire",
+      "1": "smoke"
+    },
+    "parameters": 2504580,
+    "training_args": {
+      "imgsz": 640,
+      "epochs": 100
+    }
+  }
+]

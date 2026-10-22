@@ -1,0 +1,14 @@
+{
+  "model_id": "full-fasdd-yolo26n",
+  "repository": "seawsurf/fire_smoke_detection_box",
+  "revision": "9403f231bab33e0ea4048424ff64023936957ba5",
+  "filename": "weights/best.pt",
+  "path": "/Users/tabbasi/.cache/huggingface/hub/models--seawsurf--fire_smoke_detection_box/snapshots/9403f231bab33e0ea4048424ff64023936957ba5/weights/best.pt",
+  "sha256": "d2b0be214f45fa01d2044b960c3cb4da4bf65c06a89cf0a1967b0d40e8db4b98",
+  "bytes": 5377541,
+  "model_card_license": "cc-by-4.0",
+  "training_data_rights_note": "FASDD publisher CC BY-SA 4.0 retained; offline experiment, no weight redistribution or deployment",
+  "training_dataset": "FASDD_CV-associated publisher checkpoint; exact training subset and source groups not independently verified",
+  "use": "one targeted training-domain comparison",
+  "resolved_repository": "seawsurf/fire_yolo"
+}

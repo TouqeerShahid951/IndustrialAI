@@ -1,0 +1,10 @@
+{
+  "model_id": "strict-yolo11m",
+  "repository": "fireviewer/fire-smoke-yolo11m-strict-v1",
+  "revision": "065979cd2300c27eeb355ab1e1524d8223d0b276",
+  "path": "/Users/tabbasi/.cache/huggingface/hub/models--fireviewer--fire-smoke-yolo11m-strict-v1/snapshots/065979cd2300c27eeb355ab1e1524d8223d0b276/model.pt",
+  "sha256": "4428ee4c17980d8f1995bbe624a593f63326ead85ec76f2f0cd480195bab2a4d",
+  "bytes": 40502892,
+  "license": "agpl-3.0",
+  "use": "offline experiment only; not admitted or deployed"
+}

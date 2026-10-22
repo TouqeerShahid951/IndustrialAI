@@ -1,0 +1,2337 @@
+{
+  "manifest_sha256": "82a147b509bf4815031bfb64c600273508c042c63d72ff544099fea50a4ce4ec",
+  "extraction": "sequential decode; frame-index seeking was rejected after timestamp mismatches",
+  "frames": [
+    {
+      "id": "F01-000000",
+      "clip_id": "F01",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/factory/0_tr16.mp4",
+      "source_sha256": "31be68f203b8fa5895b5f8566b84d5d8407636113fd34d134983cc4962ea1c32",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/F01.json",
+      "annotation_sha256": "439673011d3a4bd1b836c53314c5852f79b821878745c368d1d2a9e6b8b2553e",
+      "frame_index": 0,
+      "time_seconds": 0.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/F01-000000.png",
+      "sha256": "44a61c2b8949d0c5690ad09af0f6ae29b2fa02dc74c9336abe326f5dbccb8ac9",
+      "native_bgr_pixels_sha256": "f912a5d707dcd2d274cecf21b6210f2ba673f505e4c7f1ea104e6307e9107fc8",
+      "frame_annotation": {
+        "time_seconds": 0.0,
+        "frame_index": 0,
+        "image_width": 1920,
+        "image_height": 1080,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F01/000000.jpg",
+        "image_sha256": "16ad0d8e9efeadc5a05acf06da156642a2fcb862ec0511aee4ebedbe3ee5cd8c",
+        "review_status": "reviewed",
+        "class_assessment": {
+          "fire": "absent_visible",
+          "smoke": "absent_visible"
+        },
+        "objects": [],
+        "localization_status": "reviewed_empty",
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F01/annotated-000000.jpg"
+      }
+    },
+    {
+      "id": "F01-000224",
+      "clip_id": "F01",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/factory/0_tr16.mp4",
+      "source_sha256": "31be68f203b8fa5895b5f8566b84d5d8407636113fd34d134983cc4962ea1c32",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/F01.json",
+      "annotation_sha256": "439673011d3a4bd1b836c53314c5852f79b821878745c368d1d2a9e6b8b2553e",
+      "frame_index": 224,
+      "time_seconds": 9.032258064516128,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/F01-000224.png",
+      "sha256": "dfeac8008acf641a55896cc5e345711e559e4d10dbabb5932d37bebdff074a5e",
+      "native_bgr_pixels_sha256": "b1669fbf167c316105de8f05f634d33b0d2ead0409c9d9552f470055fdd584c3",
+      "frame_annotation": {
+        "time_seconds": 9.032258,
+        "frame_index": 224,
+        "image_width": 1920,
+        "image_height": 1080,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F01/000224.jpg",
+        "image_sha256": "602c9eeeb13c11cc38b6673affdeda73d122c476673409a6989fff7dfb4ee218",
+        "review_status": "reviewed",
+        "class_assessment": {
+          "fire": "absent_visible",
+          "smoke": "absent_visible"
+        },
+        "objects": [],
+        "localization_status": "reviewed_empty",
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F01/annotated-000224.jpg"
+      }
+    },
+    {
+      "id": "F01-000420",
+      "clip_id": "F01",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/factory/0_tr16.mp4",
+      "source_sha256": "31be68f203b8fa5895b5f8566b84d5d8407636113fd34d134983cc4962ea1c32",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/F01.json",
+      "annotation_sha256": "439673011d3a4bd1b836c53314c5852f79b821878745c368d1d2a9e6b8b2553e",
+      "frame_index": 420,
+      "time_seconds": 16.93548387096774,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/F01-000420.png",
+      "sha256": "abb3791049218645f0ad325b92248f075bc7ef5fbe99ef13fb72226941ef0c20",
+      "native_bgr_pixels_sha256": "1b5a72a9904b9a1fde876108996a8ec14fc728f488aff3fa8caa972e46a3753d",
+      "frame_annotation": {
+        "time_seconds": 16.935484,
+        "frame_index": 420,
+        "image_width": 1920,
+        "image_height": 1080,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F01/000420.jpg",
+        "image_sha256": "fa0ea5b44d01c42d34bf731b592fc154107acd57fbe88779d5642404ebd52088",
+        "review_status": "reviewed",
+        "class_assessment": {
+          "fire": "absent_visible",
+          "smoke": "absent_visible"
+        },
+        "objects": [],
+        "localization_status": "reviewed_empty",
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F01/annotated-000420.jpg"
+      }
+    },
+    {
+      "id": "F02-000000",
+      "clip_id": "F02",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/factory/1_tr20.mp4",
+      "source_sha256": "73971f20ec0769b9b784ac78597ec6044ada6d8521c11b81fdec8e4ab87f7bed",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/F02.json",
+      "annotation_sha256": "c3630f4d50b62d0ef054e4cdb8ea461d0e6ec70ddbd2454228f0080646d918fa",
+      "frame_index": 0,
+      "time_seconds": 0.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/F02-000000.png",
+      "sha256": "20d80609e54939da591f4df36e167e80889d7a4c582ed51ba6e32659d99bc4da",
+      "native_bgr_pixels_sha256": "01e1c06d449484bceeaa5a404ba28873a3599af216acb151b16284d623664812",
+      "frame_annotation": {
+        "time_seconds": 0.0,
+        "frame_index": 0,
+        "image_width": 1920,
+        "image_height": 1080,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F02/000000.jpg",
+        "image_sha256": "342b0dd4240d95f45339dc303f90caab0286a9ff1d3f6c18b897f9c6dd6005f9",
+        "review_status": "reviewed",
+        "class_assessment": {
+          "fire": "absent_visible",
+          "smoke": "absent_visible"
+        },
+        "objects": [],
+        "localization_status": "reviewed_empty",
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F02/annotated-000000.jpg"
+      }
+    },
+    {
+      "id": "F02-000273",
+      "clip_id": "F02",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/factory/1_tr20.mp4",
+      "source_sha256": "73971f20ec0769b9b784ac78597ec6044ada6d8521c11b81fdec8e4ab87f7bed",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/F02.json",
+      "annotation_sha256": "c3630f4d50b62d0ef054e4cdb8ea461d0e6ec70ddbd2454228f0080646d918fa",
+      "frame_index": 273,
+      "time_seconds": 11.008064516129032,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/F02-000273.png",
+      "sha256": "cbec3a4a2b5da5c17a29220afa8915bd56f4053a7a1698faa67eb108c9ebfb27",
+      "native_bgr_pixels_sha256": "bc634eb06f271649263f41792dc2fb21b260b0e4360303ea35e69f39ad693d94",
+      "frame_annotation": {
+        "time_seconds": 11.008065,
+        "frame_index": 273,
+        "image_width": 1920,
+        "image_height": 1080,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F02/000273.jpg",
+        "image_sha256": "285b0aa72fd5768bebb42637d9ae0793a0cda4b9bf5e32b178531991a7db3010",
+        "review_status": "reviewed",
+        "class_assessment": {
+          "fire": "absent_visible",
+          "smoke": "absent_visible"
+        },
+        "objects": [],
+        "localization_status": "reviewed_empty",
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F02/annotated-000273.jpg"
+      }
+    },
+    {
+      "id": "F02-000514",
+      "clip_id": "F02",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/factory/1_tr20.mp4",
+      "source_sha256": "73971f20ec0769b9b784ac78597ec6044ada6d8521c11b81fdec8e4ab87f7bed",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/F02.json",
+      "annotation_sha256": "c3630f4d50b62d0ef054e4cdb8ea461d0e6ec70ddbd2454228f0080646d918fa",
+      "frame_index": 514,
+      "time_seconds": 20.725806451612904,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/F02-000514.png",
+      "sha256": "c9b90b033b6a2664e84e1b51791163aa5377c1f1df5314292a03d090b56a7ba9",
+      "native_bgr_pixels_sha256": "f58370b5492110c028b12bbdd10a22986dd35af5a7a6bd689c4528f780998dc4",
+      "frame_annotation": {
+        "time_seconds": 20.725806,
+        "frame_index": 514,
+        "image_width": 1920,
+        "image_height": 1080,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F02/000514.jpg",
+        "image_sha256": "b335f13585830d7dcdec391332908881121d20e786e3626f600f5ba1b1188ae7",
+        "review_status": "reviewed",
+        "class_assessment": {
+          "fire": "absent_visible",
+          "smoke": "absent_visible"
+        },
+        "objects": [],
+        "localization_status": "reviewed_empty",
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F02/annotated-000514.jpg"
+      }
+    },
+    {
+      "id": "F03-000000",
+      "clip_id": "F03",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/factory/2_tr125.mp4",
+      "source_sha256": "6b318200c11b971b1b924e1a46a2571321223dffddb26cd6f157b2a12abe2f29",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/F03.json",
+      "annotation_sha256": "6d24565bb2531e6b8264c8c82b3a44825547f25e8d3e4753b96389f883ac69f1",
+      "frame_index": 0,
+      "time_seconds": 0.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/F03-000000.png",
+      "sha256": "4620f057f73573f82b666645f5629dcf93c7722660e64905709c37f0c361ae6c",
+      "native_bgr_pixels_sha256": "5c2c11c380308791767d615714dcef1364662c3526b5824a2dc8f791abd449e5",
+      "frame_annotation": {
+        "time_seconds": 0.0,
+        "frame_index": 0,
+        "image_width": 1920,
+        "image_height": 1080,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F03/000000.jpg",
+        "image_sha256": "bc7e4bfb90ce8eda62b8158e404d6bc40cfc34a718b1477ccf7e94f63099caee",
+        "review_status": "reviewed",
+        "class_assessment": {
+          "fire": "absent_visible",
+          "smoke": "absent_visible"
+        },
+        "objects": [],
+        "localization_status": "reviewed_empty",
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F03/annotated-000000.jpg"
+      }
+    },
+    {
+      "id": "F03-000151",
+      "clip_id": "F03",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/factory/2_tr125.mp4",
+      "source_sha256": "6b318200c11b971b1b924e1a46a2571321223dffddb26cd6f157b2a12abe2f29",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/F03.json",
+      "annotation_sha256": "6d24565bb2531e6b8264c8c82b3a44825547f25e8d3e4753b96389f883ac69f1",
+      "frame_index": 151,
+      "time_seconds": 6.0351718625099915,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/F03-000151.png",
+      "sha256": "b57445593f37d814c035f7db56fc79b89ad6c799025cfdf04d3b49d0491db89c",
+      "native_bgr_pixels_sha256": "4ad953fe9225b72bd8a742ce5644a20764eb5450de4f30107eb34699d5ca490d",
+      "frame_annotation": {
+        "time_seconds": 6.035172,
+        "frame_index": 151,
+        "image_width": 1920,
+        "image_height": 1080,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F03/000151.jpg",
+        "image_sha256": "5b3789b84099aae28a17f5cd6fa288966822d8d4435aa936027e974f3fb2fde8",
+        "review_status": "reviewed",
+        "class_assessment": {
+          "fire": "absent_visible",
+          "smoke": "absent_visible"
+        },
+        "objects": [],
+        "localization_status": "reviewed_empty",
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F03/annotated-000151.jpg"
+      }
+    },
+    {
+      "id": "F03-000275",
+      "clip_id": "F03",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/factory/2_tr125.mp4",
+      "source_sha256": "6b318200c11b971b1b924e1a46a2571321223dffddb26cd6f157b2a12abe2f29",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/F03.json",
+      "annotation_sha256": "6d24565bb2531e6b8264c8c82b3a44825547f25e8d3e4753b96389f883ac69f1",
+      "frame_index": 275,
+      "time_seconds": 10.991207034372502,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/F03-000275.png",
+      "sha256": "3d8ebec5f156cc4d134578d9180fc4ea8e30979a6bbb0fc1716bfb884da41450",
+      "native_bgr_pixels_sha256": "63c07dc9cbcc0d2983b56f2661da1d0447603cd075baa8d6f4a653b1e0f9687f",
+      "frame_annotation": {
+        "time_seconds": 10.991207,
+        "frame_index": 275,
+        "image_width": 1920,
+        "image_height": 1080,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F03/000275.jpg",
+        "image_sha256": "be6ef4691b3fcf293ceebc3c6ccebbfd1c649e947d7341ce86ca09bb69532325",
+        "review_status": "reviewed",
+        "class_assessment": {
+          "fire": "absent_visible",
+          "smoke": "absent_visible"
+        },
+        "objects": [],
+        "localization_status": "reviewed_empty",
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F03/annotated-000275.jpg"
+      }
+    },
+    {
+      "id": "F04-000000",
+      "clip_id": "F04",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/factory/3_tr1.mp4",
+      "source_sha256": "9847393983a6741a1a897260e299f08a269a92d3865a81e897d18c2dc52d0b0d",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/F04.json",
+      "annotation_sha256": "13a6dbedfa3a5908743dbb8cf5763b7d6e47454652e9ba8d0f338cf5cc3c37ef",
+      "frame_index": 0,
+      "time_seconds": 0.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/F04-000000.png",
+      "sha256": "dafd7e0d1034dcb768b0a80c88f1fa9752f602591b72629c5bde53f70978e6cf",
+      "native_bgr_pixels_sha256": "048b0bfa83d100e5782d2251220141da8c6b8ea803b556c1b049a4a388d8ed42",
+      "frame_annotation": {
+        "time_seconds": 0.0,
+        "frame_index": 0,
+        "image_width": 1920,
+        "image_height": 1080,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F04/000000.jpg",
+        "image_sha256": "ee0a3f5cfc6a4516da15afb5f55ffdd86d0c7d753dbc483d6f92ac24856cde89",
+        "review_status": "reviewed",
+        "class_assessment": {
+          "fire": "absent_visible",
+          "smoke": "absent_visible"
+        },
+        "objects": [],
+        "localization_status": "reviewed_empty",
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F04/annotated-000000.jpg"
+      }
+    },
+    {
+      "id": "F04-000175",
+      "clip_id": "F04",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/factory/3_tr1.mp4",
+      "source_sha256": "9847393983a6741a1a897260e299f08a269a92d3865a81e897d18c2dc52d0b0d",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/F04.json",
+      "annotation_sha256": "13a6dbedfa3a5908743dbb8cf5763b7d6e47454652e9ba8d0f338cf5cc3c37ef",
+      "frame_index": 175,
+      "time_seconds": 7.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/F04-000175.png",
+      "sha256": "348ecafd871346a4a63fb8f3bd5bc787a63483190a6007669ce247420e5418e0",
+      "native_bgr_pixels_sha256": "4bc57b8f696b200c0bd75e6fe1b88a370e6e8f6185143bc4fec2e57b0a92214d",
+      "frame_annotation": {
+        "time_seconds": 7.0,
+        "frame_index": 175,
+        "image_width": 1920,
+        "image_height": 1080,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F04/000175.jpg",
+        "image_sha256": "ceb334ff411bc8eb3e8f3a777fd41c5e49bc658e56864df5525a0bafca38bdd4",
+        "review_status": "reviewed",
+        "class_assessment": {
+          "fire": "absent_visible",
+          "smoke": "absent_visible"
+        },
+        "objects": [],
+        "localization_status": "reviewed_empty",
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F04/annotated-000175.jpg"
+      }
+    },
+    {
+      "id": "F04-000324",
+      "clip_id": "F04",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/factory/3_tr1.mp4",
+      "source_sha256": "9847393983a6741a1a897260e299f08a269a92d3865a81e897d18c2dc52d0b0d",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/F04.json",
+      "annotation_sha256": "13a6dbedfa3a5908743dbb8cf5763b7d6e47454652e9ba8d0f338cf5cc3c37ef",
+      "frame_index": 324,
+      "time_seconds": 12.96,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/F04-000324.png",
+      "sha256": "d0f8dd2d9a312a275144cd48ec69b310d99202b72de948486a30d8ec0200cb3a",
+      "native_bgr_pixels_sha256": "a530c9bd3ad1b961c44c1914ab78b4892607a064faa79d0692f1ce9c5209bacb",
+      "frame_annotation": {
+        "time_seconds": 12.96,
+        "frame_index": 324,
+        "image_width": 1920,
+        "image_height": 1080,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F04/000324.jpg",
+        "image_sha256": "896acbd083a66f3c29fd7b710af1539b2e6916304b6bc183296b4d8f8e54471d",
+        "review_status": "reviewed",
+        "class_assessment": {
+          "fire": "absent_visible",
+          "smoke": "absent_visible"
+        },
+        "objects": [],
+        "localization_status": "reviewed_empty",
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F04/annotated-000324.jpg"
+      }
+    },
+    {
+      "id": "F05-000000",
+      "clip_id": "F05",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/factory/4_tr47.mp4",
+      "source_sha256": "4c19f21e0b43376453489f31453d8941135029e025e8136bbde9e9c57def4ec1",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/F05.json",
+      "annotation_sha256": "7ffc956f3bb3bff970f5e35a631ad09f513be0e0881761ac1a4b5b35c03f045a",
+      "frame_index": 0,
+      "time_seconds": 0.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/F05-000000.png",
+      "sha256": "51dae594ae54d460e84f038afd43e8bab3c3556fb455818af85b60fc49ea1737",
+      "native_bgr_pixels_sha256": "0871fcc09b3f5cf721f487845f9532c2cc78331429abe0226452a036318a1359",
+      "frame_annotation": {
+        "time_seconds": 0.0,
+        "frame_index": 0,
+        "image_width": 1920,
+        "image_height": 1080,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F05/000000.jpg",
+        "image_sha256": "639a5ee64defbd7c72c263f2554861fc1a4762404b71e1a0d30df28b8645dd9c",
+        "review_status": "reviewed",
+        "class_assessment": {
+          "fire": "absent_visible",
+          "smoke": "absent_visible"
+        },
+        "objects": [],
+        "localization_status": "reviewed_empty",
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F05/annotated-000000.jpg"
+      }
+    },
+    {
+      "id": "F05-000201",
+      "clip_id": "F05",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/factory/4_tr47.mp4",
+      "source_sha256": "4c19f21e0b43376453489f31453d8941135029e025e8136bbde9e9c57def4ec1",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/F05.json",
+      "annotation_sha256": "7ffc956f3bb3bff970f5e35a631ad09f513be0e0881761ac1a4b5b35c03f045a",
+      "frame_index": 201,
+      "time_seconds": 8.017550857598723,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/F05-000201.png",
+      "sha256": "a0008267be967bdb93de50ae21595ac79a224dfdba5ab8e2bc36b88ec52691cc",
+      "native_bgr_pixels_sha256": "5d54068bf75247cdd02e851ccb9573231caac8f1fa22a5dae1877c1319df8883",
+      "frame_annotation": {
+        "time_seconds": 8.017551,
+        "frame_index": 201,
+        "image_width": 1920,
+        "image_height": 1080,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F05/000201.jpg",
+        "image_sha256": "988b8ac1f11199d5591e6851be9f8039b698a1d41dfef427be35c0ae71f4b068",
+        "review_status": "reviewed",
+        "class_assessment": {
+          "fire": "absent_visible",
+          "smoke": "absent_visible"
+        },
+        "objects": [],
+        "localization_status": "reviewed_empty",
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F05/annotated-000201.jpg"
+      }
+    },
+    {
+      "id": "F05-000391",
+      "clip_id": "F05",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/factory/4_tr47.mp4",
+      "source_sha256": "4c19f21e0b43376453489f31453d8941135029e025e8136bbde9e9c57def4ec1",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/F05.json",
+      "annotation_sha256": "7ffc956f3bb3bff970f5e35a631ad09f513be0e0881761ac1a4b5b35c03f045a",
+      "frame_index": 391,
+      "time_seconds": 15.59633027522936,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/F05-000391.png",
+      "sha256": "240b687b8c2b58ad3912aaac2301a96f37887c25c582bdb43aa6ac54f15969a8",
+      "native_bgr_pixels_sha256": "9ba4ce29e871b4f298e07e0e9a32243616717c9b5eafebcac3e0266a892ab3d8",
+      "frame_annotation": {
+        "time_seconds": 15.59633,
+        "frame_index": 391,
+        "image_width": 1920,
+        "image_height": 1080,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F05/000391.jpg",
+        "image_sha256": "0d06951e213a8f02f97e75fc97af9a1d3485f4a3e22de6155af1c8b3d1bd1f3d",
+        "review_status": "reviewed",
+        "class_assessment": {
+          "fire": "absent_visible",
+          "smoke": "absent_visible"
+        },
+        "objects": [],
+        "localization_status": "reviewed_empty",
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F05/annotated-000391.jpg"
+      }
+    },
+    {
+      "id": "F06-000000",
+      "clip_id": "F06",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/factory/5_tr21.mp4",
+      "source_sha256": "87ea099c168130adb04d9407359215b9873179bc9baf416f6d0cad161415172f",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/F06.json",
+      "annotation_sha256": "3a4f01be4413df45b5e8637c694f72078a1f930b6d02ab0143b498321f69f214",
+      "frame_index": 0,
+      "time_seconds": 0.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/F06-000000.png",
+      "sha256": "16b175ffecd7c1b6af79219a3e2ef90de663abf04306c8fa08c83a06d112d61b",
+      "native_bgr_pixels_sha256": "8b2159352389749b1d75179ecfd7ef4fe56629f0e9afdedef7ce5b5bdc4945e3",
+      "frame_annotation": {
+        "time_seconds": 0.0,
+        "frame_index": 0,
+        "image_width": 1920,
+        "image_height": 1080,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F06/000000.jpg",
+        "image_sha256": "4418ad46226782f11e6abdecf42c81d7d33133d776b458ab6f4311d0d5441539",
+        "review_status": "reviewed",
+        "class_assessment": {
+          "fire": "absent_visible",
+          "smoke": "absent_visible"
+        },
+        "objects": [],
+        "localization_status": "reviewed_empty",
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F06/annotated-000000.jpg"
+      }
+    },
+    {
+      "id": "F06-000200",
+      "clip_id": "F06",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/factory/5_tr21.mp4",
+      "source_sha256": "87ea099c168130adb04d9407359215b9873179bc9baf416f6d0cad161415172f",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/F06.json",
+      "annotation_sha256": "3a4f01be4413df45b5e8637c694f72078a1f930b6d02ab0143b498321f69f214",
+      "frame_index": 200,
+      "time_seconds": 8.025682182985554,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/F06-000200.png",
+      "sha256": "19fb83a69908d1b056518854460dfa02cb63aab7623d07cd793bad4fdf61b02f",
+      "native_bgr_pixels_sha256": "1ee0d0ee026b9a0a2c78ab69ec2b4db4a048de2a3e30fcbf7fa71cebb7dd2b1a",
+      "frame_annotation": {
+        "time_seconds": 8.025682,
+        "frame_index": 200,
+        "image_width": 1920,
+        "image_height": 1080,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F06/000200.jpg",
+        "image_sha256": "acf8ca0b39d45fac5cdca87c9ce6140e409775e475d7ee4582b20122a86c71ca",
+        "review_status": "reviewed",
+        "class_assessment": {
+          "fire": "absent_visible",
+          "smoke": "absent_visible"
+        },
+        "objects": [],
+        "localization_status": "reviewed_empty",
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F06/annotated-000200.jpg"
+      }
+    },
+    {
+      "id": "F06-000373",
+      "clip_id": "F06",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/factory/5_tr21.mp4",
+      "source_sha256": "87ea099c168130adb04d9407359215b9873179bc9baf416f6d0cad161415172f",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/F06.json",
+      "annotation_sha256": "3a4f01be4413df45b5e8637c694f72078a1f930b6d02ab0143b498321f69f214",
+      "frame_index": 373,
+      "time_seconds": 14.967897271268058,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/F06-000373.png",
+      "sha256": "74bd2dad78b4472ad2c9b5688b067f6127903b29a782814d691dd0f6412ea9d2",
+      "native_bgr_pixels_sha256": "c039b3a35cd0d65f47eab770160c226a07d9041d0941483b76e23f97922dd832",
+      "frame_annotation": {
+        "time_seconds": 14.967897,
+        "frame_index": 373,
+        "image_width": 1920,
+        "image_height": 1080,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F06/000373.jpg",
+        "image_sha256": "a193255ec60f9aaaa7b288e2a1cc59ddc1359603bac8fba47ca6f6faf5c13b64",
+        "review_status": "reviewed",
+        "class_assessment": {
+          "fire": "absent_visible",
+          "smoke": "absent_visible"
+        },
+        "objects": [],
+        "localization_status": "reviewed_empty",
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F06/annotated-000373.jpg"
+      }
+    },
+    {
+      "id": "F07-000000",
+      "clip_id": "F07",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/factory/6_tr1.mp4",
+      "source_sha256": "7540b01edad66702b46f1d728500bb119193dfae1c9ef9402ee8d2c19cfdccdc",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/F07.json",
+      "annotation_sha256": "992acc3b6268c0ca14bf142ad22b425f30e3b4a3affaab1d248e081080770f3e",
+      "frame_index": 0,
+      "time_seconds": 0.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/F07-000000.png",
+      "sha256": "6d8677e27d3efaaedea4142cc030c8b28e1142b601a32b7823de68f8d222664e",
+      "native_bgr_pixels_sha256": "8d2dbc609c318533de3622629fe301d9173d668dfc33f4958f0c96b8a67e2ea7",
+      "frame_annotation": {
+        "time_seconds": 0.0,
+        "frame_index": 0,
+        "image_width": 1920,
+        "image_height": 1080,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F07/000000.jpg",
+        "image_sha256": "2474b975e46b9eb27b97fad101cb70e09ffb9579f182b5dc0b3cfd164f91ff49",
+        "review_status": "reviewed",
+        "class_assessment": {
+          "fire": "absent_visible",
+          "smoke": "absent_visible"
+        },
+        "objects": [],
+        "localization_status": "reviewed_empty",
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F07/annotated-000000.jpg"
+      }
+    },
+    {
+      "id": "F07-000075",
+      "clip_id": "F07",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/factory/6_tr1.mp4",
+      "source_sha256": "7540b01edad66702b46f1d728500bb119193dfae1c9ef9402ee8d2c19cfdccdc",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/F07.json",
+      "annotation_sha256": "992acc3b6268c0ca14bf142ad22b425f30e3b4a3affaab1d248e081080770f3e",
+      "frame_index": 75,
+      "time_seconds": 3.0024019215372295,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/F07-000075.png",
+      "sha256": "69637ab3bf4432d394f1c22d5739b8a8f60f032c42dda6e27eafbd4b10ce9997",
+      "native_bgr_pixels_sha256": "2b6bd3148eb04eb5d32ec65416703173536a9f17e3fe112bd3716f94752e7a77",
+      "frame_annotation": {
+        "time_seconds": 3.002402,
+        "frame_index": 75,
+        "image_width": 1920,
+        "image_height": 1080,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F07/000075.jpg",
+        "image_sha256": "49121f90260b9b64ab03c74e7adb7c447e3f25502fbceff5406bd3c3e8cfe9b6",
+        "review_status": "reviewed",
+        "class_assessment": {
+          "fire": "absent_visible",
+          "smoke": "absent_visible"
+        },
+        "objects": [],
+        "localization_status": "reviewed_empty",
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F07/annotated-000075.jpg"
+      }
+    },
+    {
+      "id": "F07-000149",
+      "clip_id": "F07",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/factory/6_tr1.mp4",
+      "source_sha256": "7540b01edad66702b46f1d728500bb119193dfae1c9ef9402ee8d2c19cfdccdc",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/F07.json",
+      "annotation_sha256": "992acc3b6268c0ca14bf142ad22b425f30e3b4a3affaab1d248e081080770f3e",
+      "frame_index": 149,
+      "time_seconds": 5.964771817453963,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/F07-000149.png",
+      "sha256": "b3c171170307062c9e16a8b348b50683f68e9115783866f155d0e28314b58c57",
+      "native_bgr_pixels_sha256": "63c5e39671cada7a5365ace31aad1005cf8e33285d4ad2c90897d808239049a4",
+      "frame_annotation": {
+        "time_seconds": 5.964772,
+        "frame_index": 149,
+        "image_width": 1920,
+        "image_height": 1080,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F07/000149.jpg",
+        "image_sha256": "8a364afc00fa983437b375f1097ce3c42e1a67f68960cb865a4be054c6c21aa6",
+        "review_status": "reviewed",
+        "class_assessment": {
+          "fire": "absent_visible",
+          "smoke": "absent_visible"
+        },
+        "objects": [],
+        "localization_status": "reviewed_empty",
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F07/annotated-000149.jpg"
+      }
+    },
+    {
+      "id": "F08-000000",
+      "clip_id": "F08",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/factory/7_tr17.mp4",
+      "source_sha256": "888f4c70c79ab271da5f797b49c08e74e768edd289f791217130745aa59f55b4",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/F08.json",
+      "annotation_sha256": "fd9918b28ff275e32ed3f4fd47589b03e864332c0ae364906b5d45cc68dc191e",
+      "frame_index": 0,
+      "time_seconds": 0.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/F08-000000.png",
+      "sha256": "fbdb9d2fe286e9db9e032781e0f28b3187a956bf315451a9e017704d7801fde2",
+      "native_bgr_pixels_sha256": "1eb868b18f71f59d9ca2ca5469a52372811dec25238a50e0182418a6a7e78218",
+      "frame_annotation": {
+        "time_seconds": 0.0,
+        "frame_index": 0,
+        "image_width": 1920,
+        "image_height": 1080,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F08/000000.jpg",
+        "image_sha256": "8db9deb974b34e18dbdb4963bf0ae763993e8ceb7f392d7d6722abcaa65d0c14",
+        "review_status": "reviewed",
+        "class_assessment": {
+          "fire": "absent_visible",
+          "smoke": "absent_visible"
+        },
+        "objects": [],
+        "localization_status": "reviewed_empty",
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F08/annotated-000000.jpg"
+      }
+    },
+    {
+      "id": "F08-000176",
+      "clip_id": "F08",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/factory/7_tr17.mp4",
+      "source_sha256": "888f4c70c79ab271da5f797b49c08e74e768edd289f791217130745aa59f55b4",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/F08.json",
+      "annotation_sha256": "fd9918b28ff275e32ed3f4fd47589b03e864332c0ae364906b5d45cc68dc191e",
+      "frame_index": 176,
+      "time_seconds": 7.004453125,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/F08-000176.png",
+      "sha256": "77249a9c28b50ae6e08123615630c3627fc003579d9ab7b507f5272f4b7f70a0",
+      "native_bgr_pixels_sha256": "998447545abb6b2126b9832eea3efcafea899b9b50465fc65bc4c5c50a0eee86",
+      "frame_annotation": {
+        "time_seconds": 7.004453,
+        "frame_index": 176,
+        "image_width": 1920,
+        "image_height": 1080,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F08/000176.jpg",
+        "image_sha256": "7ce9ecbfa6252044bb0bad88dc46f7002e8513f53c1cd6593e9aa874a47d72b4",
+        "review_status": "reviewed",
+        "class_assessment": {
+          "fire": "absent_visible",
+          "smoke": "absent_visible"
+        },
+        "objects": [],
+        "localization_status": "reviewed_empty",
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F08/annotated-000176.jpg"
+      }
+    },
+    {
+      "id": "F08-000303",
+      "clip_id": "F08",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/factory/7_tr17.mp4",
+      "source_sha256": "888f4c70c79ab271da5f797b49c08e74e768edd289f791217130745aa59f55b4",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/F08.json",
+      "annotation_sha256": "fd9918b28ff275e32ed3f4fd47589b03e864332c0ae364906b5d45cc68dc191e",
+      "frame_index": 303,
+      "time_seconds": 12.084453125,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/F08-000303.png",
+      "sha256": "42ede0e94ecd24b4606f5a8c052b75ed7e133e41d9d6ca1b308032e5e4db2bb1",
+      "native_bgr_pixels_sha256": "4ca03e668b02bef6f31c328239706706fe0a6f1e7e424bb2b94d775e2569d5b7",
+      "frame_annotation": {
+        "time_seconds": 12.084453,
+        "frame_index": 303,
+        "image_width": 1920,
+        "image_height": 1080,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F08/000303.jpg",
+        "image_sha256": "66d90b04630a1454e52c3c6cb8954703a08271b250fabf9f7b0bae0d12fa6358",
+        "review_status": "reviewed",
+        "class_assessment": {
+          "fire": "absent_visible",
+          "smoke": "absent_visible"
+        },
+        "objects": [],
+        "localization_status": "reviewed_empty",
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F08/annotated-000303.jpg"
+      }
+    },
+    {
+      "id": "C01-000000",
+      "clip_id": "C01",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/review-clips/C01.mp4",
+      "source_sha256": "b389114091187fc390f4590ae2902b5412c0ad4441fdef8029d963965f5adfdb",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/C01.json",
+      "annotation_sha256": "a2049c413f4f9baf31fa6517e6feb438a4b1edcb461db08515a7d98aa62db27d",
+      "frame_index": 0,
+      "time_seconds": 0.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/C01-000000.png",
+      "sha256": "3db10b92f09c62e23f8a9f4ec5a819d779519c028f15d8bf0eec395cfdf9b078",
+      "native_bgr_pixels_sha256": "5ff798a490730b2453c1b1081ff32ed9f417abd1d0d629e9d8084e73745e4315",
+      "frame_annotation": {
+        "time_seconds": 0.0,
+        "frame_index": 0,
+        "image_width": 1280,
+        "image_height": 720,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C01/000000.jpg",
+        "image_sha256": "e5f40bb62be8329ce166601f51824e06b67889d8ffa6f35bad4d0fb71556c438",
+        "review_status": "reviewed",
+        "class_assessment": {
+          "fire": "absent_visible",
+          "smoke": "absent_visible"
+        },
+        "objects": [],
+        "localization_status": "reviewed_empty",
+        "nominal_parent_time_seconds": 300.0,
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C01/annotated-000000.jpg"
+      }
+    },
+    {
+      "id": "C01-000401",
+      "clip_id": "C01",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/review-clips/C01.mp4",
+      "source_sha256": "b389114091187fc390f4590ae2902b5412c0ad4441fdef8029d963965f5adfdb",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/C01.json",
+      "annotation_sha256": "a2049c413f4f9baf31fa6517e6feb438a4b1edcb461db08515a7d98aa62db27d",
+      "frame_index": 401,
+      "time_seconds": 16.018,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/C01-000401.png",
+      "sha256": "c370e5be95cab1db084eb5eb4be7b7972eaff675b3d3e8b6a6ce68a01704fc23",
+      "native_bgr_pixels_sha256": "60daca6e9bfdb3e5d3192ed6347848165be158300344353728396cb32edbb049",
+      "frame_annotation": {
+        "time_seconds": 16.018,
+        "frame_index": 401,
+        "image_width": 1280,
+        "image_height": 720,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C01/000401.jpg",
+        "image_sha256": "1e8d51b0f9fe01aedd01cca06479520c71785e29f400c7da7b7f75e5d3e64000",
+        "review_status": "reviewed",
+        "class_assessment": {
+          "fire": "absent_visible",
+          "smoke": "absent_visible"
+        },
+        "objects": [],
+        "localization_status": "reviewed_empty",
+        "nominal_parent_time_seconds": 316.018,
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C01/annotated-000401.jpg"
+      }
+    },
+    {
+      "id": "C01-000750",
+      "clip_id": "C01",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/review-clips/C01.mp4",
+      "source_sha256": "b389114091187fc390f4590ae2902b5412c0ad4441fdef8029d963965f5adfdb",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/C01.json",
+      "annotation_sha256": "a2049c413f4f9baf31fa6517e6feb438a4b1edcb461db08515a7d98aa62db27d",
+      "frame_index": 750,
+      "time_seconds": 29.973000000000003,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/C01-000750.png",
+      "sha256": "af280c1b945ed94f45918d0f728e0dca915bfc6011503f06d2eb4812e991e862",
+      "native_bgr_pixels_sha256": "f41f9f5bff03c78f0268a9bac5574fcca4ccfb41e796965a63715551e728fbb4",
+      "frame_annotation": {
+        "time_seconds": 29.973,
+        "frame_index": 750,
+        "image_width": 1280,
+        "image_height": 720,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C01/000750.jpg",
+        "image_sha256": "f06339515360293323a3499c9f1df0fde4c74399beea1c1ff320380aeb8853bc",
+        "review_status": "reviewed",
+        "class_assessment": {
+          "fire": "absent_visible",
+          "smoke": "absent_visible"
+        },
+        "objects": [],
+        "localization_status": "reviewed_empty",
+        "nominal_parent_time_seconds": 329.973,
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C01/annotated-000750.jpg"
+      }
+    },
+    {
+      "id": "C02-000000",
+      "clip_id": "C02",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/review-clips/C02.mp4",
+      "source_sha256": "94bb8bb066a2a55db748c775751891c9d30307553da4faa7c5bfef0abd9bb966",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/C02.json",
+      "annotation_sha256": "873ea8ffbd11984ee3d60f91d20db571b112c3d52db5c13c40ad9aa7ae3a0168",
+      "frame_index": 0,
+      "time_seconds": 0.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/C02-000000.png",
+      "sha256": "3bdfcae5138ef4236735b0859bda05c03ed8fcf05cdf7e005f32b8992db0779a",
+      "native_bgr_pixels_sha256": "db8850d6463356609ec96dbf4246381a8fc1399824b5acb5bdea6ccf08e302fb",
+      "frame_annotation": {
+        "time_seconds": 0.0,
+        "frame_index": 0,
+        "image_width": 1280,
+        "image_height": 720,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C02/000000.jpg",
+        "image_sha256": "4cf7d131b00dbdbcd076df988863ec9db008bff9b6513b0ae2a8f8903a6c7daa",
+        "review_status": "reviewed",
+        "class_assessment": {
+          "fire": "absent_visible",
+          "smoke": "absent_visible"
+        },
+        "objects": [],
+        "localization_status": "reviewed_empty",
+        "nominal_parent_time_seconds": 0.0,
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C02/annotated-000000.jpg"
+      }
+    },
+    {
+      "id": "C02-000401",
+      "clip_id": "C02",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/review-clips/C02.mp4",
+      "source_sha256": "94bb8bb066a2a55db748c775751891c9d30307553da4faa7c5bfef0abd9bb966",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/C02.json",
+      "annotation_sha256": "873ea8ffbd11984ee3d60f91d20db571b112c3d52db5c13c40ad9aa7ae3a0168",
+      "frame_index": 401,
+      "time_seconds": 16.035,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/C02-000401.png",
+      "sha256": "ecb6a02745bed1e920a096b48463c213aed790aff262bf8e1882cd0cc53fdcf5",
+      "native_bgr_pixels_sha256": "6db706a13aa0840d971e7432128f03da5716f7edfd4ba9a2c41f093a5ba779f1",
+      "frame_annotation": {
+        "time_seconds": 16.035,
+        "frame_index": 401,
+        "image_width": 1280,
+        "image_height": 720,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C02/000401.jpg",
+        "image_sha256": "2cd75a15413d274697f083d827a05211743578e38d9620edd79bd2894937440b",
+        "review_status": "reviewed",
+        "class_assessment": {
+          "fire": "absent_visible",
+          "smoke": "absent_visible"
+        },
+        "objects": [],
+        "localization_status": "reviewed_empty",
+        "nominal_parent_time_seconds": 16.035,
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C02/annotated-000401.jpg"
+      }
+    },
+    {
+      "id": "C02-000750",
+      "clip_id": "C02",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/review-clips/C02.mp4",
+      "source_sha256": "94bb8bb066a2a55db748c775751891c9d30307553da4faa7c5bfef0abd9bb966",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/C02.json",
+      "annotation_sha256": "873ea8ffbd11984ee3d60f91d20db571b112c3d52db5c13c40ad9aa7ae3a0168",
+      "frame_index": 750,
+      "time_seconds": 29.990000000000002,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/C02-000750.png",
+      "sha256": "0b2f12154f6186fd89cffeca22dbc793476e602d36ab09ecc9e0bcaf974700be",
+      "native_bgr_pixels_sha256": "8d6f5476437a398634d0ffe9ba7316f938a7fd329bca80fe8db3ec956b215304",
+      "frame_annotation": {
+        "time_seconds": 29.99,
+        "frame_index": 750,
+        "image_width": 1280,
+        "image_height": 720,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C02/000750.jpg",
+        "image_sha256": "56836cbfebd4f5f0a84c716481ad620c3d95fe98328140526684d72305afe240",
+        "review_status": "reviewed",
+        "class_assessment": {
+          "fire": "absent_visible",
+          "smoke": "absent_visible"
+        },
+        "objects": [],
+        "localization_status": "reviewed_empty",
+        "nominal_parent_time_seconds": 29.99,
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C02/annotated-000750.jpg"
+      }
+    },
+    {
+      "id": "C03-000000",
+      "clip_id": "C03",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/review-clips/C03.mp4",
+      "source_sha256": "55657e2580dc43dc735ecde05366dbe9af38c715af3a04d367a844e6c247e252",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/C03.json",
+      "annotation_sha256": "7e224c53c6289f87c217d38c23c938a3d5db82795f67a20b74d90c1561fabd78",
+      "frame_index": 0,
+      "time_seconds": 0.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/C03-000000.png",
+      "sha256": "d76a8c6f52e39284c9c8efb9ccae8b4350fcb08f223c499439f1c4ab54f67c93",
+      "native_bgr_pixels_sha256": "f1b365a753802902ff64211135ba9250c01ab8fdf7da4cd560fedf6814beae78",
+      "frame_annotation": {
+        "time_seconds": 0.0,
+        "frame_index": 0,
+        "image_width": 1280,
+        "image_height": 720,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C03/000000.jpg",
+        "image_sha256": "a975b276a11cce7d4f2c46cb4742fa6e3bf915596e236bbc2f6c54cf73d68fa6",
+        "review_status": "ambiguous",
+        "class_assessment": {
+          "fire": "present",
+          "smoke": "uncertain"
+        },
+        "objects": [
+          {
+            "class": "fire",
+            "bbox_xyxy": [
+              779,
+              162,
+              799,
+              178
+            ],
+            "review_status": "reviewed",
+            "boundary_quality": "visible_flame_envelope",
+            "annotation_method": "manual_visual_review"
+          }
+        ],
+        "localization_status": "sparse_manual_boxes",
+        "nominal_parent_time_seconds": 300.0,
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C03/annotated-000000.jpg"
+      }
+    },
+    {
+      "id": "C03-000751",
+      "clip_id": "C03",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/review-clips/C03.mp4",
+      "source_sha256": "55657e2580dc43dc735ecde05366dbe9af38c715af3a04d367a844e6c247e252",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/C03.json",
+      "annotation_sha256": "7e224c53c6289f87c217d38c23c938a3d5db82795f67a20b74d90c1561fabd78",
+      "frame_index": 751,
+      "time_seconds": 30.013,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/C03-000751.png",
+      "sha256": "baf5270276ac07ab5f40b92588dee4dc6c549b6e375301294f6e62640a0964d2",
+      "native_bgr_pixels_sha256": "69e37bd3c102c09e2cd18a11f3ab43df78a753cae8737b17cd791cc75069f634",
+      "frame_annotation": {
+        "time_seconds": 30.013,
+        "frame_index": 751,
+        "image_width": 1280,
+        "image_height": 720,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C03/000751.jpg",
+        "image_sha256": "068a1abe5324b474c47e8d7fb4862a8c086479be30bc8cd124e6cd3d7bd1216c",
+        "review_status": "ambiguous",
+        "class_assessment": {
+          "fire": "present",
+          "smoke": "uncertain"
+        },
+        "objects": [
+          {
+            "class": "fire",
+            "bbox_xyxy": [
+              780,
+              154,
+              803,
+              180
+            ],
+            "review_status": "reviewed",
+            "boundary_quality": "visible_flame_envelope",
+            "annotation_method": "manual_visual_review"
+          }
+        ],
+        "localization_status": "sparse_manual_boxes",
+        "nominal_parent_time_seconds": 330.013,
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C03/annotated-000751.jpg"
+      }
+    },
+    {
+      "id": "C03-001500",
+      "clip_id": "C03",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/review-clips/C03.mp4",
+      "source_sha256": "55657e2580dc43dc735ecde05366dbe9af38c715af3a04d367a844e6c247e252",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/C03.json",
+      "annotation_sha256": "7e224c53c6289f87c217d38c23c938a3d5db82795f67a20b74d90c1561fabd78",
+      "frame_index": 1500,
+      "time_seconds": 59.964000000000006,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/C03-001500.png",
+      "sha256": "3e7b64b1bd95702952dfa599ca3ffd4402da16bd711e4fe596b99e3482d527c7",
+      "native_bgr_pixels_sha256": "eca02fe9290f7e83acbfedacc525f22a84b6d2e3c0d4387a718e15680ab49a13",
+      "frame_annotation": {
+        "time_seconds": 59.964,
+        "frame_index": 1500,
+        "image_width": 1280,
+        "image_height": 720,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C03/001500.jpg",
+        "image_sha256": "c1757ad374f41b43b806c86ec9d38de4ff2ab3c64622cd99db8106fc8173587f",
+        "review_status": "ambiguous",
+        "class_assessment": {
+          "fire": "present",
+          "smoke": "uncertain"
+        },
+        "objects": [
+          {
+            "class": "fire",
+            "bbox_xyxy": [
+              775,
+              140,
+              803,
+              181
+            ],
+            "review_status": "reviewed",
+            "boundary_quality": "visible_flame_envelope",
+            "annotation_method": "manual_visual_review"
+          }
+        ],
+        "localization_status": "sparse_manual_boxes",
+        "nominal_parent_time_seconds": 359.964,
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C03/annotated-001500.jpg"
+      }
+    },
+    {
+      "id": "C04-000000",
+      "clip_id": "C04",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/review-clips/C04.mp4",
+      "source_sha256": "d2024bcffe8ca8d353f9bbd815a3f14ad779ffe910649c91a19127dc5ad88ee7",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/C04.json",
+      "annotation_sha256": "dd3bee65d718c8f0bc59f5be25a1f8d807c183f18b79035fd2f528b114baf9dd",
+      "frame_index": 0,
+      "time_seconds": 0.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/C04-000000.png",
+      "sha256": "0179595f6c627802c58460c70a3d43ba104f9adc872d398782f0256d34d7ae47",
+      "native_bgr_pixels_sha256": "3eaafddf4b5b4fe131fa7016bd18c91f8d33192140876360685b33414f45dbe3",
+      "frame_annotation": {
+        "time_seconds": 0.0,
+        "frame_index": 0,
+        "image_width": 1280,
+        "image_height": 720,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C04/000000.jpg",
+        "image_sha256": "f712f00fb9ffbb450d2b20795a820834b30a17c42abcfb2426ca3445f98be2bb",
+        "review_status": "reviewed",
+        "class_assessment": {
+          "fire": "absent_visible",
+          "smoke": "present"
+        },
+        "objects": [
+          {
+            "class": "smoke",
+            "bbox_xyxy": [
+              730,
+              0,
+              850,
+              190
+            ],
+            "review_status": "reviewed",
+            "boundary_quality": "coarse_diffuse",
+            "annotation_method": "manual_visual_review"
+          }
+        ],
+        "localization_status": "sparse_manual_boxes",
+        "nominal_parent_time_seconds": 520.0,
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C04/annotated-000000.jpg"
+      }
+    },
+    {
+      "id": "C04-000751",
+      "clip_id": "C04",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/review-clips/C04.mp4",
+      "source_sha256": "d2024bcffe8ca8d353f9bbd815a3f14ad779ffe910649c91a19127dc5ad88ee7",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/C04.json",
+      "annotation_sha256": "dd3bee65d718c8f0bc59f5be25a1f8d807c183f18b79035fd2f528b114baf9dd",
+      "frame_index": 751,
+      "time_seconds": 30.022000000000002,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/C04-000751.png",
+      "sha256": "dec22a036fca0916d286a006ccf5d9d75165884658891af901fe704946c43c09",
+      "native_bgr_pixels_sha256": "02edb888f29a6704db7dba403564832506187a74f230611aafc2cdd76dc12608",
+      "frame_annotation": {
+        "time_seconds": 30.022,
+        "frame_index": 751,
+        "image_width": 1280,
+        "image_height": 720,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C04/000751.jpg",
+        "image_sha256": "d6b2568d87830275c038d32559ba49ebb96a068ac6e7673581b172ac30bffe09",
+        "review_status": "reviewed",
+        "class_assessment": {
+          "fire": "absent_visible",
+          "smoke": "present"
+        },
+        "objects": [
+          {
+            "class": "smoke",
+            "bbox_xyxy": [
+              520,
+              0,
+              850,
+              260
+            ],
+            "review_status": "reviewed",
+            "boundary_quality": "coarse_diffuse",
+            "annotation_method": "manual_visual_review"
+          }
+        ],
+        "localization_status": "sparse_manual_boxes",
+        "nominal_parent_time_seconds": 550.022,
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C04/annotated-000751.jpg"
+      }
+    },
+    {
+      "id": "C04-001500",
+      "clip_id": "C04",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/review-clips/C04.mp4",
+      "source_sha256": "d2024bcffe8ca8d353f9bbd815a3f14ad779ffe910649c91a19127dc5ad88ee7",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/C04.json",
+      "annotation_sha256": "dd3bee65d718c8f0bc59f5be25a1f8d807c183f18b79035fd2f528b114baf9dd",
+      "frame_index": 1500,
+      "time_seconds": 59.973000000000006,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/C04-001500.png",
+      "sha256": "8e8f001e520ec70b93dfc5ca5f926ed4493402088f37073e8e5273f6f2ddc5f0",
+      "native_bgr_pixels_sha256": "7b16a9fff6ac020a42d2f308074177b04e721068bb20c87ee73d02af291a80aa",
+      "frame_annotation": {
+        "time_seconds": 59.973,
+        "frame_index": 1500,
+        "image_width": 1280,
+        "image_height": 720,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C04/001500.jpg",
+        "image_sha256": "22e426808e084b03de3ab801f39118bcc2ba497baa94c13ec3dda804891b896d",
+        "review_status": "reviewed",
+        "class_assessment": {
+          "fire": "absent_visible",
+          "smoke": "present"
+        },
+        "objects": [
+          {
+            "class": "smoke",
+            "bbox_xyxy": [
+              410,
+              0,
+              870,
+              330
+            ],
+            "review_status": "reviewed",
+            "boundary_quality": "coarse_diffuse",
+            "annotation_method": "manual_visual_review"
+          }
+        ],
+        "localization_status": "sparse_manual_boxes",
+        "nominal_parent_time_seconds": 579.973,
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C04/annotated-001500.jpg"
+      }
+    },
+    {
+      "id": "C05-000000",
+      "clip_id": "C05",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/review-clips/C05.mp4",
+      "source_sha256": "2762b141bcea09d41be449504c2858e5c276b11e9aaa84f9136cbc0e075faf44",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/C05.json",
+      "annotation_sha256": "d24592d68093e0b4dbff8305d4c3122eb7a944e53c8feda7ae0452a0f3337ea2",
+      "frame_index": 0,
+      "time_seconds": 0.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/C05-000000.png",
+      "sha256": "def72e1cf2d8ad4911c84d645dd5a74b95278f79b7edc42a9adda244516457c2",
+      "native_bgr_pixels_sha256": "ec3a4af550a2a2814aeadc0f097c80b0c4b5d562166ddb0ab986ca35c2cb7061",
+      "frame_annotation": {
+        "time_seconds": 0.0,
+        "frame_index": 0,
+        "image_width": 1280,
+        "image_height": 720,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C05/000000.jpg",
+        "image_sha256": "5aee97be8a30e820962949837a1c1c762233798ed53d96b70912966878561a12",
+        "review_status": "ambiguous",
+        "class_assessment": {
+          "fire": "uncertain",
+          "smoke": "present"
+        },
+        "objects": [],
+        "localization_status": "not_localizable_diffuse_haze",
+        "nominal_parent_time_seconds": 740.0,
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C05/annotated-000000.jpg"
+      }
+    },
+    {
+      "id": "C05-000602",
+      "clip_id": "C05",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/review-clips/C05.mp4",
+      "source_sha256": "2762b141bcea09d41be449504c2858e5c276b11e9aaa84f9136cbc0e075faf44",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/C05.json",
+      "annotation_sha256": "d24592d68093e0b4dbff8305d4c3122eb7a944e53c8feda7ae0452a0f3337ea2",
+      "frame_index": 602,
+      "time_seconds": 24.033,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/C05-000602.png",
+      "sha256": "ad0ed96d9c146194a7d219465f8ad816f0115b29aa5da79462d038dfe59941de",
+      "native_bgr_pixels_sha256": "deb79c7bcf271af9fb83a5944050ff1ae4798a0214fedd11689130798afecddb",
+      "frame_annotation": {
+        "time_seconds": 24.033,
+        "frame_index": 602,
+        "image_width": 1280,
+        "image_height": 720,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C05/000602.jpg",
+        "image_sha256": "a980de08c4c3ab52ea084442a35f03a7b449da69b6c04bec6e28181c49d2f087",
+        "review_status": "ambiguous",
+        "class_assessment": {
+          "fire": "uncertain",
+          "smoke": "present"
+        },
+        "objects": [],
+        "localization_status": "not_localizable_diffuse_haze",
+        "nominal_parent_time_seconds": 764.033,
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C05/annotated-000602.jpg"
+      }
+    },
+    {
+      "id": "C05-001126",
+      "clip_id": "C05",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/review-clips/C05.mp4",
+      "source_sha256": "2762b141bcea09d41be449504c2858e5c276b11e9aaa84f9136cbc0e075faf44",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/C05.json",
+      "annotation_sha256": "d24592d68093e0b4dbff8305d4c3122eb7a944e53c8feda7ae0452a0f3337ea2",
+      "frame_index": 1126,
+      "time_seconds": 44.986000000000004,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/C05-001126.png",
+      "sha256": "fcec510882b6a87311d2ff7cd2a3a2f740203bffadb523afe36529dea18256b2",
+      "native_bgr_pixels_sha256": "ab2b0f24ccff24777557f7b3222b7f05de4e827abceff7fe219a27d18262df27",
+      "frame_annotation": {
+        "time_seconds": 44.986,
+        "frame_index": 1126,
+        "image_width": 1280,
+        "image_height": 720,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C05/001126.jpg",
+        "image_sha256": "89dd7d40056f35d1baccaadf6e192f768d8ed54cc26e69a05163285c8fad13e8",
+        "review_status": "ambiguous",
+        "class_assessment": {
+          "fire": "uncertain",
+          "smoke": "present"
+        },
+        "objects": [],
+        "localization_status": "not_localizable_diffuse_haze",
+        "nominal_parent_time_seconds": 784.986,
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C05/annotated-001126.jpg"
+      }
+    },
+    {
+      "id": "C06-000000",
+      "clip_id": "C06",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/review-clips/C06.mp4",
+      "source_sha256": "17755da7f6a6b082989c7aa6141e12a1c25f8b3e8ad6c54c3c6799944a6643a7",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/C06.json",
+      "annotation_sha256": "4782f61f49bb9bfd8f33c34c0275cc33f34845996f9365ee2c9c0a41908c8258",
+      "frame_index": 0,
+      "time_seconds": 0.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/C06-000000.png",
+      "sha256": "5dde26cfee8e515535798f9ce657aa440af2056a0927e87cb18123717f0902ba",
+      "native_bgr_pixels_sha256": "09513be12f3827edff910063cd475ecb82aaeef2e66564104a6c69c2b85c5266",
+      "frame_annotation": {
+        "time_seconds": 0.0,
+        "frame_index": 0,
+        "image_width": 1280,
+        "image_height": 720,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C06/000000.jpg",
+        "image_sha256": "7cc981477518ecbadbb971023e1f714f82b6c2f4e8e8f00c550b50c08b88c2b2",
+        "review_status": "ambiguous",
+        "class_assessment": {
+          "fire": "uncertain",
+          "smoke": "present"
+        },
+        "objects": [],
+        "localization_status": "not_localizable_diffuse_haze",
+        "nominal_parent_time_seconds": 930.0,
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C06/annotated-000000.jpg"
+      }
+    },
+    {
+      "id": "C06-000601",
+      "clip_id": "C06",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/review-clips/C06.mp4",
+      "source_sha256": "17755da7f6a6b082989c7aa6141e12a1c25f8b3e8ad6c54c3c6799944a6643a7",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/C06.json",
+      "annotation_sha256": "4782f61f49bb9bfd8f33c34c0275cc33f34845996f9365ee2c9c0a41908c8258",
+      "frame_index": 601,
+      "time_seconds": 24.012,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/C06-000601.png",
+      "sha256": "f92a8362e746c5ba6768ce6c5e1ac4adda003476001a7c87443f36ecad7140c2",
+      "native_bgr_pixels_sha256": "d28040930c7c735363dadb5b24caef5fe8364065527cfeaca43e79057f17fdc6",
+      "frame_annotation": {
+        "time_seconds": 24.012,
+        "frame_index": 601,
+        "image_width": 1280,
+        "image_height": 720,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C06/000601.jpg",
+        "image_sha256": "a2d6e3d2467bf380d68215f68d6e25b222718c20d3efa3579237cc7b35136a10",
+        "review_status": "ambiguous",
+        "class_assessment": {
+          "fire": "uncertain",
+          "smoke": "present"
+        },
+        "objects": [],
+        "localization_status": "not_localizable_diffuse_haze",
+        "nominal_parent_time_seconds": 954.012,
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C06/annotated-000601.jpg"
+      }
+    },
+    {
+      "id": "C06-001125",
+      "clip_id": "C06",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/review-clips/C06.mp4",
+      "source_sha256": "17755da7f6a6b082989c7aa6141e12a1c25f8b3e8ad6c54c3c6799944a6643a7",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/C06.json",
+      "annotation_sha256": "4782f61f49bb9bfd8f33c34c0275cc33f34845996f9365ee2c9c0a41908c8258",
+      "frame_index": 1125,
+      "time_seconds": 44.965,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/C06-001125.png",
+      "sha256": "87580ce0b7b74e662ac52a8863f2d2ec3bef00d83eda42958cdfc59595be95f5",
+      "native_bgr_pixels_sha256": "5508fe9839bedd7d3ac8e5fa9a2a5d8ec63db65ee27cce429b177912bd740a86",
+      "frame_annotation": {
+        "time_seconds": 44.965,
+        "frame_index": 1125,
+        "image_width": 1280,
+        "image_height": 720,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C06/001125.jpg",
+        "image_sha256": "2fcc0899e99cac52d6f4dd46d0522e56776bf1ea4466a60e31f9288d49bb977c",
+        "review_status": "ambiguous",
+        "class_assessment": {
+          "fire": "uncertain",
+          "smoke": "present"
+        },
+        "objects": [],
+        "localization_status": "not_localizable_diffuse_haze",
+        "nominal_parent_time_seconds": 974.965,
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C06/annotated-001125.jpg"
+      }
+    },
+    {
+      "id": "C07-000000",
+      "clip_id": "C07",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/review-clips/C07.mp4",
+      "source_sha256": "b16743df809622879d229688dbd3b93dd5fcb86fdda9bd3c826d891a72aaef35",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/C07.json",
+      "annotation_sha256": "a478c2fc30c489e155d88abec1eaaeab7ad739aff9a2a909d287768553575be0",
+      "frame_index": 0,
+      "time_seconds": 0.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/C07-000000.png",
+      "sha256": "436201189ae5966efb08e282fbff69c0d8f8b3ac7ffe9e8b3bacce33bb06dff9",
+      "native_bgr_pixels_sha256": "649955e3feeea28985ddd01c8ed5ef5fd5a55aaa0b298c474d6d638efb792e2d",
+      "frame_annotation": {
+        "time_seconds": 0.0,
+        "frame_index": 0,
+        "image_width": 1280,
+        "image_height": 720,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C07/000000.jpg",
+        "image_sha256": "0e17b08b272ca7411dd1c96d49dba9ba358994f7ac57e1bae9b3becde3dc541d",
+        "review_status": "ambiguous",
+        "class_assessment": {
+          "fire": "present",
+          "smoke": "uncertain"
+        },
+        "objects": [
+          {
+            "class": "fire",
+            "bbox_xyxy": [
+              798,
+              120,
+              808,
+              131
+            ],
+            "review_status": "reviewed",
+            "boundary_quality": "visible_flame_envelope",
+            "annotation_method": "manual_visual_review"
+          }
+        ],
+        "localization_status": "sparse_manual_boxes",
+        "nominal_parent_time_seconds": 530.0,
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C07/annotated-000000.jpg"
+      }
+    },
+    {
+      "id": "C07-000751",
+      "clip_id": "C07",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/review-clips/C07.mp4",
+      "source_sha256": "b16743df809622879d229688dbd3b93dd5fcb86fdda9bd3c826d891a72aaef35",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/C07.json",
+      "annotation_sha256": "a478c2fc30c489e155d88abec1eaaeab7ad739aff9a2a909d287768553575be0",
+      "frame_index": 751,
+      "time_seconds": 30.019000000000002,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/C07-000751.png",
+      "sha256": "a71afbe9cdd32ecf90b81b135e4d581307fd92b264698f63237c9f0d480ee641",
+      "native_bgr_pixels_sha256": "e655ba2380295b56183bcf6a64efdeb3c9554d73bf8dd86ad24bd4dc72816f56",
+      "frame_annotation": {
+        "time_seconds": 30.019,
+        "frame_index": 751,
+        "image_width": 1280,
+        "image_height": 720,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C07/000751.jpg",
+        "image_sha256": "300c5ba4115fd99a39c7938c6833a8be92caef2a35ef337384249669c09e663e",
+        "review_status": "ambiguous",
+        "class_assessment": {
+          "fire": "present",
+          "smoke": "uncertain"
+        },
+        "objects": [
+          {
+            "class": "fire",
+            "bbox_xyxy": [
+              780,
+              102,
+              812,
+              135
+            ],
+            "review_status": "reviewed",
+            "boundary_quality": "visible_flame_envelope",
+            "annotation_method": "manual_visual_review"
+          }
+        ],
+        "localization_status": "sparse_manual_boxes",
+        "nominal_parent_time_seconds": 560.019,
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C07/annotated-000751.jpg"
+      }
+    },
+    {
+      "id": "C07-001500",
+      "clip_id": "C07",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/review-clips/C07.mp4",
+      "source_sha256": "b16743df809622879d229688dbd3b93dd5fcb86fdda9bd3c826d891a72aaef35",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/C07.json",
+      "annotation_sha256": "a478c2fc30c489e155d88abec1eaaeab7ad739aff9a2a909d287768553575be0",
+      "frame_index": 1500,
+      "time_seconds": 59.969,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/C07-001500.png",
+      "sha256": "5678b7ac9ab6f2e6df2f347deb7503aaea662e969ed07e7a434f1383ec5e3757",
+      "native_bgr_pixels_sha256": "2604ac5338ed5caf84bf12cfcc8a798318950cfacf6952d03b9da6c1c8a5d2dd",
+      "frame_annotation": {
+        "time_seconds": 59.969,
+        "frame_index": 1500,
+        "image_width": 1280,
+        "image_height": 720,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C07/001500.jpg",
+        "image_sha256": "3a1add11b551d053331d1fcb4b921883949b4fcc5b98b005588096d98d775727",
+        "review_status": "ambiguous",
+        "class_assessment": {
+          "fire": "present",
+          "smoke": "uncertain"
+        },
+        "objects": [
+          {
+            "class": "fire",
+            "bbox_xyxy": [
+              775,
+              70,
+              815,
+              137
+            ],
+            "review_status": "reviewed",
+            "boundary_quality": "visible_flame_envelope",
+            "annotation_method": "manual_visual_review"
+          }
+        ],
+        "localization_status": "sparse_manual_boxes",
+        "nominal_parent_time_seconds": 589.969,
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C07/annotated-001500.jpg"
+      }
+    },
+    {
+      "id": "C08-000000",
+      "clip_id": "C08",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/review-clips/C08.mp4",
+      "source_sha256": "bab53487294f6a712e0953d657c49633351183aa4a392912422f72e021011847",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/C08.json",
+      "annotation_sha256": "1ddc4a20d78775bb8ab66e869a82765a7ca82490448015024d6e369090f720ef",
+      "frame_index": 0,
+      "time_seconds": 0.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/C08-000000.png",
+      "sha256": "3a7c50dab10633273aadf239c76fee4e6efc4e3f221ab0b50a1896e1076a6412",
+      "native_bgr_pixels_sha256": "3c0beccc7f4766863358883224bffb78165c9d62665abab41c80139dd5dc0df2",
+      "frame_annotation": {
+        "time_seconds": 0.0,
+        "frame_index": 0,
+        "image_width": 1280,
+        "image_height": 720,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C08/000000.jpg",
+        "image_sha256": "10d247adf2bb5d7562af51bbfb80fd878fa984c90304a0c0eb42b24932b26bdb",
+        "review_status": "ambiguous",
+        "class_assessment": {
+          "fire": "present",
+          "smoke": "uncertain"
+        },
+        "objects": [
+          {
+            "class": "fire",
+            "bbox_xyxy": [
+              750,
+              74,
+              822,
+              139
+            ],
+            "review_status": "reviewed",
+            "boundary_quality": "visible_flame_envelope",
+            "annotation_method": "manual_visual_review"
+          }
+        ],
+        "localization_status": "sparse_manual_boxes",
+        "nominal_parent_time_seconds": 620.0,
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C08/annotated-000000.jpg"
+      }
+    },
+    {
+      "id": "C08-000601",
+      "clip_id": "C08",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/review-clips/C08.mp4",
+      "source_sha256": "bab53487294f6a712e0953d657c49633351183aa4a392912422f72e021011847",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/C08.json",
+      "annotation_sha256": "1ddc4a20d78775bb8ab66e869a82765a7ca82490448015024d6e369090f720ef",
+      "frame_index": 601,
+      "time_seconds": 24.032,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/C08-000601.png",
+      "sha256": "57fe50db78b0f1b6f1bca0400096b65aaf532b942db9bb6f4c396c0cd7ac0111",
+      "native_bgr_pixels_sha256": "0eac2d33471ed11cb77329c564f8163714b1222a51b4ccedc5f31e4303ca3195",
+      "frame_annotation": {
+        "time_seconds": 24.032,
+        "frame_index": 601,
+        "image_width": 1280,
+        "image_height": 720,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C08/000601.jpg",
+        "image_sha256": "6ebeeca7f713000324bb03d47941a39c56199f2f97913cf9fd69718ed526e562",
+        "review_status": "ambiguous",
+        "class_assessment": {
+          "fire": "present",
+          "smoke": "uncertain"
+        },
+        "objects": [
+          {
+            "class": "fire",
+            "bbox_xyxy": [
+              749,
+              43,
+              823,
+              144
+            ],
+            "review_status": "reviewed",
+            "boundary_quality": "visible_flame_envelope",
+            "annotation_method": "manual_visual_review"
+          }
+        ],
+        "localization_status": "sparse_manual_boxes",
+        "nominal_parent_time_seconds": 644.032,
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C08/annotated-000601.jpg"
+      }
+    },
+    {
+      "id": "C08-001125",
+      "clip_id": "C08",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/review-clips/C08.mp4",
+      "source_sha256": "bab53487294f6a712e0953d657c49633351183aa4a392912422f72e021011847",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/C08.json",
+      "annotation_sha256": "1ddc4a20d78775bb8ab66e869a82765a7ca82490448015024d6e369090f720ef",
+      "frame_index": 1125,
+      "time_seconds": 44.985,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/C08-001125.png",
+      "sha256": "3c7f12d88965550e9c07b9975dcb923b01721f7a7aa22ec8ba6c6bfb711cb0c3",
+      "native_bgr_pixels_sha256": "91786f1270281ad6616ca61372640b8d93280f41b9d1239d028b2c561dd99ba0",
+      "frame_annotation": {
+        "time_seconds": 44.985,
+        "frame_index": 1125,
+        "image_width": 1280,
+        "image_height": 720,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C08/001125.jpg",
+        "image_sha256": "524c037eac5f6adaea1f506eb221a801c5be72a8cfaba2acc68a8113cd5e3a0a",
+        "review_status": "ambiguous",
+        "class_assessment": {
+          "fire": "present",
+          "smoke": "present"
+        },
+        "objects": [
+          {
+            "class": "fire",
+            "bbox_xyxy": [
+              737,
+              34,
+              825,
+              146
+            ],
+            "review_status": "reviewed",
+            "boundary_quality": "visible_flame_envelope",
+            "annotation_method": "manual_visual_review"
+          },
+          {
+            "class": "smoke",
+            "bbox_xyxy": [
+              395,
+              0,
+              965,
+              360
+            ],
+            "review_status": "ambiguous",
+            "boundary_quality": "coarse_diffuse",
+            "annotation_method": "manual_visual_review"
+          }
+        ],
+        "localization_status": "sparse_manual_boxes",
+        "nominal_parent_time_seconds": 664.985,
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C08/annotated-001125.jpg"
+      }
+    },
+    {
+      "id": "C09-000000",
+      "clip_id": "C09",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/review-clips/C09.mp4",
+      "source_sha256": "db8e4b06c0c663b1de6d92664b7cb723b88cd078655c971d0a5cb399d8f72e59",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/C09.json",
+      "annotation_sha256": "47f77fa805899551edb1260ecb302079e85b81ff09a08e8b113062be3fde11a1",
+      "frame_index": 0,
+      "time_seconds": 0.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/C09-000000.png",
+      "sha256": "cabfa2d1d929d53dbcb05e4fe2054e8aa2d3ac49866673574e47c051d6f6f019",
+      "native_bgr_pixels_sha256": "831f63b6f2b17fe2e2a26db8a0ae9d7af46678488214b5e4943a7a771782031e",
+      "frame_annotation": {
+        "time_seconds": 0.0,
+        "frame_index": 0,
+        "image_width": 1280,
+        "image_height": 720,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C09/000000.jpg",
+        "image_sha256": "cc1a817b2b7c616d36d803bf61621d336a076553d605bc67b5db767acba2a0bf",
+        "review_status": "ambiguous",
+        "class_assessment": {
+          "fire": "present",
+          "smoke": "present"
+        },
+        "objects": [
+          {
+            "class": "fire",
+            "bbox_xyxy": [
+              708,
+              0,
+              840,
+              160
+            ],
+            "review_status": "ambiguous",
+            "boundary_quality": "uncertain_through_haze",
+            "annotation_method": "manual_visual_review"
+          }
+        ],
+        "localization_status": "not_localizable_diffuse_haze",
+        "nominal_parent_time_seconds": 720.0,
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C09/annotated-000000.jpg"
+      }
+    },
+    {
+      "id": "C09-000601",
+      "clip_id": "C09",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/review-clips/C09.mp4",
+      "source_sha256": "db8e4b06c0c663b1de6d92664b7cb723b88cd078655c971d0a5cb399d8f72e59",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/C09.json",
+      "annotation_sha256": "47f77fa805899551edb1260ecb302079e85b81ff09a08e8b113062be3fde11a1",
+      "frame_index": 601,
+      "time_seconds": 24.001,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/C09-000601.png",
+      "sha256": "7dc3393f5cbbc4177901f6075874aa74670974d08c0ab6a5e3d7317aa20eccb2",
+      "native_bgr_pixels_sha256": "2ff30a656751f6b3f55c7f02f0d8ea838b7235884571b2227212a9ca91cd6c6b",
+      "frame_annotation": {
+        "time_seconds": 24.001,
+        "frame_index": 601,
+        "image_width": 1280,
+        "image_height": 720,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C09/000601.jpg",
+        "image_sha256": "2349f6f1be08710770f094eeadaf7b76263a7a7a06308e628d5f619683b1aabf",
+        "review_status": "ambiguous",
+        "class_assessment": {
+          "fire": "present",
+          "smoke": "present"
+        },
+        "objects": [
+          {
+            "class": "fire",
+            "bbox_xyxy": [
+              703,
+              35,
+              842,
+              164
+            ],
+            "review_status": "ambiguous",
+            "boundary_quality": "uncertain_through_haze",
+            "annotation_method": "manual_visual_review"
+          }
+        ],
+        "localization_status": "not_localizable_diffuse_haze",
+        "nominal_parent_time_seconds": 744.001,
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C09/annotated-000601.jpg"
+      }
+    },
+    {
+      "id": "C09-001126",
+      "clip_id": "C09",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/review-clips/C09.mp4",
+      "source_sha256": "db8e4b06c0c663b1de6d92664b7cb723b88cd078655c971d0a5cb399d8f72e59",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/C09.json",
+      "annotation_sha256": "47f77fa805899551edb1260ecb302079e85b81ff09a08e8b113062be3fde11a1",
+      "frame_index": 1126,
+      "time_seconds": 44.994,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/C09-001126.png",
+      "sha256": "b6716285f1457ae6ecfed29c2b006e31c5dd2a3594787b62afa9cafd7ed11afe",
+      "native_bgr_pixels_sha256": "d6bbcb55a34d98c6f74f662c7666f824f6c16fadc04971089c44b443a7cbd54f",
+      "frame_annotation": {
+        "time_seconds": 44.994,
+        "frame_index": 1126,
+        "image_width": 1280,
+        "image_height": 720,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C09/001126.jpg",
+        "image_sha256": "78555b289b67b241506760abcdeea821f393b03d00b0694066f058d8854c7ebf",
+        "review_status": "ambiguous",
+        "class_assessment": {
+          "fire": "present",
+          "smoke": "present"
+        },
+        "objects": [
+          {
+            "class": "fire",
+            "bbox_xyxy": [
+              704,
+              60,
+              834,
+              165
+            ],
+            "review_status": "ambiguous",
+            "boundary_quality": "uncertain_through_haze",
+            "annotation_method": "manual_visual_review"
+          }
+        ],
+        "localization_status": "not_localizable_diffuse_haze",
+        "nominal_parent_time_seconds": 764.994,
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C09/annotated-001126.jpg"
+      }
+    },
+    {
+      "id": "C10-000000",
+      "clip_id": "C10",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/review-clips/C10.mp4",
+      "source_sha256": "4d2e5291d0974535da47fd3a2344d70d98bc02619963abf4d1ba05b707772cc3",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/C10.json",
+      "annotation_sha256": "2baccb26ed4f3746e857cb991fdadc914198973a4b8487330442196e6a4eeb80",
+      "frame_index": 0,
+      "time_seconds": 0.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/C10-000000.png",
+      "sha256": "d39a316a88672d491ba947d3dd49f3b182a18d7c3f1b8c9273f6029a4f6b9b87",
+      "native_bgr_pixels_sha256": "d39ef48c1d346f2ed810bacdc05382750f92438d918b203a0934d79881e9eddc",
+      "frame_annotation": {
+        "time_seconds": 0.0,
+        "frame_index": 0,
+        "image_width": 1280,
+        "image_height": 720,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C10/000000.jpg",
+        "image_sha256": "8194591079449d54e4848206ec6803f611eebb657b260eb29c61dcbac68431c9",
+        "review_status": "ambiguous",
+        "class_assessment": {
+          "fire": "uncertain",
+          "smoke": "present"
+        },
+        "objects": [],
+        "localization_status": "not_localizable_diffuse_haze",
+        "nominal_parent_time_seconds": 1350.0,
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C10/annotated-000000.jpg"
+      }
+    },
+    {
+      "id": "C10-000602",
+      "clip_id": "C10",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/review-clips/C10.mp4",
+      "source_sha256": "4d2e5291d0974535da47fd3a2344d70d98bc02619963abf4d1ba05b707772cc3",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/C10.json",
+      "annotation_sha256": "2baccb26ed4f3746e857cb991fdadc914198973a4b8487330442196e6a4eeb80",
+      "frame_index": 602,
+      "time_seconds": 24.039,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/C10-000602.png",
+      "sha256": "8d0ecef57377913f45f55b7e4675fbac567a19d7ea15b81d4213e16f8b8f7a75",
+      "native_bgr_pixels_sha256": "b5f5ea8891ecf07206923c8498280aa916fae43bab071959a7e413fafb50793c",
+      "frame_annotation": {
+        "time_seconds": 24.039,
+        "frame_index": 602,
+        "image_width": 1280,
+        "image_height": 720,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C10/000602.jpg",
+        "image_sha256": "7d50f3c5f206767b74139ca75188db5a29eb969251252f53381c7ebf6257a110",
+        "review_status": "ambiguous",
+        "class_assessment": {
+          "fire": "uncertain",
+          "smoke": "present"
+        },
+        "objects": [],
+        "localization_status": "not_localizable_diffuse_haze",
+        "nominal_parent_time_seconds": 1374.039,
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C10/annotated-000602.jpg"
+      }
+    },
+    {
+      "id": "C10-001126",
+      "clip_id": "C10",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/review-clips/C10.mp4",
+      "source_sha256": "4d2e5291d0974535da47fd3a2344d70d98bc02619963abf4d1ba05b707772cc3",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/C10.json",
+      "annotation_sha256": "2baccb26ed4f3746e857cb991fdadc914198973a4b8487330442196e6a4eeb80",
+      "frame_index": 1126,
+      "time_seconds": 44.992000000000004,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/C10-001126.png",
+      "sha256": "5f5b49965ca901fd9f3a1914ca12120725e67c08b583d31bdeec9d0d148bdfc2",
+      "native_bgr_pixels_sha256": "6b6a94920c1738d1fbc15d063d85a087742adc1f5e0be899a283eac76b34b929",
+      "frame_annotation": {
+        "time_seconds": 44.992,
+        "frame_index": 1126,
+        "image_width": 1280,
+        "image_height": 720,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C10/001126.jpg",
+        "image_sha256": "ffdc123ffbdd843902f4cc685b895683e053ba51912968d3759d5eeed1c8537d",
+        "review_status": "ambiguous",
+        "class_assessment": {
+          "fire": "uncertain",
+          "smoke": "present"
+        },
+        "objects": [],
+        "localization_status": "not_localizable_diffuse_haze",
+        "nominal_parent_time_seconds": 1394.992,
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C10/annotated-001126.jpg"
+      }
+    },
+    {
+      "id": "C11-000000",
+      "clip_id": "C11",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/review-clips/C11.mp4",
+      "source_sha256": "4d616b7cea0ada8751e1a36d6be2738391b93b8365067f34b24aaad147ed765d",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/C11.json",
+      "annotation_sha256": "a20fa3a8504f517d0c91c1ee192adb118ae6ed9200eb02832880622116b29e7e",
+      "frame_index": 0,
+      "time_seconds": 0.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/C11-000000.png",
+      "sha256": "7c25502184971f3c8d26053c24168f8ea7ad39139c60a44989093b2e6393c1a2",
+      "native_bgr_pixels_sha256": "87d42074d5d0896383f9af9ffbda27b6b8299110c281ec9d894372f16a619c4b",
+      "frame_annotation": {
+        "time_seconds": 0.0,
+        "frame_index": 0,
+        "image_width": 1280,
+        "image_height": 720,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C11/000000.jpg",
+        "image_sha256": "08a435536e075a883ef9c2ae6cd4acaae3ad9ebe7312d6391c9da0b65240a01b",
+        "review_status": "reviewed",
+        "class_assessment": {
+          "fire": "absent_visible",
+          "smoke": "absent_visible"
+        },
+        "objects": [],
+        "localization_status": "reviewed_empty",
+        "nominal_parent_time_seconds": 420.0,
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C11/annotated-000000.jpg"
+      }
+    },
+    {
+      "id": "C11-000601",
+      "clip_id": "C11",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/review-clips/C11.mp4",
+      "source_sha256": "4d616b7cea0ada8751e1a36d6be2738391b93b8365067f34b24aaad147ed765d",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/C11.json",
+      "annotation_sha256": "a20fa3a8504f517d0c91c1ee192adb118ae6ed9200eb02832880622116b29e7e",
+      "frame_index": 601,
+      "time_seconds": 24.018,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/C11-000601.png",
+      "sha256": "1a84a9e487ca299aa9b13cd82a8373cadabf0fade1ffb09a848ecb2cd93387bb",
+      "native_bgr_pixels_sha256": "c9c12dc3b10a798042f476fcf4432aa7a970bc3803f5b1cafcb0f315a3810a4b",
+      "frame_annotation": {
+        "time_seconds": 24.018,
+        "frame_index": 601,
+        "image_width": 1280,
+        "image_height": 720,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C11/000601.jpg",
+        "image_sha256": "dd54929c022d2335a6d4441cd03f4a85f1b1f32f3325660f78c9c15e795030d9",
+        "review_status": "reviewed",
+        "class_assessment": {
+          "fire": "absent_visible",
+          "smoke": "absent_visible"
+        },
+        "objects": [],
+        "localization_status": "reviewed_empty",
+        "nominal_parent_time_seconds": 444.018,
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C11/annotated-000601.jpg"
+      }
+    },
+    {
+      "id": "C11-001125",
+      "clip_id": "C11",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/review-clips/C11.mp4",
+      "source_sha256": "4d616b7cea0ada8751e1a36d6be2738391b93b8365067f34b24aaad147ed765d",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/C11.json",
+      "annotation_sha256": "a20fa3a8504f517d0c91c1ee192adb118ae6ed9200eb02832880622116b29e7e",
+      "frame_index": 1125,
+      "time_seconds": 44.971,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/C11-001125.png",
+      "sha256": "2d9b7b4ae8dde2e6c70b2c1419caf6a3d5eae7356c33c4a45509a73c8eee944e",
+      "native_bgr_pixels_sha256": "48370a5b3a61a8ff910d26bc1ea569b4a305077c0e619425ba583e5a4249014b",
+      "frame_annotation": {
+        "time_seconds": 44.971,
+        "frame_index": 1125,
+        "image_width": 1280,
+        "image_height": 720,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C11/001125.jpg",
+        "image_sha256": "273f7e6c3c85107b996a8b4eccb3872685bd751732caaedb47ca375b145c65df",
+        "review_status": "reviewed",
+        "class_assessment": {
+          "fire": "absent_visible",
+          "smoke": "absent_visible"
+        },
+        "objects": [],
+        "localization_status": "reviewed_empty",
+        "nominal_parent_time_seconds": 464.971,
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C11/annotated-001125.jpg"
+      }
+    },
+    {
+      "id": "C12-000000",
+      "clip_id": "C12",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/review-clips/C12.mp4",
+      "source_sha256": "3940def2ca631dab70034b490b35dd31d4c6f24b0739b0c6b51241073a84e6d2",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/C12.json",
+      "annotation_sha256": "b3cb8f1ef66f0890e72c34be75570e43a8fc3d10b70bae7309262e865c5971c6",
+      "frame_index": 0,
+      "time_seconds": 0.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/C12-000000.png",
+      "sha256": "0d3204cc43d037f1f7a4889b8712029ed5f1af5171dd90211f4bddd7b5024999",
+      "native_bgr_pixels_sha256": "e906fb9ac568dd0c6dfebd2f0d60799b949fae7ea3afb37bf4395dd41c826d88",
+      "frame_annotation": {
+        "time_seconds": 0.0,
+        "frame_index": 0,
+        "image_width": 1280,
+        "image_height": 720,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C12/000000.jpg",
+        "image_sha256": "6944199031c6a6848a44004522d74958fc405a7c74843f02e6dcc9873629c87f",
+        "review_status": "reviewed",
+        "class_assessment": {
+          "fire": "absent_visible",
+          "smoke": "absent_visible"
+        },
+        "objects": [],
+        "localization_status": "reviewed_empty",
+        "nominal_parent_time_seconds": 780.0,
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C12/annotated-000000.jpg"
+      }
+    },
+    {
+      "id": "C12-000601",
+      "clip_id": "C12",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/review-clips/C12.mp4",
+      "source_sha256": "3940def2ca631dab70034b490b35dd31d4c6f24b0739b0c6b51241073a84e6d2",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/C12.json",
+      "annotation_sha256": "b3cb8f1ef66f0890e72c34be75570e43a8fc3d10b70bae7309262e865c5971c6",
+      "frame_index": 601,
+      "time_seconds": 24.022000000000002,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/C12-000601.png",
+      "sha256": "ace7742ab2533e6cfe70aad31118f65e49aa652049683dc2db8b5aa41b235233",
+      "native_bgr_pixels_sha256": "f888280ba1e338201550f0b49314402e070ddea4ae1d80fbea5a5c9d12c6a3a2",
+      "frame_annotation": {
+        "time_seconds": 24.022,
+        "frame_index": 601,
+        "image_width": 1280,
+        "image_height": 720,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C12/000601.jpg",
+        "image_sha256": "0a048975659ada1ba372cbc44c0ae12a3d3b81046acc10362d095fb1abba0139",
+        "review_status": "reviewed",
+        "class_assessment": {
+          "fire": "absent_visible",
+          "smoke": "absent_visible"
+        },
+        "objects": [],
+        "localization_status": "reviewed_empty",
+        "nominal_parent_time_seconds": 804.022,
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C12/annotated-000601.jpg"
+      }
+    },
+    {
+      "id": "C12-001125",
+      "clip_id": "C12",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/review-clips/C12.mp4",
+      "source_sha256": "3940def2ca631dab70034b490b35dd31d4c6f24b0739b0c6b51241073a84e6d2",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/C12.json",
+      "annotation_sha256": "b3cb8f1ef66f0890e72c34be75570e43a8fc3d10b70bae7309262e865c5971c6",
+      "frame_index": 1125,
+      "time_seconds": 44.976,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/C12-001125.png",
+      "sha256": "0dae22750a109fe79f7ffcf6094bb7361a703b0c6d5b7208b66d83793c2dcd2c",
+      "native_bgr_pixels_sha256": "610a67aaf7e27cdf163a121d7e74bee42d83c7ba45055a9872de0f5566b8c633",
+      "frame_annotation": {
+        "time_seconds": 44.976,
+        "frame_index": 1125,
+        "image_width": 1280,
+        "image_height": 720,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C12/001125.jpg",
+        "image_sha256": "102eabeb9c29dd658a0dfc07a850de8ae9a2c10b61958bbf0640f2f2ff7192a8",
+        "review_status": "reviewed",
+        "class_assessment": {
+          "fire": "absent_visible",
+          "smoke": "absent_visible"
+        },
+        "objects": [],
+        "localization_status": "reviewed_empty",
+        "nominal_parent_time_seconds": 824.976,
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C12/annotated-001125.jpg"
+      }
+    },
+    {
+      "id": "C13-000000",
+      "clip_id": "C13",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/review-clips/C13.mp4",
+      "source_sha256": "9879b432e6563be62425cd6154980f51d2cceccf61a6ed63647782a0edcc85ff",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/C13.json",
+      "annotation_sha256": "c8d619b75a498079f8105f1ec27e82b62ac0bce5b01da1209b69493d7a9dcdec",
+      "frame_index": 0,
+      "time_seconds": 0.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/C13-000000.png",
+      "sha256": "6e7b9b12f2452166315ba946ab828601e37baefdaaaa01fbc554490157dfcc34",
+      "native_bgr_pixels_sha256": "e529a8db3d54b975e4a42fa49e4b3dbd52ddca336afbeeb04c4de700b4aa43d2",
+      "frame_annotation": {
+        "time_seconds": 0.0,
+        "frame_index": 0,
+        "image_width": 1280,
+        "image_height": 720,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C13/000000.jpg",
+        "image_sha256": "f9d7f8309a6f015f797ddad968ad5a700969cac56aa7422868c6ea28c4e240e9",
+        "review_status": "ambiguous",
+        "class_assessment": {
+          "fire": "uncertain",
+          "smoke": "present"
+        },
+        "objects": [],
+        "localization_status": "not_localizable_diffuse_haze",
+        "nominal_parent_time_seconds": 420.0,
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C13/annotated-000000.jpg"
+      }
+    },
+    {
+      "id": "C13-000601",
+      "clip_id": "C13",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/review-clips/C13.mp4",
+      "source_sha256": "9879b432e6563be62425cd6154980f51d2cceccf61a6ed63647782a0edcc85ff",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/C13.json",
+      "annotation_sha256": "c8d619b75a498079f8105f1ec27e82b62ac0bce5b01da1209b69493d7a9dcdec",
+      "frame_index": 601,
+      "time_seconds": 24.018,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/C13-000601.png",
+      "sha256": "4dcdf32366bccda5c87db0e8772cdf14bd3e92f7f2fb0b4f94a00543128f7004",
+      "native_bgr_pixels_sha256": "571a6178262d211a68accd7b1ffde633d06b6871a5a9e115f17bfb0dd0600287",
+      "frame_annotation": {
+        "time_seconds": 24.018,
+        "frame_index": 601,
+        "image_width": 1280,
+        "image_height": 720,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C13/000601.jpg",
+        "image_sha256": "255e0ef3667f88d5ff71c5492edc4f6cd948d6577f9cb7120e2d65b50701115a",
+        "review_status": "ambiguous",
+        "class_assessment": {
+          "fire": "uncertain",
+          "smoke": "present"
+        },
+        "objects": [],
+        "localization_status": "not_localizable_diffuse_haze",
+        "nominal_parent_time_seconds": 444.018,
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C13/annotated-000601.jpg"
+      }
+    },
+    {
+      "id": "C13-001125",
+      "clip_id": "C13",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/review-clips/C13.mp4",
+      "source_sha256": "9879b432e6563be62425cd6154980f51d2cceccf61a6ed63647782a0edcc85ff",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/C13.json",
+      "annotation_sha256": "c8d619b75a498079f8105f1ec27e82b62ac0bce5b01da1209b69493d7a9dcdec",
+      "frame_index": 1125,
+      "time_seconds": 44.971,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/C13-001125.png",
+      "sha256": "d89d74d95f27dc80a4b392855310738afaa852d8b1f1fbcc1b49d3463916f0cd",
+      "native_bgr_pixels_sha256": "1a880bd9e4e233c923f8911ef0e3aca95bf04f90b885f64c1f5ab9017fecfab7",
+      "frame_annotation": {
+        "time_seconds": 44.971,
+        "frame_index": 1125,
+        "image_width": 1280,
+        "image_height": 720,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C13/001125.jpg",
+        "image_sha256": "0122923031bf0c741b28f16a2135e98e62231cfa8237e85648c3b98f710931b9",
+        "review_status": "ambiguous",
+        "class_assessment": {
+          "fire": "uncertain",
+          "smoke": "present"
+        },
+        "objects": [],
+        "localization_status": "not_localizable_diffuse_haze",
+        "nominal_parent_time_seconds": 464.971,
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C13/annotated-001125.jpg"
+      }
+    },
+    {
+      "id": "C14-000000",
+      "clip_id": "C14",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/review-clips/C14.mp4",
+      "source_sha256": "42f15a1431c5276a179060fd70c9559e493a719736b8430f7f6f6813961f2b13",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/C14.json",
+      "annotation_sha256": "567a59fe666a504262a8640ca95735bf0dd003c9b86a6942a0b495f5f88b7689",
+      "frame_index": 0,
+      "time_seconds": 0.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/C14-000000.png",
+      "sha256": "63d9e7789ad26ee4dbb996244c56b067afa0369f928d7d7528151e561cc05dd6",
+      "native_bgr_pixels_sha256": "c1177eea38ae23114273649a70bee98831bfa4eb6973d6f985b17b82b0d37110",
+      "frame_annotation": {
+        "time_seconds": 0.0,
+        "frame_index": 0,
+        "image_width": 1280,
+        "image_height": 720,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C14/000000.jpg",
+        "image_sha256": "83097b71f1512f4081cd1631ea84ab37d3b9892c0f7dff35d3596b72fc8619e9",
+        "review_status": "ambiguous",
+        "class_assessment": {
+          "fire": "present",
+          "smoke": "uncertain"
+        },
+        "objects": [
+          {
+            "class": "fire",
+            "bbox_xyxy": [
+              778,
+              82,
+              818,
+              165
+            ],
+            "review_status": "reviewed",
+            "boundary_quality": "visible_flame_envelope",
+            "annotation_method": "manual_visual_review"
+          }
+        ],
+        "localization_status": "sparse_manual_boxes",
+        "nominal_parent_time_seconds": 2180.0,
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C14/annotated-000000.jpg"
+      }
+    },
+    {
+      "id": "C14-000751",
+      "clip_id": "C14",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/review-clips/C14.mp4",
+      "source_sha256": "42f15a1431c5276a179060fd70c9559e493a719736b8430f7f6f6813961f2b13",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/C14.json",
+      "annotation_sha256": "567a59fe666a504262a8640ca95735bf0dd003c9b86a6942a0b495f5f88b7689",
+      "frame_index": 751,
+      "time_seconds": 30.011000000000003,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/C14-000751.png",
+      "sha256": "7f88c4ced2a17fe1cf652a0230dd07144e0f59f6745d9a85238ddeacf52a0086",
+      "native_bgr_pixels_sha256": "02630549fde9f89aea7a3e76c8f16491cdf2c7c1d5b74910c3b18bf76b5e797e",
+      "frame_annotation": {
+        "time_seconds": 30.011,
+        "frame_index": 751,
+        "image_width": 1280,
+        "image_height": 720,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C14/000751.jpg",
+        "image_sha256": "a4f95d71c7dbe18bdb6b729ce7247b364fc5074d8649ce44c8343feb08f61a55",
+        "review_status": "ambiguous",
+        "class_assessment": {
+          "fire": "present",
+          "smoke": "uncertain"
+        },
+        "objects": [
+          {
+            "class": "fire",
+            "bbox_xyxy": [
+              781,
+              74,
+              810,
+              166
+            ],
+            "review_status": "reviewed",
+            "boundary_quality": "visible_flame_envelope",
+            "annotation_method": "manual_visual_review"
+          }
+        ],
+        "localization_status": "sparse_manual_boxes",
+        "nominal_parent_time_seconds": 2210.011,
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C14/annotated-000751.jpg"
+      }
+    },
+    {
+      "id": "C14-001500",
+      "clip_id": "C14",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/review-clips/C14.mp4",
+      "source_sha256": "42f15a1431c5276a179060fd70c9559e493a719736b8430f7f6f6813961f2b13",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/C14.json",
+      "annotation_sha256": "567a59fe666a504262a8640ca95735bf0dd003c9b86a6942a0b495f5f88b7689",
+      "frame_index": 1500,
+      "time_seconds": 59.961000000000006,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/C14-001500.png",
+      "sha256": "ed7302d1f64ae8813b27eb6ee6635ee496369fd9f470c370093a0453354ade6e",
+      "native_bgr_pixels_sha256": "956ae1e7e65dc68177834b33b5811365c58348a8aab1cdd0a4f203fb03957ad2",
+      "frame_annotation": {
+        "time_seconds": 59.961,
+        "frame_index": 1500,
+        "image_width": 1280,
+        "image_height": 720,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C14/001500.jpg",
+        "image_sha256": "497df3de9ef97096b79b36d9245adb52296de0d5a0face538c15acd0a00e16bd",
+        "review_status": "ambiguous",
+        "class_assessment": {
+          "fire": "present",
+          "smoke": "uncertain"
+        },
+        "objects": [
+          {
+            "class": "fire",
+            "bbox_xyxy": [
+              779,
+              120,
+              803,
+              166
+            ],
+            "review_status": "reviewed",
+            "boundary_quality": "visible_flame_envelope",
+            "annotation_method": "manual_visual_review"
+          }
+        ],
+        "localization_status": "sparse_manual_boxes",
+        "nominal_parent_time_seconds": 2239.961,
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C14/annotated-001500.jpg"
+      }
+    },
+    {
+      "id": "C15-000000",
+      "clip_id": "C15",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/review-clips/C15.mp4",
+      "source_sha256": "d3c92b42f53226623f19a408513fb7534a5676916675eed3f18c4b94157c1de2",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/C15.json",
+      "annotation_sha256": "25065faf186efe025e0750deb7828088fe3436eef0a0c22b72867b19479bcb33",
+      "frame_index": 0,
+      "time_seconds": 0.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/C15-000000.png",
+      "sha256": "e092af486d7322006582afb2ee0cabfe13e3e0a19dbcfba97ed4df64d4eaa791",
+      "native_bgr_pixels_sha256": "fa6210bb7fb446726f7c8a455bddd4f5f6f89b64b8bdf027da8ae7dc9f745cb8",
+      "frame_annotation": {
+        "time_seconds": 0.0,
+        "frame_index": 0,
+        "image_width": 1280,
+        "image_height": 720,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C15/000000.jpg",
+        "image_sha256": "aae09540c0b3df22b6727c2b5618673c6aababcadbceda2186f15e0665ed7f08",
+        "review_status": "ambiguous",
+        "class_assessment": {
+          "fire": "present",
+          "smoke": "uncertain"
+        },
+        "objects": [
+          {
+            "class": "fire",
+            "bbox_xyxy": [
+              777,
+              94,
+              814,
+              167
+            ],
+            "review_status": "reviewed",
+            "boundary_quality": "visible_flame_envelope",
+            "annotation_method": "manual_visual_review"
+          }
+        ],
+        "localization_status": "sparse_manual_boxes",
+        "nominal_parent_time_seconds": 4500.0,
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C15/annotated-000000.jpg"
+      }
+    },
+    {
+      "id": "C15-000601",
+      "clip_id": "C15",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/review-clips/C15.mp4",
+      "source_sha256": "d3c92b42f53226623f19a408513fb7534a5676916675eed3f18c4b94157c1de2",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/C15.json",
+      "annotation_sha256": "25065faf186efe025e0750deb7828088fe3436eef0a0c22b72867b19479bcb33",
+      "frame_index": 601,
+      "time_seconds": 24.031000000000002,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/C15-000601.png",
+      "sha256": "a404c1e5e3136e3ec4db971b797023568ae5c74fb02d38b7885e60b47e0d290a",
+      "native_bgr_pixels_sha256": "91515da570b9997621f4652a270d3559e23806344babe624fe1e94d4da13b47e",
+      "frame_annotation": {
+        "time_seconds": 24.031,
+        "frame_index": 601,
+        "image_width": 1280,
+        "image_height": 720,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C15/000601.jpg",
+        "image_sha256": "a560fb9ebdf22e0ced1d71b58a96a5b1d1dcdea74c8eea455bca88c04241b70c",
+        "review_status": "ambiguous",
+        "class_assessment": {
+          "fire": "present",
+          "smoke": "uncertain"
+        },
+        "objects": [
+          {
+            "class": "fire",
+            "bbox_xyxy": [
+              777,
+              81,
+              822,
+              167
+            ],
+            "review_status": "reviewed",
+            "boundary_quality": "visible_flame_envelope",
+            "annotation_method": "manual_visual_review"
+          }
+        ],
+        "localization_status": "sparse_manual_boxes",
+        "nominal_parent_time_seconds": 4524.031,
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C15/annotated-000601.jpg"
+      }
+    },
+    {
+      "id": "C15-001125",
+      "clip_id": "C15",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/review-clips/C15.mp4",
+      "source_sha256": "d3c92b42f53226623f19a408513fb7534a5676916675eed3f18c4b94157c1de2",
+      "annotation_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-annotations-2026-10-22/annotations/C15.json",
+      "annotation_sha256": "25065faf186efe025e0750deb7828088fe3436eef0a0c22b72867b19479bcb33",
+      "frame_index": 1125,
+      "time_seconds": 44.984,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/detector-root-cause-2026-10-22/images/C15-001125.png",
+      "sha256": "8ce1087614a860f244c9ede50c2b5ae1bf2de49ba7ef541e695c5eb8c8e58caf",
+      "native_bgr_pixels_sha256": "3b58b0b5c789b8b508f6465e91f4cef16a49599e258eff8d61f9f8aa362452d6",
+      "frame_annotation": {
+        "time_seconds": 44.984,
+        "frame_index": 1125,
+        "image_width": 1280,
+        "image_height": 720,
+        "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C15/001125.jpg",
+        "image_sha256": "5489585d658fca3a386983461764f12a3acf58ac820e066787c52389f68c977f",
+        "review_status": "ambiguous",
+        "class_assessment": {
+          "fire": "present",
+          "smoke": "uncertain"
+        },
+        "objects": [
+          {
+            "class": "fire",
+            "bbox_xyxy": [
+              780,
+              62,
+              814,
+              166
+            ],
+            "review_status": "reviewed",
+            "boundary_quality": "visible_flame_envelope",
+            "annotation_method": "manual_visual_review"
+          }
+        ],
+        "localization_status": "sparse_manual_boxes",
+        "nominal_parent_time_seconds": 4544.984,
+        "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C15/annotated-001125.jpg"
+      }
+    }
+  ]
+}
