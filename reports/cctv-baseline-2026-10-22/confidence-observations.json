@@ -1,0 +1,14 @@
+{
+  "fire": {
+    "positive_interval_boxes": 2273,
+    "positive_interval_max_confidence": 0.8103099465370178,
+    "negative_interval_boxes": 55,
+    "negative_interval_max_confidence": 0.3930806815624237
+  },
+  "smoke": {
+    "positive_interval_boxes": 26,
+    "positive_interval_max_confidence": 0.4172682464122772,
+    "negative_interval_boxes": 521,
+    "negative_interval_max_confidence": 0.7580951452255249
+  }
+}

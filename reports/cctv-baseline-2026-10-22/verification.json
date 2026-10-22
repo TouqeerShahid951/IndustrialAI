@@ -1,0 +1,45 @@
+{
+  "valid": true,
+  "clips": 23,
+  "analyzed_frames": 20400,
+  "successful_frame_observations": 20400,
+  "source_timestamps": "container",
+  "all_source_frames_covered": true,
+  "manifest_and_annotation_hashes_unchanged": true,
+  "inference_and_application_code_unchanged": true,
+  "app_model_sha256": "b91633799ceb052c814b4f8b77a37efc9a40f002d528df97d74463585fa4f28f",
+  "embedded_class_names": {
+    "0": "smoke",
+    "1": "fire"
+  },
+  "event_totals_reconciled": true,
+  "uncertain_time_excluded": true,
+  "six_evidence_frames_match_raw_logs": true,
+  "analysis_self_check": "passed",
+  "relevant_tests": {
+    "command": ".venv/bin/python -m unittest tests.test_benchmark_data tests.test_benchmark_events tests.test_run_benchmark tests.test_evaluate",
+    "passed": 14
+  },
+  "artifacts_sha256": {
+    "metrics.json": "c9bb18d2c96239c1f64c6ceccc58c6cd25f6829ddd730688054656d162eda87b",
+    "F04-example.jpg": "f2b23d33abecbee20d573de17a8e6ae003652f59cc56f9f629a754557009a60a",
+    "embedded-classes.json": "22d24feefea599c4d8347efe35147f112c7ae43e9256e3dcd76a5462515da84b",
+    "F08-example.jpg": "05280a9a75aaa1e8db5bda0549281169713d3a70a4139ff2cfc2b5d2cdbef1ff",
+    "evidence-index.json": "8cb7039fac1874f6846a96a518118acb0797d41ba588020cf4d3b9f5e848ae51",
+    "report.md": "98c7973ddb1bd1bdcd33030e1c981153aed31a285db74e5c5f1b761fdfac0c7d",
+    "failure-examples.jpg": "405d29cc22524e4a8c862766534786cc1e3510ee00034ef7363ae690f26f5380",
+    "C10-example.jpg": "9ea87790c0f3ea9abfc53dbcd7f13cdbaff78f2a8e2ad2df2979a24a3807cd8f",
+    "benchmark.json": "c61b462bb5d359683e7358294721295c4781dddf286b71ec5a4ad96c8a5c71ba",
+    "C09-example.jpg": "3d1c2a976f8d68557441def92ef7ade56a48dbebb6a5ef0c725f4d5019613356",
+    "C15-example.jpg": "1814977475c6d392492ee494b901a60f10d1e3269740e68b0fff61ac6be535c6",
+    "inference-spec.json": "7345a98b042c6d049e7711fb7fa4746e24080102f3ddfda52ab9f6657bd64aa1",
+    "C04-example.jpg": "ec26b03ba31c072669e23144bedc7de600fa6e9c751b599d08db44fcb4b18e97",
+    "per-clip.csv": "0888db35dda689c53ac17a4f2bb8e4793336cb5e6991626a6aace21a162c32eb",
+    "runs.json": "1bc223a9a7ebf1cde472dfad6bbacbf6e32e4d4a57562150d7a864a8a51ab3a2",
+    "confidence-observations.json": "7148853a8820ece586be42841d21a729792c7d06951ddc02482b80bfc585044f",
+    "analyze.py": "05d637fdadb659c4971052a7171e041546b61271bf1d8702edeed73930cf0985"
+  },
+  "training_started": false,
+  "gate_passed": false,
+  "final_recomputation_matches_report": true
+}

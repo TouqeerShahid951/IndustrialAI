@@ -1,0 +1,149 @@
+[
+  {
+    "clip_id": "F04",
+    "frame_index": 38,
+    "time_seconds": 1.52,
+    "title": "False smoke: reflective factory floor",
+    "selection": "highest-confidence detection of this class",
+    "selected_class": "smoke",
+    "selected_confidence": 0.7087089419364929,
+    "predictions": [
+      {
+        "source": "/Users/tabbasi/Downloads/IndustrialAI/outputs/cctv-baseline-2026-10-22/inputs/F04.mp4",
+        "model": "fire_smoke",
+        "frame": "38",
+        "source_seconds": "1.52",
+        "class": "smoke",
+        "confidence": "0.7087089419364929",
+        "x1": "160.53085327148438",
+        "y1": "146.62893676757812",
+        "x2": "1075.1845703125",
+        "y2": "731.3013305664062"
+      }
+    ],
+    "evidence_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-baseline-2026-10-22/F04-example.jpg",
+    "source_sha256": "9847393983a6741a1a897260e299f08a269a92d3865a81e897d18c2dc52d0b0d"
+  },
+  {
+    "clip_id": "F08",
+    "frame_index": 286,
+    "time_seconds": 11.404453125,
+    "title": "False smoke: clear floor and machinery",
+    "selection": "highest-confidence detection of this class",
+    "selected_class": "smoke",
+    "selected_confidence": 0.7580951452255249,
+    "predictions": [
+      {
+        "source": "/Users/tabbasi/Downloads/IndustrialAI/outputs/cctv-baseline-2026-10-22/inputs/F08.mp4",
+        "model": "fire_smoke",
+        "frame": "286",
+        "source_seconds": "11.404453125",
+        "class": "smoke",
+        "confidence": "0.7580951452255249",
+        "x1": "204.301025390625",
+        "y1": "238.54238891601562",
+        "x2": "1839.561767578125",
+        "y2": "1021.0603637695312"
+      }
+    ],
+    "evidence_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-baseline-2026-10-22/F08-example.jpg",
+    "source_sha256": "888f4c70c79ab271da5f797b49c08e74e768edd289f791217130745aa59f55b4"
+  },
+  {
+    "clip_id": "C04",
+    "frame_index": 114,
+    "time_seconds": 4.551,
+    "title": "False fire: red workwear",
+    "selection": "highest-confidence detection of this class",
+    "selected_class": "fire",
+    "selected_confidence": 0.3930806815624237,
+    "predictions": [
+      {
+        "source": "/Users/tabbasi/Downloads/IndustrialAI/outputs/cctv-baseline-2026-10-22/inputs/C04.mp4",
+        "model": "fire_smoke",
+        "frame": "114",
+        "source_seconds": "4.551",
+        "class": "fire",
+        "confidence": "0.3930806815624237",
+        "x1": "853.9049072265625",
+        "y1": "101.86112213134766",
+        "x2": "918.8621826171875",
+        "y2": "211.24417114257812"
+      }
+    ],
+    "evidence_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-baseline-2026-10-22/C04-example.jpg",
+    "source_sha256": "d2024bcffe8ca8d353f9bbd815a3f14ad779ffe910649c91a19127dc5ad88ee7"
+  },
+  {
+    "clip_id": "C09",
+    "frame_index": 1032,
+    "time_seconds": 41.235,
+    "title": "Rare smoke hit: broad box through haze",
+    "selection": "highest-confidence detection of this class",
+    "selected_class": "smoke",
+    "selected_confidence": 0.36234140396118164,
+    "predictions": [
+      {
+        "source": "/Users/tabbasi/Downloads/IndustrialAI/outputs/cctv-baseline-2026-10-22/inputs/C09.mp4",
+        "model": "fire_smoke",
+        "frame": "1032",
+        "source_seconds": "41.235",
+        "class": "fire",
+        "confidence": "0.4176272451877594",
+        "x1": "691.08740234375",
+        "y1": "19.980560302734375",
+        "x2": "845.0791015625",
+        "y2": "169.0525360107422"
+      },
+      {
+        "source": "/Users/tabbasi/Downloads/IndustrialAI/outputs/cctv-baseline-2026-10-22/inputs/C09.mp4",
+        "model": "fire_smoke",
+        "frame": "1032",
+        "source_seconds": "41.235",
+        "class": "smoke",
+        "confidence": "0.36234140396118164",
+        "x1": "66.110107421875",
+        "y1": "13.08062744140625",
+        "x2": "1279.31591796875",
+        "y2": "702.7227783203125"
+      }
+    ],
+    "evidence_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-baseline-2026-10-22/C09-example.jpg",
+    "source_sha256": "db8e4b06c0c663b1de6d92664b7cb723b88cd078655c971d0a5cb399d8f72e59"
+  },
+  {
+    "clip_id": "C10",
+    "frame_index": 602,
+    "time_seconds": 24.039,
+    "title": "Missed smoke: no detections throughout clip",
+    "selection": "middle manually annotated frame",
+    "truth_objects": [],
+    "predictions": [],
+    "evidence_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-baseline-2026-10-22/C10-example.jpg",
+    "source_sha256": "4d2e5291d0974535da47fd3a2344d70d98bc02619963abf4d1ba05b707772cc3"
+  },
+  {
+    "clip_id": "C15",
+    "frame_index": 601,
+    "time_seconds": 24.031,
+    "title": "Missed flame on this annotated frame",
+    "selection": "middle manually annotated frame",
+    "truth_objects": [
+      {
+        "class": "fire",
+        "bbox_xyxy": [
+          777,
+          81,
+          822,
+          167
+        ],
+        "review_status": "reviewed",
+        "boundary_quality": "visible_flame_envelope",
+        "annotation_method": "manual_visual_review"
+      }
+    ],
+    "predictions": [],
+    "evidence_path": "/Users/tabbasi/Downloads/IndustrialAI/reports/cctv-baseline-2026-10-22/C15-example.jpg",
+    "source_sha256": "d3c92b42f53226623f19a408513fb7534a5676916675eed3f18c4b94157c1de2"
+  }
+]

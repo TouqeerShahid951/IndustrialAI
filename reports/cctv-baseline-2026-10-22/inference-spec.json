@@ -1,0 +1,73 @@
+{
+  "manifest_sha256": "82a147b509bf4815031bfb64c600273508c042c63d72ff544099fea50a4ce4ec",
+  "registry": {
+    "repository": "rabahdev/fire-smoke-yolov8n",
+    "revision": "13017fe8af477c25f5298d168e2dfede4b000753",
+    "sha256": "b91633799ceb052c814b4f8b77a37efc9a40f002d528df97d74463585fa4f28f",
+    "classes": {
+      "smoke": "smoke",
+      "fire": "fire"
+    }
+  },
+  "application_profile": {
+    "version": "development-1",
+    "confidence": 0.25,
+    "imgsz": 640,
+    "stride": 1,
+    "min_hits": 3,
+    "min_span_seconds": 1.0,
+    "window_seconds": 2.0,
+    "overlap": 0.1,
+    "merge_gap": 2.0,
+    "min_head_px": 12,
+    "min_person_px": 80,
+    "keypoint_confidence": 0.5,
+    "near_height": 0.15,
+    "away_height": 0.25,
+    "object_height": 0.2,
+    "gesture_seconds": 8,
+    "track_gap_seconds": 1,
+    "zone_dwell_seconds": 1,
+    "zone_exit_seconds": 2
+  },
+  "source_hashes": {
+    "F01": "31be68f203b8fa5895b5f8566b84d5d8407636113fd34d134983cc4962ea1c32",
+    "F02": "73971f20ec0769b9b784ac78597ec6044ada6d8521c11b81fdec8e4ab87f7bed",
+    "F03": "6b318200c11b971b1b924e1a46a2571321223dffddb26cd6f157b2a12abe2f29",
+    "F04": "9847393983a6741a1a897260e299f08a269a92d3865a81e897d18c2dc52d0b0d",
+    "F05": "4c19f21e0b43376453489f31453d8941135029e025e8136bbde9e9c57def4ec1",
+    "F06": "87ea099c168130adb04d9407359215b9873179bc9baf416f6d0cad161415172f",
+    "F07": "7540b01edad66702b46f1d728500bb119193dfae1c9ef9402ee8d2c19cfdccdc",
+    "F08": "888f4c70c79ab271da5f797b49c08e74e768edd289f791217130745aa59f55b4",
+    "C01": "b389114091187fc390f4590ae2902b5412c0ad4441fdef8029d963965f5adfdb",
+    "C02": "94bb8bb066a2a55db748c775751891c9d30307553da4faa7c5bfef0abd9bb966",
+    "C03": "55657e2580dc43dc735ecde05366dbe9af38c715af3a04d367a844e6c247e252",
+    "C04": "d2024bcffe8ca8d353f9bbd815a3f14ad779ffe910649c91a19127dc5ad88ee7",
+    "C05": "2762b141bcea09d41be449504c2858e5c276b11e9aaa84f9136cbc0e075faf44",
+    "C06": "17755da7f6a6b082989c7aa6141e12a1c25f8b3e8ad6c54c3c6799944a6643a7",
+    "C07": "b16743df809622879d229688dbd3b93dd5fcb86fdda9bd3c826d891a72aaef35",
+    "C08": "bab53487294f6a712e0953d657c49633351183aa4a392912422f72e021011847",
+    "C09": "db8e4b06c0c663b1de6d92664b7cb723b88cd078655c971d0a5cb399d8f72e59",
+    "C10": "4d2e5291d0974535da47fd3a2344d70d98bc02619963abf4d1ba05b707772cc3",
+    "C11": "4d616b7cea0ada8751e1a36d6be2738391b93b8365067f34b24aaad147ed765d",
+    "C12": "3940def2ca631dab70034b490b35dd31d4c6f24b0739b0c6b51241073a84e6d2",
+    "C13": "9879b432e6563be62425cd6154980f51d2cceccf61a6ed63647782a0edcc85ff",
+    "C14": "42f15a1431c5276a179060fd70c9559e493a719736b8430f7f6f6813961f2b13",
+    "C15": "d3c92b42f53226623f19a408513fb7534a5676916675eed3f18c4b94157c1de2"
+  },
+  "code_hashes": {
+    "backend/models.json": "de12b473268587f32428d6b469e9fafb6fa2d8656c0bc2a214e330dcf1a85abf",
+    "backend/pipeline.py": "ef1039d4245bdc59fb3cbca25a527ed73e40cc3576099b0ab8f4643a64eb4491",
+    "evaluate.py": "12cdcabf945a364117730522b239db5d8e1e7e698da3ebc64d01b2b876598545",
+    "temporal.py": "1a7f09175bb7e400ea973b2de064ed341777dcb92efde15fe1a72e5472a72d2a"
+  },
+  "inference": {
+    "confidence": 0.25,
+    "imgsz": 640,
+    "stride": 1,
+    "device": "mps",
+    "max_frames": 100000,
+    "timestamp_source": "container"
+  },
+  "training_started": false
+}
