@@ -1,0 +1,102 @@
+{
+  "files": [
+    {
+      "id": 63066070,
+      "name": "ijmond_seg.tar.gz",
+      "size": 266159976,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/63066070",
+      "supplied_md5": "20eb0e868e1fb8575612b9a4b77367e1",
+      "computed_md5": "20eb0e868e1fb8575612b9a4b77367e1",
+      "mimetype": "application/x-gzip"
+    }
+  ],
+  "folder_structure": {},
+  "authors": [
+    {
+      "id": 12401347,
+      "full_name": "Y.C. Hsu",
+      "first_name": "Y.C.",
+      "last_name": "Hsu",
+      "is_active": true,
+      "url_name": "Y_C_Hsu",
+      "orcid_id": ""
+    }
+  ],
+  "custom_fields": [
+    {
+      "name": "Retention period",
+      "value": "2226-02-01",
+      "settings": {},
+      "field_type": "date",
+      "order": null,
+      "is_mandatory": false
+    }
+  ],
+  "figshare_url": "https://uvaauas.figshare.com/articles/dataset/IJmond_Industrial_Smoke_Segmentation_Dataset/31847188",
+  "download_disabled": false,
+  "description": "<p dir=\"ltr\">The dataset contains raw and cropped images for industrial smoke segmentation. The task is to identify the pixels in the image that belongs to a part of the industrial smoke emission. The standard way for using this dataset is to cast the task as pixel-level classification. However, one can also go for the polygon-based image segmentation approach. We have in total 900 raw images with 1209 polygons. Among them, 7 raw images have no smoke. Also, we have in total 2074 cropped images, and among them, 1109 images have smoke (and have pixel-level masks).</p><p dir=\"ltr\">If you use the dataset, please cite this technical report (that describes details about the dataset):</p><ul><li>Yen-Chia Hsu, Despoina Touska. 2026. IJmond Industrial Smoke Segmentation Dataset. arXiv preprint arXiv:2603.23754. <a href=\"https://arxiv.org/abs/2603.23754\" rel=\"noreferrer\" target=\"_blank\">https://arxiv.org/abs/2603.23754</a></li></ul><p><br></p>",
+  "funding": null,
+  "funding_list": [],
+  "version": 3,
+  "status": "public",
+  "size": 266159976,
+  "created_date": "2026-03-24T22:01:07Z",
+  "modified_date": "2026-03-26T09:20:15Z",
+  "is_public": true,
+  "is_confidential": false,
+  "is_metadata_record": false,
+  "confidential_reason": "",
+  "metadata_reason": "",
+  "license": {
+    "value": 1,
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "tags": [
+    "Computer Vision"
+  ],
+  "keywords": [
+    "Computer Vision"
+  ],
+  "categories": [
+    {
+      "id": 58295,
+      "title": "Information and Computing Sciences",
+      "parent_id": 0,
+      "path": "/58295",
+      "source_id": "",
+      "taxonomy_id": 121
+    }
+  ],
+  "references": [],
+  "has_linked_file": false,
+  "citation": "Hsu, Y.C. (2026). IJmond Industrial Smoke Segmentation Dataset. University of Amsterdam / Amsterdam University of Applied Sciences. Dataset. https://doi.org/10.21942/uva.31847188.v3",
+  "related_materials": [],
+  "is_embargoed": false,
+  "embargo_date": null,
+  "embargo_type": null,
+  "embargo_title": "",
+  "embargo_reason": "",
+  "embargo_options": [],
+  "id": 31847188,
+  "title": "IJmond Industrial Smoke Segmentation Dataset",
+  "doi": "10.21942/uva.31847188.v3",
+  "handle": "",
+  "url": "https://api.figshare.com/v2/articles/31847188",
+  "published_date": "2026-03-24T22:01:07Z",
+  "thumb": "",
+  "defined_type": 3,
+  "defined_type_name": "dataset",
+  "group_id": 12121,
+  "url_private_api": "https://api.figshare.com/v2/account/articles/31847188",
+  "url_public_api": "https://api.figshare.com/v2/articles/31847188",
+  "url_private_html": "https://figshare.com/account/articles/31847188",
+  "url_public_html": "https://uvaauas.figshare.com/articles/dataset/IJmond_Industrial_Smoke_Segmentation_Dataset/31847188",
+  "timeline": {
+    "posted": "2026-03-24T22:01:07",
+    "firstOnline": "2026-03-24"
+  },
+  "resource_title": null,
+  "resource_doi": null
+}

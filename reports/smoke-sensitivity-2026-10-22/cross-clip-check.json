@@ -1,0 +1,80 @@
+[
+  {
+    "clip": "B01_backlit_plume",
+    "job_id": "5cdfb7c8-3951-47ae-90cc-6e29708ea5c8",
+    "frames": 483,
+    "label_provenance": "Prior assistant visual review; not independent ground truth",
+    "max_smoke_score": 0.32931819558143616,
+    "sweep": [
+      {
+        "threshold": 0.25,
+        "hit_frames": 1,
+        "temporal_intervals": 0,
+        "raw_intervals": 1
+      },
+      {
+        "threshold": 0.35,
+        "hit_frames": 0,
+        "temporal_intervals": 0,
+        "raw_intervals": 0
+      },
+      {
+        "threshold": 0.45,
+        "hit_frames": 0,
+        "temporal_intervals": 0,
+        "raw_intervals": 0
+      },
+      {
+        "threshold": 0.55,
+        "hit_frames": 0,
+        "temporal_intervals": 0,
+        "raw_intervals": 0
+      },
+      {
+        "threshold": 0.65,
+        "hit_frames": 0,
+        "temporal_intervals": 0,
+        "raw_intervals": 0
+      }
+    ]
+  },
+  {
+    "clip": "W04_factory_no_visible_smoke",
+    "job_id": "c7c921a4-87fb-44f0-8690-7df070a16fdc",
+    "frames": 75,
+    "label_provenance": "Prior assistant visual review; not independent ground truth",
+    "max_smoke_score": 0.7754728198051453,
+    "sweep": [
+      {
+        "threshold": 0.25,
+        "hit_frames": 75,
+        "temporal_intervals": 1,
+        "raw_intervals": 0
+      },
+      {
+        "threshold": 0.35,
+        "hit_frames": 75,
+        "temporal_intervals": 1,
+        "raw_intervals": 0
+      },
+      {
+        "threshold": 0.45,
+        "hit_frames": 75,
+        "temporal_intervals": 1,
+        "raw_intervals": 0
+      },
+      {
+        "threshold": 0.55,
+        "hit_frames": 75,
+        "temporal_intervals": 1,
+        "raw_intervals": 0
+      },
+      {
+        "threshold": 0.65,
+        "hit_frames": 69,
+        "temporal_intervals": 1,
+        "raw_intervals": 0
+      }
+    ]
+  }
+]

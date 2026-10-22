@@ -1,0 +1,242 @@
+[
+  {
+    "id": 0,
+    "entry": "train/images/neitherFireNorSmoke_CV013784_jpg.rf.99457fc791058d0912338b30710d3c47.jpg",
+    "path": "data/fasdd-cv-2026-10-22/visual-audit/00.jpg"
+  },
+  {
+    "id": 1,
+    "entry": "train/images/neitherFireNorSmoke_CV015767_jpg.rf.b31d6df8fe0a805174331aa66f6aa061.jpg",
+    "path": "data/fasdd-cv-2026-10-22/visual-audit/01.jpg"
+  },
+  {
+    "id": 2,
+    "entry": "train/images/neitherFireNorSmoke_CV023872_jpg.rf.d89acddfe3cc3c9499eaac764cc2624a.jpg",
+    "path": "data/fasdd-cv-2026-10-22/visual-audit/02.jpg"
+  },
+  {
+    "id": 3,
+    "entry": "train/images/neitherFireNorSmoke_CV032931_jpg.rf.2fa15e17355054e17957b98de6d090cd.jpg",
+    "path": "data/fasdd-cv-2026-10-22/visual-audit/03.jpg"
+  },
+  {
+    "id": 4,
+    "entry": "train/images/neitherFireNorSmoke_CV009666_jpg.rf.3e9765edc9a72e45b8ed770b67643ea4.jpg",
+    "path": "data/fasdd-cv-2026-10-22/visual-audit/04.jpg"
+  },
+  {
+    "id": 5,
+    "entry": "train/images/neitherFireNorSmoke_CV001317_jpg.rf.00853b4c87d79130a60b8435338aa4d7.jpg",
+    "path": "data/fasdd-cv-2026-10-22/visual-audit/05.jpg"
+  },
+  {
+    "id": 6,
+    "entry": "train/images/neitherFireNorSmoke_CV022376_jpg.rf.ae03c93583f8db751f571d76b720b7ee.jpg",
+    "path": "data/fasdd-cv-2026-10-22/visual-audit/06.jpg"
+  },
+  {
+    "id": 7,
+    "entry": "train/images/neitherFireNorSmoke_CV024810_jpg.rf.cf6983087efe22d186554ea3bfab099c.jpg",
+    "path": "data/fasdd-cv-2026-10-22/visual-audit/07.jpg"
+  },
+  {
+    "id": 8,
+    "entry": "train/images/neitherFireNorSmoke_CV007845_jpg.rf.eab74869fb1a949800a676baedf1f097.jpg",
+    "path": "data/fasdd-cv-2026-10-22/visual-audit/08.jpg"
+  },
+  {
+    "id": 9,
+    "entry": "train/images/neitherFireNorSmoke_CV032387_jpg.rf.5d6dc1701d7a4580d34794c8b56f991c.jpg",
+    "path": "data/fasdd-cv-2026-10-22/visual-audit/09.jpg"
+  },
+  {
+    "id": 10,
+    "entry": "train/images/neitherFireNorSmoke_CV019989_jpg.rf.62bd1a1ee302049957b1f4d44e532c7c.jpg",
+    "path": "data/fasdd-cv-2026-10-22/visual-audit/10.jpg"
+  },
+  {
+    "id": 11,
+    "entry": "train/images/neitherFireNorSmoke_CV018480_jpg.rf.aaf2b9d72d4ee6f4e405804e8db49f4f.jpg",
+    "path": "data/fasdd-cv-2026-10-22/visual-audit/11.jpg"
+  },
+  {
+    "id": 12,
+    "entry": "train/images/smoke_CV015256_jpg.rf.8e69f693a5c412042b9fb69e2b1772d8.jpg",
+    "path": "data/fasdd-cv-2026-10-22/visual-audit/12.jpg"
+  },
+  {
+    "id": 13,
+    "entry": "train/images/smoke_CV011939_jpg.rf.bd0656e137be7750d6f293a51356133e.jpg",
+    "path": "data/fasdd-cv-2026-10-22/visual-audit/13.jpg"
+  },
+  {
+    "id": 14,
+    "entry": "test/images/smoke_CV014178_jpg.rf.b1c086cdb126703afa8bf02ad0c4913c.jpg",
+    "path": "data/fasdd-cv-2026-10-22/visual-audit/14.jpg"
+  },
+  {
+    "id": 15,
+    "entry": "train/images/smoke_CV018866_jpg.rf.43473a636813df4abc25711ca504592f.jpg",
+    "path": "data/fasdd-cv-2026-10-22/visual-audit/15.jpg"
+  },
+  {
+    "id": 16,
+    "entry": "train/images/smoke_CV020022_jpg.rf.30238c3e9c859055821c092003ab11ac.jpg",
+    "path": "data/fasdd-cv-2026-10-22/visual-audit/16.jpg"
+  },
+  {
+    "id": 17,
+    "entry": "train/images/smoke_CV014868_jpg.rf.80818cbb2f6a5fe5afe1f933002a5fd5.jpg",
+    "path": "data/fasdd-cv-2026-10-22/visual-audit/17.jpg"
+  },
+  {
+    "id": 18,
+    "entry": "train/images/smoke_CV017267_jpg.rf.314cfbaf9436c28d4df923ee38dee37e.jpg",
+    "path": "data/fasdd-cv-2026-10-22/visual-audit/18.jpg"
+  },
+  {
+    "id": 19,
+    "entry": "train/images/smoke_CV015045_jpg.rf.85aa99f6c730e9b20761ed01fe972ae9.jpg",
+    "path": "data/fasdd-cv-2026-10-22/visual-audit/19.jpg"
+  },
+  {
+    "id": 20,
+    "entry": "train/images/smoke_CV022572_jpg.rf.8d4f846b72140fff440a5f23e4a6fb91.jpg",
+    "path": "data/fasdd-cv-2026-10-22/visual-audit/20.jpg"
+  },
+  {
+    "id": 21,
+    "entry": "train/images/smoke_CV023146_jpg.rf.4f740573e5bb0e2082986e90d6c87805.jpg",
+    "path": "data/fasdd-cv-2026-10-22/visual-audit/21.jpg"
+  },
+  {
+    "id": 22,
+    "entry": "valid/images/smoke_CV005455_jpg.rf.acbd0764e329d5ef561c8eaf94313e71.jpg",
+    "path": "data/fasdd-cv-2026-10-22/visual-audit/22.jpg"
+  },
+  {
+    "id": 23,
+    "entry": "train/images/smoke_CV022801_jpg.rf.6429f64c80a77ca4ba981ff68e686fef.jpg",
+    "path": "data/fasdd-cv-2026-10-22/visual-audit/23.jpg"
+  },
+  {
+    "id": 24,
+    "entry": "train/images/fire_CV003665_jpg.rf.d757a2e7596ad7cfe7c768a6e127d732.jpg",
+    "path": "data/fasdd-cv-2026-10-22/visual-audit/24.jpg"
+  },
+  {
+    "id": 25,
+    "entry": "train/images/fire_CV011341_jpg.rf.c0435341a9a6205c6a4cc54222379b96.jpg",
+    "path": "data/fasdd-cv-2026-10-22/visual-audit/25.jpg"
+  },
+  {
+    "id": 26,
+    "entry": "train/images/fire_CV005747_jpg.rf.d14c03dbbbdb9eac4f7edd57586fdb67.jpg",
+    "path": "data/fasdd-cv-2026-10-22/visual-audit/26.jpg"
+  },
+  {
+    "id": 27,
+    "entry": "train/images/fire_CV009909_jpg.rf.6a7be19a07c69dc1f2191ffa16f4f573.jpg",
+    "path": "data/fasdd-cv-2026-10-22/visual-audit/27.jpg"
+  },
+  {
+    "id": 28,
+    "entry": "train/images/fire_CV003161_jpg.rf.27f948860174cad129ebe508c31f8366.jpg",
+    "path": "data/fasdd-cv-2026-10-22/visual-audit/28.jpg"
+  },
+  {
+    "id": 29,
+    "entry": "train/images/fire_CV007143_jpg.rf.86789d8f0fe5b4ab4ec29893be0cc1a7.jpg",
+    "path": "data/fasdd-cv-2026-10-22/visual-audit/29.jpg"
+  },
+  {
+    "id": 30,
+    "entry": "train/images/fire_CV002822_jpg.rf.4981966426d18968f2b01f432750dc8a.jpg",
+    "path": "data/fasdd-cv-2026-10-22/visual-audit/30.jpg"
+  },
+  {
+    "id": 31,
+    "entry": "train/images/fire_CV010245_jpg.rf.9b39417751c0719832491b47c478ffac.jpg",
+    "path": "data/fasdd-cv-2026-10-22/visual-audit/31.jpg"
+  },
+  {
+    "id": 32,
+    "entry": "train/images/fire_CV009760_jpg.rf.189d086f6875b1ed6736690c92e22c5c.jpg",
+    "path": "data/fasdd-cv-2026-10-22/visual-audit/32.jpg"
+  },
+  {
+    "id": 33,
+    "entry": "train/images/fire_CV012043_jpg.rf.e1300210c3f060e47fcf32ddfa19c8ed.jpg",
+    "path": "data/fasdd-cv-2026-10-22/visual-audit/33.jpg"
+  },
+  {
+    "id": 34,
+    "entry": "train/images/fire_CV002582_jpg.rf.157ecfa9178f68c118c96c5e3cbde6ef.jpg",
+    "path": "data/fasdd-cv-2026-10-22/visual-audit/34.jpg"
+  },
+  {
+    "id": 35,
+    "entry": "train/images/fire_CV005109_jpg.rf.74101e365ca530092b7da46d9bca9712.jpg",
+    "path": "data/fasdd-cv-2026-10-22/visual-audit/35.jpg"
+  },
+  {
+    "id": 36,
+    "entry": "train/images/bothFireAndSmoke_CV004175_jpg.rf.b78d9d8dcb79775ac72d662368468dcf.jpg",
+    "path": "data/fasdd-cv-2026-10-22/visual-audit/36.jpg"
+  },
+  {
+    "id": 37,
+    "entry": "test/images/bothFireAndSmoke_CV002016_jpg.rf.0a17e216d74e35a5f314e314ffeebe36.jpg",
+    "path": "data/fasdd-cv-2026-10-22/visual-audit/37.jpg"
+  },
+  {
+    "id": 38,
+    "entry": "train/images/bothFireAndSmoke_CV002881_jpg.rf.8e050c2415cf66b56705c1bee7137261.jpg",
+    "path": "data/fasdd-cv-2026-10-22/visual-audit/38.jpg"
+  },
+  {
+    "id": 39,
+    "entry": "train/images/bothFireAndSmoke_CV005954_jpg.rf.3acc2816e72d3a444cec65338069777d.jpg",
+    "path": "data/fasdd-cv-2026-10-22/visual-audit/39.jpg"
+  },
+  {
+    "id": 40,
+    "entry": "train/images/bothFireAndSmoke_CV013760_jpg.rf.9fe20022fad2369359a52a7036f7e921.jpg",
+    "path": "data/fasdd-cv-2026-10-22/visual-audit/40.jpg"
+  },
+  {
+    "id": 41,
+    "entry": "train/images/bothFireAndSmoke_CV008648_jpg.rf.c5efdf84e57d592d1d36d447c6bca7c3.jpg",
+    "path": "data/fasdd-cv-2026-10-22/visual-audit/41.jpg"
+  },
+  {
+    "id": 42,
+    "entry": "train/images/bothFireAndSmoke_CV019181_jpg.rf.d16e0f3a57c75178adc433778e5bd281.jpg",
+    "path": "data/fasdd-cv-2026-10-22/visual-audit/42.jpg"
+  },
+  {
+    "id": 43,
+    "entry": "train/images/bothFireAndSmoke_CV010547_jpg.rf.a11c40fdbdbf634a9552192836733441.jpg",
+    "path": "data/fasdd-cv-2026-10-22/visual-audit/43.jpg"
+  },
+  {
+    "id": 44,
+    "entry": "train/images/bothFireAndSmoke_CV004976_jpg.rf.aba3bf6714700bd5cb3f389f9e76a811.jpg",
+    "path": "data/fasdd-cv-2026-10-22/visual-audit/44.jpg"
+  },
+  {
+    "id": 45,
+    "entry": "train/images/bothFireAndSmoke_CV004590_jpg.rf.a2b7b26a7d82b59b2a5dbd8051566ae5.jpg",
+    "path": "data/fasdd-cv-2026-10-22/visual-audit/45.jpg"
+  },
+  {
+    "id": 46,
+    "entry": "valid/images/bothFireAndSmoke_CV007730_jpg.rf.d3eeb34cd52798cbc9b88c0490eac3c2.jpg",
+    "path": "data/fasdd-cv-2026-10-22/visual-audit/46.jpg"
+  },
+  {
+    "id": 47,
+    "entry": "train/images/bothFireAndSmoke_CV014050_jpg.rf.1b28318b60db49b85e8d551ada8b0cff.jpg",
+    "path": "data/fasdd-cv-2026-10-22/visual-audit/47.jpg"
+  }
+]

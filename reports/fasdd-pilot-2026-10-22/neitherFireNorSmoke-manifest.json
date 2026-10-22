@@ -1,0 +1,290 @@
+[
+  {
+    "id": 0,
+    "entry": "train/images/neitherFireNorSmoke_CV000000_jpg.rf.303d0453ec7a3b700df98f60d9da659e.jpg"
+  },
+  {
+    "id": 1,
+    "entry": "train/images/neitherFireNorSmoke_CV000403_jpg.rf.0e29437206260fa7a84e6e4655d76cae.jpg"
+  },
+  {
+    "id": 2,
+    "entry": "test/images/neitherFireNorSmoke_CV001062_jpg.rf.abcadfcd17c9d3991529796c63ea32f6.jpg"
+  },
+  {
+    "id": 3,
+    "entry": "train/images/neitherFireNorSmoke_CV001636_jpg.rf.5f23542aa3feea2828dd27d0a7a6b2de.jpg"
+  },
+  {
+    "id": 4,
+    "entry": "train/images/neitherFireNorSmoke_CV002110_jpg.rf.f2917e204a48b2cd77bb85348058b9f9.jpg"
+  },
+  {
+    "id": 5,
+    "entry": "test/images/neitherFireNorSmoke_CV002697_jpg.rf.a7fafe2d3d65de70fb104dfe35fd0fa5.jpg"
+  },
+  {
+    "id": 6,
+    "entry": "train/images/neitherFireNorSmoke_CV003247_jpg.rf.e44de2313d8eeb74a03e48629b167394.jpg"
+  },
+  {
+    "id": 7,
+    "entry": "train/images/neitherFireNorSmoke_CV003701_jpg.rf.b3aba460f4b9e103f393f6df73c2ec23.jpg"
+  },
+  {
+    "id": 8,
+    "entry": "test/images/neitherFireNorSmoke_CV004375_jpg.rf.e8fc34fe02ed911d6f0c042f7e4a6a0d.jpg"
+  },
+  {
+    "id": 9,
+    "entry": "train/images/neitherFireNorSmoke_CV004853_jpg.rf.41a43cffd7140a823908d00f58c92e0c.jpg"
+  },
+  {
+    "id": 10,
+    "entry": "train/images/neitherFireNorSmoke_CV005298_jpg.rf.a56d9e0a676c4407a889ae3cf1106595.jpg"
+  },
+  {
+    "id": 11,
+    "entry": "train/images/neitherFireNorSmoke_CV005874_jpg.rf.7883b968d6cebc6202575adef99e9795.jpg"
+  },
+  {
+    "id": 12,
+    "entry": "train/images/neitherFireNorSmoke_CV006532_jpg.rf.e1c957ef860221d980acba142d81653a.jpg"
+  },
+  {
+    "id": 13,
+    "entry": "train/images/neitherFireNorSmoke_CV007311_jpg.rf.cc508482a2e5c821c91350a88581db92.jpg"
+  },
+  {
+    "id": 14,
+    "entry": "test/images/neitherFireNorSmoke_CV008040_jpg.rf.b7f88e837c76a562611ee2a983f8e0ab.jpg"
+  },
+  {
+    "id": 15,
+    "entry": "train/images/neitherFireNorSmoke_CV008974_jpg.rf.d8bed6566c0dea712858201642e30277.jpg"
+  },
+  {
+    "id": 16,
+    "entry": "valid/images/neitherFireNorSmoke_CV009667_jpg.rf.b8a85ee0ab16429a261275ea43fa08a3.jpg"
+  },
+  {
+    "id": 17,
+    "entry": "train/images/neitherFireNorSmoke_CV010160_jpg.rf.5980a66676e69256b534cee6d28feb11.jpg"
+  },
+  {
+    "id": 18,
+    "entry": "train/images/neitherFireNorSmoke_CV010568_jpg.rf.bfba16f60de459cbc54c75eb60767e56.jpg"
+  },
+  {
+    "id": 19,
+    "entry": "train/images/neitherFireNorSmoke_CV011245_jpg.rf.bcb1c1ed21e9c977032d4e88cc64bdbd.jpg"
+  },
+  {
+    "id": 20,
+    "entry": "train/images/neitherFireNorSmoke_CV011914_jpg.rf.3650a6f0a11a16e3eb50b5bed0486b63.jpg"
+  },
+  {
+    "id": 21,
+    "entry": "train/images/neitherFireNorSmoke_CV012296_jpg.rf.9b9c026cd223b4fad9eae6988d8655b9.jpg"
+  },
+  {
+    "id": 22,
+    "entry": "train/images/neitherFireNorSmoke_CV013150_jpg.rf.d5982d6b2ec06cd480693e7b34074d3a.jpg"
+  },
+  {
+    "id": 23,
+    "entry": "train/images/neitherFireNorSmoke_CV013560_jpg.rf.d3e48298d914588136bca7300dad3fe9.jpg"
+  },
+  {
+    "id": 24,
+    "entry": "valid/images/neitherFireNorSmoke_CV014012_jpg.rf.80ddcb889b5354d7566cda2c1068e8f8.jpg"
+  },
+  {
+    "id": 25,
+    "entry": "test/images/neitherFireNorSmoke_CV014400_jpg.rf.6c692a388a6088233b527ab0ff2d6713.jpg"
+  },
+  {
+    "id": 26,
+    "entry": "train/images/neitherFireNorSmoke_CV014943_jpg.rf.eb018573218faed57f518179f3abf072.jpg"
+  },
+  {
+    "id": 27,
+    "entry": "train/images/neitherFireNorSmoke_CV015605_jpg.rf.eff89e799f9f783a7ff2b17c2aee0e4d.jpg"
+  },
+  {
+    "id": 28,
+    "entry": "train/images/neitherFireNorSmoke_CV016106_jpg.rf.a3863e4b00db590e7165f060025e0e62.jpg"
+  },
+  {
+    "id": 29,
+    "entry": "train/images/neitherFireNorSmoke_CV016642_jpg.rf.40b68fd95f0475903d934dce7192973b.jpg"
+  },
+  {
+    "id": 30,
+    "entry": "valid/images/neitherFireNorSmoke_CV017113_jpg.rf.66fe92a3856e4d8deb6efac3bcbdacc1.jpg"
+  },
+  {
+    "id": 31,
+    "entry": "test/images/neitherFireNorSmoke_CV017542_jpg.rf.7bf497dc8e3e748d94e12fcdd16ff581.jpg"
+  },
+  {
+    "id": 32,
+    "entry": "train/images/neitherFireNorSmoke_CV018022_jpg.rf.aab791c97a9dd426522e48114335d710.jpg"
+  },
+  {
+    "id": 33,
+    "entry": "train/images/neitherFireNorSmoke_CV018538_jpg.rf.5acda75a9538bb40af9c52d49a332a3b.jpg"
+  },
+  {
+    "id": 34,
+    "entry": "test/images/neitherFireNorSmoke_CV018957_jpg.rf.7e8b1abe23bc05118f2a37bd1616670d.jpg"
+  },
+  {
+    "id": 35,
+    "entry": "train/images/neitherFireNorSmoke_CV019556_jpg.rf.c0d9aff1eb9316ddf586c6a05a3be553.jpg"
+  },
+  {
+    "id": 36,
+    "entry": "valid/images/neitherFireNorSmoke_CV020042_jpg.rf.d9118726e696184ec130d35c21513508.jpg"
+  },
+  {
+    "id": 37,
+    "entry": "train/images/neitherFireNorSmoke_CV020478_jpg.rf.6273c4f0f26e9af37d6a1dcea22391c5.jpg"
+  },
+  {
+    "id": 38,
+    "entry": "train/images/neitherFireNorSmoke_CV021049_jpg.rf.9a478f88424d4fe3e0b18c1651747fff.jpg"
+  },
+  {
+    "id": 39,
+    "entry": "valid/images/neitherFireNorSmoke_CV021951_jpg.rf.055c39f132b9a506d43514bbaa10772b.jpg"
+  },
+  {
+    "id": 40,
+    "entry": "train/images/neitherFireNorSmoke_CV022488_jpg.rf.fdf54b4e11b9f9663be6ef08e365a7e5.jpg"
+  },
+  {
+    "id": 41,
+    "entry": "train/images/neitherFireNorSmoke_CV023053_jpg.rf.b86cea06c817a6c4372d439b9547f830.jpg"
+  },
+  {
+    "id": 42,
+    "entry": "valid/images/neitherFireNorSmoke_CV023580_jpg.rf.c0e809d3fc917949b430b18d1052f747.jpg"
+  },
+  {
+    "id": 43,
+    "entry": "train/images/neitherFireNorSmoke_CV024063_jpg.rf.d69e62d945fb07a23c5dc7dc2e805317.jpg"
+  },
+  {
+    "id": 44,
+    "entry": "train/images/neitherFireNorSmoke_CV024645_jpg.rf.ba6bf7b66128246b3a6981d6d2ff4bc2.jpg"
+  },
+  {
+    "id": 45,
+    "entry": "train/images/neitherFireNorSmoke_CV025108_jpg.rf.11bf384d0cd4fdc74b69cd2c35aa8ff9.jpg"
+  },
+  {
+    "id": 46,
+    "entry": "train/images/neitherFireNorSmoke_CV025619_jpg.rf.3da8efe173fce58a6ae53524a019abac.jpg"
+  },
+  {
+    "id": 47,
+    "entry": "train/images/neitherFireNorSmoke_CV026164_jpg.rf.b649bd8095d23c95bd8cc50567b80872.jpg"
+  },
+  {
+    "id": 48,
+    "entry": "train/images/neitherFireNorSmoke_CV026778_jpg.rf.15e45440aec399ccee4b4457e4c9605e.jpg"
+  },
+  {
+    "id": 49,
+    "entry": "train/images/neitherFireNorSmoke_CV027345_jpg.rf.62b720ec2a2d3e9f95a234b938a9f73f.jpg"
+  },
+  {
+    "id": 50,
+    "entry": "train/images/neitherFireNorSmoke_CV027764_jpg.rf.adca41565566575071af5638422e7216.jpg"
+  },
+  {
+    "id": 51,
+    "entry": "test/images/neitherFireNorSmoke_CV028399_jpg.rf.d6e55c804a46a863520db0a8f381a2dc.jpg"
+  },
+  {
+    "id": 52,
+    "entry": "train/images/neitherFireNorSmoke_CV028958_jpg.rf.e9d8fcc30c309acc041484d4ab2d144a.jpg"
+  },
+  {
+    "id": 53,
+    "entry": "train/images/neitherFireNorSmoke_CV029513_jpg.rf.5cdff8291f6c533d99dcf89c9c5e16e0.jpg"
+  },
+  {
+    "id": 54,
+    "entry": "train/images/neitherFireNorSmoke_CV030068_jpg.rf.182ed41555e6fc6f29e8afb14b48776d.jpg"
+  },
+  {
+    "id": 55,
+    "entry": "test/images/neitherFireNorSmoke_CV030565_jpg.rf.b6e498e608aa982cbe0889de9bdfd043.jpg"
+  },
+  {
+    "id": 56,
+    "entry": "valid/images/neitherFireNorSmoke_CV031031_jpg.rf.80eb825b0b263b11d477bc6b2bb8ec58.jpg"
+  },
+  {
+    "id": 57,
+    "entry": "train/images/neitherFireNorSmoke_CV031981_jpg.rf.c43ed325a7faf9384a6074ae0b484f4b.jpg"
+  },
+  {
+    "id": 58,
+    "entry": "test/images/neitherFireNorSmoke_CV032789_jpg.rf.91fdc9e60e319ea58692c8beabd44c76.jpg"
+  },
+  {
+    "id": 59,
+    "entry": "train/images/neitherFireNorSmoke_CV033269_jpg.rf.ce180b3a654c7cc6235c226c6fbc1218.jpg"
+  },
+  {
+    "id": 60,
+    "entry": "train/images/neitherFireNorSmoke_CV033754_jpg.rf.412cd4c2639a9288f44be000c30ddd9c.jpg"
+  },
+  {
+    "id": 61,
+    "entry": "train/images/neitherFireNorSmoke_CV034148_jpg.rf.18df69d24e7ab69f6a7e6248a8799065.jpg"
+  },
+  {
+    "id": 62,
+    "entry": "train/images/neitherFireNorSmoke_CV034652_jpg.rf.dd37fdd73fbac559ac355cc6d1431d93.jpg"
+  },
+  {
+    "id": 63,
+    "entry": "test/images/neitherFireNorSmoke_CV035116_jpg.rf.7720e4b71ec143e00be61ebbdc2a0b20.jpg"
+  },
+  {
+    "id": 64,
+    "entry": "train/images/neitherFireNorSmoke_CV035590_jpg.rf.be996be859afcd24e1ce64c90303fa62.jpg"
+  },
+  {
+    "id": 65,
+    "entry": "train/images/neitherFireNorSmoke_CV036033_jpg.rf.3a86c768ab734ae4942e81789c8c4e93.jpg"
+  },
+  {
+    "id": 66,
+    "entry": "train/images/neitherFireNorSmoke_CV036467_jpg.rf.48acb9fba73463832ae66ad135f92984.jpg"
+  },
+  {
+    "id": 67,
+    "entry": "train/images/neitherFireNorSmoke_CV036970_jpg.rf.f08a19ced903fe833e09352cd98af3e1.jpg"
+  },
+  {
+    "id": 68,
+    "entry": "test/images/neitherFireNorSmoke_CV037553_jpg.rf.336ce6743710d7a72b7add64e08f0f97.jpg"
+  },
+  {
+    "id": 69,
+    "entry": "train/images/neitherFireNorSmoke_CV037985_jpg.rf.d0e809df68304e0b8d201e966fb0d048.jpg"
+  },
+  {
+    "id": 70,
+    "entry": "train/images/neitherFireNorSmoke_CV038730_jpg.rf.2cc6558592dfc65c88d5a8173ca3bd75.jpg"
+  },
+  {
+    "id": 71,
+    "entry": "train/images/neitherFireNorSmoke_CV039198_jpg.rf.2a8b2be1a2bf2bc263cabc77e693173d.jpg"
+  }
+]

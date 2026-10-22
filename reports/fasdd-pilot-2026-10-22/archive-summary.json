@@ -1,0 +1,18 @@
+{
+  "image_count": 95126,
+  "category_counts": {
+    "('train', 'bothFireAndSmoke')": 16063,
+    "('train', 'fire')": 9966,
+    "('train', 'neitherFireNorSmoke')": 31373,
+    "('train', 'smoke')": 18699,
+    "('valid', 'neitherFireNorSmoke')": 3860,
+    "('valid', 'bothFireAndSmoke')": 2045,
+    "('valid', 'fire')": 1274,
+    "('valid', 'smoke')": 2334,
+    "('test', 'bothFireAndSmoke')": 2018,
+    "('test', 'neitherFireNorSmoke')": 3881,
+    "('test', 'fire')": 1296,
+    "('test', 'smoke')": 2317
+  },
+  "uncompressed_bytes": 3367440415
+}

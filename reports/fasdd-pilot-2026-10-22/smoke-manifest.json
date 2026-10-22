@@ -1,0 +1,290 @@
+[
+  {
+    "id": 0,
+    "entry": "train/images/smoke_CV000001_jpg.rf.b4581b7f40b084c0539e00db876e4aec.jpg"
+  },
+  {
+    "id": 1,
+    "entry": "train/images/smoke_CV000654_jpg.rf.f4dd16a5954e401a30bb2486043c3575.jpg"
+  },
+  {
+    "id": 2,
+    "entry": "train/images/smoke_CV000993_jpg.rf.9ebc9874d18583eb36b73981aba2fbda.jpg"
+  },
+  {
+    "id": 3,
+    "entry": "train/images/smoke_CV001519_jpg.rf.9c7696748573d96904b6ca3b7744c9a4.jpg"
+  },
+  {
+    "id": 4,
+    "entry": "train/images/smoke_CV002086_jpg.rf.a7f17e4eec260f19d06ec02e96b32f81.jpg"
+  },
+  {
+    "id": 5,
+    "entry": "train/images/smoke_CV002327_jpg.rf.c6204e0edaec12f73396e29e38f50742.jpg"
+  },
+  {
+    "id": 6,
+    "entry": "train/images/smoke_CV002561_jpg.rf.a4c7419001f143c498c34d58b16bbeb9.jpg"
+  },
+  {
+    "id": 7,
+    "entry": "train/images/smoke_CV002978_jpg.rf.2d314df68fa852f0b68a7509987c6ce3.jpg"
+  },
+  {
+    "id": 8,
+    "entry": "train/images/smoke_CV003265_jpg.rf.d9bb3ccbde8b9280e3e4aa0079dbcbde.jpg"
+  },
+  {
+    "id": 9,
+    "entry": "train/images/smoke_CV003667_jpg.rf.e9b1d83049818eb23b41b7deadbfcf28.jpg"
+  },
+  {
+    "id": 10,
+    "entry": "train/images/smoke_CV003961_jpg.rf.85d18602fa5163e9a220f1167684fef6.jpg"
+  },
+  {
+    "id": 11,
+    "entry": "train/images/smoke_CV004276_jpg.rf.5f04970664cfb2fd14ac277d04f6bbd1.jpg"
+  },
+  {
+    "id": 12,
+    "entry": "train/images/smoke_CV004613_jpg.rf.6052c5b341f0dd7cad5a1a81c2baa6a7.jpg"
+  },
+  {
+    "id": 13,
+    "entry": "train/images/smoke_CV004937_jpg.rf.31bfb2210514367361757a1b1213f147.jpg"
+  },
+  {
+    "id": 14,
+    "entry": "train/images/smoke_CV005180_jpg.rf.fb5b1765d90bbe54a5adc8c3c372bb6f.jpg"
+  },
+  {
+    "id": 15,
+    "entry": "train/images/smoke_CV005580_jpg.rf.b749096c11dafed59d91f0880ed5f650.jpg"
+  },
+  {
+    "id": 16,
+    "entry": "train/images/smoke_CV005948_jpg.rf.618da068a431466884bab16658d09161.jpg"
+  },
+  {
+    "id": 17,
+    "entry": "train/images/smoke_CV006223_jpg.rf.996a3f081a1b0284e47d319c37859a79.jpg"
+  },
+  {
+    "id": 18,
+    "entry": "train/images/smoke_CV006497_jpg.rf.238ba8608738ab35e63268fc4d01b8d5.jpg"
+  },
+  {
+    "id": 19,
+    "entry": "train/images/smoke_CV006763_jpg.rf.ef00b4f6290a2436646f33110b704283.jpg"
+  },
+  {
+    "id": 20,
+    "entry": "valid/images/smoke_CV007004_jpg.rf.8a2a6bbe506bbdb9c4158c9d4ddff6f6.jpg"
+  },
+  {
+    "id": 21,
+    "entry": "train/images/smoke_CV007295_jpg.rf.69f2bc53274fa883ba4aa23a7482d321.jpg"
+  },
+  {
+    "id": 22,
+    "entry": "train/images/smoke_CV007689_jpg.rf.fb7a901e7bb4cca37f89ff455541c042.jpg"
+  },
+  {
+    "id": 23,
+    "entry": "train/images/smoke_CV008006_jpg.rf.4ace465ec1dbfbe0101cba42ee036c02.jpg"
+  },
+  {
+    "id": 24,
+    "entry": "train/images/smoke_CV008333_jpg.rf.44fefadfa4be87df5c998751c942338b.jpg"
+  },
+  {
+    "id": 25,
+    "entry": "train/images/smoke_CV008712_jpg.rf.1771dcc8d7dc40662ed5dfdcd01b234c.jpg"
+  },
+  {
+    "id": 26,
+    "entry": "train/images/smoke_CV008959_jpg.rf.c2e549539c715cba1b5e67fa5632f54a.jpg"
+  },
+  {
+    "id": 27,
+    "entry": "train/images/smoke_CV009222_jpg.rf.46d1d355e38c79f60bc90aec4040bead.jpg"
+  },
+  {
+    "id": 28,
+    "entry": "train/images/smoke_CV009574_jpg.rf.cbd96014d9e4882bb5228fa547bf1816.jpg"
+  },
+  {
+    "id": 29,
+    "entry": "train/images/smoke_CV009802_jpg.rf.f1766182a91bf4023beae692a84087a4.jpg"
+  },
+  {
+    "id": 30,
+    "entry": "train/images/smoke_CV010055_jpg.rf.24f91abab5ee5158ab1acc42b0327c09.jpg"
+  },
+  {
+    "id": 31,
+    "entry": "test/images/smoke_CV010485_jpg.rf.7dd2f1baffdad1cc0b9d5bda5ad072ed.jpg"
+  },
+  {
+    "id": 32,
+    "entry": "train/images/smoke_CV010841_jpg.rf.7cadcf734a6d4ce0f61df64c06bcfbc9.jpg"
+  },
+  {
+    "id": 33,
+    "entry": "train/images/smoke_CV011202_jpg.rf.139638dc11a5aeb377ec68cc3ff413db.jpg"
+  },
+  {
+    "id": 34,
+    "entry": "train/images/smoke_CV011548_jpg.rf.ca67caad4d40b25d158d0cd84faf8875.jpg"
+  },
+  {
+    "id": 35,
+    "entry": "train/images/smoke_CV011893_jpg.rf.27bcb18a0073c657e1a87a50adc26482.jpg"
+  },
+  {
+    "id": 36,
+    "entry": "train/images/smoke_CV012192_jpg.rf.abee7923116dae9e5f224bd7019ac393.jpg"
+  },
+  {
+    "id": 37,
+    "entry": "train/images/smoke_CV012469_jpg.rf.91d2f477cc19a55e10739e0b942cc3af.jpg"
+  },
+  {
+    "id": 38,
+    "entry": "test/images/smoke_CV012749_jpg.rf.444ea4294c906f9f4d9e62059c25d563.jpg"
+  },
+  {
+    "id": 39,
+    "entry": "test/images/smoke_CV013063_jpg.rf.ddc1afe392a588dabc2f7c443fa8a744.jpg"
+  },
+  {
+    "id": 40,
+    "entry": "test/images/smoke_CV013434_jpg.rf.1c82e54bce1699f5266ac02c41bd98ce.jpg"
+  },
+  {
+    "id": 41,
+    "entry": "valid/images/smoke_CV013748_jpg.rf.b2bff01400b714df233217bf58f3f53b.jpg"
+  },
+  {
+    "id": 42,
+    "entry": "train/images/smoke_CV013987_jpg.rf.1fe9aebbf9300f660b5f5535b67a3e05.jpg"
+  },
+  {
+    "id": 43,
+    "entry": "test/images/smoke_CV014331_jpg.rf.f3f0249039da3a46e79931eab6709839.jpg"
+  },
+  {
+    "id": 44,
+    "entry": "train/images/smoke_CV014680_jpg.rf.47c62e0a90057c792cf98d21fd141674.jpg"
+  },
+  {
+    "id": 45,
+    "entry": "train/images/smoke_CV014936_jpg.rf.cf721d264b23c199f0da588e1948a13c.jpg"
+  },
+  {
+    "id": 46,
+    "entry": "train/images/smoke_CV015174_jpg.rf.c873f3676c6a0e9c3850bedf6241ef9d.jpg"
+  },
+  {
+    "id": 47,
+    "entry": "train/images/smoke_CV015430_jpg.rf.9a702bf02159b0644cfa96b967477c54.jpg"
+  },
+  {
+    "id": 48,
+    "entry": "valid/images/smoke_CV015828_jpg.rf.7311021a82014ef739869dd17364c110.jpg"
+  },
+  {
+    "id": 49,
+    "entry": "train/images/smoke_CV016211_jpg.rf.2f89ea05276a3b8318165448a24528fb.jpg"
+  },
+  {
+    "id": 50,
+    "entry": "train/images/smoke_CV016963_jpg.rf.8fb72f4facd88e9b08ff5be963c4080c.jpg"
+  },
+  {
+    "id": 51,
+    "entry": "train/images/smoke_CV017182_jpg.rf.7cd5adadab6f115dd858e55e1abdec23.jpg"
+  },
+  {
+    "id": 52,
+    "entry": "train/images/smoke_CV017443_jpg.rf.da10897a973dc4d8188ebfcd9b746e3a.jpg"
+  },
+  {
+    "id": 53,
+    "entry": "train/images/smoke_CV017662_jpg.rf.74888ecb47038a23dca41ec0ac59e2d9.jpg"
+  },
+  {
+    "id": 54,
+    "entry": "train/images/smoke_CV018042_jpg.rf.1c9954df01d349d2d49537409ba4324b.jpg"
+  },
+  {
+    "id": 55,
+    "entry": "train/images/smoke_CV018634_jpg.rf.0d4301c1f88726d05e090faf13941b25.jpg"
+  },
+  {
+    "id": 56,
+    "entry": "train/images/smoke_CV018897_jpg.rf.eb3136d2bd2e0e3a92dc979821e4b534.jpg"
+  },
+  {
+    "id": 57,
+    "entry": "train/images/smoke_CV019247_jpg.rf.19555c536392138d5b1cd7d7ece5b9f9.jpg"
+  },
+  {
+    "id": 58,
+    "entry": "train/images/smoke_CV019533_jpg.rf.8b77d90e5c587e72008a0099ed149064.jpg"
+  },
+  {
+    "id": 59,
+    "entry": "train/images/smoke_CV019988_jpg.rf.bb89f025feb47a374132f05b36fc3ebf.jpg"
+  },
+  {
+    "id": 60,
+    "entry": "train/images/smoke_CV020330_jpg.rf.fc102c25c6ce5004b97ad0ff278793fe.jpg"
+  },
+  {
+    "id": 61,
+    "entry": "train/images/smoke_CV020640_jpg.rf.31aaa0f5955d97dc83fd869ff1af6f15.jpg"
+  },
+  {
+    "id": 62,
+    "entry": "train/images/smoke_CV021024_jpg.rf.c66550c819eb5aaf187d7227f2ec35be.jpg"
+  },
+  {
+    "id": 63,
+    "entry": "train/images/smoke_CV021244_jpg.rf.24c967a22c8b074fede6d8bf84458529.jpg"
+  },
+  {
+    "id": 64,
+    "entry": "train/images/smoke_CV021490_jpg.rf.055fde24d5ecb66a0b204969791e71a4.jpg"
+  },
+  {
+    "id": 65,
+    "entry": "train/images/smoke_CV021714_jpg.rf.9c2da1caae15491e94ae89d72459a985.jpg"
+  },
+  {
+    "id": 66,
+    "entry": "train/images/smoke_CV022002_jpg.rf.bb8d8161be31b3d05791c9d894371f84.jpg"
+  },
+  {
+    "id": 67,
+    "entry": "train/images/smoke_CV022245_jpg.rf.10b48f768a70c3a4f84d0a259ab43864.jpg"
+  },
+  {
+    "id": 68,
+    "entry": "train/images/smoke_CV022559_jpg.rf.de505e67dc7f1d39fc11dafa491fe9cb.jpg"
+  },
+  {
+    "id": 69,
+    "entry": "valid/images/smoke_CV022967_jpg.rf.1818326df01f46417f80d1b0cbd21d75.jpg"
+  },
+  {
+    "id": 70,
+    "entry": "train/images/smoke_CV023210_jpg.rf.cbef50cef2d13094eadbb8f5d45b81f0.jpg"
+  },
+  {
+    "id": 71,
+    "entry": "valid/images/smoke_CV023413_jpg.rf.b50ff43b5806c3afbb1898f7be7715c0.jpg"
+  }
+]

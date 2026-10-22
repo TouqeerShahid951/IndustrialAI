@@ -1,0 +1,20 @@
+[
+  {
+    "dataset": "FASDD_CV_mirror",
+    "requested_url": "https://huggingface.co/datasets/seawsurf/fire_smoke_dataset_fasdd_cv/resolve/main/FASDD_CV.zip",
+    "status": 206,
+    "content_range": "bytes 0-1023/3410626268",
+    "content_type": "application/zip",
+    "sample_magic": "504b0304140000080000b98bf55c1e80",
+    "archive_downloaded": false
+  },
+  {
+    "dataset": "IJmond",
+    "requested_url": "https://ndownloader.figshare.com/files/63066070",
+    "status": 206,
+    "content_range": "bytes 0-1023/266159976",
+    "content_type": "application/gzip",
+    "sample_magic": "1f8b0800f806c3690003ecbd0b909e59",
+    "archive_downloaded": false
+  }
+]

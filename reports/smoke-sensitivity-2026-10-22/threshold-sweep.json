@@ -1,0 +1,277 @@
+[
+  {
+    "threshold": 0.25,
+    "windows": {
+      "early_0_35": {
+        "total_frames": 1050,
+        "hit_frames": 283,
+        "max_score": 0.39739152789115906
+      },
+      "established_smoke_65_125": {
+        "total_frames": 1800,
+        "hit_frames": 1647,
+        "max_score": 0.8529219627380371
+      },
+      "late_140_161": {
+        "total_frames": 656,
+        "hit_frames": 134,
+        "max_score": 0.698675274848938
+      }
+    },
+    "events": [
+      {
+        "start": 0.8,
+        "end": 1.267,
+        "level": "raw"
+      },
+      {
+        "start": 4.567,
+        "end": 6.467,
+        "level": "temporal"
+      },
+      {
+        "start": 8.967,
+        "end": 13.5,
+        "level": "temporal"
+      },
+      {
+        "start": 15.667,
+        "end": 23.733,
+        "level": "temporal"
+      },
+      {
+        "start": 30.967,
+        "end": 34.533,
+        "level": "temporal"
+      },
+      {
+        "start": 45.533,
+        "end": 47.133,
+        "level": "temporal"
+      },
+      {
+        "start": 50.633,
+        "end": 147.533,
+        "level": "temporal"
+      }
+    ]
+  },
+  {
+    "threshold": 0.35,
+    "windows": {
+      "early_0_35": {
+        "total_frames": 1050,
+        "hit_frames": 7,
+        "max_score": 0.39739152789115906
+      },
+      "established_smoke_65_125": {
+        "total_frames": 1800,
+        "hit_frames": 1510,
+        "max_score": 0.8529219627380371
+      },
+      "late_140_161": {
+        "total_frames": 656,
+        "hit_frames": 75,
+        "max_score": 0.698675274848938
+      }
+    },
+    "events": [
+      {
+        "start": 11.967,
+        "end": 12.433,
+        "level": "raw"
+      },
+      {
+        "start": 51.133,
+        "end": 103.667,
+        "level": "temporal"
+      },
+      {
+        "start": 105.833,
+        "end": 146.267,
+        "level": "temporal"
+      }
+    ]
+  },
+  {
+    "threshold": 0.45,
+    "windows": {
+      "early_0_35": {
+        "total_frames": 1050,
+        "hit_frames": 0,
+        "max_score": 0.39739152789115906
+      },
+      "established_smoke_65_125": {
+        "total_frames": 1800,
+        "hit_frames": 1250,
+        "max_score": 0.8529219627380371
+      },
+      "late_140_161": {
+        "total_frames": 656,
+        "hit_frames": 32,
+        "max_score": 0.698675274848938
+      }
+    },
+    "events": [
+      {
+        "start": 52.133,
+        "end": 103.367,
+        "level": "temporal"
+      },
+      {
+        "start": 108.033,
+        "end": 132.0,
+        "level": "temporal"
+      },
+      {
+        "start": 134.567,
+        "end": 141.733,
+        "level": "temporal"
+      },
+      {
+        "start": 144.033,
+        "end": 145.733,
+        "level": "temporal"
+      }
+    ]
+  },
+  {
+    "threshold": 0.55,
+    "windows": {
+      "early_0_35": {
+        "total_frames": 1050,
+        "hit_frames": 0,
+        "max_score": 0.39739152789115906
+      },
+      "established_smoke_65_125": {
+        "total_frames": 1800,
+        "hit_frames": 907,
+        "max_score": 0.8529219627380371
+      },
+      "late_140_161": {
+        "total_frames": 656,
+        "hit_frames": 14,
+        "max_score": 0.698675274848938
+      }
+    },
+    "events": [
+      {
+        "start": 54.0,
+        "end": 59.367,
+        "level": "temporal"
+      },
+      {
+        "start": 64.367,
+        "end": 95.333,
+        "level": "temporal"
+      },
+      {
+        "start": 98.167,
+        "end": 103.333,
+        "level": "temporal"
+      },
+      {
+        "start": 108.033,
+        "end": 112.667,
+        "level": "temporal"
+      },
+      {
+        "start": 114.833,
+        "end": 131.933,
+        "level": "temporal"
+      },
+      {
+        "start": 136.333,
+        "end": 137.333,
+        "level": "raw"
+      },
+      {
+        "start": 141.267,
+        "end": 141.4,
+        "level": "raw"
+      },
+      {
+        "start": 144.067,
+        "end": 144.867,
+        "level": "raw"
+      }
+    ]
+  },
+  {
+    "threshold": 0.65,
+    "windows": {
+      "early_0_35": {
+        "total_frames": 1050,
+        "hit_frames": 0,
+        "max_score": 0.39739152789115906
+      },
+      "established_smoke_65_125": {
+        "total_frames": 1800,
+        "hit_frames": 524,
+        "max_score": 0.8529219627380371
+      },
+      "late_140_161": {
+        "total_frames": 656,
+        "hit_frames": 3,
+        "max_score": 0.698675274848938
+      }
+    },
+    "events": [
+      {
+        "start": 54.533,
+        "end": 56.267,
+        "level": "temporal"
+      },
+      {
+        "start": 58.667,
+        "end": 58.833,
+        "level": "raw"
+      },
+      {
+        "start": 65.867,
+        "end": 77.433,
+        "level": "temporal"
+      },
+      {
+        "start": 84.0,
+        "end": 95.167,
+        "level": "temporal"
+      },
+      {
+        "start": 98.733,
+        "end": 103.333,
+        "level": "temporal"
+      },
+      {
+        "start": 108.1,
+        "end": 109.8,
+        "level": "temporal"
+      },
+      {
+        "start": 111.867,
+        "end": 111.9,
+        "level": "raw"
+      },
+      {
+        "start": 115.233,
+        "end": 115.267,
+        "level": "raw"
+      },
+      {
+        "start": 118.3,
+        "end": 131.5,
+        "level": "temporal"
+      },
+      {
+        "start": 141.3,
+        "end": 141.333,
+        "level": "raw"
+      },
+      {
+        "start": 144.5,
+        "end": 144.567,
+        "level": "raw"
+      }
+    ]
+  }
+]
