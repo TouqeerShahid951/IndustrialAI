@@ -1,0 +1,21 @@
+{
+  "dataset_source": "https://doi.org/10.57760/sciencedb.j00104.00103",
+  "mirror": "https://huggingface.co/datasets/seawsurf/fire_smoke_dataset_fasdd_cv",
+  "mirror_revision": "896dec1",
+  "archive_sha256": "c7d34d3511fd3a4bd16fdf5412e974d3e31b8f1b400bc566d1f115a807f36152",
+  "published_license": "CC BY-SA 4.0; mirror card differs (CC BY 4.0); publisher terms retained for this local experiment",
+  "source_class_ids": {
+    "0": "fire",
+    "1": "smoke"
+  },
+  "training_class_ids": {
+    "0": "smoke",
+    "1": "fire"
+  },
+  "train_images": 176,
+  "val_images": 48,
+  "minimum_train_val_phash_distance": 16,
+  "manifest_sha256": "1d71e0af125224eff97530e8dd659cb6b80bcef1d3b3ca9deb056e337ac3bb92",
+  "independent_camera_provenance": false,
+  "weights_redistribution_or_deployment": false
+}

@@ -1,0 +1,19 @@
+{
+  "curated_images_and_labels_verified": 224,
+  "split_counts": {
+    "train": 176,
+    "val": 48
+  },
+  "unique_images": 224,
+  "shared_scene_groups": 0,
+  "minimum_train_val_phash_distance": 16,
+  "model_hashes_verified": true,
+  "app_baseline_pinned": true,
+  "candidate_run_sources": 34,
+  "candidate_frames": 17556,
+  "source_and_run_artifact_hashes_verified": true,
+  "benchmark_reports_replayed": 4,
+  "label_mapping_self_test": "passed",
+  "py_compile": "passed",
+  "fresh_reviewer": "no material findings"
+}

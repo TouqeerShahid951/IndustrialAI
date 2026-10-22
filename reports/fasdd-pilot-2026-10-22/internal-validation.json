@@ -1,0 +1,32 @@
+{
+  "baseline": {
+    "sha256": "b91633799ceb052c814b4f8b77a37efc9a40f002d528df97d74463585fa4f28f",
+    "path": "/Users/tabbasi/.cache/huggingface/hub/models--rabahdev--fire-smoke-yolov8n/snapshots/13017fe8af477c25f5298d168e2dfede4b000753/best.pt",
+    "metrics": {
+      "metrics/precision(B)": 0.6827883834255069,
+      "metrics/recall(B)": 0.43844252388433025,
+      "metrics/mAP50(B)": 0.5094179175267135,
+      "metrics/mAP50-95(B)": 0.28671184378357784,
+      "fitness": 0.28671184378357784
+    },
+    "class_maps": [
+      0.2862726470656055,
+      0.28715104050155005
+    ]
+  },
+  "candidate": {
+    "sha256": "54fc90c9ea43dfb95fc9c630e3292c2d6fdfaa3ae62e6245681e248a02bb1c66",
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/industrial-smoke-pilot/fasdd-curated-2026-10-22/weights/best.pt",
+    "metrics": {
+      "metrics/precision(B)": 0.6659428257034476,
+      "metrics/recall(B)": 0.4152027027027027,
+      "metrics/mAP50(B)": 0.4632608433057537,
+      "metrics/mAP50-95(B)": 0.2731247049613529,
+      "fitness": 0.2731247049613529
+    },
+    "class_maps": [
+      0.2820970154196987,
+      0.2641523945030069
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "counts": {
+    "('bothFireAndSmoke', '0,1')": 51,
+    "('fire', '1')": 38,
+    "('neitherFireNorSmoke', '')": 80,
+    "('smoke', '0')": 55
+  },
+  "mismatches": []
+}

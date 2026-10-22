@@ -1,0 +1,138 @@
+{
+  "sources": 34,
+  "total_frames": 17556,
+  "house": {
+    "baseline": {
+      "windows": {
+        "early_0_35": {
+          "frames": 1050,
+          "smoke_hit_frames": 283,
+          "fire_hit_frames": 0
+        },
+        "established_smoke_65_125": {
+          "frames": 1800,
+          "smoke_hit_frames": 1647,
+          "fire_hit_frames": 0
+        },
+        "late_140_162": {
+          "frames": 656,
+          "smoke_hit_frames": 134,
+          "fire_hit_frames": 0
+        }
+      },
+      "events": [
+        {
+          "kind": "smoke",
+          "start": 0.8,
+          "end": 1.267,
+          "level": "raw"
+        },
+        {
+          "kind": "smoke",
+          "start": 4.567,
+          "end": 6.467,
+          "level": "temporal"
+        },
+        {
+          "kind": "smoke",
+          "start": 8.967,
+          "end": 13.5,
+          "level": "temporal"
+        },
+        {
+          "kind": "smoke",
+          "start": 15.667,
+          "end": 23.733,
+          "level": "temporal"
+        },
+        {
+          "kind": "smoke",
+          "start": 30.967,
+          "end": 34.533,
+          "level": "temporal"
+        },
+        {
+          "kind": "smoke",
+          "start": 45.533,
+          "end": 47.133,
+          "level": "temporal"
+        },
+        {
+          "kind": "smoke",
+          "start": 50.633,
+          "end": 147.533,
+          "level": "temporal"
+        }
+      ]
+    },
+    "candidate": {
+      "windows": {
+        "early_0_35": {
+          "frames": 1050,
+          "smoke_hit_frames": 0,
+          "fire_hit_frames": 0
+        },
+        "established_smoke_65_125": {
+          "frames": 1800,
+          "smoke_hit_frames": 750,
+          "fire_hit_frames": 0
+        },
+        "late_140_162": {
+          "frames": 656,
+          "smoke_hit_frames": 37,
+          "fire_hit_frames": 0
+        }
+      },
+      "events": [
+        {
+          "kind": "smoke",
+          "start": 63.367,
+          "end": 65.433,
+          "level": "temporal"
+        },
+        {
+          "kind": "smoke",
+          "start": 67.933,
+          "end": 70.0,
+          "level": "temporal"
+        },
+        {
+          "kind": "smoke",
+          "start": 72.6,
+          "end": 75.433,
+          "level": "temporal"
+        },
+        {
+          "kind": "smoke",
+          "start": 77.467,
+          "end": 103.667,
+          "level": "temporal"
+        },
+        {
+          "kind": "smoke",
+          "start": 108.733,
+          "end": 109.1,
+          "level": "raw"
+        },
+        {
+          "kind": "smoke",
+          "start": 116.067,
+          "end": 137.867,
+          "level": "temporal"
+        },
+        {
+          "kind": "smoke",
+          "start": 143.867,
+          "end": 144.9,
+          "level": "raw"
+        },
+        {
+          "kind": "smoke",
+          "start": 148.6,
+          "end": 149.867,
+          "level": "temporal"
+        }
+      ]
+    }
+  }
+}

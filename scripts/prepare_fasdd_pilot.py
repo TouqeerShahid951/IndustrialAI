@@ -55,6 +55,10 @@ def main(archive,destination,report):
     root=Path(destination);out=Path(report);out.mkdir(parents=True,exist_ok=True)
     if root.exists():
         raise ValueError('Use a new dataset directory; existing work is preserved')
+    with Path(archive).open('rb') as handle:
+        digest=hashlib.file_digest(handle,'sha256').hexdigest()
+    if digest!='c7d34d3511fd3a4bd16fdf5412e974d3e31b8f1b400bc566d1f115a807f36152':
+        raise ValueError('Archive differs from the inspected, pinned FASDD mirror')
     z=zipfile.ZipFile(archive);names=set(z.namelist());rng=random.Random(42)
     pools=defaultdict(list);invalid=[]
     # Reserve the forest-heavy later smoke IDs; this is a visual screening rule, not a source identity.

@@ -1,0 +1,71 @@
+{
+  "sources": [
+    "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-candidates-2026-10-20/kmu-hard-negatives/smoke_or_flame_like_object_1.avi",
+    "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-candidates-2026-10-20/kmu-hard-negatives/smoke_or_flame_like_object_2.avi",
+    "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-candidates-2026-10-20/kmu-hard-negatives/smoke_or_flame_like_object_3.avi",
+    "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-candidates-2026-10-20/kmu-hard-negatives/smoke_or_flame_like_object_4.avi",
+    "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-direct-2026-10-20/ucf-crime/Arson012_x264.mp4",
+    "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-direct-2026-10-20/ucf-crime/Arson017_x264.mp4",
+    "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-direct-2026-10-20/ucf-crime/Arson049_x264.mp4",
+    "/Users/tabbasi/Downloads/IndustrialAI/data/cctv/firesense/smoke_pos_testpos05.821.avi",
+    "/Users/tabbasi/Downloads/IndustrialAI/data/cctv/helmet.mp4",
+    "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/bilkent/sBehindtheFence.avi",
+    "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/bilkent/sBtFence2.avi",
+    "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/bilkent/sEmptyR1.avi",
+    "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/bilkent/sEmptyR2.avi",
+    "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/bilkent/sParkingLot.avi",
+    "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/bilkent/sWasteBasket.avi",
+    "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/rise/0-1-2019-01-17-6007-928-6509-1430-320-320-4662-1547736675-1547736850.mp4",
+    "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/rise/0-12-2019-02-02-1626-1015-2129-1518-320-320-8513-1549135470-1549135645.mp4",
+    "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/rise/0-5-2018-10-07-4365-994-4867-1496-320-320-5237-1538921000-1538921175.mp4",
+    "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/rise/0-7-2019-01-18-3544-899-4026-1381-320-320-7989-1547835180-1547835355.mp4",
+    "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/rise/1-0-2019-02-02-3018-478-3536-996-320-320-8862-1549133815-1549133990.mp4",
+    "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/rise/1-0-2019-02-03-3018-478-3536-996-320-320-11373-1549234060-1549234235.mp4",
+    "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/rise/1-0-2019-02-03-3018-478-3536-996-320-320-8637-1549220140-1549220315.mp4",
+    "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/rise/1-0-2019-02-04-3018-478-3536-996-320-320-9191-1549308890-1549309065.mp4",
+    "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/rise/2-0-2019-02-03-2617-1625-3124-2132-320-320-5765-1549217710-1549217885.mp4",
+    "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/rise/2-0-2019-02-03-2617-1625-3124-2132-320-320-7349-1549227800-1549227975.mp4",
+    "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/rise/2-1-2018-06-12-874-1602-1380-2108-320-320-4691-1528809420-1528809605.mp4",
+    "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/rise/2-1-2018-06-12-874-1602-1380-2108-320-320-5807-1528816535-1528816710.mp4",
+    "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/workplace/0_te23.mp4",
+    "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/workplace/1_te11.mp4",
+    "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/workplace/2_te12.mp4",
+    "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/workplace/3_te8.mp4",
+    "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/workplace/4_te5.mp4",
+    "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/workplace/5_te13.mp4",
+    "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/workplace/6_te12.mp4",
+    "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/workplace/7_te4.mp4",
+    "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4"
+  ],
+  "sampled_frames": 2049,
+  "sample_hz": 2,
+  "matches": [
+    {
+      "id": 116,
+      "distance": 12,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-direct-2026-10-20/ucf-crime/Arson017_x264.mp4",
+      "frame": 1335,
+      "scene_group": "fire:block:5"
+    },
+    {
+      "id": 222,
+      "distance": 12,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/data/smoke-validation-candidates-2026-10-20/rise/0-1-2019-01-17-6007-928-6509-1430-320-320-4662-1547736675-1547736850.mp4",
+      "frame": 12,
+      "scene_group": "neitherFireNorSmoke:block:17"
+    },
+    {
+      "id": 579,
+      "distance": 10,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-direct-2026-10-20/ucf-crime/Arson012_x264.mp4",
+      "frame": 255,
+      "scene_group": "bothFireAndSmoke:block:24"
+    }
+  ],
+  "blocked_groups": [
+    "bothFireAndSmoke:block:24",
+    "fire:block:5",
+    "neitherFireNorSmoke:block:17"
+  ],
+  "limitations": "Perceptual matches plus manual source-family exclusions; absence of a match is not proof of independent camera provenance."
+}
