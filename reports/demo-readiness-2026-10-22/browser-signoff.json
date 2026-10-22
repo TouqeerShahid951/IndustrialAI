@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "date": "2026-10-22",
+  "desktop_css_viewport": [
+    1440,
+    1024
+  ],
+  "mobile_css_viewport": [
+    389,
+    843
+  ],
+  "mobile_scroll_width": 389,
+  "manual_dialog_client_and_scroll_width": 356,
+  "browser_warnings_errors": [],
+  "checks": [
+    "selected history evidence",
+    "Escape focus restoration",
+    "MP4 export selection",
+    "clip and manifest download",
+    "back to correct review",
+    "manual keep editing",
+    "manual explicit discard",
+    "mobile persistent save",
+    "mobile sign-out and sign-in"
+  ],
+  "export_job": "914ce195-382f-4f9a-bc30-59cd56cdded9",
+  "decoded_frames": 351,
+  "manifest_frames": 351,
+  "job_processed": 351,
+  "job_expected": 351
+}

@@ -2,7 +2,7 @@
 
 The local upload-to-review workflow runs with all five integrated pipelines. The audit found and fixed functional defects affecting repeat demonstrations and review reliability. This is a supervised development demo, not a production safety-system validation.
 
-The browser acceptance pass remains incomplete: a native confirmation over the old manual-observation dialog stalled the in-app browser's automation. The tool could neither dismiss the prompt nor close the affected tab. The user has been asked to dismiss it. Its replacement uses explicit in-form Keep editing / Discard observation controls and passes a regression test, but the final browser check is pending.
+The remaining browser acceptance checks now pass after the user dismissed the old blocked prompt. History, evidence downloads, manual-observation discard, narrow-screen review and operator sign-out/sign-in were verified on the repaired build. The app is ready for a supervised local demonstration within the limits below.
 
 ## Scope and evidence
 
@@ -30,7 +30,7 @@ Progress now retries after a connection failure, clears the stale network warnin
 ![Configured real CCTV source and all five options](06-setup-after-view.png)
 ![Real all-five completion](07-progress-after-view.png)
 
-## 3. Evidence review and decisions — core workflow passed; manual-dialog recheck pending
+## 3. Evidence review and decisions — passed
 
 Before: browser Back silently discarded a review draft. The old guard intercepted only anchor clicks, and sign-out bypassed it.
 
@@ -40,27 +40,35 @@ The W04 smoke candidate was inspected using source playback and recorded as a fa
 
 ![Draft preserved after declining Back navigation](08-review-draft-protected-view.png)
 
-The manual-observation form previously used inconsistent Cancel/X guards. Both now protect any changed field and use in-form Keep editing / Discard observation controls. The automated test covers retaining the chosen assessment and explicit discard. Browser verification of this final form is pending because the old native prompt stalled automation.
+The manual-observation form previously used inconsistent Cancel/X guards. Both now protect any changed field and use in-form Keep editing / Discard observation controls. The automated test covers retaining the chosen assessment and explicit discard. Browser verification now passes: Keep editing retained Uncertain; explicit Discard closed the form and restored focus without creating an incident. Both desktop and narrow form actions were exercised. The narrow dialog scrolls internally and has no horizontal overflow.
 
-## 4. Incident history — fixes pass automated checks; browser acceptance pending
+![Manual observation with in-form discard choices](16-mobile-manual-view.png)
+
+## 4. Incident history — passed
 
 Before: choosing a new incident retained the prior job/source/review history until sequential requests finished. This could briefly enable export against the wrong source. The details sheet did not provide modal focus trapping or Escape handling. Initial loading could display a misleading empty state.
 
 After: opening details clears prior evidence immediately; obsolete responses are ignored. Export remains disabled until the selected job, source and review history load together. Details reuse the native dialog component with unique accessible title IDs, Escape handling and focus restoration. Loading and retry states replace the premature empty state.
 
-The regression test delays the second incident's request and proves that export stays disabled until matching evidence arrives. The browser reached the filtered history list after saving the W04 review, but the stuck prompt prevented verification of the revised details interaction. `09-history-list-blocked.png` is retained only as blocker evidence, not as proof of a working details dialog.
+The regression test delays the second incident's request and proves that export stays disabled until matching evidence arrives. The resumed browser pass opened the selected B01 observation with the matching source still, uncertainty note and versioned review history. Escape closed details and returned focus to its View button. The old `09-history-list-blocked.png` is retained as historical blocker evidence only.
 
-![Original history details used to locate the issue](04-history-before-view.png)
+![Verified history details](10-history-verified-view.png)
 
-## 5. Exports and job recovery — live API/worker passed; revised UI acceptance pending
+## 5. Exports and job recovery — passed
 
 The fresh native acceptance journey passed JSON, CSV and MP4 creation, source manifest availability, authenticated byte-range downloads, anonymous download rejection, cancellation, retry and request idempotency. MP4 output frame mapping is checked against decoded conversion output. Export progress includes Back to review; library Activity exposes saved export jobs.
 
-The final history-to-export modal/download browser journey remains pending. There is no new screenshot claiming that path passed.
+The final browser pass selected MP4 from history, completed export job `914ce195-382f-4f9a-bc30-59cd56cdded9`, downloaded the clip and manifest, and returned to the correct B01 review. The downloaded MP4 decodes to 351 frames; its manifest contains 351 mappings and the completed job records exactly 351/351. Browser warning/error log was empty.
 
-## 6. Narrow layout and final sign-in — not reverified in this pass
+![Selected incident export dialog](11-export-dialog-view.png)
+![Completed export and download links](12-export-completed-view.png)
 
-The existing responsive layout and local authentication remain in place. New controls reuse the existing touch targets and native form elements. The final current-build narrow-screen and sign-out/sign-in checks are pending the browser unblock. Earlier reports are not treated as current audit evidence.
+## 6. Narrow layout and sign-in — passed
+
+At an effective 389×843 CSS viewport, the review document measured 389px scroll width: no horizontal overflow. The persistent Save action remained inside the viewport (approximately y789–833). The manual dialog measured 356px client and scroll width, with internal vertical scrolling and usable discard controls. Mobile menu, Sign out and password sign-in returned to the correct source workspace successfully. No credential was printed or captured. The viewport override was reset. The app is left signed in on the active review; a subsequent unsaved decision was preserved without further navigation.
+
+![Narrow review with persistent controls](15-mobile-review-top-view.png)
+![Operator sign-in at narrow width](17-mobile-login-view.png)
 
 ## Verification results
 
@@ -80,4 +88,4 @@ Detection accuracy remains the largest limitation. W04 produced a broad smoke fa
 
 This MVP has one local operator, a sequential worker and recorded-video uploads. It does not include live streams, external alert delivery, team roles or production deployment. Safari/WebKit and actual remote-client behavior require independent checks.
 
-Use `demo-runbook.md` for the presentation sequence, existing local review links and honest explanations of these limits. Complete the named browser checks before calling this a fully signed-off demo build.
+Use `demo-runbook.md` for the presentation sequence, existing local review links and honest explanations of these limits. The named browser checks are complete. This sign-off covers the supervised local demo workflow; model accuracy, other browser engines and actual remote-client compatibility remain separate validation work.
