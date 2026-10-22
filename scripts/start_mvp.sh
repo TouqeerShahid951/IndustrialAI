@@ -3,9 +3,7 @@ set -eu
 cd "$(dirname "$0")/.."
 MVP_PORT="${MVP_PORT:-8008}"
 .venv/bin/python -m backend.manage check
-if [[ ! -f frontend/dist/client/index.html ]]; then
-  npm --prefix frontend run build
-fi
+npm --prefix frontend run build
 .venv/bin/python -m backend.worker &
 MVP_WORKER_PID=$!
 trap 'kill "$MVP_WORKER_PID" 2>/dev/null || true' EXIT INT TERM

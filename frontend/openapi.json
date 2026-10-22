@@ -1282,6 +1282,20 @@
             ],
             "title": "Incident Count"
           },
+          "review_counts": {
+            "anyOf": [
+              {
+                "additionalProperties": {
+                  "type": "integer"
+                },
+                "type": "object"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Review Counts"
+          },
           "assessment": {
             "anyOf": [
               {

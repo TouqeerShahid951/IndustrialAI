@@ -78,11 +78,17 @@ def create_app(data_dir=None):
     def uploads():
         return [public_upload(u) for u in store.query('SELECT * FROM uploads ORDER BY created DESC')]
 
+    def public_job(job):
+        if job['kind']=='analyze':
+            counts=store.query('SELECT count(*) AS total, coalesce(sum(NOT EXISTS(SELECT 1 FROM reviews r WHERE r.incident_id=i.id)),0) AS unreviewed FROM incidents i WHERE i.job_id=?',(job['id'],))[0]
+            job=job | {'result':job['result'] | {'review_counts':counts}}
+        return job
+
     def public_upload(upload, detail=False):
         result={k:v for k,v in upload.items() if k != 'path'}
         if not detail:
             result['metadata']={k:v for k,v in upload['metadata'].items() if k not in ('frame_map','frames_preview')}
-        return result | {'jobs':store.query('SELECT * FROM jobs WHERE upload_id=? ORDER BY created DESC',(upload['id'],))}
+        return result | {'jobs':[public_job(j) for j in store.query('SELECT * FROM jobs WHERE upload_id=? ORDER BY created DESC',(upload['id'],))]}
 
     @app.post('/api/uploads', status_code=202)
     async def upload(request: Request):
@@ -138,7 +144,7 @@ def create_app(data_dir=None):
         result = store.job(jid)
         if not result:
             raise HTTPException(404, 'Job not found')
-        return result
+        return public_job(result)
 
     @app.post('/api/jobs/{jid}/cancel', response_model=JobRecord)
     def cancel(jid: str):

@@ -38,3 +38,13 @@ class ReviewTests(APITests):
             _,response=self.manual(**extra)
             self.assertEqual(response.status_code,422,response.text)
         self.assertEqual(self.client.app.state.store.incidents(),[])
+
+    def test_library_review_counts_follow_manual_and_saved_reviews(self):
+        store=self.client.app.state.store
+        iid=store.add_incident(self.job['id'],'smoke',1,2,{'level':'raw'})
+        self.manual()
+        result=self.client.get('/api/jobs/'+self.job['id']).json()['result']
+        self.assertEqual(result.get('review_counts'),{'total':2,'unreviewed':1})
+        store.review(iid,'false_alarm','reviewed',0,str(uuid4()))
+        upload=self.client.get('/api/uploads').json()[0]
+        self.assertEqual(upload['jobs'][0]['result']['review_counts'],{'total':2,'unreviewed':0})

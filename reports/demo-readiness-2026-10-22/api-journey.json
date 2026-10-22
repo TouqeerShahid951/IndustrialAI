@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "date": "2026-10-22T06:10:28.733Z",
+  "capabilities": [
+    "fire",
+    "smoke",
+    "smoking",
+    "no_helmet",
+    "intrusion"
+  ],
+  "exports": [
+    "json",
+    "csv",
+    "mp4"
+  ],
+  "checks": [
+    "upload",
+    "preview",
+    "job-idempotency",
+    "full-worker",
+    "manual-observation",
+    "review-audit",
+    "review-idempotency",
+    "private-range-download",
+    "cancel",
+    "retry"
+  ]
+}

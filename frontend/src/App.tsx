@@ -1,6 +1,6 @@
-import {useEffect,useState,type FormEvent} from 'react';
+import {useEffect,useRef,useState,type FormEvent} from 'react';
 import {UserCircle,CaretDown,SignOut,Eye,EyeSlash,List} from '@phosphor-icons/react';
-import {api,post,setCSRF} from './api';
+import {api,post,setCSRF,canLeave} from './api';
 import {ErrorMessage} from './components/UI';
 import {Uploads,Setup,Progress} from './pages/Uploads';
 import {Review} from './pages/Review';
@@ -14,10 +14,12 @@ function Login({onLogin}:{onLogin:()=>void}){
 
 export function App(){
  const [auth,setAuth]=useState<boolean|null>(null),[route,setRoute]=useState(location.hash.slice(1)||'/uploads'),[menu,setMenu]=useState(false);
- useEffect(()=>{api<{csrf:string}>('/session').then(s=>{setCSRF(s.csrf);setAuth(true);}).catch(()=>setAuth(false));const hash=()=>{setRoute(location.hash.slice(1)||'/uploads');setMenu(false);window.scrollTo(0,0);};const out=()=>setAuth(false);window.addEventListener('hashchange',hash);window.addEventListener('signedout',out);return()=>{window.removeEventListener('hashchange',hash);window.removeEventListener('signedout',out);};},[]);
+ const routeRef=useRef(route),[lastReview,setLastReview]=useState(sessionStorage.getItem('industrial:last-review')||'/uploads'),[error,setError]=useState('');
+ useEffect(()=>{if(route.startsWith('/review/')){setLastReview(route);sessionStorage.setItem('industrial:last-review',route);}},[route]);
+ useEffect(()=>{api<{csrf:string}>('/session').then(s=>{setCSRF(s.csrf);setAuth(true);}).catch(()=>setAuth(false));const hash=()=>{const next=location.hash.slice(1)||'/uploads';if(!next.startsWith('/'))return;if(next!==routeRef.current&&!canLeave()){history.replaceState(null,'','#'+routeRef.current);return;}routeRef.current=next;setRoute(next);setMenu(false);window.scrollTo(0,0);};const out=()=>setAuth(false);window.addEventListener('hashchange',hash);window.addEventListener('signedout',out);return()=>{window.removeEventListener('hashchange',hash);window.removeEventListener('signedout',out);};},[]);
  if(auth===null)return <div className="initial-loading">Opening local workspace…</div>;
  if(!auth)return <Login onLogin={()=>setAuth(true)}/>;
- async function signOut(){await api('/session',{method:'DELETE'});setAuth(false);}
+ async function signOut(){if(!canLeave())return;try{await api('/session',{method:'DELETE'});setAuth(false);setError('');}catch(e){setError((e as Error).message);}}
  const [section,id]=route.split('/').filter(Boolean),active=section==='history'?'history':section==='review'?'review':'uploads';
- return <><a className="skip-link" href="#main-content">Skip to content</a><header className="topbar"><a className="wordmark" href="#/uploads">Industrial AI</a><nav aria-label="Main navigation" className={menu?'open':''}>{[['uploads','Video library'],['review','Review'],['history','Incident history']].map(([value,label])=><a key={value} aria-current={active===value?'page':undefined} href={value==='review'?(section==='review'?location.hash:'#/uploads'):'#/'+value}>{label}</a>)}<button className="mobile-nav-action" onClick={signOut}><SignOut size={19}/>Sign out</button></nav><div className="operator"><UserCircle size={28}/><details><summary>Operator <CaretDown size={15}/></summary><button onClick={signOut}><SignOut size={19}/>Sign out</button></details></div><button className="icon-button mobile-menu" aria-label="Menu" aria-expanded={menu} onClick={()=>setMenu(!menu)}><List size={26}/></button></header><div id="main-content">{section==='setup'&&id?<Setup key={id} id={id}/>:section==='progress'&&id?<Progress key={id} id={id}/>:section==='review'&&id?<Review key={id} id={id}/>:section==='history'?<Incidents/>:<Uploads/>}</div></>;
+ return <><a className="skip-link" href="#main-content">Skip to content</a><header className="topbar"><a className="wordmark" href="#/uploads">Industrial AI</a><nav aria-label="Main navigation" className={menu?'open':''}>{[['uploads','Video library'],['review','Review'],['history','Incident history']].map(([value,label])=><a key={value} aria-current={active===value?'page':undefined} href={value==='review'?'#'+lastReview:'#/'+value}>{label}</a>)}<button className="mobile-nav-action" onClick={signOut}><SignOut size={19}/>Sign out</button></nav><div className="operator"><UserCircle size={28}/><details><summary>Operator <CaretDown size={15}/></summary><button onClick={signOut}><SignOut size={19}/>Sign out</button></details></div><button className="icon-button mobile-menu" aria-label="Menu" aria-expanded={menu} onClick={()=>setMenu(!menu)}><List size={26}/></button></header><div id="main-content"><ErrorMessage error={error}/>{section==='setup'&&id?<Setup key={id} id={id}/>:section==='progress'&&id?<Progress key={id} id={id}/>:section==='review'&&id?<Review key={id} id={id}/>:section==='history'?<Incidents/>:<Uploads/>}</div></>;
 }

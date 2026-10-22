@@ -1,0 +1,161 @@
+{
+  "id": "c7c921a4-87fb-44f0-8690-7df070a16fdc",
+  "status": "completed",
+  "processed": 75,
+  "expected": 75,
+  "config": {
+    "camera": "Factory floor W04 \u00b7 demo review",
+    "capabilities": [
+      "fire",
+      "smoke",
+      "smoking",
+      "no_helmet",
+      "intrusion"
+    ],
+    "device": "mps",
+    "models": {
+      "cigarette": "0ef558d3cf049d0acbb3f2322bc9e4e53db1a107426e3669622176c30c054d82",
+      "fire_smoke": "b91633799ceb052c814b4f8b77a37efc9a40f002d528df97d74463585fa4f28f",
+      "helmet": "05ed3a517485292d42d6eb6c9be3987ea51cd162e04807d2741eadcac8a19e6c",
+      "pose": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0"
+    },
+    "profile": {
+      "away_height": 0.25,
+      "confidence": 0.25,
+      "gesture_seconds": 8,
+      "imgsz": 640,
+      "keypoint_confidence": 0.5,
+      "merge_gap": 2.0,
+      "min_head_px": 12,
+      "min_hits": 3,
+      "min_person_px": 80,
+      "min_span_seconds": 1.0,
+      "near_height": 0.15,
+      "object_height": 0.2,
+      "overlap": 0.1,
+      "stride": 1,
+      "track_gap_seconds": 1,
+      "version": "development-1",
+      "window_seconds": 2.0,
+      "zone_dwell_seconds": 1,
+      "zone_exit_seconds": 2
+    },
+    "zones": [
+      {
+        "name": "Restricted zone",
+        "points": [
+          [
+            0.30000000000000004,
+            0.30000000000000004
+          ],
+          [
+            0.7000000000000002,
+            0.4
+          ],
+          [
+            0.8000000000000002,
+            0.8000000000000003
+          ],
+          [
+            0.2999999999999999,
+            0.9000000000000002
+          ]
+        ]
+      }
+    ]
+  },
+  "result": {
+    "profile": {
+      "version": "development-1",
+      "confidence": 0.25,
+      "imgsz": 640,
+      "stride": 1,
+      "min_hits": 3,
+      "min_span_seconds": 1.0,
+      "window_seconds": 2.0,
+      "overlap": 0.1,
+      "merge_gap": 2.0,
+      "min_head_px": 12,
+      "min_person_px": 80,
+      "keypoint_confidence": 0.5,
+      "near_height": 0.15,
+      "away_height": 0.25,
+      "object_height": 0.2,
+      "gesture_seconds": 8,
+      "track_gap_seconds": 1,
+      "zone_dwell_seconds": 1,
+      "zone_exit_seconds": 2
+    },
+    "capabilities": {
+      "fire": {
+        "status": "completed",
+        "assessability": "scene/person visibility requires review"
+      },
+      "smoke": {
+        "status": "completed",
+        "assessability": "scene/person visibility requires review"
+      },
+      "smoking": {
+        "status": "completed",
+        "assessability": "provisional rules; inspect evidence"
+      },
+      "no_helmet": {
+        "status": "completed",
+        "assessability": "provisional rules; inspect evidence"
+      },
+      "intrusion": {
+        "status": "completed",
+        "assessability": "provisional rules; inspect evidence"
+      }
+    },
+    "passes": {
+      "pose": {
+        "frames": 75,
+        "expected": 75,
+        "elapsed_seconds": 1.8284935840056278,
+        "sha256": "869e83fcdffdc7371fa4e34cd8e51c838cc729571d1635e5141e3075e9319dc0"
+      },
+      "fire_smoke": {
+        "frames": 75,
+        "expected": 75,
+        "elapsed_seconds": 1.3796127500245348,
+        "sha256": "b91633799ceb052c814b4f8b77a37efc9a40f002d528df97d74463585fa4f28f"
+      },
+      "helmet": {
+        "frames": 75,
+        "expected": 75,
+        "elapsed_seconds": 1.0919804170262069,
+        "sha256": "05ed3a517485292d42d6eb6c9be3987ea51cd162e04807d2741eadcac8a19e6c"
+      },
+      "cigarette": {
+        "frames": 75,
+        "expected": 75,
+        "elapsed_seconds": 3.1244337500538677,
+        "sha256": "0ef558d3cf049d0acbb3f2322bc9e4e53db1a107426e3669622176c30c054d82"
+      }
+    },
+    "raw_artifacts": {
+      "pose": "1110f5ae-b017-4af4-a74c-d759ca05f37b",
+      "fire_smoke": "258c0ab0-4125-4716-9183-02e3729d87bd",
+      "helmet": "5dd684d8-88b4-49a5-ae53-10391cbafde3",
+      "cigarette": "9cc9d99a-9a3e-4313-a1ea-48dab38f789e"
+    },
+    "assessment": {
+      "person_observations": 72,
+      "eligible_smoking_observations": 0,
+      "uncertain_intervals": [
+        {
+          "kind": "smoking",
+          "start": 0.0,
+          "end": 3.0,
+          "reason": "Missing, small or obscured person/face/wrist evidence"
+        }
+      ],
+      "smoking": "limited visibility / unassessable",
+      "no_helmet": "only explicit, associated no-helmet evidence emits candidates",
+      "intrusion": "clipped or lost tracks do not establish entry/exit"
+    },
+    "incident_count": 1
+  },
+  "error": null
+}

@@ -1,6 +1,6 @@
 import {useEffect,useRef,useState,type ReactNode} from 'react';
 import {Play,Pause,CaretLeft,CaretRight,ArrowsOut} from '@phosphor-icons/react';
-import {api,clock,toPreview,toSource,type Upload,type Job,type Incident} from '../api';
+import {api,clock,interval,toPreview,toSource,type Upload,type Job,type Incident} from '../api';
 type Observation={frame:number;time:number;model:string;boxes:{bbox:number[];canonical:string;class:string;track?:number}[]};
 export function EvidencePlayer({upload,job,time,onTime,incidents=[],children}:{upload:Upload;job?:Job;time:number;onTime:(t:number)=>void;incidents?:Incident[];children?:ReactNode}){
  const video=useRef<HTMLVideoElement>(null),canvas=useRef<HTMLCanvasElement>(null),container=useRef<HTMLDivElement>(null);
@@ -29,7 +29,7 @@ export function EvidencePlayer({upload,job,time,onTime,incidents=[],children}:{u
   </div>
   {mediaError&&<p className="attention" role="status">{mediaError}</p>}
   <div className="transport">{!frames&&<button className="icon-button" aria-label={playing?'Pause':'Play'} onClick={toggle}>{playing?<Pause size={24}/>:<Play size={24} weight="fill"/>}</button>}<button className="icon-button" aria-label="Previous frame" onClick={()=>step(-1)}><CaretLeft size={22}/></button><span className="clock">{clock(displayTime)} / {clock(duration)}</span><button className="icon-button" aria-label="Next frame" onClick={()=>step(1)}><CaretRight size={22}/></button><input aria-label="Seek source time" type="range" min="0" max={duration} step={frames?1:1/fps} value={time} onChange={e=>seek(Number(e.target.value))}/><button className="icon-button fullscreen" aria-label="Fullscreen evidence" onClick={()=>container.current?.requestFullscreen()}><ArrowsOut size={24}/></button></div>
-  {!!incidents.length&&<div className="incident-timeline" aria-label="Candidate intervals">{incidents.map(i=><button key={i.id} style={{left:`${i.start/duration*100}%`,width:`${Math.max(1,(i.end-i.start)/duration*100)}%`}} title={`${i.kind} ${clock(i.start)}–${clock(i.end)}`} aria-label={'Seek '+i.kind+' at '+clock(i.start)} onClick={()=>seek(i.start)}/>)}</div>}
+  {!!incidents.length&&<div className="incident-timeline" aria-label="Candidate intervals">{incidents.map(i=><button key={i.id} style={{left:`${i.start/duration*100}%`,width:`${Math.max(1,(i.end-i.start)/duration*100)}%`}} title={`${i.kind} ${interval(i.start,i.end)}`} aria-label={'Seek '+i.kind+' at '+clock(i.start)} onClick={()=>seek(i.start)}/>)}</div>}
   <div className="source-marks"><span>00:00</span><span>Original source time</span><span>{clock(duration)}</span></div>
  </div>;
 }

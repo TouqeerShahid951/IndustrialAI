@@ -98,6 +98,7 @@ def export_job(store,job,progress,cancelled):
         if cancelled():
             raise Cancelled()
         aid=store.add_artifact(upload['id'],'export',output,{'json':'application/json','csv':'text/csv','mp4':'video/mp4'}[suffix],output.name,job['id'])
+        progress('Evidence ready' if suffix=='mp4' else 'Report ready',len(mapping) if suffix=='mp4' else 1,len(mapping) if suffix=='mp4' else 1)
         return {'artifact_id':aid,**({'manifest_id':manifest_id} if suffix=='mp4' else {})}
     except BaseException:
         shutil.rmtree(directory,ignore_errors=True)

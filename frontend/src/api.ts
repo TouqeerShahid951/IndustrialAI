@@ -16,6 +16,7 @@ export async function api<T>(path:string, options:RequestInit={}):Promise<T>{
  if(!response.ok){const error=await response.json().catch(()=>({detail:'Connection failed'}));throw new Error(typeof error.detail==='string'?error.detail:'Check the fields and try again.');}
  return response.json();
 }
+export const canLeave=()=>window.dispatchEvent(new Event('before-route-change',{cancelable:true}));
 export const post=<T,>(path:string,body:unknown)=>api<T>(path,{method:'POST',body:JSON.stringify(body)});
 // Retain intent IDs until a response is received, including across reloads.
 export async function mutate<T>(path:string,payload:Record<string,unknown>):Promise<T>{
@@ -57,6 +58,7 @@ export function jobSummary(job:Job){
  if(job.status==='failed')return 'Analysis failed';
  if(job.status==='interrupted')return 'Interrupted · retry required';
  if(job.status==='cancelled')return 'Analysis cancelled';
+ if(job.status==='completed'&&job.result.review_counts?.total)return `${job.result.review_counts.total} observations · ${job.result.review_counts.unreviewed} unreviewed`;
  if(job.status==='completed')return job.result.incident_count===0?'No candidates detected · review visibility':`${job.result.incident_count??0} candidates to review`;
  return job.stage;
 }

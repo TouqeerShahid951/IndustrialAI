@@ -44,3 +44,9 @@ No actionable P0/P1/P2 design differences remain. Safari/WebKit and a real remot
 - [x] Earlier P2 findings fixed and revised captures compared.
 - [x] Desktop and narrow layouts, keyboard controls and focus indicators inspected.
 - [x] Actual media and saved states verified; console checked.
+
+## Demo-readiness follow-up — 22 October 2026
+
+Current-run functional/visual evidence is in [the follow-up audit](reports/demo-readiness-2026-10-22/report.md). The existing Graphite/Sage composition is retained. Library Activity and New analysis use existing tokens and native disclosure controls; history now reuses the accessible dialog; discard choices stay inside the manual form and dialog actions wrap on narrow widths. No dependencies were added.
+
+Current desktop screenshots verify library counts/actions, keyboard zone setup, all-five processing completion and preservation of an unsaved review after declining Back navigation. Backend 65 tests, frontend 14 tests, TypeScript, production build and the real API/MPS-worker journey passed. A native confirmation from the earlier manual form stalled the in-app browser during the audit. The revised history/export/manual-dialog and narrow-screen acceptance checks remain explicitly pending; the earlier completion statement above applies only to the previous pass. Do not infer current mobile or full-browser sign-off from it.

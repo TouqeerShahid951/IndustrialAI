@@ -1,0 +1,77 @@
+/Users/tabbasi/Downloads/IndustrialAI/.venv/lib/python3.12/site-packages/fastapi/testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+  from starlette.testclient import TestClient as TestClient  # noqa
+test_duplicate_and_wrong_class_do_not_inflate_matches (test_audit_metrics.MatchingCheck.test_duplicate_and_wrong_class_do_not_inflate_matches) ... ok
+test_group_leakage_and_duplicates (test_benchmark_data.ManifestChecks.test_group_leakage_and_duplicates) ... ok
+test_locked_test_quality_and_lock_changes (test_benchmark_data.ManifestChecks.test_locked_test_quality_and_lock_changes) ... ok
+test_malformed_rows_and_frame_labels_are_reported (test_benchmark_data.ManifestChecks.test_malformed_rows_and_frame_labels_are_reported) ... ok
+test_manifest_paths_hashes_and_annotations (test_benchmark_data.ManifestChecks.test_manifest_paths_hashes_and_annotations) ... ok
+test_unreviewed_labels_and_invalid_exclusion_kinds_rejected (test_benchmark_data.ManifestChecks.test_unreviewed_labels_and_invalid_exclusion_kinds_rejected) ... ok
+test_ambiguous_and_unmonitored_intervals_do_not_hide_observable_errors (test_benchmark_events.EventScoringChecks.test_ambiguous_and_unmonitored_intervals_do_not_hide_observable_errors) ... ok
+test_candidate_merging_is_separate_from_event_scoring (test_benchmark_events.EventScoringChecks.test_candidate_merging_is_separate_from_event_scoring) ... ok
+test_matches_delay_duplicates_and_wrong_class (test_benchmark_events.EventScoringChecks.test_matches_delay_duplicates_and_wrong_class) ... ok
+test_undefined_rates_and_validation (test_benchmark_events.EventScoringChecks.test_undefined_rates_and_validation) ... ok
+test_checkpoint_requires_one_model_and_existing_file (test_evaluate.EvaluationChecks.test_checkpoint_requires_one_model_and_existing_file) ... ok
+test_image_video_and_csv_with_fake_detector (test_evaluate.EvaluationChecks.test_image_video_and_csv_with_fake_detector) ... ok
+test_media_discovery_and_validation (test_evaluate.EvaluationChecks.test_media_discovery_and_validation) ... ok
+test_partial_archive_reads (test_fetch_firesense.RangeZipCheck.test_partial_archive_reads) ... ok
+test_cancel_is_atomic_with_claim_and_deletion_waits (test_mvp_acceptance.AcceptanceTests.test_cancel_is_atomic_with_claim_and_deletion_waits) ... ok
+test_delete_cleans_interrupted_unregistered_previews_only_for_upload (test_mvp_acceptance.AcceptanceTests.test_delete_cleans_interrupted_unregistered_previews_only_for_upload) ... ok
+test_deleted_upload_cannot_accept_a_late_job (test_mvp_acceptance.AcceptanceTests.test_deleted_upload_cannot_accept_a_late_job) ... ok
+test_logged_out_cookie_cannot_be_replayed (test_mvp_acceptance.AcceptanceTests.test_logged_out_cookie_cannot_be_replayed) ... ok
+test_media_limits_and_disk_guard (test_mvp_acceptance.AcceptanceTests.test_media_limits_and_disk_guard) ... ok
+test_auth_csrf_origin_logout (test_mvp_api.APITests.test_auth_csrf_origin_logout) ... ok
+test_invalid_session_and_rate_limit (test_mvp_api.APITests.test_invalid_session_and_rate_limit) ... ok
+test_auth_csrf_origin_logout (test_mvp_exports.ExportTests.test_auth_csrf_origin_logout) ... ok
+test_export_progress_finishes_at_the_exact_output_count (test_mvp_exports.ExportTests.test_export_progress_finishes_at_the_exact_output_count) ... ok
+test_invalid_intervals_and_notes_rollback (test_mvp_exports.ExportTests.test_invalid_intervals_and_notes_rollback) ... ok
+test_invalid_session_and_rate_limit (test_mvp_exports.ExportTests.test_invalid_session_and_rate_limit) ... ok
+test_json_csv_and_private_download (test_mvp_exports.ExportTests.test_json_csv_and_private_download) ... ok
+test_library_review_counts_follow_manual_and_saved_reviews (test_mvp_exports.ExportTests.test_library_review_counts_follow_manual_and_saved_reviews) ... ok
+test_manual_review_idempotency_and_audit (test_mvp_exports.ExportTests.test_manual_review_idempotency_and_audit) ... ok
+test_auth_csrf_origin_logout (tests.test_mvp_reviews.ReviewTests.test_auth_csrf_origin_logout) ... ok
+test_invalid_intervals_and_notes_rollback (tests.test_mvp_reviews.ReviewTests.test_invalid_intervals_and_notes_rollback) ... ok
+test_invalid_session_and_rate_limit (tests.test_mvp_reviews.ReviewTests.test_invalid_session_and_rate_limit) ... ok
+test_library_review_counts_follow_manual_and_saved_reviews (tests.test_mvp_reviews.ReviewTests.test_library_review_counts_follow_manual_and_saved_reviews) ... ok
+test_manual_review_idempotency_and_audit (tests.test_mvp_reviews.ReviewTests.test_manual_review_idempotency_and_audit) ... ok
+test_auth_csrf_origin_logout (tests.test_mvp_api.APITests.test_auth_csrf_origin_logout) ... ok
+test_invalid_session_and_rate_limit (tests.test_mvp_api.APITests.test_invalid_session_and_rate_limit) ... ok
+test_auth_csrf_origin_logout (test_mvp_media.MediaTests.test_auth_csrf_origin_logout) ... ok
+test_invalid_and_oversize_cleanup (test_mvp_media.MediaTests.test_invalid_and_oversize_cleanup) ... [mov,mp4,m4a,3gp,3g2,mj2 @ 0x7a72279e00] moov atom not found
+OpenCV: Couldn't read video stream from file "/private/var/folders/5s/vt3mmyr57tgdwhxrpvbgxl0r0000gn/T/tmpi_6irt1x/media/a00e4c08-2c10-4a71-b30e-a2ea8b870a3a.mp4"
+ok
+test_invalid_session_and_rate_limit (test_mvp_media.MediaTests.test_invalid_session_and_rate_limit) ... ok
+test_irregular_source_mapping (test_mvp_media.MediaTests.test_irregular_source_mapping) ... ok
+test_preview_mapping_ranges_and_private_access (test_mvp_media.MediaTests.test_preview_mapping_ranges_and_private_access) ... ok
+test_auth_csrf_origin_logout (tests.test_mvp_api.APITests.test_auth_csrf_origin_logout) ... ok
+test_invalid_session_and_rate_limit (tests.test_mvp_api.APITests.test_invalid_session_and_rate_limit) ... ok
+test_auth_csrf_origin_logout (test_mvp_reviews.ReviewTests.test_auth_csrf_origin_logout) ... ok
+test_invalid_intervals_and_notes_rollback (test_mvp_reviews.ReviewTests.test_invalid_intervals_and_notes_rollback) ... ok
+test_invalid_session_and_rate_limit (test_mvp_reviews.ReviewTests.test_invalid_session_and_rate_limit) ... ok
+test_library_review_counts_follow_manual_and_saved_reviews (test_mvp_reviews.ReviewTests.test_library_review_counts_follow_manual_and_saved_reviews) ... ok
+test_manual_review_idempotency_and_audit (test_mvp_reviews.ReviewTests.test_manual_review_idempotency_and_audit) ... ok
+test_ambiguous_association_and_explicit_helmet (test_mvp_rules.RuleTests.test_ambiguous_association_and_explicit_helmet) ... ok
+test_polygon_geometry (test_mvp_rules.RuleTests.test_polygon_geometry) ... ok
+test_smoking_requires_combined_same_track_cycle (test_mvp_rules.RuleTests.test_smoking_requires_combined_same_track_cycle) ... ok
+test_zone_initial_inside_dwell_exit_and_gap (test_mvp_rules.RuleTests.test_zone_initial_inside_dwell_exit_and_gap) ... ok
+test_ambiguous_association_resets_cycle_and_records_uncertainty (test_mvp_smoking.SmokingTests.test_ambiguous_association_resets_cycle_and_records_uncertainty) ... ok
+test_cigarette_in_other_hand_cannot_support_gesture (test_mvp_smoking.SmokingTests.test_cigarette_in_other_hand_cannot_support_gesture) ... ok
+test_small_missing_ambiguous_and_duplicate_evidence_abstains (test_mvp_smoking.SmokingTests.test_small_missing_ambiguous_and_duplicate_evidence_abstains) ... ok
+test_unassessable_source_intervals_are_explicit (test_mvp_smoking.SmokingTests.test_unassessable_source_intervals_are_explicit) ... ok
+test_persistence_idempotency_and_single_claim (test_mvp_storage.StorageTests.test_persistence_idempotency_and_single_claim) ... ok
+test_explicit_bytetrack_and_fresh_upload_state (test_mvp_tracking.TrackingTests.test_explicit_bytetrack_and_fresh_upload_state) ... ok
+test_full_source_and_cancel (test_mvp_worker.WorkerTests.test_full_source_and_cancel) ... ok
+test_worker_exclusion_failure_and_recovery (test_mvp_worker.WorkerTests.test_worker_exclusion_failure_and_recovery) ... OpenCV: Couldn't read video stream from file "/private/var/folders/5s/vt3mmyr57tgdwhxrpvbgxl0r0000gn/T/tmp46rez8ht/missing.mp4"
+ok
+test_observations_provenance_coverage_and_incomplete_runs (test_run_benchmark.BenchmarkPipelineChecks.test_observations_provenance_coverage_and_incomplete_runs) ... ok
+test_truncated_recording_has_only_one_sample_of_coverage (test_run_benchmark.BenchmarkPipelineChecks.test_truncated_recording_has_only_one_sample_of_coverage) ... ok
+test_models_do_not_share_detections (test_sampling_audit.SamplingAuditChecks.test_models_do_not_share_detections) ... ok
+test_spatial_persistence_and_empty_frames (test_temporal.TemporalCheck.test_spatial_persistence_and_empty_frames) ... ok
+test_elapsed_time_and_causal_confirmation (test_temporal.TimedTemporalChecks.test_elapsed_time_and_causal_confirmation) ... ok
+test_timestamp_validation_and_spatial_identity (test_temporal.TimedTemporalChecks.test_timestamp_validation_and_spatial_identity) ... ok
+
+----------------------------------------------------------------------
+Ran 65 tests in 9.164s
+
+OK
+fire_smoke: sample.avi: 2 frames, 2 detections
+fire_smoke: sample.jpg: 1 frames, 1 detections

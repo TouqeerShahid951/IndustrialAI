@@ -11,7 +11,7 @@ import {randomUUID} from 'node:crypto';
 test('authenticated upload, all-five worker, review audit, three exports, cancel and retry',{timeout:240000},async()=>{
  const root=resolve('..'),base=process.env.MVP_E2E_URL||'http://127.0.0.1:8008';
  assert.ok(new URL(base).hostname==='127.0.0.1'||new URL(base).hostname==='localhost','E2E must target loopback');
- const password=(await readFile(join(root,'var/mvp/operator-password.txt'),'utf8')).trim();
+ const password=process.env.MVP_E2E_PASSWORD||(await readFile(join(root,'var/mvp/operator-password.txt'),'utf8')).trim();
  const sessionResponse=await fetch(base+'/api/session',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({password})});
  assert.equal(sessionResponse.status,200);
  const session=await sessionResponse.json(),cookie=sessionResponse.headers.getSetCookie()[0].split(';')[0];

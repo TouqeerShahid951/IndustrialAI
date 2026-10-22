@@ -18,7 +18,7 @@ For remote access, forward the loopback port from your own computer (replace `us
 ssh -N -L 8008:127.0.0.1:8008 user@mac
 ```
 
-Then open the same localhost URL on that computer. The startup script binds locally; there is no public deployment.
+Then open the same localhost URL on that computer. The startup script rebuilds the current frontend before launching and binds locally; there is no public deployment.
 
 Fresh environment setup:
 
@@ -36,7 +36,7 @@ npm --prefix frontend run build
 
 ## Workflow and limits
 
-Upload a video, wait for preview preparation, select detections and draw a restricted polygon if intrusion is enabled. Start analysis, inspect machine candidates in the review workspace and save a confirmed, false-alarm or uncertain decision. Add missed observations manually. Incident history retains the append-only review trail. Export JSON details, CSV summaries or a selected MP4 clip with a separate source-frame manifest.
+Upload a video, wait for preview preparation, select detections and draw a restricted polygon if intrusion is enabled. Start analysis, inspect machine candidates in the review workspace and save a confirmed, false-alarm or uncertain decision. Add missed observations manually. The library supports New analysis without another upload, Activity links to earlier runs and exports, and search by filename or camera. Incident history retains the append-only review trail. Export JSON details, CSV summaries or a selected MP4 clip with a separate source-frame manifest.
 
 Uploads are limited to 250 MiB, five minutes, 1920×1080 and nominal 60 FPS. Workspace quota is 4 GiB with a 3 GiB free-disk guard. Models process every admitted source frame sequentially in one separate worker, keeping the API responsive. A stopped worker marks running jobs interrupted on restart; retry explicitly creates a new job. Delete is blocked until active jobs stop and removes the upload's associated files and reviews permanently.
 
@@ -49,11 +49,13 @@ These are development detectors and provisional temporal rules. A machine candid
 npm --prefix frontend test -- --run
 npm --prefix frontend run typecheck
 npm --prefix frontend run build
-# With the application running and its initial local credential file available:
+# With the application running (set MVP_E2E_PASSWORD if the initial password was rotated):
 npm --prefix frontend run test:e2e
 ```
 
 The last command exercises the real API, worker and all four pinned models with a disposable local fixture; it does not measure detection accuracy. Browser interaction checks and selected real development clips are documented in [implementation results](reports/mvp-implementation-2026-10-21/results.md). [Visual verification](design-qa.md) records the source mockup comparison. Safari/WebKit and a remotely connected client still require independent testing. A labeled, representative holdout set is required before deployment decisions.
+
+For a repeatable presentation, use the [five-minute demo guide](reports/demo-readiness-2026-10-22/demo-runbook.md).
 
 The original CLI evaluation workflow below remains available.
 

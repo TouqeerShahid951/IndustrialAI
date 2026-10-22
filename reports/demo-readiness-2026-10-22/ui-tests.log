@@ -1,0 +1,13 @@
+
+> frontend@0.0.0 test
+> vitest --run
+
+
+ RUN  v5.0.5 /Users/tabbasi/Downloads/IndustrialAI/frontend
+
+
+ Test Files  6 passed (6)
+      Tests  14 passed (14)
+   Start at  11:18:49
+   Duration  2.76s (import 54%, environment 35%, setup 5%, tests 3%, transform 2%)
+

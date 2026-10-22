@@ -106,6 +106,7 @@ class JobResult(BaseModel):
     model_config = ConfigDict(extra='allow')
     capabilities: dict[str,CapabilityResult] = Field(default_factory=dict)
     incident_count: int | None = None
+    review_counts: dict[str,int] | None = None
     assessment: Assessment | None = None
     artifact_id: str | None = None
     manifest_id: str | None = None

@@ -501,6 +501,10 @@ export interface components {
             };
             /** Incident Count */
             incident_count?: number | null;
+            /** Review Counts */
+            review_counts?: {
+                [key: string]: number;
+            } | null;
             assessment?: components["schemas"]["Assessment"] | null;
             /** Artifact Id */
             artifact_id?: string | null;
