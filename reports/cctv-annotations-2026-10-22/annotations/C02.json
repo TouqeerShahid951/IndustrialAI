@@ -1,0 +1,100 @@
+{
+  "review_status": "single_reviewer",
+  "reviewer": "assistant_visual_review",
+  "human_confirmed": false,
+  "user_authorized_assistant_review": true,
+  "annotation_version": "2026-10-22.1",
+  "review_id": "C02",
+  "source_sha256": "94bb8bb066a2a55db748c775751891c9d30307553da4faa7c5bfef0abd9bb966",
+  "duration_seconds": 29.999999999999996,
+  "reviewed_intervals": {
+    "fire": [
+      [
+        0,
+        29.999999999999996
+      ]
+    ],
+    "smoke": [
+      [
+        0,
+        29.999999999999996
+      ]
+    ]
+  },
+  "events": [],
+  "excluded_intervals": [],
+  "frames": [
+    {
+      "time_seconds": 0.0,
+      "frame_index": 0,
+      "image_width": 1280,
+      "image_height": 720,
+      "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C02/000000.jpg",
+      "image_sha256": "4cf7d131b00dbdbcd076df988863ec9db008bff9b6513b0ae2a8f8903a6c7daa",
+      "review_status": "reviewed",
+      "class_assessment": {
+        "fire": "absent_visible",
+        "smoke": "absent_visible"
+      },
+      "objects": [],
+      "localization_status": "reviewed_empty",
+      "nominal_parent_time_seconds": 0.0,
+      "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C02/annotated-000000.jpg"
+    },
+    {
+      "time_seconds": 16.035,
+      "frame_index": 401,
+      "image_width": 1280,
+      "image_height": 720,
+      "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C02/000401.jpg",
+      "image_sha256": "2cd75a15413d274697f083d827a05211743578e38d9620edd79bd2894937440b",
+      "review_status": "reviewed",
+      "class_assessment": {
+        "fire": "absent_visible",
+        "smoke": "absent_visible"
+      },
+      "objects": [],
+      "localization_status": "reviewed_empty",
+      "nominal_parent_time_seconds": 16.035,
+      "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C02/annotated-000401.jpg"
+    },
+    {
+      "time_seconds": 29.99,
+      "frame_index": 750,
+      "image_width": 1280,
+      "image_height": 720,
+      "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C02/000750.jpg",
+      "image_sha256": "56836cbfebd4f5f0a84c716481ad620c3d95fe98328140526684d72305afe240",
+      "review_status": "reviewed",
+      "class_assessment": {
+        "fire": "absent_visible",
+        "smoke": "absent_visible"
+      },
+      "objects": [],
+      "localization_status": "reviewed_empty",
+      "nominal_parent_time_seconds": 29.99,
+      "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C02/annotated-000750.jpg"
+    }
+  ],
+  "assessment": {
+    "fire": "absent_visible",
+    "smoke": "absent_visible"
+  },
+  "notes": "People move chairs and equipment in a clear room. No visible fire or smoke; no behavior/helmet labels assigned.",
+  "nuisance_tags": [],
+  "training_admission": "not_admitted",
+  "method": "Unannotated chronological 1-second factory / 2-second laboratory samples plus terminal frames, native-pixel flame/plume crops, and three selected box/negative frames per clip. No detector proposals or interpolation. Events are sampled visibility intervals, not exhaustive per-frame labels.",
+  "limitations": [
+    "Single assistant reviewer; not human-confirmed or independently reviewed.",
+    "Sub-sample transients can be missed; uncertain class intervals and incompletely localized frames are excluded from scoring/training.",
+    "Absence refers to visible evidence in the recorded view; it does not establish physical absence behind occlusion.",
+    "Only fire and combustion smoke annotated; no smoking behavior, helmet or restricted-area labels."
+  ],
+  "parent_source": {
+    "parent_id": "M04",
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/mmodalfire/Downtest_ch01_00000000002000300.mp4",
+    "sha256": "3f862452f3675fc85448b77ee238014f400e6aa1683d28645200c3b285b5721c",
+    "source_start_seconds": 0,
+    "time_mapping": "Nominal parent seconds = source trim offset + excerpt PTS. Native trim, variable-rate timing and camera-clock rounding prevent frame-exact cross-recording claims."
+  }
+}

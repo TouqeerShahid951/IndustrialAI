@@ -1,0 +1,102 @@
+{
+  "review_status": "single_reviewer",
+  "reviewer": "assistant_visual_review",
+  "human_confirmed": false,
+  "user_authorized_assistant_review": true,
+  "annotation_version": "2026-10-22.1",
+  "review_id": "C11",
+  "source_sha256": "4d616b7cea0ada8751e1a36d6be2738391b93b8365067f34b24aaad147ed765d",
+  "duration_seconds": 45.011,
+  "reviewed_intervals": {
+    "fire": [
+      [
+        0,
+        45.011
+      ]
+    ],
+    "smoke": [
+      [
+        0,
+        45.011
+      ]
+    ]
+  },
+  "events": [],
+  "excluded_intervals": [],
+  "frames": [
+    {
+      "time_seconds": 0.0,
+      "frame_index": 0,
+      "image_width": 1280,
+      "image_height": 720,
+      "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C11/000000.jpg",
+      "image_sha256": "08a435536e075a883ef9c2ae6cd4acaae3ad9ebe7312d6391c9da0b65240a01b",
+      "review_status": "reviewed",
+      "class_assessment": {
+        "fire": "absent_visible",
+        "smoke": "absent_visible"
+      },
+      "objects": [],
+      "localization_status": "reviewed_empty",
+      "nominal_parent_time_seconds": 420.0,
+      "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C11/annotated-000000.jpg"
+    },
+    {
+      "time_seconds": 24.018,
+      "frame_index": 601,
+      "image_width": 1280,
+      "image_height": 720,
+      "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C11/000601.jpg",
+      "image_sha256": "dd54929c022d2335a6d4441cd03f4a85f1b1f32f3325660f78c9c15e795030d9",
+      "review_status": "reviewed",
+      "class_assessment": {
+        "fire": "absent_visible",
+        "smoke": "absent_visible"
+      },
+      "objects": [],
+      "localization_status": "reviewed_empty",
+      "nominal_parent_time_seconds": 444.018,
+      "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C11/annotated-000601.jpg"
+    },
+    {
+      "time_seconds": 44.971,
+      "frame_index": 1125,
+      "image_width": 1280,
+      "image_height": 720,
+      "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C11/001125.jpg",
+      "image_sha256": "273f7e6c3c85107b996a8b4eccb3872685bd751732caaedb47ca375b145c65df",
+      "review_status": "reviewed",
+      "class_assessment": {
+        "fire": "absent_visible",
+        "smoke": "absent_visible"
+      },
+      "objects": [],
+      "localization_status": "reviewed_empty",
+      "nominal_parent_time_seconds": 464.971,
+      "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C11/annotated-001125.jpg"
+    }
+  ],
+  "assessment": {
+    "fire": "absent_visible",
+    "smoke": "absent_visible"
+  },
+  "notes": "Faint non-combustion aerosol during the source worksheet Mist4 window. Camera clock approximately 16:33. Treat as water-mist nuisance, not combustion smoke. No visible fire. Substance assignment uses the experiment record as well as appearance.",
+  "nuisance_tags": [
+    "water_mist_non_combustion"
+  ],
+  "training_admission": "not_admitted",
+  "method": "Unannotated chronological 1-second factory / 2-second laboratory samples plus terminal frames, native-pixel flame/plume crops, and three selected box/negative frames per clip. No detector proposals or interpolation. Events are sampled visibility intervals, not exhaustive per-frame labels.",
+  "limitations": [
+    "Single assistant reviewer; not human-confirmed or independently reviewed.",
+    "Sub-sample transients can be missed; uncertain class intervals and incompletely localized frames are excluded from scoring/training.",
+    "Absence refers to visible evidence in the recorded view; it does not establish physical absence behind occlusion.",
+    "Only fire and combustion smoke annotated; no smoking behavior, helmet or restricted-area labels."
+  ],
+  "parent_source": {
+    "parent_id": "M08",
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/mmodalfire/Downtest_ch01_00000000024000000.mp4",
+    "sha256": "94bcacd9f00d06f080a86d8ad6f99123d1154f221d1dba52343c577b0681ff80",
+    "source_start_seconds": 420,
+    "time_mapping": "Nominal parent seconds = source trim offset + excerpt PTS. Native trim, variable-rate timing and camera-clock rounding prevent frame-exact cross-recording claims."
+  }
+}

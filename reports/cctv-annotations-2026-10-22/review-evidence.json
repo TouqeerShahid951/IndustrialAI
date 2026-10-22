@@ -1,0 +1,4145 @@
+[
+  {
+    "clip_id": "F01",
+    "sample_step_seconds": 1,
+    "decoded_frames": 421,
+    "review_sheet_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F01-review.jpg",
+    "review_sheet_sha256": "211ccb2c4d62f8cf162099d28b1f52b313673b958670c1ab908c9270acf247c2",
+    "samples": [
+      {
+        "frame_index": 0,
+        "time_seconds": 0.0,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F01/000000.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "16ad0d8e9efeadc5a05acf06da156642a2fcb862ec0511aee4ebedbe3ee5cd8c"
+      },
+      {
+        "frame_index": 25,
+        "time_seconds": 1.008065,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F01/000025.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "31aae60e1341559366565de85cc9c93ede407bab9475cc7b2b76c5cecd532a1a"
+      },
+      {
+        "frame_index": 50,
+        "time_seconds": 2.016129,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F01/000050.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "08c3e54bb78c55be14c41488d2cf7caea863f32d7417c8f7ef66c1bd91d6efc1"
+      },
+      {
+        "frame_index": 75,
+        "time_seconds": 3.024194,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F01/000075.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "c2f6724e1d204aad0805cb8bda0382105e92fa586c43d1596cee299a2f6d85cd"
+      },
+      {
+        "frame_index": 100,
+        "time_seconds": 4.032258,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F01/000100.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "d8793349528df333e8b29de56e8da498df37328f7e0504ff5e413380956c17f1"
+      },
+      {
+        "frame_index": 124,
+        "time_seconds": 5.0,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F01/000124.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "f4a1fde943d351ef0fac8040bfa9375eef3b6efd59fc3a42b204554652043eae"
+      },
+      {
+        "frame_index": 149,
+        "time_seconds": 6.008065,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F01/000149.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "ff3f1fbf16eaee1003a7fa454c16825a48294478c91c8f3558b479cc891f7c1c"
+      },
+      {
+        "frame_index": 174,
+        "time_seconds": 7.016129,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F01/000174.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "3df9b3e749db51c018240c1fd169aee8cf8ea71053ed6e9868b350ea2ef9635e"
+      },
+      {
+        "frame_index": 199,
+        "time_seconds": 8.024194,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F01/000199.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "8e10e3455c34829d45262266d16a96df2ba678d9abefdfee4da62d3203b06259"
+      },
+      {
+        "frame_index": 224,
+        "time_seconds": 9.032258,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F01/000224.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "602c9eeeb13c11cc38b6673affdeda73d122c476673409a6989fff7dfb4ee218"
+      },
+      {
+        "frame_index": 248,
+        "time_seconds": 10.0,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F01/000248.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "f6b9c77ec77fddb70bc21e644348daa52688ffb199e813ce216e93d31b540828"
+      },
+      {
+        "frame_index": 273,
+        "time_seconds": 11.008065,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F01/000273.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "4570abc3dca88bfccb666e889fe8ce75f903110ffe10dc7e0e80663846cb6860"
+      },
+      {
+        "frame_index": 298,
+        "time_seconds": 12.016129,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F01/000298.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "0b27c55d24c241acae2aca98475a96b9d1338cde318c5d96fc4df771dc346e39"
+      },
+      {
+        "frame_index": 323,
+        "time_seconds": 13.024194,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F01/000323.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "445e50f90db5a25cb96550a4f3ac170b7e3672a93f840e6f39730b8d76dbc274"
+      },
+      {
+        "frame_index": 348,
+        "time_seconds": 14.032258,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F01/000348.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "31aa71f11bbd91ed67d3a0af6d3321689c4d533d5c0d88df428267170dde8b73"
+      },
+      {
+        "frame_index": 372,
+        "time_seconds": 15.0,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F01/000372.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "5bbc3075e9e7668e0a0b87de417ad5645ec3cc5cb98b2fe9e0a8c360de42ba76"
+      },
+      {
+        "frame_index": 397,
+        "time_seconds": 16.008065,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F01/000397.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "706623b74760ab0b669fb48622d34d78d202dd643671e2d430a6a4e315910fad"
+      },
+      {
+        "frame_index": 420,
+        "time_seconds": 16.935484,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F01/000420.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "fa0ea5b44d01c42d34bf731b592fc154107acd57fbe88779d5642404ebd52088"
+      }
+    ]
+  },
+  {
+    "clip_id": "F02",
+    "sample_step_seconds": 1,
+    "decoded_frames": 515,
+    "review_sheet_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F02-review.jpg",
+    "review_sheet_sha256": "f8aadb63a66d467bff4b83a7d229f47a59320ecdcc9c3e43c1d0b705a7c9dd90",
+    "samples": [
+      {
+        "frame_index": 0,
+        "time_seconds": 0.0,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F02/000000.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "342b0dd4240d95f45339dc303f90caab0286a9ff1d3f6c18b897f9c6dd6005f9"
+      },
+      {
+        "frame_index": 25,
+        "time_seconds": 1.008065,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F02/000025.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "b81659dff86d9da6bab267217a635a56d20e663349f7af52d334cd1233379dad"
+      },
+      {
+        "frame_index": 50,
+        "time_seconds": 2.016129,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F02/000050.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "f041f9eabc72c226c4930393560091c1369e42e34db085ea127cfa6a1cf9b62f"
+      },
+      {
+        "frame_index": 75,
+        "time_seconds": 3.024194,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F02/000075.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "6f779d0169fcc787f90aa38ae18e4109c3ad182374fd3c2447f821b3dd99a887"
+      },
+      {
+        "frame_index": 100,
+        "time_seconds": 4.032258,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F02/000100.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "5e32d13c3d2fa6ddbf700beee5403f3bb05cbe529593dbd98235364699f0bb1a"
+      },
+      {
+        "frame_index": 124,
+        "time_seconds": 5.0,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F02/000124.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "879105a37d7d2317abd6e5823a0f3638c8b1f9ea7d824378fed0432c653316fb"
+      },
+      {
+        "frame_index": 149,
+        "time_seconds": 6.008065,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F02/000149.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "e2eac85227ede23d9169f22111e08e23978c6366f0a4c55e56fb165eda10641c"
+      },
+      {
+        "frame_index": 174,
+        "time_seconds": 7.016129,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F02/000174.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "25e9649f03529a003f3ae9bfa33d438ebabc9ae4cda91c0c82a801cdd4601a99"
+      },
+      {
+        "frame_index": 199,
+        "time_seconds": 8.024194,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F02/000199.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "0e647e9eae21be4c0e8ba70d25c585e8aed84b1fe89c6b3305cc24b15a39edae"
+      },
+      {
+        "frame_index": 224,
+        "time_seconds": 9.032258,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F02/000224.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "e8512316eea9dd42eeebe07d47e65eba574a8e50df7fc563759db52f63c7fabd"
+      },
+      {
+        "frame_index": 248,
+        "time_seconds": 10.0,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F02/000248.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "71b7f77ba474332e3c5b41981ed8516d70d432e3d1941d0191766b9bc549070f"
+      },
+      {
+        "frame_index": 273,
+        "time_seconds": 11.008065,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F02/000273.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "285b0aa72fd5768bebb42637d9ae0793a0cda4b9bf5e32b178531991a7db3010"
+      },
+      {
+        "frame_index": 298,
+        "time_seconds": 12.016129,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F02/000298.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "c86d0a12a52cd85b229469adc886a53da03825b3669525bb89611d9d64601217"
+      },
+      {
+        "frame_index": 323,
+        "time_seconds": 13.024194,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F02/000323.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "3e22684a308f929cb00952576a65412eec823a3124ad79ed03ca196c233dc4a7"
+      },
+      {
+        "frame_index": 348,
+        "time_seconds": 14.032258,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F02/000348.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "5623540cd7f1f98575b88335ce8dc757e1908535738f796651c2ed68e4d513e2"
+      },
+      {
+        "frame_index": 372,
+        "time_seconds": 15.0,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F02/000372.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "24bd9ffbc9175c2a687e45ed7c2c1df90c2d7f9c70417fe92536b9831dc39e46"
+      },
+      {
+        "frame_index": 397,
+        "time_seconds": 16.008065,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F02/000397.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "679d67d822ca59e7d87611d8ab5c62e9ee8addb471659767eebb9862d4701db3"
+      },
+      {
+        "frame_index": 422,
+        "time_seconds": 17.016129,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F02/000422.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "e7e34cd63b5ddf5a1da3ca004955bdc63dd30466520f2ebb02552364a838e09e"
+      },
+      {
+        "frame_index": 447,
+        "time_seconds": 18.024194,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F02/000447.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "04dafb291d835d71508756b073d52b60c03dbe55d29fec76ebd46941ee48ede1"
+      },
+      {
+        "frame_index": 472,
+        "time_seconds": 19.032258,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F02/000472.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "1386b9cfca538ba1b09c832d1d44c201ad7cac3f89cf37b61715d687aaee37bd"
+      },
+      {
+        "frame_index": 496,
+        "time_seconds": 20.0,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F02/000496.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "5fcadb4bb196d2bbdd9121ff022a03a607cfaafe90104c48ffb117a5099fc560"
+      },
+      {
+        "frame_index": 514,
+        "time_seconds": 20.725806,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F02/000514.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "b335f13585830d7dcdec391332908881121d20e786e3626f600f5ba1b1188ae7"
+      }
+    ]
+  },
+  {
+    "clip_id": "F03",
+    "sample_step_seconds": 1,
+    "decoded_frames": 276,
+    "review_sheet_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F03-review.jpg",
+    "review_sheet_sha256": "234cd9899d0bedfad9e4d55a09458862e008a12b8cd8009a290f124730ddd3ff",
+    "samples": [
+      {
+        "frame_index": 0,
+        "time_seconds": 0.0,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F03/000000.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "bc7e4bfb90ce8eda62b8158e404d6bc40cfc34a718b1477ccf7e94f63099caee"
+      },
+      {
+        "frame_index": 26,
+        "time_seconds": 1.039169,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F03/000026.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "67a14730d8eccbf143a0a1b5fa8f1a65752d0a612d6c9427c704ad59c7522b23"
+      },
+      {
+        "frame_index": 51,
+        "time_seconds": 2.038369,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F03/000051.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "845cff8470db9d581cd416d6580e7d447325e688892daed32878535535936d34"
+      },
+      {
+        "frame_index": 76,
+        "time_seconds": 3.03757,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F03/000076.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "b4abee4d863206e830bf4807ff8c65a525faed8f2d04414130ac9438f06e37d7"
+      },
+      {
+        "frame_index": 101,
+        "time_seconds": 4.036771,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F03/000101.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "695881edca50d2a086724c271fd12f2b21ca571829bfbec3fdb9f86612b068f0"
+      },
+      {
+        "frame_index": 126,
+        "time_seconds": 5.035971,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F03/000126.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "40678a231a8c17cd50e2fddf055903a0dc362c34d0ae2e0d25bf1e8a079a448e"
+      },
+      {
+        "frame_index": 151,
+        "time_seconds": 6.035172,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F03/000151.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "5b3789b84099aae28a17f5cd6fa288966822d8d4435aa936027e974f3fb2fde8"
+      },
+      {
+        "frame_index": 176,
+        "time_seconds": 7.034373,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F03/000176.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "d2f151f1e711f65a86b2b827dc90aa8152c71e4464d961f0bab30b5a471fcd4c"
+      },
+      {
+        "frame_index": 201,
+        "time_seconds": 8.033573,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F03/000201.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "9e546f6bca98cd6214af5397437255b74cfbf78e9603352cfd0e7ac095dafbcc"
+      },
+      {
+        "frame_index": 226,
+        "time_seconds": 9.032774,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F03/000226.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "e9790a8e37c67bc8d0824845bdac0658610e047a14ec3143254db66c4e774797"
+      },
+      {
+        "frame_index": 251,
+        "time_seconds": 10.031974,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F03/000251.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "507b8fdcad6f9761d1db8ccd43118a647d0b4d1782089251c7202947580a78a0"
+      },
+      {
+        "frame_index": 275,
+        "time_seconds": 10.991207,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F03/000275.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "be6ef4691b3fcf293ceebc3c6ccebbfd1c649e947d7341ce86ca09bb69532325"
+      }
+    ]
+  },
+  {
+    "clip_id": "F04",
+    "sample_step_seconds": 1,
+    "decoded_frames": 325,
+    "review_sheet_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F04-review.jpg",
+    "review_sheet_sha256": "bc911df7bae1844ee739f94fc48a955507aefa394f190620a34011ba47da1321",
+    "samples": [
+      {
+        "frame_index": 0,
+        "time_seconds": 0.0,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F04/000000.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "ee0a3f5cfc6a4516da15afb5f55ffdd86d0c7d753dbc483d6f92ac24856cde89"
+      },
+      {
+        "frame_index": 25,
+        "time_seconds": 1.0,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F04/000025.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "adecd9a209b230f638dac233d85efcba93c6ea4d173d2458d5fdf68bbd70a42c"
+      },
+      {
+        "frame_index": 50,
+        "time_seconds": 2.0,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F04/000050.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "d3f83f10c83073397fea506652d4a8f9e19507a832945227004d8504261dbb68"
+      },
+      {
+        "frame_index": 75,
+        "time_seconds": 3.0,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F04/000075.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "7370439aa9b593110e190d5a5d6d9152087075c65c7213bbbfb1ace4f1ce00b6"
+      },
+      {
+        "frame_index": 100,
+        "time_seconds": 4.0,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F04/000100.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "d04f72036e4dc022fbdb065d94fccac41cd408600ec24c2f06b84e0a99b039e8"
+      },
+      {
+        "frame_index": 125,
+        "time_seconds": 5.0,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F04/000125.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "879bf34b92915ac023d48d8234a69616e26eadc277b504aec6c802b134633398"
+      },
+      {
+        "frame_index": 150,
+        "time_seconds": 6.0,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F04/000150.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "403fe4003f18bebffaeaaa65165162350659df30cabd09bf10ce95ca8687b482"
+      },
+      {
+        "frame_index": 175,
+        "time_seconds": 7.0,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F04/000175.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "ceb334ff411bc8eb3e8f3a777fd41c5e49bc658e56864df5525a0bafca38bdd4"
+      },
+      {
+        "frame_index": 200,
+        "time_seconds": 8.0,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F04/000200.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "839d7e3835deaef06688e41f1e9bc819a9ab4980181700e9b6a80cd0228b2d0a"
+      },
+      {
+        "frame_index": 225,
+        "time_seconds": 9.0,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F04/000225.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "1f4948359cfc8b49dc0fd09ec12c3ace96eedc0cdc34662691b070d2a26fe5a8"
+      },
+      {
+        "frame_index": 250,
+        "time_seconds": 10.0,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F04/000250.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "26e4755d09dcd15e4212b1cee898a181083517676ab895a403dd72726bdcf27d"
+      },
+      {
+        "frame_index": 275,
+        "time_seconds": 11.0,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F04/000275.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "ff19dca41a18913ca92fc02f0cc05e476619c1af21407388895825fec7c0beaf"
+      },
+      {
+        "frame_index": 300,
+        "time_seconds": 12.0,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F04/000300.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "11a26e02bc1906018d8f9e5b095d9ffafdc81237f0d4a85c5616c7fc65ba0069"
+      },
+      {
+        "frame_index": 324,
+        "time_seconds": 12.96,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F04/000324.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "896acbd083a66f3c29fd7b710af1539b2e6916304b6bc183296b4d8f8e54471d"
+      }
+    ]
+  },
+  {
+    "clip_id": "F05",
+    "sample_step_seconds": 1,
+    "decoded_frames": 392,
+    "review_sheet_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F05-review.jpg",
+    "review_sheet_sha256": "ec9f35d7ddf3c1620e820f93ba40dae98519a1b38b3d76c74a6e7c5d7df673f5",
+    "samples": [
+      {
+        "frame_index": 0,
+        "time_seconds": 0.0,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F05/000000.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "639a5ee64defbd7c72c263f2554861fc1a4762404b71e1a0d30df28b8645dd9c"
+      },
+      {
+        "frame_index": 26,
+        "time_seconds": 1.037096,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F05/000026.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "afed52ca6088c9006943d074c22c3f3d894164ad27c9767a513fecdfdecb2f5d"
+      },
+      {
+        "frame_index": 51,
+        "time_seconds": 2.034304,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F05/000051.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "af1dcd1ac8f673e877c0c189dd7286fbe26f88bab8f2c2906dd4fcc485a24db0"
+      },
+      {
+        "frame_index": 76,
+        "time_seconds": 3.031512,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F05/000076.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "5f5b1764729970546ed8e884ed9b786df9dc8675a50d46f34ee48230a7c2306c"
+      },
+      {
+        "frame_index": 101,
+        "time_seconds": 4.02872,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F05/000101.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "03babf89023b758fe805358ea84688155fea3bd4da15230584b218711a90b051"
+      },
+      {
+        "frame_index": 126,
+        "time_seconds": 5.025927,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F05/000126.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "1dc5240e256631ebd1c05bbed8af384327ac2ff2e395ce51a1cafd18ebb66341"
+      },
+      {
+        "frame_index": 151,
+        "time_seconds": 6.023135,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F05/000151.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "043bcb28a05650f86f7f052beefb9bf38f71db6ff8a2e44adf1e78857e96eb27"
+      },
+      {
+        "frame_index": 176,
+        "time_seconds": 7.020343,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F05/000176.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "74519dda0725ef18950fc33025921d7d158e1d8311e395a25985d1e07864a12c"
+      },
+      {
+        "frame_index": 201,
+        "time_seconds": 8.017551,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F05/000201.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "988b8ac1f11199d5591e6851be9f8039b698a1d41dfef427be35c0ae71f4b068"
+      },
+      {
+        "frame_index": 226,
+        "time_seconds": 9.014759,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F05/000226.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "b78c39cbfd72da2e32f503eb67ab20081f746ca324ec2377317865164d493f8f"
+      },
+      {
+        "frame_index": 251,
+        "time_seconds": 10.011966,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F05/000251.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "98b3d45908e2865a23e10d8ddc404378f4f1789959a1c4e187063bc8f4fa2b07"
+      },
+      {
+        "frame_index": 276,
+        "time_seconds": 11.009174,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F05/000276.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "000e8bdf5349c42e52687b1d819cc7bcd7dbbba1cdc802282bb7a20863cbbd41"
+      },
+      {
+        "frame_index": 301,
+        "time_seconds": 12.006382,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F05/000301.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "caac265a63924907a90d4d337cf142b9fa3c79c90ae696b2f65177894f89dc00"
+      },
+      {
+        "frame_index": 326,
+        "time_seconds": 13.00359,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F05/000326.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "781079c3c1a14ef61f046254b105313994a62511dc34ed752c83c9adb1db0025"
+      },
+      {
+        "frame_index": 351,
+        "time_seconds": 14.000798,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F05/000351.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "a8285260d786d255e81879e6625a12bb8aee0ed752cd116211ed5f1025a910f6"
+      },
+      {
+        "frame_index": 377,
+        "time_seconds": 15.037894,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F05/000377.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "54b5262c7c33b33af364fcee81b7f3672bebb22f42f1c97e9ab7ff4665a04d33"
+      },
+      {
+        "frame_index": 391,
+        "time_seconds": 15.59633,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F05/000391.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "0d06951e213a8f02f97e75fc97af9a1d3485f4a3e22de6155af1c8b3d1bd1f3d"
+      }
+    ]
+  },
+  {
+    "clip_id": "F06",
+    "sample_step_seconds": 1,
+    "decoded_frames": 374,
+    "review_sheet_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F06-review.jpg",
+    "review_sheet_sha256": "f02c5e3d02b341efeb58ca2558f92ebdd24951fcb650fc18254c9ab134ab3872",
+    "samples": [
+      {
+        "frame_index": 0,
+        "time_seconds": 0.0,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F06/000000.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "4418ad46226782f11e6abdecf42c81d7d33133d776b458ab6f4311d0d5441539"
+      },
+      {
+        "frame_index": 25,
+        "time_seconds": 1.00321,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F06/000025.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "fd2dcb2ad94251792b7ea788dafe49035ae4f193c9571c537b56bb78077dc194"
+      },
+      {
+        "frame_index": 50,
+        "time_seconds": 2.006421,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F06/000050.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "b065a2fd582d0561236399cbba29b580fe712098959575504673190ef88585e4"
+      },
+      {
+        "frame_index": 75,
+        "time_seconds": 3.009631,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F06/000075.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "eb18352fe9789ad08e29d044fc23fac3add0e35b6bb348d6d668f8f8bdd7d423"
+      },
+      {
+        "frame_index": 100,
+        "time_seconds": 4.012841,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F06/000100.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "6327f83a340744089efd413fa4a7b7bfffbf7bc8c4fad47944ce2aded7389fac"
+      },
+      {
+        "frame_index": 125,
+        "time_seconds": 5.016051,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F06/000125.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "27bcc10446adc7ad1c5da663c20395dcbd22f12e75426bb285a4ec9005836c1d"
+      },
+      {
+        "frame_index": 150,
+        "time_seconds": 6.019262,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F06/000150.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "047119af941303f08224df2b88d8e68248a9011d85eaf8fe02ed35a51b9ffb60"
+      },
+      {
+        "frame_index": 175,
+        "time_seconds": 7.022472,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F06/000175.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "d72f8c1b40025c14e5d0f951ffae99eda64db0a91f43d6c63389dcc5af9dba9f"
+      },
+      {
+        "frame_index": 200,
+        "time_seconds": 8.025682,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F06/000200.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "acf8ca0b39d45fac5cdca87c9ce6140e409775e475d7ee4582b20122a86c71ca"
+      },
+      {
+        "frame_index": 225,
+        "time_seconds": 9.028892,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F06/000225.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "2ff105d3d40c912edb07407ba6d21e78c87170850df38c07316300a2cff3b8e9"
+      },
+      {
+        "frame_index": 250,
+        "time_seconds": 10.032103,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F06/000250.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "98a90cb4948e3730384c1cae0cae9baf24f18aa1ba89518ade44d42effd65e3c"
+      },
+      {
+        "frame_index": 275,
+        "time_seconds": 11.035313,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F06/000275.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "2a86f34a52748ee838f0bb60d459ced2e5f56b1520879141ef36b841d0697ee8"
+      },
+      {
+        "frame_index": 300,
+        "time_seconds": 12.038523,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F06/000300.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "8a34c9866d8855f0c3fa187e10f97a5718e13186eeb280c4ecb6dbb677c5411f"
+      },
+      {
+        "frame_index": 324,
+        "time_seconds": 13.001605,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F06/000324.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "26f4b4a2e23fc118a90429c4fde8a0d44f05f8223c698d9324f0ac492187a47a"
+      },
+      {
+        "frame_index": 349,
+        "time_seconds": 14.004815,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F06/000349.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "659195b462799b7321741668c5756abc10f2433de70baa67301ac6be462627ff"
+      },
+      {
+        "frame_index": 373,
+        "time_seconds": 14.967897,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F06/000373.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "a193255ec60f9aaaa7b288e2a1cc59ddc1359603bac8fba47ca6f6faf5c13b64"
+      }
+    ]
+  },
+  {
+    "clip_id": "F07",
+    "sample_step_seconds": 1,
+    "decoded_frames": 150,
+    "review_sheet_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F07-review.jpg",
+    "review_sheet_sha256": "0d4e482d06e0afacd1becaa0eee89c0daea035e7edfcf2c21f06810d7f0db882",
+    "samples": [
+      {
+        "frame_index": 0,
+        "time_seconds": 0.0,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F07/000000.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "2474b975e46b9eb27b97fad101cb70e09ffb9579f182b5dc0b3cfd164f91ff49"
+      },
+      {
+        "frame_index": 25,
+        "time_seconds": 1.000801,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F07/000025.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "541c73fffc67bc7becdb87d8bfd8a4883ea53275cfd6b69be08364ffb3f386f7"
+      },
+      {
+        "frame_index": 50,
+        "time_seconds": 2.001601,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F07/000050.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "b941fff0ba68aa1d290b2573285e1f22e34503e6c0537ae7150b752244206299"
+      },
+      {
+        "frame_index": 75,
+        "time_seconds": 3.002402,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F07/000075.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "49121f90260b9b64ab03c74e7adb7c447e3f25502fbceff5406bd3c3e8cfe9b6"
+      },
+      {
+        "frame_index": 100,
+        "time_seconds": 4.003203,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F07/000100.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "f81c4a9177f80aa986ede03c97ce824a15efb7d06244d79f0905892cd5e63e5f"
+      },
+      {
+        "frame_index": 125,
+        "time_seconds": 5.004003,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F07/000125.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "c54fb002deb051a8741459e7df5e80987dc828bb30cba25a35beb3454696662d"
+      },
+      {
+        "frame_index": 149,
+        "time_seconds": 5.964772,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F07/000149.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "8a364afc00fa983437b375f1097ce3c42e1a67f68960cb865a4be054c6c21aa6"
+      }
+    ]
+  },
+  {
+    "clip_id": "F08",
+    "sample_step_seconds": 1,
+    "decoded_frames": 304,
+    "review_sheet_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F08-review.jpg",
+    "review_sheet_sha256": "fc36db0da8156872de8354a12c971e7f4b95b58abf75e5fe44e6365756409e35",
+    "samples": [
+      {
+        "frame_index": 0,
+        "time_seconds": 0.0,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F08/000000.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "8db9deb974b34e18dbdb4963bf0ae763993e8ceb7f392d7d6722abcaa65d0c14"
+      },
+      {
+        "frame_index": 25,
+        "time_seconds": 1.0,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F08/000025.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "0f7782c7c99dd984e4d7d1da498a16511c16c0e2c63b10d37e2c5e736d9cb332"
+      },
+      {
+        "frame_index": 51,
+        "time_seconds": 2.004453,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F08/000051.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "5f3905089b13f3f34ddba9b63164346e183e1f1779625b8941871537d97d79f1"
+      },
+      {
+        "frame_index": 76,
+        "time_seconds": 3.004453,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F08/000076.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "3fea9d6639953147b249ae0ff224cebc146b0ad0bb1d1acc8131cfe293b99e4f"
+      },
+      {
+        "frame_index": 101,
+        "time_seconds": 4.004453,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F08/000101.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "578bbbbca38d2630ef13e146ab9a884b92fe627fbcb9dd779d52d127ecba2418"
+      },
+      {
+        "frame_index": 126,
+        "time_seconds": 5.004453,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F08/000126.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "b7b10e0e9f3d7d0103a7b988e7decc33da40f4c66889160899c6344722e2d2f1"
+      },
+      {
+        "frame_index": 151,
+        "time_seconds": 6.004453,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F08/000151.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "9ce9d8ce9778933f8f276dd0dfe040e74f94e3ef6500c533c44322b57d91283b"
+      },
+      {
+        "frame_index": 176,
+        "time_seconds": 7.004453,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F08/000176.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "7ce9ecbfa6252044bb0bad88dc46f7002e8513f53c1cd6593e9aa874a47d72b4"
+      },
+      {
+        "frame_index": 201,
+        "time_seconds": 8.004453,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F08/000201.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "fa9c34a909a4599fc41690104bfd6562e34d66e923b9cf8b5182655af9b15f20"
+      },
+      {
+        "frame_index": 226,
+        "time_seconds": 9.004453,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F08/000226.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "858edb19415911b27ce4e523708fea1958431f1378f5492e56d1367853188903"
+      },
+      {
+        "frame_index": 251,
+        "time_seconds": 10.004453,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F08/000251.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "bc5f3ebada4f9d66e886f2380a75667bacc98cd6848603e64ccf4acc873f1936"
+      },
+      {
+        "frame_index": 276,
+        "time_seconds": 11.004453,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F08/000276.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "084d21779f540a64a2c8de53c371f702cef2b314a013a57b9417060e073d487f"
+      },
+      {
+        "frame_index": 301,
+        "time_seconds": 12.004453,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F08/000301.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "ce929d8aaf05e412674970c52a37390b04537959f17cf5163cc8c161a2e70b0e"
+      },
+      {
+        "frame_index": 303,
+        "time_seconds": 12.084453,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F08/000303.jpg",
+        "width": 1920,
+        "height": 1080,
+        "image_sha256": "66d90b04630a1454e52c3c6cb8954703a08271b250fabf9f7b0bae0d12fa6358"
+      }
+    ]
+  },
+  {
+    "clip_id": "C01",
+    "sample_step_seconds": 2,
+    "decoded_frames": 751,
+    "review_sheet_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C01-review.jpg",
+    "review_sheet_sha256": "368ad322e40c18fa34da013e3f74a00b1c3ab33765341d61c9b06021bd71635d",
+    "samples": [
+      {
+        "frame_index": 0,
+        "time_seconds": 0.0,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C01/000000.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "e5f40bb62be8329ce166601f51824e06b67889d8ffa6f35bad4d0fb71556c438"
+      },
+      {
+        "frame_index": 51,
+        "time_seconds": 2.022,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C01/000051.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "aaf03cd86098c361983ebdbfce1ed00680c0ecb18901fd1941b0c51a7222bccc"
+      },
+      {
+        "frame_index": 101,
+        "time_seconds": 4.022,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C01/000101.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "2d780ef413cefea4455c917c6f0a5f9417275c9544adbca460bd5e18b89e6de1"
+      },
+      {
+        "frame_index": 151,
+        "time_seconds": 6.021,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C01/000151.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "741e26188453dadb1d3e86d26fd6fb76d3abde15d7c3e4dfd5a0f0c4ca6ddfb4"
+      },
+      {
+        "frame_index": 201,
+        "time_seconds": 8.02,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C01/000201.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "501e048ae0214c3b8e33e2771b7f27fc0ce526c48578d638ef0d0f4a1e0cb5ce"
+      },
+      {
+        "frame_index": 251,
+        "time_seconds": 10.02,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C01/000251.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "367cf2c5f04554f890831b379942a18be8635f27b85c243ce952a452538b326d"
+      },
+      {
+        "frame_index": 301,
+        "time_seconds": 12.019,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C01/000301.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "817f9045b2dad9a4b59d07431a4a51521fad7526fd894f5c3dbe267bb84f350b"
+      },
+      {
+        "frame_index": 351,
+        "time_seconds": 14.019,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C01/000351.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "ee3c18580cceff0a1affce65771186a0fb9322f529e35d8281f4327a379816ad"
+      },
+      {
+        "frame_index": 401,
+        "time_seconds": 16.018,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C01/000401.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "1e8d51b0f9fe01aedd01cca06479520c71785e29f400c7da7b7f75e5d3e64000"
+      },
+      {
+        "frame_index": 451,
+        "time_seconds": 18.017,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C01/000451.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "acae9f4b6cdd2507a61a89e5b81dcef4017f8975fa9e4e831a9903ccd7bcb22e"
+      },
+      {
+        "frame_index": 501,
+        "time_seconds": 20.017,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C01/000501.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "1ca447eef3c8d28a7d080f70dcbef86d60dcf087af03a78ca5a77bf25e64236e"
+      },
+      {
+        "frame_index": 551,
+        "time_seconds": 22.016,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C01/000551.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "88b4a0a8a679d36a87f624cce7d444aec84168898ddb962e686f7598f5c69180"
+      },
+      {
+        "frame_index": 601,
+        "time_seconds": 24.015,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C01/000601.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "143e85fdb43a7543c232acaeff7d8bf8ef6f3ee5182fe143270d4de031a519f1"
+      },
+      {
+        "frame_index": 651,
+        "time_seconds": 26.015,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C01/000651.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "7a4e54df74308f33e57d7b7293ccaa9357bc1e511663224bc5eac7376764f2ee"
+      },
+      {
+        "frame_index": 701,
+        "time_seconds": 28.014,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C01/000701.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "1dd00c1693f2ac39f60e8926081e2004263e4ca0bdf8b9a46ab950c3d55a282c"
+      },
+      {
+        "frame_index": 750,
+        "time_seconds": 29.973,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C01/000750.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "f06339515360293323a3499c9f1df0fde4c74399beea1c1ff320380aeb8853bc"
+      }
+    ]
+  },
+  {
+    "clip_id": "C02",
+    "sample_step_seconds": 2,
+    "decoded_frames": 751,
+    "review_sheet_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C02-review.jpg",
+    "review_sheet_sha256": "84bd26c8db2aa9bf3d338eac5758510f5e7a3bdde3b2535a8e810356ecea44bc",
+    "samples": [
+      {
+        "frame_index": 0,
+        "time_seconds": 0.0,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C02/000000.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "4cf7d131b00dbdbcd076df988863ec9db008bff9b6513b0ae2a8f8903a6c7daa"
+      },
+      {
+        "frame_index": 51,
+        "time_seconds": 2.039,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C02/000051.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "34ea6b34106866db5e7327d75fd2627021620eab4490f5ad3e40dc1cf0c1b513"
+      },
+      {
+        "frame_index": 101,
+        "time_seconds": 4.038,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C02/000101.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "e760f4e5aa6195715b556480bd85d503cb3622514485fb730aae52ec50cdb54d"
+      },
+      {
+        "frame_index": 151,
+        "time_seconds": 6.038,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C02/000151.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "6952f8157b6234757488c515f95f85bde4aa58926d2bfa129f0ed617173920c3"
+      },
+      {
+        "frame_index": 201,
+        "time_seconds": 8.037,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C02/000201.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "b72c744b112ad3b7bcddb0d3039064f3f98b069997848639698a02ab1daec4b1"
+      },
+      {
+        "frame_index": 251,
+        "time_seconds": 10.037,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C02/000251.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "7545c86eeec4f30ad133741db84267917581f73cc481b774d8968ac290ec6276"
+      },
+      {
+        "frame_index": 301,
+        "time_seconds": 12.036,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C02/000301.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "b66df773e7f67c856a04df95d02972f5be4a5921bcb506a557e0f7e80eb8a2b7"
+      },
+      {
+        "frame_index": 351,
+        "time_seconds": 14.035,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C02/000351.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "29ed2f195a04c8ae980ee9b1be298755af1569464db7fe3cef15fb61439c2b90"
+      },
+      {
+        "frame_index": 401,
+        "time_seconds": 16.035,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C02/000401.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "2cd75a15413d274697f083d827a05211743578e38d9620edd79bd2894937440b"
+      },
+      {
+        "frame_index": 451,
+        "time_seconds": 18.034,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C02/000451.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "16d44531df25bcd4e2f969009f91fa4a4841f48b22abf272c3ad7b449e8529b5"
+      },
+      {
+        "frame_index": 501,
+        "time_seconds": 20.033,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C02/000501.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "37b2e48eea568c1f05c6b166aba0aafa7464bc04fd18bd99c397c397f3f6f66b"
+      },
+      {
+        "frame_index": 551,
+        "time_seconds": 22.033,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C02/000551.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "aeb61597e15ebe5fc7d0d0db3804b79cfb57ac841a34b4f82c61faad48a64f4c"
+      },
+      {
+        "frame_index": 601,
+        "time_seconds": 24.032,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C02/000601.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "3942bae22dacc5e357b8253a52dcabc751de30cae8231d78cb6db96f48445ac7"
+      },
+      {
+        "frame_index": 651,
+        "time_seconds": 26.031,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C02/000651.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "484f74369ecf81159f3b9d1969419b4a4190e5241178a7564bf3f8c521a18e82"
+      },
+      {
+        "frame_index": 701,
+        "time_seconds": 28.031,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C02/000701.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "de0ad545370c439aeef0d36073aeba201ee969294497618d061115597579a3b1"
+      },
+      {
+        "frame_index": 750,
+        "time_seconds": 29.99,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C02/000750.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "56836cbfebd4f5f0a84c716481ad620c3d95fe98328140526684d72305afe240"
+      }
+    ]
+  },
+  {
+    "clip_id": "C03",
+    "sample_step_seconds": 2,
+    "decoded_frames": 1501,
+    "review_sheet_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C03-review.jpg",
+    "review_sheet_sha256": "5866b33d7ad2c815f7c5ccac969df26da8c8d8d6188a7277cd92fef54f762e16",
+    "samples": [
+      {
+        "frame_index": 0,
+        "time_seconds": 0.0,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C03/000000.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "a975b276a11cce7d4f2c46cb4742fa6e3bf915596e236bbc2f6c54cf73d68fa6"
+      },
+      {
+        "frame_index": 51,
+        "time_seconds": 2.022,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C03/000051.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "a492671f5509a1d155fa53aaa1a56928c0ccc0b223fe863d4412539f961d78d6"
+      },
+      {
+        "frame_index": 101,
+        "time_seconds": 4.022,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C03/000101.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "11eace0752b0aacd31bd6e169741cd244f8e55262a56cadf0ac8cf9789c93114"
+      },
+      {
+        "frame_index": 151,
+        "time_seconds": 6.021,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C03/000151.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "3d215dd7501a9e06f1f4ea36f7984415657e16369402afed3f6cd085117e91f7"
+      },
+      {
+        "frame_index": 201,
+        "time_seconds": 8.02,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C03/000201.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "f52a5f6ab192a6553e97bca0e46b0eff623edaf5c50b0e162f6d1bb7c474d2dc"
+      },
+      {
+        "frame_index": 251,
+        "time_seconds": 10.02,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C03/000251.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "4f53da82c39f65fcb0b524218e396d1f6defc01ca819bfe1d4fc92a2d0931ae0"
+      },
+      {
+        "frame_index": 301,
+        "time_seconds": 12.019,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C03/000301.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "00f8620df48712c738a3444522203ef232f17feba2ff5390ff2ccc56848fde2c"
+      },
+      {
+        "frame_index": 351,
+        "time_seconds": 14.018,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C03/000351.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "21c0c190306f0bd51254cc4b1d614dd455eaed315f4a43569396f38d2e0e0590"
+      },
+      {
+        "frame_index": 401,
+        "time_seconds": 16.018,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C03/000401.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "a1becee0d87cc4fb03f4639bc14e6dfdbdd1227e62ae4ead6fd0fc63079b6e0c"
+      },
+      {
+        "frame_index": 451,
+        "time_seconds": 18.017,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C03/000451.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "fed07516c7092cb949f995f2b4fcf80ea0e796cff07023ef8d3f23683bcf1ad8"
+      },
+      {
+        "frame_index": 501,
+        "time_seconds": 20.016,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C03/000501.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "775525f5705034aef5d427fce1676c4b862b1061b81a2bd1b328affd5df5f764"
+      },
+      {
+        "frame_index": 551,
+        "time_seconds": 22.016,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C03/000551.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "8f92fc543ea427f6a02ea46c44482d2c22831c2069b1b4f40a06b3be66b2415c"
+      },
+      {
+        "frame_index": 601,
+        "time_seconds": 24.015,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C03/000601.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "f836954cca6ec456142d0177e1a720ac86ba0a85bfc6d12476cde944913d59f5"
+      },
+      {
+        "frame_index": 651,
+        "time_seconds": 26.015,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C03/000651.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "cd7bd885b68653d5b2be7afab8f5ce2e4352d174f43e0dd846c2c1a9ee672b2c"
+      },
+      {
+        "frame_index": 701,
+        "time_seconds": 28.014,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C03/000701.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "3cad8c3c9b82d4f17531804b5a99bc209906648c20956d19c97702ec67e1ca66"
+      },
+      {
+        "frame_index": 751,
+        "time_seconds": 30.013,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C03/000751.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "068a1abe5324b474c47e8d7fb4862a8c086479be30bc8cd124e6cd3d7bd1216c"
+      },
+      {
+        "frame_index": 801,
+        "time_seconds": 32.013,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C03/000801.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "c7f3b1ae4df90c9914a930690795abdf697fa2750d5cc2c81a164a946b31d706"
+      },
+      {
+        "frame_index": 851,
+        "time_seconds": 34.012,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C03/000851.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "889561cf61c10e50114be05034559007fd6fea60cbd267cf41b0aef48d075947"
+      },
+      {
+        "frame_index": 901,
+        "time_seconds": 36.011,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C03/000901.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "296332d3dfe7905288541692fe1135146c51967566634b5dd8d7cbd12c91f932"
+      },
+      {
+        "frame_index": 951,
+        "time_seconds": 38.011,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C03/000951.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "df56ec8c7fe533d4c98dd2634d3258e36d62dda017c31339ea37e4d98464628f"
+      },
+      {
+        "frame_index": 1001,
+        "time_seconds": 40.01,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C03/001001.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "331ec25122ec87859d3c919a573f84a5d2f492985327c1e08958d23262407d61"
+      },
+      {
+        "frame_index": 1051,
+        "time_seconds": 42.009,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C03/001051.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "13f0ec192dad35b4a7fdbfff28d1b127dc737807a50511c79d7352794b22abc4"
+      },
+      {
+        "frame_index": 1101,
+        "time_seconds": 44.009,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C03/001101.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "f6ba9e896ca9af860513323050809fbd04433379eb68693f12a847b235ee62b7"
+      },
+      {
+        "frame_index": 1151,
+        "time_seconds": 46.008,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C03/001151.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "5fdce0fb568a31cbe13d187d352f8e52a3cb0a623a35581df3f808d9ef70ec2d"
+      },
+      {
+        "frame_index": 1201,
+        "time_seconds": 48.007,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C03/001201.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "acde20daef8cbab67a5b21e39b0d6f9f9dfdc2caae6c87ee3b6dce0bbc2e6f35"
+      },
+      {
+        "frame_index": 1251,
+        "time_seconds": 50.007,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C03/001251.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "ad0893b99f52fa138a5a46416a06b8a8e4550dcafb4018b5d2180eb9e4a52574"
+      },
+      {
+        "frame_index": 1301,
+        "time_seconds": 52.006,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C03/001301.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "24b75e218a7069475039d98447a707332ccbea953d1ecc885a609e048308bfad"
+      },
+      {
+        "frame_index": 1351,
+        "time_seconds": 54.005,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C03/001351.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "6b13b216c8fba5fd7ad0d87ff5212e79aa79c43fe8db136e14adb5f706e5a04f"
+      },
+      {
+        "frame_index": 1401,
+        "time_seconds": 56.005,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C03/001401.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "dc3e56e68cb2e14321876fadfde70f5ce39b610b06101d71e5d85ccdf1269cd2"
+      },
+      {
+        "frame_index": 1451,
+        "time_seconds": 58.004,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C03/001451.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "6d8594b0177857d54db9966d15b5f372db0e68865206c2263ce2f019434f56ad"
+      },
+      {
+        "frame_index": 1500,
+        "time_seconds": 59.964,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C03/001500.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "c1757ad374f41b43b806c86ec9d38de4ff2ab3c64622cd99db8106fc8173587f"
+      }
+    ]
+  },
+  {
+    "clip_id": "C04",
+    "sample_step_seconds": 2,
+    "decoded_frames": 1501,
+    "review_sheet_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C04-review.jpg",
+    "review_sheet_sha256": "3bea860cc835dd0186ca2d39232d0afcdebbbca9b023deeb4fc221b8b70e6549",
+    "samples": [
+      {
+        "frame_index": 0,
+        "time_seconds": 0.0,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C04/000000.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "f712f00fb9ffbb450d2b20795a820834b30a17c42abcfb2426ca3445f98be2bb"
+      },
+      {
+        "frame_index": 51,
+        "time_seconds": 2.031,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C04/000051.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "3a11ad774a0e2fb85ae57949d4c48e8ef0f62256262e09d020cca658f53a87bd"
+      },
+      {
+        "frame_index": 101,
+        "time_seconds": 4.031,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C04/000101.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "cf0e526d09565f08be7008ae1aab9426bf31c820773ec4c788f96bdc478a53ea"
+      },
+      {
+        "frame_index": 151,
+        "time_seconds": 6.03,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C04/000151.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "658e1cff5ce415a8d973ac65accf5b67110f87db951794dd88cea3ba12db07d3"
+      },
+      {
+        "frame_index": 201,
+        "time_seconds": 8.029,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C04/000201.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "e576f0749c49b28e8421f5145789f1d92935363bd92ba001b481cf53ed10f0b1"
+      },
+      {
+        "frame_index": 251,
+        "time_seconds": 10.029,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C04/000251.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "3a3c27a2fa31144962ec3c50be468e0cf40c1e7ad54f950da911e81e67c1978e"
+      },
+      {
+        "frame_index": 301,
+        "time_seconds": 12.028,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C04/000301.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "f6030ba032b90722d60f88cf693a6903b4838268a373494a98e26a0a7e9716da"
+      },
+      {
+        "frame_index": 351,
+        "time_seconds": 14.028,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C04/000351.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "7ed66002be8ea3bd52bd5853582569c0c37a939c57fb6ddb80a1e29a3fd210b0"
+      },
+      {
+        "frame_index": 401,
+        "time_seconds": 16.027,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C04/000401.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "f31a7437ed74ddbb7353ca44c6b264ac6b4ca83fb0f62d8fc2669dd6a33a3c84"
+      },
+      {
+        "frame_index": 451,
+        "time_seconds": 18.026,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C04/000451.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "28af8d4e4d592284aa68d28c5736788a2a402a4693fad1f147064af84fb87f37"
+      },
+      {
+        "frame_index": 501,
+        "time_seconds": 20.026,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C04/000501.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "4406b3b2d9f91fae6aae92c2ae1308f63cc0a205767728904d96a63641e6ef73"
+      },
+      {
+        "frame_index": 551,
+        "time_seconds": 22.025,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C04/000551.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "9323beca0f83346603f113ac698eea982366bedc724e8cae7fb3af1c337b3bee"
+      },
+      {
+        "frame_index": 601,
+        "time_seconds": 24.024,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C04/000601.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "8470525944a3c7f7b3f41d4e3503d6547bf579eb810721899ff64eb557c28825"
+      },
+      {
+        "frame_index": 651,
+        "time_seconds": 26.024,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C04/000651.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "ee3f0e3ba303ac2efab450858b0225b141c1f75c5608ed9642d670cc2a3a3f3f"
+      },
+      {
+        "frame_index": 701,
+        "time_seconds": 28.023,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C04/000701.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "b19b8494915d02ca97e4826e344673cafaa207c31468ca81d6e3fe28a716febb"
+      },
+      {
+        "frame_index": 751,
+        "time_seconds": 30.022,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C04/000751.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "d6b2568d87830275c038d32559ba49ebb96a068ac6e7673581b172ac30bffe09"
+      },
+      {
+        "frame_index": 801,
+        "time_seconds": 32.022,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C04/000801.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "d00470d3263ecea6ee2f01fff467178ea6322336035c70435b651fe6b81543ac"
+      },
+      {
+        "frame_index": 851,
+        "time_seconds": 34.021,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C04/000851.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "3ffed552905de059ade0fcb9c981a9d88ad7abc24900185f6e732136e5aa0718"
+      },
+      {
+        "frame_index": 901,
+        "time_seconds": 36.02,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C04/000901.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "f1ba9d56f4590f2a2853295ec92dd13e00bae5cf7c7b73acb6dfea03e4af0d70"
+      },
+      {
+        "frame_index": 951,
+        "time_seconds": 38.02,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C04/000951.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "a2d436c7d36afe3c3e3a11065a90e85b1bded1df8465c0463653c711f2286417"
+      },
+      {
+        "frame_index": 1001,
+        "time_seconds": 40.019,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C04/001001.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "11b6b0a81db31a56f3bee25f2bf63d4402d3dc78ec511d69b6f07a7f385da06c"
+      },
+      {
+        "frame_index": 1051,
+        "time_seconds": 42.019,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C04/001051.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "8af244024676b8fc36a6506139eacfe93953d64cc42c423202b9fe6242df0f49"
+      },
+      {
+        "frame_index": 1101,
+        "time_seconds": 44.018,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C04/001101.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "f78c66b71b6f21abb0554ec2e16cee175c6fc2cfb572370071f292fc300b7cbf"
+      },
+      {
+        "frame_index": 1151,
+        "time_seconds": 46.017,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C04/001151.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "8f21f141b3039787bffe48374cf3cc888117235bcc361b45be20bf7f742fd8e5"
+      },
+      {
+        "frame_index": 1201,
+        "time_seconds": 48.017,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C04/001201.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "872c80cff9283616c3005c954e11cc1d16476bdcd9469e72281befb407a2930a"
+      },
+      {
+        "frame_index": 1251,
+        "time_seconds": 50.016,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C04/001251.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "3472c2beef8e8e62d23744026ea9b83b08ea35d9405ea39c82d792add1a10ddd"
+      },
+      {
+        "frame_index": 1301,
+        "time_seconds": 52.015,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C04/001301.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "fea99997616614e239c97738b3927ecb593cd2a323f6b49ff430e6c442b8f3b7"
+      },
+      {
+        "frame_index": 1351,
+        "time_seconds": 54.015,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C04/001351.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "835d905b00638ac6be4103c55797281f778b67962147faa309d781e58b0ccb43"
+      },
+      {
+        "frame_index": 1401,
+        "time_seconds": 56.014,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C04/001401.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "ca79e101289689c6c61aaaeef51f09b7f97ffa4793a95ffa7651bcb41974aa96"
+      },
+      {
+        "frame_index": 1451,
+        "time_seconds": 58.013,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C04/001451.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "d33c1a1fc5b20f2162c6bd07ac2d91e0078acab7fbe7b007fc1cfca6d0b0d413"
+      },
+      {
+        "frame_index": 1500,
+        "time_seconds": 59.973,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C04/001500.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "22e426808e084b03de3ab801f39118bcc2ba497baa94c13ec3dda804891b896d"
+      }
+    ]
+  },
+  {
+    "clip_id": "C05",
+    "sample_step_seconds": 2,
+    "decoded_frames": 1127,
+    "review_sheet_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C05-review.jpg",
+    "review_sheet_sha256": "a968635069d35169a7a75ccb50ed285a25d4bd160c6920add00e4686c45c561b",
+    "samples": [
+      {
+        "frame_index": 0,
+        "time_seconds": 0.0,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C05/000000.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "5aee97be8a30e820962949837a1c1c762233798ed53d96b70912966878561a12"
+      },
+      {
+        "frame_index": 51,
+        "time_seconds": 2.0,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C05/000051.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "1e814e6d29d169ad4f7c1857dd22c408a1d5becc194904469c61d6242601d8e6"
+      },
+      {
+        "frame_index": 102,
+        "time_seconds": 4.039,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C05/000102.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "f3a7000e34d3279215133d7943f89f10e855811e39d7fd020e630826ca7fc316"
+      },
+      {
+        "frame_index": 152,
+        "time_seconds": 6.039,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C05/000152.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "918e90caeaa8acd4dff147b9a1738d767c2149b8541b797367452fb81ceb7386"
+      },
+      {
+        "frame_index": 202,
+        "time_seconds": 8.038,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C05/000202.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "487928d793caf8dc14c7d0c3b10a51bbd5c42360d46553a9a07b1b9cc116d8f5"
+      },
+      {
+        "frame_index": 252,
+        "time_seconds": 10.037,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C05/000252.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "42736e777cc01ba4cf38fc15bef7a1c05b23093fe6a35417efd7cb240f0751fd"
+      },
+      {
+        "frame_index": 302,
+        "time_seconds": 12.037,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C05/000302.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "5f42a61eb04b6235cdb1ff81687ab514fcb1fd5a3c3ea11caaee3897440d69c1"
+      },
+      {
+        "frame_index": 352,
+        "time_seconds": 14.036,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C05/000352.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "7600556770bd5c5aa1aa4256eafe3eb2fa6c77a60ac19d00fe64e95d6eda25d3"
+      },
+      {
+        "frame_index": 402,
+        "time_seconds": 16.035,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C05/000402.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "88720e8903f53607660e82d06b24f83b687e4ad2874c1825a9b62e0d1c7a8912"
+      },
+      {
+        "frame_index": 452,
+        "time_seconds": 18.035,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C05/000452.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "35b0cd1b6104eb7e268333de2af44358e6b5c8834c8d53e1eeb5be0648ffdbc5"
+      },
+      {
+        "frame_index": 502,
+        "time_seconds": 20.034,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C05/000502.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "a99b5fcaaf73d79b6e2f76ebb86dd51d9def8ffc74c9c3367821b3dafb343005"
+      },
+      {
+        "frame_index": 552,
+        "time_seconds": 22.034,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C05/000552.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "86f79cb474c5920d76668d5e7618f53ad2cdf360401e8cbe5704ca1fa729d89e"
+      },
+      {
+        "frame_index": 602,
+        "time_seconds": 24.033,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C05/000602.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "a980de08c4c3ab52ea084442a35f03a7b449da69b6c04bec6e28181c49d2f087"
+      },
+      {
+        "frame_index": 652,
+        "time_seconds": 26.032,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C05/000652.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "306db975b366cdd2e8a53ef92b2707dd7a4706e791b8e5a744b46bcda1a8bb86"
+      },
+      {
+        "frame_index": 702,
+        "time_seconds": 28.032,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C05/000702.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "cc397c7af9aae6fcd92564cf8c405122f7e2aff13e49739389598d7da10fa573"
+      },
+      {
+        "frame_index": 752,
+        "time_seconds": 30.031,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C05/000752.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "43ea7777502adcf574bddddcceff5ca8ecc4fff65094a97f7623d6d9ec205ed2"
+      },
+      {
+        "frame_index": 802,
+        "time_seconds": 32.03,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C05/000802.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "fae08d5dfacd7db3fda2f62db9f4227dc15b3c731b48661b4f6042f576bd2fdf"
+      },
+      {
+        "frame_index": 852,
+        "time_seconds": 34.03,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C05/000852.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "d5b495ce0f92b047e6d236da661284096372d89848019829117d591c2b523c91"
+      },
+      {
+        "frame_index": 902,
+        "time_seconds": 36.029,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C05/000902.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "6789dc501b99641efee1fea7f7374604ff77cc4c8832dd088b3eeb352b870978"
+      },
+      {
+        "frame_index": 952,
+        "time_seconds": 38.028,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C05/000952.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "34fef0c525fae2760d41d60d8f192b9d18f1192c87d24a38336784c4b70868ce"
+      },
+      {
+        "frame_index": 1002,
+        "time_seconds": 40.028,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C05/001002.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "79f517251b4f2a31fb066491783680ff7399fc68b0d53afa0df2062c94fb7d7f"
+      },
+      {
+        "frame_index": 1052,
+        "time_seconds": 42.027,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C05/001052.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "c20e22b728fe16025e4b25d80ef104b193ec5c2658c15c08f86ad98a4b7f7c11"
+      },
+      {
+        "frame_index": 1102,
+        "time_seconds": 44.026,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C05/001102.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "3895f6643d47ef244128e7eb2e4a49a373cd6375f45c510a486fb62f8cbb76ba"
+      },
+      {
+        "frame_index": 1126,
+        "time_seconds": 44.986,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C05/001126.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "89dd7d40056f35d1baccaadf6e192f768d8ed54cc26e69a05163285c8fad13e8"
+      }
+    ]
+  },
+  {
+    "clip_id": "C06",
+    "sample_step_seconds": 2,
+    "decoded_frames": 1126,
+    "review_sheet_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C06-review.jpg",
+    "review_sheet_sha256": "8dff5494875dbcf21b6768515fb083190fe7447d5492d2fa7c9bf70871cb4c63",
+    "samples": [
+      {
+        "frame_index": 0,
+        "time_seconds": 0.0,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C06/000000.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "7cc981477518ecbadbb971023e1f714f82b6c2f4e8e8f00c550b50c08b88c2b2"
+      },
+      {
+        "frame_index": 51,
+        "time_seconds": 2.019,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C06/000051.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "bccea46755ef2742f35fcd7f1a56dbca49245137aad83d76d895daa39edc4536"
+      },
+      {
+        "frame_index": 101,
+        "time_seconds": 4.018,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C06/000101.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "1768c6e572ada814a2846088750e1df9b60692e2de12d118933bd384772465d4"
+      },
+      {
+        "frame_index": 151,
+        "time_seconds": 6.017,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C06/000151.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "4eee9acd9c860633cf4abf3013d4802722b3fecf89d5190d8a7d4219ce5b3035"
+      },
+      {
+        "frame_index": 201,
+        "time_seconds": 8.017,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C06/000201.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "45446af7b3a5dbd56ac29ed6e90783785278ea3aa69ff845957d815e670aad48"
+      },
+      {
+        "frame_index": 251,
+        "time_seconds": 10.016,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C06/000251.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "1b4ecf53475d09c0e3e3482cbe1ccb37da14627d9a655cd5832268f033fdf89e"
+      },
+      {
+        "frame_index": 301,
+        "time_seconds": 12.015,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C06/000301.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "38441b28e61546f542859e60370be8b7eb0c9a294694cd3333bb53bb9fd053ed"
+      },
+      {
+        "frame_index": 351,
+        "time_seconds": 14.015,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C06/000351.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "64c00a648800f1ef97a4ae2bf897219f23b8370737e66b8bc3cf03ecde08ffdf"
+      },
+      {
+        "frame_index": 401,
+        "time_seconds": 16.014,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C06/000401.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "98546a3b342428baa63d7b9d13c96b60433c281ebf6344c39fef2f4bf752eb1b"
+      },
+      {
+        "frame_index": 451,
+        "time_seconds": 18.014,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C06/000451.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "ed508b0c642c1c8aadeba1e4ffc0982e3c66ef9dd27ea120c8b247fb0701dc1b"
+      },
+      {
+        "frame_index": 501,
+        "time_seconds": 20.013,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C06/000501.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "8bf3da15e822311f69ee92e6dbcfb47ad553cdf8803e1a30da105d52c970979f"
+      },
+      {
+        "frame_index": 551,
+        "time_seconds": 22.012,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C06/000551.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "2c1f48f4f6e4a7111280ba61546dff2eec14092cab83b5c1f9cad49295b03438"
+      },
+      {
+        "frame_index": 601,
+        "time_seconds": 24.012,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C06/000601.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "a2d6e3d2467bf380d68215f68d6e25b222718c20d3efa3579237cc7b35136a10"
+      },
+      {
+        "frame_index": 651,
+        "time_seconds": 26.011,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C06/000651.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "5f95969daab797b03be84f2f88a6676873acefa75c4fe00bf202807a714b2e47"
+      },
+      {
+        "frame_index": 701,
+        "time_seconds": 28.01,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C06/000701.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "8e74cbf41229de293c2d45272f0f50f672beef67cd64a66350cf840a30b8424f"
+      },
+      {
+        "frame_index": 751,
+        "time_seconds": 30.01,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C06/000751.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "32c8a698d289d5c5812c3521dd78f211fe213c9880f695421d8ffb3f318a63bb"
+      },
+      {
+        "frame_index": 801,
+        "time_seconds": 32.009,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C06/000801.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "19432be7041ccfc6ca9db0d7ec9b3b8aab236fbe2d9dbcc55a9815155aec9870"
+      },
+      {
+        "frame_index": 851,
+        "time_seconds": 34.008,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C06/000851.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "80bcabaaf99f5703ca15d0a1cc2e46a8da6ccdc536c9e5fb90e3f657a2d291d2"
+      },
+      {
+        "frame_index": 901,
+        "time_seconds": 36.008,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C06/000901.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "881e6e494dbc0689c85e526d9bc263f3cc8c755c1ddeb331fe3d1e98bfa2b45c"
+      },
+      {
+        "frame_index": 951,
+        "time_seconds": 38.007,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C06/000951.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "885dbd731384499e12f1c131c1eb3b8c6811f7348c5e77221a471881aa65b83f"
+      },
+      {
+        "frame_index": 1001,
+        "time_seconds": 40.006,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C06/001001.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "d89e65e1f2dd1d51a405bb60ab2ff6b9a15599e0155ab49ed2a843231dabea6c"
+      },
+      {
+        "frame_index": 1051,
+        "time_seconds": 42.006,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C06/001051.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "9d4d3e2dce786bc2a13cdeb4cdb13826dca58483d627d4a71aa4a44c96a9d691"
+      },
+      {
+        "frame_index": 1101,
+        "time_seconds": 44.005,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C06/001101.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "dee50d6565e4848c16dd5bad7b31bd49a4c5c611ad578b51d538ffca60f3571d"
+      },
+      {
+        "frame_index": 1125,
+        "time_seconds": 44.965,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C06/001125.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "2fcc0899e99cac52d6f4dd46d0522e56776bf1ea4466a60e31f9288d49bb977c"
+      }
+    ]
+  },
+  {
+    "clip_id": "C07",
+    "sample_step_seconds": 2,
+    "decoded_frames": 1501,
+    "review_sheet_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C07-review.jpg",
+    "review_sheet_sha256": "cc0e0833718f82498e482101720cd8f0679052f37efd9e135183298e438adf00",
+    "samples": [
+      {
+        "frame_index": 0,
+        "time_seconds": 0.0,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C07/000000.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "0e17b08b272ca7411dd1c96d49dba9ba358994f7ac57e1bae9b3becde3dc541d"
+      },
+      {
+        "frame_index": 51,
+        "time_seconds": 2.028,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C07/000051.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "19b143758ba05158ae946b8f9d4d6b15f69e9e4193ff99abebba2733d5987708"
+      },
+      {
+        "frame_index": 101,
+        "time_seconds": 4.028,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C07/000101.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "722a6aa2295c4b56b306921cc3ce108c8f19a8cb11cd60b1ea2b201c336e5cd0"
+      },
+      {
+        "frame_index": 151,
+        "time_seconds": 6.027,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C07/000151.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "ad0a5289a03e3100d28023a41c32fa89649fb9126ee93cbcbd36d0ee26f9e690"
+      },
+      {
+        "frame_index": 201,
+        "time_seconds": 8.026,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C07/000201.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "80b99862c8b490dc17fff1e4c13b42e07fd4d6f8e7c7bf845559cd996adecbcf"
+      },
+      {
+        "frame_index": 251,
+        "time_seconds": 10.026,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C07/000251.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "7ebafff61f83f8533338ef6108e2c025761875b89029a1fd77338ad84fab9a96"
+      },
+      {
+        "frame_index": 301,
+        "time_seconds": 12.025,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C07/000301.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "a984724da60dfdb037cf6a1ae627903867683d8ef74579baf34316a1669de8b5"
+      },
+      {
+        "frame_index": 351,
+        "time_seconds": 14.024,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C07/000351.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "fade3b6c6e9a0cb18751c0d165feceb895a3cc75d46de04fe38d1de75166b592"
+      },
+      {
+        "frame_index": 401,
+        "time_seconds": 16.024,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C07/000401.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "3fc3923bae6fecb54f00bd9e278a88653c28a97c4f3ef0b0554700843d652137"
+      },
+      {
+        "frame_index": 451,
+        "time_seconds": 18.023,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C07/000451.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "5cff2cca2b8240eaa32c522c0bc121d81dd0e5d271076226f081f8654042ec26"
+      },
+      {
+        "frame_index": 501,
+        "time_seconds": 20.022,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C07/000501.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "b1df38b03a3673a4ed2e796e97468731db8bbdf3ee0668c4da83e57fc6dfd097"
+      },
+      {
+        "frame_index": 551,
+        "time_seconds": 22.022,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C07/000551.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "a626031595de8999e388ecd6a3af89c46148680c3a830ef6b20c237cb0ee2b07"
+      },
+      {
+        "frame_index": 601,
+        "time_seconds": 24.021,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C07/000601.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "343d764b34aad504f0c1ce1b1452b40da37f126a883ce4b61f3731559695e2d3"
+      },
+      {
+        "frame_index": 651,
+        "time_seconds": 26.02,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C07/000651.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "b6dabe1ec26b05e159f263075426a9531b582bad3018a0b10825900d3f48ef26"
+      },
+      {
+        "frame_index": 701,
+        "time_seconds": 28.02,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C07/000701.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "470e1161a9789f1eaa701367e374effe16c568c65feb2aa820ddb57c48806fe1"
+      },
+      {
+        "frame_index": 751,
+        "time_seconds": 30.019,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C07/000751.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "300c5ba4115fd99a39c7938c6833a8be92caef2a35ef337384249669c09e663e"
+      },
+      {
+        "frame_index": 801,
+        "time_seconds": 32.019,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C07/000801.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "bba369f12038cf0754112e441c38a1820f39c2d3ba2df92cb1bfcdc34a73a9d0"
+      },
+      {
+        "frame_index": 851,
+        "time_seconds": 34.018,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C07/000851.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "37dee6007a91150c490aebe1959e9344e2e3e63930dd652de44c9ca4231e4982"
+      },
+      {
+        "frame_index": 901,
+        "time_seconds": 36.017,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C07/000901.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "b513dbb3800ffb28ef896e8a3486e37ed8ce526217b96d4db15a5e1c5a5991d9"
+      },
+      {
+        "frame_index": 951,
+        "time_seconds": 38.017,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C07/000951.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "1339d96cf78b88b5e90a841e5e2f410723230fd11a735f995c321a9b00a280aa"
+      },
+      {
+        "frame_index": 1001,
+        "time_seconds": 40.016,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C07/001001.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "e1168ba76ab8beaee88fd3d896a337a3b273849db97e67a5ce817b757c0b3c78"
+      },
+      {
+        "frame_index": 1051,
+        "time_seconds": 42.015,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C07/001051.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "8ddf729135bcbe3af9e78ff7373c505f39102a892fc37d918d66719e4bc196e3"
+      },
+      {
+        "frame_index": 1101,
+        "time_seconds": 44.015,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C07/001101.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "d13569fa4943fb5cb7d5f4d6a9b6bbb412f43d42faff2e77c065989bcd52017e"
+      },
+      {
+        "frame_index": 1151,
+        "time_seconds": 46.014,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C07/001151.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "6b1a95b90278cfca6a93af80d9da210799f9cb60af72291d412f890d35f59091"
+      },
+      {
+        "frame_index": 1201,
+        "time_seconds": 48.013,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C07/001201.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "ced63eaeffcef324e0599170a70e4e40f20d486ae48a1ec9066d3b3eb82c9bc7"
+      },
+      {
+        "frame_index": 1251,
+        "time_seconds": 50.013,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C07/001251.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "c1511907377e3403910f83cfb8e912238182bfa794c96ad742743bea924048c8"
+      },
+      {
+        "frame_index": 1301,
+        "time_seconds": 52.012,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C07/001301.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "15798fa203288037ac439044bb4f839785c0a8c482df1d1f389a96b203ae26b9"
+      },
+      {
+        "frame_index": 1351,
+        "time_seconds": 54.011,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C07/001351.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "347488df6d1bc6be52c5c546d46232756913c47e9072c3cdd08d0058a961a854"
+      },
+      {
+        "frame_index": 1401,
+        "time_seconds": 56.011,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C07/001401.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "96533422c657173de7d6961c01225170a3cd83a494579f516a800442e72b0769"
+      },
+      {
+        "frame_index": 1451,
+        "time_seconds": 58.01,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C07/001451.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "327bf290cb3d6d7b94eb67bc45dd79a5a22ecb7dcef741607c949224c6cab06e"
+      },
+      {
+        "frame_index": 1500,
+        "time_seconds": 59.969,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C07/001500.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "3a1add11b551d053331d1fcb4b921883949b4fcc5b98b005588096d98d775727"
+      }
+    ]
+  },
+  {
+    "clip_id": "C08",
+    "sample_step_seconds": 2,
+    "decoded_frames": 1126,
+    "review_sheet_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C08-review.jpg",
+    "review_sheet_sha256": "97dff4446afdb899dae73982dc7132cefc1274120cc7cd54e952181d03deedc0",
+    "samples": [
+      {
+        "frame_index": 0,
+        "time_seconds": 0.0,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C08/000000.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "10d247adf2bb5d7562af51bbfb80fd878fa984c90304a0c0eb42b24932b26bdb"
+      },
+      {
+        "frame_index": 51,
+        "time_seconds": 2.039,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C08/000051.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "73e4474b5dc24ae4afdbedeadd7c98d81d9a91bd1ee9ed8a5e7b45a790f35090"
+      },
+      {
+        "frame_index": 101,
+        "time_seconds": 4.038,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C08/000101.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "8dc30c570339655ca8948b063c0c2eded88d4f4439cf400926164d134d6c59f2"
+      },
+      {
+        "frame_index": 151,
+        "time_seconds": 6.038,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C08/000151.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "565eff5c72e08cd7dcbed80bb892468507e1bfddfd72d1ed00dd759d0256e98d"
+      },
+      {
+        "frame_index": 201,
+        "time_seconds": 8.037,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C08/000201.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "b3f42559b15e5c56400be875943fac7f3a9792adf465124447f5970c06beae62"
+      },
+      {
+        "frame_index": 251,
+        "time_seconds": 10.037,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C08/000251.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "8e045e8960510beda415ef956369c0ab66b264e6a711ac973217319213281b39"
+      },
+      {
+        "frame_index": 301,
+        "time_seconds": 12.036,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C08/000301.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "80d201e7e0df9dfe7662cd40b9eeba763babfcf5ac8df6378b0b5357d675c104"
+      },
+      {
+        "frame_index": 351,
+        "time_seconds": 14.035,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C08/000351.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "143b8823c60510ed3d4db170649ddd911d371fc190fb0867f05714900d01f0b3"
+      },
+      {
+        "frame_index": 401,
+        "time_seconds": 16.035,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C08/000401.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "16511cfc3666b691c4e56604b9628488ec84d339e7ad6e5218f0a2ceba16cbef"
+      },
+      {
+        "frame_index": 451,
+        "time_seconds": 18.034,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C08/000451.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "70fb6a68fd4742dd58aa8f54c27681845f16c683d983f9a6b37d58123417906e"
+      },
+      {
+        "frame_index": 501,
+        "time_seconds": 20.033,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C08/000501.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "901d5adddcb5f013e7df1172648a7498a3538789f91e5959d78ae6af5d63186f"
+      },
+      {
+        "frame_index": 551,
+        "time_seconds": 22.033,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C08/000551.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "f35566e75faef4052a3bce0dae08d5f04d043a46c068b31981e94771a037662f"
+      },
+      {
+        "frame_index": 601,
+        "time_seconds": 24.032,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C08/000601.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "6ebeeca7f713000324bb03d47941a39c56199f2f97913cf9fd69718ed526e562"
+      },
+      {
+        "frame_index": 651,
+        "time_seconds": 26.031,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C08/000651.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "94c0038e5ade1e2d06f181b063936ba92cbd2c0d41d93f4a4c38ebffdd7fcc34"
+      },
+      {
+        "frame_index": 701,
+        "time_seconds": 28.031,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C08/000701.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "2ea56aa4b4283daa35a1a030e94dae3a3006d7f624a3e07cf89beed6154ce13f"
+      },
+      {
+        "frame_index": 751,
+        "time_seconds": 30.03,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C08/000751.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "6f47af53fa0abd9568e4c87a90c97b5f9bfcc4ef6967d71ddfba3564cbf567df"
+      },
+      {
+        "frame_index": 801,
+        "time_seconds": 32.03,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C08/000801.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "87a231c845b6f15287db91cb0b2acc7609ebb47dd52d0200f79082244932a482"
+      },
+      {
+        "frame_index": 851,
+        "time_seconds": 34.029,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C08/000851.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "7c567a46873464f490b169e8d8fe18e62acea2aca7d17f686d1f23dab7918363"
+      },
+      {
+        "frame_index": 901,
+        "time_seconds": 36.028,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C08/000901.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "13fdc6144c7405fb031896323acc99592437b03b07148105b19b083652014ea4"
+      },
+      {
+        "frame_index": 951,
+        "time_seconds": 38.028,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C08/000951.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "9d8ca3c93a92028a80478941cd3e2ec61f787900f591ba6635f1dd09011ce7d0"
+      },
+      {
+        "frame_index": 1001,
+        "time_seconds": 40.027,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C08/001001.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "bacde5a9899329bec4d9935d16a693603c5d8d49e4d643dc87bdb6c711df7d0e"
+      },
+      {
+        "frame_index": 1051,
+        "time_seconds": 42.026,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C08/001051.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "8a7402e077d929c16a40af7eacd9a396d1733f8501cef0e8e9e18ade21252bf8"
+      },
+      {
+        "frame_index": 1101,
+        "time_seconds": 44.026,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C08/001101.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "c3cba735ef2d1d49faae90ddaa5c742f61d9be26c6b8917f410bf90f236f57a1"
+      },
+      {
+        "frame_index": 1125,
+        "time_seconds": 44.985,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C08/001125.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "524c037eac5f6adaea1f506eb221a801c5be72a8cfaba2acc68a8113cd5e3a0a"
+      }
+    ]
+  },
+  {
+    "clip_id": "C09",
+    "sample_step_seconds": 2,
+    "decoded_frames": 1127,
+    "review_sheet_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C09-review.jpg",
+    "review_sheet_sha256": "1db9a2efcc1827de3ffbdd3adac59d8238f71a8e7fa1b278204969980bd12cea",
+    "samples": [
+      {
+        "frame_index": 0,
+        "time_seconds": 0.0,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C09/000000.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "cc1a817b2b7c616d36d803bf61621d336a076553d605bc67b5db767acba2a0bf"
+      },
+      {
+        "frame_index": 51,
+        "time_seconds": 2.008,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C09/000051.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "ba744fac57f092e4f5b7c34d784bbdffb0f1185febe1939a076a6565fa9d9695"
+      },
+      {
+        "frame_index": 101,
+        "time_seconds": 4.007,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C09/000101.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "79ed99072e8bd30e7307e2be372cf2ee6b6ce7e1d8593ffa83f01df3f42b3e5d"
+      },
+      {
+        "frame_index": 151,
+        "time_seconds": 6.007,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C09/000151.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "2d677b04d1d7aa9d5582efa87e7053e3b6c3f736704bf1f354b27ce56e32791a"
+      },
+      {
+        "frame_index": 201,
+        "time_seconds": 8.006,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C09/000201.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "011e7a64b9e76af696364c73acc921f07e802d01ec2279421ba97d633737e079"
+      },
+      {
+        "frame_index": 251,
+        "time_seconds": 10.005,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C09/000251.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "8b6f1db5474e862981a6fe06a3e2600b528f65fa0993ca71595a48f66d19f70f"
+      },
+      {
+        "frame_index": 301,
+        "time_seconds": 12.005,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C09/000301.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "3c6c84e55ce58f0e1944392827e5cc42b03f39ff4668a993cb2e1ccebccd2d8b"
+      },
+      {
+        "frame_index": 351,
+        "time_seconds": 14.004,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C09/000351.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "dda063b6af39977ab87674a8ff686070305cd6fce7c435c57af28944e83799ba"
+      },
+      {
+        "frame_index": 401,
+        "time_seconds": 16.003,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C09/000401.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "2ee0b771651d296ae7ca4219227c05951c5033cdb4339df4b055ba4e0561abde"
+      },
+      {
+        "frame_index": 451,
+        "time_seconds": 18.003,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C09/000451.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "cac779c42c2999e31be88a9366e02d50c361a0af39819a7b6fcc3501db47a25e"
+      },
+      {
+        "frame_index": 501,
+        "time_seconds": 20.002,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C09/000501.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "555f7e5b159a80f41a72770dc0584600496188237adf1d920838b3f08cd9fa54"
+      },
+      {
+        "frame_index": 551,
+        "time_seconds": 22.001,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C09/000551.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "f1cd08f635a9727a9c1f3bc5def8cbc4576af012afa6ef7b0215eb3a38bcf2c3"
+      },
+      {
+        "frame_index": 601,
+        "time_seconds": 24.001,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C09/000601.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "2349f6f1be08710770f094eeadaf7b76263a7a7a06308e628d5f619683b1aabf"
+      },
+      {
+        "frame_index": 651,
+        "time_seconds": 26.0,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C09/000651.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "dcff6958c074ee47f7bbc2c9e5676b26522aa7893c32d42150b1333892367002"
+      },
+      {
+        "frame_index": 702,
+        "time_seconds": 28.039,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C09/000702.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "12a90524deb663f80f50678521c911e60adb366f8dc21eb68d3d5c46f6f9aa59"
+      },
+      {
+        "frame_index": 752,
+        "time_seconds": 30.039,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C09/000752.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "e9dfcfebefdc9f1d6aa9bf326637fe46e3e8d5bca2299a2a2da11899d069e3e9"
+      },
+      {
+        "frame_index": 802,
+        "time_seconds": 32.038,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C09/000802.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "d189e9454780ad3c00127c6603210007040eac53746fdd664f57bc3483879020"
+      },
+      {
+        "frame_index": 852,
+        "time_seconds": 34.037,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C09/000852.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "4ce209a01e491fa776f5b1ec3398f6a25bf4136ee34d87699478fdf4be87d79d"
+      },
+      {
+        "frame_index": 902,
+        "time_seconds": 36.037,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C09/000902.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "250cc104080766eee9ea24b22fa14ece0c3a4b410d18b3e9b76835d8a3fe533d"
+      },
+      {
+        "frame_index": 952,
+        "time_seconds": 38.036,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C09/000952.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "ce3655257ac012f9051579f7ca1b869a08517c3b54daf9ee41a275f07f092e31"
+      },
+      {
+        "frame_index": 1002,
+        "time_seconds": 40.036,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C09/001002.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "a69f6a694d3695eca61a6fbe0ee0f4b1222926c51d85352735695710cbba3c5a"
+      },
+      {
+        "frame_index": 1052,
+        "time_seconds": 42.035,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C09/001052.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "ce485fa2b4f073019f7429e1f10f159dc2c27e621476246dd75c1f52666ad4ad"
+      },
+      {
+        "frame_index": 1102,
+        "time_seconds": 44.034,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C09/001102.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "429cc614e21fbb616fdaac9c6ee8b852325c7cef7a76e8faed826def0ac09560"
+      },
+      {
+        "frame_index": 1126,
+        "time_seconds": 44.994,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C09/001126.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "78555b289b67b241506760abcdeea821f393b03d00b0694066f058d8854c7ebf"
+      }
+    ]
+  },
+  {
+    "clip_id": "C10",
+    "sample_step_seconds": 2,
+    "decoded_frames": 1127,
+    "review_sheet_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C10-review.jpg",
+    "review_sheet_sha256": "c11ec14a6129e96cc67194f6b97a442f81d8757a2006f63d292e18c0dd3c4993",
+    "samples": [
+      {
+        "frame_index": 0,
+        "time_seconds": 0.0,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C10/000000.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "8194591079449d54e4848206ec6803f611eebb657b260eb29c61dcbac68431c9"
+      },
+      {
+        "frame_index": 51,
+        "time_seconds": 2.006,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C10/000051.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "1162448ccbdbc4f55de04c5b9bc01866b5ccca800ffbd8ed933b5d41e4a449f2"
+      },
+      {
+        "frame_index": 101,
+        "time_seconds": 4.005,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C10/000101.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "198b93974fee700860a68fa38e75ce8d4ff9e1e58c8f27f2149bec55c1226b65"
+      },
+      {
+        "frame_index": 151,
+        "time_seconds": 6.004,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C10/000151.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "349e8973289d12673efcc11f2cb627e1ac9b3b9f8396cb1a987bb8911f09c065"
+      },
+      {
+        "frame_index": 201,
+        "time_seconds": 8.004,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C10/000201.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "58ed351cad0192eac4d2f85ea0a8be582a5b2c8276888c933e861aed66f08695"
+      },
+      {
+        "frame_index": 251,
+        "time_seconds": 10.003,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C10/000251.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "ade4cbd881e8df1f063dd6d7882cf6c124647e8856a023b84b06d58488f7dcc6"
+      },
+      {
+        "frame_index": 301,
+        "time_seconds": 12.002,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C10/000301.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "25e0fad4d956f90aa9f9019278386cc728743e672aafd0d91eabb2e99fa6af60"
+      },
+      {
+        "frame_index": 351,
+        "time_seconds": 14.002,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C10/000351.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "5f87694715f45b4c1dc3ff4e002edf462e9c1ef42adc79c4cd9848d90d65ea61"
+      },
+      {
+        "frame_index": 401,
+        "time_seconds": 16.001,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C10/000401.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "36825b481f84512ebcc3105e7fc16f07bd6ebc9de1bb0129c3bfe06e997e1347"
+      },
+      {
+        "frame_index": 451,
+        "time_seconds": 18.001,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C10/000451.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "a5a9dc52a9a1b5ba8b76a2ad9e7353ac579be16d23c6da7024473102e44555e2"
+      },
+      {
+        "frame_index": 501,
+        "time_seconds": 20.0,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C10/000501.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "72ce9ac1f2c1344cd84241840a639309416b0905737d44dc761534aa18947877"
+      },
+      {
+        "frame_index": 552,
+        "time_seconds": 22.039,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C10/000552.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "b9fd0ac3b840ab2c2fd0cd24b05b260ed72731f01863253aa10f25aa76a4149f"
+      },
+      {
+        "frame_index": 602,
+        "time_seconds": 24.039,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C10/000602.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "7d50f3c5f206767b74139ca75188db5a29eb969251252f53381c7ebf6257a110"
+      },
+      {
+        "frame_index": 652,
+        "time_seconds": 26.038,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C10/000652.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "e428b78c04ccd533620012e8e1db09c56e4ba7db1b5be22920d9c3b1f3a236f4"
+      },
+      {
+        "frame_index": 702,
+        "time_seconds": 28.037,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C10/000702.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "be62d4f67f2532b645bcd3ee63f39cdc31a2323b8e9571a9b51467f14c1fff9b"
+      },
+      {
+        "frame_index": 752,
+        "time_seconds": 30.037,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C10/000752.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "8c1dc08e4e91cb806eeca64c2c3e07da76b7225b9a31de5edcee922c08000bac"
+      },
+      {
+        "frame_index": 802,
+        "time_seconds": 32.036,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C10/000802.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "015290c0f1a7d8bc55201c23ad88057c565f15c19b617444eb947b488f2dbd64"
+      },
+      {
+        "frame_index": 852,
+        "time_seconds": 34.035,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C10/000852.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "b63ff6bb3b3072c93876107ddc2ef6ec087349c2f78227d6c63b50b362154001"
+      },
+      {
+        "frame_index": 902,
+        "time_seconds": 36.035,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C10/000902.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "172699c25358e7abf642ecb213bb0235612ef7d558a0abd0941989d495dbdfa7"
+      },
+      {
+        "frame_index": 952,
+        "time_seconds": 38.034,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C10/000952.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "b0bc6608cab66c29ed6b6ad4626c1065da2d7978e7d5470502f3c1dc90c4b269"
+      },
+      {
+        "frame_index": 1002,
+        "time_seconds": 40.034,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C10/001002.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "47da9a716719cbffc6bccfa92cbac6eb1daaccef20ae9893609c035bcb4a2a1e"
+      },
+      {
+        "frame_index": 1052,
+        "time_seconds": 42.033,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C10/001052.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "a11aae0937675c039a175a1abde44154774eec0c6bc53efb6782b40139d68a5b"
+      },
+      {
+        "frame_index": 1102,
+        "time_seconds": 44.032,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C10/001102.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "284bb4ee2c121c428d1d07e196237342e746c8c3cc643e53d022f84c4591a6db"
+      },
+      {
+        "frame_index": 1126,
+        "time_seconds": 44.992,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C10/001126.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "ffdc123ffbdd843902f4cc685b895683e053ba51912968d3759d5eeed1c8537d"
+      }
+    ]
+  },
+  {
+    "clip_id": "C11",
+    "sample_step_seconds": 2,
+    "decoded_frames": 1126,
+    "review_sheet_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C11-review.jpg",
+    "review_sheet_sha256": "077bebaaef98b36b327f5061b12fd2fc7889e59c2fcf7d2de6e89f9065d9118a",
+    "samples": [
+      {
+        "frame_index": 0,
+        "time_seconds": 0.0,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C11/000000.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "08a435536e075a883ef9c2ae6cd4acaae3ad9ebe7312d6391c9da0b65240a01b"
+      },
+      {
+        "frame_index": 51,
+        "time_seconds": 2.025,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C11/000051.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "6f52961d56cd048bbddd9a96211dee3979236eeaca50e31d260427fc4363f5f1"
+      },
+      {
+        "frame_index": 101,
+        "time_seconds": 4.024,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C11/000101.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "3f694f6146e7a7e52c74f6532ca942c2bc61f4ae87cc357353f55f339b051843"
+      },
+      {
+        "frame_index": 151,
+        "time_seconds": 6.023,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C11/000151.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "b3e3fec60914fd72193b4a0571a685c4070bac3ab8a22bb5cbb8587e061f88ae"
+      },
+      {
+        "frame_index": 201,
+        "time_seconds": 8.023,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C11/000201.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "af4631844a498107a40c452afcbe766a4cd3fc3c445d8398cc3631dc7814c55f"
+      },
+      {
+        "frame_index": 251,
+        "time_seconds": 10.022,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C11/000251.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "dedc22fd32471edbb0ab8cf1eb20d473fa83a7ed9dddfc86e2006785a7261ec9"
+      },
+      {
+        "frame_index": 301,
+        "time_seconds": 12.022,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C11/000301.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "9c38a4c54f275ae04417298ab8337029016e2c28dbef46e540d232b5226f455d"
+      },
+      {
+        "frame_index": 351,
+        "time_seconds": 14.021,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C11/000351.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "19b894ed4650f13c4e738ea547fad06d104a81b7b9a29e658f5cccae6f517daf"
+      },
+      {
+        "frame_index": 401,
+        "time_seconds": 16.02,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C11/000401.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "26c81e92b9b4abc4cc9ebcf9722a4389ca369d35d96b5e5e1098098f19432c53"
+      },
+      {
+        "frame_index": 451,
+        "time_seconds": 18.02,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C11/000451.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "74c5a281563b5c042601598ddc2cda9a64bff34e0eddc34f45d91323f5072829"
+      },
+      {
+        "frame_index": 501,
+        "time_seconds": 20.019,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C11/000501.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "591887f263bf2a78854483f9631967f8a0eb49aa12c5fe53046468c60c0c0cea"
+      },
+      {
+        "frame_index": 551,
+        "time_seconds": 22.018,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C11/000551.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "b1571eb83a326dca6b48ad48beafcf4a57faef4b2a0d7e1d93d059e6c11ec9fb"
+      },
+      {
+        "frame_index": 601,
+        "time_seconds": 24.018,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C11/000601.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "dd54929c022d2335a6d4441cd03f4a85f1b1f32f3325660f78c9c15e795030d9"
+      },
+      {
+        "frame_index": 651,
+        "time_seconds": 26.017,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C11/000651.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "23ee2b8451861cfcd23e0f4c9ef6638491e15596c44efd5cf981e59aa28607ed"
+      },
+      {
+        "frame_index": 701,
+        "time_seconds": 28.017,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C11/000701.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "76487dc64a4ea93cc127b09831b949f7f6d568b4233cbfc914e77b577641339c"
+      },
+      {
+        "frame_index": 751,
+        "time_seconds": 30.016,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C11/000751.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "b8015d72509b691d020df007c19a9bcc7bb5ffa445fe8d8fb54f903ab902ed82"
+      },
+      {
+        "frame_index": 801,
+        "time_seconds": 32.015,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C11/000801.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "5e0ac76c3d6042bab30b890510e1d7212025eaedc7749ae023e5af0f9b8d5386"
+      },
+      {
+        "frame_index": 851,
+        "time_seconds": 34.014,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C11/000851.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "87bc8b1ca93fd03df7715cf141b5d38cb1f832811498cd17babdb6af32a4da87"
+      },
+      {
+        "frame_index": 901,
+        "time_seconds": 36.014,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C11/000901.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "3102c25426f3ed38f1955b9a7e3b871bbdfcd4d5d6432f7ec0ee48ea413cf40d"
+      },
+      {
+        "frame_index": 951,
+        "time_seconds": 38.013,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C11/000951.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "62a417199283dca3d796458927c925d66f105e4abd9a90d2dbe81445e802237b"
+      },
+      {
+        "frame_index": 1001,
+        "time_seconds": 40.013,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C11/001001.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "a2fe057d1d321cea1427b1d5c76ddb60ca481369327ad473e6637c93d625412f"
+      },
+      {
+        "frame_index": 1051,
+        "time_seconds": 42.012,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C11/001051.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "88b6cd682925ebaa6b52d3b49604bda89e8c96375a34e3473b905e5aa01c7e95"
+      },
+      {
+        "frame_index": 1101,
+        "time_seconds": 44.011,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C11/001101.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "272cb78a504fcf66b2a975e8386f7e51f5be12df4c550c8af56b2fa88f0dd34a"
+      },
+      {
+        "frame_index": 1125,
+        "time_seconds": 44.971,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C11/001125.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "273f7e6c3c85107b996a8b4eccb3872685bd751732caaedb47ca375b145c65df"
+      }
+    ]
+  },
+  {
+    "clip_id": "C12",
+    "sample_step_seconds": 2,
+    "decoded_frames": 1126,
+    "review_sheet_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C12-review.jpg",
+    "review_sheet_sha256": "9bc7309c7cb815557dd3f8e39e8bd9df544374fb7d0a71c3dbb770b73d7611d3",
+    "samples": [
+      {
+        "frame_index": 0,
+        "time_seconds": 0.0,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C12/000000.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "6944199031c6a6848a44004522d74958fc405a7c74843f02e6dcc9873629c87f"
+      },
+      {
+        "frame_index": 51,
+        "time_seconds": 2.029,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C12/000051.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "0ad046cad19dba2bf498a331e906953f367fbd5ab09fee1e8017b2f9516818d6"
+      },
+      {
+        "frame_index": 101,
+        "time_seconds": 4.029,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C12/000101.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "e5e5061f224e16b047769a025dd70380872f3522ee1ceedb26f86046b7951202"
+      },
+      {
+        "frame_index": 151,
+        "time_seconds": 6.028,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C12/000151.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "d9d69d63c7a2d60b09cf07b55d5c31bf8d46580c8d8f78c36faf9bbc773f6c5d"
+      },
+      {
+        "frame_index": 201,
+        "time_seconds": 8.027,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C12/000201.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "05aa67dfed1f38eb9a6ccfc8251061a0f5dd20a42ada4273a643452dba5249e1"
+      },
+      {
+        "frame_index": 251,
+        "time_seconds": 10.027,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C12/000251.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "4fd3f6dd14d07d83278cbf0d1aa41c711d0e94e5af97395000b5439cf34e01e6"
+      },
+      {
+        "frame_index": 301,
+        "time_seconds": 12.026,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C12/000301.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "97acdaf0b5ab9fd60b812ca2e10cff1ed15866f1cfb2787c305c83953230caaf"
+      },
+      {
+        "frame_index": 351,
+        "time_seconds": 14.025,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C12/000351.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "2c1ca6f9ab716c373ce40545ce6b334f06a593077d3f95666d6df2fe8aa6704b"
+      },
+      {
+        "frame_index": 401,
+        "time_seconds": 16.025,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C12/000401.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "76259f66a57d317a318a2228a5c13a6290c4edb07ed2958be2faa2c2dcfe7e3a"
+      },
+      {
+        "frame_index": 451,
+        "time_seconds": 18.024,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C12/000451.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "b2945c507ce15f043c187555c51b185b73474f999c0fb29f0cf8443ad93c0f4a"
+      },
+      {
+        "frame_index": 501,
+        "time_seconds": 20.024,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C12/000501.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "f047854a120c63daef090732a198676791387c4ba559078b9f278a70cb01a027"
+      },
+      {
+        "frame_index": 551,
+        "time_seconds": 22.023,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C12/000551.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "245fd6ffa0131f36448ec3f7eb4cccbd2234c5a37dddbb4b5e7b27cef724e81d"
+      },
+      {
+        "frame_index": 601,
+        "time_seconds": 24.022,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C12/000601.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "0a048975659ada1ba372cbc44c0ae12a3d3b81046acc10362d095fb1abba0139"
+      },
+      {
+        "frame_index": 651,
+        "time_seconds": 26.022,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C12/000651.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "c5e357873afc115986552309cfacc1bf1c857714568e443959110ab74b10629e"
+      },
+      {
+        "frame_index": 701,
+        "time_seconds": 28.021,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C12/000701.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "c3715975ea7816c1f1f029fc6d1f1c2953a824a97650cd6962453071642b4a69"
+      },
+      {
+        "frame_index": 751,
+        "time_seconds": 30.02,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C12/000751.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "d4b64e854e25784b5e1fe452ac620e9029ebff032e5d0c77613135cc84a0d113"
+      },
+      {
+        "frame_index": 801,
+        "time_seconds": 32.02,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C12/000801.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "bc9872cacc478c7aac3c6988de9f3bb9184f9590c09cc5703a9ec0ee19d4da29"
+      },
+      {
+        "frame_index": 851,
+        "time_seconds": 34.019,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C12/000851.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "a46f4955a2abda43497e22f72051761587af0123e35a7163ed85a82fd1baaf54"
+      },
+      {
+        "frame_index": 901,
+        "time_seconds": 36.018,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C12/000901.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "903484ad5479c60a4055589cdb46a76a5c54880370fe21efa8246eccc036a47e"
+      },
+      {
+        "frame_index": 951,
+        "time_seconds": 38.018,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C12/000951.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "81a85302c31c3765f6ce3572af87b5a47e07108a64ec345dec9b2461e566ea7c"
+      },
+      {
+        "frame_index": 1001,
+        "time_seconds": 40.017,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C12/001001.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "c003661a7520b26ba3920ae917a663e9aed00e41227a3deb9bb9e92a36d0bfb3"
+      },
+      {
+        "frame_index": 1051,
+        "time_seconds": 42.016,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C12/001051.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "60b042228b00f68e4e39c63fba1f8aa2d6aa7ba86431db5622ed05e4185cb9f7"
+      },
+      {
+        "frame_index": 1101,
+        "time_seconds": 44.016,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C12/001101.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "c60a7354fa97b2ee701acfb456a0954c51a97cfe7e8221f49ed7f09b0b6f8713"
+      },
+      {
+        "frame_index": 1125,
+        "time_seconds": 44.976,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C12/001125.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "102eabeb9c29dd658a0dfc07a850de8ae9a2c10b61958bbf0640f2f2ff7192a8"
+      }
+    ]
+  },
+  {
+    "clip_id": "C13",
+    "sample_step_seconds": 2,
+    "decoded_frames": 1126,
+    "review_sheet_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C13-review.jpg",
+    "review_sheet_sha256": "9fc660b0269981f721cd83b1b28234821127551798b77145b93a0296fc2c1449",
+    "samples": [
+      {
+        "frame_index": 0,
+        "time_seconds": 0.0,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C13/000000.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "f9d7f8309a6f015f797ddad968ad5a700969cac56aa7422868c6ea28c4e240e9"
+      },
+      {
+        "frame_index": 51,
+        "time_seconds": 2.025,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C13/000051.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "d237aecc326bbe8cb5f4655e5b4c272678296c34791024c61941435b5f009eec"
+      },
+      {
+        "frame_index": 101,
+        "time_seconds": 4.024,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C13/000101.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "2103b3db125fda5566e29c9e6a7b786c197bc2e5913b0921ee7f32503655405f"
+      },
+      {
+        "frame_index": 151,
+        "time_seconds": 6.024,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C13/000151.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "4406ee59b1800f06a5178ea3a777dbbf24ed87647fbc6571cc5ca022dbd0c3b6"
+      },
+      {
+        "frame_index": 201,
+        "time_seconds": 8.023,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C13/000201.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "7252f89cba0202798b7980bd83d015e35b45d691a44afcb0b8ad751c56c20b4f"
+      },
+      {
+        "frame_index": 251,
+        "time_seconds": 10.022,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C13/000251.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "cd0f712a782eed7be9869cd037b4f4e93f772b9a6f69f367dba10543d564deb4"
+      },
+      {
+        "frame_index": 301,
+        "time_seconds": 12.022,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C13/000301.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "3b24d9d42218bf25169c2a63ebf0df2d79cc1837a416d49b19fb5b5293a7b319"
+      },
+      {
+        "frame_index": 351,
+        "time_seconds": 14.021,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C13/000351.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "560415a40a1a4bf482eff7d66d5dba28fbc324c4502dccdee77096e7972897b4"
+      },
+      {
+        "frame_index": 401,
+        "time_seconds": 16.021,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C13/000401.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "e6fd74fc1bf6775390a76c26624c3315e2b72bf1e44836393a6e796ce95b74d2"
+      },
+      {
+        "frame_index": 451,
+        "time_seconds": 18.02,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C13/000451.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "c090a8613cfa086dd627cfeabf81d7eb0829a747c1fe6d22760633f9a2b1d424"
+      },
+      {
+        "frame_index": 501,
+        "time_seconds": 20.019,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C13/000501.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "7bdc7e97dd391e496816432569860ff90f84f65164cadc09bc1a1835f1462aee"
+      },
+      {
+        "frame_index": 551,
+        "time_seconds": 22.019,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C13/000551.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "2396f496dfd8b43f82722d9182d7d638579434adc736537b03d03e9b0648099f"
+      },
+      {
+        "frame_index": 601,
+        "time_seconds": 24.018,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C13/000601.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "255e0ef3667f88d5ff71c5492edc4f6cd948d6577f9cb7120e2d65b50701115a"
+      },
+      {
+        "frame_index": 651,
+        "time_seconds": 26.017,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C13/000651.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "3f290e4caad452bc74bb5b4a90088095bf832cf48cb33d5e2caed934f0ea6c0f"
+      },
+      {
+        "frame_index": 701,
+        "time_seconds": 28.017,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C13/000701.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "e046e2ff192952d0d723bd08d425edcfe15d50a71d6c202d77dce50efcf8f2e8"
+      },
+      {
+        "frame_index": 751,
+        "time_seconds": 30.016,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C13/000751.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "87fd6348a0f884f1353d50c99082e3b92328a16fcbaecb81e4d24d1fa5db91b8"
+      },
+      {
+        "frame_index": 801,
+        "time_seconds": 32.015,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C13/000801.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "7ebb853b53ae2043be56182c181e548aecb589ad78b3bdd1f8311da47cc1d44b"
+      },
+      {
+        "frame_index": 851,
+        "time_seconds": 34.015,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C13/000851.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "ae8d61dbd828bd9ef14b81e537846489023ecc01faad6b782911d7b33f2d7a62"
+      },
+      {
+        "frame_index": 901,
+        "time_seconds": 36.014,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C13/000901.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "614373b4ab5fc85e9e145545c041a8e93caac221cecb66776fd7d5b34d552103"
+      },
+      {
+        "frame_index": 951,
+        "time_seconds": 38.013,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C13/000951.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "8d40dbe4b6a45e584d7be026af22503d5d33f00914a62db3078d47a9e6d9538a"
+      },
+      {
+        "frame_index": 1001,
+        "time_seconds": 40.013,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C13/001001.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "34a744e073a0d1e1a8c895e797cf5c457e912e06bbaa35cba133c87e5728f06d"
+      },
+      {
+        "frame_index": 1051,
+        "time_seconds": 42.012,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C13/001051.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "d6701e444ec65823381d515183ef219c7ba3bd948f978ad0c255c444ed619137"
+      },
+      {
+        "frame_index": 1101,
+        "time_seconds": 44.011,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C13/001101.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "88db81774edbd2a0869978c4e6bb92ed0af5f8d52aea9188f5eb43dcb2fcddf2"
+      },
+      {
+        "frame_index": 1125,
+        "time_seconds": 44.971,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C13/001125.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "0122923031bf0c741b28f16a2135e98e62231cfa8237e85648c3b98f710931b9"
+      }
+    ]
+  },
+  {
+    "clip_id": "C14",
+    "sample_step_seconds": 2,
+    "decoded_frames": 1501,
+    "review_sheet_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C14-review.jpg",
+    "review_sheet_sha256": "aa4fd5260274fbd76af7415c5970c108fcb6be36ce9f06f8af17a59bcfe0a532",
+    "samples": [
+      {
+        "frame_index": 0,
+        "time_seconds": 0.0,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C14/000000.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "83097b71f1512f4081cd1631ea84ab37d3b9892c0f7dff35d3596b72fc8619e9"
+      },
+      {
+        "frame_index": 51,
+        "time_seconds": 2.02,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C14/000051.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "a174f4b112948845f417c5a4d9df33c7b4921e928188b680cd543fd18190e47e"
+      },
+      {
+        "frame_index": 101,
+        "time_seconds": 4.019,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C14/000101.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "9069e29283e2ca87d004c3b866b1571399205084fdf31c33cdfce0acb8f68e0e"
+      },
+      {
+        "frame_index": 151,
+        "time_seconds": 6.019,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C14/000151.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "f3645d9af96f952e454c60c1809c912e239aed27f3c0cb3b72ffb913dbd6d6d6"
+      },
+      {
+        "frame_index": 201,
+        "time_seconds": 8.018,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C14/000201.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "5160fe117c4e17d7a09e9ab227a00886a51f8bf4394199054fd273e35501492d"
+      },
+      {
+        "frame_index": 251,
+        "time_seconds": 10.017,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C14/000251.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "94ec647f3500fd22d043ad90bcff963d138acbc9e767fbc47f65ed482a139588"
+      },
+      {
+        "frame_index": 301,
+        "time_seconds": 12.017,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C14/000301.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "752169d85cd3d64c5de64c05368c850a6db5b7b7cef81eac3b31f43d1e957aa1"
+      },
+      {
+        "frame_index": 351,
+        "time_seconds": 14.016,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C14/000351.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "34466969929b44d765b80da4640d41f160edc3a7521a3d82e444c5eb692d587f"
+      },
+      {
+        "frame_index": 401,
+        "time_seconds": 16.015,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C14/000401.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "0f9abe554c1d05649c0ee28864e82873c9298333229b6ec98327c5b67eb23138"
+      },
+      {
+        "frame_index": 451,
+        "time_seconds": 18.015,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C14/000451.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "be9062da86421bf55d1a1ba649f341f61e25625061de46cb7e2c800bd04d09af"
+      },
+      {
+        "frame_index": 501,
+        "time_seconds": 20.014,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C14/000501.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "8c00fa260b145af5a09742e3e9e4217fa360ea54bfe4b896efc92125cebaddb9"
+      },
+      {
+        "frame_index": 551,
+        "time_seconds": 22.014,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C14/000551.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "ef6c297e4309cdf8fc0bea84c0f4d41fa9a47a828bd6634a7818f7bc25fdc0f8"
+      },
+      {
+        "frame_index": 601,
+        "time_seconds": 24.013,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C14/000601.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "bf0e3c9f735904250d7de59777aeea274177ae14c1911043bdd74d10e602c54b"
+      },
+      {
+        "frame_index": 651,
+        "time_seconds": 26.012,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C14/000651.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "4cb3615938bfedc1fcb14e4b22b2b7cb33189a97288e3ac8ff901b632f19eff2"
+      },
+      {
+        "frame_index": 701,
+        "time_seconds": 28.012,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C14/000701.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "619afe7a562bc6930cc041aef74b7cf0b4009ba657a74ac9cefa42749cff4fde"
+      },
+      {
+        "frame_index": 751,
+        "time_seconds": 30.011,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C14/000751.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "a4f95d71c7dbe18bdb6b729ce7247b364fc5074d8649ce44c8343feb08f61a55"
+      },
+      {
+        "frame_index": 801,
+        "time_seconds": 32.01,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C14/000801.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "355e4e9fc28e460fa522f98e9988229de74b5844eb07e9bf570d29069364e055"
+      },
+      {
+        "frame_index": 851,
+        "time_seconds": 34.01,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C14/000851.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "3e150a9c9964c09950e6ad32505055b84d1bfc5b7aaf658db5fa5823f4320fa1"
+      },
+      {
+        "frame_index": 901,
+        "time_seconds": 36.009,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C14/000901.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "4040064cf8f8f8e2fc7b833b59c5dc4c681c9ea2bcc9ae1797ac999bd0408f6f"
+      },
+      {
+        "frame_index": 951,
+        "time_seconds": 38.008,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C14/000951.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "d008e53405a1c4506a3e40b4c1d4c9af04b83b6da79a7634d9857fab00cad7ef"
+      },
+      {
+        "frame_index": 1001,
+        "time_seconds": 40.008,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C14/001001.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "0882020016b58e82fff3345a3bc6fa54ad20684acdd559a9b4bd944040dfc8d9"
+      },
+      {
+        "frame_index": 1051,
+        "time_seconds": 42.007,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C14/001051.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "f0b7bdc31fcd95c4a5c174e94f388640994565f83cd900f9c2c74ed608f6d932"
+      },
+      {
+        "frame_index": 1101,
+        "time_seconds": 44.006,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C14/001101.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "cf370ed96e3947d7688a0090a7376df324abe45b653468d078ffb478727c2e87"
+      },
+      {
+        "frame_index": 1151,
+        "time_seconds": 46.006,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C14/001151.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "93ed01a99864e0677f05d7d94ef28e14b383ae7be8064d3365b64f301dc10332"
+      },
+      {
+        "frame_index": 1201,
+        "time_seconds": 48.005,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C14/001201.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "eb326afdbdd24a3f7d67c0d482d3f5b0c5a98549c6475506a49c33efef7211f4"
+      },
+      {
+        "frame_index": 1251,
+        "time_seconds": 50.005,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C14/001251.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "6493333a7c5cc1a0fc1cf2d5c5cf740664dd4e126bde968c7afe7246f29bef08"
+      },
+      {
+        "frame_index": 1301,
+        "time_seconds": 52.004,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C14/001301.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "43bb7a3dd246e50389b9e1a2e2051635c0b427f75cf1e02c2bc31385838bb393"
+      },
+      {
+        "frame_index": 1351,
+        "time_seconds": 54.003,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C14/001351.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "730e2831ba0d7307eed677f98f1819dc823d6ea0e1d0e1c2d02d03ba01a7c56e"
+      },
+      {
+        "frame_index": 1401,
+        "time_seconds": 56.003,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C14/001401.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "267c05277a6cd6594608414eae081a0aee26847de98743c336c1b3b423d1c991"
+      },
+      {
+        "frame_index": 1451,
+        "time_seconds": 58.002,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C14/001451.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "cb524075ddc5810da0ab0fbb10306a1de77da4ca916fb1a2f8ff35cb940fa212"
+      },
+      {
+        "frame_index": 1500,
+        "time_seconds": 59.961,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C14/001500.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "497df3de9ef97096b79b36d9245adb52296de0d5a0face538c15acd0a00e16bd"
+      }
+    ]
+  },
+  {
+    "clip_id": "C15",
+    "sample_step_seconds": 2,
+    "decoded_frames": 1126,
+    "review_sheet_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C15-review.jpg",
+    "review_sheet_sha256": "d7385028b8f9b67f491109a5fe6fe053913036beeeb0e12d08e07225a1db8029",
+    "samples": [
+      {
+        "frame_index": 0,
+        "time_seconds": 0.0,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C15/000000.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "aae09540c0b3df22b6727c2b5618673c6aababcadbceda2186f15e0665ed7f08"
+      },
+      {
+        "frame_index": 51,
+        "time_seconds": 2.038,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C15/000051.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "173d47171fcdbb840681589879cc7380939cd9637d745169ff2449170982f5fb"
+      },
+      {
+        "frame_index": 101,
+        "time_seconds": 4.037,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C15/000101.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "f700b081bebc09710d89b556c9c306cf5aefdfc0137afcc3974ab3a83cf0ca53"
+      },
+      {
+        "frame_index": 151,
+        "time_seconds": 6.036,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C15/000151.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "e5adcbac9bbf6e276a2fd2302355542b1a99c004142037c363337e6aa27c91e5"
+      },
+      {
+        "frame_index": 201,
+        "time_seconds": 8.036,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C15/000201.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "b3a025fb94a31210cceddaa4acb63ac69826d9251d29a83b2b2acfccaa486e57"
+      },
+      {
+        "frame_index": 251,
+        "time_seconds": 10.035,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C15/000251.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "bd29927538a77c5b49db81fcd977e4e632abc3c22c49bfd31d44e69ec7cc15a4"
+      },
+      {
+        "frame_index": 301,
+        "time_seconds": 12.034,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C15/000301.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "dc463205d5420ab55c2f8a5a5cef42fff56d76e79cc510f402e02e609e3fc815"
+      },
+      {
+        "frame_index": 351,
+        "time_seconds": 14.034,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C15/000351.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "3871b64a3f32bbda50026e25becc8e9cd05feb849ef23c2ac80d5ccbc73908c3"
+      },
+      {
+        "frame_index": 401,
+        "time_seconds": 16.033,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C15/000401.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "61e71a40c5cdb4a1ef29f518d41dd8656f8b283a3dd533c00d1172468d3bc39d"
+      },
+      {
+        "frame_index": 451,
+        "time_seconds": 18.032,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C15/000451.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "d875b430a7d0b1034c0cc82016c14c982e0dd8ef1a3c6888e435c4b94c81b231"
+      },
+      {
+        "frame_index": 501,
+        "time_seconds": 20.032,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C15/000501.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "575dd6ad0d45cc930e9de985dc421208020ff404796d33cd79e305dfe2353f6e"
+      },
+      {
+        "frame_index": 551,
+        "time_seconds": 22.031,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C15/000551.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "27af40f2fe862257a9941c11164571ae1fb349b454ed5c218d6f96da34ee7e1d"
+      },
+      {
+        "frame_index": 601,
+        "time_seconds": 24.031,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C15/000601.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "a560fb9ebdf22e0ced1d71b58a96a5b1d1dcdea74c8eea455bca88c04241b70c"
+      },
+      {
+        "frame_index": 651,
+        "time_seconds": 26.03,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C15/000651.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "5ac36d5bea565274fd5ae9b9249b6b4c57c599d8e7c65feca9531c2ad6ca3399"
+      },
+      {
+        "frame_index": 701,
+        "time_seconds": 28.029,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C15/000701.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "2bd61386d66f43010a6ede6b478c0f217eaf482a6cb9f06b3d1089865eced6b7"
+      },
+      {
+        "frame_index": 751,
+        "time_seconds": 30.029,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C15/000751.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "73d69008a890c48f22cd603e980012bee44168dd1a2fe0ec2df359ff4acc5ba3"
+      },
+      {
+        "frame_index": 801,
+        "time_seconds": 32.028,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C15/000801.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "7a40866bb25906c0fc23e9b1ff4792687d8bb1865eccd87bcacfc1c081a86a1b"
+      },
+      {
+        "frame_index": 851,
+        "time_seconds": 34.027,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C15/000851.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "03ebccb7ad3e345c556fc94a604742b897db3fcc1291b6e5bddc1bb416c3a20a"
+      },
+      {
+        "frame_index": 901,
+        "time_seconds": 36.027,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C15/000901.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "12d6d290a70ac4dbb88d85fa0d37bf3bbff890c897d0544809d39dccb15394c0"
+      },
+      {
+        "frame_index": 951,
+        "time_seconds": 38.026,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C15/000951.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "e7ff5a756b4448d8bda559fb4f4e88085a659179586f79a547639aca68d6b018"
+      },
+      {
+        "frame_index": 1001,
+        "time_seconds": 40.025,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C15/001001.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "fbe774c4b601064b26942c09a3f2c698c04a9c031602b3c56f24481f1c2f79d5"
+      },
+      {
+        "frame_index": 1051,
+        "time_seconds": 42.025,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C15/001051.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "cdff881c23c0eaafba74004a5f4bfd90add26c02e1041ed903107a2c41eed013"
+      },
+      {
+        "frame_index": 1101,
+        "time_seconds": 44.024,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C15/001101.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "92ebaaff8afda9e48985d062bbe9f28ab37127dbc51883a49a6b419964e41a1c"
+      },
+      {
+        "frame_index": 1125,
+        "time_seconds": 44.984,
+        "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C15/001125.jpg",
+        "width": 1280,
+        "height": 720,
+        "image_sha256": "5489585d658fca3a386983461764f12a3acf58ac820e066787c52389f68c977f"
+      }
+    ]
+  }
+]

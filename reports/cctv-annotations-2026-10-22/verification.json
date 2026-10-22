@@ -1,0 +1,24 @@
+{
+  "valid": true,
+  "manifest_sha256": "82a147b509bf4815031bfb64c600273508c042c63d72ff544099fea50a4ce4ec",
+  "counts": {
+    "clips": 23,
+    "review_samples": 492,
+    "fire_absent_visible": 13,
+    "smoke_absent_visible": 12,
+    "source_frame_checks": 69,
+    "sparse_frames": 69,
+    "frames_reviewed": 39,
+    "fire_present": 6,
+    "smoke_uncertain": 4,
+    "frames_ambiguous": 30,
+    "fire_boxes": 18,
+    "boxes_reviewed": 18,
+    "smoke_present": 7,
+    "smoke_boxes": 4,
+    "fire_uncertain": 4,
+    "boxes_ambiguous": 4
+  },
+  "all_clips_development_only": true,
+  "training_started": false
+}

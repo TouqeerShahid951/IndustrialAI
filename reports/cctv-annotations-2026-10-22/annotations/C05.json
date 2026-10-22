@@ -1,0 +1,115 @@
+{
+  "review_status": "single_reviewer",
+  "reviewer": "assistant_visual_review",
+  "human_confirmed": false,
+  "user_authorized_assistant_review": true,
+  "annotation_version": "2026-10-22.1",
+  "review_id": "C05",
+  "source_sha256": "2762b141bcea09d41be449504c2858e5c276b11e9aaa84f9136cbc0e075faf44",
+  "duration_seconds": 45.026,
+  "reviewed_intervals": {
+    "fire": [],
+    "smoke": [
+      [
+        0,
+        45.026
+      ]
+    ]
+  },
+  "events": [
+    {
+      "kind": "smoke",
+      "start_seconds": 0,
+      "end_seconds": 45.026,
+      "review_status": "reviewed",
+      "left_censored": true,
+      "right_censored": true,
+      "onset_observed": false,
+      "offset_observed": false,
+      "boundary_note": "Present in first reviewed frame; actual onset predates excerpt."
+    }
+  ],
+  "excluded_intervals": [
+    {
+      "kind": "fire",
+      "start_seconds": 0,
+      "end_seconds": 45.026,
+      "reason": "ambiguous",
+      "notes": "Visibility/identity unresolved; do not score as negative."
+    }
+  ],
+  "frames": [
+    {
+      "time_seconds": 0.0,
+      "frame_index": 0,
+      "image_width": 1280,
+      "image_height": 720,
+      "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C05/000000.jpg",
+      "image_sha256": "5aee97be8a30e820962949837a1c1c762233798ed53d96b70912966878561a12",
+      "review_status": "ambiguous",
+      "class_assessment": {
+        "fire": "uncertain",
+        "smoke": "present"
+      },
+      "objects": [],
+      "localization_status": "not_localizable_diffuse_haze",
+      "nominal_parent_time_seconds": 740.0,
+      "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C05/annotated-000000.jpg"
+    },
+    {
+      "time_seconds": 24.033,
+      "frame_index": 602,
+      "image_width": 1280,
+      "image_height": 720,
+      "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C05/000602.jpg",
+      "image_sha256": "a980de08c4c3ab52ea084442a35f03a7b449da69b6c04bec6e28181c49d2f087",
+      "review_status": "ambiguous",
+      "class_assessment": {
+        "fire": "uncertain",
+        "smoke": "present"
+      },
+      "objects": [],
+      "localization_status": "not_localizable_diffuse_haze",
+      "nominal_parent_time_seconds": 764.033,
+      "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C05/annotated-000602.jpg"
+    },
+    {
+      "time_seconds": 44.986,
+      "frame_index": 1126,
+      "image_width": 1280,
+      "image_height": 720,
+      "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C05/001126.jpg",
+      "image_sha256": "89dd7d40056f35d1baccaadf6e192f768d8ed54cc26e69a05163285c8fad13e8",
+      "review_status": "ambiguous",
+      "class_assessment": {
+        "fire": "uncertain",
+        "smoke": "present"
+      },
+      "objects": [],
+      "localization_status": "not_localizable_diffuse_haze",
+      "nominal_parent_time_seconds": 784.986,
+      "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/C05/annotated-001126.jpg"
+    }
+  ],
+  "assessment": {
+    "fire": "uncertain",
+    "smoke": "present"
+  },
+  "notes": "Room-wide gray veiling and reduced background contrast support smoke presence. Bright doorway and obscuration prevent a reliable fire-present/absent judgment. Haze has no defensible localized boundary.",
+  "nuisance_tags": [],
+  "training_admission": "not_admitted",
+  "method": "Unannotated chronological 1-second factory / 2-second laboratory samples plus terminal frames, native-pixel flame/plume crops, and three selected box/negative frames per clip. No detector proposals or interpolation. Events are sampled visibility intervals, not exhaustive per-frame labels.",
+  "limitations": [
+    "Single assistant reviewer; not human-confirmed or independently reviewed.",
+    "Sub-sample transients can be missed; uncertain class intervals and incompletely localized frames are excluded from scoring/training.",
+    "Absence refers to visible evidence in the recorded view; it does not establish physical absence behind occlusion.",
+    "Only fire and combustion smoke annotated; no smoking behavior, helmet or restricted-area labels."
+  ],
+  "parent_source": {
+    "parent_id": "M05",
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-acquisition-2026-10-22/mmodalfire/Downtest_ch01_00000000004000200.mp4",
+    "sha256": "9da6f4819980993bf87983fc3f20ee755751737eb18484c5e77dbe86579adcda",
+    "source_start_seconds": 740,
+    "time_mapping": "Nominal parent seconds = source trim offset + excerpt PTS. Native trim, variable-rate timing and camera-clock rounding prevent frame-exact cross-recording claims."
+  }
+}

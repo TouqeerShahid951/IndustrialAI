@@ -1,0 +1,94 @@
+{
+  "review_status": "single_reviewer",
+  "reviewer": "assistant_visual_review",
+  "human_confirmed": false,
+  "user_authorized_assistant_review": true,
+  "annotation_version": "2026-10-22.1",
+  "review_id": "F08",
+  "source_sha256": "888f4c70c79ab271da5f797b49c08e74e768edd289f791217130745aa59f55b4",
+  "duration_seconds": 12.124453125,
+  "reviewed_intervals": {
+    "fire": [
+      [
+        0,
+        12.124453125
+      ]
+    ],
+    "smoke": [
+      [
+        0,
+        12.124453125
+      ]
+    ]
+  },
+  "events": [],
+  "excluded_intervals": [],
+  "frames": [
+    {
+      "time_seconds": 0.0,
+      "frame_index": 0,
+      "image_width": 1920,
+      "image_height": 1080,
+      "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F08/000000.jpg",
+      "image_sha256": "8db9deb974b34e18dbdb4963bf0ae763993e8ceb7f392d7d6722abcaa65d0c14",
+      "review_status": "reviewed",
+      "class_assessment": {
+        "fire": "absent_visible",
+        "smoke": "absent_visible"
+      },
+      "objects": [],
+      "localization_status": "reviewed_empty",
+      "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F08/annotated-000000.jpg"
+    },
+    {
+      "time_seconds": 7.004453,
+      "frame_index": 176,
+      "image_width": 1920,
+      "image_height": 1080,
+      "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F08/000176.jpg",
+      "image_sha256": "7ce9ecbfa6252044bb0bad88dc46f7002e8513f53c1cd6593e9aa874a47d72b4",
+      "review_status": "reviewed",
+      "class_assessment": {
+        "fire": "absent_visible",
+        "smoke": "absent_visible"
+      },
+      "objects": [],
+      "localization_status": "reviewed_empty",
+      "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F08/annotated-000176.jpg"
+    },
+    {
+      "time_seconds": 12.084453,
+      "frame_index": 303,
+      "image_width": 1920,
+      "image_height": 1080,
+      "image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F08/000303.jpg",
+      "image_sha256": "66d90b04630a1454e52c3c6cb8954703a08271b250fabf9f7b0bae0d12fa6358",
+      "review_status": "reviewed",
+      "class_assessment": {
+        "fire": "absent_visible",
+        "smoke": "absent_visible"
+      },
+      "objects": [],
+      "localization_status": "reviewed_empty",
+      "annotated_image_path": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-annotations-2026-10-22/F08/annotated-000303.jpg"
+    }
+  ],
+  "assessment": {
+    "fire": "absent_visible",
+    "smoke": "absent_visible"
+  },
+  "notes": "No visible fire or developing/drifting smoke plume. Machinery, floor reflections, workwear, people and forklift movement are non-fire/smoke background in these samples.",
+  "nuisance_tags": [
+    "reflective_floor",
+    "machinery",
+    "people"
+  ],
+  "training_admission": "not_admitted",
+  "method": "Unannotated chronological 1-second factory / 2-second laboratory samples plus terminal frames, native-pixel flame/plume crops, and three selected box/negative frames per clip. No detector proposals or interpolation. Events are sampled visibility intervals, not exhaustive per-frame labels.",
+  "limitations": [
+    "Single assistant reviewer; not human-confirmed or independently reviewed.",
+    "Sub-sample transients can be missed; uncertain class intervals and incompletely localized frames are excluded from scoring/training.",
+    "Absence refers to visible evidence in the recorded view; it does not establish physical absence behind occlusion.",
+    "Only fire and combustion smoke annotated; no smoking behavior, helmet or restricted-area labels."
+  ]
+}

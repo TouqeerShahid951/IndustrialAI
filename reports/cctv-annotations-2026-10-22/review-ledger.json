@@ -1,0 +1,517 @@
+[
+  {
+    "clip_id": "F01",
+    "duration_seconds": 16.975806451612904,
+    "fire": "absent_visible",
+    "smoke": "absent_visible",
+    "events": [],
+    "excluded_intervals": [],
+    "notes": "No visible fire or developing/drifting smoke plume. Machinery, floor reflections, workwear, people and forklift movement are non-fire/smoke background in these samples.",
+    "nuisance_tags": [
+      "reflective_floor",
+      "machinery",
+      "people"
+    ],
+    "annotation_path": "annotations/F01.json"
+  },
+  {
+    "clip_id": "F02",
+    "duration_seconds": 20.766129032258064,
+    "fire": "absent_visible",
+    "smoke": "absent_visible",
+    "events": [],
+    "excluded_intervals": [],
+    "notes": "No visible fire or developing/drifting smoke plume. Machinery, floor reflections, workwear, people and forklift movement are non-fire/smoke background in these samples.",
+    "nuisance_tags": [
+      "reflective_floor",
+      "machinery",
+      "people"
+    ],
+    "annotation_path": "annotations/F02.json"
+  },
+  {
+    "clip_id": "F03",
+    "duration_seconds": 11.031175059952039,
+    "fire": "absent_visible",
+    "smoke": "absent_visible",
+    "events": [],
+    "excluded_intervals": [],
+    "notes": "No visible fire or developing/drifting smoke plume. Machinery, floor reflections, workwear, people and forklift movement are non-fire/smoke background in these samples.",
+    "nuisance_tags": [
+      "reflective_floor",
+      "machinery",
+      "people"
+    ],
+    "annotation_path": "annotations/F03.json"
+  },
+  {
+    "clip_id": "F04",
+    "duration_seconds": 13.0,
+    "fire": "absent_visible",
+    "smoke": "absent_visible",
+    "events": [],
+    "excluded_intervals": [],
+    "notes": "No visible fire or developing/drifting smoke plume. Machinery, floor reflections, workwear, people and forklift movement are non-fire/smoke background in these samples.",
+    "nuisance_tags": [
+      "reflective_floor",
+      "machinery",
+      "people"
+    ],
+    "annotation_path": "annotations/F04.json"
+  },
+  {
+    "clip_id": "F05",
+    "duration_seconds": 15.63621858795373,
+    "fire": "absent_visible",
+    "smoke": "absent_visible",
+    "events": [],
+    "excluded_intervals": [],
+    "notes": "No visible fire or developing/drifting smoke plume. Machinery, floor reflections, workwear, people and forklift movement are non-fire/smoke background in these samples.",
+    "nuisance_tags": [
+      "reflective_floor",
+      "machinery",
+      "people"
+    ],
+    "annotation_path": "annotations/F05.json"
+  },
+  {
+    "clip_id": "F06",
+    "duration_seconds": 15.008025682182984,
+    "fire": "absent_visible",
+    "smoke": "absent_visible",
+    "events": [],
+    "excluded_intervals": [],
+    "notes": "No visible fire or developing/drifting smoke plume. Machinery, floor reflections, workwear, people and forklift movement are non-fire/smoke background in these samples.",
+    "nuisance_tags": [
+      "reflective_floor",
+      "machinery",
+      "people"
+    ],
+    "annotation_path": "annotations/F06.json"
+  },
+  {
+    "clip_id": "F07",
+    "duration_seconds": 6.004803843074459,
+    "fire": "absent_visible",
+    "smoke": "absent_visible",
+    "events": [],
+    "excluded_intervals": [],
+    "notes": "No visible fire or developing/drifting smoke plume. Machinery, floor reflections, workwear, people and forklift movement are non-fire/smoke background in these samples.",
+    "nuisance_tags": [
+      "reflective_floor",
+      "machinery",
+      "people"
+    ],
+    "annotation_path": "annotations/F07.json"
+  },
+  {
+    "clip_id": "F08",
+    "duration_seconds": 12.124453125,
+    "fire": "absent_visible",
+    "smoke": "absent_visible",
+    "events": [],
+    "excluded_intervals": [],
+    "notes": "No visible fire or developing/drifting smoke plume. Machinery, floor reflections, workwear, people and forklift movement are non-fire/smoke background in these samples.",
+    "nuisance_tags": [
+      "reflective_floor",
+      "machinery",
+      "people"
+    ],
+    "annotation_path": "annotations/F08.json"
+  },
+  {
+    "clip_id": "C01",
+    "duration_seconds": 29.999999999999996,
+    "fire": "absent_visible",
+    "smoke": "absent_visible",
+    "events": [],
+    "excluded_intervals": [],
+    "notes": "Clear, static room with bright doorway. No visible flame or drifting smoke plume.",
+    "nuisance_tags": [],
+    "annotation_path": "annotations/C01.json"
+  },
+  {
+    "clip_id": "C02",
+    "duration_seconds": 29.999999999999996,
+    "fire": "absent_visible",
+    "smoke": "absent_visible",
+    "events": [],
+    "excluded_intervals": [],
+    "notes": "People move chairs and equipment in a clear room. No visible fire or smoke; no behavior/helmet labels assigned.",
+    "nuisance_tags": [],
+    "annotation_path": "annotations/C02.json"
+  },
+  {
+    "clip_id": "C03",
+    "duration_seconds": 60.0,
+    "fire": "present",
+    "smoke": "uncertain",
+    "events": [
+      {
+        "kind": "fire",
+        "start_seconds": 0,
+        "end_seconds": 60.0,
+        "review_status": "reviewed",
+        "left_censored": true,
+        "right_censored": true,
+        "onset_observed": false,
+        "offset_observed": false,
+        "boundary_note": "Present in first reviewed frame; actual onset predates excerpt."
+      }
+    ],
+    "excluded_intervals": [
+      {
+        "kind": "smoke",
+        "start_seconds": 0,
+        "end_seconds": 60.0,
+        "reason": "ambiguous",
+        "notes": "Visibility/identity unresolved; do not score as negative."
+      }
+    ],
+    "notes": "Small flickering flames are already visible on the tray in the first frame and grow. Person and red clothing are not flame. A separable smoke plume cannot be established reliably against the wall; smoke is excluded rather than called negative.",
+    "nuisance_tags": [],
+    "annotation_path": "annotations/C03.json"
+  },
+  {
+    "clip_id": "C04",
+    "duration_seconds": 60.0,
+    "fire": "absent_visible",
+    "smoke": "present",
+    "events": [
+      {
+        "kind": "smoke",
+        "start_seconds": 0,
+        "end_seconds": 60.0,
+        "review_status": "reviewed",
+        "left_censored": true,
+        "right_censored": true,
+        "onset_observed": false,
+        "offset_observed": false,
+        "boundary_note": "Present in first reviewed frame; actual onset predates excerpt."
+      }
+    ],
+    "excluded_intervals": [],
+    "notes": "Pale rising plume from the tray is visible from the first frame; it drifts/spreads across the upper room. No visible flame on the tray. Three coarse plume boxes include diffuse edges; they are not segmentation masks.",
+    "nuisance_tags": [],
+    "annotation_path": "annotations/C04.json"
+  },
+  {
+    "clip_id": "C05",
+    "duration_seconds": 45.026,
+    "fire": "uncertain",
+    "smoke": "present",
+    "events": [
+      {
+        "kind": "smoke",
+        "start_seconds": 0,
+        "end_seconds": 45.026,
+        "review_status": "reviewed",
+        "left_censored": true,
+        "right_censored": true,
+        "onset_observed": false,
+        "offset_observed": false,
+        "boundary_note": "Present in first reviewed frame; actual onset predates excerpt."
+      }
+    ],
+    "excluded_intervals": [
+      {
+        "kind": "fire",
+        "start_seconds": 0,
+        "end_seconds": 45.026,
+        "reason": "ambiguous",
+        "notes": "Visibility/identity unresolved; do not score as negative."
+      }
+    ],
+    "notes": "Room-wide gray veiling and reduced background contrast support smoke presence. Bright doorway and obscuration prevent a reliable fire-present/absent judgment. Haze has no defensible localized boundary.",
+    "nuisance_tags": [],
+    "annotation_path": "annotations/C05.json"
+  },
+  {
+    "clip_id": "C06",
+    "duration_seconds": 45.005,
+    "fire": "uncertain",
+    "smoke": "present",
+    "events": [
+      {
+        "kind": "smoke",
+        "start_seconds": 0,
+        "end_seconds": 45.005,
+        "review_status": "reviewed",
+        "left_censored": true,
+        "right_censored": true,
+        "onset_observed": false,
+        "offset_observed": false,
+        "boundary_note": "Present in first reviewed frame; actual onset predates excerpt."
+      }
+    ],
+    "excluded_intervals": [
+      {
+        "kind": "fire",
+        "start_seconds": 0,
+        "end_seconds": 45.005,
+        "reason": "ambiguous",
+        "notes": "Visibility/identity unresolved; do not score as negative."
+      }
+    ],
+    "notes": "Persistent dense gray haze fills the view. A small warm patch at the doorway cannot reliably distinguish flame from light through smoke. Fire remains uncertain; haze is not forced into a tight object box.",
+    "nuisance_tags": [],
+    "annotation_path": "annotations/C06.json"
+  },
+  {
+    "clip_id": "C07",
+    "duration_seconds": 60.0,
+    "fire": "present",
+    "smoke": "uncertain",
+    "events": [
+      {
+        "kind": "fire",
+        "start_seconds": 0,
+        "end_seconds": 60.0,
+        "review_status": "reviewed",
+        "left_censored": true,
+        "right_censored": true,
+        "onset_observed": false,
+        "offset_observed": false,
+        "boundary_note": "Present in first reviewed frame; actual onset predates excerpt."
+      }
+    ],
+    "excluded_intervals": [
+      {
+        "kind": "smoke",
+        "start_seconds": 0,
+        "end_seconds": 60.0,
+        "reason": "ambiguous",
+        "notes": "Visibility/identity unresolved; do not score as negative."
+      }
+    ],
+    "notes": "Tiny flame is already visible at the rear edge of the white board in frame zero and grows; ignition occurred before this excerpt. Blue/white LED points below the board are not fire. Early smoke visibility is unresolved.",
+    "nuisance_tags": [],
+    "annotation_path": "annotations/C07.json"
+  },
+  {
+    "clip_id": "C08",
+    "duration_seconds": 45.0,
+    "fire": "present",
+    "smoke": "present",
+    "events": [
+      {
+        "kind": "fire",
+        "start_seconds": 0,
+        "end_seconds": 45.0,
+        "review_status": "reviewed",
+        "left_censored": true,
+        "right_censored": true,
+        "onset_observed": false,
+        "offset_observed": false,
+        "boundary_note": "Present in first reviewed frame; actual onset predates excerpt."
+      },
+      {
+        "kind": "smoke",
+        "start_seconds": 30.03,
+        "end_seconds": 45.0,
+        "review_status": "reviewed",
+        "left_censored": false,
+        "right_censored": true,
+        "onset_observed": false,
+        "offset_observed": false,
+        "boundary_note": "First confidently positive sampled frame; preceding interval excluded."
+      }
+    ],
+    "excluded_intervals": [
+      {
+        "kind": "smoke",
+        "start_seconds": 0,
+        "end_seconds": 30.03,
+        "reason": "ambiguous",
+        "notes": "Earlier smoke visibility uncertain; boundary marks first confident sampled presence, not ignition/onset."
+      }
+    ],
+    "notes": "Flame is visible throughout. Gray veiling across the rear cabinet and upper room is confidently visible by 30.030 s; earlier smoke visibility is uncertain. This is a confidence boundary, not a measured physical smoke onset. Last-frame smoke box is a coarse draft.",
+    "nuisance_tags": [],
+    "annotation_path": "annotations/C08.json"
+  },
+  {
+    "clip_id": "C09",
+    "duration_seconds": 45.034,
+    "fire": "present",
+    "smoke": "present",
+    "events": [
+      {
+        "kind": "fire",
+        "start_seconds": 0,
+        "end_seconds": 45.034,
+        "review_status": "reviewed",
+        "left_censored": true,
+        "right_censored": true,
+        "onset_observed": false,
+        "offset_observed": false,
+        "boundary_note": "Present in first reviewed frame; actual onset predates excerpt."
+      },
+      {
+        "kind": "smoke",
+        "start_seconds": 0,
+        "end_seconds": 45.034,
+        "review_status": "reviewed",
+        "left_censored": true,
+        "right_censored": true,
+        "onset_observed": false,
+        "offset_observed": false,
+        "boundary_note": "Present in first reviewed frame; actual onset predates excerpt."
+      }
+    ],
+    "excluded_intervals": [],
+    "notes": "Flickering pink flame remains visible through thick smoke throughout. Color is affected by camera exposure/white balance. Flame envelopes are approximate through haze; smoke presence is clear but its room-wide boundary is not localizable.",
+    "nuisance_tags": [],
+    "annotation_path": "annotations/C09.json"
+  },
+  {
+    "clip_id": "C10",
+    "duration_seconds": 45.032,
+    "fire": "uncertain",
+    "smoke": "present",
+    "events": [
+      {
+        "kind": "smoke",
+        "start_seconds": 0,
+        "end_seconds": 45.032,
+        "review_status": "reviewed",
+        "left_censored": true,
+        "right_censored": true,
+        "onset_observed": false,
+        "offset_observed": false,
+        "boundary_note": "Present in first reviewed frame; actual onset predates excerpt."
+      }
+    ],
+    "excluded_intervals": [
+      {
+        "kind": "fire",
+        "start_seconds": 0,
+        "end_seconds": 45.032,
+        "reason": "ambiguous",
+        "notes": "Visibility/identity unresolved; do not score as negative."
+      }
+    ],
+    "notes": "Persistent room-wide residual haze and reduced contrast. No distinct flame contour resolves through the smoke and bright doorway; fire is uncertain, not a scored negative.",
+    "nuisance_tags": [],
+    "annotation_path": "annotations/C10.json"
+  },
+  {
+    "clip_id": "C11",
+    "duration_seconds": 45.011,
+    "fire": "absent_visible",
+    "smoke": "absent_visible",
+    "events": [],
+    "excluded_intervals": [],
+    "notes": "Faint non-combustion aerosol during the source worksheet Mist4 window. Camera clock approximately 16:33. Treat as water-mist nuisance, not combustion smoke. No visible fire. Substance assignment uses the experiment record as well as appearance.",
+    "nuisance_tags": [
+      "water_mist_non_combustion"
+    ],
+    "annotation_path": "annotations/C11.json"
+  },
+  {
+    "clip_id": "C12",
+    "duration_seconds": 45.016000000000005,
+    "fire": "absent_visible",
+    "smoke": "absent_visible",
+    "events": [],
+    "excluded_intervals": [],
+    "notes": "Clear blank-control interval following Mist4. No visible fire or combustion-smoke plume. Water-mist apparatus remains in the scene; no chemical identity is inferred from a single image.",
+    "nuisance_tags": [
+      "post_mist_blank_control"
+    ],
+    "annotation_path": "annotations/C12.json"
+  },
+  {
+    "clip_id": "C13",
+    "duration_seconds": 45.011,
+    "fire": "uncertain",
+    "smoke": "present",
+    "events": [
+      {
+        "kind": "smoke",
+        "start_seconds": 0,
+        "end_seconds": 45.011,
+        "review_status": "reviewed",
+        "left_censored": true,
+        "right_censored": true,
+        "onset_observed": false,
+        "offset_observed": false,
+        "boundary_note": "Present in first reviewed frame; actual onset predates excerpt."
+      }
+    ],
+    "excluded_intervals": [
+      {
+        "kind": "fire",
+        "start_seconds": 0,
+        "end_seconds": 45.011,
+        "reason": "ambiguous",
+        "notes": "Visibility/identity unresolved; do not score as negative."
+      }
+    ],
+    "notes": "Residual room haze and veiled background throughout. Bright doorway spots and smoke obscuration prevent a reliable fire judgment. No tight smoke boundary assigned.",
+    "nuisance_tags": [],
+    "annotation_path": "annotations/C13.json"
+  },
+  {
+    "clip_id": "C14",
+    "duration_seconds": 60.0,
+    "fire": "present",
+    "smoke": "uncertain",
+    "events": [
+      {
+        "kind": "fire",
+        "start_seconds": 0,
+        "end_seconds": 60.0,
+        "review_status": "reviewed",
+        "left_censored": true,
+        "right_censored": true,
+        "onset_observed": false,
+        "offset_observed": false,
+        "boundary_note": "Present in first reviewed frame; actual onset predates excerpt."
+      }
+    ],
+    "excluded_intervals": [
+      {
+        "kind": "smoke",
+        "start_seconds": 0,
+        "end_seconds": 60.0,
+        "reason": "ambiguous",
+        "notes": "Visibility/identity unresolved; do not score as negative."
+      }
+    ],
+    "notes": "A distinct tall yellow flame is visible above the pan throughout. The red/orange pan and wall reflection are excluded from flame boxes. Faint gray appearance above the flame is insufficient to assign a reliable smoke presence/absence label.",
+    "nuisance_tags": [],
+    "annotation_path": "annotations/C14.json"
+  },
+  {
+    "clip_id": "C15",
+    "duration_seconds": 45.024,
+    "fire": "present",
+    "smoke": "uncertain",
+    "events": [
+      {
+        "kind": "fire",
+        "start_seconds": 0,
+        "end_seconds": 45.024,
+        "review_status": "reviewed",
+        "left_censored": true,
+        "right_censored": true,
+        "onset_observed": false,
+        "offset_observed": false,
+        "boundary_note": "Present in first reviewed frame; actual onset predates excerpt."
+      }
+    ],
+    "excluded_intervals": [
+      {
+        "kind": "smoke",
+        "start_seconds": 0,
+        "end_seconds": 45.024,
+        "reason": "ambiguous",
+        "notes": "Visibility/identity unresolved; do not score as negative."
+      }
+    ],
+    "notes": "Distinct saturated white/yellow flickering flame throughout. Orange pan, bright doorway and wall glow are excluded. Possible faint smoke/heat effects near the upper background remain uncertain.",
+    "nuisance_tags": [],
+    "annotation_path": "annotations/C15.json"
+  }
+]
