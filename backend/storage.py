@@ -27,6 +27,7 @@ class Store:
     def __init__(self, root):
         self.root = Path(root).resolve()
         self.root.mkdir(parents=True, exist_ok=True)
+        self.root.chmod(0o700)
         with self.connect() as db:
             db.executescript('''
             PRAGMA journal_mode=WAL;
@@ -99,6 +100,9 @@ class Store:
                 if (old['upload_id'], old['kind'], old['config']) != (uid, kind, config):
                     raise ValueError('Request ID already used with different data')
                 return old
+            upload = db.execute('SELECT status FROM uploads WHERE id=?',(uid,)).fetchone()
+            if not upload or upload['status']=='deleting':
+                raise ValueError('Upload is unavailable or being deleted')
             jid = str(uuid4())
             db.execute('INSERT INTO jobs(id,upload_id,kind,config,request_id,created,updated) VALUES(?,?,?,?,?,?,?)',
                        (jid, uid, kind, encoded, request_id, now(), now()))
@@ -152,7 +156,7 @@ class Store:
                     if (old['job_id'], old['kind'], old['start'], old['end'], json.loads(old['evidence'])) != (jid, kind, start, end, evidence):
                         raise ValueError('Request ID already used with different data')
                     return old['id']
-            db.execute('INSERT INTO incidents VALUES(?,?,?,?,?,?,?,?,?,?)',
+            db.execute('INSERT INTO incidents VALUES(?,?,?,?,?,?,?,?,?)',
                        (iid, jid, kind, origin, start, end, json.dumps(evidence, allow_nan=False), request_id, now()))
             if initial_review:
                 db.execute('INSERT INTO reviews VALUES(?,?,?,?,?,?,?)', (str(uuid4()), iid, initial_review['decision'], initial_review['note'], 1, request_id, now()))

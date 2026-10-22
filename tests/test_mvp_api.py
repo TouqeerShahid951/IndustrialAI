@@ -24,6 +24,7 @@ class APITests(unittest.TestCase):
         return {'X-CSRF-Token': response.json()['csrf']}
 
     def test_auth_csrf_origin_logout(self):
+        self.client.cookies.clear()
         for path in ['/api/uploads', '/api/jobs/unknown', '/api/artifacts/unknown']:
             self.assertEqual(self.client.get(path).status_code, 401)
         self.assertEqual(self.client.post('/api/session', json={'password': 'wrong'}).status_code, 401)

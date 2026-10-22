@@ -3,6 +3,7 @@ import base64
 import hashlib
 import hmac
 import json
+import os
 import secrets
 import time
 from pathlib import Path
@@ -30,6 +31,19 @@ def configure(root, password=None):
 def password_matches(password, settings):
     computed = hashlib.scrypt(password.encode(), salt=settings['salt'].encode(), n=16384, r=8, p=1).hex()
     return hmac.compare_digest(computed, settings['password_hash'])
+
+
+def revoke_sessions(root, settings):
+    settings['secret']=secrets.token_hex(32)
+    path=Path(root)/'settings.json'
+    temporary=path.with_suffix('.'+secrets.token_hex(6)+'.tmp')
+    descriptor=os.open(temporary,os.O_WRONLY|os.O_CREAT|os.O_EXCL,0o600)
+    try:
+        with os.fdopen(descriptor,'w') as handle:
+            json.dump(settings,handle)
+        os.replace(temporary,path)
+    finally:
+        temporary.unlink(missing_ok=True)
 
 
 def sign(value, secret):

@@ -20,6 +20,7 @@ class Worker:
         store.recover()
 
     def close(self):
+        (self.store.root/'worker.heartbeat').unlink(missing_ok=True)
         fcntl.flock(self.lock,fcntl.LOCK_UN)
         self.lock.close()
 

@@ -1,0 +1,1624 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Industrial AI",
+    "version": "0.1.0"
+  },
+  "paths": {
+    "/api/health": {
+      "get": {
+        "summary": "Health",
+        "operationId": "health_api_health_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/session": {
+      "get": {
+        "summary": "Session",
+        "operationId": "session_api_session_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "Login",
+        "operationId": "login_api_session_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Login"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "Logout",
+        "operationId": "logout_api_session_delete",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/uploads": {
+      "get": {
+        "summary": "Uploads",
+        "operationId": "uploads_api_uploads_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/UploadRecord"
+                  },
+                  "type": "array",
+                  "title": "Response Uploads Api Uploads Get"
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "Upload",
+        "operationId": "upload_api_uploads_post",
+        "responses": {
+          "202": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/uploads/{uid}": {
+      "get": {
+        "summary": "Upload Detail",
+        "operationId": "upload_detail_api_uploads__uid__get",
+        "parameters": [
+          {
+            "name": "uid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Uid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UploadRecord"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "Delete Upload",
+        "operationId": "delete_upload_api_uploads__uid__delete",
+        "parameters": [
+          {
+            "name": "uid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Uid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/capabilities": {
+      "get": {
+        "summary": "Capabilities",
+        "operationId": "capabilities_api_capabilities_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/uploads/{uid}/jobs": {
+      "post": {
+        "summary": "Start Analysis",
+        "operationId": "start_analysis_api_uploads__uid__jobs_post",
+        "parameters": [
+          {
+            "name": "uid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Uid"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Analysis"
+              }
+            }
+          }
+        },
+        "responses": {
+          "202": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/JobRecord"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/jobs/{jid}": {
+      "get": {
+        "summary": "Job",
+        "operationId": "job_api_jobs__jid__get",
+        "parameters": [
+          {
+            "name": "jid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Jid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/JobRecord"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/jobs/{jid}/cancel": {
+      "post": {
+        "summary": "Cancel",
+        "operationId": "cancel_api_jobs__jid__cancel_post",
+        "parameters": [
+          {
+            "name": "jid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Jid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/JobRecord"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/jobs/{jid}/incidents": {
+      "get": {
+        "summary": "Incidents",
+        "operationId": "incidents_api_jobs__jid__incidents_get",
+        "parameters": [
+          {
+            "name": "jid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Jid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/IncidentRecord"
+                  },
+                  "title": "Response Incidents Api Jobs  Jid  Incidents Get"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "Missed",
+        "operationId": "missed_api_jobs__jid__incidents_post",
+        "parameters": [
+          {
+            "name": "jid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Jid"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ManualIncident"
+              }
+            }
+          }
+        },
+        "responses": {
+          "201": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/IncidentRecord"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/incidents": {
+      "get": {
+        "summary": "History",
+        "operationId": "history_api_incidents_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "items": {
+                    "$ref": "#/components/schemas/IncidentRecord"
+                  },
+                  "type": "array",
+                  "title": "Response History Api Incidents Get"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/incidents/{iid}/reviews": {
+      "post": {
+        "summary": "Review",
+        "operationId": "review_api_incidents__iid__reviews_post",
+        "parameters": [
+          {
+            "name": "iid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Iid"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Review"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      },
+      "get": {
+        "summary": "Review History",
+        "operationId": "review_history_api_incidents__iid__reviews_get",
+        "parameters": [
+          {
+            "name": "iid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Iid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/jobs/{jid}/exports": {
+      "post": {
+        "summary": "Export",
+        "operationId": "export_api_jobs__jid__exports_post",
+        "parameters": [
+          {
+            "name": "jid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Jid"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Export"
+              }
+            }
+          }
+        },
+        "responses": {
+          "202": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/JobRecord"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/jobs/{jid}/retry": {
+      "post": {
+        "summary": "Retry",
+        "operationId": "retry_api_jobs__jid__retry_post",
+        "parameters": [
+          {
+            "name": "jid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Jid"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "additionalProperties": true,
+                "title": "Body"
+              }
+            }
+          }
+        },
+        "responses": {
+          "202": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/JobRecord"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/storage": {
+      "get": {
+        "summary": "Storage Status",
+        "operationId": "storage_status_api_storage_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/jobs/{jid}/observations": {
+      "get": {
+        "summary": "Observations",
+        "operationId": "observations_api_jobs__jid__observations_get",
+        "parameters": [
+          {
+            "name": "jid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Jid"
+            }
+          },
+          {
+            "name": "start",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "number",
+              "default": 0,
+              "title": "Start"
+            }
+          },
+          {
+            "name": "end",
+            "in": "query",
+            "required": false,
+            "schema": {
+              "type": "number",
+              "default": 2,
+              "title": "End"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/artifacts/{aid}": {
+      "get": {
+        "summary": "Artifact",
+        "operationId": "artifact_api_artifacts__aid__get",
+        "parameters": [
+          {
+            "name": "aid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "title": "Aid"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Analysis": {
+        "properties": {
+          "request_id": {
+            "type": "string",
+            "format": "uuid",
+            "title": "Request Id"
+          },
+          "capabilities": {
+            "items": {
+              "$ref": "#/components/schemas/Capability"
+            },
+            "type": "array",
+            "maxItems": 5,
+            "minItems": 1,
+            "title": "Capabilities"
+          },
+          "zones": {
+            "items": {
+              "$ref": "#/components/schemas/Zone"
+            },
+            "type": "array",
+            "maxItems": 8,
+            "title": "Zones"
+          },
+          "device": {
+            "type": "string",
+            "enum": [
+              "mps",
+              "cpu"
+            ],
+            "title": "Device",
+            "default": "mps"
+          },
+          "camera": {
+            "type": "string",
+            "maxLength": 100,
+            "title": "Camera",
+            "default": ""
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "request_id",
+          "capabilities"
+        ],
+        "title": "Analysis"
+      },
+      "Assessment": {
+        "properties": {
+          "person_observations": {
+            "type": "integer",
+            "title": "Person Observations"
+          },
+          "eligible_smoking_observations": {
+            "type": "integer",
+            "title": "Eligible Smoking Observations"
+          },
+          "smoking": {
+            "type": "string",
+            "title": "Smoking"
+          },
+          "no_helmet": {
+            "type": "string",
+            "title": "No Helmet"
+          },
+          "intrusion": {
+            "type": "string",
+            "title": "Intrusion"
+          }
+        },
+        "additionalProperties": true,
+        "type": "object",
+        "required": [
+          "person_observations",
+          "eligible_smoking_observations",
+          "smoking",
+          "no_helmet",
+          "intrusion"
+        ],
+        "title": "Assessment"
+      },
+      "Capability": {
+        "type": "string",
+        "enum": [
+          "fire",
+          "smoke",
+          "smoking",
+          "no_helmet",
+          "intrusion"
+        ],
+        "title": "Capability"
+      },
+      "CapabilityResult": {
+        "properties": {
+          "status": {
+            "type": "string",
+            "enum": [
+              "pending",
+              "completed",
+              "failed",
+              "disabled"
+            ],
+            "title": "Status"
+          },
+          "assessability": {
+            "type": "string",
+            "title": "Assessability"
+          },
+          "error": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Error"
+          }
+        },
+        "type": "object",
+        "required": [
+          "status",
+          "assessability"
+        ],
+        "title": "CapabilityResult"
+      },
+      "Export": {
+        "properties": {
+          "request_id": {
+            "type": "string",
+            "format": "uuid",
+            "title": "Request Id"
+          },
+          "format": {
+            "type": "string",
+            "enum": [
+              "csv",
+              "json",
+              "mp4"
+            ],
+            "title": "Format"
+          },
+          "incident_id": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "uuid"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Incident Id"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "request_id",
+          "format"
+        ],
+        "title": "Export"
+      },
+      "FramePreview": {
+        "properties": {
+          "source": {
+            "type": "number",
+            "title": "Source"
+          },
+          "artifact_id": {
+            "type": "string",
+            "title": "Artifact Id"
+          }
+        },
+        "type": "object",
+        "required": [
+          "source",
+          "artifact_id"
+        ],
+        "title": "FramePreview"
+      },
+      "HTTPValidationError": {
+        "properties": {
+          "detail": {
+            "items": {
+              "$ref": "#/components/schemas/ValidationError"
+            },
+            "type": "array",
+            "title": "Detail"
+          }
+        },
+        "type": "object",
+        "title": "HTTPValidationError"
+      },
+      "IncidentEvidence": {
+        "properties": {
+          "label": {
+            "type": "string",
+            "title": "Label",
+            "default": ""
+          },
+          "level": {
+            "type": "string",
+            "title": "Level",
+            "default": ""
+          },
+          "track": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Track"
+          },
+          "zone": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Zone"
+          },
+          "entry": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Entry"
+          }
+        },
+        "additionalProperties": true,
+        "type": "object",
+        "title": "IncidentEvidence"
+      },
+      "IncidentRecord": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id"
+          },
+          "job_id": {
+            "type": "string",
+            "title": "Job Id"
+          },
+          "kind": {
+            "$ref": "#/components/schemas/Capability"
+          },
+          "origin": {
+            "type": "string",
+            "enum": [
+              "model",
+              "manual"
+            ],
+            "title": "Origin"
+          },
+          "start": {
+            "type": "number",
+            "title": "Start"
+          },
+          "end": {
+            "type": "number",
+            "title": "End"
+          },
+          "evidence": {
+            "$ref": "#/components/schemas/IncidentEvidence"
+          },
+          "decision": {
+            "anyOf": [
+              {
+                "type": "string",
+                "enum": [
+                  "confirmed",
+                  "false_alarm",
+                  "uncertain"
+                ]
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Decision"
+          },
+          "note": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Note"
+          },
+          "version": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Version"
+          },
+          "created": {
+            "type": "string",
+            "title": "Created"
+          },
+          "reviewed_at": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Reviewed At"
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "job_id",
+          "kind",
+          "origin",
+          "start",
+          "end",
+          "evidence",
+          "decision",
+          "note",
+          "version",
+          "created",
+          "reviewed_at"
+        ],
+        "title": "IncidentRecord"
+      },
+      "InitialReview": {
+        "properties": {
+          "decision": {
+            "type": "string",
+            "enum": [
+              "confirmed",
+              "uncertain"
+            ],
+            "title": "Decision"
+          },
+          "note": {
+            "type": "string",
+            "maxLength": 1000,
+            "title": "Note",
+            "default": ""
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "decision"
+        ],
+        "title": "InitialReview"
+      },
+      "JobConfiguration": {
+        "properties": {
+          "capabilities": {
+            "items": {
+              "$ref": "#/components/schemas/Capability"
+            },
+            "type": "array",
+            "title": "Capabilities"
+          },
+          "zones": {
+            "items": {
+              "$ref": "#/components/schemas/Zone"
+            },
+            "type": "array",
+            "title": "Zones"
+          },
+          "camera": {
+            "type": "string",
+            "title": "Camera",
+            "default": ""
+          },
+          "device": {
+            "type": "string",
+            "enum": [
+              "mps",
+              "cpu"
+            ],
+            "title": "Device",
+            "default": "mps"
+          },
+          "profile": {
+            "additionalProperties": true,
+            "type": "object",
+            "title": "Profile"
+          },
+          "models": {
+            "additionalProperties": {
+              "type": "string"
+            },
+            "type": "object",
+            "title": "Models"
+          }
+        },
+        "additionalProperties": true,
+        "type": "object",
+        "title": "JobConfiguration"
+      },
+      "JobRecord": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id"
+          },
+          "upload_id": {
+            "type": "string",
+            "title": "Upload Id"
+          },
+          "kind": {
+            "type": "string",
+            "enum": [
+              "prepare_upload",
+              "analyze",
+              "export"
+            ],
+            "title": "Kind"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "queued",
+              "running",
+              "completed",
+              "partial",
+              "failed",
+              "cancelled",
+              "interrupted"
+            ],
+            "title": "Status"
+          },
+          "config": {
+            "$ref": "#/components/schemas/JobConfiguration"
+          },
+          "result": {
+            "$ref": "#/components/schemas/JobResult"
+          },
+          "stage": {
+            "type": "string",
+            "title": "Stage"
+          },
+          "processed": {
+            "type": "integer",
+            "title": "Processed"
+          },
+          "expected": {
+            "type": "integer",
+            "title": "Expected"
+          },
+          "cancel": {
+            "type": "integer",
+            "title": "Cancel"
+          },
+          "error": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Error"
+          },
+          "request_id": {
+            "type": "string",
+            "title": "Request Id"
+          },
+          "created": {
+            "type": "string",
+            "title": "Created"
+          },
+          "updated": {
+            "type": "string",
+            "title": "Updated"
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "upload_id",
+          "kind",
+          "status",
+          "config",
+          "result",
+          "stage",
+          "processed",
+          "expected",
+          "cancel",
+          "error",
+          "request_id",
+          "created",
+          "updated"
+        ],
+        "title": "JobRecord"
+      },
+      "JobResult": {
+        "properties": {
+          "capabilities": {
+            "additionalProperties": {
+              "$ref": "#/components/schemas/CapabilityResult"
+            },
+            "type": "object",
+            "title": "Capabilities"
+          },
+          "incident_count": {
+            "anyOf": [
+              {
+                "type": "integer"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Incident Count"
+          },
+          "assessment": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/Assessment"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "artifact_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Artifact Id"
+          },
+          "manifest_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Manifest Id"
+          }
+        },
+        "additionalProperties": true,
+        "type": "object",
+        "title": "JobResult"
+      },
+      "Login": {
+        "properties": {
+          "password": {
+            "type": "string",
+            "maxLength": 256,
+            "minLength": 1,
+            "title": "Password"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "password"
+        ],
+        "title": "Login"
+      },
+      "ManualIncident": {
+        "properties": {
+          "request_id": {
+            "type": "string",
+            "format": "uuid",
+            "title": "Request Id"
+          },
+          "kind": {
+            "$ref": "#/components/schemas/Capability"
+          },
+          "start": {
+            "type": "number",
+            "minimum": 0.0,
+            "title": "Start"
+          },
+          "end": {
+            "type": "number",
+            "minimum": 0.0,
+            "title": "End"
+          },
+          "initial_review": {
+            "$ref": "#/components/schemas/InitialReview"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "request_id",
+          "kind",
+          "start",
+          "end",
+          "initial_review"
+        ],
+        "title": "ManualIncident"
+      },
+      "MediaMetadata": {
+        "properties": {
+          "fps": {
+            "type": "number",
+            "title": "Fps",
+            "default": 0
+          },
+          "width": {
+            "type": "integer",
+            "title": "Width",
+            "default": 0
+          },
+          "height": {
+            "type": "integer",
+            "title": "Height",
+            "default": 0
+          },
+          "frames": {
+            "type": "integer",
+            "title": "Frames",
+            "default": 0
+          },
+          "duration": {
+            "type": "number",
+            "title": "Duration"
+          },
+          "frame_map": {
+            "items": {
+              "prefixItems": [
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                }
+              ],
+              "type": "array",
+              "maxItems": 2,
+              "minItems": 2
+            },
+            "type": "array",
+            "title": "Frame Map"
+          },
+          "frames_preview": {
+            "items": {
+              "$ref": "#/components/schemas/FramePreview"
+            },
+            "type": "array",
+            "title": "Frames Preview"
+          },
+          "preview_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Preview Id"
+          },
+          "thumbnail_id": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ],
+            "title": "Thumbnail Id"
+          }
+        },
+        "type": "object",
+        "required": [
+          "duration"
+        ],
+        "title": "MediaMetadata"
+      },
+      "Review": {
+        "properties": {
+          "request_id": {
+            "type": "string",
+            "format": "uuid",
+            "title": "Request Id"
+          },
+          "decision": {
+            "type": "string",
+            "enum": [
+              "confirmed",
+              "false_alarm",
+              "uncertain"
+            ],
+            "title": "Decision"
+          },
+          "note": {
+            "type": "string",
+            "maxLength": 1000,
+            "title": "Note",
+            "default": ""
+          },
+          "expected_version": {
+            "type": "integer",
+            "minimum": 0.0,
+            "title": "Expected Version"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "request_id",
+          "decision",
+          "expected_version"
+        ],
+        "title": "Review"
+      },
+      "UploadRecord": {
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Id"
+          },
+          "name": {
+            "type": "string",
+            "title": "Name"
+          },
+          "sha256": {
+            "type": "string",
+            "title": "Sha256"
+          },
+          "bytes": {
+            "type": "integer",
+            "title": "Bytes"
+          },
+          "metadata": {
+            "$ref": "#/components/schemas/MediaMetadata"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "preparing",
+              "ready",
+              "failed",
+              "cancelled",
+              "deleting"
+            ],
+            "title": "Status"
+          },
+          "created": {
+            "type": "string",
+            "title": "Created"
+          },
+          "jobs": {
+            "items": {
+              "$ref": "#/components/schemas/JobRecord"
+            },
+            "type": "array",
+            "title": "Jobs"
+          }
+        },
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "sha256",
+          "bytes",
+          "metadata",
+          "status",
+          "created",
+          "jobs"
+        ],
+        "title": "UploadRecord"
+      },
+      "ValidationError": {
+        "properties": {
+          "loc": {
+            "items": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            },
+            "type": "array",
+            "title": "Location"
+          },
+          "msg": {
+            "type": "string",
+            "title": "Message"
+          },
+          "type": {
+            "type": "string",
+            "title": "Error Type"
+          },
+          "input": {
+            "title": "Input"
+          },
+          "ctx": {
+            "type": "object",
+            "title": "Context"
+          }
+        },
+        "type": "object",
+        "required": [
+          "loc",
+          "msg",
+          "type"
+        ],
+        "title": "ValidationError"
+      },
+      "Zone": {
+        "properties": {
+          "name": {
+            "type": "string",
+            "maxLength": 80,
+            "minLength": 1,
+            "title": "Name"
+          },
+          "points": {
+            "items": {
+              "prefixItems": [
+                {
+                  "type": "number"
+                },
+                {
+                  "type": "number"
+                }
+              ],
+              "type": "array",
+              "maxItems": 2,
+              "minItems": 2
+            },
+            "type": "array",
+            "maxItems": 32,
+            "minItems": 3,
+            "title": "Points"
+          }
+        },
+        "additionalProperties": false,
+        "type": "object",
+        "required": [
+          "name",
+          "points"
+        ],
+        "title": "Zone"
+      }
+    }
+  }
+}
