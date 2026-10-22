@@ -1,0 +1,55 @@
+{
+  "_id": "6a6c23e0d9d46e4ff5cbf8de",
+  "id": "shahriar-5/ISFire-4",
+  "author": "shahriar-5",
+  "sha": "c64ae7a50883446eeaf700496a206a54087a67b8",
+  "lastModified": "2026-08-08T13:35:37.000Z",
+  "private": false,
+  "gated": false,
+  "disabled": false,
+  "tags": [
+    "task_categories:object-detection",
+    "region:us",
+    "fire-detection",
+    "smoke-detection",
+    "yolo"
+  ],
+  "description": "\n\t\n\t\t\n\t\n\t\n\t\tISFire-4: Indoor Fire and Smoke Detection Dataset\n\t\n\nMulti-class indoor fire and smoke detection dataset with bounding-box annotations in YOLO format. Introduced in the manuscript FireNet-D5: A Genetic Algorithm-Optimized Architecture with BiFPN and SE Attention for Multi-Class Indoor Fire and Smoke Detection.\nClasses (4): black smoke, blue fire, white-gray smoke, yellow-orange fire\nStatistics: 7,370 images / 11,010 instances\nStructure: dataset.zip \u2192 train/, valid/, test/, each\u2026 See the full description on the dataset page: https://huggingface.co/datasets/shahriar-5/ISFire-4.",
+  "downloads": 134,
+  "likes": 0,
+  "cardData": {
+    "task_categories": [
+      "object-detection"
+    ],
+    "tags": [
+      "fire-detection",
+      "smoke-detection",
+      "yolo"
+    ],
+    "pretty_name": "ISFire-4"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes",
+      "blobId": "bed0738c7eeb449bca98b5d2f33c89a1ee56349a",
+      "size": 2504
+    },
+    {
+      "rfilename": "Dataset.zip",
+      "blobId": "bc2da90b105e53afb898e77771e75d009511df9e",
+      "size": 245388412,
+      "lfs": {
+        "sha256": "fb90a9bfed10f3f00529e2a8d8c512d5f92d8d2e19baac8135e6bdb751722ce9",
+        "size": 245388412,
+        "pointerSize": 134
+      }
+    },
+    {
+      "rfilename": "README.md",
+      "blobId": "963b076a4eb73f9f2f45d4f1e4d78abe30f03522",
+      "size": 870
+    }
+  ],
+  "createdAt": "2026-07-31T04:26:08.000Z",
+  "usedStorage": 490776824
+}

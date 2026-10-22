@@ -1,0 +1,1977 @@
+{
+  "reference_sources": 36,
+  "sampled_reference_frames": 2049,
+  "approx_sample_hz": 2,
+  "candidate_images": 7370,
+  "nearest_reserved_distance_at_most_6": 260,
+  "nearest_reserved_distance_at_most_12": 308,
+  "strict_matches_by_source": {
+    "6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4": 259,
+    "Arson017_x264.mp4": 1
+  },
+  "matches_at_most_6": [
+    {
+      "id": 596,
+      "entry": "Dataset/test/images/s-00646_jpg.rf.425443f56ebf6f18df235a2e61dc78ed.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 1785
+    },
+    {
+      "id": 597,
+      "entry": "Dataset/test/images/s-00670_jpg.rf.6c89469aff185c56de484ad6fe26382b.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 1785
+    },
+    {
+      "id": 598,
+      "entry": "Dataset/test/images/s-00726_jpg.rf.5461dd0605cdfc6ea4deb6b516b3e448.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2160
+    },
+    {
+      "id": 599,
+      "entry": "Dataset/test/images/s-00767_jpg.rf.c3361024a74129456effe6ecd17f1821.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2220
+    },
+    {
+      "id": 600,
+      "entry": "Dataset/test/images/s-00783_jpg.rf.2592e4631a70b504988386f53d5468c1.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2325
+    },
+    {
+      "id": 601,
+      "entry": "Dataset/test/images/s-00794_jpg.rf.42474bebef2506f25e252b380f8eb056.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2205
+    },
+    {
+      "id": 602,
+      "entry": "Dataset/test/images/s-00819_jpg.rf.f9c95efb0868f76121d9ff98b7b876e3.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2325
+    },
+    {
+      "id": 603,
+      "entry": "Dataset/test/images/s-00834_jpg.rf.4c0bc42108efb2b8b00052b76bae9d0c.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2325
+    },
+    {
+      "id": 604,
+      "entry": "Dataset/test/images/s-00888_jpg.rf.ce8d473b6947701f22416bc62d2e699b.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2595
+    },
+    {
+      "id": 605,
+      "entry": "Dataset/test/images/s-00890_jpg.rf.b8afb186d0243b09f91ade3a6f128343.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2595
+    },
+    {
+      "id": 606,
+      "entry": "Dataset/test/images/s-00891_jpg.rf.1e9b7a4b09e7965461c4172235ff7397.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2595
+    },
+    {
+      "id": 607,
+      "entry": "Dataset/test/images/s-00897_jpg.rf.38f3ba4be0e014b6cae0cb4a309131f8.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2595
+    },
+    {
+      "id": 608,
+      "entry": "Dataset/test/images/s-00903_jpg.rf.63b8df7ca44afa67e6a7f8845337bd70.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2715
+    },
+    {
+      "id": 609,
+      "entry": "Dataset/test/images/s-00935_jpg.rf.3eb35610445077e1bc119c97fd102ce8.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2805
+    },
+    {
+      "id": 610,
+      "entry": "Dataset/test/images/s-00954_jpg.rf.e01a2d2041fa8f1ceccbd31fee20d2f5.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2865
+    },
+    {
+      "id": 611,
+      "entry": "Dataset/test/images/s-00955_jpg.rf.5840b9074b531834c07a4d05443a705a.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2865
+    },
+    {
+      "id": 612,
+      "entry": "Dataset/test/images/s-00978_jpg.rf.d206b68e26e4baa0dfda3a0b2cf323f4.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2880
+    },
+    {
+      "id": 613,
+      "entry": "Dataset/test/images/s-00996_jpg.rf.ce9f77c69f86076fe4729e7bebb03094.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2970
+    },
+    {
+      "id": 614,
+      "entry": "Dataset/test/images/s-01101_jpg.rf.32952cfa5610969aafca18053b702c73.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3780
+    },
+    {
+      "id": 615,
+      "entry": "Dataset/test/images/s-01108_jpg.rf.d4f1b0b9c9f1f9227c3ca54674580c6b.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3780
+    },
+    {
+      "id": 616,
+      "entry": "Dataset/test/images/s-01189_jpg.rf.c35a402c18f308727f64433dd2844506.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3345
+    },
+    {
+      "id": 617,
+      "entry": "Dataset/test/images/s-01297_jpg.rf.7e712ca6c32df69af22f0a5cbd80f4f6.jpg",
+      "distance": 2,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3750
+    },
+    {
+      "id": 618,
+      "entry": "Dataset/test/images/s-01301_jpg.rf.43b2ca7a7141d469803b3bc911c0fcb6.jpg",
+      "distance": 2,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3750
+    },
+    {
+      "id": 619,
+      "entry": "Dataset/test/images/s-01317_jpg.rf.d58b47bc9d7a6503f633d80ab5221dde.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3885
+    },
+    {
+      "id": 620,
+      "entry": "Dataset/test/images/s-01321_jpg.rf.f2c75e5b8f49282ec2f5de16af73817a.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3885
+    },
+    {
+      "id": 621,
+      "entry": "Dataset/test/images/s-01366_jpg.rf.330a2a24425a5102681b4379f12d14fe.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3975
+    },
+    {
+      "id": 622,
+      "entry": "Dataset/test/images/s-01374_jpg.rf.e93cbe11c0765cae44ad2b139aa38dca.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 4110
+    },
+    {
+      "id": 1212,
+      "entry": "Dataset/train/images/FireDataV5_1_172_jpg.rf.1c1f1f922d7b7bc583311c4f6ca74dd3.jpg",
+      "distance": 2,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/data/cctv-direct-2026-10-20/ucf-crime/Arson017_x264.mp4",
+      "frame": 30
+    },
+    {
+      "id": 5131,
+      "entry": "Dataset/train/images/s-00597_jpg.rf.ecbc9c2420979e04bb097d0aa0004b3e.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 1800
+    },
+    {
+      "id": 5132,
+      "entry": "Dataset/train/images/s-00598_jpg.rf.00146128596b3be3de26db9d18cea39c.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 1785
+    },
+    {
+      "id": 5133,
+      "entry": "Dataset/train/images/s-00599_jpg.rf.1f83d884dba698d6b27e73a45355376f.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 1785
+    },
+    {
+      "id": 5134,
+      "entry": "Dataset/train/images/s-00600_jpg.rf.67d12b30301ec08ff65fbbfbba00d4ec.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 1800
+    },
+    {
+      "id": 5135,
+      "entry": "Dataset/train/images/s-00601_jpg.rf.78843916c99671b62531d48c157d27ea.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 1800
+    },
+    {
+      "id": 5136,
+      "entry": "Dataset/train/images/s-00602_jpg.rf.f9c3ac68de8e507c42507b7f5b6a7bba.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 1800
+    },
+    {
+      "id": 5137,
+      "entry": "Dataset/train/images/s-00603_jpg.rf.13f70774f3dbb67091acd2573c8516d8.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 1815
+    },
+    {
+      "id": 5138,
+      "entry": "Dataset/train/images/s-00605_jpg.rf.a44c5d60da569d1f3db64f98b72e0fa1.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 1815
+    },
+    {
+      "id": 5139,
+      "entry": "Dataset/train/images/s-00607_jpg.rf.14853e22c222e6f06390e920f1462018.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 1815
+    },
+    {
+      "id": 5140,
+      "entry": "Dataset/train/images/s-00608_jpg.rf.ff1938abc8646f79dc1048286714716d.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 1815
+    },
+    {
+      "id": 5141,
+      "entry": "Dataset/train/images/s-00609_jpg.rf.1beb300599c235ce7281f0625863f4ad.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 1815
+    },
+    {
+      "id": 5142,
+      "entry": "Dataset/train/images/s-00612_jpg.rf.8bfe22eeb3e94950f891513e201912d7.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 1815
+    },
+    {
+      "id": 5143,
+      "entry": "Dataset/train/images/s-00613_jpg.rf.e745fb721590fda1d10ef78500c500d9.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 1815
+    },
+    {
+      "id": 5144,
+      "entry": "Dataset/train/images/s-00615_jpg.rf.f5d765668541b1ce2eb5b9aa18b8a014.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 1815
+    },
+    {
+      "id": 5145,
+      "entry": "Dataset/train/images/s-00616_jpg.rf.70fbb94e145aaa789b52d95a9d8309d2.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 1815
+    },
+    {
+      "id": 5146,
+      "entry": "Dataset/train/images/s-00617_jpg.rf.f781ab0889a844ed37089259809d4162.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 1815
+    },
+    {
+      "id": 5147,
+      "entry": "Dataset/train/images/s-00618_jpg.rf.9e90f6b7344a9927ed81dd9fae72e1a9.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 1815
+    },
+    {
+      "id": 5148,
+      "entry": "Dataset/train/images/s-00619_jpg.rf.93c2e7d1cebee32a1508942a4068f00d.jpg",
+      "distance": 2,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 1785
+    },
+    {
+      "id": 5149,
+      "entry": "Dataset/train/images/s-00621_jpg.rf.664ef0f45b679f542b41bf95ca4171e1.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 1860
+    },
+    {
+      "id": 5150,
+      "entry": "Dataset/train/images/s-00622_jpg.rf.46327331dabd1c78ddb57d302d3e48df.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 1860
+    },
+    {
+      "id": 5151,
+      "entry": "Dataset/train/images/s-00623_jpg.rf.bff600b54134fa7e7bc2b89165a3bc4d.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 1860
+    },
+    {
+      "id": 5152,
+      "entry": "Dataset/train/images/s-00625_jpg.rf.0025e6269458333d77a12cd600d582b3.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 1785
+    },
+    {
+      "id": 5153,
+      "entry": "Dataset/train/images/s-00626_jpg.rf.9ff33540acc3e413c0d7e9f2528f957d.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 1785
+    },
+    {
+      "id": 5154,
+      "entry": "Dataset/train/images/s-00627_jpg.rf.263e0204d0c313d998452131095286b8.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 1875
+    },
+    {
+      "id": 5155,
+      "entry": "Dataset/train/images/s-00629_jpg.rf.b4113bb7d66e324273c99c290d788902.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 1875
+    },
+    {
+      "id": 5156,
+      "entry": "Dataset/train/images/s-00630_jpg.rf.c4a02662c786894a35152a36076e9439.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 1875
+    },
+    {
+      "id": 5157,
+      "entry": "Dataset/train/images/s-00631_jpg.rf.5adf307cb9512bcb86a256b85c444dbc.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 1905
+    },
+    {
+      "id": 5158,
+      "entry": "Dataset/train/images/s-00633_jpg.rf.8c0eb9f6350f0b3c1abc6229a93be2f6.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 1905
+    },
+    {
+      "id": 5159,
+      "entry": "Dataset/train/images/s-00634_jpg.rf.537f8709de9e4a977f4ef37043382add.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 1905
+    },
+    {
+      "id": 5160,
+      "entry": "Dataset/train/images/s-00638_jpg.rf.3fc0aa0066f05ca49c05efbbc3847980.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 1785
+    },
+    {
+      "id": 5161,
+      "entry": "Dataset/train/images/s-00639_jpg.rf.ead0fe852daea704b94e8b080ac14b1e.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 1785
+    },
+    {
+      "id": 5162,
+      "entry": "Dataset/train/images/s-00640_jpg.rf.b01fbad391d8954b255af845687faeb9.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 1785
+    },
+    {
+      "id": 5163,
+      "entry": "Dataset/train/images/s-00642_jpg.rf.2c64f81b9723d4add0ec83c853854cb8.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 1785
+    },
+    {
+      "id": 5164,
+      "entry": "Dataset/train/images/s-00647_jpg.rf.22f8dfaa41ca57894cf45ea4fa052513.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 1785
+    },
+    {
+      "id": 5165,
+      "entry": "Dataset/train/images/s-00649_jpg.rf.7c6d423c49bed90556b1ba9179af7c9b.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 1785
+    },
+    {
+      "id": 5166,
+      "entry": "Dataset/train/images/s-00653_jpg.rf.3d865c7c4aff8c84ae6acec8c7f24779.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 1785
+    },
+    {
+      "id": 5167,
+      "entry": "Dataset/train/images/s-00654_jpg.rf.4f601398b8550ea9af71123fdcf8c4b1.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 1785
+    },
+    {
+      "id": 5168,
+      "entry": "Dataset/train/images/s-00656_jpg.rf.22b94f706806cdff7f73f78201494613.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 1785
+    },
+    {
+      "id": 5169,
+      "entry": "Dataset/train/images/s-00658_jpg.rf.73f8d53698cede054116c169f7686cfb.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 1785
+    },
+    {
+      "id": 5170,
+      "entry": "Dataset/train/images/s-00661_jpg.rf.83b9de848f6e896976f5ab9364b7623b.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 1785
+    },
+    {
+      "id": 5171,
+      "entry": "Dataset/train/images/s-00662_jpg.rf.727597cbcd1bb5de5d00aa4de820f377.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 1785
+    },
+    {
+      "id": 5172,
+      "entry": "Dataset/train/images/s-00665_jpg.rf.057060a12544b13a978ed84bf17a370b.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 1785
+    },
+    {
+      "id": 5173,
+      "entry": "Dataset/train/images/s-00669_jpg.rf.6790498fc057b4aa137034c2857245af.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 1785
+    },
+    {
+      "id": 5174,
+      "entry": "Dataset/train/images/s-00671_jpg.rf.acab6eb07b4a671f476699979caf7912.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 1785
+    },
+    {
+      "id": 5175,
+      "entry": "Dataset/train/images/s-00675_jpg.rf.a542d8054a466b7174a478d0b8714cb9.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 1785
+    },
+    {
+      "id": 5176,
+      "entry": "Dataset/train/images/s-00678_jpg.rf.aa811a2fe6cf699d334a651b8ee0fda7.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 1785
+    },
+    {
+      "id": 5177,
+      "entry": "Dataset/train/images/s-00684_jpg.rf.0e2d5b7f10495eb83111a028e14867af.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 1785
+    },
+    {
+      "id": 5178,
+      "entry": "Dataset/train/images/s-00758_jpg.rf.f2fc7acb2f8d53c02ba71f21fcaa2596.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2160
+    },
+    {
+      "id": 5179,
+      "entry": "Dataset/train/images/s-00856_jpg.rf.a698984f908ded610d06342c2b610ec9.jpg",
+      "distance": 2,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2325
+    },
+    {
+      "id": 5180,
+      "entry": "Dataset/train/images/s-00857_jpg.rf.3029118ddc650ff079f376a5cdceb53b.jpg",
+      "distance": 2,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2325
+    },
+    {
+      "id": 5181,
+      "entry": "Dataset/train/images/s-00861_jpg.rf.d6c52c661906ada0d92aab6c5703f967.jpg",
+      "distance": 2,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2325
+    },
+    {
+      "id": 5182,
+      "entry": "Dataset/train/images/s-00864_jpg.rf.537d199294df1fd17488be4cb2717b05.jpg",
+      "distance": 2,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2325
+    },
+    {
+      "id": 5183,
+      "entry": "Dataset/train/images/s-00866_jpg.rf.7928742f840b00b34b81b1687b10e6ba.jpg",
+      "distance": 2,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2325
+    },
+    {
+      "id": 5184,
+      "entry": "Dataset/train/images/s-00867_jpg.rf.5bde83dc968f47dc798a52b28b8b60ab.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2595
+    },
+    {
+      "id": 5185,
+      "entry": "Dataset/train/images/s-00868_jpg.rf.1e5c592498d1d0739afae579d53dc1cf.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2595
+    },
+    {
+      "id": 5186,
+      "entry": "Dataset/train/images/s-00869_jpg.rf.ad70ff4cc96534533a0850f861d29810.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2595
+    },
+    {
+      "id": 5187,
+      "entry": "Dataset/train/images/s-00870_jpg.rf.21b364326f8d21c5eb2e35ac11498661.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2595
+    },
+    {
+      "id": 5188,
+      "entry": "Dataset/train/images/s-00871_jpg.rf.fe946aec989e7810502b0f2ffaa65d27.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2595
+    },
+    {
+      "id": 5189,
+      "entry": "Dataset/train/images/s-00873_jpg.rf.86fc4c85d678a3661d1761a5e1f110a8.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2595
+    },
+    {
+      "id": 5190,
+      "entry": "Dataset/train/images/s-00877_jpg.rf.418bf2b27bfd66fb809f3a3298428a31.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2595
+    },
+    {
+      "id": 5191,
+      "entry": "Dataset/train/images/s-00878_jpg.rf.dd403ea41671e3d5b58325575605f7be.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2595
+    },
+    {
+      "id": 5192,
+      "entry": "Dataset/train/images/s-00879_jpg.rf.6dfa9a34bff432006eb66d6d96da1fa0.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2595
+    },
+    {
+      "id": 5193,
+      "entry": "Dataset/train/images/s-00880_jpg.rf.0802d5eaaadb6fe7b68666a97f213387.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2595
+    },
+    {
+      "id": 5194,
+      "entry": "Dataset/train/images/s-00881_jpg.rf.bbc1bd9d7a676c4f20dd26a4169b5b11.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2595
+    },
+    {
+      "id": 5195,
+      "entry": "Dataset/train/images/s-00883_jpg.rf.5d11d9b11ad8a1ce9e6407170126ac07.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2595
+    },
+    {
+      "id": 5196,
+      "entry": "Dataset/train/images/s-00885_jpg.rf.1af23106295a3daefcbf7fa3f4345c0a.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2595
+    },
+    {
+      "id": 5197,
+      "entry": "Dataset/train/images/s-00886_jpg.rf.0eedf5e2f872a43c17eb8536b9354c6e.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2595
+    },
+    {
+      "id": 5198,
+      "entry": "Dataset/train/images/s-00887_jpg.rf.2900c57989870382a0b38e3bdd99abf1.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2595
+    },
+    {
+      "id": 5199,
+      "entry": "Dataset/train/images/s-00889_jpg.rf.50b58d0656409917388968eb4cc0baec.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2595
+    },
+    {
+      "id": 5200,
+      "entry": "Dataset/train/images/s-00892_jpg.rf.3181e3f2cac460b40e607c0e498d8f67.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2595
+    },
+    {
+      "id": 5201,
+      "entry": "Dataset/train/images/s-00894_jpg.rf.39f0b228e7aaaf06488371751621a001.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2595
+    },
+    {
+      "id": 5202,
+      "entry": "Dataset/train/images/s-00895_jpg.rf.b9a57c75db44cef732da8c81e48e6a15.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2595
+    },
+    {
+      "id": 5203,
+      "entry": "Dataset/train/images/s-00898_jpg.rf.62ce22b07328b7b6948c50f94df7afd1.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2595
+    },
+    {
+      "id": 5204,
+      "entry": "Dataset/train/images/s-00899_jpg.rf.41169c48f3b3f8dbe71bdeb575805bb8.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2595
+    },
+    {
+      "id": 5205,
+      "entry": "Dataset/train/images/s-00901_jpg.rf.d3f310bb220b146dc2dc0f373a7c19b7.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2715
+    },
+    {
+      "id": 5206,
+      "entry": "Dataset/train/images/s-00902_jpg.rf.49fa17226955407e257dfa51a23c9f1f.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2715
+    },
+    {
+      "id": 5207,
+      "entry": "Dataset/train/images/s-00904_jpg.rf.8f7dd4795f2456e7cfcac1f7341a4ec3.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2715
+    },
+    {
+      "id": 5208,
+      "entry": "Dataset/train/images/s-00905_jpg.rf.4be36f0449e7cda7932661a39bb07d4d.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2715
+    },
+    {
+      "id": 5209,
+      "entry": "Dataset/train/images/s-00906_jpg.rf.ed5f75ddc27bd6d002cf99f47552dea0.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2715
+    },
+    {
+      "id": 5210,
+      "entry": "Dataset/train/images/s-00907_jpg.rf.9d9b7f46ca985b006d75f464026329be.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2715
+    },
+    {
+      "id": 5211,
+      "entry": "Dataset/train/images/s-00908_jpg.rf.9bd7467cdf13be894d55d083afb9a7cf.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2715
+    },
+    {
+      "id": 5212,
+      "entry": "Dataset/train/images/s-00910_jpg.rf.23f96da8ba3948af99501ac065e92130.jpg",
+      "distance": 2,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2595
+    },
+    {
+      "id": 5213,
+      "entry": "Dataset/train/images/s-00911_jpg.rf.71752dc284a56b2966b88a803c8ca5fe.jpg",
+      "distance": 2,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2595
+    },
+    {
+      "id": 5214,
+      "entry": "Dataset/train/images/s-00912_jpg.rf.4484d1aaae2ec89913ce9292c1ea83ae.jpg",
+      "distance": 2,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2595
+    },
+    {
+      "id": 5215,
+      "entry": "Dataset/train/images/s-00914_jpg.rf.3639e8831104e6af39e1649e2b94618f.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2715
+    },
+    {
+      "id": 5216,
+      "entry": "Dataset/train/images/s-00916_jpg.rf.0b0d31a545f904ef7559c952e822828b.jpg",
+      "distance": 2,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2595
+    },
+    {
+      "id": 5217,
+      "entry": "Dataset/train/images/s-00917_jpg.rf.1a37f37978e38b0160a5ffe439c32d39.jpg",
+      "distance": 2,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2595
+    },
+    {
+      "id": 5218,
+      "entry": "Dataset/train/images/s-00918_jpg.rf.a89392805243f4c7ddad400dc2df6100.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2715
+    },
+    {
+      "id": 5219,
+      "entry": "Dataset/train/images/s-00919_jpg.rf.05efa2bdc9c02d541b87740bbc836723.jpg",
+      "distance": 2,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2595
+    },
+    {
+      "id": 5220,
+      "entry": "Dataset/train/images/s-00920_jpg.rf.e8ae7bb31766d62d8340de48c347b317.jpg",
+      "distance": 2,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2595
+    },
+    {
+      "id": 5221,
+      "entry": "Dataset/train/images/s-00924_jpg.rf.1beccf119857e3138cb2a670c43c2869.jpg",
+      "distance": 2,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2595
+    },
+    {
+      "id": 5222,
+      "entry": "Dataset/train/images/s-00925_jpg.rf.fff05e3c687ebf1e7690728e5395cd91.jpg",
+      "distance": 2,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2595
+    },
+    {
+      "id": 5223,
+      "entry": "Dataset/train/images/s-00928_jpg.rf.492c7982f9ab47e9dfbe845a62c68812.jpg",
+      "distance": 2,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2715
+    },
+    {
+      "id": 5224,
+      "entry": "Dataset/train/images/s-00929_jpg.rf.424b69597fd0141410ff78b89edbadbd.jpg",
+      "distance": 2,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2715
+    },
+    {
+      "id": 5225,
+      "entry": "Dataset/train/images/s-00931_jpg.rf.78b1f58023e7e1c8b927f308a26898e0.jpg",
+      "distance": 2,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2790
+    },
+    {
+      "id": 5226,
+      "entry": "Dataset/train/images/s-00933_jpg.rf.9579a4a2dcb2baab5bd30fd896a32803.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2805
+    },
+    {
+      "id": 5227,
+      "entry": "Dataset/train/images/s-00934_jpg.rf.d9b8767b30313d687ff4ef71bc7c515d.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2805
+    },
+    {
+      "id": 5228,
+      "entry": "Dataset/train/images/s-00939_jpg.rf.346042aaeaa320f5850cd43b3b3a2134.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2820
+    },
+    {
+      "id": 5229,
+      "entry": "Dataset/train/images/s-00941_jpg.rf.1a55d3c6f71623eefd590ccc53805380.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2820
+    },
+    {
+      "id": 5230,
+      "entry": "Dataset/train/images/s-00943_jpg.rf.04bff250e202851fb2ab656eb41401a5.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2820
+    },
+    {
+      "id": 5231,
+      "entry": "Dataset/train/images/s-00944_jpg.rf.ba82b5103f77009bd92b42660eb098c6.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2820
+    },
+    {
+      "id": 5232,
+      "entry": "Dataset/train/images/s-00946_jpg.rf.afc197fd2dea05514c2048ee4f14d177.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2820
+    },
+    {
+      "id": 5233,
+      "entry": "Dataset/train/images/s-00947_jpg.rf.4241622270b452f5a95edf736f9419f5.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2820
+    },
+    {
+      "id": 5234,
+      "entry": "Dataset/train/images/s-00950_jpg.rf.ad86f7a335660de627350bd481fcb93a.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2850
+    },
+    {
+      "id": 5235,
+      "entry": "Dataset/train/images/s-00957_jpg.rf.bd279f32524c0bfd2ec41ae6963b585c.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2865
+    },
+    {
+      "id": 5236,
+      "entry": "Dataset/train/images/s-00958_jpg.rf.e30c6e270081f2f65702874d2e65768e.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2865
+    },
+    {
+      "id": 5237,
+      "entry": "Dataset/train/images/s-00959_jpg.rf.44b9ec414ea92ea6869c7a6dcb8b59be.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2880
+    },
+    {
+      "id": 5238,
+      "entry": "Dataset/train/images/s-00961_jpg.rf.15beba718713d286fc48b5d074a06471.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2880
+    },
+    {
+      "id": 5239,
+      "entry": "Dataset/train/images/s-00962_jpg.rf.06b0ce0f38e8ae47cfb81fbde62a3842.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2880
+    },
+    {
+      "id": 5240,
+      "entry": "Dataset/train/images/s-00963_jpg.rf.93241249f1334cebb696531471539918.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2880
+    },
+    {
+      "id": 5241,
+      "entry": "Dataset/train/images/s-00964_jpg.rf.2f1420a0b96272216e077efaeb04c269.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2880
+    },
+    {
+      "id": 5242,
+      "entry": "Dataset/train/images/s-00965_jpg.rf.a3bc37178988117b23b14a9068befa60.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2880
+    },
+    {
+      "id": 5243,
+      "entry": "Dataset/train/images/s-00968_jpg.rf.299e1dc8370d53ec32a526eb4ae924c7.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2850
+    },
+    {
+      "id": 5244,
+      "entry": "Dataset/train/images/s-00969_jpg.rf.3aae8a3f5fa0150266b2ebc9f25c3025.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2850
+    },
+    {
+      "id": 5245,
+      "entry": "Dataset/train/images/s-00972_jpg.rf.e1526a6e2a8682d0004890ab49cee589.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2850
+    },
+    {
+      "id": 5246,
+      "entry": "Dataset/train/images/s-00973_jpg.rf.749978ce7d51bbbeab1a9169fa1eeb33.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2850
+    },
+    {
+      "id": 5247,
+      "entry": "Dataset/train/images/s-00974_jpg.rf.4a7435e8c0dd1e181fe9743c4dab187e.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2850
+    },
+    {
+      "id": 5248,
+      "entry": "Dataset/train/images/s-00976_jpg.rf.019e39c2220a75dee92bd455a7a24591.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2850
+    },
+    {
+      "id": 5249,
+      "entry": "Dataset/train/images/s-00977_jpg.rf.d89d3838fad8fb186c805270845ce2e5.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2880
+    },
+    {
+      "id": 5250,
+      "entry": "Dataset/train/images/s-00979_jpg.rf.9ec68d8ad8bde3fb8d712df0f5cba659.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2880
+    },
+    {
+      "id": 5251,
+      "entry": "Dataset/train/images/s-00980_jpg.rf.2aa26151ea9e79ceb993140ddaedb6e3.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2880
+    },
+    {
+      "id": 5252,
+      "entry": "Dataset/train/images/s-00981_jpg.rf.9e0a3892a5c129b97eadda5c46a6f85b.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2880
+    },
+    {
+      "id": 5253,
+      "entry": "Dataset/train/images/s-00984_jpg.rf.29acff54927673e3db60d01d19a1531c.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2880
+    },
+    {
+      "id": 5254,
+      "entry": "Dataset/train/images/s-00985_jpg.rf.4537f66226f85c33b69755b4c2b39ff2.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2880
+    },
+    {
+      "id": 5255,
+      "entry": "Dataset/train/images/s-00986_jpg.rf.0ce5162c299d2c6b719d4f3fa8260a3f.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2925
+    },
+    {
+      "id": 5256,
+      "entry": "Dataset/train/images/s-00987_jpg.rf.28dbba93e459374f5659174f912812f8.jpg",
+      "distance": 2,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2880
+    },
+    {
+      "id": 5257,
+      "entry": "Dataset/train/images/s-00988_jpg.rf.64dd1740442bd6d77338ea8afe12a7ca.jpg",
+      "distance": 2,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2880
+    },
+    {
+      "id": 5258,
+      "entry": "Dataset/train/images/s-00989_jpg.rf.07714e38d8adb9ad1fd669cea63456a4.jpg",
+      "distance": 2,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2880
+    },
+    {
+      "id": 5259,
+      "entry": "Dataset/train/images/s-00991_jpg.rf.8ae19213287c1017298436b83f416e6b.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2970
+    },
+    {
+      "id": 5260,
+      "entry": "Dataset/train/images/s-00993_jpg.rf.983826fccd36ba07ace30470da9ee7d6.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2970
+    },
+    {
+      "id": 5261,
+      "entry": "Dataset/train/images/s-00994_jpg.rf.232e6a33ed0638f29e4eeff8fbf8295b.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2970
+    },
+    {
+      "id": 5262,
+      "entry": "Dataset/train/images/s-00995_jpg.rf.844458c922e9edf433bc63588e151811.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2970
+    },
+    {
+      "id": 5263,
+      "entry": "Dataset/train/images/s-01000_jpg.rf.510f301fb028bf1cf34c0346143e527f.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2985
+    },
+    {
+      "id": 5264,
+      "entry": "Dataset/train/images/s-01007_jpg.rf.c9e93dcf3afcb32e9bf8f52f67250394.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3015
+    },
+    {
+      "id": 5265,
+      "entry": "Dataset/train/images/s-01009_jpg.rf.41cfc36a16d6f5a1e9f0d7c12e239195.jpg",
+      "distance": 2,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2850
+    },
+    {
+      "id": 5266,
+      "entry": "Dataset/train/images/s-01010_jpg.rf.2e836834beb9c9c24ea69652c8e6fc68.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3015
+    },
+    {
+      "id": 5267,
+      "entry": "Dataset/train/images/s-01012_jpg.rf.dba08b9281273d82f22571d3fdd637a5.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3015
+    },
+    {
+      "id": 5268,
+      "entry": "Dataset/train/images/s-01013_jpg.rf.6052cfbb5e3cef1eee1832afbe4d2615.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3015
+    },
+    {
+      "id": 5269,
+      "entry": "Dataset/train/images/s-01014_jpg.rf.359e64eabb2eea46a42483e50de44380.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3015
+    },
+    {
+      "id": 5270,
+      "entry": "Dataset/train/images/s-01015_jpg.rf.c5cc7f7f8d11035cf4e2b91f1bd443d3.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3015
+    },
+    {
+      "id": 5271,
+      "entry": "Dataset/train/images/s-01099_jpg.rf.eb325b1c536e7ff3fb7dd3ae4ac7174c.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3285
+    },
+    {
+      "id": 5272,
+      "entry": "Dataset/train/images/s-01100_jpg.rf.b8353956ea6fc111b62433e862a5d142.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3285
+    },
+    {
+      "id": 5273,
+      "entry": "Dataset/train/images/s-01102_jpg.rf.6c6d54f150396e4bf3f1383ec88334b6.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3780
+    },
+    {
+      "id": 5274,
+      "entry": "Dataset/train/images/s-01103_jpg.rf.3013e0fd3756fae2d42133ea695a87ce.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3780
+    },
+    {
+      "id": 5275,
+      "entry": "Dataset/train/images/s-01105_jpg.rf.6c29a701b18cfa18e823148a4e7ebcff.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3780
+    },
+    {
+      "id": 5276,
+      "entry": "Dataset/train/images/s-01109_jpg.rf.73159008cd5476133794e32ac5f69a1b.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3315
+    },
+    {
+      "id": 5277,
+      "entry": "Dataset/train/images/s-01110_jpg.rf.de04164f5bd3c4931c14d8f5b029eef1.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3315
+    },
+    {
+      "id": 5278,
+      "entry": "Dataset/train/images/s-01111_jpg.rf.3034323bbc5b712c2f20456d5d28ebd2.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3765
+    },
+    {
+      "id": 5279,
+      "entry": "Dataset/train/images/s-01113_jpg.rf.b94511ea3c02a8d2fbee33e7182baac4.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3345
+    },
+    {
+      "id": 5280,
+      "entry": "Dataset/train/images/s-01119_jpg.rf.0f808f7136a209dfe0d389cb5fe330d3.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3345
+    },
+    {
+      "id": 5281,
+      "entry": "Dataset/train/images/s-01120_jpg.rf.a63ff77a21a28a0338f5995c031e4d51.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3345
+    },
+    {
+      "id": 5282,
+      "entry": "Dataset/train/images/s-01187_jpg.rf.89f216addf411a20a738326b0f98b592.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3345
+    },
+    {
+      "id": 5283,
+      "entry": "Dataset/train/images/s-01188_jpg.rf.0b645fba013b91750a007fdbb8d072ae.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3345
+    },
+    {
+      "id": 5284,
+      "entry": "Dataset/train/images/s-01190_jpg.rf.bd5b0a577699f6241da0a1a3d4f24e44.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3345
+    },
+    {
+      "id": 5285,
+      "entry": "Dataset/train/images/s-01193_jpg.rf.1b65cd1458fa84ea0ce98d32e212f89d.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3345
+    },
+    {
+      "id": 5286,
+      "entry": "Dataset/train/images/s-01194_jpg.rf.c4b81e0a34d91ac9c2f19f22b4fccb78.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3345
+    },
+    {
+      "id": 5287,
+      "entry": "Dataset/train/images/s-01195_jpg.rf.98cfd3c049de8b7c4ff90e9df6fb2650.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3345
+    },
+    {
+      "id": 5288,
+      "entry": "Dataset/train/images/s-01196_jpg.rf.8b65f0d3a0e10afb9437f4d2362ed10b.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3345
+    },
+    {
+      "id": 5289,
+      "entry": "Dataset/train/images/s-01197_jpg.rf.b6971684da0a0d16bbf89c85422cb91f.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3345
+    },
+    {
+      "id": 5290,
+      "entry": "Dataset/train/images/s-01198_jpg.rf.08946fcda3f34cc3ee080dfa02df89fd.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3345
+    },
+    {
+      "id": 5291,
+      "entry": "Dataset/train/images/s-01199_jpg.rf.9e8f37ad78f21a79af07efc9e0623b5a.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3345
+    },
+    {
+      "id": 5292,
+      "entry": "Dataset/train/images/s-01200_jpg.rf.61a949ec619db1ce25d4465c9dcb11a9.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3345
+    },
+    {
+      "id": 5293,
+      "entry": "Dataset/train/images/s-01287_jpg.rf.4da5f4e58e3b2cc853116ac2f76117e5.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3750
+    },
+    {
+      "id": 5294,
+      "entry": "Dataset/train/images/s-01289_jpg.rf.94818578de095221672b989b72fdcc4e.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3750
+    },
+    {
+      "id": 5295,
+      "entry": "Dataset/train/images/s-01290_jpg.rf.4b89acb60c3bdd1c2f33899f97f84fdf.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3750
+    },
+    {
+      "id": 5296,
+      "entry": "Dataset/train/images/s-01292_jpg.rf.2614f015b5de8781dae4f6ab39eba6f9.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3750
+    },
+    {
+      "id": 5297,
+      "entry": "Dataset/train/images/s-01293_jpg.rf.639282d4ac0e858e494e4654e30e112c.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3750
+    },
+    {
+      "id": 5298,
+      "entry": "Dataset/train/images/s-01295_jpg.rf.1cdc0279b4b5aff26ef8d1ede85f1288.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3885
+    },
+    {
+      "id": 5299,
+      "entry": "Dataset/train/images/s-01296_jpg.rf.a302e1562fd8ede6a5d990c3261ae222.jpg",
+      "distance": 2,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3750
+    },
+    {
+      "id": 5300,
+      "entry": "Dataset/train/images/s-01299_jpg.rf.9e4dab27aaebd6fe37c62fcd67892204.jpg",
+      "distance": 2,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3750
+    },
+    {
+      "id": 5301,
+      "entry": "Dataset/train/images/s-01302_jpg.rf.9289e407a6c44d691f573aef0e01cddb.jpg",
+      "distance": 2,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3750
+    },
+    {
+      "id": 5302,
+      "entry": "Dataset/train/images/s-01304_jpg.rf.55037ed58ee09b89311bb63c596911d1.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3885
+    },
+    {
+      "id": 5303,
+      "entry": "Dataset/train/images/s-01305_jpg.rf.208e5c2bc31ff06057f702e24afc2cdb.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3885
+    },
+    {
+      "id": 5304,
+      "entry": "Dataset/train/images/s-01308_jpg.rf.425dabd713756a9f286ba603647b75da.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3885
+    },
+    {
+      "id": 5305,
+      "entry": "Dataset/train/images/s-01309_jpg.rf.9ea9a0397c2adedb519cf29573ef961b.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3885
+    },
+    {
+      "id": 5306,
+      "entry": "Dataset/train/images/s-01311_jpg.rf.8fdc925fe7701331a0ddebdfcbd9548e.jpg",
+      "distance": 2,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3750
+    },
+    {
+      "id": 5307,
+      "entry": "Dataset/train/images/s-01312_jpg.rf.85e6fab098c1c3f15105a187390f7300.jpg",
+      "distance": 2,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3750
+    },
+    {
+      "id": 5308,
+      "entry": "Dataset/train/images/s-01313_jpg.rf.3fa290581858eb1b7e1afdcf0164dbb6.jpg",
+      "distance": 2,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3750
+    },
+    {
+      "id": 5309,
+      "entry": "Dataset/train/images/s-01316_jpg.rf.6a654635c2a06e6ad19f723fda38a1ab.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3885
+    },
+    {
+      "id": 5310,
+      "entry": "Dataset/train/images/s-01318_jpg.rf.dd9e5533c89ce50c879c859a23a38241.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3885
+    },
+    {
+      "id": 5311,
+      "entry": "Dataset/train/images/s-01319_jpg.rf.ccc1a581f24d912ec886f433347fbfb1.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3885
+    },
+    {
+      "id": 5312,
+      "entry": "Dataset/train/images/s-01320_jpg.rf.587a9b109bc1d296fb3fd53b30381a8c.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3885
+    },
+    {
+      "id": 5313,
+      "entry": "Dataset/train/images/s-01332_jpg.rf.068bc775a36133f2f0a085ead567f826.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3990
+    },
+    {
+      "id": 5314,
+      "entry": "Dataset/train/images/s-01333_jpg.rf.087131399d9a2e6d8bb6f21758c375d8.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3990
+    },
+    {
+      "id": 5315,
+      "entry": "Dataset/train/images/s-01336_jpg.rf.0b40be6fefb491f3cb9f69a077694232.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3990
+    },
+    {
+      "id": 5316,
+      "entry": "Dataset/train/images/s-01337_jpg.rf.4b690744ceb20a4bde27e9f66daa603c.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3990
+    },
+    {
+      "id": 5317,
+      "entry": "Dataset/train/images/s-01338_jpg.rf.c6918d41e03280cb5b03642037e66e0e.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3990
+    },
+    {
+      "id": 5318,
+      "entry": "Dataset/train/images/s-01341_jpg.rf.640670c8af2c74813bfdfc5fb72a95d7.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3990
+    },
+    {
+      "id": 5319,
+      "entry": "Dataset/train/images/s-01342_jpg.rf.70ea3a4e579f4a41594fed5e22e8a3fe.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3990
+    },
+    {
+      "id": 5320,
+      "entry": "Dataset/train/images/s-01343_jpg.rf.fc86567ce0a893dc50d908d64150c84e.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3990
+    },
+    {
+      "id": 5321,
+      "entry": "Dataset/train/images/s-01345_jpg.rf.454042b77df0018690d6992ee708c3e1.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3990
+    },
+    {
+      "id": 5322,
+      "entry": "Dataset/train/images/s-01346_jpg.rf.aee25d8a1d12757acefb0501434e69f7.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3990
+    },
+    {
+      "id": 5323,
+      "entry": "Dataset/train/images/s-01349_jpg.rf.c37d08a1a0f8e3d0430c097a940d621a.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3990
+    },
+    {
+      "id": 5324,
+      "entry": "Dataset/train/images/s-01350_jpg.rf.53d196eac7a090d4f3fe65fa9b60b48a.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3990
+    },
+    {
+      "id": 5325,
+      "entry": "Dataset/train/images/s-01351_jpg.rf.e84b1b7f4e7caa1d5c2545a13cf18610.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3990
+    },
+    {
+      "id": 5326,
+      "entry": "Dataset/train/images/s-01352_jpg.rf.eb4c4f4536a3bd3d681592179f91c251.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3990
+    },
+    {
+      "id": 5327,
+      "entry": "Dataset/train/images/s-01353_jpg.rf.337f1c0c015014bc563f1bb63ec00ae8.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3990
+    },
+    {
+      "id": 5328,
+      "entry": "Dataset/train/images/s-01354_jpg.rf.201762b31dcbfe39751f451da2effcb7.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3975
+    },
+    {
+      "id": 5329,
+      "entry": "Dataset/train/images/s-01355_jpg.rf.3a0d0c69abedeea358049207d3caef6b.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3975
+    },
+    {
+      "id": 5330,
+      "entry": "Dataset/train/images/s-01357_jpg.rf.a2e1ac0afa2812114ef40f13ee13f12b.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3975
+    },
+    {
+      "id": 5331,
+      "entry": "Dataset/train/images/s-01358_jpg.rf.d81d3a8a5aca752b6955615e1b05ee4b.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3975
+    },
+    {
+      "id": 5332,
+      "entry": "Dataset/train/images/s-01359_jpg.rf.b383fe01576fe51ee211f59498be72d4.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3975
+    },
+    {
+      "id": 5333,
+      "entry": "Dataset/train/images/s-01360_jpg.rf.f30cf687ab5c5560e52588ee183839f8.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3975
+    },
+    {
+      "id": 5334,
+      "entry": "Dataset/train/images/s-01361_jpg.rf.be524f52a300ff5324bbc44c6c96786b.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3975
+    },
+    {
+      "id": 5335,
+      "entry": "Dataset/train/images/s-01362_jpg.rf.4df682a763228556d97d5c99501c91e3.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3975
+    },
+    {
+      "id": 5336,
+      "entry": "Dataset/train/images/s-01364_jpg.rf.7662db9d196d0acf3c25717f252493cf.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3975
+    },
+    {
+      "id": 5337,
+      "entry": "Dataset/train/images/s-01365_jpg.rf.e0560224b01627c645f9ae64aa444a50.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3975
+    },
+    {
+      "id": 5338,
+      "entry": "Dataset/train/images/s-01367_jpg.rf.547dafc4e9f74cf8368794a8d17eeb9d.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3975
+    },
+    {
+      "id": 5339,
+      "entry": "Dataset/train/images/s-01368_jpg.rf.21b999cc018813c53f937e537705ef56.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3975
+    },
+    {
+      "id": 5340,
+      "entry": "Dataset/train/images/s-01369_jpg.rf.aabcdf89472123678755067aaba632a0.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 4110
+    },
+    {
+      "id": 5341,
+      "entry": "Dataset/train/images/s-01377_jpg.rf.233fdb07c9e44d504d7cf8e1e5a72872.jpg",
+      "distance": 2,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3750
+    },
+    {
+      "id": 5342,
+      "entry": "Dataset/train/images/s-01378_jpg.rf.c543f3cb4d02f68e6b4c17077dd7caae.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3765
+    },
+    {
+      "id": 5343,
+      "entry": "Dataset/train/images/s-01379_jpg.rf.f08417f8d8074ee38ab4deeedf29900f.jpg",
+      "distance": 2,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3750
+    },
+    {
+      "id": 7212,
+      "entry": "Dataset/valid/images/s-00754_jpg.rf.c7c5f51397ebf8036d054418b300a5c4.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2160
+    },
+    {
+      "id": 7213,
+      "entry": "Dataset/valid/images/s-00770_jpg.rf.80fc0347044b94881d9d815e8de90484.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2205
+    },
+    {
+      "id": 7214,
+      "entry": "Dataset/valid/images/s-00913_jpg.rf.72b2b64401ff91c5164b8df5cdf2959f.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2715
+    },
+    {
+      "id": 7215,
+      "entry": "Dataset/valid/images/s-00936_jpg.rf.63be36c583eaa5ea27a59b4fe9a32fb7.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2820
+    },
+    {
+      "id": 7216,
+      "entry": "Dataset/valid/images/s-00937_jpg.rf.f522fc54925ac93cbc19e99dd7c6c6b0.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2820
+    },
+    {
+      "id": 7217,
+      "entry": "Dataset/valid/images/s-00953_jpg.rf.6cc0b779d11946bbd8ce3314f7d0a20c.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2850
+    },
+    {
+      "id": 7218,
+      "entry": "Dataset/valid/images/s-00966_jpg.rf.71acb97ff47f021701ff8c404a1648e6.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2880
+    },
+    {
+      "id": 7219,
+      "entry": "Dataset/valid/images/s-00982_jpg.rf.06826880903cae70e653da9ab1b59a6e.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2880
+    },
+    {
+      "id": 7220,
+      "entry": "Dataset/valid/images/s-00992_jpg.rf.c33c0edab7ee6b24a2ac8f6ef941291e.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2970
+    },
+    {
+      "id": 7221,
+      "entry": "Dataset/valid/images/s-00999_jpg.rf.e8ba3fd0396175a3cc782ac36ff7ee9c.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2985
+    },
+    {
+      "id": 7222,
+      "entry": "Dataset/valid/images/s-01106_jpg.rf.469ca0ecf784291245bcd8d139c7da62.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3780
+    },
+    {
+      "id": 7223,
+      "entry": "Dataset/valid/images/s-01112_jpg.rf.3a8b822ec71d8f2929bdc9ea322a0dea.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3315
+    },
+    {
+      "id": 7224,
+      "entry": "Dataset/valid/images/s-01117_jpg.rf.846de90ed04f64d5e2c2ed9b0837e476.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3345
+    },
+    {
+      "id": 7225,
+      "entry": "Dataset/valid/images/s-01288_jpg.rf.ade3e45dbd8e5494937df33da0975593.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3750
+    },
+    {
+      "id": 7226,
+      "entry": "Dataset/valid/images/s-01291_jpg.rf.303dca07f7b14136ebe569a5c71f03a2.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3750
+    },
+    {
+      "id": 7227,
+      "entry": "Dataset/valid/images/s-01298_jpg.rf.64e2ede01ac92d349920ba113c61d652.jpg",
+      "distance": 2,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3750
+    },
+    {
+      "id": 7228,
+      "entry": "Dataset/valid/images/s-01315_jpg.rf.0224ac0bd3685bf133ea5995f6333951.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3885
+    },
+    {
+      "id": 7229,
+      "entry": "Dataset/valid/images/s-01339_jpg.rf.5967ef015ed18a8c07e46e5ea1c85074.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3990
+    },
+    {
+      "id": 7230,
+      "entry": "Dataset/valid/images/s-01347_jpg.rf.afa00a393aecd7efe662c2645aebffe6.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3990
+    }
+  ],
+  "closest_20": [
+    {
+      "id": 596,
+      "entry": "Dataset/test/images/s-00646_jpg.rf.425443f56ebf6f18df235a2e61dc78ed.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 1785
+    },
+    {
+      "id": 597,
+      "entry": "Dataset/test/images/s-00670_jpg.rf.6c89469aff185c56de484ad6fe26382b.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 1785
+    },
+    {
+      "id": 598,
+      "entry": "Dataset/test/images/s-00726_jpg.rf.5461dd0605cdfc6ea4deb6b516b3e448.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2160
+    },
+    {
+      "id": 599,
+      "entry": "Dataset/test/images/s-00767_jpg.rf.c3361024a74129456effe6ecd17f1821.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2220
+    },
+    {
+      "id": 600,
+      "entry": "Dataset/test/images/s-00783_jpg.rf.2592e4631a70b504988386f53d5468c1.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2325
+    },
+    {
+      "id": 601,
+      "entry": "Dataset/test/images/s-00794_jpg.rf.42474bebef2506f25e252b380f8eb056.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2205
+    },
+    {
+      "id": 602,
+      "entry": "Dataset/test/images/s-00819_jpg.rf.f9c95efb0868f76121d9ff98b7b876e3.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2325
+    },
+    {
+      "id": 603,
+      "entry": "Dataset/test/images/s-00834_jpg.rf.4c0bc42108efb2b8b00052b76bae9d0c.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2325
+    },
+    {
+      "id": 604,
+      "entry": "Dataset/test/images/s-00888_jpg.rf.ce8d473b6947701f22416bc62d2e699b.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2595
+    },
+    {
+      "id": 605,
+      "entry": "Dataset/test/images/s-00890_jpg.rf.b8afb186d0243b09f91ade3a6f128343.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2595
+    },
+    {
+      "id": 606,
+      "entry": "Dataset/test/images/s-00891_jpg.rf.1e9b7a4b09e7965461c4172235ff7397.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2595
+    },
+    {
+      "id": 607,
+      "entry": "Dataset/test/images/s-00897_jpg.rf.38f3ba4be0e014b6cae0cb4a309131f8.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2595
+    },
+    {
+      "id": 608,
+      "entry": "Dataset/test/images/s-00903_jpg.rf.63b8df7ca44afa67e6a7f8845337bd70.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2715
+    },
+    {
+      "id": 609,
+      "entry": "Dataset/test/images/s-00935_jpg.rf.3eb35610445077e1bc119c97fd102ce8.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2805
+    },
+    {
+      "id": 610,
+      "entry": "Dataset/test/images/s-00954_jpg.rf.e01a2d2041fa8f1ceccbd31fee20d2f5.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2865
+    },
+    {
+      "id": 611,
+      "entry": "Dataset/test/images/s-00955_jpg.rf.5840b9074b531834c07a4d05443a705a.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2865
+    },
+    {
+      "id": 612,
+      "entry": "Dataset/test/images/s-00978_jpg.rf.d206b68e26e4baa0dfda3a0b2cf323f4.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2880
+    },
+    {
+      "id": 613,
+      "entry": "Dataset/test/images/s-00996_jpg.rf.ce9f77c69f86076fe4729e7bebb03094.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 2970
+    },
+    {
+      "id": 614,
+      "entry": "Dataset/test/images/s-01101_jpg.rf.32952cfa5610969aafca18053b702c73.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3780
+    },
+    {
+      "id": 615,
+      "entry": "Dataset/test/images/s-01108_jpg.rf.d4f1b0b9c9f1f9227c3ca54674580c6b.jpg",
+      "distance": 0,
+      "source": "/Users/tabbasi/Downloads/IndustrialAI/var/mvp/media/6cf614b3-eb97-41bb-8f9f-ba6f4b9a2170.mp4",
+      "frame": 3780
+    }
+  ],
+  "limitation": "Perceptual similarity is a screening flag; shared camera/incident identity requires visual/source verification. Augmentation can conceal overlap; lack of a match proves no independence."
+}

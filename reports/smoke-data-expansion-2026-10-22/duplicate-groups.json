@@ -1,0 +1,2884 @@
+{
+  "sha256": [
+    {
+      "key": "393cdb549d1660b852e7228a744b341f757fd50d38a2e26d73fe76dbb05e3fb4",
+      "ids": [
+        755,
+        756
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "d4144fbff43db3107708467538cf0b187776c8c2d94a34f5be055664c2bd055a",
+      "ids": [
+        757,
+        758
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "4a531a089ae70724fce8c325c415685c0ea8853368f27e98be61898be24c2e01",
+      "ids": [
+        759,
+        760
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "d20daae6efb9f1009c268a7afec69eab83590e206911a0b70e703ee047535cd6",
+      "ids": [
+        2455,
+        3556
+      ],
+      "splits": [
+        "train"
+      ]
+    }
+  ],
+  "original_stem": [
+    {
+      "key": "3g-ram-rolin-coal-smoking-tires-600_jpg",
+      "ids": [
+        10,
+        11,
+        772
+      ],
+      "splits": [
+        "test",
+        "train"
+      ]
+    },
+    {
+      "key": "FireDataV8_1_3125_jpg",
+      "ids": [
+        245,
+        2400
+      ],
+      "splits": [
+        "test",
+        "train"
+      ]
+    },
+    {
+      "key": "FireDataV8_1_4728_jpg",
+      "ids": [
+        307,
+        2890
+      ],
+      "splits": [
+        "test",
+        "train"
+      ]
+    },
+    {
+      "key": "FireDataV8_1_5517_jpg",
+      "ids": [
+        318,
+        6559
+      ],
+      "splits": [
+        "test",
+        "valid"
+      ]
+    },
+    {
+      "key": "Image_144_jpg",
+      "ids": [
+        411,
+        3638
+      ],
+      "splits": [
+        "test",
+        "train"
+      ]
+    },
+    {
+      "key": "Image_147_jpg",
+      "ids": [
+        412,
+        3640
+      ],
+      "splits": [
+        "test",
+        "train"
+      ]
+    },
+    {
+      "key": "Image_15_jpg",
+      "ids": [
+        413,
+        3648
+      ],
+      "splits": [
+        "test",
+        "train"
+      ]
+    },
+    {
+      "key": "Image_27_jpg",
+      "ids": [
+        416,
+        6796
+      ],
+      "splits": [
+        "test",
+        "valid"
+      ]
+    },
+    {
+      "key": "Image_58_jpg",
+      "ids": [
+        418,
+        3712
+      ],
+      "splits": [
+        "test",
+        "train"
+      ]
+    },
+    {
+      "key": "Image_63_jpg",
+      "ids": [
+        419,
+        6819
+      ],
+      "splits": [
+        "test",
+        "valid"
+      ]
+    },
+    {
+      "key": "Image_84_jpg",
+      "ids": [
+        421,
+        3739
+      ],
+      "splits": [
+        "test",
+        "train"
+      ]
+    },
+    {
+      "key": "d-00005_jpg",
+      "ids": [
+        444,
+        6872
+      ],
+      "splits": [
+        "test",
+        "valid"
+      ]
+    },
+    {
+      "key": "d-00011_jpg",
+      "ids": [
+        445,
+        3916
+      ],
+      "splits": [
+        "test",
+        "train"
+      ]
+    },
+    {
+      "key": "d-00012_jpg",
+      "ids": [
+        446,
+        6877
+      ],
+      "splits": [
+        "test",
+        "valid"
+      ]
+    },
+    {
+      "key": "d-00029_jpg",
+      "ids": [
+        447,
+        6892
+      ],
+      "splits": [
+        "test",
+        "valid"
+      ]
+    },
+    {
+      "key": "d-00031_jpg",
+      "ids": [
+        448,
+        6893
+      ],
+      "splits": [
+        "test",
+        "valid"
+      ]
+    },
+    {
+      "key": "d-00035_jpg",
+      "ids": [
+        449,
+        6894
+      ],
+      "splits": [
+        "test",
+        "valid"
+      ]
+    },
+    {
+      "key": "d-00038_jpg",
+      "ids": [
+        450,
+        6897
+      ],
+      "splits": [
+        "test",
+        "valid"
+      ]
+    },
+    {
+      "key": "d-00049_jpg",
+      "ids": [
+        451,
+        3960
+      ],
+      "splits": [
+        "test",
+        "train"
+      ]
+    },
+    {
+      "key": "diesel-smoke_jpg",
+      "ids": [
+        498,
+        499,
+        4405
+      ],
+      "splits": [
+        "test",
+        "train"
+      ]
+    },
+    {
+      "key": "hqdefault-1-_jpg",
+      "ids": [
+        584,
+        4987,
+        4988,
+        7193
+      ],
+      "splits": [
+        "test",
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "hqdefault-2-_jpg",
+      "ids": [
+        585,
+        4989,
+        7194
+      ],
+      "splits": [
+        "test",
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "images-1-_jpg",
+      "ids": [
+        586,
+        4996
+      ],
+      "splits": [
+        "test",
+        "train"
+      ]
+    },
+    {
+      "key": "om29roich8t41_jpg",
+      "ids": [
+        593,
+        5118
+      ],
+      "splits": [
+        "test",
+        "train"
+      ]
+    },
+    {
+      "key": "smoke_new_000267_jpg",
+      "ids": [
+        628,
+        5372
+      ],
+      "splits": [
+        "test",
+        "train"
+      ]
+    },
+    {
+      "key": "smoke_new_000423_jpg",
+      "ids": [
+        630,
+        5395,
+        5396
+      ],
+      "splits": [
+        "test",
+        "train"
+      ]
+    },
+    {
+      "key": "smoke_new_000458_jpg",
+      "ids": [
+        631,
+        5399,
+        5400
+      ],
+      "splits": [
+        "test",
+        "train"
+      ]
+    },
+    {
+      "key": "smoke_new_000639_jpg",
+      "ids": [
+        632,
+        7253
+      ],
+      "splits": [
+        "test",
+        "valid"
+      ]
+    },
+    {
+      "key": "smoke_new_000649_jpg",
+      "ids": [
+        634,
+        5422
+      ],
+      "splits": [
+        "test",
+        "train"
+      ]
+    },
+    {
+      "key": "smoke_new_000727_jpg",
+      "ids": [
+        636,
+        5443
+      ],
+      "splits": [
+        "test",
+        "train"
+      ]
+    },
+    {
+      "key": "smoke_new_001019_jpg",
+      "ids": [
+        642,
+        5506
+      ],
+      "splits": [
+        "test",
+        "train"
+      ]
+    },
+    {
+      "key": "smoke_new_001031_jpg",
+      "ids": [
+        645,
+        5508
+      ],
+      "splits": [
+        "test",
+        "train"
+      ]
+    },
+    {
+      "key": "smoke_new_001041_jpg",
+      "ids": [
+        646,
+        5513,
+        7268
+      ],
+      "splits": [
+        "test",
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "smoke_new_001262_jpg",
+      "ids": [
+        648,
+        5534,
+        7273
+      ],
+      "splits": [
+        "test",
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "smoke_new_001304_jpg",
+      "ids": [
+        649,
+        5543
+      ],
+      "splits": [
+        "test",
+        "train"
+      ]
+    },
+    {
+      "key": "smoke_new_001321_jpg",
+      "ids": [
+        650,
+        5548
+      ],
+      "splits": [
+        "test",
+        "train"
+      ]
+    },
+    {
+      "key": "smoke_new_001353_jpg",
+      "ids": [
+        652,
+        5555
+      ],
+      "splits": [
+        "test",
+        "train"
+      ]
+    },
+    {
+      "key": "smoke_new_001400_jpg",
+      "ids": [
+        654,
+        5565
+      ],
+      "splits": [
+        "test",
+        "train"
+      ]
+    },
+    {
+      "key": "smoke_new_001406_jpg",
+      "ids": [
+        655,
+        5566,
+        7289
+      ],
+      "splits": [
+        "test",
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "342395160_634819285127034_26107277646975438_n_jpg",
+      "ids": [
+        755,
+        756
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "342530205_754510332843095_4557226185923385798_n_jpg",
+      "ids": [
+        757,
+        758
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "347599839_1326076671592832_2366377815856147283_n_jpg",
+      "ids": [
+        759,
+        760
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "70a9d34ac989ba3acedd2de3400a90fb_jpg",
+      "ids": [
+        800,
+        801
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "Example-of-excessive-black-smoke-emission-of-a-diesel-engine_Q640_jpg",
+      "ids": [
+        826,
+        5927
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "Exhaust-800x450_jpg",
+      "ids": [
+        827,
+        828,
+        5928
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "FireDataV8_1_12406_jpg",
+      "ids": [
+        1780,
+        1781
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "FireDataV8_1_12932_jpg",
+      "ids": [
+        1819,
+        6236
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "FireDataV8_1_18773_jpg",
+      "ids": [
+        2042,
+        2043
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "FireDataV8_1_19472_jpg",
+      "ids": [
+        2083,
+        2084
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "FireDataV8_1_2883_jpg",
+      "ids": [
+        2322,
+        2323
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "FireDataV8_1_2902_jpg",
+      "ids": [
+        2328,
+        2329
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "FireDataV8_1_2985_jpg",
+      "ids": [
+        2351,
+        6393
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "FireDataV8_1_3026_jpg",
+      "ids": [
+        2367,
+        2368
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "FireDataV8_1_3073_jpg",
+      "ids": [
+        2381,
+        6403
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "FireDataV8_1_3219_jpg",
+      "ids": [
+        2429,
+        2430
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "FireDataV8_1_3441_jpg",
+      "ids": [
+        2524,
+        6434
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "FireDataV8_1_3507_jpg",
+      "ids": [
+        2547,
+        6445
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "FireDataV8_1_3551_jpg",
+      "ids": [
+        2565,
+        2566
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "FireDataV8_1_3553_jpg",
+      "ids": [
+        2567,
+        2568
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "FireDataV8_1_3588_jpg",
+      "ids": [
+        2586,
+        6451
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "FireDataV8_1_3682_jpg",
+      "ids": [
+        2613,
+        2614
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "FireDataV8_1_3688_jpg",
+      "ids": [
+        2616,
+        2617
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "FireDataV8_1_3841_jpg",
+      "ids": [
+        2658,
+        2659
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "FireDataV8_1_3961_jpg",
+      "ids": [
+        2696,
+        6488
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "FireDataV8_1_4137_jpg",
+      "ids": [
+        2734,
+        6496
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "FireDataV8_1_4341_jpg",
+      "ids": [
+        2794,
+        2795
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "FireDataV8_1_4344_jpg",
+      "ids": [
+        2796,
+        2797
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "FireDataV8_1_4359_jpg",
+      "ids": [
+        2805,
+        6511
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "FireDataV8_1_4361_jpg",
+      "ids": [
+        2806,
+        2807
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "FireDataV8_1_4524_jpg",
+      "ids": [
+        2849,
+        2850
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "FireDataV8_1_4725_jpg",
+      "ids": [
+        2887,
+        2888
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "FireDataV8_1_4815_jpg",
+      "ids": [
+        2905,
+        2906
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "FireDataV8_1_5159_jpg",
+      "ids": [
+        2955,
+        2956
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "FireDataV8_1_5460_jpg",
+      "ids": [
+        2976,
+        2977
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "FireDataV8_1_5543_jpg",
+      "ids": [
+        3004,
+        6562
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "FireDataV8_1_6420_jpg",
+      "ids": [
+        3127,
+        3128
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "H_03611_png_jpg",
+      "ids": [
+        3521,
+        3522
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "Image_100_jpg",
+      "ids": [
+        3595,
+        3596
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "Image_103_jpg",
+      "ids": [
+        3598,
+        6751
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "Image_104_jpg",
+      "ids": [
+        3599,
+        3600
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "Image_105_jpg",
+      "ids": [
+        3601,
+        6752
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "Image_109_jpg",
+      "ids": [
+        3604,
+        3605
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "Image_10_jpg",
+      "ids": [
+        3606,
+        3607
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "Image_112_jpg",
+      "ids": [
+        3611,
+        6753
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "Image_113_jpg",
+      "ids": [
+        3612,
+        6754
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "Image_118_jpg",
+      "ids": [
+        3614,
+        6758
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "Image_120_jpg",
+      "ids": [
+        3615,
+        3616
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "Image_128_jpg",
+      "ids": [
+        3619,
+        6762
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "Image_129_jpg",
+      "ids": [
+        3620,
+        3621
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "Image_12_jpg",
+      "ids": [
+        3622,
+        6763
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "Image_130_jpg",
+      "ids": [
+        3623,
+        6764
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "Image_131_jpg",
+      "ids": [
+        3624,
+        6765
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "Image_132_jpg",
+      "ids": [
+        3626,
+        3627
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "Image_133_jpg",
+      "ids": [
+        3628,
+        6766
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "Image_136_jpg",
+      "ids": [
+        3630,
+        6768
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "Image_150_jpg",
+      "ids": [
+        3644,
+        6771
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "Image_153_jpg",
+      "ids": [
+        3645,
+        3646
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "Image_160_jpg",
+      "ids": [
+        3650,
+        6777
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "Image_161_jpg",
+      "ids": [
+        3652,
+        3653
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "Image_162_jpg",
+      "ids": [
+        3654,
+        6778
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "Image_170_jpg",
+      "ids": [
+        3660,
+        6780
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "Image_174_jpg",
+      "ids": [
+        3662,
+        3663
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "Image_17_jpg",
+      "ids": [
+        3666,
+        6783
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "Image_23_jpg",
+      "ids": [
+        3678,
+        3679
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "Image_29_jpg",
+      "ids": [
+        3681,
+        6797
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "Image_30_jpg",
+      "ids": [
+        3684,
+        6798
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "Image_31_jpg",
+      "ids": [
+        3685,
+        6799
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "Image_33_jpg",
+      "ids": [
+        3686,
+        3687
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "Image_36_jpg",
+      "ids": [
+        3689,
+        6802
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "Image_38_jpg",
+      "ids": [
+        3691,
+        3692
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "Image_42_jpg",
+      "ids": [
+        3696,
+        6808
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "Image_44_jpg",
+      "ids": [
+        3697,
+        6811
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "Image_46_jpg",
+      "ids": [
+        3698,
+        6813
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "Image_47_jpg",
+      "ids": [
+        3699,
+        6814
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "Image_48_jpg",
+      "ids": [
+        3700,
+        6815
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "Image_49_jpg",
+      "ids": [
+        3701,
+        3702
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "Image_51_jpg",
+      "ids": [
+        3704,
+        3705
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "Image_54_jpg",
+      "ids": [
+        3709,
+        6817
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "Image_55_jpg",
+      "ids": [
+        3710,
+        6818
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "Image_64_jpg",
+      "ids": [
+        3718,
+        6820
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "Image_68_jpg",
+      "ids": [
+        3720,
+        6822
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "Image_6_jpg",
+      "ids": [
+        3721,
+        3722
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "Image_77_jpg",
+      "ids": [
+        3727,
+        3728
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "Image_78_jpg",
+      "ids": [
+        3729,
+        3730
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "Image_80_jpg",
+      "ids": [
+        3732,
+        6824
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "Image_82_jpg",
+      "ids": [
+        3734,
+        3735
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "Image_83_jpg",
+      "ids": [
+        3737,
+        3738
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "Image_86_jpg",
+      "ids": [
+        3740,
+        6827
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "Image_88_jpg",
+      "ids": [
+        3742,
+        3743
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "Image_8_jpg",
+      "ids": [
+        3744,
+        3745
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "Image_96_jpg",
+      "ids": [
+        3750,
+        6830
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "Image_97_jpg",
+      "ids": [
+        3751,
+        3752
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "Image_98_jpg",
+      "ids": [
+        3753,
+        3754
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "L_01011_png_jpg",
+      "ids": [
+        3780,
+        3781
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "barbecue191_png_jpg",
+      "ids": [
+        3844,
+        3845
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "d-00001_jpg",
+      "ids": [
+        3904,
+        3905
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "d-00002_jpg",
+      "ids": [
+        3906,
+        6870
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "d-00003_jpg",
+      "ids": [
+        3907,
+        3908
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "d-00004_jpg",
+      "ids": [
+        3909,
+        6871
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "d-00006_jpg",
+      "ids": [
+        3910,
+        6873
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "d-00007_jpg",
+      "ids": [
+        3911,
+        3912
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "d-00008_jpg",
+      "ids": [
+        3913,
+        6874
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "d-00009_jpg",
+      "ids": [
+        3914,
+        6875
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "d-00010_jpg",
+      "ids": [
+        3915,
+        6876
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "d-00013_jpg",
+      "ids": [
+        3917,
+        6878
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "d-00014_jpg",
+      "ids": [
+        3918,
+        6879
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "d-00015_jpg",
+      "ids": [
+        3919,
+        6880
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "d-00016_jpg",
+      "ids": [
+        3920,
+        6881
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "d-00017_jpg",
+      "ids": [
+        3921,
+        6882
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "d-00018_jpg",
+      "ids": [
+        3922,
+        6883
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "d-00019_jpg",
+      "ids": [
+        3923,
+        6884
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "d-00020_jpg",
+      "ids": [
+        3924,
+        6885
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "d-00021_jpg",
+      "ids": [
+        3925,
+        6886
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "d-00022_jpg",
+      "ids": [
+        3926,
+        6887
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "d-00023_jpg",
+      "ids": [
+        3927,
+        3928
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "d-00024_jpg",
+      "ids": [
+        3929,
+        3930
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "d-00025_jpg",
+      "ids": [
+        3931,
+        6888
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "d-00026_jpg",
+      "ids": [
+        3932,
+        6889
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "d-00027_jpg",
+      "ids": [
+        3933,
+        6890
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "d-00028_jpg",
+      "ids": [
+        3934,
+        6891
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "d-00030_jpg",
+      "ids": [
+        3935,
+        3936
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "d-00032_jpg",
+      "ids": [
+        3937,
+        3938
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "d-00033_jpg",
+      "ids": [
+        3939,
+        3940
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "d-00034_jpg",
+      "ids": [
+        3941,
+        3942
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "d-00036_jpg",
+      "ids": [
+        3943,
+        6895
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "d-00037_jpg",
+      "ids": [
+        3944,
+        6896
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "d-00039_jpg",
+      "ids": [
+        3945,
+        6898
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "d-00040_jpg",
+      "ids": [
+        3946,
+        6899
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "d-00041_jpg",
+      "ids": [
+        3947,
+        3948
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "d-00042_jpg",
+      "ids": [
+        3949,
+        3950
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "d-00043_jpg",
+      "ids": [
+        3951,
+        6900
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "d-00044_jpg",
+      "ids": [
+        3952,
+        3953
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "d-00045_jpg",
+      "ids": [
+        3954,
+        6901
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "d-00046_jpg",
+      "ids": [
+        3955,
+        6902
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "d-00047_jpg",
+      "ids": [
+        3956,
+        3957
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "d-00048_jpg",
+      "ids": [
+        3958,
+        3959
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "d-00050_jpg",
+      "ids": [
+        3961,
+        3962
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "d-00051_jpg",
+      "ids": [
+        3963,
+        3964
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "d-00053_jpg",
+      "ids": [
+        3966,
+        6903
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "d-00054_jpg",
+      "ids": [
+        3967,
+        3968
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "d-00055_jpg",
+      "ids": [
+        3969,
+        6904
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "d-00056_jpg",
+      "ids": [
+        3970,
+        6905
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "d-00057_jpg",
+      "ids": [
+        3971,
+        6906
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "d-00058_jpg",
+      "ids": [
+        3972,
+        3973
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "d-00059_jpg",
+      "ids": [
+        3974,
+        6907
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "d-00060_jpg",
+      "ids": [
+        3975,
+        3976
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "d-00061_jpg",
+      "ids": [
+        3977,
+        3978
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "d-00062_jpg",
+      "ids": [
+        3979,
+        3980
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "d-00063_jpg",
+      "ids": [
+        3981,
+        3982
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "d-00064_jpg",
+      "ids": [
+        3983,
+        3984
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "d-00065_jpg",
+      "ids": [
+        3985,
+        3986
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "hqdefault_jpg",
+      "ids": [
+        4991,
+        4992,
+        4993,
+        4994
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "images-10-_jpg",
+      "ids": [
+        4997,
+        4998,
+        4999,
+        5000
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "images-12-_jpg",
+      "ids": [
+        5002,
+        5003,
+        5004,
+        7195
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "images-4-_jpg",
+      "ids": [
+        5025,
+        5026,
+        5027,
+        7200
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "images-5-_jpg",
+      "ids": [
+        5035,
+        5036,
+        5037,
+        7202
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "images_jpg",
+      "ids": [
+        5046,
+        5047,
+        5048
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "istockphoto-1127358873-170667a_jpg",
+      "ids": [
+        5056,
+        5057,
+        5058
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "istockphoto-92093786-170667a_jpg",
+      "ids": [
+        5105,
+        5106,
+        5107
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "maxresdefault-1-_jpg",
+      "ids": [
+        5112,
+        5113,
+        5114
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "maxresdefault_jpg",
+      "ids": [
+        5115,
+        5116,
+        7208,
+        7209
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "mqdefault_jpg",
+      "ids": [
+        5117,
+        7210
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "smoke_new_000072_jpg",
+      "ids": [
+        5349,
+        7232
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "smoke_new_000148_jpg",
+      "ids": [
+        5350,
+        7234
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "smoke_new_000178_jpg",
+      "ids": [
+        5355,
+        7237
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "smoke_new_000290_jpg",
+      "ids": [
+        5376,
+        5377
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "smoke_new_000564_jpg",
+      "ids": [
+        5408,
+        7248
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "smoke_new_000595_jpg",
+      "ids": [
+        5412,
+        7250
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "smoke_new_000644_jpg",
+      "ids": [
+        5420,
+        5421
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "smoke_new_000684_jpg",
+      "ids": [
+        5432,
+        5433,
+        5434
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "smoke_new_000732_jpg",
+      "ids": [
+        5445,
+        7256
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "smoke_new_000750_jpg",
+      "ids": [
+        5451,
+        5452
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "smoke_new_000763_jpg",
+      "ids": [
+        5454,
+        5455
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "smoke_new_000777_jpg",
+      "ids": [
+        5460,
+        5461
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "smoke_new_000782_jpg",
+      "ids": [
+        5463,
+        5464,
+        7258
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "smoke_new_000784_jpg",
+      "ids": [
+        5466,
+        5467
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "smoke_new_000815_jpg",
+      "ids": [
+        5469,
+        7259
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "smoke_new_000906_jpg",
+      "ids": [
+        5482,
+        5483
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "smoke_new_000917_jpg",
+      "ids": [
+        5484,
+        5485,
+        7261
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "smoke_new_000920_jpg",
+      "ids": [
+        5486,
+        5487
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "smoke_new_000925_jpg",
+      "ids": [
+        5489,
+        5490
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "smoke_new_000942_jpg",
+      "ids": [
+        5492,
+        5493
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "smoke_new_000965_jpg",
+      "ids": [
+        5494,
+        7262
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "smoke_new_000968_jpg",
+      "ids": [
+        5495,
+        5496,
+        7263
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "smoke_new_000987_jpg",
+      "ids": [
+        5497,
+        7264
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "smoke_new_000988_jpg",
+      "ids": [
+        5498,
+        5499,
+        5500
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "smoke_new_001002_jpg",
+      "ids": [
+        5502,
+        7265
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "smoke_new_001006_jpg",
+      "ids": [
+        5504,
+        5505
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "smoke_new_001034_jpg",
+      "ids": [
+        5509,
+        7267
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "smoke_new_001039_jpg",
+      "ids": [
+        5510,
+        5511
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "smoke_new_001060_jpg",
+      "ids": [
+        5516,
+        5517,
+        5518
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "smoke_new_001105_jpg",
+      "ids": [
+        5522,
+        5523,
+        5524
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "smoke_new_001106_jpg",
+      "ids": [
+        5525,
+        5526,
+        7269
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "smoke_new_001144_jpg",
+      "ids": [
+        5527,
+        7270
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "smoke_new_001225_jpg",
+      "ids": [
+        5528,
+        5529,
+        5530
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "smoke_new_001239_jpg",
+      "ids": [
+        5531,
+        7271
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "smoke_new_001244_jpg",
+      "ids": [
+        5532,
+        5533,
+        7272
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "smoke_new_001265_jpg",
+      "ids": [
+        5535,
+        5536,
+        7274
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "smoke_new_001279_jpg",
+      "ids": [
+        5537,
+        7277
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "smoke_new_001280_jpg",
+      "ids": [
+        5538,
+        5539,
+        7278
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "smoke_new_001282_jpg",
+      "ids": [
+        5540,
+        7279
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "smoke_new_001283_jpg",
+      "ids": [
+        5541,
+        7280
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "smoke_new_001310_jpg",
+      "ids": [
+        5544,
+        7282
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "smoke_new_001317_jpg",
+      "ids": [
+        5545,
+        5546,
+        7283
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "smoke_new_001320_jpg",
+      "ids": [
+        5547,
+        7284
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "smoke_new_001323_jpg",
+      "ids": [
+        5549,
+        5550
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "smoke_new_001331_jpg",
+      "ids": [
+        5551,
+        5552
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "smoke_new_001343_jpg",
+      "ids": [
+        5553,
+        5554,
+        7285
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "smoke_new_001361_jpg",
+      "ids": [
+        5557,
+        5558
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "smoke_new_001362_jpg",
+      "ids": [
+        5559,
+        5560,
+        7286
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "smoke_new_001379_jpg",
+      "ids": [
+        5562,
+        5563
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "smoke_new_001417_jpg",
+      "ids": [
+        5567,
+        5568,
+        5569
+      ],
+      "splits": [
+        "train"
+      ]
+    },
+    {
+      "key": "smoke_new_001483_jpg",
+      "ids": [
+        5572,
+        7292
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "smoke_new_001493_jpg",
+      "ids": [
+        5574,
+        7293
+      ],
+      "splits": [
+        "train",
+        "valid"
+      ]
+    },
+    {
+      "key": "FireDataV8_1_3933_jpg",
+      "ids": [
+        6483,
+        6484
+      ],
+      "splits": [
+        "valid"
+      ]
+    },
+    {
+      "key": "Image_114_jpg",
+      "ids": [
+        6755,
+        6756
+      ],
+      "splits": [
+        "valid"
+      ]
+    },
+    {
+      "key": "Image_119_jpg",
+      "ids": [
+        6759,
+        6760
+      ],
+      "splits": [
+        "valid"
+      ]
+    },
+    {
+      "key": "Image_182_jpg",
+      "ids": [
+        6785,
+        6786
+      ],
+      "splits": [
+        "valid"
+      ]
+    },
+    {
+      "key": "Image_40_jpg",
+      "ids": [
+        6804,
+        6805
+      ],
+      "splits": [
+        "valid"
+      ]
+    },
+    {
+      "key": "Image_41_jpg",
+      "ids": [
+        6806,
+        6807
+      ],
+      "splits": [
+        "valid"
+      ]
+    },
+    {
+      "key": "Image_43_jpg",
+      "ids": [
+        6809,
+        6810
+      ],
+      "splits": [
+        "valid"
+      ]
+    },
+    {
+      "key": "smoke_new_001269_jpg",
+      "ids": [
+        7275,
+        7276
+      ],
+      "splits": [
+        "valid"
+      ]
+    },
+    {
+      "key": "smoke_new_001373_jpg",
+      "ids": [
+        7287,
+        7288
+      ],
+      "splits": [
+        "valid"
+      ]
+    },
+    {
+      "key": "smoke_new_001411_jpg",
+      "ids": [
+        7290,
+        7291
+      ],
+      "splits": [
+        "valid"
+      ]
+    }
+  ]
+}

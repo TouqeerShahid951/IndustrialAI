@@ -1,0 +1,9 @@
+{
+  "dataset": "ISFire-4",
+  "url": "https://huggingface.co/datasets/shahriar-5/ISFire-4/resolve/c64ae7a50883446eeaf700496a206a54087a67b8/Dataset.zip",
+  "revision": "c64ae7a50883446eeaf700496a206a54087a67b8",
+  "bytes": 245388412,
+  "sha256": "fb90a9bfed10f3f00529e2a8d8c512d5f92d8d2e19baac8135e6bdb751722ce9",
+  "purpose": "inspection only; no license grant in public card; training eligibility unresolved",
+  "training_started": false
+}

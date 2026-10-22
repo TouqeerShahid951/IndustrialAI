@@ -1,0 +1,9 @@
+{
+  "source": "https://raw.githubusercontent.com/CostiCatargiu/NEWFireSmokeDataset_YoloModels/main/DownloadFireDataset.py",
+  "inspection_only": true,
+  "url_count": 10,
+  "hosts": [
+    "universe.roboflow.com"
+  ],
+  "executed_publisher_code": false
+}

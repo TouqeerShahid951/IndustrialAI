@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['black smoke', 'blue fire', 'white-gray smoke', 'yellow-orange fire']
+
+roboflow:
+  workspace: 1024314002-iict-buet-ac-bd
+  project: gfjhfgjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjddtyhjgjhg-02ufc
+  version: 1
+  license: MIT
+  url: https://universe.roboflow.com/1024314002-iict-buet-ac-bd/gfjhfgjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjddtyhjgjhg-02ufc/dataset/1
