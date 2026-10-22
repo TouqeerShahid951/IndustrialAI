@@ -1,0 +1,152 @@
+{
+  "short_clips": 23,
+  "factory_original_clips": 8,
+  "laboratory_excerpts": 15,
+  "unique_clip_hashes": 23,
+  "exact_file_hash_overlap_with_previous_33_comparison_sources": 0,
+  "camera_independence_established": false,
+  "factory_source_reuses_existing_evaluation_facility": true,
+  "all_laboratory_excerpts_share_camera_family": true,
+  "full_decode_verified": [
+    {
+      "clip_id": "F01",
+      "decoded_frames": 421,
+      "duration_seconds": 16.975806451612904,
+      "sha256_verified": true
+    },
+    {
+      "clip_id": "F02",
+      "decoded_frames": 515,
+      "duration_seconds": 20.766129032258064,
+      "sha256_verified": true
+    },
+    {
+      "clip_id": "F03",
+      "decoded_frames": 276,
+      "duration_seconds": 11.031175059952039,
+      "sha256_verified": true
+    },
+    {
+      "clip_id": "F04",
+      "decoded_frames": 325,
+      "duration_seconds": 13.0,
+      "sha256_verified": true
+    },
+    {
+      "clip_id": "F05",
+      "decoded_frames": 392,
+      "duration_seconds": 15.63621858795373,
+      "sha256_verified": true
+    },
+    {
+      "clip_id": "F06",
+      "decoded_frames": 374,
+      "duration_seconds": 15.008025682182984,
+      "sha256_verified": true
+    },
+    {
+      "clip_id": "F07",
+      "decoded_frames": 150,
+      "duration_seconds": 6.004803843074459,
+      "sha256_verified": true
+    },
+    {
+      "clip_id": "F08",
+      "decoded_frames": 304,
+      "duration_seconds": 12.124453125,
+      "sha256_verified": true
+    },
+    {
+      "clip_id": "C01",
+      "decoded_frames": 751,
+      "duration_seconds": 29.999999999999996,
+      "sha256_verified": true
+    },
+    {
+      "clip_id": "C02",
+      "decoded_frames": 751,
+      "duration_seconds": 29.999999999999996,
+      "sha256_verified": true
+    },
+    {
+      "clip_id": "C03",
+      "decoded_frames": 1501,
+      "duration_seconds": 60.0,
+      "sha256_verified": true
+    },
+    {
+      "clip_id": "C04",
+      "decoded_frames": 1501,
+      "duration_seconds": 60.0,
+      "sha256_verified": true
+    },
+    {
+      "clip_id": "C05",
+      "decoded_frames": 1127,
+      "duration_seconds": 45.026,
+      "sha256_verified": true
+    },
+    {
+      "clip_id": "C06",
+      "decoded_frames": 1126,
+      "duration_seconds": 45.005,
+      "sha256_verified": true
+    },
+    {
+      "clip_id": "C07",
+      "decoded_frames": 1501,
+      "duration_seconds": 60.0,
+      "sha256_verified": true
+    },
+    {
+      "clip_id": "C08",
+      "decoded_frames": 1126,
+      "duration_seconds": 45.0,
+      "sha256_verified": true
+    },
+    {
+      "clip_id": "C09",
+      "decoded_frames": 1127,
+      "duration_seconds": 45.034,
+      "sha256_verified": true
+    },
+    {
+      "clip_id": "C10",
+      "decoded_frames": 1127,
+      "duration_seconds": 45.032,
+      "sha256_verified": true
+    },
+    {
+      "clip_id": "C11",
+      "decoded_frames": 1126,
+      "duration_seconds": 45.011,
+      "sha256_verified": true
+    },
+    {
+      "clip_id": "C12",
+      "decoded_frames": 1126,
+      "duration_seconds": 45.016000000000005,
+      "sha256_verified": true
+    },
+    {
+      "clip_id": "C13",
+      "decoded_frames": 1126,
+      "duration_seconds": 45.011,
+      "sha256_verified": true
+    },
+    {
+      "clip_id": "C14",
+      "decoded_frames": 1501,
+      "duration_seconds": 60.0,
+      "sha256_verified": true
+    },
+    {
+      "clip_id": "C15",
+      "decoded_frames": 1126,
+      "duration_seconds": 45.024,
+      "sha256_verified": true
+    }
+  ],
+  "training_admitted": 0,
+  "application_model_unchanged": true
+}

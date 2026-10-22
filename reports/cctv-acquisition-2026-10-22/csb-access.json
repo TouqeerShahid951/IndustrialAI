@@ -1,0 +1,14 @@
+{
+  "citgo": {
+    "source": "https://www.csb.gov/videos/surveillance-video-from-july-19-2009-fire-and-explosion-at-the-citgo-corpus-christi-refinery/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "chevron": {
+    "source": "https://www.csb.gov/videos/surveillance-video-from-the-august-6-accident-at-the-chevron-refinery-in-richmond-ca/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  "silver-eagle": {
+    "source": "https://www.csb.gov/silver-eagle-refinery-flash-fire-and-explosion-and-catastrophic-pipe-explosion/",
+    "error": "HTTP Error 403: Forbidden"
+  }
+}

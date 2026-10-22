@@ -1,0 +1,35 @@
+[
+  {
+    "id": "CSB-CITGO",
+    "title": "CITGO refinery: surveillance release, ignition and fire",
+    "page": "https://www.csb.gov/videos/surveillance-video-from-july-19-2009-fire-and-explosion-at-the-citgo-corpus-christi-refinery/",
+    "capture": "operating refinery CCTV, accident",
+    "status": "official viewing lead; not downloaded or admitted to training; reuse permission not established",
+    "label_caution": "Pre-ignition vapor cloud is not automatically smoke or a benign negative"
+  },
+  {
+    "id": "CSB-CHEVRON",
+    "title": "Chevron Richmond refinery surveillance footage",
+    "page": "https://www.csb.gov/videos/surveillance-video-from-the-august-6-accident-at-the-chevron-refinery-in-richmond-ca/",
+    "video": "https://www.youtube.com/watch?v=hewMRcrOI0s",
+    "capture": "operating refinery CCTV, accident",
+    "status": "official viewing lead; not downloaded or admitted to training; reuse permission not established",
+    "label_caution": "Separate hydrocarbon vapor release from combustion smoke"
+  },
+  {
+    "id": "NIST-CAB10",
+    "title": "Electrical cabinet/cable fire, Test 10",
+    "page": "https://www.nist.gov/el/fcd/nrc-electrical-cabinet-experiments/test10",
+    "capture": "controlled industrial electrical-cabinet experiment",
+    "status": "source page verified; not downloaded in this pass",
+    "label_caution": "Published player is a timelapse with plot overlays; unsuitable for real-time delay measurement"
+  },
+  {
+    "id": "NIST-CAB11",
+    "title": "Closed electrical cabinet/cable fire, Test 11",
+    "page": "https://www.nist.gov/el/fcd/nrc-electrical-cabinet-experiments/test11",
+    "capture": "controlled industrial electrical-cabinet experiment",
+    "status": "source page verified; not downloaded in this pass",
+    "label_caution": "Published player is a timelapse with plot overlays; unsuitable for real-time delay measurement"
+  }
+]
