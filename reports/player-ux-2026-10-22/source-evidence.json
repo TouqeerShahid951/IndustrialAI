@@ -1,0 +1,60 @@
+{
+  "incidents": [
+    {
+      "kind": "smoke",
+      "origin": "manual",
+      "start": 5.0,
+      "end": 22.0
+    },
+    {
+      "kind": "smoke",
+      "origin": "model",
+      "start": 6.779999999999999,
+      "end": 6.839999999999999
+    },
+    {
+      "kind": "fire",
+      "origin": "model",
+      "start": 8.4,
+      "end": 8.94
+    }
+  ],
+  "frame_checks": [
+    {
+      "time": 6.779999999999999,
+      "frame": 113,
+      "model": "fire_smoke",
+      "boxes": [
+        {
+          "class": "smoke",
+          "canonical": "smoke",
+          "confidence": 0.32931819558143616,
+          "bbox": [
+            0.63128662109375,
+            0.7708587646484375,
+            242.31991577148438,
+            161.308349609375
+          ]
+        }
+      ]
+    },
+    {
+      "time": 8.4,
+      "frame": 140,
+      "model": "fire_smoke",
+      "boxes": [
+        {
+          "class": "fire",
+          "canonical": "fire",
+          "confidence": 0.3380914330482483,
+          "bbox": [
+            181.55929565429688,
+            85.51324462890625,
+            231.24276733398438,
+            111.2076416015625
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,12 +1,54 @@
 import React from 'react';
-import {render,cleanup} from '@testing-library/react';
+import {render,cleanup,fireEvent,screen,waitFor,act} from '@testing-library/react';
 import {afterEach,it,expect,vi} from 'vitest';
 import {EvidencePlayer} from './EvidencePlayer';
-afterEach(()=>{cleanup();vi.restoreAllMocks();});
+afterEach(()=>{cleanup();vi.restoreAllMocks();vi.unstubAllGlobals();delete (HTMLVideoElement.prototype as any).requestVideoFrameCallback;delete (HTMLVideoElement.prototype as any).cancelVideoFrameCallback;});
 it('seeks a single frame rather than ignoring sub-200ms changes',()=>{
- vi.spyOn(HTMLCanvasElement.prototype,'getContext').mockReturnValue(null);
+ vi.spyOn(HTMLMediaElement.prototype,'pause').mockImplementation(()=>{});
  const upload={metadata:{fps:25,width:640,height:360,duration:3,preview_id:'p',frame_map:[[0,0],[.04,.04],[.08,.08]],frames_preview:[]}} as any;
  const {container,rerender}=render(<EvidencePlayer upload={upload} time={0} onTime={()=>{}}/>);
  rerender(<EvidencePlayer upload={upload} time={.04} onTime={()=>{}}/>);
- expect(container.querySelector('video')!.currentTime).toBeCloseTo(.04);
+ expect(container.querySelector('video')!.currentTime).toBeCloseTo(.041,5);
+});
+it('uses exact source intervals on separate tracks and snaps the still-mode cursor to the displayed frame',()=>{
+ vi.spyOn(HTMLMediaElement.prototype,'pause').mockImplementation(()=>{});
+ const upload={metadata:{fps:25,width:640,height:360,duration:10,preview_id:'p',frame_map:[[0,0],[10,10]],frames_preview:[{source:0,artifact_id:'a'},{source:5.1,artifact_id:'b'}]}} as any;
+ const incidents=[{id:'a',kind:'smoke',start:5,end:9,origin:'manual',decision:'confirmed'},{id:'b',kind:'fire',start:5.04,end:5.079999999999,origin:'model',decision:null}] as any;
+ const onTime=vi.fn();
+ const {container,rerender}=render(<EvidencePlayer upload={upload} time={5.04} onTime={onTime} incidents={incidents}/>);
+ expect(container.querySelectorAll('.event-track')).toHaveLength(2);
+ expect(parseFloat((container.querySelectorAll('.event-interval')[1] as HTMLElement).style.width)).toBeCloseTo(.4);
+ expect(screen.getByText('00:05.040–00:05.080')).toBeInTheDocument();
+ fireEvent.click(screen.getByRole('button',{name:/Jump to Fire/}));
+ expect(onTime).toHaveBeenLastCalledWith(5.04);
+ rerender(<EvidencePlayer upload={upload} time={5.08} onTime={onTime} incidents={incidents}/>);
+ expect(screen.getByText('2 at playhead')).toBeInTheDocument();
+ fireEvent.click(screen.getByRole('button',{name:'Frames'}));
+ expect(screen.getByRole('slider',{name:'Seek source time'})).toHaveValue('5.1');
+ expect((container.querySelector('.timeline-playhead') as HTMLElement).style.left).toBe('51%');
+});
+it('draws legible model overlays with a dark halo and allows hiding them',async()=>{
+ vi.spyOn(globalThis,'fetch').mockResolvedValue({ok:true,json:async()=>[{model:'fire',time:1,boxes:[{bbox:[10,20,100,100],canonical:'fire',class:'fire'}]}]} as Response);
+ const upload={metadata:{fps:25,width:320,height:240,duration:3,preview_id:'p',frame_map:[[0,0],[3,3]]}} as any;
+ const {container}=render(<EvidencePlayer upload={upload} job={{id:'j',config:{}} as any} time={1} onTime={()=>{}}/>);
+ await waitFor(()=>expect(container.querySelector('.evidence-overlay text')).toHaveTextContent('fire · model'));
+ expect(container.querySelector('rect[stroke="#101512"]')).toHaveAttribute('vector-effect','non-scaling-stroke');
+ expect(container.querySelector('rect[stroke="#67E8F9"]')).toBeInTheDocument();
+ fireEvent.click(screen.getByRole('button',{name:'Overlays'}));
+ expect(container.querySelector('.evidence-overlay')).toBeNull();
+});
+it('follows presented video frames without seeking playback back to the reported frame',()=>{
+ let callback:VideoFrameRequestCallback=()=>{};
+ const request=vi.fn((fn:VideoFrameRequestCallback)=>{callback=fn;return 1;});
+ vi.stubGlobal('ResizeObserver',class{observe(){} disconnect(){}});
+ Object.defineProperty(HTMLVideoElement.prototype,'requestVideoFrameCallback',{configurable:true,value:request});
+ Object.defineProperty(HTMLVideoElement.prototype,'cancelVideoFrameCallback',{configurable:true,value:vi.fn()});
+ const upload={metadata:{fps:25,width:640,height:360,duration:3,preview_id:'p',frame_map:[[0,0],[3,1.5]]}} as any;
+ const onTime=vi.fn();
+ const {container,rerender}=render(<EvidencePlayer upload={upload} time={0} onTime={onTime}/>);
+ const video=container.querySelector('video')!;video.currentTime=.53;
+ act(()=>callback(0,{mediaTime:.49999999999} as VideoFrameCallbackMetadata));
+ expect(onTime).toHaveBeenLastCalledWith(1);
+ rerender(<EvidencePlayer upload={upload} time={1} onTime={onTime}/>);
+ expect(video.currentTime).toBe(.53);
 });
