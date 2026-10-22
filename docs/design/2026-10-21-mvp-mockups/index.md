@@ -1,6 +1,6 @@
-# Industrial AI — refined option 2 mockups
+# Industrial AI — Soft Graphite and Sage mockups
 
-Fourteen screen/state mockups for the complete upload-and-review MVP. The user chose the dark Evidence Focus direction and requested Apple-inspired refinement before implementation. All five capabilities remain in scope.
+Fourteen screen/state mockups for the complete upload-and-review MVP. The user chose the Evidence Focus layout, requested Apple-inspired refinement, and selected colour theme 3: Soft Graphite and Sage. All five capabilities remain in scope.
 
 **Start here:** [Design system](/Users/tabbasi/Downloads/IndustrialAI/docs/design/2026-10-21-mvp-mockups/design-system.md) · [Interaction specification](/Users/tabbasi/Downloads/IndustrialAI/docs/design/2026-10-21-mvp-mockups/interaction-spec.md)
 
@@ -8,20 +8,22 @@ The primary workflow is sign in → upload → configure zones/detections → an
 
 ## Full-resolution screens
 
-- [01-sign-in: Sign in](/Users/tabbasi/Downloads/IndustrialAI/docs/design/2026-10-21-mvp-mockups/screens/01-sign-in.png)
-- [02-video-library: Video library](/Users/tabbasi/Downloads/IndustrialAI/docs/design/2026-10-21-mvp-mockups/screens/02-video-library.png)
-- [03-upload-video: Upload transfer sheet](/Users/tabbasi/Downloads/IndustrialAI/docs/design/2026-10-21-mvp-mockups/screens/03-upload-video.png)
-- [04-analysis-setup: Analysis setup and restricted zone](/Users/tabbasi/Downloads/IndustrialAI/docs/design/2026-10-21-mvp-mockups/screens/04-analysis-setup.png)
-- [05-analysis-progress: Analysis progress](/Users/tabbasi/Downloads/IndustrialAI/docs/design/2026-10-21-mvp-mockups/screens/05-analysis-progress.png)
-- [06-incident-review: Smoke incident review — master reference](/Users/tabbasi/Downloads/IndustrialAI/docs/design/2026-10-21-mvp-mockups/screens/06-incident-review.png)
-- [07-incident-history: Incident history](/Users/tabbasi/Downloads/IndustrialAI/docs/design/2026-10-21-mvp-mockups/screens/07-incident-history.png)
-- [08-incident-details-export: Incident details and evidence export](/Users/tabbasi/Downloads/IndustrialAI/docs/design/2026-10-21-mvp-mockups/screens/08-incident-details-export.png)
-- [09-mobile-review: Narrow-screen frame review](/Users/tabbasi/Downloads/IndustrialAI/docs/design/2026-10-21-mvp-mockups/screens/09-mobile-review.png)
-- [10-fire-review: Fire flag — uncertain doorway](/Users/tabbasi/Downloads/IndustrialAI/docs/design/2026-10-21-mvp-mockups/screens/10-fire-review.png)
-- [11-smoking-review: Smoking behavior — insufficient evidence](/Users/tabbasi/Downloads/IndustrialAI/docs/design/2026-10-21-mvp-mockups/screens/11-smoking-review.png)
-- [12-headwear-review: No helmet — limited head detail](/Users/tabbasi/Downloads/IndustrialAI/docs/design/2026-10-21-mvp-mockups/screens/12-headwear-review.png)
-- [13-restricted-area-review: Restricted-area presence — entry time unknown](/Users/tabbasi/Downloads/IndustrialAI/docs/design/2026-10-21-mvp-mockups/screens/13-restricted-area-review.png)
-- [14-add-missed-incident: Add a missed incident](/Users/tabbasi/Downloads/IndustrialAI/docs/design/2026-10-21-mvp-mockups/screens/14-add-missed-incident.png)
+- [01-sign-in: Sign in](/Users/tabbasi/Downloads/IndustrialAI/docs/design/2026-10-21-mvp-mockups/screens-graphite-sage/01-sign-in.png)
+- [02-video-library: Video library](/Users/tabbasi/Downloads/IndustrialAI/docs/design/2026-10-21-mvp-mockups/screens-graphite-sage/02-video-library.png)
+- [03-upload-video: Upload transfer sheet](/Users/tabbasi/Downloads/IndustrialAI/docs/design/2026-10-21-mvp-mockups/screens-graphite-sage/03-upload-video.png)
+- [04-analysis-setup: Analysis setup and restricted zone](/Users/tabbasi/Downloads/IndustrialAI/docs/design/2026-10-21-mvp-mockups/screens-graphite-sage/04-analysis-setup.png)
+- [05-analysis-progress: Analysis progress](/Users/tabbasi/Downloads/IndustrialAI/docs/design/2026-10-21-mvp-mockups/screens-graphite-sage/05-analysis-progress.png)
+- [06-incident-review: Smoke incident review — master reference](/Users/tabbasi/Downloads/IndustrialAI/docs/design/2026-10-21-mvp-mockups/screens-graphite-sage/06-incident-review.png)
+- [07-incident-history: Incident history](/Users/tabbasi/Downloads/IndustrialAI/docs/design/2026-10-21-mvp-mockups/screens-graphite-sage/07-incident-history.png)
+- [08-incident-details-export: Incident details and evidence export](/Users/tabbasi/Downloads/IndustrialAI/docs/design/2026-10-21-mvp-mockups/screens-graphite-sage/08-incident-details-export.png)
+- [09-mobile-review: Narrow-screen frame review](/Users/tabbasi/Downloads/IndustrialAI/docs/design/2026-10-21-mvp-mockups/screens-graphite-sage/09-mobile-review.png)
+- [10-fire-review: Fire flag — uncertain doorway](/Users/tabbasi/Downloads/IndustrialAI/docs/design/2026-10-21-mvp-mockups/screens-graphite-sage/10-fire-review.png)
+- [11-smoking-review: Smoking behavior — insufficient evidence](/Users/tabbasi/Downloads/IndustrialAI/docs/design/2026-10-21-mvp-mockups/screens-graphite-sage/11-smoking-review.png)
+- [12-headwear-review: No helmet — limited head detail](/Users/tabbasi/Downloads/IndustrialAI/docs/design/2026-10-21-mvp-mockups/screens-graphite-sage/12-headwear-review.png)
+- [13-restricted-area-review: Restricted-area presence — entry time unknown](/Users/tabbasi/Downloads/IndustrialAI/docs/design/2026-10-21-mvp-mockups/screens-graphite-sage/13-restricted-area-review.png)
+- [14-add-missed-incident: Add a missed incident](/Users/tabbasi/Downloads/IndustrialAI/docs/design/2026-10-21-mvp-mockups/screens-graphite-sage/14-add-missed-incident.png)
+
+The original blue mockups remain in `screens/` for reference; the active handoff is `screens-graphite-sage/`.
 
 ## How to read this set
 

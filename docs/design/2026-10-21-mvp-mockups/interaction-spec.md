@@ -1,6 +1,6 @@
 # Industrial AI — screen and interaction contracts
 
-This handoff accompanies the refined option-2 mockups. It describes intended behavior; no frontend/backend code was implemented during this mockup pass. Read alongside the existing MVP design and implementation plan.
+This handoff accompanies the Evidence Focus mockups with the user-selected Soft Graphite and Sage colour theme (displayed theme 3). The current screen set is `screens-graphite-sage/`. It describes intended behavior; no frontend/backend code was implemented during this mockup pass. Read alongside the existing MVP design and implementation plan.
 
 ## Screen map
 
@@ -110,6 +110,6 @@ These states share existing views/dialog components and have specified copy/beha
 
 The mockup pass corrected active-nav color, a paused-player glyph, redundant note editing, B01 evidence aspect ratio, saved-zone edit controls leaking into review, and a manual dialog inheriting another source's background decision.
 
-Generated raster details are not authoritative implementation values. During the build, normalize minor leftovers using the shared system: neutral Ready to configure marker, static x-circle for False alarm in every history view, no standalone inaccurate notes counter, and source-clock/slider positions derived from one value rather than independently copied graphics. Do not hard-code sample progress percentages or dates.
+The sage-theme pass also corrected the Ready to configure marker to neutral gray, the history False alarm icon to a static x-circle, and the inaccurate headwear notes counter. Keep those corrections in shared components. Generated raster details are not authoritative implementation values: derive source-clock/slider positions from one value rather than independently copied graphics, enforce the 1,000-character note limit, and do not hard-code sample progress percentages or dates. Seek controls are sage; candidate spans remain amber. The selected master has an amber seek control inherited from the prior reference; normalize it to sage during implementation while preserving its amber candidate interval.
 
 Interactive QA, actual color/zoom checks, media alignment and backend validation remain part of implementation. Passing a static visual review is not a statement that the MVP is built or its five detectors have passed a new accuracy test.

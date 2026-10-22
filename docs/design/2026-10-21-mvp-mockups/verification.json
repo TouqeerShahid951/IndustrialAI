@@ -3,11 +3,22 @@
   "screens": 14,
   "desktop": 13,
   "narrow_screen": 1,
+  "selected_theme": "Soft Graphite and Sage",
+  "selected_display_number": 3,
   "all_pngs_decodable": true,
   "all_hashes_match": true,
   "all_local_index_links_exist": true,
+  "prior_blue_set_preserved": true,
   "application_built": false,
   "interactive_accessibility_verified": false,
   "model_accuracy_retested": false,
-  "review_notes": "Static design review with shared implementation contracts; small raster inconsistencies are listed in interaction-spec.md"
+  "token_contrast_ratios": {
+    "primary_text_canvas": 12.99,
+    "secondary_canvas": 8.12,
+    "secondary_control": 6.71,
+    "button_dark_label_sage": 8.46,
+    "focus_control": 6.52,
+    "attention_canvas": 8.0
+  },
+  "review_notes": "All fourteen theme outputs inspected; static references only. Shared interaction contracts resolve raster seek-position and master seek-colour inconsistencies. Contrast figures are token calculations, not raster/component accessibility certification."
 }

@@ -2,7 +2,7 @@
 
 Status: proposed design for review; no frontend/backend implementation has started.
 
-Visual direction selected by the user: **Evidence Focus, displayed option 2**. The user then requested meticulous Apple-inspired mockups of every screen before the build. The [refined screen set](/Users/tabbasi/Downloads/IndustrialAI/docs/design/2026-10-21-mvp-mockups/index.md), [design system](/Users/tabbasi/Downloads/IndustrialAI/docs/design/2026-10-21-mvp-mockups/design-system.md) and [interaction contracts](/Users/tabbasi/Downloads/IndustrialAI/docs/design/2026-10-21-mvp-mockups/interaction-spec.md) are the current visual handoff; the refined set is a review draft, not an implemented app.
+Visual direction selected by the user: **Evidence Focus, originally displayed concept 2**, with **Soft Graphite and Sage, displayed colour theme 3** selected on 21 October 2026. The user requested meticulous Apple-inspired mockups of every screen before the build. The [refined screen set](/Users/tabbasi/Downloads/IndustrialAI/docs/design/2026-10-21-mvp-mockups/index.md), [design system](/Users/tabbasi/Downloads/IndustrialAI/docs/design/2026-10-21-mvp-mockups/design-system.md) and [interaction contracts](/Users/tabbasi/Downloads/IndustrialAI/docs/design/2026-10-21-mvp-mockups/interaction-spec.md) are the current visual handoff; all fourteen active images are in `screens-graphite-sage/`. The refined set is a review draft, not an implemented app.
 
 ## Agreed intent
 

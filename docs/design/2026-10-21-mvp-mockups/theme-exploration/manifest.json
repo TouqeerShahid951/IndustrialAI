@@ -1,6 +1,6 @@
 {
   "date": "2026-10-21",
-  "status": "Awaiting theme selection",
+  "status": "Selected by user; applied to all 14 mockups",
   "recommended_display_number": 2,
   "display_order": [
     {
@@ -21,5 +21,7 @@
       "image": "03-graphite-sage.png",
       "source": "/Users/tabbasi/.codex/generated_images/01a157cf-ea2f-7603-9e86-168a8825b627/exec-f19e2ed1-61f1-4845-bb67-5dc3080b30cb.png"
     }
-  ]
+  ],
+  "selected_display_number": 3,
+  "selection_date": "2026-10-21"
 }

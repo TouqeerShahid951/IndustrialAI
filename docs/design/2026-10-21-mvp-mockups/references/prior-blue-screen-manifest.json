@@ -1,0 +1,227 @@
+{
+  "status": "mockup_review_draft",
+  "date": "2026-10-21",
+  "selected_direction": "Evidence Focus, originally displayed option 2; Apple-inspired refinement requested by user",
+  "product": "Industrial AI",
+  "built_application": false,
+  "screen_count": 14,
+  "desktop_screens": 13,
+  "narrow_screen_variants": 1,
+  "screens": [
+    {
+      "id": "01-sign-in",
+      "title": "Sign in",
+      "path": "screens/01-sign-in.png",
+      "sha256": "620caece4ca149014a101f1f512182aec3b02187653f8a500b42ed2df6c921b7",
+      "actual_pixels": [
+        1487,
+        1058
+      ],
+      "target_css_viewport": [
+        1440,
+        1024
+      ],
+      "data_status": "illustrative mockup; not inference or application test evidence"
+    },
+    {
+      "id": "02-video-library",
+      "title": "Video library",
+      "path": "screens/02-video-library.png",
+      "sha256": "9bfd21513395c472c0808f254f34cb0d5cb9aa4b8c2a19018709110545a7611f",
+      "actual_pixels": [
+        1487,
+        1058
+      ],
+      "target_css_viewport": [
+        1440,
+        1024
+      ],
+      "data_status": "illustrative mockup; not inference or application test evidence"
+    },
+    {
+      "id": "03-upload-video",
+      "title": "Upload transfer sheet",
+      "path": "screens/03-upload-video.png",
+      "sha256": "b41c8e4bac90ae66bab508c1e679aa434d7c20400d8d3f8aef226f41c22ccc4f",
+      "actual_pixels": [
+        1487,
+        1058
+      ],
+      "target_css_viewport": [
+        1440,
+        1024
+      ],
+      "data_status": "illustrative mockup; not inference or application test evidence"
+    },
+    {
+      "id": "04-analysis-setup",
+      "title": "Analysis setup and restricted zone",
+      "path": "screens/04-analysis-setup.png",
+      "sha256": "705624ee8a2945e71740bb3e18254e9c58beddbf115bba92a6b9a76af248025f",
+      "actual_pixels": [
+        1487,
+        1058
+      ],
+      "target_css_viewport": [
+        1440,
+        1024
+      ],
+      "data_status": "illustrative mockup; not inference or application test evidence"
+    },
+    {
+      "id": "05-analysis-progress",
+      "title": "Analysis progress",
+      "path": "screens/05-analysis-progress.png",
+      "sha256": "c64ee26bbe348dcebe48ca9cf11feaef5fbbb08f38ae2eccd662c4af1e8a2abe",
+      "actual_pixels": [
+        1487,
+        1058
+      ],
+      "target_css_viewport": [
+        1440,
+        1024
+      ],
+      "data_status": "illustrative mockup; not inference or application test evidence"
+    },
+    {
+      "id": "06-incident-review",
+      "title": "Smoke incident review \u2014 master reference",
+      "path": "screens/06-incident-review.png",
+      "sha256": "ff025e960e72635612b9c26adf855258053668e40567c0f7db4a5052825de4a4",
+      "actual_pixels": [
+        1487,
+        1058
+      ],
+      "target_css_viewport": [
+        1440,
+        1024
+      ],
+      "data_status": "illustrative mockup; not inference or application test evidence"
+    },
+    {
+      "id": "07-incident-history",
+      "title": "Incident history",
+      "path": "screens/07-incident-history.png",
+      "sha256": "bd8aefa7d1dab87e0717f7d99dde112ecb23402f201161c49dd8d8d35a1df047",
+      "actual_pixels": [
+        1487,
+        1058
+      ],
+      "target_css_viewport": [
+        1440,
+        1024
+      ],
+      "data_status": "illustrative mockup; not inference or application test evidence"
+    },
+    {
+      "id": "08-incident-details-export",
+      "title": "Incident details and evidence export",
+      "path": "screens/08-incident-details-export.png",
+      "sha256": "c87ff8f733ea1cdde00834a8830c6cd62a844b9eafea0e0be4e45454f292b7db",
+      "actual_pixels": [
+        1487,
+        1058
+      ],
+      "target_css_viewport": [
+        1440,
+        1024
+      ],
+      "data_status": "illustrative mockup; not inference or application test evidence"
+    },
+    {
+      "id": "09-mobile-review",
+      "title": "Narrow-screen frame review",
+      "path": "screens/09-mobile-review.png",
+      "sha256": "11d15f739464df799f6962e20b29dbde6c256c10f1ecd7116a93686f0cdfda4e",
+      "actual_pixels": [
+        853,
+        1844
+      ],
+      "target_css_viewport": [
+        390,
+        844
+      ],
+      "data_status": "illustrative mockup; not inference or application test evidence"
+    },
+    {
+      "id": "10-fire-review",
+      "title": "Fire flag \u2014 uncertain doorway",
+      "path": "screens/10-fire-review.png",
+      "sha256": "11106ea2eb1e2af6d10fb3133aee21e867f608dd2bc4d88da8dfedcaf93d52f5",
+      "actual_pixels": [
+        1487,
+        1058
+      ],
+      "target_css_viewport": [
+        1440,
+        1024
+      ],
+      "data_status": "illustrative mockup; not inference or application test evidence"
+    },
+    {
+      "id": "11-smoking-review",
+      "title": "Smoking behavior \u2014 insufficient evidence",
+      "path": "screens/11-smoking-review.png",
+      "sha256": "c681a3437f271e81392f2d8655aeb8fc281b84f896b257a6eee7d6d5bd641297",
+      "actual_pixels": [
+        1487,
+        1058
+      ],
+      "target_css_viewport": [
+        1440,
+        1024
+      ],
+      "data_status": "illustrative mockup; not inference or application test evidence"
+    },
+    {
+      "id": "12-headwear-review",
+      "title": "No helmet \u2014 limited head detail",
+      "path": "screens/12-headwear-review.png",
+      "sha256": "25a2be9ff6f926b29d64fd312bb8340b3cbba8ae4bf1ac4d83f7e588335364d9",
+      "actual_pixels": [
+        1487,
+        1058
+      ],
+      "target_css_viewport": [
+        1440,
+        1024
+      ],
+      "data_status": "illustrative mockup; not inference or application test evidence"
+    },
+    {
+      "id": "13-restricted-area-review",
+      "title": "Restricted-area presence \u2014 entry time unknown",
+      "path": "screens/13-restricted-area-review.png",
+      "sha256": "779be2ca364ec060edad76148b65811fb2888b02dcac881151f5b98e489f60bc",
+      "actual_pixels": [
+        1487,
+        1058
+      ],
+      "target_css_viewport": [
+        1440,
+        1024
+      ],
+      "data_status": "illustrative mockup; not inference or application test evidence"
+    },
+    {
+      "id": "14-add-missed-incident",
+      "title": "Add a missed incident",
+      "path": "screens/14-add-missed-incident.png",
+      "sha256": "60083846161865daa87bd1de9cac9aa9b415dc91dbf5d3677047532a3dc2b5ae",
+      "actual_pixels": [
+        1487,
+        1058
+      ],
+      "target_css_viewport": [
+        1440,
+        1024
+      ],
+      "data_status": "illustrative mockup; not inference or application test evidence"
+    }
+  ],
+  "limitations": [
+    "Raster references are not exact CSS measurements; design-system and interaction contracts govern implementation",
+    "All overlays, track IDs, progress, dates and review decisions are mock UI fixtures, not new detector results",
+    "No interactive accessibility/media/backend verification has been performed because no app was built in this pass"
+  ]
+}

@@ -1,6 +1,6 @@
 # Industrial AI — refined Evidence Focus design system
 
-Design review draft, 21 October 2026. The user selected the dark Evidence Focus concept and requested meticulous Apple-inspired mockups of the complete MVP before implementation. This is a web product, not an Apple-branded/native application.
+Design review draft, 21 October 2026. The user selected the Evidence Focus layout, requested meticulous Apple-inspired mockups, then chose **Soft Graphite and Sage**, displayed colour theme 3. The theme is applied to all fourteen screens in `screens-graphite-sage/`; the original blue set remains in `screens/` as history. This is a web product, not an Apple-branded/native application.
 
 The reference is Apple's emphasis on clear hierarchy, familiar controls, legibility, adaptable layouts and deliberate grouping. The proposed choices below adapt those principles to an industrial video-review workflow; they are not a claim of Apple certification or tested accessibility conformance.
 
@@ -16,19 +16,21 @@ The reference is Apple's emphasis on clear hierarchy, familiar controls, legibil
 
 | Token | Value | Use |
 |---|---|---|
-| Canvas | `#111318` | Main dark surface |
-| Raised surface | `#1B1E24` | Sheets, dialogs, restrained grouped controls |
-| Control surface | `#252A32` | Secondary controls and fields |
-| Divider | `#343A44` | Quiet structural separation; not a substitute for spacing |
-| Primary text | `#F5F5F7` | Reading and headings |
-| Secondary text | `#A8ADB7` | Supporting information |
-| Muted text | `#858D98` | Nonessential metadata; never essential disabled-only information |
-| Primary action | `#0071E3` with white label | Task actions and selected interactive controls |
-| Focus | `#64B5FF` | Two-pixel keyboard focus ring, two-pixel offset |
+| Canvas | `#252C29` | Main soft graphite surface |
+| Raised surface | `#303A35` | Sheets, dialogs, restrained grouped controls |
+| Control surface | `#303A35` | Secondary controls and fields |
+| Divider | `#4C5B51` | Quiet structural separation; not the only control boundary cue |
+| Primary text | `#F3F5EE` | Reading and headings |
+| Secondary text | `#BCC6BD` | Supporting information |
+| Muted text | `#BCC6BD` | Readable metadata; separate hierarchy through size/weight, not low contrast |
+| Primary action | `#A9C8B5` with `#17291E` label | Sage task actions and selected interactive controls |
+| Focus | `#A9C8B5` | Two-pixel keyboard focus ring, two-pixel offset |
 | Attention | `#FFB340` | Candidate evidence, uncertainty and unsaved state when text also explains it |
 | Error/destructive | `#FF6B6B` | An actual error or explicit destructive confirmation |
 
-Measured token contrast, not a claim about every generated raster pixel: primary text/canvas 17.07:1; secondary/canvas 8.25:1; muted/raised surface 4.98:1; white/primary button 4.70:1; focus/raised surface 7.63:1. Test the implemented components, hover states, zoom and reduced-contrast imagery independently.
+Measured token contrast, not a claim about every generated raster pixel: primary text/canvas 12.99:1; secondary/canvas 8.12:1; secondary/control surface 6.71:1; dark label/sage primary button 8.46:1; focus/control surface 6.52:1; attention/canvas 8.00:1. Never put white text on the pale sage primary button. Test the implemented components, hover states, zoom and reduced-contrast imagery independently.
+
+Sage identifies actions, focus, selected controls and person/zone overlays; it must not imply a scene is safe or a candidate is confirmed. Amber identifies candidate intervals, uncertain assessments and unsaved decisions. Use a sage seek control separately from amber incident spans. Preserve the natural colours of source video; the theme applies only to interface elements and explicit overlays. Use flat CSS surfaces in implementation rather than copying incidental raster texture.
 
 Use `system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif`; do not download or bundle Apple's fonts. Tabular numerals for source clocks and ranges. Page title 28/34 px semibold; section title 18/24 px semibold; body 15/22 px; metadata 14/20 px. A narrow-screen title may be 22/28 px. Avoid light/thin weights, all-caps paragraphs and information that relies on small print.
 
@@ -39,7 +41,7 @@ System values are implementation contracts. The generated images are visual refe
 ## Navigation and hierarchy
 
 - Text-only **Industrial AI** wordmark. No new symbol, Apple logo, decorative crest or fake window chrome.
-- Authenticated destinations: **Video library**, **Review**, **Incident history**. Blue underline and semibold text identify the current destination; color is not the only cue.
+- Authenticated destinations: **Video library**, **Review**, **Incident history**. Sage underline and semibold text identify the current destination; color is not the only cue.
 - **Operator** opens the session menu. Sign-out is a named action, not a mysterious icon.
 - Setup and progress belong to Video library; evidence review belongs to Review; saved incident details belong to Incident history.
 - A detail sheet preserves list/filter context. Escape closes it when no unsaved draft is at risk; focus returns to its invoking control.
