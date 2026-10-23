@@ -77,6 +77,8 @@ Only 230.15 seconds have known-negative interval labels in this comparison. Do n
 
 ## Footage, labels and leakage boundaries
 
+For the complete source-by-source record of downloads, annotation/training/evaluation status, rejected or blocked leads, local storage and remaining work, read the [dataset inventory](DATASET_INVENTORY.md). It also records the incomplete smoking/PPE data work and the exact latest 314-image fitting allocation.
+
 | Collection | Role and caveats |
 |---|---|
 | Seven original user-reviewed clips | `benchmark/chat-review-manifest.jsonl`; preserve reviewed intervals and uncertainty. clip-007 has user-confirmed smoke core 34–40 s. Other times were not automatically labeled clear. |

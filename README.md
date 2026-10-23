@@ -4,6 +4,8 @@ The Mac MVP provides authenticated CCTV upload, full-video analysis, source-time
 
 **Continuing this project? Read the [agent handoff](HANDOFF.md)** for the chat's decisions, current model/data results, local-only dependencies and the public-footage acquisition plan. The upload-and-review demo is implemented; smoke perception remains unresolved, and experimental classifiers have not replaced the application detector.
 
+The [dataset inventory and remaining work](DATASET_INVENTORY.md) distinguishes acquired, annotated, trained, evaluated, excluded and still-needed data across all five capabilities.
+
 ## Run on this Mac
 
 The configured workspace already has dependencies and verified model weights. Start the API and single worker together:
