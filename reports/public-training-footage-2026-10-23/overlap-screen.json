@@ -1,0 +1,6 @@
+{
+  "reference_frames": 629,
+  "matches": [],
+  "blocked_families": [],
+  "limitation": "pHash plus manual source families is conservative screening, not verified independence"
+}

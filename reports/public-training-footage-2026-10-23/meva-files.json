@@ -1,0 +1,50 @@
+[
+  {
+    "camera_id": "G339",
+    "source_group": "meva-kf1-all",
+    "key": "drops-123-r13/2018-03-05/09/2018-03-05.09-49-41.09-50-01.school.G339.r13.avi",
+    "url": "https://mevadata-public-01.s3.amazonaws.com/drops-123-r13/2018-03-05/09/2018-03-05.09-49-41.09-50-01.school.G339.r13.avi",
+    "bytes": 10835272,
+    "etag": "65896f9828a2df52d9ae88c083b4a344-2",
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-49-41.09-50-01.school.G339.r13.avi",
+    "license": "CC BY 4.0",
+    "role": "unreviewed negative candidate",
+    "sha256": "7d51815f61ee9e0dd349171d02d9d08c74d9d166a2be58eab65895b1617ad6eb"
+  },
+  {
+    "camera_id": "G424",
+    "source_group": "meva-kf1-all",
+    "key": "drops-123-r13/2018-03-05/09/2018-03-05.09-49-44.09-50-00.school.G424.r13.avi",
+    "url": "https://mevadata-public-01.s3.amazonaws.com/drops-123-r13/2018-03-05/09/2018-03-05.09-49-44.09-50-00.school.G424.r13.avi",
+    "bytes": 7388792,
+    "etag": "ba3d555b23d7a5a01583acf231e6f89b",
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-49-44.09-50-00.school.G424.r13.avi",
+    "license": "CC BY 4.0",
+    "role": "unreviewed negative candidate",
+    "sha256": "3518214c26ecb94709ea51b1bdc64b94915a86611f13c277b1defbcd22df57d8"
+  },
+  {
+    "camera_id": "G419",
+    "source_group": "meva-kf1-all",
+    "key": "drops-123-r13/2018-03-05/09/2018-03-05.09-49-46.09-50-00.school.G419.r13.avi",
+    "url": "https://mevadata-public-01.s3.amazonaws.com/drops-123-r13/2018-03-05/09/2018-03-05.09-49-46.09-50-00.school.G419.r13.avi",
+    "bytes": 3529350,
+    "etag": "a56d0d8756391ffbaebe62095116d033",
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-49-46.09-50-00.school.G419.r13.avi",
+    "license": "CC BY 4.0",
+    "role": "unreviewed negative candidate",
+    "sha256": "4789cf3ae432fcccaf90e3bb91d859faad74eaab6d6dde75c9d5e083426ee180"
+  },
+  {
+    "camera_id": "G420",
+    "source_group": "meva-kf1-all",
+    "key": "drops-123-r13/2018-03-05/09/2018-03-05.09-49-50.09-50-00.school.G420.r13.avi",
+    "url": "https://mevadata-public-01.s3.amazonaws.com/drops-123-r13/2018-03-05/09/2018-03-05.09-49-50.09-50-00.school.G420.r13.avi",
+    "bytes": 2034356,
+    "etag": "4575d1aa4e6f5052ffe8cdee980ade57",
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-49-50.09-50-00.school.G420.r13.avi",
+    "license": "CC BY 4.0",
+    "role": "unreviewed negative candidate",
+    "sha256": "b721555930ea6c9a67415867ddec64098c6dcca5a823422d79ab181a64ca78de"
+  }
+]

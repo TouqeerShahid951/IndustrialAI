@@ -1,0 +1,56 @@
+{
+  "overall": {
+    "paired_camera": {
+      "frame_counts": {
+        "positive_frames": 281,
+        "positive_hits": 206,
+        "negative_frames": 466,
+        "negative_hits": 0,
+        "excluded_frames": 202
+      },
+      "policies": {
+        "raw": {
+          "TP": 4,
+          "FP": 0,
+          "FN": 0,
+          "positive_alert_seconds": 126.07320008527874,
+          "negative_alert_seconds": 0
+        },
+        "scene_timed_2hz": {
+          "TP": 3,
+          "FP": 7,
+          "FN": 1,
+          "positive_alert_seconds": 99.17752691610703,
+          "negative_alert_seconds": 0
+        }
+      }
+    },
+    "unpaired_control": {
+      "frame_counts": {
+        "positive_frames": 281,
+        "positive_hits": 52,
+        "negative_frames": 466,
+        "negative_hits": 0,
+        "excluded_frames": 202
+      },
+      "policies": {
+        "raw": {
+          "TP": 4,
+          "FP": 5,
+          "FN": 0,
+          "positive_alert_seconds": 35.5824762818463,
+          "negative_alert_seconds": 0
+        },
+        "scene_timed_2hz": {
+          "TP": 3,
+          "FP": 3,
+          "FN": 1,
+          "positive_alert_seconds": 19.073859929645028,
+          "negative_alert_seconds": 0
+        }
+      }
+    }
+  },
+  "result_sha256": "8405d06bd91308f3d8436e9b4e118e7333f0abd24eaae18f88cfd86880ccd450",
+  "spec_sha256": "07331cac890603885e656b22ec1d081faa16040bf325767c0002172438751181"
+}

@@ -1,0 +1,75 @@
+{
+  "commands": [
+    {
+      "command": [
+        "/Users/tabbasi/Downloads/IndustrialAI/.venv/bin/python",
+        "/Users/tabbasi/Downloads/IndustrialAI/reports/public-training-footage-2026-10-23/curate.py",
+        "--self-check"
+      ],
+      "exit_code": 0,
+      "output": "Curation self-check passed: unique review IDs, uncertain devices excluded, per-family cap."
+    },
+    {
+      "command": [
+        "/Users/tabbasi/Downloads/IndustrialAI/.venv/bin/python",
+        "/Users/tabbasi/Downloads/IndustrialAI/reports/public-training-footage-2026-10-23/train_probe.py",
+        "--self-check"
+      ],
+      "exit_code": 0,
+      "output": "Reused scene-head numerical self-check passed."
+    },
+    {
+      "command": [
+        "/Users/tabbasi/Downloads/IndustrialAI/.venv/bin/python",
+        "/Users/tabbasi/Downloads/IndustrialAI/reports/public-training-footage-2026-10-23/paired_camera.py",
+        "--self-check"
+      ],
+      "exit_code": 0,
+      "output": "Paired-camera checks passed: uncertainty boundaries, causal voting, event merging and fit."
+    },
+    {
+      "command": [
+        "/Users/tabbasi/Downloads/IndustrialAI/.venv/bin/python",
+        "-m",
+        "compileall",
+        "-q",
+        "/Users/tabbasi/Downloads/IndustrialAI/reports/public-training-footage-2026-10-23"
+      ],
+      "exit_code": 0,
+      "output": ""
+    },
+    {
+      "command": [
+        "/Users/tabbasi/Downloads/IndustrialAI/.venv/bin/python",
+        "-m",
+        "unittest",
+        "tests.test_benchmark_data",
+        "tests.test_benchmark_events",
+        "tests.test_run_benchmark",
+        "tests.test_evaluate"
+      ],
+      "exit_code": 0,
+      "output": "fire_smoke: sample.avi: 2 frames, 2 detections\nfire_smoke: sample.jpg: 1 frames, 1 detections\n..............\n----------------------------------------------------------------------\nRan 14 tests in 0.891s\n\nOK"
+    }
+  ],
+  "integrity_checks_passed": true,
+  "training_images": 314,
+  "heldout_clips": 20,
+  "decoded_frames": 9401,
+  "sampled_frames": 949,
+  "meva_reviewed_stills": 286,
+  "main_result_reproduced_from_cached_features": true,
+  "original_pair_and_control_results_unchanged": true,
+  "camera_allocation": "All C01-C15 retired to training/exclusion; no MmodalFire clip in held-out 20",
+  "artifacts_sha256": {
+    "paired_camera.py": "1035e3c4d0bc9059ddb5d2e0797ea44588582d70fa2dfb6998f651c72413c858",
+    "train_probe.py": "617d94d09d54184376bbc62e21048fce497aba31e1c5d4a1d6692f0a1a33849e",
+    "curate.py": "364c7d2cd4b2f6ab80d2f123c75ebd0ebcfb127b9d336455154aaaa4271410d1",
+    "verify.py": "5aa21a782d949098fa165253d40e7bb0e61155b3a923e59491292c0063d68eb1",
+    "paired-camera-results.json": "c9715e61d006908d3c5d11e0675c5533ed14481d0a34ffbb8a9bacf9458f6689",
+    "paired-training-manifest.json": "91750c5004d92b34a2fff18ac21a7a0ba8917b56c07ff8889889aa061e1da752",
+    "report.md": "71ccd431bbd7eb7eb7250058770b750bbbecf576d92329db67be289e32041531"
+  },
+  "production_model_changed": false,
+  "candidate_qualified_for_default": false
+}

@@ -1,0 +1,8 @@
+{
+  "question": "Do camera-matched negatives improve transfer beyond merely adding the same number of generic negatives?",
+  "comparison": "Replace the 56 MmodalFire clear/mist frames with 56 existing generic negative frames, preserving 314 fitting rows and class counts",
+  "selection": "Lowest SHA-256 first among the 102 base negatives; fixed before this ablation",
+  "ridge_lambda": 0.1,
+  "threshold": 0,
+  "role": "Post-hoc explanatory ablation, not independent validation or threshold selection"
+}

@@ -1,0 +1,254 @@
+[
+  {
+    "id": 0,
+    "archive_entry": "Indoor Fire Smoke/train/images/a_0029_jpg.rf.1871c6f9c65fa17cf38a4d2670596486.jpg",
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/indoor-screen/000.jpg",
+    "sha256": "2330ca0d4cda078d0a944aacb366fc4c220bad299f6c6634e50a033e46222559",
+    "labels": "1 0.5583333333333333 0.380671875 0.26944444444444443 0.36015625"
+  },
+  {
+    "id": 1,
+    "archive_entry": "Indoor Fire Smoke/train/images/ab169f92-c352-492a-a9da-e3a0e2b6c4e0_jpg.rf.3e0b1478a13ad1709972d04cb4422c7f.jpg",
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/indoor-screen/001.jpg",
+    "sha256": "a77195d9434510c3d51316caf2cc1c8b467d60c4a1c6598ba44e55790b1cffec",
+    "labels": "1 0.6754807692307693 0.5769230769230769 0.21634615384615385 0.27403846153846156"
+  },
+  {
+    "id": 2,
+    "archive_entry": "Indoor Fire Smoke/train/images/8test9397_jpg.rf.725e0e0f994aa86669d36842b828b01a.jpg",
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/indoor-screen/002.jpg",
+    "sha256": "c065f5a8ea6fd61cb30b979b7dd0494c83a0785e677806eb9365862834c44527",
+    "labels": "1 0.5024038461538461 0.26322115384615385 0.2980769230769231 0.5264423076923077"
+  },
+  {
+    "id": 3,
+    "archive_entry": "Indoor Fire Smoke/valid/images/2244_jpg.rf.88e7704f9009cd35f10fbdc3fbbe640a.jpg",
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/indoor-screen/003.jpg",
+    "sha256": "97870a4247e6e9f644de1cb4c598e332202c86cd2a802231ce48313fe86cbe12",
+    "labels": "0 0.5015625 0.484375 0.1609375 0.390625\n1 0.49346875 0.194109375 0.177265625 0.35412499999999997\n1 0.67540625 0.17867187499999998 0.146265625 0.260734375"
+  },
+  {
+    "id": 4,
+    "archive_entry": "Indoor Fire Smoke/train/images/fire_tlm_1vv00092_jpeg.rf.a74d9f34458ab73335c9fee2c5407192.jpg",
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/indoor-screen/004.jpg",
+    "sha256": "9b0a3fb32e0b87d4d94de4ba735146f6890eca3758b5adfa865c7843ab479197",
+    "labels": "0 0.40703125 0.17152777777777778 0.05625 0.27361111111111114"
+  },
+  {
+    "id": 5,
+    "archive_entry": "Indoor Fire Smoke/train/images/Smoke_img16_jpg.rf.f599f9820aee76ff572a21b4f233ed3a.jpg",
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/indoor-screen/005.jpg",
+    "sha256": "3b23ae8870f4b71a18f2dafa6751089b08324ef364ba363d0f707ad5e10d1eba",
+    "labels": "1 0.40321875 0.785359375 0.46425 0.42928125"
+  },
+  {
+    "id": 6,
+    "archive_entry": "Indoor Fire Smoke/valid/images/fire12363_jpg.rf.58812e2c4e033afcde6bc8f647fc2adb.jpg",
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/indoor-screen/006.jpg",
+    "sha256": "836894c81af62f276ab0eaa3824163d01cb9170a9e88a9cfbc9f5d1ab87c5f86",
+    "labels": "0 0.3953125 0.3734375 0.1234375 0.08125"
+  },
+  {
+    "id": 7,
+    "archive_entry": "Indoor Fire Smoke/train/images/firefire319_jpeg.rf.4e9a56e18f5d9bb8c51903e4adc50baf.jpg",
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/indoor-screen/007.jpg",
+    "sha256": "185dda5df382e9527b3cb005a450a468a34695a5a7b77eee3ecf8db1e368fb05",
+    "labels": "0 0.405875 0.23776562499999998 0.0921875 0.1046875\n0 0.8305468749999999 0.378171875 0.1203125 0.084375\n0 0.24375 0.896875 0.18125 0.178125\n0 0.61171875 0.92578125 0.1484375 0.0953125\n0 0.13203125 0.42421875 0.1046875 0.2234375\n0 0.8695625 0.722765625 0.17828125 0.1765625\n0 0.6473125 0.232109375 0.094625 0.15796875"
+  },
+  {
+    "id": 8,
+    "archive_entry": "Indoor Fire Smoke/test/images/8test8939_jpg.rf.da484afba79ccdb14891fef38d629692.jpg",
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/indoor-screen/008.jpg",
+    "sha256": "fb4fbea22f378bf903bb4fa66638e50e27c8f0771c77ab79768e26fb4c2bf1d2",
+    "labels": "1 0.5548798076923077 0.23579326923076924 0.26485576923076926 0.4715625\n0 0.5492788461538461 0.5145913461538462 0.08069711538461538 0.06802884615384616\n0 0.5252403846153846 0.6163701923076924 0.022451923076923078 0.05122596153846153"
+  },
+  {
+    "id": 9,
+    "archive_entry": "Indoor Fire Smoke/train/images/frame_0001607_png.rf.5cf0c75d7a2b74f387f6eaf1f5dd4b47.jpg",
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/indoor-screen/009.jpg",
+    "sha256": "4b440983e9f788f8f44ee87cb4dc8aea9d891735f3b71cfc04cee32c7ed3f7dd",
+    "labels": "1 0.639796875 0.25546875 0.1554375 0.5109375\n1 0.45881249999999996 0.6291875 0.13096875 0.20553125"
+  },
+  {
+    "id": 10,
+    "archive_entry": "Indoor Fire Smoke/test/images/img_972_jpg.rf.56100bf7c82254293b8334ca9fdfe285.jpg",
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/indoor-screen/010.jpg",
+    "sha256": "cf51d107a6c2b3e618c0ab82c3568da13c5b2c25bab82da8d9faa1198e0e6117",
+    "labels": "1 0.5859821428571428 0.6376785714285714 0.8280357142857142 0.7210714285714286\n1 0.5748660714285715 0.23741071428571428 0.8502232142857142 0.47482142857142856"
+  },
+  {
+    "id": 11,
+    "archive_entry": "Indoor Fire Smoke/train/images/frame_0000959_png.rf.4b844b3b7cb7eb6cbc3e62e75d45f9b5.jpg",
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/indoor-screen/011.jpg",
+    "sha256": "429b65e38a6069cefe45f67ea0749a0705b23e344263c3e8f6b5cdf1d286b29b",
+    "labels": "1 0.4625 0.2364375 0.3203125 0.47289062499999995\n1 0.547859375 0.7007656250000001 0.20437500000000003 0.45103125000000005"
+  },
+  {
+    "id": 12,
+    "archive_entry": "Indoor Fire Smoke/train/images/98cb704a-e9cc-40c9-ad8b-eb81c9cc3626_jpg.rf.80c8641dd6605dea67a3032c2fe9af84.jpg",
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/indoor-screen/012.jpg",
+    "sha256": "69f43eec2b8ec6a8543ff69c85e1bddde620a7de59d8a688ab1c35b81952f0fa",
+    "labels": "1 0.6658653846153846 0.36538461538461536 0.0625 0.0985576923076923"
+  },
+  {
+    "id": 13,
+    "archive_entry": "Indoor Fire Smoke/train/images/data_0000223_png.rf.43a634cc28fc5cd893a444c2aca5b71c.jpg",
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/indoor-screen/013.jpg",
+    "sha256": "d17000e1f7cef3267f4688f62073959906803f26ead77e518f16520ac1c552e9",
+    "labels": "1 0.58671875 0.28300000000000003 0.16829687499999998 0.5535"
+  },
+  {
+    "id": 14,
+    "archive_entry": "Indoor Fire Smoke/train/images/fire_tlm_1vv00011_jpeg.rf.3d0481b27785e66373758829e18ffad2.jpg",
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/indoor-screen/014.jpg",
+    "sha256": "2a42c9b93e8b25a611f782526f0b3d22c2f6a25a3dfc74b3e886fba5800b4a7b",
+    "labels": "0 0.601953125 0.23680555555555555 0.08515625 0.25416666666666665"
+  },
+  {
+    "id": 15,
+    "archive_entry": "Indoor Fire Smoke/train/images/bc9ebb25ee5f24017d4e_jpg.rf.27a88cdd2770e235a5f7c7b25f487461.jpg",
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/indoor-screen/015.jpg",
+    "sha256": "997866b7522931f159f23e195fbcb0c88242b1eda911ff7ab23c01064117b680",
+    "labels": "0 0.6125 0.525 0.0890625 0.103125"
+  },
+  {
+    "id": 16,
+    "archive_entry": "Indoor Fire Smoke/valid/images/frame_04_jpg.rf.f97278ff98b0c972ed4cd87e615e936c.jpg",
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/indoor-screen/016.jpg",
+    "sha256": "812f15197f6d677046b6fecd0e8d8473cb549e7dda39431ae4beec015d09412c",
+    "labels": "0 0.31875 0.6359375 0.115625 0.18125"
+  },
+  {
+    "id": 17,
+    "archive_entry": "Indoor Fire Smoke/train/images/a_0166_jpg.rf.d516839d6ca4c3a8fcd0fa9c3099d43d.jpg",
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/indoor-screen/017.jpg",
+    "sha256": "c3d645ed913fcb21d9c88f6f2e94e6a590ad73cfb959eb3fc943eae74e8d0638",
+    "labels": "1 0.5055555555555555 0.369140625 0.23194444444444445 0.42421875"
+  },
+  {
+    "id": 18,
+    "archive_entry": "Indoor Fire Smoke/valid/images/fire_tlm_1vv00067_jpeg.rf.4a154d1fdf8cd5cb61968e3dc89bd650.jpg",
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/indoor-screen/018.jpg",
+    "sha256": "cca5d136db32a42cea552bb2a028ed445f0cd1769da6f17eed7f02a19c7dc96f",
+    "labels": "0 0.360546875 0.22013888888888888 0.0671875 0.10972222222222222"
+  },
+  {
+    "id": 19,
+    "archive_entry": "Indoor Fire Smoke/train/images/fire_tlm_1vv00119_jpeg.rf.2096bc944014535a4aeb376edca2f61a.jpg",
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/indoor-screen/019.jpg",
+    "sha256": "fe71510e950e31f8a4e9694216d314b09858f91c80d7938e1e5fce21bb2004d7",
+    "labels": "0 0.17578125 0.6006944444444444 0.07578125 0.25"
+  },
+  {
+    "id": 20,
+    "archive_entry": "Indoor Fire Smoke/test/images/b_0212_jpg.rf.99c561ec99a6b1d831e1afe444ccaa74.jpg",
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/indoor-screen/020.jpg",
+    "sha256": "7c3e16c2d9e7976050d74e57faadff80d95a8a648b57ac50cfdcf541a8d28af3",
+    "labels": "1 0.4173611111111111 0.601359375 0.0763888888888889 0.0765625"
+  },
+  {
+    "id": 21,
+    "archive_entry": "Indoor Fire Smoke/valid/images/classk11_mp4-41_jpg.rf.88a2d3bec68cb02721ebabcd951e657c.jpg",
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/indoor-screen/021.jpg",
+    "sha256": "8bbbfe3eeaedc5e6dfe099f0e3944bf438bbe9bf5aaa233a30f9e34671f0d1b1",
+    "labels": "0 0.5251046025104602 0.36033519553072624 0.2698744769874477 0.5614525139664804\n1 0.26292887029288703 0.1043296089385475 0.49594142259414226 0.199804469273743\n1 0.6443305439330544 0.10187150837988826 0.14131799163179914 0.18907821229050278"
+  },
+  {
+    "id": 22,
+    "archive_entry": "Indoor Fire Smoke/train/images/frame_0001131_png.rf.626f0e8a87ee5c6addd8e4c3c253cbd7.jpg",
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/indoor-screen/022.jpg",
+    "sha256": "7ad169b9556b4afde5f1e43d2ef3f703819845f3fa57964d4d73338005f9b8e5",
+    "labels": "1 0.5877656250000001 0.590296875 0.273046875 0.40031249999999996\n1 0.55128125 0.193 0.256203125 0.38601562500000003"
+  },
+  {
+    "id": 23,
+    "archive_entry": "Indoor Fire Smoke/test/images/6_mp4-35_jpg.rf.298003c2a7ccb111ae6b89042153572e.jpg",
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/indoor-screen/023.jpg",
+    "sha256": "65a1359013200b823f383c238d4b7690b00e4b747618e44bbf522f223aec6418",
+    "labels": "0 0.5375 0.2759259259259259 0.09479166666666666 0.3333333333333333"
+  },
+  {
+    "id": 24,
+    "archive_entry": "Indoor Fire Smoke/train/images/20test455_jpg.rf.d6376151600ae388be7cd2b6e7b22560.jpg",
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/indoor-screen/024.jpg",
+    "sha256": "fa79e04b3492458c24d1ca09678fea77a972361e868eaff3840af0dd21f13467",
+    "labels": "1 0.38341346153846156 0.8125 0.18028846153846154 0.11057692307692307"
+  },
+  {
+    "id": 25,
+    "archive_entry": "Indoor Fire Smoke/train/images/part1_mp4-129_jpg.rf.88be9d45f83d8c01f260b646addc262d.jpg",
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/indoor-screen/025.jpg",
+    "sha256": "771471c9f12fa5b49490575a836dc1c37213b84509f5107a37aaafa9334e7447",
+    "labels": "0 0.043911007025761124 0.22083333333333333 0.08548009367681499 0.42083333333333334\n0 0.08466042154566744 0.0834375 0.16510538641686182 0.13958333333333334"
+  },
+  {
+    "id": 26,
+    "archive_entry": "Indoor Fire Smoke/valid/images/mergedfire2490_jpg.rf.9c30cf42cfd2cc26f18e334b6351fe1b.jpg",
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/indoor-screen/026.jpg",
+    "sha256": "2327562ae5405af00e976ff390e807481f10beb09616653a35a53faebb275441",
+    "labels": "0 0.620234375 0.20128125 0.43115625 0.40254687499999997"
+  },
+  {
+    "id": 27,
+    "archive_entry": "Indoor Fire Smoke/train/images/foto_0000136_png.rf.cb6eb17bf8b4a023c3d2bb2cd7b673fc.jpg",
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/indoor-screen/027.jpg",
+    "sha256": "66d53bf1ea4aed65d2894e5e9fe14ed12da9040620748079492f3d7aab3f6a63",
+    "labels": "1 0.46875 0.2421875 0.6171875 0.484375"
+  },
+  {
+    "id": 28,
+    "archive_entry": "Indoor Fire Smoke/train/images/20test662_jpg.rf.942343dfe6110d14895edf7a61185f0f.jpg",
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/indoor-screen/028.jpg",
+    "sha256": "d0181d4f07fedbba163c9e16d0c661528ce55ed397105c75fc3c0ec8139ecd1e",
+    "labels": "1 0.4400480769230769 0.8118028846153845 0.2692307692307692 0.17548076923076922"
+  },
+  {
+    "id": 29,
+    "archive_entry": "Indoor Fire Smoke/train/images/b_0246_jpg.rf.7a12c0f4da191b4970d235d80dc5aff7.jpg",
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/indoor-screen/029.jpg",
+    "sha256": "d0537e0d2f1ec6b3d2243929b140ab441c481f80084277ce86fbaa82b11f1b03",
+    "labels": "1 0.44513888888888886 0.517578125 0.09027777777777778 0.06953125"
+  },
+  {
+    "id": 30,
+    "archive_entry": "Indoor Fire Smoke/test/images/fire13418_jpg.rf.51c0f96d8e967426082036494d636ef1.jpg",
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/indoor-screen/030.jpg",
+    "sha256": "f45bef57fb5bfe09c9e31b894d476e41459174231b217cd87eb4023d915fed95",
+    "labels": "0 0.3984375 0.4515625 0.0484375 0.078125\n0 0.5234375 0.4484375 0.0484375 0.0640625"
+  },
+  {
+    "id": 31,
+    "archive_entry": "Indoor Fire Smoke/train/images/b_0166_jpg.rf.8ec56ca2dc4664875018d33410836997.jpg",
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/indoor-screen/031.jpg",
+    "sha256": "501e7bc12fdf2a8b5472ddcb1b4b5ccfb94f2e2e8f76548b342a70f1f2706bbe",
+    "labels": "1 0.47152777777777777 0.539453125 0.08888888888888889 0.0921875"
+  },
+  {
+    "id": 32,
+    "archive_entry": "Indoor Fire Smoke/train/images/FrontRoomFire11257_jpg.rf.ac4dc91d6bae913748bd82da242ae5a9.jpg",
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/indoor-screen/032.jpg",
+    "sha256": "f737c1c905a374653af2511d3921e9a6d9b605cd254a8881afd1ad6d613d76dd",
+    "labels": "0 0.440015625 0.666953125 0.22071875 0.381703125"
+  },
+  {
+    "id": 33,
+    "archive_entry": "Indoor Fire Smoke/valid/images/fire13326_jpg.rf.fd8dab88bb95bac1b43a9fe338cb45f4.jpg",
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/indoor-screen/033.jpg",
+    "sha256": "535fc038f9911afb24734f56a3d09ea60ce7834fcf15dd44db11c9c38f6ddc44",
+    "labels": "0 0.3953125 0.440625 0.0671875 0.0984375\n0 0.5125 0.41875 0.078125 0.11875"
+  },
+  {
+    "id": 34,
+    "archive_entry": "Indoor Fire Smoke/train/images/frame_0001813_png.rf.5127182b2982b1edca148cefbb2c6208.jpg",
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/indoor-screen/034.jpg",
+    "sha256": "22d165a612368d9ce70b6fd0f082b0f3e8b811e36dbca7395987853b106c17ee",
+    "labels": "1 0.228125 0.68984375 0.090625 0.196875\n1 0.40639062499999995 0.44768749999999996 0.250296875 0.50734375"
+  },
+  {
+    "id": 35,
+    "archive_entry": "Indoor Fire Smoke/train/images/a_0176_jpg.rf.daf76da82654b122a32eceff3434cd6c.jpg",
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/indoor-screen/035.jpg",
+    "sha256": "2c56677bbc8534413c4fe4be78f8fa54d817ebfdc34e339ae52f640e4f89349a",
+    "labels": "1 0.54375 0.363671875 0.3611111111111111 0.425"
+  }
+]

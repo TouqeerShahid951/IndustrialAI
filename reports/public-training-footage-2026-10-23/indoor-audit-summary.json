@@ -1,0 +1,15 @@
+{
+  "total_images": 5000,
+  "unique_exact_hashes": 5000,
+  "images_with_explicit_ai_filename": 89,
+  "cross_split_exact_duplicate_groups": 0,
+  "all_images_publisher_positive": true,
+  "ai_filename_examples": [
+    "Indoor Fire Smoke/valid/images/fireai55420_jpeg.rf.0cbf6b1a38e4e91a9af4c5a5a0f6a936.jpg",
+    "Indoor Fire Smoke/valid/images/fireai881_jpeg.rf.8de2fc7f18b12b82f6957278cff3e4b2.jpg",
+    "Indoor Fire Smoke/valid/images/fireai8814_jpeg.rf.80d2a0377d5764deb7be7d88f00d3d6c.jpg",
+    "Indoor Fire Smoke/valid/images/fireai771_jpeg.rf.19a70980d163482e779b6707ee72bd73.jpg",
+    "Indoor Fire Smoke/valid/images/fireai993_jpg.rf.1a43788b077d6468545ba1daf384c7b5.jpg"
+  ],
+  "role": "Mixed-source positive image supplement; not accepted wholesale as real CCTV"
+}

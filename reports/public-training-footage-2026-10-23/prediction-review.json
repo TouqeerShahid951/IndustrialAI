@@ -1,0 +1,137 @@
+[
+  {
+    "clip_id": "clip-007",
+    "frame_index": 90,
+    "seconds": 3.0,
+    "candidate_score": 0.002287561586096885,
+    "control_score": -0.5306288603917328,
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/prediction-review/clip-007-000090.png",
+    "sha256": "a6aa24da7695ec57dfbbb2100f7cb6c08afc7d282e46a53165ab7f0e2777d4a8"
+  },
+  {
+    "clip_id": "clip-007",
+    "frame_index": 270,
+    "seconds": 9.0,
+    "candidate_score": 0.010684981893695785,
+    "control_score": 0.1999066807775865,
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/prediction-review/clip-007-000270.png",
+    "sha256": "b0534e0652532540199f555d6cf7a5509bbaf64bd7aa60cc11373626e82d9dcb"
+  },
+  {
+    "clip_id": "clip-007",
+    "frame_index": 825,
+    "seconds": 27.5,
+    "candidate_score": 0.048383532065230966,
+    "control_score": 0.15960804538485968,
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/prediction-review/clip-007-000825.png",
+    "sha256": "b70a16beab5dee2a43c690b725a2e45ed9677cd7007215af6758c7ace3367744"
+  },
+  {
+    "clip_id": "clip-007",
+    "frame_index": 960,
+    "seconds": 32.0,
+    "candidate_score": 0.022846073056628086,
+    "control_score": 0.03364905424793742,
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/prediction-review/clip-007-000960.png",
+    "sha256": "fa54f3777cd8bff99080873097ed599d8d797fb425659c7c92f6ed5bd8eb44f3"
+  },
+  {
+    "clip_id": "clip-007",
+    "frame_index": 1020,
+    "seconds": 34.0,
+    "candidate_score": 0.3676118980634971,
+    "control_score": 0.38218544354707656,
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/prediction-review/clip-007-001020.png",
+    "sha256": "43fbd34590e0068aaf67d4acbbcc43c0f90342eb4a149a24c4f3c74c3d6ae36d"
+  },
+  {
+    "clip_id": "clip-007",
+    "frame_index": 1155,
+    "seconds": 38.5,
+    "candidate_score": -0.028484430724684665,
+    "control_score": -0.01928104988068359,
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/prediction-review/clip-007-001155.png",
+    "sha256": "a25c379d28d93457c42b1d148ed06633ce8d40a70f1fa0066f3d985154d7b618"
+  },
+  {
+    "clip_id": "B01",
+    "frame_index": 17,
+    "seconds": 1.02,
+    "candidate_score": -0.8341304837965743,
+    "control_score": -0.8097897256965159,
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/prediction-review/B01-000017.png",
+    "sha256": "bbc19902b9b3630f00331192aca5510aeca816dcda2d6072c8a1fa62fd904fd6"
+  },
+  {
+    "clip_id": "B01",
+    "frame_index": 84,
+    "seconds": 5.04,
+    "candidate_score": 0.2842124979865537,
+    "control_score": 0.33692260399019786,
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/prediction-review/B01-000084.png",
+    "sha256": "c049500790eb6453edc9aadc98628a62c33f1047730726aa3f9ee0426cbf45ca"
+  },
+  {
+    "clip_id": "B01",
+    "frame_index": 200,
+    "seconds": 12.0,
+    "candidate_score": 0.38748606305999345,
+    "control_score": 0.127033329312358,
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/prediction-review/B01-000200.png",
+    "sha256": "1a93b235e7473b4ed67fbde15f4fa1973a13383fc0cb66e81ad521a094a82ec3"
+  },
+  {
+    "clip_id": "B02",
+    "frame_index": 72,
+    "seconds": 5.040000000000001,
+    "candidate_score": -0.737879439879815,
+    "control_score": -0.6103545884543065,
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/prediction-review/B02-000072.png",
+    "sha256": "2e07724391dcf1382af9f324c57107fc857200a9dde77f98f2cd982cd13f44f9"
+  },
+  {
+    "clip_id": "B02",
+    "frame_index": 100,
+    "seconds": 7.000000000000001,
+    "candidate_score": -0.40148836666995824,
+    "control_score": -0.411094705876222,
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/prediction-review/B02-000100.png",
+    "sha256": "d392cc923b02ec70e83cfad7af471b78f1a0c49c0c41499260a864e6415d70e8"
+  },
+  {
+    "clip_id": "B02",
+    "frame_index": 129,
+    "seconds": 9.030000000000001,
+    "candidate_score": 0.07084117683142152,
+    "control_score": 0.002002608136710474,
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/prediction-review/B02-000129.png",
+    "sha256": "45d11d49055f00cca5d7475393606e5b34e1433319aa7f4f287388930abb724f"
+  },
+  {
+    "clip_id": "B02",
+    "frame_index": 158,
+    "seconds": 11.06,
+    "candidate_score": -0.16051621052243226,
+    "control_score": -0.14459145964380152,
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/prediction-review/B02-000158.png",
+    "sha256": "589ba7400c51ae0614360439d33844fdea0a7ea2bf44d9cf36b67294657d16ae"
+  },
+  {
+    "clip_id": "B02",
+    "frame_index": 186,
+    "seconds": 13.020000000000001,
+    "candidate_score": -0.38186012823685517,
+    "control_score": -0.4424300950150698,
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/prediction-review/B02-000186.png",
+    "sha256": "a0070c66498b63732282406ddfa8a82678a93e516e682363f095e144708e5bcb"
+  },
+  {
+    "clip_id": "B02",
+    "frame_index": 215,
+    "seconds": 15.05,
+    "candidate_score": -0.4460527835501541,
+    "control_score": -0.5697389174349923,
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/prediction-review/B02-000215.png",
+    "sha256": "640a8652c17227788724bf4c7861da4e23493068c8723744ad10162602357655"
+  }
+]

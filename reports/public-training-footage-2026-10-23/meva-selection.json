@@ -1,0 +1,46 @@
+[
+  {
+    "camera_id": "G339",
+    "source_group": "meva-kf1-all",
+    "key": "drops-123-r13/2018-03-05/09/2018-03-05.09-49-41.09-50-01.school.G339.r13.avi",
+    "url": "https://mevadata-public-01.s3.amazonaws.com/drops-123-r13/2018-03-05/09/2018-03-05.09-49-41.09-50-01.school.G339.r13.avi",
+    "bytes": 10835272,
+    "etag": "65896f9828a2df52d9ae88c083b4a344-2",
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-49-41.09-50-01.school.G339.r13.avi",
+    "license": "CC BY 4.0",
+    "role": "unreviewed negative candidate"
+  },
+  {
+    "camera_id": "G424",
+    "source_group": "meva-kf1-all",
+    "key": "drops-123-r13/2018-03-05/09/2018-03-05.09-49-44.09-50-00.school.G424.r13.avi",
+    "url": "https://mevadata-public-01.s3.amazonaws.com/drops-123-r13/2018-03-05/09/2018-03-05.09-49-44.09-50-00.school.G424.r13.avi",
+    "bytes": 7388792,
+    "etag": "ba3d555b23d7a5a01583acf231e6f89b",
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-49-44.09-50-00.school.G424.r13.avi",
+    "license": "CC BY 4.0",
+    "role": "unreviewed negative candidate"
+  },
+  {
+    "camera_id": "G419",
+    "source_group": "meva-kf1-all",
+    "key": "drops-123-r13/2018-03-05/09/2018-03-05.09-49-46.09-50-00.school.G419.r13.avi",
+    "url": "https://mevadata-public-01.s3.amazonaws.com/drops-123-r13/2018-03-05/09/2018-03-05.09-49-46.09-50-00.school.G419.r13.avi",
+    "bytes": 3529350,
+    "etag": "a56d0d8756391ffbaebe62095116d033",
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-49-46.09-50-00.school.G419.r13.avi",
+    "license": "CC BY 4.0",
+    "role": "unreviewed negative candidate"
+  },
+  {
+    "camera_id": "G420",
+    "source_group": "meva-kf1-all",
+    "key": "drops-123-r13/2018-03-05/09/2018-03-05.09-49-50.09-50-00.school.G420.r13.avi",
+    "url": "https://mevadata-public-01.s3.amazonaws.com/drops-123-r13/2018-03-05/09/2018-03-05.09-49-50.09-50-00.school.G420.r13.avi",
+    "bytes": 2034356,
+    "etag": "4575d1aa4e6f5052ffe8cdee980ade57",
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-49-50.09-50-00.school.G420.r13.avi",
+    "license": "CC BY 4.0",
+    "role": "unreviewed negative candidate"
+  }
+]

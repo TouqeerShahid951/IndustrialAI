@@ -1,0 +1,1652 @@
+{
+  "base_training": [
+    {
+      "id": "fasdd-2",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0002.jpg",
+      "sha256": "699e78adb54d8759276c0b23ca704381b0c38f36134752a5c13e61ef02a43920",
+      "group": "bothFireAndSmoke:block:26",
+      "target": 1
+    },
+    {
+      "id": "fasdd-6",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0006.jpg",
+      "sha256": "8ab6065c64b8edfec48bde63f6631b823d2c58e197774798d120001d072ff5ae",
+      "group": "bothFireAndSmoke:block:8",
+      "target": 1
+    },
+    {
+      "id": "fasdd-11",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0011.jpg",
+      "sha256": "7774553699ebf5affcaaa7a0cf86f887e7661e4d554032662b878215ed086754",
+      "group": "bothFireAndSmoke:block:8",
+      "target": 1
+    },
+    {
+      "id": "fasdd-12",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0012.jpg",
+      "sha256": "4be1e9f5e8394e30b51a93bb35708b5f251be550d7aa727c60f365bc1ad95c24",
+      "group": "fire:block:24",
+      "target": 1
+    },
+    {
+      "id": "fasdd-13",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0013.jpg",
+      "sha256": "9bf3a60f8c1736419f88e84dee0d318cf766cffd60f8b1481dd69a4375b498f3",
+      "group": "bothFireAndSmoke:block:37",
+      "target": 1
+    },
+    {
+      "id": "fasdd-14",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0014.jpg",
+      "sha256": "3513ffb6548f525f55c84ebf30ad5fd512b1b93f1d57d0a1312e7244caef9868",
+      "group": "bothFireAndSmoke:block:29",
+      "target": 1
+    },
+    {
+      "id": "fasdd-15",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0015.jpg",
+      "sha256": "c495512611d55b8feffc84d3396669e8f209d8ef56b7f8c2d69e6da0d2cd310b",
+      "group": "bothFireAndSmoke:block:23",
+      "target": 1
+    },
+    {
+      "id": "fasdd-16",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0016.jpg",
+      "sha256": "96036c85f57ace0a2c559d258b31d0271020207e90c1b73297c35b24c8a64d3e",
+      "group": "bothFireAndSmoke:block:2",
+      "target": 1
+    },
+    {
+      "id": "fasdd-17",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0017.jpg",
+      "sha256": "bfde1f9aa041907667a2be6db8b90e2c41021c5ed9b703c470050093fd5707d4",
+      "group": "bothFireAndSmoke:block:26",
+      "target": 1
+    },
+    {
+      "id": "fasdd-20",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0020.jpg",
+      "sha256": "49096d5b93f13cf780b5558461f54e27f9519ccf3857fb96108c1268e9f48d75",
+      "group": "bothFireAndSmoke:block:16",
+      "target": 1
+    },
+    {
+      "id": "fasdd-22",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0022.jpg",
+      "sha256": "aa1bf036efae794377bf6c9f766fd7b531137ffd7d557060515c37820fd06536",
+      "group": "bothFireAndSmoke:block:26",
+      "target": 1
+    },
+    {
+      "id": "fasdd-28",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0028.jpg",
+      "sha256": "9be76ee41a925640ff78beec5bb5e577002a9e987da371a47a99685dff0c8ba5",
+      "group": "bothFireAndSmoke:block:35",
+      "target": 1
+    },
+    {
+      "id": "fasdd-31",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0031.jpg",
+      "sha256": "dfdbef2722920636b5709da9d04b8094c9af93bab0d1f66740aef64c140e971c",
+      "group": "bothFireAndSmoke:block:11",
+      "target": 1
+    },
+    {
+      "id": "fasdd-33",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0033.jpg",
+      "sha256": "9e1c6e320911ca6479f6580d21043df1c4ac89a7bf6cc7351c7ba01b79046051",
+      "group": "bothFireAndSmoke:block:26",
+      "target": 1
+    },
+    {
+      "id": "fasdd-35",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0035.jpg",
+      "sha256": "81648db7f847bb656610bd7ca75cfa2a8b494390e34b1cd7019673df1ac37af9",
+      "group": "bothFireAndSmoke:block:16",
+      "target": 1
+    },
+    {
+      "id": "fasdd-39",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0039.jpg",
+      "sha256": "577d42e4154a252454da23eea37362e40d0ad1813082d0844ceff43a137aab8d",
+      "group": "bothFireAndSmoke:block:22",
+      "target": 1
+    },
+    {
+      "id": "fasdd-41",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0041.jpg",
+      "sha256": "17e81e4baa981e40aaad4544ff724c76932148ba38a40c23c0b21c14e2f39dbf",
+      "group": "bothFireAndSmoke:block:26",
+      "target": 1
+    },
+    {
+      "id": "fasdd-45",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0045.jpg",
+      "sha256": "d590f2df5f0091d8eab7ed63149fce80d6d6004e88b0bf44aff0814afd57b5c8",
+      "group": "bothFireAndSmoke:block:14",
+      "target": 1
+    },
+    {
+      "id": "fasdd-47",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0047.jpg",
+      "sha256": "e1931d9a4fb127b3fe4ff35a68e8b1db700f91b3b370b81632a9a3a323ac4ae0",
+      "group": "bothFireAndSmoke:block:2",
+      "target": 1
+    },
+    {
+      "id": "fasdd-48",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0048.jpg",
+      "sha256": "475bdcfce87d36cd672ffe8a3fa1a1149e8982170b31c2e6266de32c61607488",
+      "group": "bothFireAndSmoke:block:10",
+      "target": 1
+    },
+    {
+      "id": "fasdd-50",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0050.jpg",
+      "sha256": "75d28a6bb72ce314018ab16810b066bc0f8ecba96ce7e3e7dd24ee3c4cc180df",
+      "group": "bothFireAndSmoke:block:9",
+      "target": 1
+    },
+    {
+      "id": "fasdd-51",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0051.jpg",
+      "sha256": "c9c7045c419050f6391bea033b431938da627e392ac9f3fb286f11f2bf9a6479",
+      "group": "bothFireAndSmoke:block:26",
+      "target": 1
+    },
+    {
+      "id": "fasdd-52",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0052.jpg",
+      "sha256": "54d325a4e42d864195b20259b5028e352a9570f009d3df1536ee96229ffa6865",
+      "group": "bothFireAndSmoke:block:16",
+      "target": 1
+    },
+    {
+      "id": "fasdd-53",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0053.jpg",
+      "sha256": "34b1cd5ccc8bbfb28a37402a29ad342fd61f34ec986d96b6f8d261d658dfa6c2",
+      "group": "bothFireAndSmoke:block:31",
+      "target": 1
+    },
+    {
+      "id": "fasdd-57",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0057.jpg",
+      "sha256": "ded7515a70644cb59c04ba646a5e2fa1a034082e1d73518fc2bbd5b4778dd779",
+      "group": "bothFireAndSmoke:block:32",
+      "target": 1
+    },
+    {
+      "id": "fasdd-58",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0058.jpg",
+      "sha256": "7ec610b91b9ba905e831addd7dda83a83ece992714abe67274f4fab04efd3611",
+      "group": "bothFireAndSmoke:block:39",
+      "target": 1
+    },
+    {
+      "id": "fasdd-60",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0060.jpg",
+      "sha256": "b040438a2f41f63c932c57027addc1b483a66d9eba11e1b0298c61cfcda74f17",
+      "group": "bothFireAndSmoke:block:10",
+      "target": 1
+    },
+    {
+      "id": "fasdd-68",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0068.jpg",
+      "sha256": "27700adcc7a7af4a734a789099b03a244c634752ba10b44bf8b3e2bfc1708e66",
+      "group": "bothFireAndSmoke:block:26",
+      "target": 1
+    },
+    {
+      "id": "fasdd-69",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0069.jpg",
+      "sha256": "211a99b18aaec62c307cd5af19ff586289d20738ed18d46f46024914ce24268d",
+      "group": "bothFireAndSmoke:block:14",
+      "target": 1
+    },
+    {
+      "id": "fasdd-70",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0070.jpg",
+      "sha256": "c51d1132d6e6d6f7cd29549f7f25f0334bfa1caee58b2c9480251f399fd58909",
+      "group": "bothFireAndSmoke:block:2",
+      "target": 1
+    },
+    {
+      "id": "fasdd-77",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0077.jpg",
+      "sha256": "afcd390eef99057abd111928af21017dc6e1015375d2b1a7e61a3372af0783b5",
+      "group": "bothFireAndSmoke:block:26",
+      "target": 1
+    },
+    {
+      "id": "fasdd-80",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0080.jpg",
+      "sha256": "cde2b9446e788156558f66fc149caeb94e88943a59905c7314c3d9a1eb97267d",
+      "group": "bothFireAndSmoke:block:8",
+      "target": 1
+    },
+    {
+      "id": "fasdd-84",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0084.jpg",
+      "sha256": "9e538e5d14a2cf65a670fad162a5b32cf3ebe973752e700d9b09828f5f22eb88",
+      "group": "bothFireAndSmoke:block:32",
+      "target": 1
+    },
+    {
+      "id": "fasdd-85",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0085.jpg",
+      "sha256": "201c72c2c2a3aaf67532310ffeb808ff5879e1b4d9cf8852b717c5351b98554c",
+      "group": "bothFireAndSmoke:block:23",
+      "target": 1
+    },
+    {
+      "id": "fasdd-86",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0086.jpg",
+      "sha256": "abba6f805bfdc4af45dde65922266519e73a8f9d7cacc84607cc38d84a356b52",
+      "group": "bothFireAndSmoke:block:2",
+      "target": 1
+    },
+    {
+      "id": "fasdd-87",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0087.jpg",
+      "sha256": "740fc5e07d2793dc951184d11d9858c3c2e781d6acbea223425fc09717fd6118",
+      "group": "fire:block:24",
+      "target": 1
+    },
+    {
+      "id": "fasdd-89",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0089.jpg",
+      "sha256": "feb7a0307baaafec4b112036374aae3a4a809ff299afa102de432587120eab64",
+      "group": "bothFireAndSmoke:block:13",
+      "target": 1
+    },
+    {
+      "id": "fasdd-95",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0095.jpg",
+      "sha256": "531cd7fe0360cf383f1b2652bfd24c320b65010a17b3ac99ce3130e0288f6371",
+      "group": "bothFireAndSmoke:block:15",
+      "target": 1
+    },
+    {
+      "id": "fasdd-96",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0096.jpg",
+      "sha256": "12b32f8bd7c6af7abbb4e51a6a8848c35dc3028b6f463303fc67029a29211f0f",
+      "group": "bothFireAndSmoke:block:23",
+      "target": 1
+    },
+    {
+      "id": "fasdd-97",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0097.jpg",
+      "sha256": "f67c051edf364442e47e4c6f9901703d54210a71982a67f912fab6513a308a68",
+      "group": "bothFireAndSmoke:block:9",
+      "target": 1
+    },
+    {
+      "id": "fasdd-100",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0100.jpg",
+      "sha256": "97184a11a98d660ffe389f7a7b5de8549bf29b31271ed03117f8bc8eff2662ea",
+      "group": "fire:block:24",
+      "target": -1
+    },
+    {
+      "id": "fasdd-103",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0103.jpg",
+      "sha256": "4f7493935f8923cdad0055ae3aff1094014cb85ff01b9f0b96a3f0bec06924b7",
+      "group": "fire:block:24",
+      "target": -1
+    },
+    {
+      "id": "fasdd-104",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0104.jpg",
+      "sha256": "7f17106c3df525d73320d023bb508d233ce21cc6172ac1739293068dfc793fe8",
+      "group": "bothFireAndSmoke:block:26",
+      "target": -1
+    },
+    {
+      "id": "fasdd-106",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0106.jpg",
+      "sha256": "47be5b37e31a0988ff0a0335a27a27922520f146297236b24dcb3dece1ec0517",
+      "group": "fire:block:7",
+      "target": -1
+    },
+    {
+      "id": "fasdd-109",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0109.jpg",
+      "sha256": "8f22b0f3ef7c93e96e3b0ff92c3d628de3bc054bb008ae45b6c332754906d6e6",
+      "group": "fire:block:22",
+      "target": -1
+    },
+    {
+      "id": "fasdd-111",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0111.jpg",
+      "sha256": "ed0ae6562828d6705ee45c2696c24a5731e587739fc4656d911301b602f4e7ce",
+      "group": "fire:block:1",
+      "target": -1
+    },
+    {
+      "id": "fasdd-112",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0112.jpg",
+      "sha256": "126959eff4ff95066d7c1abd784bf1e8356c3a7cbfdf626435a111b11b214dae",
+      "group": "fire:block:24",
+      "target": -1
+    },
+    {
+      "id": "fasdd-114",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0114.jpg",
+      "sha256": "5ea4edf7683fc78f38f7f46494c1f3dd626e70206c393b0c025e8a65626eb9b8",
+      "group": "fire:block:0",
+      "target": -1
+    },
+    {
+      "id": "fasdd-115",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0115.jpg",
+      "sha256": "80474cd4830c91fce5c6930df453b852a4820d9ae40070df576bc50ddb45ea35",
+      "group": "fire:block:1",
+      "target": -1
+    },
+    {
+      "id": "fasdd-128",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0128.jpg",
+      "sha256": "729a0013c4b78573f3a3af49efc8769a1085984e03b030f6645bce1dc4c58fa3",
+      "group": "fire:block:16",
+      "target": -1
+    },
+    {
+      "id": "fasdd-129",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0129.jpg",
+      "sha256": "7ac8bc799eeedc5085dc15cf9cc048b7a1cb1de72490de4860d25a6443559e25",
+      "group": "fire:block:1",
+      "target": -1
+    },
+    {
+      "id": "fasdd-131",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0131.jpg",
+      "sha256": "69d123d2eff5dc0e190c7a966116cf8bba2cf0e97848bca03fc2f076d226717d",
+      "group": "fire:block:24",
+      "target": -1
+    },
+    {
+      "id": "fasdd-132",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0132.jpg",
+      "sha256": "bcd6fea61bdb61f71156571a3969f1205790b6f0aac762345cc74c256e5d2e99",
+      "group": "fire:block:23",
+      "target": -1
+    },
+    {
+      "id": "fasdd-138",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0138.jpg",
+      "sha256": "d6cd0d247bdf6ce6753b0c25d71d08306b1f05e77e99517a3b067f1d43922b1f",
+      "group": "bothFireAndSmoke:block:26",
+      "target": -1
+    },
+    {
+      "id": "fasdd-141",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0141.jpg",
+      "sha256": "649112a8e9c935b41b7fe18f0289f390cd635d96f6b84a7c886708b30502627d",
+      "group": "fire:block:4",
+      "target": -1
+    },
+    {
+      "id": "fasdd-143",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0143.jpg",
+      "sha256": "a7ec306a141a2b13501f5f5902e268a57aed01bff7cd9af6caeca2105fb65bb2",
+      "group": "fire:block:17",
+      "target": -1
+    },
+    {
+      "id": "fasdd-145",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0145.jpg",
+      "sha256": "d24c750b2a6ce24939bf91060e483f8baccb0014c86e0ac049b1ff675efe922a",
+      "group": "fire:block:24",
+      "target": -1
+    },
+    {
+      "id": "fasdd-154",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0154.jpg",
+      "sha256": "6569c6899ef5a64c69b56d236478196e94960c20e4e8c3b5b9a175075eb02c01",
+      "group": "bothFireAndSmoke:block:26",
+      "target": -1
+    },
+    {
+      "id": "fasdd-155",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0155.jpg",
+      "sha256": "af2775c479e4c79bb102b7b8985e6aa19b3fd5e0341c2b3b85a72b3f9fc74244",
+      "group": "fire:block:23",
+      "target": -1
+    },
+    {
+      "id": "fasdd-156",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0156.jpg",
+      "sha256": "5263da601624e453fd991801ac6d7cf014fc6d3b53ffc2401d960fe00c9f3378",
+      "group": "fire:block:24",
+      "target": -1
+    },
+    {
+      "id": "fasdd-161",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0161.jpg",
+      "sha256": "906a02158798d636df37464df8abcf0a87033c46fa0b3455afb9bc7005d77593",
+      "group": "fire:block:16",
+      "target": -1
+    },
+    {
+      "id": "fasdd-163",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0163.jpg",
+      "sha256": "751bc0c12400141ca50a797bb47227bb1cd4620fce663dd253b5b5b5f1c6f92e",
+      "group": "fire:block:0",
+      "target": -1
+    },
+    {
+      "id": "fasdd-165",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0165.jpg",
+      "sha256": "38a41cfb2ad7a131ed3724ebb27b7ae072e2fd39cce696af4dd40281438a9c9b",
+      "group": "fire:block:3",
+      "target": -1
+    },
+    {
+      "id": "fasdd-168",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0168.jpg",
+      "sha256": "3eef0f880b74ad44de105886284c9ef9b6556c2e4a544d793577caab95c11c9b",
+      "group": "fire:block:24",
+      "target": -1
+    },
+    {
+      "id": "fasdd-173",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0173.jpg",
+      "sha256": "65be5fe5cb3edf6ce3ae5f3379b098173cbee25bfc8e928c95734bd832959e5d",
+      "group": "fire:block:25",
+      "target": -1
+    },
+    {
+      "id": "fasdd-174",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0174.jpg",
+      "sha256": "d11aeeb273437873b3a7d7aee85f596a0ad760d0f4144b0767f45b0a044c0eac",
+      "group": "fire:block:24",
+      "target": -1
+    },
+    {
+      "id": "fasdd-177",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0177.jpg",
+      "sha256": "1e842889e3e07d52955399543a759ac6727c160624c6325fbb3f3d4fbfd3da35",
+      "group": "fire:block:3",
+      "target": -1
+    },
+    {
+      "id": "fasdd-187",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0187.jpg",
+      "sha256": "0b9c4401a77c797592308cc30d4c854f54dd45df5a78b330042a64a78624f171",
+      "group": "fire:block:7",
+      "target": -1
+    },
+    {
+      "id": "fasdd-189",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0189.jpg",
+      "sha256": "217364f3923e2d5d97dafc614a5cb520f3b753697298b067656a306fb04f272f",
+      "group": "fire:block:24",
+      "target": -1
+    },
+    {
+      "id": "fasdd-190",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0190.jpg",
+      "sha256": "b7afa7eb6aada4d2f2929742eaa9cb0ceb06d63fa6a5ba0f56589fdd15c4b817",
+      "group": "fire:block:24",
+      "target": -1
+    },
+    {
+      "id": "fasdd-200",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0200.jpg",
+      "sha256": "8ae2790e6756ed8f8d321dd85e071ea650d4bbb824fa275ef404c53504f53324",
+      "group": "neitherFireNorSmoke:block:13",
+      "target": -1
+    },
+    {
+      "id": "fasdd-203",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0203.jpg",
+      "sha256": "c3d6d699ca25242595afd3db1c1a34f7562655256ea590dc0a5d2b605a697224",
+      "group": "neitherFireNorSmoke:block:13",
+      "target": -1
+    },
+    {
+      "id": "fasdd-204",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0204.jpg",
+      "sha256": "4f2039a5f2b33af9a6069a0c75636655cdd7fed579ebdf58bc632c19641b6b78",
+      "group": "neitherFireNorSmoke:block:33",
+      "target": -1
+    },
+    {
+      "id": "fasdd-213",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0213.jpg",
+      "sha256": "0d99b5522226ef4d09bdf7e5a0b9c85736a00a076d326dfc0344ffae1d0044d4",
+      "group": "neitherFireNorSmoke:block:64",
+      "target": -1
+    },
+    {
+      "id": "fasdd-215",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0215.jpg",
+      "sha256": "3006e490a42390be9f6f349e1c0ad53a6b00a135736a814bd287f0d8bfc459eb",
+      "group": "neitherFireNorSmoke:block:31",
+      "target": -1
+    },
+    {
+      "id": "fasdd-220",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0220.jpg",
+      "sha256": "c174a9bcd1ca70995983b4516e886f00eb8e921bf8cc12afa7e0c39c98223729",
+      "group": "neitherFireNorSmoke:block:13",
+      "target": -1
+    },
+    {
+      "id": "fasdd-223",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0223.jpg",
+      "sha256": "b3d5d234e436de47b3e9fb290c7e0cfe3e3a75eecb41700801b4243076a02aab",
+      "group": "neitherFireNorSmoke:block:34",
+      "target": -1
+    },
+    {
+      "id": "fasdd-225",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0225.jpg",
+      "sha256": "cb63ec3f6d56d576b28a55de7e75ee68c7811142c385482321ffdc8423919003",
+      "group": "neitherFireNorSmoke:block:73",
+      "target": -1
+    },
+    {
+      "id": "fasdd-227",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0227.jpg",
+      "sha256": "d73064cfa73ff1adbca12b3bf9bfffd3868263bdd348a6c82df2c23f5ccc0fdf",
+      "group": "neitherFireNorSmoke:block:22",
+      "target": -1
+    },
+    {
+      "id": "fasdd-231",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0231.jpg",
+      "sha256": "4432dd27dae6dcc24a702bba6541e1965784a8c60b407c5050ddf0d71246c67f",
+      "group": "neitherFireNorSmoke:block:13",
+      "target": -1
+    },
+    {
+      "id": "fasdd-238",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0238.jpg",
+      "sha256": "44be4e99e87ba8662c57bd64da38782e13dbc21e8ee10292c205c2172ca1b9d4",
+      "group": "fire:block:22",
+      "target": -1
+    },
+    {
+      "id": "fasdd-239",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0239.jpg",
+      "sha256": "8c15b695b89aac0332a9628f26ad9f80dfbbe9cd6119d41c50dc81ff967dcaa3",
+      "group": "neitherFireNorSmoke:block:64",
+      "target": -1
+    },
+    {
+      "id": "fasdd-246",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0246.jpg",
+      "sha256": "8e8b4a2ea07cabdddb8f379a09f2a0277f6f2101b19b299b4bf6c4dca5e4b0ff",
+      "group": "neitherFireNorSmoke:block:67",
+      "target": -1
+    },
+    {
+      "id": "fasdd-247",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0247.jpg",
+      "sha256": "e8657f7e7fad32fdf495be6181bccad8a991c9e018390c418ab9cef512497aeb",
+      "group": "fire:block:25",
+      "target": -1
+    },
+    {
+      "id": "fasdd-253",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0253.jpg",
+      "sha256": "21523c91926debcf0780b6f8fc4d273d5a97c5061418550b200ab6fca0eed3c8",
+      "group": "neitherFireNorSmoke:block:13",
+      "target": -1
+    },
+    {
+      "id": "fasdd-254",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0254.jpg",
+      "sha256": "7dd576c9bfba9094ec9d29bd90e39fb818c501b3bb47c3c8cf238dc4f127bc67",
+      "group": "neitherFireNorSmoke:block:24",
+      "target": -1
+    },
+    {
+      "id": "fasdd-255",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0255.jpg",
+      "sha256": "06f3bd6683aa5f79e6ef7be1387622c3848749ccfb4919defcc52fbb0bfe101c",
+      "group": "neitherFireNorSmoke:block:13",
+      "target": -1
+    },
+    {
+      "id": "fasdd-258",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0258.jpg",
+      "sha256": "a31b408e896c359f2648be208a1cf7aa6d0fd9bf3a849a408b9e3cdd326d96f0",
+      "group": "fire:block:25",
+      "target": -1
+    },
+    {
+      "id": "fasdd-259",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0259.jpg",
+      "sha256": "ab67803f41e291a5c4c131685cd9d0558b3a69a7d26ce90db655a090dec1d950",
+      "group": "neitherFireNorSmoke:block:13",
+      "target": -1
+    },
+    {
+      "id": "fasdd-261",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0261.jpg",
+      "sha256": "840b77a2ffec8aabd38415ea3846b47a677b63e36b7db0b71ef412d12bdbacd9",
+      "group": "neitherFireNorSmoke:block:73",
+      "target": -1
+    },
+    {
+      "id": "fasdd-265",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0265.jpg",
+      "sha256": "29dbf4d61a4ab861d8b2978648e761a5cc8fdeee87c7eb3c5ebe8db40c3140a1",
+      "group": "neitherFireNorSmoke:block:4",
+      "target": -1
+    },
+    {
+      "id": "fasdd-268",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0268.jpg",
+      "sha256": "39ff5b8389b451702be66b3ad7a501d57e88d0250bc5b80ace9b2af15cf67ef7",
+      "group": "bothFireAndSmoke:block:2",
+      "target": -1
+    },
+    {
+      "id": "fasdd-271",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0271.jpg",
+      "sha256": "66c59c0a413be5dd5ba9ec24334370d520b613cd449743987efcad6a277b7456",
+      "group": "neitherFireNorSmoke:block:13",
+      "target": -1
+    },
+    {
+      "id": "fasdd-276",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0276.jpg",
+      "sha256": "04be8b05dfe2832c4679f32f2725a94e674a1d41a8270948e73bc6f9725df9f0",
+      "group": "neitherFireNorSmoke:block:59",
+      "target": -1
+    },
+    {
+      "id": "fasdd-277",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0277.jpg",
+      "sha256": "5532c91b6c0404b02129bfbd735449dbc3c0a0f50dd656f3ba988101cacaa91b",
+      "group": "neitherFireNorSmoke:block:13",
+      "target": -1
+    },
+    {
+      "id": "fasdd-279",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0279.jpg",
+      "sha256": "fe5890f95dfc2027e19a0d13226c746a448af438a94f2354b25418c593c22df7",
+      "group": "neitherFireNorSmoke:block:67",
+      "target": -1
+    },
+    {
+      "id": "fasdd-283",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0283.jpg",
+      "sha256": "db563c0be8d3b355b0c18669d411dadf086889230993fba0bcc82b31321b0559",
+      "group": "neitherFireNorSmoke:block:68",
+      "target": -1
+    },
+    {
+      "id": "fasdd-287",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0287.jpg",
+      "sha256": "fe592840ca3a8d7cdd72b951da09eb53136e3c758e86897861b28b09e3935fd2",
+      "group": "neitherFireNorSmoke:block:13",
+      "target": -1
+    },
+    {
+      "id": "fasdd-288",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0288.jpg",
+      "sha256": "0b216d3a4c00b39d525efe0ecaf49d0bfbf604bf5ff78434fcf2e602b423c35a",
+      "group": "neitherFireNorSmoke:block:55",
+      "target": -1
+    },
+    {
+      "id": "fasdd-292",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0292.jpg",
+      "sha256": "2d783955bb6e0caf52bef391cddffcec571adcaa9b828472252dab1d362908ac",
+      "group": "fire:block:25",
+      "target": -1
+    },
+    {
+      "id": "fasdd-297",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0297.jpg",
+      "sha256": "c1d1c68e8572a39e12def03a595bb033a7bec6f7a5c662d251e5a5590d73ba95",
+      "group": "neitherFireNorSmoke:block:12",
+      "target": -1
+    },
+    {
+      "id": "fasdd-298",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0298.jpg",
+      "sha256": "88e6ebfb0b7a54aeea8440c1992cb5bd634e2d261aeb775071bf460f94b28e33",
+      "group": "neitherFireNorSmoke:block:0",
+      "target": -1
+    },
+    {
+      "id": "fasdd-300",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0300.jpg",
+      "sha256": "8fb7fac85592a1039d947481b803e7e56f54553457dc42adca7572d4c576fde0",
+      "group": "neitherFireNorSmoke:block:67",
+      "target": -1
+    },
+    {
+      "id": "fasdd-305",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0305.jpg",
+      "sha256": "a9c02552ed88da309c969eb5a949591574d9556265f6123657b17077871560eb",
+      "group": "neitherFireNorSmoke:block:53",
+      "target": -1
+    },
+    {
+      "id": "fasdd-308",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0308.jpg",
+      "sha256": "2df007212530160f4e757f5b11609f68789cb6462c231230c58beebc3e9c4b92",
+      "group": "neitherFireNorSmoke:block:33",
+      "target": -1
+    },
+    {
+      "id": "fasdd-309",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0309.jpg",
+      "sha256": "c56e4206dd0b6b047510cb04ea3daa637feb114e47879c7932be8552c7751c57",
+      "group": "neitherFireNorSmoke:block:6",
+      "target": -1
+    },
+    {
+      "id": "fasdd-313",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0313.jpg",
+      "sha256": "66868c230fd325043b49cdb81df38902dc44e86824c0cd0d1c51613d3500777a",
+      "group": "neitherFireNorSmoke:block:13",
+      "target": -1
+    },
+    {
+      "id": "fasdd-315",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0315.jpg",
+      "sha256": "c491238b000b1355254bf27ddc64531643db4a29e978f1cad1e326d764aade3c",
+      "group": "neitherFireNorSmoke:block:47",
+      "target": -1
+    },
+    {
+      "id": "fasdd-316",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0316.jpg",
+      "sha256": "4f7526c46c0bbc1009bd0da239908ebe6dcaa59ea876473a70b872ef54398db8",
+      "group": "neitherFireNorSmoke:block:6",
+      "target": -1
+    },
+    {
+      "id": "fasdd-318",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0318.jpg",
+      "sha256": "cd0ea644bcff97efd57f8c20405c53ec072c6a0a76a46aa8ca5e4b8a0b65d815",
+      "group": "neitherFireNorSmoke:block:13",
+      "target": -1
+    },
+    {
+      "id": "fasdd-320",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0320.jpg",
+      "sha256": "4fd91aac6fd71a1bb1ae0642d453694d3cfff4865abd7c27301d94be2abce419",
+      "group": "neitherFireNorSmoke:block:13",
+      "target": -1
+    },
+    {
+      "id": "fasdd-321",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0321.jpg",
+      "sha256": "bd8dfb9448390d4e1c8abac69774cf8e2c18e5138bcedf9b9974180870057ec8",
+      "group": "neitherFireNorSmoke:block:13",
+      "target": -1
+    },
+    {
+      "id": "fasdd-324",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0324.jpg",
+      "sha256": "5dd6ed132c2c59a80245fd5f2d2df73eb72a7b938d20df8cf96bdc7026f8377a",
+      "group": "neitherFireNorSmoke:block:13",
+      "target": -1
+    },
+    {
+      "id": "fasdd-327",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0327.jpg",
+      "sha256": "d8fcec9c3269e7767cb17e4687d4f58b7ab00a03d0e43f63e2e7b3fd104cc783",
+      "group": "neitherFireNorSmoke:block:5",
+      "target": -1
+    },
+    {
+      "id": "fasdd-331",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0331.jpg",
+      "sha256": "5539c99726cf359512f427a308e708a2778c9c7c009b5097f7b63b76f077f982",
+      "group": "neitherFireNorSmoke:block:13",
+      "target": -1
+    },
+    {
+      "id": "fasdd-332",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0332.jpg",
+      "sha256": "b23934c668888fe79c228460bf9e08a12baf93170b9ca01f0fec9ce455e1d73a",
+      "group": "neitherFireNorSmoke:block:6",
+      "target": -1
+    },
+    {
+      "id": "fasdd-344",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0344.jpg",
+      "sha256": "70d337f48db98f68a60a4e4828f9dd0421dd25351a18603a432a38f18e8c65ce",
+      "group": "neitherFireNorSmoke:block:13",
+      "target": -1
+    },
+    {
+      "id": "fasdd-346",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0346.jpg",
+      "sha256": "d4ee3947fcc821675576b3ca6355e5d3c9680e1461a569752d45e993ff1f4bb1",
+      "group": "neitherFireNorSmoke:block:19",
+      "target": -1
+    },
+    {
+      "id": "fasdd-348",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0348.jpg",
+      "sha256": "c49cc271b8dca12295d38d7a937642823477da62cd613d2d42c338940a03360c",
+      "group": "neitherFireNorSmoke:block:13",
+      "target": -1
+    },
+    {
+      "id": "fasdd-351",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0351.jpg",
+      "sha256": "1def8fcd66981c3a21532a7cd714db9a5f89a881c3c7485d4d806bfd8dbe36ca",
+      "group": "neitherFireNorSmoke:block:13",
+      "target": -1
+    },
+    {
+      "id": "fasdd-352",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0352.jpg",
+      "sha256": "0e1037721fdbf4fb516a82d4130b14fab9d13aedc60f2f4ace34c312d5be9dcb",
+      "group": "neitherFireNorSmoke:block:13",
+      "target": -1
+    },
+    {
+      "id": "fasdd-354",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0354.jpg",
+      "sha256": "75088e4939c367e9616dfb9107d5d564d5202eb0f2c80f823fe6faa5621a7b55",
+      "group": "neitherFireNorSmoke:block:20",
+      "target": -1
+    },
+    {
+      "id": "fasdd-355",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0355.jpg",
+      "sha256": "5585c9e6136f70633880d828fff7d51b2eac34a169d168d097079c7a2d4e2e72",
+      "group": "neitherFireNorSmoke:block:73",
+      "target": -1
+    },
+    {
+      "id": "fasdd-361",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0361.jpg",
+      "sha256": "b3efd1d8699ba67177a0017093feae42ff8240d7d1b9266434caac396e9a44af",
+      "group": "neitherFireNorSmoke:block:13",
+      "target": -1
+    },
+    {
+      "id": "fasdd-362",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0362.jpg",
+      "sha256": "ee42edece0b2201cbf76f0149d337f0a1a8c202aacbf2f0f2e04728ca057f478",
+      "group": "neitherFireNorSmoke:block:41",
+      "target": -1
+    },
+    {
+      "id": "fasdd-363",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0363.jpg",
+      "sha256": "b227bbcd4736a91ad1e85a63461b559a538d0615dc0c813413552400bb13eef3",
+      "group": "neitherFireNorSmoke:block:13",
+      "target": -1
+    },
+    {
+      "id": "fasdd-364",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0364.jpg",
+      "sha256": "f2abad3b3fda16dbc7e5f72858abbe9c75d5ee22551e86199bf6193ef7d97673",
+      "group": "neitherFireNorSmoke:block:40",
+      "target": -1
+    },
+    {
+      "id": "fasdd-373",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0373.jpg",
+      "sha256": "33538ad60cd8452e827c96121b70171bbfc289fe35da5a3d6a9d191aed7f857a",
+      "group": "neitherFireNorSmoke:block:30",
+      "target": -1
+    },
+    {
+      "id": "fasdd-377",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0377.jpg",
+      "sha256": "bd89152534897ec4bc9315163b1cbec3bd1031d5b41d6a408497b404493c0dbc",
+      "group": "fire:block:22",
+      "target": -1
+    },
+    {
+      "id": "fasdd-380",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0380.jpg",
+      "sha256": "cd76948cd4e8814d05210ecf653833662d57864a65b4f0987ed3b84e1921cd33",
+      "group": "neitherFireNorSmoke:block:41",
+      "target": -1
+    },
+    {
+      "id": "fasdd-383",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0383.jpg",
+      "sha256": "b1fdc22657932aa0cf476503186993abe38a46a7e2aa76c35ff131be4605b56b",
+      "group": "neitherFireNorSmoke:block:41",
+      "target": -1
+    },
+    {
+      "id": "fasdd-386",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0386.jpg",
+      "sha256": "cbed5d70751edd6bae6801c2b37bc92c0c3e4ece9be7dc5c87c0aaf22b2cb2b0",
+      "group": "neitherFireNorSmoke:block:13",
+      "target": -1
+    },
+    {
+      "id": "fasdd-389",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0389.jpg",
+      "sha256": "9f49c6ac1db9bac014def39cc80f0c2d5766c6e171af7cbdee80fe8bb27b3c7f",
+      "group": "neitherFireNorSmoke:block:4",
+      "target": -1
+    },
+    {
+      "id": "fasdd-396",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0396.jpg",
+      "sha256": "8b3b5acccd0b7a312a2fe2c740d0f51f7c0b610e20a77cbebc8733a8136444da",
+      "group": "neitherFireNorSmoke:block:13",
+      "target": -1
+    },
+    {
+      "id": "fasdd-402",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0402.jpg",
+      "sha256": "258f61c6c43fd513b81933bc26af3f5d279a7c2cc5c676ff5fcc5d3ebf695e65",
+      "group": "fire:block:24",
+      "target": 1
+    },
+    {
+      "id": "fasdd-405",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0405.jpg",
+      "sha256": "fc854df1f4b4561380cc6df0eddd09f04f68362624971e7a50e182f0afd5eb5f",
+      "group": "smoke:block:3",
+      "target": 1
+    },
+    {
+      "id": "fasdd-412",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0412.jpg",
+      "sha256": "99895a399250dec88776322c9e26ab69724137f877b214f3254adde57d0ea400",
+      "group": "smoke:block:3",
+      "target": 1
+    },
+    {
+      "id": "fasdd-414",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0414.jpg",
+      "sha256": "b96f973e676ad3b0e812e281b6891ecfcf9a205590a49e95a0fc860f7a75ead8",
+      "group": "fire:block:24",
+      "target": 1
+    },
+    {
+      "id": "fasdd-418",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0418.jpg",
+      "sha256": "0170c87b72f928ba9576ee1fa7be0bb90f27bed54de3ed16a1862b5a8ebb7a8b",
+      "group": "smoke:block:6",
+      "target": 1
+    },
+    {
+      "id": "fasdd-432",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0432.jpg",
+      "sha256": "7e581edec1403126d6ee21293005e34f4f8bedd9346ca39fc45b8ee17fc67d03",
+      "group": "smoke:block:4",
+      "target": 1
+    },
+    {
+      "id": "fasdd-434",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0434.jpg",
+      "sha256": "81128e642352c47aa9f4c7b38392bf3b42232db1e2365835b24f378dfa6a2238",
+      "group": "smoke:block:2",
+      "target": 1
+    },
+    {
+      "id": "fasdd-440",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0440.jpg",
+      "sha256": "ae8ba1ff3120a991f4c2d97e31a83b5f9cb2506f4c8c16da31c1bd5706e54127",
+      "group": "fire:block:24",
+      "target": 1
+    },
+    {
+      "id": "fasdd-444",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0444.jpg",
+      "sha256": "b8487e2951ec8e634dcd223f28f640e48cc2bf372aa1e74a9636aba4f0da1d6b",
+      "group": "smoke:block:15",
+      "target": 1
+    },
+    {
+      "id": "fasdd-447",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0447.jpg",
+      "sha256": "c079f86f63a382f9d20adb08cd621a1cddb1cc2cb440ea9d052440095e693952",
+      "group": "smoke:block:6",
+      "target": 1
+    },
+    {
+      "id": "fasdd-451",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0451.jpg",
+      "sha256": "d170e4d9d25385dc64c972fe889da58a674d97c305664fa03f193ccf328a131e",
+      "group": "smoke:block:6",
+      "target": 1
+    },
+    {
+      "id": "fasdd-453",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0453.jpg",
+      "sha256": "b914eba6592ff0ccf8624d9da9c2a7c2accbb0eabcf6e3deb3396f4d0f73cd35",
+      "group": "fire:block:24",
+      "target": 1
+    },
+    {
+      "id": "fasdd-459",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0459.jpg",
+      "sha256": "7027d19452af1ea2465a171be42cde94a9350cecef001cdafe3aefd40d2762e4",
+      "group": "smoke:block:9",
+      "target": 1
+    },
+    {
+      "id": "fasdd-474",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0474.jpg",
+      "sha256": "b1cdabf6d96b3b213a197d3c37d987561a000f2e279e463b0928c630b3b3040d",
+      "group": "smoke:block:2",
+      "target": 1
+    },
+    {
+      "id": "fasdd-475",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0475.jpg",
+      "sha256": "d346248bae52ee9c94c75f26cc1c02300842e728ebb920ed4a1b5e8292b123ea",
+      "group": "smoke:block:3",
+      "target": 1
+    },
+    {
+      "id": "fasdd-476",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0476.jpg",
+      "sha256": "2a82b593fa46d2cabb8b4554c33a282e38b53f2fcf78727e0527942c958feee8",
+      "group": "smoke:block:6",
+      "target": 1
+    },
+    {
+      "id": "fasdd-478",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0478.jpg",
+      "sha256": "ac0ef320c40fae88a37b5ffe2a4d83b728daa13132cc019d66d9fe5bc63f987c",
+      "group": "smoke:block:12",
+      "target": 1
+    },
+    {
+      "id": "fasdd-496",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0496.jpg",
+      "sha256": "d2626c4d0da7e87f7d16b06f9b30b9b73652534f3c79dbac9ac95ab69478bcb1",
+      "group": "smoke:block:6",
+      "target": 1
+    },
+    {
+      "id": "fasdd-499",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0499.jpg",
+      "sha256": "638e88bcdd2649cd8d14be54d40d38163c950f92c99a69d9da8886cdb6a719f8",
+      "group": "smoke:block:14",
+      "target": 1
+    },
+    {
+      "id": "fasdd-503",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0503.jpg",
+      "sha256": "6e9c5216c562f425e9362364078497b4a9cc54a6207533e29bbda46c492209c9",
+      "group": "smoke:block:14",
+      "target": 1
+    },
+    {
+      "id": "fasdd-512",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0512.jpg",
+      "sha256": "9b5fe6d7b12f72b3105e0c7e0fb3227ec82461776c51562ef4da79f1a748b1c0",
+      "group": "smoke:block:13",
+      "target": 1
+    },
+    {
+      "id": "fasdd-517",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0517.jpg",
+      "sha256": "eb12e9c38a1a2257f2b420e2cd4854ab91e213a6507e4b9ec01079ea32d1762a",
+      "group": "fire:block:24",
+      "target": 1
+    },
+    {
+      "id": "fasdd-519",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0519.jpg",
+      "sha256": "cae9595c24a26abdf523e0488eeff09656649fc0815be93929199f2e68bc810f",
+      "group": "smoke:block:14",
+      "target": 1
+    },
+    {
+      "id": "fasdd-522",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0522.jpg",
+      "sha256": "9fcb1f7be2c27453fdf643daa99973ed861066ddcaec2d68d5b130a667b38926",
+      "group": "smoke:block:15",
+      "target": 1
+    },
+    {
+      "id": "fasdd-534",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0534.jpg",
+      "sha256": "2735c48ef8301670838d82c765c542b183478f5ca9ab2b18d5aaf696ffa12b4e",
+      "group": "smoke:block:4",
+      "target": 1
+    },
+    {
+      "id": "fasdd-539",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0539.jpg",
+      "sha256": "8f2f9840ec57bf936ed2c0c966af5705b6f781629d18eabdf671a41f65da7827",
+      "group": "fire:block:24",
+      "target": 1
+    },
+    {
+      "id": "fasdd-540",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0540.jpg",
+      "sha256": "363392e727d59dbda6051b5b17b9cf01d7be4ff5c765fb0b810b0a16efaa8f1d",
+      "group": "fire:block:24",
+      "target": 1
+    },
+    {
+      "id": "fasdd-549",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0549.jpg",
+      "sha256": "66ab5099130d308c7e6e57c168986643c5d22e2d1caa6071c3d9217af530f6fc",
+      "group": "smoke:block:14",
+      "target": 1
+    },
+    {
+      "id": "fasdd-551",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0551.jpg",
+      "sha256": "ddadeb540046b39d9f4cd4e94745b4dbae2cc9f8c8a585bcc9507d61e31245c0",
+      "group": "smoke:block:12",
+      "target": 1
+    },
+    {
+      "id": "fasdd-560",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0560.jpg",
+      "sha256": "7cc67a546b54a0657017d987a5b332eadb3da88504820e22a8dcdabd2462e76e",
+      "group": "smoke:block:3",
+      "target": 1
+    },
+    {
+      "id": "fasdd-562",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0562.jpg",
+      "sha256": "a7bdebd119dc42f39fa13458626c1007e0a8e229efec32db5f383e578fbd44e9",
+      "group": "smoke:block:13",
+      "target": 1
+    },
+    {
+      "id": "fasdd-564",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0564.jpg",
+      "sha256": "b842ce5a9b36c05f380dc91228b96b7a3a97186f63e1612940c16d801e36633e",
+      "group": "fire:block:24",
+      "target": 1
+    },
+    {
+      "id": "fasdd-572",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0572.jpg",
+      "sha256": "7e2c481a0293d50998bf65364348845d502ced04870e883aaa33c07a99c1493d",
+      "group": "smoke:block:3",
+      "target": 1
+    },
+    {
+      "id": "fasdd-575",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0575.jpg",
+      "sha256": "68fa34ac5c1d8cf9a47223d55167a2dccee8ce6063f30eac5db94c23131976cc",
+      "group": "fire:block:24",
+      "target": 1
+    },
+    {
+      "id": "fasdd-576",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0576.jpg",
+      "sha256": "786d022895ad14e35a83d89eab0053525b39021b40d4b991aba856bd69745ff6",
+      "group": "smoke:block:4",
+      "target": 1
+    },
+    {
+      "id": "fasdd-578",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0578.jpg",
+      "sha256": "0e5f7c6acbaf56a8a5f426aed128ec5af954b298a522827f83dd6fe0bed3bafa",
+      "group": "smoke:block:12",
+      "target": 1
+    },
+    {
+      "id": "fasdd-581",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0581.jpg",
+      "sha256": "4118f853a465bf8319ffef4fd59a388db927c3059c944aec81e893a092e37091",
+      "group": "smoke:block:4",
+      "target": 1
+    },
+    {
+      "id": "fasdd-582",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0582.jpg",
+      "sha256": "5f1d740ab17c67cf509ea8e87a7336e502d6ee8c76d8f81cbf5f4b20f0145a45",
+      "group": "fire:block:24",
+      "target": 1
+    },
+    {
+      "id": "fasdd-586",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0586.jpg",
+      "sha256": "b1f877973d45aef518303f4ae2257c05d45ed155f9399c88c1f0d34915343a97",
+      "group": "smoke:block:14",
+      "target": 1
+    },
+    {
+      "id": "fasdd-590",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0590.jpg",
+      "sha256": "6e19f30a8bea763d7e9f59a6b55bbb5daa204d8ac5219522a0c00bece3146d1b",
+      "group": "smoke:block:16",
+      "target": 1
+    },
+    {
+      "id": "fasdd-593",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0593.jpg",
+      "sha256": "e887863e47c46923003048faf21e864aa2f6d093d21eae74688e49364b208f2b",
+      "group": "smoke:block:3",
+      "target": 1
+    },
+    {
+      "id": "fasdd-594",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/fasdd-cv-2026-10-22/curated/images/train/0594.jpg",
+      "sha256": "f74dc287447359d930ab77a140e2b4795303158bcbf1c8e6934a7713fffaafc8",
+      "group": "smoke:block:3",
+      "target": 1
+    }
+  ],
+  "additions": [
+    {
+      "id": "indoor-1",
+      "archive_entry": "Indoor Fire Smoke/train/images/frame_0000465_png.rf.0374ddbdde0c3f192dd42999f7dcc371.jpg",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/indoor-diversity/001.jpg",
+      "sha256": "983423f36bf2bdef66078a64511947fec9b5d2e7a3fde9ca5a9e746766129285",
+      "phash": "855c65ce9a2596b3",
+      "labels": "1 0.494515625 0.27684375 0.192515625 0.55334375\n0 0.49690625 0.7491875 0.053703125 0.07910937500000001",
+      "smoke_assessment": "present",
+      "source_family": "indoor-coal-tray",
+      "review_status": "assistant_reviewed",
+      "disposition": "candidate_positive",
+      "note": "Visible plume/haze associated with burning fuel or an active fire scene",
+      "target": 1,
+      "group": "indoor-coal-tray"
+    },
+    {
+      "id": "indoor-41",
+      "archive_entry": "Indoor Fire Smoke/test/images/frame_0001494_png.rf.e06be866dbb8d33b0c34cff93a1144ee.jpg",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/indoor-diversity/041.jpg",
+      "sha256": "93f39a1e2d97eafb59397da8e8d69f21cd9f52dfeead670cd48fa4fe2873e428",
+      "phash": "8c671d9ee7444ee0",
+      "labels": "1 0.5001562500000001 0.20992187499999998 0.3515625 0.37071875\n1 0.120359375 0.65115625 0.156703125 0.3910625",
+      "smoke_assessment": "present",
+      "source_family": "indoor-coal-tray",
+      "review_status": "assistant_reviewed",
+      "disposition": "candidate_positive",
+      "note": "Visible plume/haze associated with burning fuel or an active fire scene",
+      "target": 1,
+      "group": "indoor-coal-tray"
+    },
+    {
+      "id": "indoor-49",
+      "archive_entry": "Indoor Fire Smoke/train/images/frame_0000076_png.rf.86de8bb18dbb4d7aaf982b0235437193.jpg",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/indoor-diversity/049.jpg",
+      "sha256": "58a06eb8fe8138fe6cbaa4f6f650ae81d038dbb12b27652c715af8eb13bcb224",
+      "phash": "d41c24b0ed66f19b",
+      "labels": "1 0.546875 0.25703125 0.165625 0.4859375\n1 0.470078125 0.6296875 0.08545312499999999 0.1234375\n0 0.51434375 0.7986093750000001 0.044296875 0.0685625",
+      "smoke_assessment": "present",
+      "source_family": "indoor-coal-tray",
+      "review_status": "assistant_reviewed",
+      "disposition": "candidate_positive",
+      "note": "Visible plume/haze associated with burning fuel or an active fire scene",
+      "target": 1,
+      "group": "indoor-coal-tray"
+    },
+    {
+      "id": "indoor-37",
+      "archive_entry": "Indoor Fire Smoke/train/images/vid34_mp4-0018_jpg.rf.f976613f13590b9267f9d10341ac5064.jpg",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/indoor-diversity/037.jpg",
+      "sha256": "788a3178188197b9ecbd95e2d4f0b55bd1e5837ad1cb412d781ff7fec01e676d",
+      "phash": "8cb496b654a7398d",
+      "labels": "1 0.44375 0.21171875 0.403125 0.4234375",
+      "smoke_assessment": "present",
+      "source_family": "incense-closeup",
+      "review_status": "assistant_reviewed",
+      "disposition": "candidate_positive",
+      "note": "Visible plume/haze associated with burning fuel or an active fire scene",
+      "target": 1,
+      "group": "incense-closeup"
+    },
+    {
+      "id": "indoor-47",
+      "archive_entry": "Indoor Fire Smoke/test/images/vid34_mp4-0010_jpg.rf.1fe2a7e0aa9cd755386d77a2b9a4ace8.jpg",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/indoor-diversity/047.jpg",
+      "sha256": "96e9bae9d331bb614911fb94945b7b5ae04271d26786f32aab3ca137d8272b18",
+      "phash": "95b48c947a9c6dd8",
+      "labels": "1 0.7421875 0.34375 0.515625 0.6875",
+      "smoke_assessment": "present",
+      "source_family": "incense-closeup",
+      "review_status": "assistant_reviewed",
+      "disposition": "candidate_positive",
+      "note": "Visible plume/haze associated with burning fuel or an active fire scene",
+      "target": 1,
+      "group": "incense-closeup"
+    },
+    {
+      "id": "indoor-87",
+      "archive_entry": "Indoor Fire Smoke/train/images/vid34_mp4-0015_jpg.rf.283a1848d50ea3c7f1b8e545e672f345.jpg",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/indoor-diversity/087.jpg",
+      "sha256": "d9534648b351d96dd28e69f32c95805f15e8627c0732db821277c874fdbdf681",
+      "phash": "9db49487508f739c",
+      "labels": "1 0.65546875 0.23515625 0.6890625 0.4703125",
+      "smoke_assessment": "present",
+      "source_family": "incense-closeup",
+      "review_status": "assistant_reviewed",
+      "disposition": "candidate_positive",
+      "note": "Visible plume/haze associated with burning fuel or an active fire scene",
+      "target": 1,
+      "group": "incense-closeup"
+    },
+    {
+      "id": "indoor-14",
+      "archive_entry": "Indoor Fire Smoke/train/images/classk11_mp4-184_jpg.rf.a6f0e766a911b97bdce26eeeaf76dc5e.jpg",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/indoor-diversity/014.jpg",
+      "sha256": "a8fae222ef823b83666dc5c449583210d07d4ea7e2d3804011841f7226460635",
+      "phash": "e1c16ec6d306e53a",
+      "labels": "0 0.49238493723849375 0.361731843575419 0.2591213389121339 0.723463687150838\n1 0.2300418410041841 0.2587150837988827 0.4223430962343096 0.5031284916201118",
+      "smoke_assessment": "present",
+      "source_family": "nist-chair-demonstration",
+      "review_status": "assistant_reviewed",
+      "disposition": "candidate_positive",
+      "note": "Visible plume/haze associated with burning fuel or an active fire scene",
+      "target": 1,
+      "group": "nist-chair-demonstration"
+    },
+    {
+      "id": "indoor-38",
+      "archive_entry": "Indoor Fire Smoke/test/images/mergedfire1660_jpg.rf.6aa8382ea81f9c023df23ee210bc456f.jpg",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/indoor-diversity/038.jpg",
+      "sha256": "a79804eec3f549ffc5d541bd08facacf058202e5f71bc31dd9af0901e9e4bf7c",
+      "phash": "dbb2b3258d25a598",
+      "labels": "0 0.49303125000000003 0.50703125 0.1201875 0.459375",
+      "smoke_assessment": "present",
+      "source_family": "nist-chair-demonstration",
+      "review_status": "assistant_reviewed",
+      "disposition": "candidate_positive",
+      "note": "Visible plume/haze associated with burning fuel or an active fire scene",
+      "target": 1,
+      "group": "nist-chair-demonstration"
+    },
+    {
+      "id": "indoor-59",
+      "archive_entry": "Indoor Fire Smoke/train/images/classk10_mp4-186_jpg.rf.e07e2e8a98c682074ff19474ccde43c9.jpg",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/indoor-diversity/059.jpg",
+      "sha256": "59c856fbef5dcbe018ad2ea51f0ea78147a6e76a9080b95d4abb3d97ceca3f23",
+      "phash": "e1d064eee30ee712",
+      "labels": "0 0.4989539748953975 0.3924581005586592 0.24267782426778242 0.4581005586592179\n1 0.4749372384937239 0.0958659217877095 0.24811715481171548 0.1829050279329609\n1 0.1780753138075314 0.11181564245810056 0.3242887029288703 0.20600558659217877",
+      "smoke_assessment": "present",
+      "source_family": "nist-chair-demonstration",
+      "review_status": "assistant_reviewed",
+      "disposition": "candidate_positive",
+      "note": "Visible plume/haze associated with burning fuel or an active fire scene",
+      "target": 1,
+      "group": "nist-chair-demonstration"
+    },
+    {
+      "id": "indoor-52",
+      "archive_entry": "Indoor Fire Smoke/valid/images/flame2_frames_42_jpg.rf.889f4b9408db2609291cae3df56f216e.jpg",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/indoor-diversity/052.jpg",
+      "sha256": "9c6eeb18e2c605313658c323b6e126e0f67b1f612174ab27c5025a827b35fe63",
+      "phash": "8acf653245d93276",
+      "labels": "0 0.3607692307692308 0.31264423076923076 0.16391826923076921 0.5195432692307692\n1 0.5393028846153846 0.40728365384615384 0.17420673076923077 0.18670673076923078",
+      "smoke_assessment": "present",
+      "source_family": "small-burning-fuel-closeup",
+      "review_status": "assistant_reviewed",
+      "disposition": "candidate_positive",
+      "note": "Visible plume/haze associated with burning fuel or an active fire scene",
+      "target": 1,
+      "group": "small-burning-fuel-closeup"
+    },
+    {
+      "id": "indoor-57",
+      "archive_entry": "Indoor Fire Smoke/valid/images/3_mp4-81_jpg.rf.972f2745a11f3299a8bfe71de86f412d.jpg",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/indoor-diversity/057.jpg",
+      "sha256": "fc508b143f1fe84398b05ec5eeeb8b108cef1749479b57fa12f028790524bcbb",
+      "phash": "a8d51799d1a65d8a",
+      "labels": "0 0.534765625 0.6118055555555556 0.07578125 0.12361111111111112",
+      "smoke_assessment": "present",
+      "source_family": "fire-department-room",
+      "review_status": "assistant_reviewed",
+      "disposition": "candidate_positive",
+      "note": "Visible plume/haze associated with burning fuel or an active fire scene",
+      "target": 1,
+      "group": "fire-department-room"
+    },
+    {
+      "id": "indoor-83",
+      "archive_entry": "Indoor Fire Smoke/test/images/FlashoverDemonstration2078_png_jpg.rf.dd96f85159ae28d5640e30573fa0afda.jpg",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/indoor-diversity/083.jpg",
+      "sha256": "757ed62329d990d95e90b5180ccbd90353af29e590b9823551a2a09ff077c560",
+      "phash": "9a92642dd39f6469",
+      "labels": "0 0.58515625 0.46015625 0.1328125 0.2953125",
+      "smoke_assessment": "present",
+      "source_family": "flashover-living-room",
+      "review_status": "assistant_reviewed",
+      "disposition": "candidate_positive",
+      "note": "Visible plume/haze associated with burning fuel or an active fire scene",
+      "target": 1,
+      "group": "flashover-living-room"
+    },
+    {
+      "id": "indoor-119",
+      "archive_entry": "Indoor Fire Smoke/train/images/FlashoverDemonstration1352_png_jpg.rf.251ff561f8db0ff8e6582008e9671bf8.jpg",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/indoor-diversity/119.jpg",
+      "sha256": "e2704d285c0de8eb5da56989cfb1c1489345b676687b7d5fcbf8d9bd3d9964e9",
+      "phash": "aa6c6f92ed20926d",
+      "labels": "0 0.6515625 0.6828125 0.090625 0.221875",
+      "smoke_assessment": "present",
+      "source_family": "flashover-living-room",
+      "review_status": "assistant_reviewed",
+      "disposition": "candidate_positive",
+      "note": "Visible plume/haze associated with burning fuel or an active fire scene",
+      "target": 1,
+      "group": "flashover-living-room"
+    },
+    {
+      "id": "indoor-96",
+      "archive_entry": "Indoor Fire Smoke/train/images/part6_Trim_mp4-12_jpg.rf.dfd040e75bceb39793b59a5227dc9f4d.jpg",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/indoor-diversity/096.jpg",
+      "sha256": "d600ab24005e53b10ff4e78a5242d7abaacd3b93724bf41cd8a23cd22a0e3119",
+      "phash": "aabd43964dca968c",
+      "labels": "0 0.8472222222222222 0.6676136363636364 0.05 0.11931818181818182\n0 0.8027777777777778 0.3522727272727273 0.09444444444444444 0.23863636363636365",
+      "smoke_assessment": "present",
+      "source_family": "furnished-room-demonstration",
+      "review_status": "assistant_reviewed",
+      "disposition": "candidate_positive",
+      "note": "Visible plume/haze associated with burning fuel or an active fire scene",
+      "target": 1,
+      "group": "furnished-room-demonstration"
+    },
+    {
+      "id": "indoor-98",
+      "archive_entry": "Indoor Fire Smoke/valid/images/frame_0000403_png.rf.9ad7edffe24d59bcc192279b3f482894.jpg",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/indoor-diversity/098.jpg",
+      "sha256": "6dbed0c871bab50ef9bb0dae723d3b9cc09d55250973931ce37804b41453b713",
+      "phash": "fd5ec5ba3049922c",
+      "labels": "1 0.50546875 0.27734375 0.646875 0.55",
+      "smoke_assessment": "present",
+      "source_family": "indoor-round-fuel-pot",
+      "review_status": "assistant_reviewed",
+      "disposition": "candidate_positive",
+      "note": "Visible plume/haze associated with burning fuel or an active fire scene",
+      "target": 1,
+      "group": "indoor-round-fuel-pot"
+    },
+    {
+      "id": "indoor-103",
+      "archive_entry": "Indoor Fire Smoke/train/images/frame_0000535_png.rf.68ff04e9011df4cb7a4779cbc27c0995.jpg",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/indoor-diversity/103.jpg",
+      "sha256": "48119aed617d7d2be0eb43d82ca7c74147c16afeb1c2154aa31cf65779b7feb8",
+      "phash": "df5da28873c09876",
+      "labels": "1 0.494921875 0.3125 0.3180625 0.625",
+      "smoke_assessment": "present",
+      "source_family": "indoor-round-fuel-pot",
+      "review_status": "assistant_reviewed",
+      "disposition": "candidate_positive",
+      "note": "Visible plume/haze associated with burning fuel or an active fire scene",
+      "target": 1,
+      "group": "indoor-round-fuel-pot"
+    },
+    {
+      "id": "indoor-130",
+      "archive_entry": "Indoor Fire Smoke/train/images/frame_0000592_png.rf.c4e664c2660c8628b74330245bc22921.jpg",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/indoor-diversity/130.jpg",
+      "sha256": "830ab5aecb3da666a4728e7291b2df6a112be3f4e25c8666861c976aea6adc79",
+      "phash": "ff418077c1bd409d",
+      "labels": "1 0.31640625 0.37890625 0.3625 0.7578125",
+      "smoke_assessment": "present",
+      "source_family": "indoor-round-fuel-pot",
+      "review_status": "assistant_reviewed",
+      "disposition": "candidate_positive",
+      "note": "Visible plume/haze associated with burning fuel or an active fire scene",
+      "target": 1,
+      "group": "indoor-round-fuel-pot"
+    },
+    {
+      "id": "indoor-133",
+      "archive_entry": "Indoor Fire Smoke/train/images/2test781_jpg.rf.337135aac0ea447c0dc35c3c6050628f.jpg",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/indoor-diversity/133.jpg",
+      "sha256": "464698cca7304f737f573c1f20ec15bacb154054dc67fd5206e9228270522aab",
+      "phash": "99d0aeec87bb4069",
+      "labels": "1 0.5787740384615385 0.2353125 0.2775961538461539 0.470625\n1 0.500048076923077 0.6538221153846154 0.11867788461538462 0.36783653846153846",
+      "smoke_assessment": "present",
+      "source_family": "retail-fire-demonstration",
+      "review_status": "assistant_reviewed",
+      "disposition": "candidate_positive",
+      "note": "Visible plume/haze associated with burning fuel or an active fire scene",
+      "target": 1,
+      "group": "retail-fire-demonstration"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 0,
+      "seconds": 0.06666666666666667,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-000000.png",
+      "sha256": "53461c1d697a46e79f7da14f2598321b0ec4e30ff9971c90f6db6f2744486434",
+      "native_pixels_sha256": "af7aaf5783bd92a7c1a2ad5db381b05813bab0e6092d7e9b01106780a5592c19",
+      "id": "G419-0",
+      "target": -1,
+      "group": "meva-kf1-all",
+      "smoke_assessment": "absent_visible",
+      "fire_assessment": "absent_visible",
+      "review_status": "assistant_reviewed",
+      "review_scope": "This sampled still only"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 2398,
+      "seconds": 80.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-002398.png",
+      "sha256": "63f4f8cef064cdd58f1d08576cd260bab3fed28c7bca27482d5232a6b5697674",
+      "native_pixels_sha256": "4a680d4095407a34c2d84a0e666ee2238f6584db8262ee5aaa8a14a275c78819",
+      "id": "G419-40",
+      "target": -1,
+      "group": "meva-kf1-all",
+      "smoke_assessment": "absent_visible",
+      "fire_assessment": "absent_visible",
+      "review_status": "assistant_reviewed",
+      "review_scope": "This sampled still only"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 4798,
+      "seconds": 160.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-004798.png",
+      "sha256": "9f82254eb47b090d69aef2ed5e4c854a92d8cebfd579b65041faaec12bebb608",
+      "native_pixels_sha256": "2658a9c8a1dc74439de61a007fb1b588f33f0cff04346bd52f9f54f93eb44e07",
+      "id": "G419-80",
+      "target": -1,
+      "group": "meva-kf1-all",
+      "smoke_assessment": "absent_visible",
+      "fire_assessment": "absent_visible",
+      "review_status": "assistant_reviewed",
+      "review_scope": "This sampled still only"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 7198,
+      "seconds": 240.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-007198.png",
+      "sha256": "27eb2fa70dac857aa17616ac7c7ec962d738caf6ca90cea2865c9e9911b6094b",
+      "native_pixels_sha256": "6f3c177fc80c177e3d63f5b1393bb07eaad06d55ce76d34ba7daf4b9f104251e",
+      "id": "G419-120",
+      "target": -1,
+      "group": "meva-kf1-all",
+      "smoke_assessment": "absent_visible",
+      "fire_assessment": "absent_visible",
+      "review_status": "assistant_reviewed",
+      "review_scope": "This sampled still only"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 0,
+      "seconds": 0.06666666666666667,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-000000.png",
+      "sha256": "a6eb79d9391b350e28240da9a6f8810d0a202f57f204caffdc7c97b99d41b90d",
+      "native_pixels_sha256": "45b00efbcbc0b337be30506ee5fee01f0f6dea78e8b5c9f1c656684a2b672aa2",
+      "id": "G423-0",
+      "target": -1,
+      "group": "meva-kf1-all",
+      "smoke_assessment": "absent_visible",
+      "fire_assessment": "absent_visible",
+      "review_status": "assistant_reviewed",
+      "review_scope": "This sampled still only"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 1618,
+      "seconds": 54.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-001618.png",
+      "sha256": "c0e4fbe427983642902b42b28f9ab31ec56b2a5a39bcdea41ddf0dba40433a41",
+      "native_pixels_sha256": "445d6c319c2a844c35f260f592901d0c9a2b7d4689795161016e8d37c8491a25",
+      "id": "G423-27",
+      "target": -1,
+      "group": "meva-kf1-all",
+      "smoke_assessment": "absent_visible",
+      "fire_assessment": "absent_visible",
+      "review_status": "assistant_reviewed",
+      "review_scope": "This sampled still only"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 3838,
+      "seconds": 128.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-003838.png",
+      "sha256": "4e62fa9602243f9b80720a13a0fa2069a5b5629964d9d64b2db112092f5a09d2",
+      "native_pixels_sha256": "2107b66b361a28f13f732430f46eaa088e58686465df444ad18c333a523a714a",
+      "id": "G423-64",
+      "target": -1,
+      "group": "meva-kf1-all",
+      "smoke_assessment": "absent_visible",
+      "fire_assessment": "absent_visible",
+      "review_status": "assistant_reviewed",
+      "review_scope": "This sampled still only"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 5158,
+      "seconds": 172.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-005158.png",
+      "sha256": "d01377f088b31f63c0b5fd2a62a161e215ed8709c73bb13ca00712a4e9c0d4b7",
+      "native_pixels_sha256": "b627b24f1ab6d8b53a383e689bde5b66f5b6400a3c3ec8138da721827da07597",
+      "id": "G423-86",
+      "target": -1,
+      "group": "meva-kf1-all",
+      "smoke_assessment": "absent_visible",
+      "fire_assessment": "absent_visible",
+      "review_status": "assistant_reviewed",
+      "review_scope": "This sampled still only"
+    }
+  ],
+  "reviewed_positive_images": 29,
+  "approximate_positive_families": 9,
+  "training_counts": {
+    "1": 100,
+    "-1": 102
+  },
+  "fitting_scope": "Exploratory frozen-encoder scene-head comparison; no new detector training or model promotion",
+  "protected_CCTV_images_used_for_fitting": false
+}

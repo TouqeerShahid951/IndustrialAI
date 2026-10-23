@@ -1,0 +1,26 @@
+[
+  {
+    "camera_id": "G419",
+    "source_group": "meva-kf1-all",
+    "key": "drops-123-r13/2018-03-05/09/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+    "url": "https://mevadata-public-01.s3.amazonaws.com/drops-123-r13/2018-03-05/09/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+    "bytes": 68430214,
+    "etag": "d15584cc9ae70b13ca70577099be4488-9",
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+    "license": "CC BY 4.0",
+    "role": "normal indoor CCTV candidate; frame labels pending",
+    "sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87"
+  },
+  {
+    "camera_id": "G423",
+    "source_group": "meva-kf1-all",
+    "key": "drops-123-r13/2018-03-05/09/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+    "url": "https://mevadata-public-01.s3.amazonaws.com/drops-123-r13/2018-03-05/09/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+    "bytes": 74831422,
+    "etag": "5b3920c7e31f45789c7a2761346a19d4-9",
+    "path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+    "license": "CC BY 4.0",
+    "role": "normal indoor CCTV candidate; frame labels pending",
+    "sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5"
+  }
+]

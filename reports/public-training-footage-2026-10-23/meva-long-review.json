@@ -1,0 +1,2930 @@
+{
+  "clips": [
+    {
+      "camera_id": "G419",
+      "source_group": "meva-kf1-all",
+      "key": "drops-123-r13/2018-03-05/09/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "url": "https://mevadata-public-01.s3.amazonaws.com/drops-123-r13/2018-03-05/09/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "bytes": 68430214,
+      "etag": "d15584cc9ae70b13ca70577099be4488-9",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "license": "CC BY 4.0",
+      "role": "normal indoor CCTV candidate; frame labels pending",
+      "sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "media": {
+        "fps": 30.0,
+        "reported_frames": 8521,
+        "decoded_frames": 8521,
+        "last_valid_timestamp": 284.0,
+        "timestamp_errors": [
+          {
+            "frame_index": 8519,
+            "reported_seconds": 0.0,
+            "previous_valid_seconds": 284.0
+          },
+          {
+            "frame_index": 8520,
+            "reported_seconds": 0.0,
+            "previous_valid_seconds": 284.0
+          }
+        ],
+        "sampling_seconds": 2
+      }
+    },
+    {
+      "camera_id": "G423",
+      "source_group": "meva-kf1-all",
+      "key": "drops-123-r13/2018-03-05/09/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "url": "https://mevadata-public-01.s3.amazonaws.com/drops-123-r13/2018-03-05/09/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "bytes": 74831422,
+      "etag": "5b3920c7e31f45789c7a2761346a19d4-9",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "license": "CC BY 4.0",
+      "role": "normal indoor CCTV candidate; frame labels pending",
+      "sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "media": {
+        "fps": 30.0,
+        "reported_frames": 8580,
+        "decoded_frames": 8580,
+        "last_valid_timestamp": 285.96666666666664,
+        "timestamp_errors": [
+          {
+            "frame_index": 8578,
+            "reported_seconds": 0.0,
+            "previous_valid_seconds": 285.96666666666664
+          },
+          {
+            "frame_index": 8579,
+            "reported_seconds": 0.0,
+            "previous_valid_seconds": 285.96666666666664
+          }
+        ],
+        "sampling_seconds": 2
+      }
+    }
+  ],
+  "samples": [
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 0,
+      "seconds": 0.06666666666666667,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-000000.png",
+      "sha256": "53461c1d697a46e79f7da14f2598321b0ec4e30ff9971c90f6db6f2744486434",
+      "native_pixels_sha256": "af7aaf5783bd92a7c1a2ad5db381b05813bab0e6092d7e9b01106780a5592c19"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 58,
+      "seconds": 2.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-000058.png",
+      "sha256": "2e596457c46159be456976b320a5b0d6f459c117561cc92e8cb731dfd6ed8ec2",
+      "native_pixels_sha256": "2dc4ed835b056f1cfacaab945b404f1bfc7e4c6f1b1be198fc8ad0647a44c2ab"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 118,
+      "seconds": 4.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-000118.png",
+      "sha256": "758e1eb7514b9cc3f8a32c6d1d4ae8ca1714ec6cca5f67087728090b746d8b62",
+      "native_pixels_sha256": "716ecda2eb407fa46ed547fbe61f678375af0039b724a45e70b0117139f3f8bf"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 178,
+      "seconds": 6.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-000178.png",
+      "sha256": "8d5407c13fa7fcbaf36e4b32fdb638613359c5d69ea8dde50c754a83ba95b067",
+      "native_pixels_sha256": "c8b230f155386678705ffc68611a0e35ace9b025390813eebe5b4f653bde4180"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 238,
+      "seconds": 8.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-000238.png",
+      "sha256": "1536472bd6a3aa5b1e2e24097d240a839fc86f4a980d03ea1f35433c1aa88708",
+      "native_pixels_sha256": "079578a0acbdbf39b125a482082b32deca8de1705018ae8d9c92afa17cd283a1"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 298,
+      "seconds": 10.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-000298.png",
+      "sha256": "a5eaeb237879cf9477a9c56a5fdd9314b378de24684b654548e7d2feae783f72",
+      "native_pixels_sha256": "8a89fca866fbc4e7be1ae4f56dd3c73aae2d261ea47e60ca741c97fc483544a6"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 358,
+      "seconds": 12.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-000358.png",
+      "sha256": "671d44f6f81a0d7026a5e8f5023b3c57057b85bb11b7971e8dc59ba500811425",
+      "native_pixels_sha256": "72919e7bdadffed1055d95cdeb3ae50601f454616650835687ee6e1c78d82f94"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 418,
+      "seconds": 14.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-000418.png",
+      "sha256": "63fe963d95391e0ad67db52b1ad557d1c9f6941ff6484f344e5aa911682181a0",
+      "native_pixels_sha256": "748736c0b2c3de5db5d2a53c3b4d2ce312235e325274f88934714de29c3c94cf"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 478,
+      "seconds": 16.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-000478.png",
+      "sha256": "62eaae3dcc4f1c5bfb93d680226b2dc60115f4865cbe4ce10b390d93405ce088",
+      "native_pixels_sha256": "7c515f0776b17e4e63c477dd60056938c6d038c530ef18c6966c6449619bd04e"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 538,
+      "seconds": 18.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-000538.png",
+      "sha256": "5b89cfe3c0ee51b745ecbf7e200d4de7a4e7f695ff83cc5f40991155191d53e7",
+      "native_pixels_sha256": "dbd9abb72f0480dd60e79b03c8779619244257e4bd47aa74694892917aca86a3"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 598,
+      "seconds": 20.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-000598.png",
+      "sha256": "76d8b7305136a06db6cef231f34c9c4fb9e6d6cd284e0bdc3da2d2013f8500b7",
+      "native_pixels_sha256": "65d539053b519c35f7e0ddc19db4c718ef38bde91cc23262cd65a3f2fb41e1e4"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 658,
+      "seconds": 22.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-000658.png",
+      "sha256": "dde954a6ffd1332af790dd6ff81d2738d08b1eac3f2931e727d250c47b070508",
+      "native_pixels_sha256": "c7b15a8ef281e85d14b67dfe2feb396ecf5416ccb1b72bb6f7a4d7e6b1c1660f"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 718,
+      "seconds": 24.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-000718.png",
+      "sha256": "0d2fa79c463eb1eee2009c031ed5acdfed42b701bc8378988888d134a7dae4b9",
+      "native_pixels_sha256": "cc032daa2eb196d35ba8e5ae4f50bac61da3035266f3e67957198cbdbff6a058"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 778,
+      "seconds": 26.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-000778.png",
+      "sha256": "b684fc9e1e6db84e2c07bbfa3d7355bbb5f8c646804ee6dee150c936ad6bb894",
+      "native_pixels_sha256": "9dd4c6d78085b610295b2bc8c99c2f25865c1189e73c5c62ddafd89bf53f8f78"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 838,
+      "seconds": 28.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-000838.png",
+      "sha256": "4e206b9dba679a9716f5676e9fdb4b1f5a2dfc03b0864acd72994071e62fa23c",
+      "native_pixels_sha256": "ead12972181dbfba55ad86dfbbbc20ec91a9485f4d5b16d168a879b936d46c32"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 898,
+      "seconds": 30.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-000898.png",
+      "sha256": "f4c474f0dcaea6c8cd1407ea2db51477ab72df2c09396c246b0e8f58b6e8aa25",
+      "native_pixels_sha256": "89ee8e1aee8727a69b2c45896ff0378728a9a2c606258f8828d43067fa0bdda4"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 958,
+      "seconds": 32.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-000958.png",
+      "sha256": "10fee4e566287c6e7eb8c0e58b1075a5276f8eb00a7f16f3bb8fda292aed9ea8",
+      "native_pixels_sha256": "69195cc7d1810ae5b4c979bb82d0b02820e5af5174e6aa3f4c81dd948e035249"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 1018,
+      "seconds": 34.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-001018.png",
+      "sha256": "446ac3712bcd92cd74f245b7b2d891505220617a90b6208d0e42fa8dafd4acc7",
+      "native_pixels_sha256": "c856fbb7234226b0fd4fc5004dc0316ac8ddc1105d873f556da04d097824a73c"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 1078,
+      "seconds": 36.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-001078.png",
+      "sha256": "dfd5b5562aa8ef740c306eb51e513aada1faf6c9e5645d693676d96a6a98b190",
+      "native_pixels_sha256": "d45b9889572a681dda8c0669190c0c623a73906dceb0010cde07ea23e6a69dea"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 1138,
+      "seconds": 38.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-001138.png",
+      "sha256": "91d13c7e09eb1e949dae90fff1cb983948ac7fa56e6d8843903f78bb4a486d45",
+      "native_pixels_sha256": "025d96d47201f426bd8b77f67d63f5a75399cd9e4b993f345ce924e0a763df92"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 1198,
+      "seconds": 40.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-001198.png",
+      "sha256": "bd9401e475c2abe73031e11cc80564c6cb9f7b4207b15787729c5336147a7eae",
+      "native_pixels_sha256": "f0393534c7860818d3997390d6de1635cba1e5f0db91803172e8a50c5d5cf3c1"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 1258,
+      "seconds": 42.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-001258.png",
+      "sha256": "210c28e21522db9b7e606455c1e1b00f7bc1f0e8735c877d7e1c8f253b4187e7",
+      "native_pixels_sha256": "25f9ff7b67943c148a3ed412c501e3f90841bc81e0155e562a24970c684fe81b"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 1318,
+      "seconds": 44.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-001318.png",
+      "sha256": "fe50a05766ce68bb05a392ec2882551428a0c8158814b84913df245f11f47d62",
+      "native_pixels_sha256": "74672f6a65a4b192f9029ddc71949bb9c09cfe37ff43aadaac196ec7cbb0baaa"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 1378,
+      "seconds": 46.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-001378.png",
+      "sha256": "78ac06f8068218ecf3345a1bb1be416aa309284b35213b837da0fa3a1cf31af8",
+      "native_pixels_sha256": "b1d9dfdf51d2f6717075adf8539a12aaf0ad82c04e1b442710427fe389faa47a"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 1438,
+      "seconds": 48.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-001438.png",
+      "sha256": "4d9b29ae88e711c5ef7c5485bc651231a26b55541e40ae905e0db6a520048b35",
+      "native_pixels_sha256": "22a02dbb857e2a8c987c71ba09b7369da291ee84e0ad58f265a75ec18d767b1c"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 1498,
+      "seconds": 50.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-001498.png",
+      "sha256": "50eaec21bdc6fa9d7a4b4cde0d35a2628853417383988a20c81e3752a6f25eff",
+      "native_pixels_sha256": "124dcc084e349ae1526046bb13c24e1f87ef0bcfd0a9241b0d8addf53272b7a7"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 1558,
+      "seconds": 52.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-001558.png",
+      "sha256": "1654f504beefd33006216538edaba16b94338aa93d538969ee715adb3493c04c",
+      "native_pixels_sha256": "e2c886e52963fb1e168fda9de5f43548f4f0acaae3b9ba9acb05dcb3426e372a"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 1618,
+      "seconds": 54.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-001618.png",
+      "sha256": "0630887a286893de0c00a5742fb18aca44cf3ae32d9cb7dad3174eabae55a714",
+      "native_pixels_sha256": "f12c97fdb99d752b3c567accf3d6cf5efb8005a89e1d0b14200b8dec9166e5c9"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 1678,
+      "seconds": 56.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-001678.png",
+      "sha256": "42dc8cac68efe1c7059924d7c8306b747207c7175659706d979c4a703895e033",
+      "native_pixels_sha256": "df3cd5f0979b7dcaacf4f7a088c7d7b85404cb76e540ae53dd5582e61778591d"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 1738,
+      "seconds": 58.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-001738.png",
+      "sha256": "47a89aa3d2fa54457ab5e50a56c84b930dca86d42f7bed1f6c0c87e60bb93d46",
+      "native_pixels_sha256": "27e12710242d30867cc5443cbfb412d1e7a644f6625dc19b7f05878840e31e82"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 1798,
+      "seconds": 60.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-001798.png",
+      "sha256": "f8ba5b8dc0cd7e69a51eeee7763681aaaa1286517db7efdab1df979dda1bf6b5",
+      "native_pixels_sha256": "aeb0011f32ecb9117c256f39079d18b7ce838c9ce56a9509c994861e38f81aa0"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 1858,
+      "seconds": 62.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-001858.png",
+      "sha256": "d084ea999de248f891ae9d7bb94ae05460afdb50ead7e3275ba60ac354c0ac6f",
+      "native_pixels_sha256": "1ef5e97a621e869f70def3000ab4e16f2c0911666f407f0dd32ee966c2216f79"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 1918,
+      "seconds": 64.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-001918.png",
+      "sha256": "57f1b2218089daaa9099a98217a3adc1f6839a9a2e54362260d05da49871af30",
+      "native_pixels_sha256": "d6bab3aa4aa4799eb9bd8ea8b12e4420b5b3498a1e76c209168d7a7c2f587ed7"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 1978,
+      "seconds": 66.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-001978.png",
+      "sha256": "3d1a3435b35703ea41473a2c60d9833ff683656dc8c6f40fa2523f7e2dc969f2",
+      "native_pixels_sha256": "8f7676dd4c963428e95089b0e3f9c26b08121f8e06ad381b7a7feee49ecdc83b"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 2038,
+      "seconds": 68.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-002038.png",
+      "sha256": "81897edfb11b8957ff809384132fad8ef0d7176aef7f733fe540672d0589bfad",
+      "native_pixels_sha256": "076c8db3e97cf8d2b12a83ef80360468f4b8a7f40740059fb0e271f09abc4e61"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 2098,
+      "seconds": 70.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-002098.png",
+      "sha256": "1619e63be9cfeb195e08a5ccdb1d33946baf405eb6421fe7ac114182c03140b2",
+      "native_pixels_sha256": "0bb5b68b575cbad4cac94ff44f156aa6f20b99249be7f5e9230147c2970de9e1"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 2158,
+      "seconds": 72.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-002158.png",
+      "sha256": "bcf9960485836be34aaa03eca4b2df6af1f513d03fac4e49ce8d6e867e83a049",
+      "native_pixels_sha256": "c101874e862aa993f421aa2f9ef070a3e2bdcb9abc59b3fe0136058ad795424a"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 2218,
+      "seconds": 74.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-002218.png",
+      "sha256": "b79e8c9ea26cba860cddf47c3d6f51ce4b5315ed136a2d64987dcb4ca5b172da",
+      "native_pixels_sha256": "12989ac8afa7ec990cfffbe3cf1eab600c0c3743a7214174266744c219986c06"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 2278,
+      "seconds": 76.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-002278.png",
+      "sha256": "7fcad1d1651e935edf92e9d8af235b3f5684f21ebc12204cf4f002349a05937d",
+      "native_pixels_sha256": "775bcdb29b026b40fd0fd731133e1c781218e112afa9fcc785b96441661b5041"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 2338,
+      "seconds": 78.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-002338.png",
+      "sha256": "43b4e58f4880de97da9fe4f207401524d6bae7046c3f9fff03b387f52259273f",
+      "native_pixels_sha256": "aa8da0582a65de1286771caf29164b371bd9c8bac69f42b3c5df41898b700697"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 2398,
+      "seconds": 80.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-002398.png",
+      "sha256": "63f4f8cef064cdd58f1d08576cd260bab3fed28c7bca27482d5232a6b5697674",
+      "native_pixels_sha256": "4a680d4095407a34c2d84a0e666ee2238f6584db8262ee5aaa8a14a275c78819"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 2458,
+      "seconds": 82.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-002458.png",
+      "sha256": "69e9dd32ac02993a2063db2cf3f7ca6ea669e34dadc3659af186950944ec2ba2",
+      "native_pixels_sha256": "984a9af0ad4d9ccf8e84287b215d1e41e2f983a3cb7a7f39e3cabb46764b8bde"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 2518,
+      "seconds": 84.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-002518.png",
+      "sha256": "d0d589e811fcdd945aa76ae4a8a7073aaf6e8ca7cc89e7ae5004c727cf7040e2",
+      "native_pixels_sha256": "64e9e3b28e5e12820a271aa667e3c07215774a091ba8af7538dd145f53fd2c85"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 2578,
+      "seconds": 86.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-002578.png",
+      "sha256": "93a761b7f4bb9db04ed6473034f9f5df01c4a05b1392d987341a9e0659714405",
+      "native_pixels_sha256": "15c526fcb0c6bfb59d0d90cd72315087693f8d7f3dd4a2d237fc16dc9decf189"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 2638,
+      "seconds": 88.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-002638.png",
+      "sha256": "1c33d7c8d7034d386f9450aeb5088164b3ce80f3f35a7654cc2e1ebd0d68ae2c",
+      "native_pixels_sha256": "4dd0afe3b9f48216caacf3ab32eec6508a416d841383e7d54fc3755b58536857"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 2698,
+      "seconds": 90.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-002698.png",
+      "sha256": "403e4ee9c900911ae1844110f63d8353d6a42d59ce52f9a29d6a6117010e1d3a",
+      "native_pixels_sha256": "e9fa148ea2b97ff94328ec7e04e3d92c0da3f2e306c2842b05ee353d1a0a1d2c"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 2758,
+      "seconds": 92.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-002758.png",
+      "sha256": "90129c0285a436a26a0f61ffe4d35d42700617bf8eee9f9f3ee89116ef49ee36",
+      "native_pixels_sha256": "dbaad063bc029f761f0966ff4ae8df26b7064fca0b518856f0058a7401deeae6"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 2818,
+      "seconds": 94.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-002818.png",
+      "sha256": "0901c5dacacefa9344ad1ff4baff9f5df3d66ae67d9e0358470faa966eb421db",
+      "native_pixels_sha256": "30a894fb92d33e99aad339258fb74676ef0ebda00e00bed3c3722910925f7a99"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 2878,
+      "seconds": 96.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-002878.png",
+      "sha256": "7909107262bfe8bfbe3c63e43d9e953821e88d56908e1c872b1e435e44cfa9d7",
+      "native_pixels_sha256": "7ff5f4437559872023c1e0243024f6fcb2cc12b1b191d7897c44771d3acd5089"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 2938,
+      "seconds": 98.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-002938.png",
+      "sha256": "8d6190a806df17c6dd4df5173e3e78b39a73366971b18b937444c798968dae4d",
+      "native_pixels_sha256": "b64702e5d99ff3830d66891139dea1c8ca997a936956ebb4724b139d080c17c1"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 2998,
+      "seconds": 100.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-002998.png",
+      "sha256": "b2711aed516f3484c22ccaf6e5970faf3e13b42a2c316e419155deb89835a349",
+      "native_pixels_sha256": "9463c74fc9b42c802e46b192cdf2f577f89becff42fa6fdec31d854c0e92afc3"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 3058,
+      "seconds": 102.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-003058.png",
+      "sha256": "478002c4704b07f96310eedd236ae89293d5e86133a4fefce184a261b0764655",
+      "native_pixels_sha256": "480cee142524c85ce5138f1cbed52fddd63d834dfa35ecacf9ef4889ac5f3b72"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 3118,
+      "seconds": 104.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-003118.png",
+      "sha256": "a5f4832d5b84a244db05eec97cebc963bcc2133754bf50b34df847588088a9d0",
+      "native_pixels_sha256": "c5252c0126ed4b17f69d300d6abd0e513d296abd7977828412ecc23e96c5f3f6"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 3178,
+      "seconds": 106.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-003178.png",
+      "sha256": "1fc69f808ade9b76c40408323193c5884c00fbd7d7a6a12386df591e7f990e19",
+      "native_pixels_sha256": "80a3191bcb45e4c1d7b8f9518ed685b8b59f3a2da20fe383f9ad6968208021d3"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 3238,
+      "seconds": 108.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-003238.png",
+      "sha256": "2d8538d1481ad2584c24a63d4602fc45513a6c8a3ef582f26033177cbec42812",
+      "native_pixels_sha256": "c26e2411d2bdeb5676bf34d2cd550d8f918da349b69f1a22454dfe5310332c3b"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 3298,
+      "seconds": 110.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-003298.png",
+      "sha256": "20bf7f30dbda3a000ec2527265ddd9e27850bde99168227a75b7ed4c9b0124e5",
+      "native_pixels_sha256": "42c90bf69fdd59ba9a3bdbee623dac954946d45042f4c497ff1356c0323e7ee7"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 3358,
+      "seconds": 112.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-003358.png",
+      "sha256": "14734e59c6ea0bb544fc3085ade9aa96c2cb6971ff6817af94cd532090eaeb32",
+      "native_pixels_sha256": "b2fdfad0ec46530c3fc0c61cf88481aac9bebc4ea9267036c7e2ab9442840008"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 3418,
+      "seconds": 114.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-003418.png",
+      "sha256": "0655814be1d68a1a580eeb4fe0d2fc950ea9171b21ec0530b32d4075fb74b673",
+      "native_pixels_sha256": "e3f31cbe71963ed136d233305e80e86fd1e53d913b9da1868e5e16d00a1380b8"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 3478,
+      "seconds": 116.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-003478.png",
+      "sha256": "0afe6f441bbb1cc37de08270d7d5c10ed6464af11fcec56206678bb95a8c2a85",
+      "native_pixels_sha256": "4b0ea760d97727aa5974f0532d9c4c8c93d3e29b5775c4de3e0afde2b286c311"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 3538,
+      "seconds": 118.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-003538.png",
+      "sha256": "ebf528071d19a319f1d378c26a0a7f3296fb2f0b021ae8619d9ff7456604068f",
+      "native_pixels_sha256": "06e7d543704d0270e8520fe1190132dd70354f211597a856848516a130d7d231"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 3598,
+      "seconds": 120.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-003598.png",
+      "sha256": "07ee9f31e8b6932c1576ed1acb0f26bd980c90a49e25ba286df7256f86775c5e",
+      "native_pixels_sha256": "292bb767ef971d24802370861801e07e653c28ed7a80af223aeeacb139a602f3"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 3658,
+      "seconds": 122.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-003658.png",
+      "sha256": "9a66863c8d6b2b47d3d43f48b189c6ca285ab8bf4064cf3658cff890b392afc7",
+      "native_pixels_sha256": "67bee618ca9cbba1362a0a251bbd7e623b0ae02ceeb31dc2a5d4d8155b27133e"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 3718,
+      "seconds": 124.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-003718.png",
+      "sha256": "542332fd68d28c78413d2f1d69fcc5096a909d0c3ad1442a2bbb64df03f36e42",
+      "native_pixels_sha256": "9a91727e4e5ab69bdadbe0463b63a021c3f24ad94d1d306e3e4b617f67faf51a"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 3778,
+      "seconds": 126.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-003778.png",
+      "sha256": "6f856410b5df04d254e51a5be213db0b77fa488b72c7bb0c77b85897a0a1a5eb",
+      "native_pixels_sha256": "d2a0db8e53dad6be73121f5e615c311b927e5095d960612a518328b46d559544"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 3838,
+      "seconds": 128.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-003838.png",
+      "sha256": "472d3625ef5275eb25743a3df5627abb02f9467382f9f706f66f0d16d430221a",
+      "native_pixels_sha256": "3bd51a9ce78e4dd24a187a20c75cba07ef75af0aea89871aa13efc0c731ebb5c"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 3898,
+      "seconds": 130.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-003898.png",
+      "sha256": "f7c81d14a436148ac4bc7ce75033b4cbaf7482fa8059ffa5e101d43ebdda2214",
+      "native_pixels_sha256": "2dbb5e1f3b43ad1640684c1033a1f4c78549f6453b5f74e90ca0c72726e6dd84"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 3958,
+      "seconds": 132.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-003958.png",
+      "sha256": "e1f47ed3c5c5e7672baf10a2909192f02c80d24f16a14193e3bf534585f45c85",
+      "native_pixels_sha256": "1714098c9615d057fd62d45c4e3ae59721cd27ab87f3374a6795cb334bfc38c8"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 4018,
+      "seconds": 134.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-004018.png",
+      "sha256": "de0259a84f0b7bf2ad5883656560887112958d36f1ea3e66cbbd235bc1d887e7",
+      "native_pixels_sha256": "85576998b67ca80a5600148752c9ada169664650195621be4326587e9ae5acce"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 4078,
+      "seconds": 136.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-004078.png",
+      "sha256": "91817de2937f6351d9498d10516afc2d40a390163dafa122730283cff4baf224",
+      "native_pixels_sha256": "c5deca788c79e0b8db67ebd09082f65a34f616b1aeb6d9d1adc28274e4564164"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 4138,
+      "seconds": 138.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-004138.png",
+      "sha256": "390340e8b6ad69599946b98bf21d285153b2a74b32f00507db2f89c426893b78",
+      "native_pixels_sha256": "488963f61cda1322cfa3ee1bb7f69fabc4dbbc33e14c68716affa847aed40e5c"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 4198,
+      "seconds": 140.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-004198.png",
+      "sha256": "0b31c32e52261e320d4afec3b273955f8ed0ec33a226e774731aecdf9235d8c3",
+      "native_pixels_sha256": "e707f57e33aed1b2b3fedd850f4c9816c5d0486ae58b424bc407baa20e814e6d"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 4258,
+      "seconds": 142.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-004258.png",
+      "sha256": "3cf5420604029c54b46d4fb0598d5c7a0108e287a2fcadb7c6aa506981cabdc4",
+      "native_pixels_sha256": "53b8f0dcd0690822192ae3f3ee1e6cc727c0a85e2302e3766686427d43c53539"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 4318,
+      "seconds": 144.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-004318.png",
+      "sha256": "88de95523bbc53e1ca4627d4cb80e26d48fa1e2383ea8056ef75987d5a82fd3b",
+      "native_pixels_sha256": "aca6bfb87846c16aeab68c7a2d40492f858e040bd8c14d129d590787ea7da0cd"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 4378,
+      "seconds": 146.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-004378.png",
+      "sha256": "5c5bc87286dc7660abd425ad0c32a2294ee9a7ec2b16042a3df9e17145ea1f6a",
+      "native_pixels_sha256": "eddc6eb176f4b246a3977336bd376142751c16f7f59a20c8956a8201467dc4cd"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 4438,
+      "seconds": 148.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-004438.png",
+      "sha256": "fb18970ff96a070e80021901684337e8719b40abc36a65c867aa269b741aa24f",
+      "native_pixels_sha256": "728158e1494b1fafad4db82c8cddc2ee746a3b8a38e4fff5a940a19a97e3bcde"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 4498,
+      "seconds": 150.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-004498.png",
+      "sha256": "62e3a0d805a1af85ca47e0a22ee9a6fade1f54ecdc12284377455696d6944352",
+      "native_pixels_sha256": "795da5aff4d48fed444f583af6c2b03e9149e64306b2064be87a71ebb1e53994"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 4558,
+      "seconds": 152.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-004558.png",
+      "sha256": "80f172aaa4c14bcdb85c0f6037c11e8b64f4a3bb5c5bb2df38cf70f5f0dd7823",
+      "native_pixels_sha256": "10245dddf753f531c3285a2cd0a25661349e063ede57a3f6a5dbec937fb2b7b4"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 4618,
+      "seconds": 154.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-004618.png",
+      "sha256": "cf4706c03fbfae44d95c780b12230c00a383f745bad1598a0a1a0a262b1d68d7",
+      "native_pixels_sha256": "8bd63aa279fc71e1058e2d32e902bfaf9942fa82f3d97a8aa82eafc66057411c"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 4678,
+      "seconds": 156.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-004678.png",
+      "sha256": "acb745d68d7f89bd886e4589a67c161a8d96b5b37c11ec1f930ebe1cbe5ea64c",
+      "native_pixels_sha256": "c0b36bda89c47a3a82cab55dd247730bd79dbe36089cf726f97d7f73212ec596"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 4738,
+      "seconds": 158.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-004738.png",
+      "sha256": "ff368d312be4e7ce12c08d6b4762e25a8f008adfb42af5ce87bc11b1db7c891a",
+      "native_pixels_sha256": "e357059beb052b1d601481ffa045a37b1e20128a6b67bef5f59626dc1e6c3e29"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 4798,
+      "seconds": 160.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-004798.png",
+      "sha256": "9f82254eb47b090d69aef2ed5e4c854a92d8cebfd579b65041faaec12bebb608",
+      "native_pixels_sha256": "2658a9c8a1dc74439de61a007fb1b588f33f0cff04346bd52f9f54f93eb44e07"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 4858,
+      "seconds": 162.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-004858.png",
+      "sha256": "c5b1eaefdd1cf63dd24e513d1203c537c0ebfdda83232914ca19b71ef1ec6d15",
+      "native_pixels_sha256": "56a881e39944fd4ba9956b2506535106e44d3e272192b624de64e45b1e3a464a"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 4918,
+      "seconds": 164.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-004918.png",
+      "sha256": "db1f29845457df3e7f010146203217893675ab5e90a066c7f84ee718e4c7c7b1",
+      "native_pixels_sha256": "dcf7a00ee2981ff39932ed09387fe90fc58d0c72d72ca22b2508742a18f3aecc"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 4978,
+      "seconds": 166.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-004978.png",
+      "sha256": "3ee3e9a8552ca94a5b51c1cbc6edd3e50695304d2faddc3b68a0434acd09fdca",
+      "native_pixels_sha256": "39fc48f10b8e9888008695bc7c71f3676b2a4a3b66e55b8a955c21c54544af3d"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 5038,
+      "seconds": 168.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-005038.png",
+      "sha256": "3dc076231a32d7eb7561f28d92a162b46ac31060dc77f5e6cb074bb67170ff66",
+      "native_pixels_sha256": "1dae12e13fe08ebe94a9bbd91e7122172b0f11194d546d7e1baa70bfece80e85"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 5098,
+      "seconds": 170.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-005098.png",
+      "sha256": "c41969bc9de08536c4d2fc6de18055d2a994f68526212adb353843d0b41b0d21",
+      "native_pixels_sha256": "03de5267b20451e6c4901eb40a0e7a9a90ec06f378f3a2990125c15fde5f4d53"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 5158,
+      "seconds": 172.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-005158.png",
+      "sha256": "fa4cdc8b808da12bbe5c3db8e2270fd9f54ae8bc652883ee62bd8afe79f0db84",
+      "native_pixels_sha256": "66f1ab3e092e2fdd959cdd67032e5b13c8b1927e28827ab69b2bc20f97313bb4"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 5218,
+      "seconds": 174.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-005218.png",
+      "sha256": "d1153e14817303346ea24b86f901b060f5a25b9c72970a030eaf6f2e4aaee9ca",
+      "native_pixels_sha256": "c1bf9fc066dd3ff8648480eb70f9d06a57d7074cef7fe7302e79757f100ff0e7"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 5278,
+      "seconds": 176.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-005278.png",
+      "sha256": "d745a3ec3f2cc4dfb60fd725bee248650c76d3e7140d1c325b901edad92c9729",
+      "native_pixels_sha256": "d41c1a54dd863cccbed1b607aeeb462f3a8a3f2102de31ef1040da7024e6e1f4"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 5338,
+      "seconds": 178.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-005338.png",
+      "sha256": "1f17a29c55ddc7d64d1df5a98e010ea00db0b122482e7b3c42861ecb534ad5a4",
+      "native_pixels_sha256": "d8008a3e4b3696cb863ed1f56996ae26a879fe8505c8709e7b1ac50688b55be1"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 5398,
+      "seconds": 180.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-005398.png",
+      "sha256": "174682b5e1a3e0f9307c603d5c55c56415b5ea646dfdb604eee9a7cd93403326",
+      "native_pixels_sha256": "0b4b04f3115adac9229d2678054f3100eea25a3bfc4d88cdcd7a2c0b5e8a5cf3"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 5458,
+      "seconds": 182.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-005458.png",
+      "sha256": "f4d4e36a781643a81b8901298157ff76c768151720f66ea14219052272cb334c",
+      "native_pixels_sha256": "d97e60f95e625f6e1d87a09fe680b3e7cecc038e29cfefb3125d60dc16ad2826"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 5518,
+      "seconds": 184.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-005518.png",
+      "sha256": "aedb90ab687bf203de7ee923a9a3940b11376c6571819b0273e731cad9a59d7c",
+      "native_pixels_sha256": "47661b8f8d1f17b62f2bac1f35b695f749e7727acc4ee730e24f650dc8779caa"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 5578,
+      "seconds": 186.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-005578.png",
+      "sha256": "8d034927139a98201b353d3a651858bcc302ff31a13dd57a4c0c019a37d9da53",
+      "native_pixels_sha256": "0ed066cfe9e25d620b77149ec790cf683a69e74fe8950ef1590c0da19b9cdee9"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 5638,
+      "seconds": 188.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-005638.png",
+      "sha256": "f6a9d78ce250fa3c2d530026f9e6353b09875f63813e6cc6a0cf2f0d401cb6fc",
+      "native_pixels_sha256": "a8f329e0c4fd6fd8a153e7c7873a9a2231eddbb7dc7f24b052a4259dbda81afb"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 5698,
+      "seconds": 190.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-005698.png",
+      "sha256": "64814379c55f225d6733713fcc6187ad8d99d46f50d293255b5b5a985de55658",
+      "native_pixels_sha256": "cfea6ea5e29af4501d3412d82b6c9eed239084c82939e398d23b38f76b9c597d"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 5758,
+      "seconds": 192.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-005758.png",
+      "sha256": "c827496c48c1e928a6efd51cec4b96d6ad4f554d7431d8550e91de882621d069",
+      "native_pixels_sha256": "5c20591aa316f134586ad81abdfcd10c08ac954d89ab8ede5f2c6710215c82bc"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 5818,
+      "seconds": 194.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-005818.png",
+      "sha256": "553a19d31a7c2a8bc15a7fcf3bc715a41e6892a4a6130395a4a7c7a295725e50",
+      "native_pixels_sha256": "818d07464d3e6ed8b1605b1444e618fd4acafa6f3fa0dcf18d0ede9a93afb831"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 5878,
+      "seconds": 196.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-005878.png",
+      "sha256": "2445a7accdeb879a4bc62e4942685c63062618069da068b5a5c4008f8556875e",
+      "native_pixels_sha256": "06c2d4653c403177bab537fa945dd4be8fab29d232abaaff77d097c424cfbeb2"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 5938,
+      "seconds": 198.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-005938.png",
+      "sha256": "3fe2ab24485eb8ff986a56954d242424d7997a9448e113ef11bbb02555401c34",
+      "native_pixels_sha256": "a8ab536b61a50722995ee3e07ac716a9b3b209d94f3852efd7a7876b6f697ee1"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 5998,
+      "seconds": 200.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-005998.png",
+      "sha256": "9794f5712471e6dc9cf17b1aa3d179c905d328c8660ea72d0be04aa37d19d3a1",
+      "native_pixels_sha256": "23d17aa786f5c79b928bac2035b8662f3427917c88fd17309dc0fac23989b0e3"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 6058,
+      "seconds": 202.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-006058.png",
+      "sha256": "38bf2235f83614370f997c79857583e269865dfdbfea9d5f11a6c4ee17eed076",
+      "native_pixels_sha256": "8aeab1f5107a23ac69530a2f76e8918fa500b0e30017a3de4f81204e021c65f5"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 6118,
+      "seconds": 204.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-006118.png",
+      "sha256": "f9eac3f6b28464185dfaa23fc7405156261dd10779f932864e97df873086c1d3",
+      "native_pixels_sha256": "de553ae9792feaa2e378e1409afa5eb6ca401a301c41e9fd5bdc9845bdf67941"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 6178,
+      "seconds": 206.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-006178.png",
+      "sha256": "c9386c792fc02440adc9584662145a134e63808ea40f759df7582a75ddc03a10",
+      "native_pixels_sha256": "064dc3ae92acb4f8a2e416e6588e00931748a59c8dfbc24e288dc67e481bd252"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 6238,
+      "seconds": 208.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-006238.png",
+      "sha256": "a1dee027ed0cfbc532b7622b39d84994de65b53ec8b661ed68d691c398c79030",
+      "native_pixels_sha256": "ddb44c76b86bd6d5a3a664cfffbc53ce183e27c4067e7e29e576ccef7ec27e4c"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 6298,
+      "seconds": 210.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-006298.png",
+      "sha256": "9293fcaeb39fc1560564b46c60b6071479e074e8d31752269bd187938f890671",
+      "native_pixels_sha256": "fa89778363c867b1b2239063e789dc42ab197ba4cfe3ea4138adb58a23098f4e"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 6358,
+      "seconds": 212.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-006358.png",
+      "sha256": "b5fbce637ae7f390bfa207d8880e95525bde545c87b5cdf42ff81c4674f47f17",
+      "native_pixels_sha256": "48c9a1d19f3677ca707f8f38fc891db4c07a6773bca4f5f3d06c127778274cba"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 6418,
+      "seconds": 214.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-006418.png",
+      "sha256": "581022bc73dc1dd7e8e6db0c3723a0b15503fd47ebd3d7101d479f165f5af869",
+      "native_pixels_sha256": "27135cbd8d75de92db2eefc6c700d5ad682779dd8877f7478ddf5bb1f70efc56"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 6478,
+      "seconds": 216.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-006478.png",
+      "sha256": "4a450f96c262ff751b9915d1ea75d99bc06ffd2faa975465c33b0ee6320a2749",
+      "native_pixels_sha256": "76f97d84130ed6c96841f76de0b2139bd62a0754bc9d72c0f05c98836449fa15"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 6538,
+      "seconds": 218.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-006538.png",
+      "sha256": "8862891ab3a2b05ce442f5c94c4c1668fbfb59fa2140be026b73ecedde72b7b4",
+      "native_pixels_sha256": "b27bff439ea15364e24d68b7e042e77c9fbea36dedaf884ad5d65d5a0b38294f"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 6598,
+      "seconds": 220.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-006598.png",
+      "sha256": "505e367712fcc1e23b4e8e0e9f57f854cef4e5a6aefa9232378a473319019f6e",
+      "native_pixels_sha256": "df65335b8fb6b517d8bfc5fc5f88d1bfcaa7837b56033abf6371bdedb591366d"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 6658,
+      "seconds": 222.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-006658.png",
+      "sha256": "29d9e75dca046975196fb1f5aaeb07da38c08e7393d870fe1b9ce4e7b664f279",
+      "native_pixels_sha256": "cd9d46414c6191e1a3904b4c85d06c12fb91fbe30ebce91014fc44fe4961c340"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 6718,
+      "seconds": 224.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-006718.png",
+      "sha256": "ffa579de00be8de89c608d494677471d2bb46614d798a0ef275b8e047874032c",
+      "native_pixels_sha256": "b7b14cb5bd8e449f6703d559d49a6859aafd8687bce066be5d2768c4d45c154c"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 6778,
+      "seconds": 226.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-006778.png",
+      "sha256": "aac9092ede9142872bb578ce2074467c44c7cf20725502a1fec92234fd176831",
+      "native_pixels_sha256": "ff2a8f488fc7d46d04a7a10bfe276cf61d0136334d28f8c2c9d46131a4318bcc"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 6838,
+      "seconds": 228.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-006838.png",
+      "sha256": "8943e5ec40ddc1501ee02070bd779487baf8765da876e3e192a6713428bf94f4",
+      "native_pixels_sha256": "ed8467e598364837a2833f61b908ab2489fc819bd0b55860f2533d82ceb5ea50"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 6898,
+      "seconds": 230.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-006898.png",
+      "sha256": "63007dca00424e809ff9992ed5e35ce4b3cb42f06779ade849beb3ca22021f62",
+      "native_pixels_sha256": "28a41df0080ee351ae3ba109debed5daa81849382ff7a4fb81f0ac009c6f4ee4"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 6958,
+      "seconds": 232.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-006958.png",
+      "sha256": "89aec8861eeca7c23a540762ba495b2990a65ec796bf033b06fdd29a43788734",
+      "native_pixels_sha256": "925c8b54e680e33578a7fde6db258b7547c9f54f2727f92a676c7723cd51a90c"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 7018,
+      "seconds": 234.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-007018.png",
+      "sha256": "09b06f35ecd4d9322a0d4d7218252ba45b59e1fc8c1f57f62e48d04a58a42528",
+      "native_pixels_sha256": "c8918dc78be16f9138087378b254ad0a74a12fee418f3c3e951b46b403a5ea3a"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 7078,
+      "seconds": 236.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-007078.png",
+      "sha256": "7d3d2e398d87c2a534c0baf2e86bc0be69757293e9d1c334511be63c2aaec325",
+      "native_pixels_sha256": "526ad21e06290bb7290dd2aed485f15a8133c2ea43b43519e8134d48559dff65"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 7138,
+      "seconds": 238.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-007138.png",
+      "sha256": "e0cfa6e6832c6620b0e26aead77fa9789a5217b7ef3aae5832fa843c51cfe442",
+      "native_pixels_sha256": "b1738d36688196cab12c8d590657e54c34c7ba90c423a91fb039cb4f088f2fb4"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 7198,
+      "seconds": 240.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-007198.png",
+      "sha256": "27eb2fa70dac857aa17616ac7c7ec962d738caf6ca90cea2865c9e9911b6094b",
+      "native_pixels_sha256": "6f3c177fc80c177e3d63f5b1393bb07eaad06d55ce76d34ba7daf4b9f104251e"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 7258,
+      "seconds": 242.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-007258.png",
+      "sha256": "54c4abf78c3827e971b8d3791bce4dae302451f43b9ef25ba20481d7174e944e",
+      "native_pixels_sha256": "db1e53ab03f6b88a3164eb16d882786036f75a40f49714d5cc6ad9a33e2ee252"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 7318,
+      "seconds": 244.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-007318.png",
+      "sha256": "9464e213945d36d9b1f6328efa21bb5ed4c1ea393a0ae7583660776e28b83dee",
+      "native_pixels_sha256": "a2db5b5becc7dc1ced6c3dc12b8b48a7e212b4a7ab4ce21ac4c14878aee04f6a"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 7378,
+      "seconds": 246.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-007378.png",
+      "sha256": "defe6ffb72c5d5991cc985e3d520800719f8c46837f4960935be34044670fe17",
+      "native_pixels_sha256": "c1fdef94ad247e9c65b01b80a8f8160489b29a4d04fa32e8a98e03ead3a1697d"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 7438,
+      "seconds": 248.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-007438.png",
+      "sha256": "bf2fab17a1a9ece7f2537445ddcd0227fe532a5feca21ea37c9d5aaae7c9139c",
+      "native_pixels_sha256": "657916c810cab5578763a1e30931f52cbdd559fbed487a3ddd57af8bbee7824c"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 7498,
+      "seconds": 250.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-007498.png",
+      "sha256": "e1fcd2461d92af0db279c1c230ac512980fcb67fdc04125dc5b1f6d8e03ac914",
+      "native_pixels_sha256": "e15a668f2ab86efe57e094753f35db10dd6ce3dd51fb092173a3b4e128aa54a8"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 7558,
+      "seconds": 252.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-007558.png",
+      "sha256": "8fb8223950a8f1d6e27565405278fdcb324c7b50ccba04fd5d60a426f119d459",
+      "native_pixels_sha256": "5851d381592c1f90586eda8f52e019eae1e00738391e2d0f7e16a176fd172dc4"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 7618,
+      "seconds": 254.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-007618.png",
+      "sha256": "d36b0d2ffbbfd6f0f326d564ff9807e514b09df59bd3fb884a24f517793327f7",
+      "native_pixels_sha256": "ef42d3572b523c206b65742a8cc02478f7f1a8a3018991979953055b8db38b05"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 7678,
+      "seconds": 256.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-007678.png",
+      "sha256": "4b4d139e86384e3ba0a3e273d8b937b2d784d0be4fd1dda98777f6b625e6b127",
+      "native_pixels_sha256": "d11e4962b088f6abf90fe82766ce4d2c262b926032d2eade049c2f041d416552"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 7738,
+      "seconds": 258.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-007738.png",
+      "sha256": "ebd54b23d188d9d1635f06ddb2c24c4f4da24ab9ae647e014832fe1ccd7f69cf",
+      "native_pixels_sha256": "e759658a3ca4e7c4a3f58cc18ac9419b2e732065f15992d1b80ee7781e39f8e3"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 7798,
+      "seconds": 260.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-007798.png",
+      "sha256": "00b2be5b318f72001895a40a283af74c57208aac2ef3c243f588baafbc08bc0d",
+      "native_pixels_sha256": "5289b64d773f0a943d1f2383152cc6d52972cf894fba8af5b66e58f622a4b39e"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 7858,
+      "seconds": 262.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-007858.png",
+      "sha256": "a6d079913ca7e7fc1945bfef0a272c38377dd80759d3edf126acef4129a52ca7",
+      "native_pixels_sha256": "8682c01d7ab90c47dc636337691022cdf33e1d4beaec4a515c580cd244e1773f"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 7918,
+      "seconds": 264.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-007918.png",
+      "sha256": "4a3922681a58150257387d73813c298542e635505891162ecc609463cfd6d097",
+      "native_pixels_sha256": "3375757db06d66f37117e130991a47c448ea41d1b30907ecc925cd9e9a6a18b0"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 7978,
+      "seconds": 266.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-007978.png",
+      "sha256": "9596b4aeb66a94ae2ce2a1761679e6d6e578d074a4430deee59ec081befd9595",
+      "native_pixels_sha256": "e9fe9bd63fc213beedb7f6c2cc43aeb85800d6b17233cc0d11c154ddf080620c"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 8038,
+      "seconds": 268.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-008038.png",
+      "sha256": "44b01870b77d6be6345beee595248ea93d502c35b4bcf8dc5501fa22884242bd",
+      "native_pixels_sha256": "6c0e193b5d4aef1ae309fa7770754d00926cf0760dac26eb334a678d5dc22abc"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 8098,
+      "seconds": 270.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-008098.png",
+      "sha256": "54a3dea4abc6643d58c43ce166b6d090382ce57733a855fc766a1d0f0895cf22",
+      "native_pixels_sha256": "d9ab57ddb2b5834f89c5c9cd7b10bf8809c617ed01685952aea2f407f98f606d"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 8158,
+      "seconds": 272.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-008158.png",
+      "sha256": "a460e3eacefee0119c4347711b40d685ceee3a2e59ab10c71be61d3b6b731385",
+      "native_pixels_sha256": "54e4bce479c57cacac34029f41013101c3aaa6749a8a68a7890012b15c0a7486"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 8218,
+      "seconds": 274.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-008218.png",
+      "sha256": "96ec7e5bceddefeb80fd710b55bf6ac2b393026aecdb10167eea74e1ea7f928e",
+      "native_pixels_sha256": "63d120d80daf5318f39ff65c16bd0eed4f100385778b91a16c5d304097fbeecc"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 8278,
+      "seconds": 276.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-008278.png",
+      "sha256": "867622190a31babd1024260c65d56e15aabb7bea57587d394e2f5a5de27b0c0e",
+      "native_pixels_sha256": "3d58641dd98e3514fa84c5d16fe065202ed2667e7d758de0458ff612dfeaeb61"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 8338,
+      "seconds": 278.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-008338.png",
+      "sha256": "4688f89fc4d32226b686ae3c4543aacb0edcb7e03a82549b1c3f8b55d31906cb",
+      "native_pixels_sha256": "580b21f25c51fd1309be528a4a4edbfcda468ad7dbd4aad1e577fb6cc1c1f490"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 8398,
+      "seconds": 280.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-008398.png",
+      "sha256": "f218b881ff58896f2c81b2c680ceddace4cb838f87bb90d9011e76c528cf14a6",
+      "native_pixels_sha256": "289db4a5c37c29765d52bd3c6ba3529dc988c9b407857efeec157550ac9f775f"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 8458,
+      "seconds": 282.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-008458.png",
+      "sha256": "7b7b5623d7e6a290bd2a25ab18b3a4091606e9b6cad1f7f41faa5eca1f20fcc2",
+      "native_pixels_sha256": "6e5619e8508887b198b4c93d71686cff21a5a47201fd9c400a89fd7c70457191"
+    },
+    {
+      "camera_id": "G419",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-16.09-55-00.school.G419.r13.avi",
+      "source_sha256": "bd9caa146edeba18673d1b1edcf694593348122fc72fb83028fae9b717ee9e87",
+      "frame_index": 8518,
+      "seconds": 284.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G419-008518.png",
+      "sha256": "40f82a1e9022a93fd9bcf06c98c6c19ebc5319a4ac43633e15704e8560f6e853",
+      "native_pixels_sha256": "2ea54a8717063732d4b56aba9e28ee6e04b2714aaeaf424fc0448a8e11983cc0"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 0,
+      "seconds": 0.06666666666666667,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-000000.png",
+      "sha256": "a6eb79d9391b350e28240da9a6f8810d0a202f57f204caffdc7c97b99d41b90d",
+      "native_pixels_sha256": "45b00efbcbc0b337be30506ee5fee01f0f6dea78e8b5c9f1c656684a2b672aa2"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 58,
+      "seconds": 2.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-000058.png",
+      "sha256": "efec3a4a060e7b91c374dedf31db9209e3c1dd5a15ff54eae6ab24a4b20adb47",
+      "native_pixels_sha256": "a7c9878bed3d6a3c0900627a11bb8a2987114e2a6a9bdd236ef48df9fef08908"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 118,
+      "seconds": 4.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-000118.png",
+      "sha256": "9970fa92836929cb00a526867a2ff433bac3b7d234e4caa22e9157857de880b7",
+      "native_pixels_sha256": "c6de2861a3181c16cff1f6dc2e54e6d0f386e3e6cac6cc625bc7f380feca406b"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 178,
+      "seconds": 6.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-000178.png",
+      "sha256": "b586bcf2c97ed4ad70bcc20159401c912155685131e60546c3d870ad1054a584",
+      "native_pixels_sha256": "c8ab8ed7d414e37bf47d79f01498a3c3c6cfc876ed25a00b01964fbb64be6828"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 238,
+      "seconds": 8.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-000238.png",
+      "sha256": "05ae2a9d1bd85cbb456db93f288a6e45a2332790e7eace7c2cd6e59a994850de",
+      "native_pixels_sha256": "2c35f574c5973dde8c09392a00be6b4dc0a6ea390abde8f7f6eea404fb421d7b"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 298,
+      "seconds": 10.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-000298.png",
+      "sha256": "3b458138b948a33ba5b3876199eb63f84fb12471f07755f85125a0a624df0231",
+      "native_pixels_sha256": "81f1cfbc60c665defc0ef96778072af2f18eef1266d5ad94c1b2d3cc334324cb"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 358,
+      "seconds": 12.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-000358.png",
+      "sha256": "b24a66f31f28f7121ad13159b4744b0db2951c99a9cee5f2761b24f3ec7ba572",
+      "native_pixels_sha256": "3dd4a74a7acf331cd82695574fd1f2499acd3ff5f62d7abee7ad0b4e09c64173"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 418,
+      "seconds": 14.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-000418.png",
+      "sha256": "bebb9e8156e0a65b71e0de3c33aec4385ab74134d9db994ef846fa90848da52a",
+      "native_pixels_sha256": "f72bb3318c1d78288721d9875b3447714be460b224bdde96474435d3a5e7e2d5"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 478,
+      "seconds": 16.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-000478.png",
+      "sha256": "8257149d8e2079a7c1f2273db00a83a1f65ae2f42c1d3960ecd0ed8c2f7ec77e",
+      "native_pixels_sha256": "e8665ca14f7555166f1432b5cbb8aac52aa40fe9d4ee84146692efba22cfdf62"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 538,
+      "seconds": 18.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-000538.png",
+      "sha256": "7f3c21a1c6eb0ca477dc97005137736d661f41a0ee70fdfd7b249f1d310caf7f",
+      "native_pixels_sha256": "411bcbb7e993478d5ffa14afb618f62bc187cbe97d16995a0cbfeb7cbfa10416"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 598,
+      "seconds": 20.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-000598.png",
+      "sha256": "67a809299a97298d5a1461d0ca452a4eb12eb8157ce6e791b5bf45b9effc8ee8",
+      "native_pixels_sha256": "9735184c0382e74150104ed64f42bcaa05ace928693f05548613b4dc8c04ccc8"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 658,
+      "seconds": 22.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-000658.png",
+      "sha256": "da4079a76192cb17e18f37947ce1d68e8eb0bf018dbf0f2b3e34ec05eee680be",
+      "native_pixels_sha256": "45f11e7b7b0baf4aa28477aab513b953722405b666cc8e3ca328f4c22e2a8009"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 718,
+      "seconds": 24.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-000718.png",
+      "sha256": "85a4430db0b146be9f5617f9281b7f5a22426f7e0d0e25b54d14009b2d50d757",
+      "native_pixels_sha256": "eda10b64aa2a903050ebd6279bb9d3a0309c65179ed4a48c97935d29e4d51a10"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 778,
+      "seconds": 26.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-000778.png",
+      "sha256": "d7521826ee64c7b91f02c033179473509b4af4b0ec2c47ae0dba1989a6338525",
+      "native_pixels_sha256": "6315b30cb84addb3d5e16a31e795d80a9aa51d038f32d73ee2ebc9987cc50bd1"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 838,
+      "seconds": 28.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-000838.png",
+      "sha256": "6a71d42b0d3db40b20ac91fa6cbaa9ef0f0a3ceb991e81e6e1825815ce8619e2",
+      "native_pixels_sha256": "91a3556632c6ffc75b4f8df9d70f4f7d89e69a57ae6960638efdf2328adb301a"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 898,
+      "seconds": 30.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-000898.png",
+      "sha256": "310ae24fd406bf4ed0639a39349d401d9eaf3f5b7a85663f06927547f09de79b",
+      "native_pixels_sha256": "ea1cf6abb743c3af5e0e9d2fafdea83c5a51856d4d0df7f8d02d9b6e1f638e13"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 958,
+      "seconds": 32.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-000958.png",
+      "sha256": "f8625ff5732d6f48e13639c6e237a0fc3a9468ac09f768f5b1ba19da0333e44b",
+      "native_pixels_sha256": "8ecee577c41c895626db190eb2cd0a75b4d82dfbce4283430c8a894b695b07b0"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 1018,
+      "seconds": 34.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-001018.png",
+      "sha256": "d17d64be7f924cc75f64407f0dc6a8b4183c6252cdd51070122728f877d45d7a",
+      "native_pixels_sha256": "260b98d123fe8193c44777bfd12a648f941bddf08d47ded5ec273dc150075b49"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 1078,
+      "seconds": 36.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-001078.png",
+      "sha256": "7003f754d5277836718d595ee5795a26cbb16d15486c58c74173f8157884b4b7",
+      "native_pixels_sha256": "44b61e7734bc01c8283329d47dd95315833d9b83440a9cd0680f8cbe59a3bb98"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 1138,
+      "seconds": 38.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-001138.png",
+      "sha256": "d98137bd75bc8ea44154f8b533304213e585969a99962ce8d15c47cc6ab0be59",
+      "native_pixels_sha256": "a32b5adc69055550b85b0baaf9c92efb97c5d8aee6f88a88b785c9ec03f52916"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 1198,
+      "seconds": 40.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-001198.png",
+      "sha256": "60f752d586ab1b2620a83299097fcd3812152ec50bb3cc9bd81b01f848c873be",
+      "native_pixels_sha256": "2ad81ba69e1ca43256abd5cb2534519128080ee7de7e44240bd352cdf5eac6cb"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 1258,
+      "seconds": 42.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-001258.png",
+      "sha256": "a0a9d371960d8413a97eeeb636304d53cd60a8a0b4bb1eefb6283e708946e993",
+      "native_pixels_sha256": "8f1bd9e65c754bcc06e0e639aae81b8a13f32a01d68f56d66bc5a7dd3b362149"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 1318,
+      "seconds": 44.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-001318.png",
+      "sha256": "543b35f23db69c0e09608c58f45f76a280632232cd084316038c7a8428d60d22",
+      "native_pixels_sha256": "a9d4463256d292f44fbd16e769c6e23adc6fc460a9a0ba9b2201c73dd081a985"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 1378,
+      "seconds": 46.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-001378.png",
+      "sha256": "3618cd0fa968e20294ebbc21154dea7a068afc5a52a30037d45794a9f1810015",
+      "native_pixels_sha256": "51bf413ceb388a0fc13e5ce8a89b28e0899254a146f8d45f2f2b070ee8176e1d"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 1438,
+      "seconds": 48.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-001438.png",
+      "sha256": "94a094aa20d670bfe5893bd3a86f0dd2955de457944ce32be0858ecf994ac42e",
+      "native_pixels_sha256": "ac66b9ca3cb0a03fb68d89ad2c5858ac046a17e77bb9a920393723152f31bd47"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 1498,
+      "seconds": 50.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-001498.png",
+      "sha256": "3436ab3c8b454a0ac3bb387812a399c5c4d04b71cf176180d9279c77f98c1c73",
+      "native_pixels_sha256": "eff410ef3384f856ed134b71779fc3c984ff34f58e064004eb5367f2d58b1687"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 1558,
+      "seconds": 52.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-001558.png",
+      "sha256": "54aca0be323943114cc86fdb033a7fceab72aea6d0b527b4521d0f5bc6ceb428",
+      "native_pixels_sha256": "98da39b22ed4eade8490d2da24213107ec84700511d7bfcde078fc9746194ec4"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 1618,
+      "seconds": 54.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-001618.png",
+      "sha256": "c0e4fbe427983642902b42b28f9ab31ec56b2a5a39bcdea41ddf0dba40433a41",
+      "native_pixels_sha256": "445d6c319c2a844c35f260f592901d0c9a2b7d4689795161016e8d37c8491a25"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 1678,
+      "seconds": 56.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-001678.png",
+      "sha256": "2e8def3f7554a048084360e6e19addad39b9286f9ed0c8662999559f64bb1a9a",
+      "native_pixels_sha256": "282e0d8ade40bc86396f655ab684993046ceb9f9c0839d3f6c98c385468ae568"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 1738,
+      "seconds": 58.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-001738.png",
+      "sha256": "e648640b964cd8e75008d5dcf3a378154f4f65be18d572c9e91d86edbb58cb12",
+      "native_pixels_sha256": "9fe07fc6c2f1898c7a73f268916e28df53fddba662307bd63dca7ff0312bc725"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 1798,
+      "seconds": 60.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-001798.png",
+      "sha256": "95c9ed27c0532965312fb02f3956604cc812a4da9d48a109cfdd9a4f978bc691",
+      "native_pixels_sha256": "7f5dc23fe8d9fc5d65599867a64d8147f552eece43a981a83281491c98482e89"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 1858,
+      "seconds": 62.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-001858.png",
+      "sha256": "9d392453e31fa3c66fd9781d05d5107c344abced8dd5500af25be2f2baab0029",
+      "native_pixels_sha256": "d7af4480891494ec70d46e9bf871cf6bafa22934bd60f90d96b54f9fef572692"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 1918,
+      "seconds": 64.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-001918.png",
+      "sha256": "ce5b0f643357bb874a4b7e7cae4ca66e73f03096f5bc8a01d4101ed252ce2a31",
+      "native_pixels_sha256": "0014edd555dc7d9fb3f44f685bef102f775447f9d139fc54b9d4cac0fc196c06"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 1978,
+      "seconds": 66.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-001978.png",
+      "sha256": "570e3e9d4b7d4b55558bb7d8f39e351e40c349973c9382b950c00bd34bc3edc8",
+      "native_pixels_sha256": "099c1056d9c2de7682316d8d69da8f55a34d1c788bbea9ccd1ad7350562ecfc2"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 2038,
+      "seconds": 68.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-002038.png",
+      "sha256": "0ac6c759934ce926907f1a02e406aa264ebe019982ea12d093f627940cbeacec",
+      "native_pixels_sha256": "ca0fdea910318bda40de8d3f499283d9baeb2454d8245847af545019ed0f04c5"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 2098,
+      "seconds": 70.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-002098.png",
+      "sha256": "1ed011ddc8dfdd1c8e7d36526318dcbb7391c53956cb377bc65da26d252c4996",
+      "native_pixels_sha256": "89c844fdaa72a1d697e51b0329f956c10dc1f90dee71942a99de1651ce3192e0"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 2158,
+      "seconds": 72.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-002158.png",
+      "sha256": "e0ed175cc0cfd095082c50d87959c98111e84f729772466aa9e05f3cf5c4f89b",
+      "native_pixels_sha256": "bbb4e406fdb8da448851fef78aa2cfefbf4c1b7d52cc77ceb800afec0faa53f2"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 2218,
+      "seconds": 74.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-002218.png",
+      "sha256": "77d46ec1b63610fbed3721a2c5c5b333cdd167257df8095e3b732510b07e331c",
+      "native_pixels_sha256": "518789acedf800b59a48973504539ed4038e27e84bccf73ad8433fbd2cb4f2cc"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 2278,
+      "seconds": 76.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-002278.png",
+      "sha256": "7aa6590b627360021ce5a0af150b81fa14b6bb69645db1d54629763b4515a8e6",
+      "native_pixels_sha256": "6726f8787c931b9f9c169f2f5c26ea0044667d96766a2a446c464452f217940d"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 2338,
+      "seconds": 78.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-002338.png",
+      "sha256": "123f5d9cb55b6d16096dbb2efb1c03a75840a0301dd068b718301e0af0ee7133",
+      "native_pixels_sha256": "5205dada13f5291c894ad9306b76787da08f7a608c7de853b388339217a53db2"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 2398,
+      "seconds": 80.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-002398.png",
+      "sha256": "b5b6e3e3d9e061457015e531eee0d9ca83324ef2be93634715c6b6b878ebc95a",
+      "native_pixels_sha256": "5fe26b6bded8f881e7d04c5ba3e5dee0249902655c57dd37c344e9eaefa63393"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 2458,
+      "seconds": 82.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-002458.png",
+      "sha256": "e4a899c1fe3a2671ea68f7bb14592a2ff8b30b02657c424cdd4434e9c985453c",
+      "native_pixels_sha256": "d5529d893b641d878102b06b61e356d6e7d508f10ae8fcc801b9d03af0550268"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 2518,
+      "seconds": 84.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-002518.png",
+      "sha256": "fdd07f3060bee0af35bfc1ba79aa6a40ab0a97148b6e85599e76d54d5550fb9c",
+      "native_pixels_sha256": "db56d1c16c10abc64714437b25e94799f61075382f6cab8d3c17f7929ec7db95"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 2578,
+      "seconds": 86.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-002578.png",
+      "sha256": "ec9c181e8a3d9a3851a7c0216c809f109627cad1dc8b7496e34b8e1299847140",
+      "native_pixels_sha256": "a4433970f6e49430ffad9e76aedbf2e29e1785a772e7105361112c11a803860c"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 2638,
+      "seconds": 88.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-002638.png",
+      "sha256": "9d62b8e7558650abd9fe4b7aad9bfc20e6f405a62fd3a2e0d6dd1a2c96b368f3",
+      "native_pixels_sha256": "058fe08a79e78320e98c818e10834fb677030dcbdf2c31d19c3e65d9807a62de"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 2698,
+      "seconds": 90.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-002698.png",
+      "sha256": "d1cb4476cabc1dcfb1e66699fe3b3f752f55f9e99322d02bf0466bb75b1e2fe6",
+      "native_pixels_sha256": "88024951e9c5786502025f4fe982354d2a4c1a389d423ef35e1e2faf5e53b910"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 2758,
+      "seconds": 92.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-002758.png",
+      "sha256": "8c4f7b844fc70af53b26234206ec3758e8eaf007e4d719175a7be3cdf4c7f3d9",
+      "native_pixels_sha256": "5b13e56f4d98ce5ad16fe34ff0fae9f337eb4604a6df25ec932757ae438d2985"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 2818,
+      "seconds": 94.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-002818.png",
+      "sha256": "8b38378b7d0303024eb42536e2fc7f46188bf690242b756bae49d88860516f87",
+      "native_pixels_sha256": "092e89d06ea91350ec1ebbf53644a918918526fac5e8c69da77d642c661e58ac"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 2878,
+      "seconds": 96.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-002878.png",
+      "sha256": "6bb19c31c8d6c92deadfd625bea3328e2aeb0b54443235836a6c26767a764588",
+      "native_pixels_sha256": "af26c1b9e72caa11580076ca204cefca0e7a07d7c5fb4f62a44eba251e540e8e"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 2938,
+      "seconds": 98.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-002938.png",
+      "sha256": "114e62da3ed35dac724d32f519c94d4dbce3aecee888202b07f4765464ad809d",
+      "native_pixels_sha256": "7af0e37d70338390776d24b8f6dbda6aa9df79d312aacba1fd1bbc682b8f5460"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 2998,
+      "seconds": 100.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-002998.png",
+      "sha256": "422ec2c80fae8517d17a35345dbfd3ee5837719de8b77952ef61e9442dc9145c",
+      "native_pixels_sha256": "637d60ec7379713f7358559997fe9edf770763c22b84dc5a27c741046c5ad9fc"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 3058,
+      "seconds": 102.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-003058.png",
+      "sha256": "75c3ba45676fc20cf748953616dbeaa292a407b9da0109fbe83bb29b58ec3653",
+      "native_pixels_sha256": "6e484d1d1fdbf640ca94a0526d90a99aaa714cebab0e236629f35a8c4b919775"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 3118,
+      "seconds": 104.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-003118.png",
+      "sha256": "3770eb6d48c29481e96c2bfc11496baf64078c4ae9883431808bfcc5b2adbb62",
+      "native_pixels_sha256": "7cd9588df117775c94d6ce438d1b4d6cc7c7b79096fea632a1f1b482ba7c2ba0"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 3178,
+      "seconds": 106.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-003178.png",
+      "sha256": "d18e2e629bf93d3fb353e6d0b845aa4b154ca0d452491c2e77e563239fa725a3",
+      "native_pixels_sha256": "9774551a310ca67340b9facd4b27b86fd9718919d1998d6857fc262472be19cb"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 3238,
+      "seconds": 108.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-003238.png",
+      "sha256": "9cfd8a13c6a667be4979db3ce38da02455015d7e2f6d63c823412b44f8c82406",
+      "native_pixels_sha256": "23a26ac1a0a001e3b08135d77cb4ba2ce949d4a655fdeb940b261bcacdd85add"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 3298,
+      "seconds": 110.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-003298.png",
+      "sha256": "9f04bcd086fbbaef643f923a5939b67921678af1cb09e839d1f23c0e7cf996dd",
+      "native_pixels_sha256": "22ac5cb7e67e39df8922fc847cf9afa73e3b88be3770191a6705a3c88e470a23"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 3358,
+      "seconds": 112.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-003358.png",
+      "sha256": "35036d8dac4dbb880d96dc3e739f3ea61c96e657513b7904366652a92e973205",
+      "native_pixels_sha256": "0d50c400576f70b439853529de84502800586351be8adaa5b520c68aab497f42"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 3418,
+      "seconds": 114.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-003418.png",
+      "sha256": "6c12805a4eacc00d88e6d781b6d8465edc6c8c3a0ca0a2c4834328ae09fb81c0",
+      "native_pixels_sha256": "ba980d0ac350a3584132720e5fa293c2eb9c330d3ee800f646e6abac42d9bd47"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 3478,
+      "seconds": 116.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-003478.png",
+      "sha256": "8011b944ccf8f1073a3bed0f360afd9f5addb06abe5ebb48d880406c612f468b",
+      "native_pixels_sha256": "7ec958637ef2509d50d2edafb64af0458ac0309f96b592a774d1637085803ea6"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 3538,
+      "seconds": 118.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-003538.png",
+      "sha256": "6365c1d92849a8a3426700f426be0dff9648c961f4a522220f744bcd8d2f9fca",
+      "native_pixels_sha256": "bfc3ca3efb456df4ea43f50d927d671ee4b80e38e4ccd797c4875653932641c2"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 3598,
+      "seconds": 120.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-003598.png",
+      "sha256": "620d9f13c17a48be7e503faff9b36ebc74a734a303266773e0b67b5301d70a52",
+      "native_pixels_sha256": "57b43c0c4c6b680e5fc76143676eb3dead7d1b4bd80478123cff084796028e2c"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 3658,
+      "seconds": 122.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-003658.png",
+      "sha256": "7cdaa729e8e7432e729e9ec5a22e5189c8db6d1d6a9409dbea04ec93010541ea",
+      "native_pixels_sha256": "988b18e8958c6e96f93330a7ddcbd2ede9b7a9023ee8142ddfee11515142b959"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 3718,
+      "seconds": 124.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-003718.png",
+      "sha256": "e292ea287331061321216ada917375a93f7075fe5f5f62101f2a256a11205afd",
+      "native_pixels_sha256": "7aa94b06e165ce938316d069cb196a3560e6181415810847bd96364fb2aa71ee"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 3778,
+      "seconds": 126.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-003778.png",
+      "sha256": "72731c71561a8fc63e030b7e2ea67020e67e7333358479e7534dfa3a328c215b",
+      "native_pixels_sha256": "dc8d503472704460ef9b52bcb1f3d5a91e9d1014960f6df62f08c26528cad7f8"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 3838,
+      "seconds": 128.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-003838.png",
+      "sha256": "4e62fa9602243f9b80720a13a0fa2069a5b5629964d9d64b2db112092f5a09d2",
+      "native_pixels_sha256": "2107b66b361a28f13f732430f46eaa088e58686465df444ad18c333a523a714a"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 3898,
+      "seconds": 130.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-003898.png",
+      "sha256": "7dc13019b0c8551741c26752f39e8138c2b00feb7e58252ce0dd8772e6913ea3",
+      "native_pixels_sha256": "2c12b4c3e83bae357644332268157b907a771a515851cc9e74f9d2a7ac2488a0"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 3958,
+      "seconds": 132.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-003958.png",
+      "sha256": "cfa386714ad1643000d68b2d473415d3b8154dbac4f307cc8f0f4be0d02af80b",
+      "native_pixels_sha256": "09052894cf9df85e6d8fa3f8ad9002610fb87603b169fc52e1e7c5ae2951ba81"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 4018,
+      "seconds": 134.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-004018.png",
+      "sha256": "0bcb51412120972dfbbdc3ae5ee19f8fd33e49ccf2d47af3bb26e21eab6bbc2c",
+      "native_pixels_sha256": "1f64773760fdf2c63200b7e8920e40d82f01aa94c2ea00b5e647ba29eb27fbe5"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 4078,
+      "seconds": 136.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-004078.png",
+      "sha256": "e73fd473748e59146aac52c75cf27859df362aa9e299ce741b0d85c6a6e65fae",
+      "native_pixels_sha256": "0990feebbdf569ed53a9e2631ad433e6e37ab60103db0eb604dacf34888ac5a3"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 4138,
+      "seconds": 138.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-004138.png",
+      "sha256": "e3eddd29a07cdff3e470b6ebab9bf45ae8778d58861cade4a9d7aa77075d0d08",
+      "native_pixels_sha256": "f37d1194585b6110656e505da42ed3a28da3c9d10f9ffd9ebc3ac0fb35c8d82e"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 4198,
+      "seconds": 140.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-004198.png",
+      "sha256": "58208c9780c47f16d6ffa11709d0e3a5b46c18d019b114a34ee5682fc374ebad",
+      "native_pixels_sha256": "9f2834ec3a0c4edefbc991a2c082a11b0f003373e07ee880241f81489b581d41"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 4258,
+      "seconds": 142.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-004258.png",
+      "sha256": "47557415266e4acd64c517a1f78a0091df803c05f1f6f7e4c4f20f2191a77475",
+      "native_pixels_sha256": "3e7f0c8daa7c07bdf1144182abe938425c90dbef0af6f65fec831f72843690b2"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 4318,
+      "seconds": 144.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-004318.png",
+      "sha256": "523a2be52029265930b80f3522543d9b3a232a85e527f8b83614297a11855546",
+      "native_pixels_sha256": "f8c207c44c080750e485a18d1910a417e722430b43cfd78975b28d70ba8c4f8a"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 4378,
+      "seconds": 146.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-004378.png",
+      "sha256": "ed6aed2a184a66eda104e3c2763b99cc2e80b39b26f09fbfc009f7696272f68b",
+      "native_pixels_sha256": "5a2462d5a27525a1c0113e1843159cf75d1a0242fe57feb8699c482c5c615ba3"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 4438,
+      "seconds": 148.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-004438.png",
+      "sha256": "06cb494067ce84a754bb8a099f8b5704e55e5f3d7730b2e90cd8fb472d5b114c",
+      "native_pixels_sha256": "7215014206caee3b753477278e01bcf70e162641a6c6553c0598d20ce8323b55"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 4498,
+      "seconds": 150.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-004498.png",
+      "sha256": "be021b8e3b5e9fabe6446c4035c288e47c145ea8cf219b6513298de9040489a2",
+      "native_pixels_sha256": "1000187830e84c374d937b4e27010fcd3de8f4671b486e1b7a90778e02b15c51"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 4558,
+      "seconds": 152.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-004558.png",
+      "sha256": "9823bf8aa0fb354f88335ce369033c659bcab721ce425337d716051e32a1d736",
+      "native_pixels_sha256": "513b5493dbc6c1471664c5eed14a90cac0d2d7dbfa74918161c75b272c04a9c2"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 4618,
+      "seconds": 154.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-004618.png",
+      "sha256": "7a00eeb7f0a90dbb0fc070ccb9df0230525518c437bad41441b0fa6af7f9d68b",
+      "native_pixels_sha256": "fc90a3ebd9f16206310b845b8e94323d33b9d66255d5df76277b9977f540b7db"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 4678,
+      "seconds": 156.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-004678.png",
+      "sha256": "bf167fa42279362b890a6d556951cce13e7b84060744533784f4e80b9a616b82",
+      "native_pixels_sha256": "6cd243f8ede38be487e59ddc4a9c0fa869e6b7dc51f8fc02417a7886dae7b567"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 4738,
+      "seconds": 158.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-004738.png",
+      "sha256": "bc588d28feacc2df0ab91654dac885197593cea2aa8c9507f3771dba0d0d3270",
+      "native_pixels_sha256": "c08d39979b26c6289cabe50752c9c20a75b0fb287521f3de64fc65094ad3bfe8"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 4798,
+      "seconds": 160.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-004798.png",
+      "sha256": "cdc1c2d42de3d5ca63978d3aeedd5b671228530b81cb3ed225c74aac5c782350",
+      "native_pixels_sha256": "3bd6bf4e63742104207d8a434f5911dae6ca49afd66e95fbb61ed91e4f28e42a"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 4858,
+      "seconds": 162.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-004858.png",
+      "sha256": "637ce94d0521161e80eb0e567a8a9095e186b62470f1e4fb87504d95b344973b",
+      "native_pixels_sha256": "075532f9091f78ee522061c189a0ef7540eb13b0e0ce1c664a8e61a5ea1e37ad"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 4918,
+      "seconds": 164.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-004918.png",
+      "sha256": "214f8c62db501560857eec6eecada66860ff572a26e17532eff943787176576d",
+      "native_pixels_sha256": "34be366fa9025a33f2e1512928f2efece53ed7597c74c7956b6412d95ff582f6"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 4978,
+      "seconds": 166.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-004978.png",
+      "sha256": "07d428e982703cfb6f05e36c2cc412d28c99e38b29e811ae8ec423eae1b225f0",
+      "native_pixels_sha256": "b6533b7ab359fca2b6d536eeefef16fbd54ebf91e75b4a1e6a6a604cd49cf1b0"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 5038,
+      "seconds": 168.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-005038.png",
+      "sha256": "61913696a435fc887151739347ec69251dfeb4cebc40d682af3dbb22759a31ed",
+      "native_pixels_sha256": "76d91b59af1be0f2edb3e5c6c0e1186c9fcff057fbbeed5cecc13b0e303e8918"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 5098,
+      "seconds": 170.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-005098.png",
+      "sha256": "7426da3653937c89af976d7c47225696693a6db6b37797d9e649354ac34c36d7",
+      "native_pixels_sha256": "0b3e96fd7e98e50b69fde4881a887d9718306c82451be1666930ae93a5e9ae13"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 5158,
+      "seconds": 172.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-005158.png",
+      "sha256": "d01377f088b31f63c0b5fd2a62a161e215ed8709c73bb13ca00712a4e9c0d4b7",
+      "native_pixels_sha256": "b627b24f1ab6d8b53a383e689bde5b66f5b6400a3c3ec8138da721827da07597"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 5218,
+      "seconds": 174.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-005218.png",
+      "sha256": "59fdced52580391dd932838ee82416b74a110f3c09307823f34e5396132003c9",
+      "native_pixels_sha256": "22004c278f67f40e7971a4d81a1f69b63027a5c97987636a94c6c368cf55bd43"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 5278,
+      "seconds": 176.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-005278.png",
+      "sha256": "6fc2fe1b3b959d2cc9851ea2506a2d0857ce85f8dc961368881e856d0f8db415",
+      "native_pixels_sha256": "abbb2d5df70b10e2bf8f177273eb68a15495ffd6e21b8d5488ae8c8f92c41db9"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 5338,
+      "seconds": 178.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-005338.png",
+      "sha256": "c93185156a850151c1953ca4cb09299c30951d9c1bc311db9ae28ff9e04750d2",
+      "native_pixels_sha256": "a9d327114c19f0e03cb1ba25f02e0f528d0b265f2d7c670383c4c11d794548a4"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 5398,
+      "seconds": 180.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-005398.png",
+      "sha256": "8c62dc5209e7118da750bb16f93c179f2a84dbf9e224ad605448448b818dd2d6",
+      "native_pixels_sha256": "8d6284713e5160d8b274f11b0d6b396f993a54717422a33694435fd977e25f33"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 5458,
+      "seconds": 182.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-005458.png",
+      "sha256": "262034cff9234384f99192846a1c1d491d80570d8387c273db47488032e04df1",
+      "native_pixels_sha256": "ab8dd1a354da97d93c82a54ec585787f4dde361c2598dc0930ad026531783456"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 5518,
+      "seconds": 184.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-005518.png",
+      "sha256": "a5546b5a1cd6e4427f2b078f97c450ae0fcebbde3071aa418fc5525c663de79c",
+      "native_pixels_sha256": "ad3e5169a18cf4c8ab3aba1f0f7ec81de4854b835b50e87ff9c05165ccf658c7"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 5578,
+      "seconds": 186.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-005578.png",
+      "sha256": "0751915d82d33ba7824cf020563dd372f3a3d92a48ea73eae3346d8c90409956",
+      "native_pixels_sha256": "a1821615380cddee04ce1a72b4b225efee4e553a6b410566b64c103cb0afc090"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 5638,
+      "seconds": 188.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-005638.png",
+      "sha256": "7e2622ea8e1304819af28642a152c6fcec0cd8aaadd9012269a47b47432d7234",
+      "native_pixels_sha256": "ed37a1c49ad4298cc4e98b795f979e352f483fd3e76463fac952249480b44b39"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 5698,
+      "seconds": 190.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-005698.png",
+      "sha256": "3e10ab5c1ec2ecc930730f27f35a68bc587e9527a11b2392da59cdab47900b99",
+      "native_pixels_sha256": "e01e73189556372f999850f9e53bfed7b3eb68708bcebd98f45248e6f9bfc28a"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 5758,
+      "seconds": 192.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-005758.png",
+      "sha256": "71ac98387cea3c933c2c0c19c0ed9d83928535bc563dc32ca6f8589c2c567a48",
+      "native_pixels_sha256": "8fad2520846dc49f9240362f258df8b6527aea84b1bd6a5ec5f460234fdebdb6"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 5818,
+      "seconds": 194.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-005818.png",
+      "sha256": "12d34487c4b5bd71e3cdf8a72070d39f03af2a89f3bb43202ae8fb6b367519fe",
+      "native_pixels_sha256": "d4a1f26613e3d906b60cd932c73bce5d22fc57fe581abb8fff7718c63848d8b1"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 5878,
+      "seconds": 196.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-005878.png",
+      "sha256": "c96e884b2043ee2fb34efae0d8cd4d19108a978be316de90773af955cd569b06",
+      "native_pixels_sha256": "88e85ec92605c8e8621946da7ed465e2737416f69f090f775fb638d4d937e3c0"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 5938,
+      "seconds": 198.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-005938.png",
+      "sha256": "e920ef897705b72d68c99985b367424ab030137a702fbcaa9cf586fd83b92bec",
+      "native_pixels_sha256": "c22407a71cf1e4e56675434875e572853ee462cbadc6edf3fcc4168dffe875b0"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 5998,
+      "seconds": 200.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-005998.png",
+      "sha256": "6158752a5402f6d021214ca048aa57c65be9a54adcd2b11a7d9ee0d0100c4486",
+      "native_pixels_sha256": "e91844f7d65c395ea133ab6da06cd5da337c61c657856a5b123649e7b37cd2b7"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 6058,
+      "seconds": 202.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-006058.png",
+      "sha256": "98a885fa2410fd73b1f5d1c76a020d469a0722a7409c453129e9cd929a626faf",
+      "native_pixels_sha256": "8b4e0235c921bb5f83e91b5bf4f30092073d25c2542fe061bda38bfbfa5619a2"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 6118,
+      "seconds": 204.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-006118.png",
+      "sha256": "6d8153ef5e5d2a7dd4df90e352b7d7a66d41affc18123fbfedaa87b2bf92ced4",
+      "native_pixels_sha256": "99deffe454b8058d6c3db67057e85917529db74c0f05f1d91ab68edb655582b2"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 6178,
+      "seconds": 206.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-006178.png",
+      "sha256": "942398c23ae0201cb292da48fee89901d7fb3d54a02b32936056df6a46f95cac",
+      "native_pixels_sha256": "1d7d5b5881b196ded7bac4f3ecbf7e17808cfcf7420c29e612a7f44528d2e656"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 6238,
+      "seconds": 208.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-006238.png",
+      "sha256": "7a523dcfd4cbecc07b8a75d726b5c39d3edb93eb7cc47bf6a078ab2535d373d6",
+      "native_pixels_sha256": "07d275b4c8f2551a655d7b801a93680131f52540760b0ab452d1f4aa08a4ddfd"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 6298,
+      "seconds": 210.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-006298.png",
+      "sha256": "d996179d9692ebd4ee2f2c62e0ffd353ac1a70f0fa2beafff0daedff1d25314f",
+      "native_pixels_sha256": "647bcfff6947cff39eea0d4b3be0b1dda3bf48803e99535b65891b34e26aaf43"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 6358,
+      "seconds": 212.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-006358.png",
+      "sha256": "56f1c8ea5e2c0bae73a32c6a0f3617df139d04c717aceff10af9f0fd4352452c",
+      "native_pixels_sha256": "f5d42a592ca856d87fe83dcaa974d7018a08640f9c4a0a31c7991c8d1cd13940"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 6418,
+      "seconds": 214.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-006418.png",
+      "sha256": "ca2a89685f932596dc3731211a9a102afb4cdf219dea4ec5cce26c594c7afd9b",
+      "native_pixels_sha256": "ac0c89cac48c1891993c9b7a92bb6c7553d6e868c41841180f13d43c8c65b76d"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 6478,
+      "seconds": 216.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-006478.png",
+      "sha256": "6823f2ad5f29d30afa57a6e931f2d69947630cbdb72ddb3d0e3df6d5e6720d46",
+      "native_pixels_sha256": "3cdd276897e1783c7b96d5256f5523154c9818e1c21d342d8c269abddf213a0d"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 6538,
+      "seconds": 218.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-006538.png",
+      "sha256": "80b883019a95657a88057b1ed03127e2beea9df98daa85720a301e5b062da76f",
+      "native_pixels_sha256": "6f26cc5d5cd5df8c8463f59e2688405b444d1518c3448d30a0f44418da6f1ad7"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 6598,
+      "seconds": 220.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-006598.png",
+      "sha256": "1af5a8db00c64b1a640477f2dc4d3065525da32d62f01ed194962b2140246a83",
+      "native_pixels_sha256": "b11a07121e432d61e744e6d26766be5c796379769ab7ca4998fd1d14839e4a6e"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 6658,
+      "seconds": 222.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-006658.png",
+      "sha256": "3a7896578433e6fdd41c872799c776d047955df5589228a2017e5f46520c6c7a",
+      "native_pixels_sha256": "e595cf74cf0f114a54e319b9a18345059a26c78e7d575684bbd9f4a4280d4b4a"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 6718,
+      "seconds": 224.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-006718.png",
+      "sha256": "ec9246c1852b435394aaaf4b375849ef2e6312ab7c0f26d5726bb9bafcf14f0a",
+      "native_pixels_sha256": "065321f339866dd62b90f7def9d2047eb841057ef7bdc320fb7af5bb1b72e6f5"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 6778,
+      "seconds": 226.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-006778.png",
+      "sha256": "4c7ee512167f3512e4588594254326f31510dfc36a472672fd3af243f02d64e9",
+      "native_pixels_sha256": "d09f28de9da05d8468c869e78dad7e8177df44985663b0070d16aa788d329dde"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 6838,
+      "seconds": 228.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-006838.png",
+      "sha256": "a2a74e013f0ed84d9805ffe49de062e93c2343cd31315979f180d506b5a986d3",
+      "native_pixels_sha256": "c94d731c4ede5cd16eedbc0bb6381bcf88bdbd6cb53736083ee4b5b1fbaa00c0"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 6898,
+      "seconds": 230.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-006898.png",
+      "sha256": "d9b5f64da49d32945bb72b8bd5594ecf7b2a24745ad06990709d26ee5b39c9f4",
+      "native_pixels_sha256": "64eca2a81af67076a0c5d995f748e30a0fa470d7c58d23f703ff980abe42ac2a"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 6958,
+      "seconds": 232.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-006958.png",
+      "sha256": "6cf5754ad3149e2d92bed9e612e680495aa186f065e05f31243cf99661861e4d",
+      "native_pixels_sha256": "2a71092d2079a40dbdf384b1be705c8a4af6ed0a64d0d00daeb879f6a976116e"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 7018,
+      "seconds": 234.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-007018.png",
+      "sha256": "99bb51a96e37d16c8083047c0d54a48c00b853a2d6cd307fdfbe1a6f1e76568b",
+      "native_pixels_sha256": "6f3a0fbd856dd60067ecbc4de30caf6013a362a9d1b0b572630860612d304b84"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 7078,
+      "seconds": 236.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-007078.png",
+      "sha256": "aa9d90c59321b2a386dec3aad28ddb1163f31ac0296602af2075750c40c860d6",
+      "native_pixels_sha256": "f9504cd3ade30c3c1ca08bfa62da13547f6d445c172c4baf8df169b16350e061"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 7138,
+      "seconds": 238.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-007138.png",
+      "sha256": "fb4ce4f4032a72661bf521db2d3fb2bfa69130b3831c59ba6049adf429c1bbad",
+      "native_pixels_sha256": "e8d20adb69a0467b587529de3205f35c6c79e0f12d36dccf9c13bfd821efdb7d"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 7198,
+      "seconds": 240.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-007198.png",
+      "sha256": "b0d723a32a2584c3523c6a4690d5393978fe8c77e1945a5b968edb4f57ce1b1d",
+      "native_pixels_sha256": "c4fb513d2a0e653264464b95f73b949e3faeed9f3c393df58029f3c83d6aa79a"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 7258,
+      "seconds": 242.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-007258.png",
+      "sha256": "58c15988258c7469f50fc8a957606b0bb703a8f9763cfcda836206022290dceb",
+      "native_pixels_sha256": "ba981d9618679b53e324114c50db720c01bdc1eb50067fab350f5e105f5f5ad5"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 7318,
+      "seconds": 244.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-007318.png",
+      "sha256": "493ee0cab40f77008732a9646bf08a9b739e25a395e5eb4117c59143463f4466",
+      "native_pixels_sha256": "84673a9287798739f233e43d3fc91d1c68b1f97b17d1c05d54e319082544eb23"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 7378,
+      "seconds": 246.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-007378.png",
+      "sha256": "043d82aa05d10f57bc7de006c60bfddbbbd48b3e28a9acccee60700be564d7df",
+      "native_pixels_sha256": "86615cfb125d528984882d2f53414b672c9a7647173e5fd7f508cbb34481ef8f"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 7438,
+      "seconds": 248.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-007438.png",
+      "sha256": "ff036c74a1d13d10ba157715e808088c66b53645f2e8aca698a65960b9800814",
+      "native_pixels_sha256": "d80962ce975deb591dac1b675095f6727749244a2771a71d3fe469dc940140f3"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 7498,
+      "seconds": 250.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-007498.png",
+      "sha256": "364d5ba0926b3aee4febb05010ee99367a79316ba85b444662d96acc8047ea4e",
+      "native_pixels_sha256": "c006ae522a9897eae32386c0eb1a064e59d2e98c57f96102837e46c0bef11c63"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 7558,
+      "seconds": 252.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-007558.png",
+      "sha256": "cc0162def1ac308171a9eea0ed5e4339180f96a94f88555d77debf2083b8cb3e",
+      "native_pixels_sha256": "b478288b78c59b7334cf19f1bcf8503f1ec149aa2d7181f80e26befccaa2a468"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 7618,
+      "seconds": 254.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-007618.png",
+      "sha256": "3bf31c97324eba74865b8668d8e0f47d001118b5340d563eccdf3413859a1727",
+      "native_pixels_sha256": "3e13cb1ab97b16be4c2545afe310af12a20d4fa2782b1745aa206c6a36b245d2"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 7678,
+      "seconds": 256.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-007678.png",
+      "sha256": "8635f4a4befce3f2803ae7d9b1e2958bc556b557213e708c3c3cc59cad125e13",
+      "native_pixels_sha256": "577d7174bb6e488a6dbc88e4a329c703a2dee2afa25b4d025b39395fd80688f4"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 7738,
+      "seconds": 258.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-007738.png",
+      "sha256": "d66c40e6de7d76f2050d89d5201490879a509d1b9d8c02d58e9d43382e5acef4",
+      "native_pixels_sha256": "716a0e7c143dcdb13473b51ff26b02d97f4a3ca1cd81d06950511614f9f5a3b0"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 7798,
+      "seconds": 260.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-007798.png",
+      "sha256": "f7d652aba58421ac426e5e99ba54161a515fcdaa47bf8b17745c67ccfdfbc967",
+      "native_pixels_sha256": "95ab450ec551474da976450301654537a435ef6d13b5023d550f46146258d0be"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 7858,
+      "seconds": 262.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-007858.png",
+      "sha256": "2ed610f5bf89fcc523e0dc51b16406895b70fc0091cd3d0bdff97bd447679872",
+      "native_pixels_sha256": "334b80ab7320c7372e4177baa2d7b22cd8abf29c48fcc88667c0248cef6e5a7e"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 7918,
+      "seconds": 264.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-007918.png",
+      "sha256": "a2f14485b31001eb377b7cabb1a6b1637011e4de8876f181e84cbabdf577f11a",
+      "native_pixels_sha256": "a9f1596715197e10c1881f74c40c48767b01e73daeaa393fdbb5da85792e4f0f"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 7978,
+      "seconds": 266.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-007978.png",
+      "sha256": "f8c93fc11344155ede6d3d5c1649814835f18e77e2fb6d07179537ef17803b4c",
+      "native_pixels_sha256": "eb0081ab1990a6851805870963f337258f9769684c7a826096c8809150d77457"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 8038,
+      "seconds": 268.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-008038.png",
+      "sha256": "05d2ad576d1c530d5b63eb2b3326a9a728248d7a6492beca46d025359ba21759",
+      "native_pixels_sha256": "daaad460c63989a5e558c53b75e227e601928958abc8284ad8b1decd770a0e46"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 8098,
+      "seconds": 270.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-008098.png",
+      "sha256": "d1c28103111617daa23762cd44b81b7a12407b01d32cd958ad366e48f9a439a8",
+      "native_pixels_sha256": "a0c6c68926b2a5ad10330207efb385c735d53251791a849db1b103c02496890b"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 8158,
+      "seconds": 272.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-008158.png",
+      "sha256": "b0847d04112120ba2056ff75b73d1cc934b862cb83d584e6c83bcd8aa7c1e9b2",
+      "native_pixels_sha256": "534cb6989401b79827e6b866767427bf68a52c9c12cb4ef84a6d42081e56fb73"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 8218,
+      "seconds": 274.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-008218.png",
+      "sha256": "ebb7820f110b5fb27995ebed87deb259cbbb877e9d479038cfa942bdd3613f2c",
+      "native_pixels_sha256": "9b39a1166c1f8e4d3b6a9d3312730bd30d577865ed7c502dc950b9000d64ee1a"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 8278,
+      "seconds": 276.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-008278.png",
+      "sha256": "7db1491e6452ecb214209c13eea1beafe0e6dd4a7c73a2b30fd2c0f0fe52f242",
+      "native_pixels_sha256": "ac3abb4fecd3f10d0eb2c99fa6262d85b0a1d3818a84cd4664ade9989cba6a2c"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 8338,
+      "seconds": 278.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-008338.png",
+      "sha256": "49b75b7dc58b64bd97cb13d82ec99b644c8d1ae8595ea11811ebf4a34f74fdbb",
+      "native_pixels_sha256": "a29adbb19ae397d6a261f1ecbf6a86fdebde79558e0b8904446a71c807acf041"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 8398,
+      "seconds": 280.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-008398.png",
+      "sha256": "c8256be5f3f6d4760229a4ae8f9e61bf95c6d862a19b84848dcbf3859e80cdbd",
+      "native_pixels_sha256": "58abce490aab1da659d5540b93805cf05224aa753e3ff22b40874e770bde7967"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 8458,
+      "seconds": 282.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-008458.png",
+      "sha256": "4f676186a037f162807bdeb61bebc5be627392ca13b2b409ff4ed29babdf06a0",
+      "native_pixels_sha256": "2928707300a983dc3919eff8c7c03aab0a31f8bec95027ba33a36205c6fd0a0d"
+    },
+    {
+      "camera_id": "G423",
+      "source_path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/meva/2018-03-05.09-50-15.09-55-01.school.G423.r13.avi",
+      "source_sha256": "e33cf8db19934fa8f8b60c4285e9eb940bfb290c44d7a9bf1a77a11c259334f5",
+      "frame_index": 8518,
+      "seconds": 284.0,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/meva-long-review/G423-008518.png",
+      "sha256": "054948c7822acc657bf8aa2978689d8b6b2dd00e9f18420f0e2e89e9350198d8",
+      "native_pixels_sha256": "e87ef0b3f17a0d338912e39374c6f66e11994e65d3918a8e4cf70d083dc6be17"
+    }
+  ],
+  "review_scope": "sampled stills only; unviewed frames not labeled",
+  "sample_interval_seconds": 2
+}

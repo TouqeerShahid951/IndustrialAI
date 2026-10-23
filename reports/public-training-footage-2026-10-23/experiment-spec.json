@@ -1,0 +1,14 @@
+{
+  "training_manifest_sha256": "471bebea8089910a9a6d520005b221a0833ffab02c146382154f3266c0d22d49",
+  "ridge_lambda": 0.1,
+  "threshold": 0,
+  "backbone_spec": "reports/detector-root-cause-2026-10-22/scene-model.json",
+  "base_recipe": "reports/detector-root-cause-2026-10-22/scene-head-spec.json",
+  "change": "Add 18 reviewed positive stills from nine approximate source families and eight reviewed clear indoor CCTV stills; preserve the prior 176 training images",
+  "backbone_frozen": true,
+  "validation_images_used_for_fitting": false,
+  "reserved_CCTV_used_for_fitting": false,
+  "frozen_before_candidate_evaluation": true,
+  "advance_to_full_video_only_if": "More smoke-positive hits and fewer known-negative flags than the current detector on the identical sparse frames, with zero F04/F08/C11 flags",
+  "production_model_changed": false
+}

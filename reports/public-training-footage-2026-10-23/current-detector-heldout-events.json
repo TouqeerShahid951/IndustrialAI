@@ -1,0 +1,16 @@
+[
+  {
+    "policy": "raw",
+    "TP": 3,
+    "FP": 9,
+    "FN": 1,
+    "negative_seconds": 230.14683880779492
+  },
+  {
+    "policy": "timed",
+    "TP": 1,
+    "FP": 7,
+    "FN": 3,
+    "negative_seconds": 230.14683880779492
+  }
+]

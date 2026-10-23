@@ -1,0 +1,932 @@
+{
+  "archive_md5_verified": true,
+  "archive_sha256": "876035a132f81119504e9fa53634d56215dd84b29c986d373bff4ee638b37eea",
+  "clips": [
+    {
+      "archive_entry": "neg/testneg01.807.avi",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/firesense-smoke/neg/testneg01.807.avi",
+      "bytes": 1964874,
+      "crc32": 1239864969,
+      "sha256": "9878ad2640b06e1472b015762bd52eb224936c85d7488ea9b62ed5b0590aa45c",
+      "source_label": "smoke_negative",
+      "source_doi": "10.5281/zenodo.836749",
+      "license": "CC BY 4.0",
+      "media": {
+        "reported_frames": 251,
+        "decoded_frames": 251,
+        "fps": 25.0,
+        "last_timestamp": 10.0,
+        "timestamps_strictly_increasing": true,
+        "fully_decoded": true,
+        "samples": [
+          {
+            "frame": 0,
+            "seconds": 0.0,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testneg01.807-000000.jpg",
+            "sha256": "5c066882e98753b73127ebf96f4443046eb1e4a8c3691ec74d708d3340a30251"
+          },
+          {
+            "frame": 83,
+            "seconds": 3.3200000000000003,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testneg01.807-000083.jpg",
+            "sha256": "fe447553b416117bb873ecccfa0cda7628d8fff4d6d8157b17a83281856e3aad"
+          },
+          {
+            "frame": 167,
+            "seconds": 6.68,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testneg01.807-000167.jpg",
+            "sha256": "fcf724361010264b813e8d7d5b6542e016c5114f2ef1d2bf440aa7d4dbf9e970"
+          },
+          {
+            "frame": 250,
+            "seconds": 10.0,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testneg01.807-000250.jpg",
+            "sha256": "51a7d5c4e1850428a65aea656fef78ef05470f81d0a067b2d8dff704ba7a7f00"
+          }
+        ]
+      }
+    },
+    {
+      "archive_entry": "neg/testneg02.808.avi",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/firesense-smoke/neg/testneg02.808.avi",
+      "bytes": 3721216,
+      "crc32": 2329614843,
+      "sha256": "d53ae16d7fd74471946a6b1a05045cbd548321aeec7abab07d20aaf7fd25c380",
+      "source_label": "smoke_negative",
+      "source_doi": "10.5281/zenodo.836749",
+      "license": "CC BY 4.0",
+      "media": {
+        "reported_frames": 1128,
+        "decoded_frames": 1128,
+        "fps": 25.0,
+        "last_timestamp": 45.08,
+        "timestamps_strictly_increasing": true,
+        "fully_decoded": true,
+        "samples": [
+          {
+            "frame": 0,
+            "seconds": 0.0,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testneg02.808-000000.jpg",
+            "sha256": "ce0d3200c175e914ad037c1088ec3e282c51df07422e127b907235c27e4c163f"
+          },
+          {
+            "frame": 376,
+            "seconds": 15.040000000000003,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testneg02.808-000376.jpg",
+            "sha256": "5416788ac983303cf0c0ad69834c16a9790436a6a00b9d40549f317398fe1975"
+          },
+          {
+            "frame": 751,
+            "seconds": 30.04,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testneg02.808-000751.jpg",
+            "sha256": "ef44e0e877d01651631cb73f4711a146e42b366cd71292e4ae1d269d5b84abec"
+          },
+          {
+            "frame": 1127,
+            "seconds": 45.08,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testneg02.808-001127.jpg",
+            "sha256": "f998bb7bec3ae4b2ac03e68e57bfaf4ba0738f947c80141b3efe5a3ad98e0408"
+          }
+        ]
+      }
+    },
+    {
+      "archive_entry": "neg/testneg03.809.avi",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/firesense-smoke/neg/testneg03.809.avi",
+      "bytes": 18626768,
+      "crc32": 2680710594,
+      "sha256": "f4d3437f13c6e55d332d0d97a09e856528c9f38f85239ca8a484a110996e5791",
+      "source_label": "smoke_negative",
+      "source_doi": "10.5281/zenodo.836749",
+      "license": "CC BY 4.0",
+      "media": {
+        "reported_frames": 748,
+        "decoded_frames": 182,
+        "fps": 30.00003000003,
+        "last_timestamp": 24.899975100000002,
+        "timestamps_strictly_increasing": true,
+        "fully_decoded": false,
+        "samples": [
+          {
+            "frame": 0,
+            "seconds": 0.0,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testneg03.809-000000.jpg",
+            "sha256": "fcef45237ab334c08b1e117e45a03ceab12d119ea535b6636b0d55504c116f39"
+          }
+        ]
+      }
+    },
+    {
+      "archive_entry": "neg/testneg04.810.avi",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/firesense-smoke/neg/testneg04.810.avi",
+      "bytes": 17379642,
+      "crc32": 3959291455,
+      "sha256": "68260909bd93d1bfe07accf6ef4e90dcad4fd17e96531b956d10ff8df38311cf",
+      "source_label": "smoke_negative",
+      "source_doi": "10.5281/zenodo.836749",
+      "license": "CC BY 4.0",
+      "media": {
+        "reported_frames": 2840,
+        "decoded_frames": 2840,
+        "fps": 25.0,
+        "last_timestamp": 113.56,
+        "timestamps_strictly_increasing": true,
+        "fully_decoded": true,
+        "samples": [
+          {
+            "frame": 0,
+            "seconds": 0.0,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testneg04.810-000000.jpg",
+            "sha256": "34b014bd7b5075a23ecd584b9191858cc19995b12faa3dc13223c1e3708c1233"
+          },
+          {
+            "frame": 946,
+            "seconds": 37.84,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testneg04.810-000946.jpg",
+            "sha256": "79e03af76426828a2b6095ea71e0a0138d9bed95a6f9e3d14c3f7d556e42224a"
+          },
+          {
+            "frame": 1893,
+            "seconds": 75.72,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testneg04.810-001893.jpg",
+            "sha256": "f36a0e2dc26cdf20279620934662d704ae351383a01558d0249e8e674748d2cb"
+          },
+          {
+            "frame": 2839,
+            "seconds": 113.56,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testneg04.810-002839.jpg",
+            "sha256": "76dd706f02465e33534417a399a4d0983766eb41ef564583efda1f5b4a0d1d1b"
+          }
+        ]
+      }
+    },
+    {
+      "archive_entry": "neg/testneg05.811.avi",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/firesense-smoke/neg/testneg05.811.avi",
+      "bytes": 2424460,
+      "crc32": 2185050179,
+      "sha256": "82049d89259dfe734493ccade8873f1692aaf68d8fdf91e7f70d438ea4781078",
+      "source_label": "smoke_negative",
+      "source_doi": "10.5281/zenodo.836749",
+      "license": "CC BY 4.0",
+      "media": {
+        "reported_frames": 251,
+        "decoded_frames": 251,
+        "fps": 25.0,
+        "last_timestamp": 10.0,
+        "timestamps_strictly_increasing": true,
+        "fully_decoded": true,
+        "samples": [
+          {
+            "frame": 0,
+            "seconds": 0.0,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testneg05.811-000000.jpg",
+            "sha256": "f945b4af3875d8e0cb3921dc1bec6eb69422978f81a0cab8a43d82b7f49a99a7"
+          },
+          {
+            "frame": 83,
+            "seconds": 3.3200000000000003,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testneg05.811-000083.jpg",
+            "sha256": "059d5dd6c51f11ac9dee648d55bca7fa2940ec46ff00f055f12dbd895a371943"
+          },
+          {
+            "frame": 167,
+            "seconds": 6.68,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testneg05.811-000167.jpg",
+            "sha256": "a52a7836a8ae155c660c24d1c0cd1110a259b2a2f111f2fb1b61e8a72a465a6a"
+          },
+          {
+            "frame": 250,
+            "seconds": 10.0,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testneg05.811-000250.jpg",
+            "sha256": "8b5e2bd949f482d46d0ac3d9ff52bd432a804f43dc532f5a67e0bf182d48c1d9"
+          }
+        ]
+      }
+    },
+    {
+      "archive_entry": "neg/testneg06.812.avi",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/firesense-smoke/neg/testneg06.812.avi",
+      "bytes": 2308066,
+      "crc32": 3233973529,
+      "sha256": "8b9af41bc27c9e04da225d3997629aff29301ce84858876d76d297b24ef08f74",
+      "source_label": "smoke_negative",
+      "source_doi": "10.5281/zenodo.836749",
+      "license": "CC BY 4.0",
+      "media": {
+        "reported_frames": 251,
+        "decoded_frames": 251,
+        "fps": 25.0,
+        "last_timestamp": 10.0,
+        "timestamps_strictly_increasing": true,
+        "fully_decoded": true,
+        "samples": [
+          {
+            "frame": 0,
+            "seconds": 0.0,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testneg06.812-000000.jpg",
+            "sha256": "375aaa9461fc4a6e83ab58389d8ba2f25ad7c323f32846b38c01a9109f21d697"
+          },
+          {
+            "frame": 83,
+            "seconds": 3.3200000000000003,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testneg06.812-000083.jpg",
+            "sha256": "b942ea35e26bd828ad0635ebeecade1a63c46bf06beb2dd19fd6c70a0d79690b"
+          },
+          {
+            "frame": 167,
+            "seconds": 6.68,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testneg06.812-000167.jpg",
+            "sha256": "9d1f12b14c556c12b30dde7abfb913cade9a46448b4735eab3f44801ee4b66d4"
+          },
+          {
+            "frame": 250,
+            "seconds": 10.0,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testneg06.812-000250.jpg",
+            "sha256": "a8baab063a8e32eba41056f2eb797f2bd114b13bc900cd67db4a8996bd448f76"
+          }
+        ]
+      }
+    },
+    {
+      "archive_entry": "neg/testneg07.813.avi",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/firesense-smoke/neg/testneg07.813.avi",
+      "bytes": 7125058,
+      "crc32": 2885960574,
+      "sha256": "d7aa5ebac09c8dbf85db5e71db3c987c96d1bcf75038ac4567473997618d1acb",
+      "source_label": "smoke_negative",
+      "source_doi": "10.5281/zenodo.836749",
+      "license": "CC BY 4.0",
+      "media": {
+        "reported_frames": 776,
+        "decoded_frames": 776,
+        "fps": 25.0,
+        "last_timestamp": 31.0,
+        "timestamps_strictly_increasing": true,
+        "fully_decoded": true,
+        "samples": [
+          {
+            "frame": 0,
+            "seconds": 0.0,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testneg07.813-000000.jpg",
+            "sha256": "02388b939b7628f71e7dc868a02de7f386d296bfd9ba954333bb38d94156131d"
+          },
+          {
+            "frame": 258,
+            "seconds": 10.32,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testneg07.813-000258.jpg",
+            "sha256": "9fae324a55a2e049449d89b83f02c4613c401af61a45481fb57c9b0224f7bd37"
+          },
+          {
+            "frame": 517,
+            "seconds": 20.68,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testneg07.813-000517.jpg",
+            "sha256": "ad46ef99daa47edd2e6b489df479022997a23e1a5f28cc1c0c4ad96f8ef69603"
+          },
+          {
+            "frame": 775,
+            "seconds": 31.0,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testneg07.813-000775.jpg",
+            "sha256": "8d94fb37330eaec208a095c7b71db43bca54507c8badea84484839cdd59b53c9"
+          }
+        ]
+      }
+    },
+    {
+      "archive_entry": "neg/testneg08.814.avi",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/firesense-smoke/neg/testneg08.814.avi",
+      "bytes": 6756794,
+      "crc32": 14629503,
+      "sha256": "5ca5139095f8b0d5ba474a446afa1c717a6b3862379612ff90e9c897cbbff8d4",
+      "source_label": "smoke_negative",
+      "source_doi": "10.5281/zenodo.836749",
+      "license": "CC BY 4.0",
+      "media": {
+        "reported_frames": 751,
+        "decoded_frames": 751,
+        "fps": 25.0,
+        "last_timestamp": 30.0,
+        "timestamps_strictly_increasing": true,
+        "fully_decoded": true,
+        "samples": [
+          {
+            "frame": 0,
+            "seconds": 0.0,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testneg08.814-000000.jpg",
+            "sha256": "009af567a110021e71b15f0739d42d8e5b25832a0f94a13e70d059fbd16a51bd"
+          },
+          {
+            "frame": 250,
+            "seconds": 10.0,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testneg08.814-000250.jpg",
+            "sha256": "8b17afdbae7b50ed1c41669a244c7e131408a638c0375916bbde4404b9e43e2a"
+          },
+          {
+            "frame": 500,
+            "seconds": 20.0,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testneg08.814-000500.jpg",
+            "sha256": "dd475e7bb7e6bfbb92f3d3872f6878f2eb2cdcd9e6bd2e9c04963fb290464a52"
+          },
+          {
+            "frame": 750,
+            "seconds": 30.0,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testneg08.814-000750.jpg",
+            "sha256": "d77cc814a8530b740d7baa2b2757600a07a556541e5419c6d9cb864ed04ed319"
+          }
+        ]
+      }
+    },
+    {
+      "archive_entry": "neg/testneg09.815.avi",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/firesense-smoke/neg/testneg09.815.avi",
+      "bytes": 6566414,
+      "crc32": 2577212356,
+      "sha256": "82ca550003c2fc6d23096c0beb49a514e5313a96364173873fc0216793ad3433",
+      "source_label": "smoke_negative",
+      "source_doi": "10.5281/zenodo.836749",
+      "license": "CC BY 4.0",
+      "media": {
+        "reported_frames": 723,
+        "decoded_frames": 723,
+        "fps": 25.0,
+        "last_timestamp": 28.88,
+        "timestamps_strictly_increasing": true,
+        "fully_decoded": true,
+        "samples": [
+          {
+            "frame": 0,
+            "seconds": 0.0,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testneg09.815-000000.jpg",
+            "sha256": "20f40070f7c4ac9ae843231cda450d801047664ff47c0dfbe4631c02a3ee2a36"
+          },
+          {
+            "frame": 241,
+            "seconds": 9.64,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testneg09.815-000241.jpg",
+            "sha256": "a8550eecad72eae85ac43b4738c85d4fe96820c29e54e08ef6e1087a8a8bbdc4"
+          },
+          {
+            "frame": 481,
+            "seconds": 19.240000000000002,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testneg09.815-000481.jpg",
+            "sha256": "8b7a1dd352108be2392556a247bec2e4c3707348ac61aa160f42bd6a4a13e8a8"
+          },
+          {
+            "frame": 722,
+            "seconds": 28.88,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testneg09.815-000722.jpg",
+            "sha256": "3c696cbdf714437ece5ae4a67db013c9038e72719e6f075f40b00d8c4a2d9bcb"
+          }
+        ]
+      }
+    },
+    {
+      "archive_entry": "pos/testpos01.817.avi",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/firesense-smoke/pos/testpos01.817.avi",
+      "bytes": 5079994,
+      "crc32": 2567305890,
+      "sha256": "fd1284d69c02da5a84fe3c537479882158ef5f83d743c51b325d41e6ceb3a8f3",
+      "source_label": "smoke_positive",
+      "source_doi": "10.5281/zenodo.836749",
+      "license": "CC BY 4.0",
+      "media": {
+        "reported_frames": 407,
+        "decoded_frames": 407,
+        "fps": 24.0,
+        "last_timestamp": 16.916666666666664,
+        "timestamps_strictly_increasing": true,
+        "fully_decoded": true,
+        "samples": [
+          {
+            "frame": 0,
+            "seconds": 0.0,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testpos01.817-000000.jpg",
+            "sha256": "387b913284ced6b6e1f3abe067a5325127d372f2f8a4880fa150a0d34c7e600b"
+          },
+          {
+            "frame": 135,
+            "seconds": 5.625,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testpos01.817-000135.jpg",
+            "sha256": "19c279da69f54061b44ef41da16d22b0408e0b740ca42380af4fa367796e94a1"
+          },
+          {
+            "frame": 271,
+            "seconds": 11.291666666666666,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testpos01.817-000271.jpg",
+            "sha256": "83f4e9ff7616ce636a05db8563a256e1bf62900bb04665ebfd824f09f155b82a"
+          },
+          {
+            "frame": 406,
+            "seconds": 16.916666666666664,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testpos01.817-000406.jpg",
+            "sha256": "0124c1a5d33a891d3e45cfb0dc0342ec27f6331bf5b664fca58204cb9b908f4f"
+          }
+        ]
+      }
+    },
+    {
+      "archive_entry": "pos/testpos02.818.avi",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/firesense-smoke/pos/testpos02.818.avi",
+      "bytes": 11025982,
+      "crc32": 1451341359,
+      "sha256": "f09934deee5aafc7e460d3b74313c2f8a172b1c9c8278515ab92aa6b042b0dc1",
+      "source_label": "smoke_positive",
+      "source_doi": "10.5281/zenodo.836749",
+      "license": "CC BY 4.0",
+      "media": {
+        "reported_frames": 1728,
+        "decoded_frames": 1728,
+        "fps": 29.97002997002997,
+        "last_timestamp": 57.624233333333336,
+        "timestamps_strictly_increasing": true,
+        "fully_decoded": true,
+        "samples": [
+          {
+            "frame": 0,
+            "seconds": 0.0,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testpos02.818-000000.jpg",
+            "sha256": "50fc95808ef031ea444c46892cb6443c6086437b549592b41e50f5f79bbbd9cc"
+          },
+          {
+            "frame": 576,
+            "seconds": 19.2192,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testpos02.818-000576.jpg",
+            "sha256": "43285a48646b1b2f49dbc2565707a18bffc45487f6a975f1520bb8c6670f9ee0"
+          },
+          {
+            "frame": 1151,
+            "seconds": 38.405033333333336,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testpos02.818-001151.jpg",
+            "sha256": "603959bbe76ea5cbfda72fb86964fe5f611c391e4f88dad1f6ccb019da9d935e"
+          },
+          {
+            "frame": 1727,
+            "seconds": 57.624233333333336,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testpos02.818-001727.jpg",
+            "sha256": "504b15f439720257e9dc18fd3dc686b5bd25d03d87ff9ddb3ee119317b6c8f6b"
+          }
+        ]
+      }
+    },
+    {
+      "archive_entry": "pos/testpos03.819.avi",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/firesense-smoke/pos/testpos03.819.avi",
+      "bytes": 74205184,
+      "crc32": 3437363829,
+      "sha256": "d4029b8506bcd19a7eb3ea73d10527906440b96970a66086364bbddd008b072c",
+      "source_label": "smoke_positive",
+      "source_doi": "10.5281/zenodo.836749",
+      "license": "CC BY 4.0",
+      "media": {
+        "reported_frames": 322,
+        "decoded_frames": 322,
+        "fps": 14.999925000374999,
+        "last_timestamp": 21.400107000000002,
+        "timestamps_strictly_increasing": true,
+        "fully_decoded": true,
+        "samples": [
+          {
+            "frame": 0,
+            "seconds": 0.0,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testpos03.819-000000.jpg",
+            "sha256": "ce0e264f822607b8a0c98f93afe323cb45ac02068f8ca574ca6091d8b64e1674"
+          },
+          {
+            "frame": 107,
+            "seconds": 7.133369,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testpos03.819-000107.jpg",
+            "sha256": "719a8de422be3c3a159ec0bfb608753acff5d05babbc7f0870e5c8b3c18cca7c"
+          },
+          {
+            "frame": 214,
+            "seconds": 14.266738,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testpos03.819-000214.jpg",
+            "sha256": "bb1416e830c184b42c11eeded2c29030cb6617b1246a90c5576e847a7217c633"
+          },
+          {
+            "frame": 321,
+            "seconds": 21.400107000000002,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testpos03.819-000321.jpg",
+            "sha256": "6d42761be64ed9209bf7a757619e5cb146b547086fc733222d31bc93ebba28d1"
+          }
+        ]
+      }
+    },
+    {
+      "archive_entry": "pos/testpos04.820.avi",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/firesense-smoke/pos/testpos04.820.avi",
+      "bytes": 25206992,
+      "crc32": 2872499504,
+      "sha256": "934d92ace78daf33bbf29abf385ed7f96cc8ba3469e53df9199829a4dfc445ec",
+      "source_label": "smoke_positive",
+      "source_doi": "10.5281/zenodo.836749",
+      "license": "CC BY 4.0",
+      "media": {
+        "reported_frames": 1964,
+        "decoded_frames": 1964,
+        "fps": 25.0,
+        "last_timestamp": 78.52,
+        "timestamps_strictly_increasing": true,
+        "fully_decoded": true,
+        "samples": [
+          {
+            "frame": 0,
+            "seconds": 0.0,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testpos04.820-000000.jpg",
+            "sha256": "4c41887fee6f47ce1772a388bdd71b5b4bddbd30fe01aa235d500afe18c6209d"
+          },
+          {
+            "frame": 654,
+            "seconds": 26.16,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testpos04.820-000654.jpg",
+            "sha256": "ee59988d615a119d68fc8ca885db30ea5c69af7e2b4374b7fe44e3d8c7a1bd0f"
+          },
+          {
+            "frame": 1309,
+            "seconds": 52.36,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testpos04.820-001309.jpg",
+            "sha256": "f6fd111344843da32a0c2956375008153526d38f149d9aa0d4fbc2ce5cb1e8e2"
+          },
+          {
+            "frame": 1963,
+            "seconds": 78.52,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testpos04.820-001963.jpg",
+            "sha256": "6df50e3e32929eb9071fea089764e0375816836fcf809fb234ea168a8cdca6a1"
+          }
+        ]
+      }
+    },
+    {
+      "archive_entry": "pos/testpos05.821.avi",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/firesense-smoke/pos/testpos05.821.avi",
+      "bytes": 4151296,
+      "crc32": 3544458451,
+      "sha256": "20772697742c2e07960283051853ab8f503d931dc6ce27a92ff66423108bdee0",
+      "source_label": "smoke_positive",
+      "source_doi": "10.5281/zenodo.836749",
+      "license": "CC BY 4.0",
+      "media": {
+        "reported_frames": 514,
+        "decoded_frames": 514,
+        "fps": 4.6905,
+        "last_timestamp": 109.37000319795331,
+        "timestamps_strictly_increasing": true,
+        "fully_decoded": true,
+        "samples": [
+          {
+            "frame": 0,
+            "seconds": 0.0,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testpos05.821-000000.jpg",
+            "sha256": "e4c54ad79a04ef061e6ba9f72bb6ae57561eb781168a4cce6ba4751a59af813e"
+          },
+          {
+            "frame": 171,
+            "seconds": 36.456667732651105,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testpos05.821-000171.jpg",
+            "sha256": "3b808046b355100a175b0628de4c7e40967199301a513a61c76cc1662a6c70d0"
+          },
+          {
+            "frame": 342,
+            "seconds": 72.91333546530221,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testpos05.821-000342.jpg",
+            "sha256": "d042eeb9228de5c260c51a14407dfbab3352b4b5e6db9e71bd7631333bba06f2"
+          },
+          {
+            "frame": 513,
+            "seconds": 109.37000319795331,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testpos05.821-000513.jpg",
+            "sha256": "9398c849c97f9cbe9f8a957f6d484f2099ff1817a80a8d9e857ddbdd60277807"
+          }
+        ]
+      }
+    },
+    {
+      "archive_entry": "pos/testpos06.822.avi",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/firesense-smoke/pos/testpos06.822.avi",
+      "bytes": 1420202,
+      "crc32": 4125641754,
+      "sha256": "fb28263a6215465aaa617ddc52e4f08d498f37dcbc7a80687282f0722fa4975b",
+      "source_label": "smoke_positive",
+      "source_doi": "10.5281/zenodo.836749",
+      "license": "CC BY 4.0",
+      "media": {
+        "reported_frames": 201,
+        "decoded_frames": 201,
+        "fps": 10.0,
+        "last_timestamp": 20.0,
+        "timestamps_strictly_increasing": true,
+        "fully_decoded": true,
+        "samples": [
+          {
+            "frame": 0,
+            "seconds": 0.0,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testpos06.822-000000.jpg",
+            "sha256": "60892e9918661daec86ea3986866d2c933a374d5ccd9c63f792310df3e134324"
+          },
+          {
+            "frame": 67,
+            "seconds": 6.7,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testpos06.822-000067.jpg",
+            "sha256": "dca6580cc03432d0a7e0ec0000b9fe91083131994ff1eaa2da986fff06f56229"
+          },
+          {
+            "frame": 133,
+            "seconds": 13.3,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testpos06.822-000133.jpg",
+            "sha256": "2d3bf66c1534963f18cc7c42e73de0ee99fca43f52b8ec4263bb2c3d543ecb55"
+          },
+          {
+            "frame": 200,
+            "seconds": 20.0,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testpos06.822-000200.jpg",
+            "sha256": "cbf88a258602eaecd59166cfc81c9702965f730502180279915dd23ddd628df7"
+          }
+        ]
+      }
+    },
+    {
+      "archive_entry": "pos/testpos07.823.avi",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/firesense-smoke/pos/testpos07.823.avi",
+      "bytes": 4612564,
+      "crc32": 3528449098,
+      "sha256": "f6d26e5c3a9552819590ece4e9acd1c7d160e6ab66ec3985d8999390b7d41c4f",
+      "source_label": "smoke_positive",
+      "source_doi": "10.5281/zenodo.836749",
+      "license": "CC BY 4.0",
+      "media": {
+        "reported_frames": 701,
+        "decoded_frames": 701,
+        "fps": 10.0,
+        "last_timestamp": 70.0,
+        "timestamps_strictly_increasing": true,
+        "fully_decoded": true,
+        "samples": [
+          {
+            "frame": 0,
+            "seconds": 0.0,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testpos07.823-000000.jpg",
+            "sha256": "cb97a8abe21e1fc55a5c0da8e6b52936852e45d79949cfdfbb8350af7d4190a6"
+          },
+          {
+            "frame": 233,
+            "seconds": 23.3,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testpos07.823-000233.jpg",
+            "sha256": "8021627f9f1216f5e637a521d3b1a9a89db2bff7cb81951d272c25a22b65e62d"
+          },
+          {
+            "frame": 467,
+            "seconds": 46.7,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testpos07.823-000467.jpg",
+            "sha256": "ec95df629151ec372ab5619ce9be804a6ae644746884f2811faefc1ba969dcf9"
+          },
+          {
+            "frame": 700,
+            "seconds": 70.0,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testpos07.823-000700.jpg",
+            "sha256": "7c95daf5444ec590385360b1cb53960ba1ee31942eeba173690ebf8862c76411"
+          }
+        ]
+      }
+    },
+    {
+      "archive_entry": "pos/testpos08.824.avi",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/firesense-smoke/pos/testpos08.824.avi",
+      "bytes": 2139458,
+      "crc32": 1552323340,
+      "sha256": "32f6a9450e81f106f24b2b9c7feb7a5f50fae6a42b9871282c883b2205e057f2",
+      "source_label": "smoke_positive",
+      "source_doi": "10.5281/zenodo.836749",
+      "license": "CC BY 4.0",
+      "media": {
+        "reported_frames": 363,
+        "decoded_frames": 363,
+        "fps": 15.0,
+        "last_timestamp": 24.133333333333333,
+        "timestamps_strictly_increasing": true,
+        "fully_decoded": true,
+        "samples": [
+          {
+            "frame": 0,
+            "seconds": 0.0,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testpos08.824-000000.jpg",
+            "sha256": "f025b97d9576e2d8ece485ac900392ce4a3a8798d90aa94c8d2c8f880f205b21"
+          },
+          {
+            "frame": 121,
+            "seconds": 8.066666666666666,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testpos08.824-000121.jpg",
+            "sha256": "440de2374647a3773e9b54e273d2e079f1bab64d303d162295d0dda6b3ace995"
+          },
+          {
+            "frame": 241,
+            "seconds": 16.066666666666666,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testpos08.824-000241.jpg",
+            "sha256": "dd59561637c7f2c71e49e0c972e976d2410f053dc392a63871dfaca0557938a8"
+          },
+          {
+            "frame": 362,
+            "seconds": 24.133333333333333,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testpos08.824-000362.jpg",
+            "sha256": "d508efb95c08566ceb62780726a093a2a9fdf71be96c43dd42c39114e753bf18"
+          }
+        ]
+      }
+    },
+    {
+      "archive_entry": "pos/testpos09.825.avi",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/firesense-smoke/pos/testpos09.825.avi",
+      "bytes": 8662620,
+      "crc32": 993024138,
+      "sha256": "d9e5e86632f6e79cb7d6092631de69e488c09e9c9dc243bae9bb168b7677f269",
+      "source_label": "smoke_positive",
+      "source_doi": "10.5281/zenodo.836749",
+      "license": "CC BY 4.0",
+      "media": {
+        "reported_frames": 828,
+        "decoded_frames": 828,
+        "fps": 30.0,
+        "last_timestamp": 27.566666666666666,
+        "timestamps_strictly_increasing": true,
+        "fully_decoded": true,
+        "samples": [
+          {
+            "frame": 0,
+            "seconds": 0.0,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testpos09.825-000000.jpg",
+            "sha256": "ac96b52727fccfaad4b16ad44ee97fb6827e5568ba0e5b0dd41eb710dfe2d1f0"
+          },
+          {
+            "frame": 276,
+            "seconds": 9.2,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testpos09.825-000276.jpg",
+            "sha256": "573ebe06943bda9bceb8c49262186926693c4e6435c1111fe1986ad5fafa1449"
+          },
+          {
+            "frame": 551,
+            "seconds": 18.366666666666667,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testpos09.825-000551.jpg",
+            "sha256": "835e4b3852e950973f95e7eb4787a4f9e42af9bc588dfeea287d47c491e004f1"
+          },
+          {
+            "frame": 827,
+            "seconds": 27.566666666666666,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testpos09.825-000827.jpg",
+            "sha256": "8f7cd21accbe85db5f5441ec74d8bba94a8917bcd1d9b9707057d3e5d0ea9a2f"
+          }
+        ]
+      }
+    },
+    {
+      "archive_entry": "pos/testpos10.826.avi",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/firesense-smoke/pos/testpos10.826.avi",
+      "bytes": 15633040,
+      "crc32": 898563328,
+      "sha256": "5698701d4900e39c279becc2cd8e9b0f085e19dff34885d59a930052464af3bc",
+      "source_label": "smoke_positive",
+      "source_doi": "10.5281/zenodo.836749",
+      "license": "CC BY 4.0",
+      "media": {
+        "reported_frames": 1470,
+        "decoded_frames": 1469,
+        "fps": 29.97,
+        "last_timestamp": 49.01568234901568,
+        "timestamps_strictly_increasing": true,
+        "fully_decoded": false,
+        "samples": [
+          {
+            "frame": 0,
+            "seconds": 0.0333667000333667,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testpos10.826-000000.jpg",
+            "sha256": "557431baa357b40a4b1949437284e5457966bf0a6e61d9a5f37ca80b7e130632"
+          },
+          {
+            "frame": 490,
+            "seconds": 16.38304971638305,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testpos10.826-000490.jpg",
+            "sha256": "e4e678979b296e495aac5596067a315c50d6fb4aef0c2f9f9a9a638605a92dec"
+          },
+          {
+            "frame": 979,
+            "seconds": 32.699366032699366,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testpos10.826-000979.jpg",
+            "sha256": "41c16dce1cbc24e95badff3edb7e53cde764bea05ee846f0501ecb7af9445eac"
+          }
+        ]
+      }
+    },
+    {
+      "archive_entry": "pos/testpos11.827.avi",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/firesense-smoke/pos/testpos11.827.avi",
+      "bytes": 8611514,
+      "crc32": 3528841799,
+      "sha256": "8066d6a50023145093251486b8f6f8e55b5cf6f76395221ef0887736a55b52c5",
+      "source_label": "smoke_positive",
+      "source_doi": "10.5281/zenodo.836749",
+      "license": "CC BY 4.0",
+      "media": {
+        "reported_frames": 678,
+        "decoded_frames": 677,
+        "fps": 25.0,
+        "last_timestamp": 27.080000000000005,
+        "timestamps_strictly_increasing": true,
+        "fully_decoded": false,
+        "samples": [
+          {
+            "frame": 0,
+            "seconds": 0.04,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testpos11.827-000000.jpg",
+            "sha256": "c49feae957add3d78d7844efb46c1387b540a3ab4499ab4f67f17239f5e1a903"
+          },
+          {
+            "frame": 226,
+            "seconds": 9.08,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testpos11.827-000226.jpg",
+            "sha256": "4b008e0b84dfb63e4a8d6c61c461961d4b3d69c57252322645e68ece2936aa70"
+          },
+          {
+            "frame": 451,
+            "seconds": 18.080000000000005,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testpos11.827-000451.jpg",
+            "sha256": "036105443d252dd8e6b020b0666d52c16c3105106e760f917b5bd3df0cfba65f"
+          }
+        ]
+      }
+    },
+    {
+      "archive_entry": "pos/testpos12.828.avi",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/firesense-smoke/pos/testpos12.828.avi",
+      "bytes": 3863668,
+      "crc32": 2043803346,
+      "sha256": "893d2b7fa5d327ac2c7c04165e00db5fffaf0d95aeb5d4706962a866d62acc34",
+      "source_label": "smoke_positive",
+      "source_doi": "10.5281/zenodo.836749",
+      "license": "CC BY 4.0",
+      "media": {
+        "reported_frames": 363,
+        "decoded_frames": 362,
+        "fps": 29.94,
+        "last_timestamp": 12.090848363393455,
+        "timestamps_strictly_increasing": true,
+        "fully_decoded": false,
+        "samples": [
+          {
+            "frame": 0,
+            "seconds": 0.033400133600534405,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testpos12.828-000000.jpg",
+            "sha256": "3554830398f993b49e4f991d013ccf6e3281829f8e9b165f9ce099a5d0ad48e4"
+          },
+          {
+            "frame": 121,
+            "seconds": 4.074816299265198,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testpos12.828-000121.jpg",
+            "sha256": "0a586017a52d4d1ea5bb8ee8adfe1273ab22d710d4b046c49ebccd5f581680ec"
+          },
+          {
+            "frame": 241,
+            "seconds": 8.082832331329326,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testpos12.828-000241.jpg",
+            "sha256": "e72bb689a9d35fda83e541a4668332b01b0fa3fb95d1d82f0100a58f57557684"
+          }
+        ]
+      }
+    },
+    {
+      "archive_entry": "pos/testpos13.829.avi",
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/data/public-training-footage-2026-10-23/firesense-smoke/pos/testpos13.829.avi",
+      "bytes": 4635790,
+      "crc32": 796563505,
+      "sha256": "143add5f9690e87f929d7779d7ca99e820e494370af9d7f116aa77285faef7ee",
+      "source_label": "smoke_positive",
+      "source_doi": "10.5281/zenodo.836749",
+      "license": "CC BY 4.0",
+      "media": {
+        "reported_frames": 464,
+        "decoded_frames": 463,
+        "fps": 29.97,
+        "last_timestamp": 15.44878211544878,
+        "timestamps_strictly_increasing": true,
+        "fully_decoded": false,
+        "samples": [
+          {
+            "frame": 0,
+            "seconds": 0.0333667000333667,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testpos13.829-000000.jpg",
+            "sha256": "d7ac81a9a6e17e318161ef47ffe883a05d74d1f74136a1fc5fed67d1b75f88e1"
+          },
+          {
+            "frame": 154,
+            "seconds": 5.171838505171838,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testpos13.829-000154.jpg",
+            "sha256": "076990a45244bdca2dfb34cb4a29f23634fee42869461392da576df2b7aa013f"
+          },
+          {
+            "frame": 309,
+            "seconds": 10.343677010343676,
+            "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/video-samples/testpos13.829-000309.jpg",
+            "sha256": "aaac0676f3e59358353ad0d72502df051af593b35b559a22139235295ec6f4d0"
+          }
+        ]
+      }
+    }
+  ]
+}

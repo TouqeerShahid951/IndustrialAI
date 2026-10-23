@@ -1,0 +1,756 @@
+{
+  "spec": {
+    "training_manifest_sha256": "471bebea8089910a9a6d520005b221a0833ffab02c146382154f3266c0d22d49",
+    "ridge_lambda": 0.1,
+    "threshold": 0,
+    "backbone_spec": "reports/detector-root-cause-2026-10-22/scene-model.json",
+    "base_recipe": "reports/detector-root-cause-2026-10-22/scene-head-spec.json",
+    "change": "Add 18 reviewed positive stills from nine approximate source families and eight reviewed clear indoor CCTV stills; preserve the prior 176 training images",
+    "backbone_frozen": true,
+    "validation_images_used_for_fitting": false,
+    "reserved_CCTV_used_for_fitting": false,
+    "frozen_before_candidate_evaluation": true,
+    "advance_to_full_video_only_if": "More smoke-positive hits and fewer known-negative flags than the current detector on the identical sparse frames, with zero F04/F08/C11 flags",
+    "production_model_changed": false
+  },
+  "script_sha256": "617d94d09d54184376bbc62e21048fce497aba31e1c5d4a1d6692f0a1a33849e",
+  "spec_sha256": "9ee7926bb29072a827224f34d8a86f0b4561b4f81040e621986211d662b37294",
+  "backbone_spec_sha256": "ac82e39580ea2e46e950a295d9966694775d74b569ac9b3a0ed07c446db0febe",
+  "results": [
+    {
+      "name": "unchanged_recipe_baseline",
+      "training_examples": 176,
+      "CCTV_scores": {
+        "TP": 0,
+        "FP": 0,
+        "TN": 36,
+        "FN": 19,
+        "excluded": 14
+      },
+      "internal_validation_scores": {
+        "TP": 22,
+        "FP": 2,
+        "TN": 22,
+        "FN": 2,
+        "excluded": 0
+      },
+      "rows": [
+        {
+          "id": "F01-000000",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.8939923342966263
+        },
+        {
+          "id": "F01-000224",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.8789255948007597
+        },
+        {
+          "id": "F01-000420",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.9985579668861273
+        },
+        {
+          "id": "F02-000000",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.901684172213649
+        },
+        {
+          "id": "F02-000273",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.9361163911344015
+        },
+        {
+          "id": "F02-000514",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.924408312571934
+        },
+        {
+          "id": "F03-000000",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.9144255558930363
+        },
+        {
+          "id": "F03-000151",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.9793649467896199
+        },
+        {
+          "id": "F03-000275",
+          "smoke_assessment": "absent_visible",
+          "margin": -1.0672698760191155
+        },
+        {
+          "id": "F04-000000",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.6032189762153997
+        },
+        {
+          "id": "F04-000175",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.9599307210926451
+        },
+        {
+          "id": "F04-000324",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.7755227758056007
+        },
+        {
+          "id": "F05-000000",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.8639673391315665
+        },
+        {
+          "id": "F05-000201",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.9038109411745283
+        },
+        {
+          "id": "F05-000391",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.9335286398626157
+        },
+        {
+          "id": "F06-000000",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.6879538629383444
+        },
+        {
+          "id": "F06-000200",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.9448781496316834
+        },
+        {
+          "id": "F06-000373",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.8739854941563641
+        },
+        {
+          "id": "F07-000000",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.937588819861884
+        },
+        {
+          "id": "F07-000075",
+          "smoke_assessment": "absent_visible",
+          "margin": -1.0301209655433863
+        },
+        {
+          "id": "F07-000149",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.8879933468809702
+        },
+        {
+          "id": "F08-000000",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.8440100309842062
+        },
+        {
+          "id": "F08-000176",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.8971882921108305
+        },
+        {
+          "id": "F08-000303",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.9901186127694839
+        },
+        {
+          "id": "C01-000000",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.6060521476466854
+        },
+        {
+          "id": "C01-000401",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.6198339789596357
+        },
+        {
+          "id": "C01-000750",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.6684195992834672
+        },
+        {
+          "id": "C02-000000",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.6870102167531931
+        },
+        {
+          "id": "C02-000401",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.6828612030005994
+        },
+        {
+          "id": "C02-000750",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.7825638412737368
+        },
+        {
+          "id": "C03-000000",
+          "smoke_assessment": "uncertain",
+          "margin": -0.7424264641192047
+        },
+        {
+          "id": "C03-000751",
+          "smoke_assessment": "uncertain",
+          "margin": -0.8010691009910604
+        },
+        {
+          "id": "C03-001500",
+          "smoke_assessment": "uncertain",
+          "margin": -0.7124285871507683
+        },
+        {
+          "id": "C04-000000",
+          "smoke_assessment": "present",
+          "margin": -0.5126727275682301
+        },
+        {
+          "id": "C04-000751",
+          "smoke_assessment": "present",
+          "margin": -0.7718481136626512
+        },
+        {
+          "id": "C04-001500",
+          "smoke_assessment": "present",
+          "margin": -0.7089093134119586
+        },
+        {
+          "id": "C05-000000",
+          "smoke_assessment": "present",
+          "margin": -0.5897529591896116
+        },
+        {
+          "id": "C05-000602",
+          "smoke_assessment": "present",
+          "margin": -0.4824779582397812
+        },
+        {
+          "id": "C05-001126",
+          "smoke_assessment": "present",
+          "margin": -0.5771256781619694
+        },
+        {
+          "id": "C06-000000",
+          "smoke_assessment": "present",
+          "margin": -0.4891490850226456
+        },
+        {
+          "id": "C06-000601",
+          "smoke_assessment": "present",
+          "margin": -0.6091873547322955
+        },
+        {
+          "id": "C06-001125",
+          "smoke_assessment": "present",
+          "margin": -0.5912060047071628
+        },
+        {
+          "id": "C07-000000",
+          "smoke_assessment": "uncertain",
+          "margin": -0.6213342352711249
+        },
+        {
+          "id": "C07-000751",
+          "smoke_assessment": "uncertain",
+          "margin": -0.732957699728477
+        },
+        {
+          "id": "C07-001500",
+          "smoke_assessment": "uncertain",
+          "margin": -0.6971562003978582
+        },
+        {
+          "id": "C08-000000",
+          "smoke_assessment": "uncertain",
+          "margin": -0.648084145288629
+        },
+        {
+          "id": "C08-000601",
+          "smoke_assessment": "uncertain",
+          "margin": -0.5275876995136795
+        },
+        {
+          "id": "C08-001125",
+          "smoke_assessment": "present",
+          "margin": -0.6106842897337046
+        },
+        {
+          "id": "C09-000000",
+          "smoke_assessment": "present",
+          "margin": -0.5410425530947218
+        },
+        {
+          "id": "C09-000601",
+          "smoke_assessment": "present",
+          "margin": -0.3132064035660764
+        },
+        {
+          "id": "C09-001126",
+          "smoke_assessment": "present",
+          "margin": -0.5031641603271316
+        },
+        {
+          "id": "C10-000000",
+          "smoke_assessment": "present",
+          "margin": -0.6964584563964291
+        },
+        {
+          "id": "C10-000602",
+          "smoke_assessment": "present",
+          "margin": -0.743520369104818
+        },
+        {
+          "id": "C10-001126",
+          "smoke_assessment": "present",
+          "margin": -0.7565785801405465
+        },
+        {
+          "id": "C11-000000",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.4947017252522268
+        },
+        {
+          "id": "C11-000601",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.7017686335959505
+        },
+        {
+          "id": "C11-001125",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.6360192835120153
+        },
+        {
+          "id": "C12-000000",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.5469568755533237
+        },
+        {
+          "id": "C12-000601",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.5656984953881901
+        },
+        {
+          "id": "C12-001125",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.5186459043124763
+        },
+        {
+          "id": "C13-000000",
+          "smoke_assessment": "present",
+          "margin": -0.1856015462768658
+        },
+        {
+          "id": "C13-000601",
+          "smoke_assessment": "present",
+          "margin": -0.34472878213852526
+        },
+        {
+          "id": "C13-001125",
+          "smoke_assessment": "present",
+          "margin": -0.31375233959933735
+        },
+        {
+          "id": "C14-000000",
+          "smoke_assessment": "uncertain",
+          "margin": -0.5728765786656382
+        },
+        {
+          "id": "C14-000751",
+          "smoke_assessment": "uncertain",
+          "margin": -0.7818922600380347
+        },
+        {
+          "id": "C14-001500",
+          "smoke_assessment": "uncertain",
+          "margin": -0.7745860310479504
+        },
+        {
+          "id": "C15-000000",
+          "smoke_assessment": "uncertain",
+          "margin": -0.6632188703072219
+        },
+        {
+          "id": "C15-000601",
+          "smoke_assessment": "uncertain",
+          "margin": -0.7998255590261738
+        },
+        {
+          "id": "C15-001125",
+          "smoke_assessment": "uncertain",
+          "margin": -0.648397602330679
+        }
+      ]
+    },
+    {
+      "name": "public_data_addition",
+      "training_examples": 202,
+      "CCTV_scores": {
+        "TP": 1,
+        "FP": 0,
+        "TN": 36,
+        "FN": 18,
+        "excluded": 14
+      },
+      "internal_validation_scores": {
+        "TP": 22,
+        "FP": 2,
+        "TN": 22,
+        "FN": 2,
+        "excluded": 0
+      },
+      "rows": [
+        {
+          "id": "F01-000000",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.8425610651707357
+        },
+        {
+          "id": "F01-000224",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.841198937053973
+        },
+        {
+          "id": "F01-000420",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.9999085029175216
+        },
+        {
+          "id": "F02-000000",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.8558780980457257
+        },
+        {
+          "id": "F02-000273",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.8536902527892215
+        },
+        {
+          "id": "F02-000514",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.8477613430442876
+        },
+        {
+          "id": "F03-000000",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.8324184692499462
+        },
+        {
+          "id": "F03-000151",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.916640000255529
+        },
+        {
+          "id": "F03-000275",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.9825411272601678
+        },
+        {
+          "id": "F04-000000",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.5713615048490371
+        },
+        {
+          "id": "F04-000175",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.8327627415851679
+        },
+        {
+          "id": "F04-000324",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.7198056703328977
+        },
+        {
+          "id": "F05-000000",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.7945626335496294
+        },
+        {
+          "id": "F05-000201",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.9077989140473974
+        },
+        {
+          "id": "F05-000391",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.8882152914612904
+        },
+        {
+          "id": "F06-000000",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.5933358532017441
+        },
+        {
+          "id": "F06-000200",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.9028167804247642
+        },
+        {
+          "id": "F06-000373",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.8178649005481038
+        },
+        {
+          "id": "F07-000000",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.8313068717117125
+        },
+        {
+          "id": "F07-000075",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.9909951869506137
+        },
+        {
+          "id": "F07-000149",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.83259008106166
+        },
+        {
+          "id": "F08-000000",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.7186530694767442
+        },
+        {
+          "id": "F08-000176",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.7915788693879648
+        },
+        {
+          "id": "F08-000303",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.9362702846441947
+        },
+        {
+          "id": "C01-000000",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.23417628937973456
+        },
+        {
+          "id": "C01-000401",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.32326030741405876
+        },
+        {
+          "id": "C01-000750",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.4028829024291313
+        },
+        {
+          "id": "C02-000000",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.2948788186223973
+        },
+        {
+          "id": "C02-000401",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.450161691575423
+        },
+        {
+          "id": "C02-000750",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.5659842952340051
+        },
+        {
+          "id": "C03-000000",
+          "smoke_assessment": "uncertain",
+          "margin": -0.5807200204356399
+        },
+        {
+          "id": "C03-000751",
+          "smoke_assessment": "uncertain",
+          "margin": -0.5663122790194505
+        },
+        {
+          "id": "C03-001500",
+          "smoke_assessment": "uncertain",
+          "margin": -0.49082839196118244
+        },
+        {
+          "id": "C04-000000",
+          "smoke_assessment": "present",
+          "margin": -0.3523881073614403
+        },
+        {
+          "id": "C04-000751",
+          "smoke_assessment": "present",
+          "margin": -0.5484121237143298
+        },
+        {
+          "id": "C04-001500",
+          "smoke_assessment": "present",
+          "margin": -0.5219037869753678
+        },
+        {
+          "id": "C05-000000",
+          "smoke_assessment": "present",
+          "margin": -0.12721172454083224
+        },
+        {
+          "id": "C05-000602",
+          "smoke_assessment": "present",
+          "margin": -0.1210126551572958
+        },
+        {
+          "id": "C05-001126",
+          "smoke_assessment": "present",
+          "margin": -0.20610321718284966
+        },
+        {
+          "id": "C06-000000",
+          "smoke_assessment": "present",
+          "margin": -0.12822391705289246
+        },
+        {
+          "id": "C06-000601",
+          "smoke_assessment": "present",
+          "margin": -0.24784340653701603
+        },
+        {
+          "id": "C06-001125",
+          "smoke_assessment": "present",
+          "margin": -0.2522236027540609
+        },
+        {
+          "id": "C07-000000",
+          "smoke_assessment": "uncertain",
+          "margin": -0.2983763318530891
+        },
+        {
+          "id": "C07-000751",
+          "smoke_assessment": "uncertain",
+          "margin": -0.5451160692203262
+        },
+        {
+          "id": "C07-001500",
+          "smoke_assessment": "uncertain",
+          "margin": -0.4456031768553696
+        },
+        {
+          "id": "C08-000000",
+          "smoke_assessment": "uncertain",
+          "margin": -0.3380358693669727
+        },
+        {
+          "id": "C08-000601",
+          "smoke_assessment": "uncertain",
+          "margin": -0.26884522534524186
+        },
+        {
+          "id": "C08-001125",
+          "smoke_assessment": "present",
+          "margin": -0.3581612114759918
+        },
+        {
+          "id": "C09-000000",
+          "smoke_assessment": "present",
+          "margin": -0.42055847984930533
+        },
+        {
+          "id": "C09-000601",
+          "smoke_assessment": "present",
+          "margin": -0.24988553538714187
+        },
+        {
+          "id": "C09-001126",
+          "smoke_assessment": "present",
+          "margin": -0.3824242146316704
+        },
+        {
+          "id": "C10-000000",
+          "smoke_assessment": "present",
+          "margin": -0.4455993457703222
+        },
+        {
+          "id": "C10-000602",
+          "smoke_assessment": "present",
+          "margin": -0.4536677669324274
+        },
+        {
+          "id": "C10-001126",
+          "smoke_assessment": "present",
+          "margin": -0.47046644707990654
+        },
+        {
+          "id": "C11-000000",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.22634130867763624
+        },
+        {
+          "id": "C11-000601",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.5449754944018761
+        },
+        {
+          "id": "C11-001125",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.463842159192304
+        },
+        {
+          "id": "C12-000000",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.1945660436921929
+        },
+        {
+          "id": "C12-000601",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.2966799700339474
+        },
+        {
+          "id": "C12-001125",
+          "smoke_assessment": "absent_visible",
+          "margin": -0.23313388095448737
+        },
+        {
+          "id": "C13-000000",
+          "smoke_assessment": "present",
+          "margin": 0.02494869660229674
+        },
+        {
+          "id": "C13-000601",
+          "smoke_assessment": "present",
+          "margin": -0.19858630455036105
+        },
+        {
+          "id": "C13-001125",
+          "smoke_assessment": "present",
+          "margin": -0.13155457227157133
+        },
+        {
+          "id": "C14-000000",
+          "smoke_assessment": "uncertain",
+          "margin": -0.14420906126711797
+        },
+        {
+          "id": "C14-000751",
+          "smoke_assessment": "uncertain",
+          "margin": -0.4505184124807953
+        },
+        {
+          "id": "C14-001500",
+          "smoke_assessment": "uncertain",
+          "margin": -0.43857945073417276
+        },
+        {
+          "id": "C15-000000",
+          "smoke_assessment": "uncertain",
+          "margin": -0.3252359130584032
+        },
+        {
+          "id": "C15-000601",
+          "smoke_assessment": "uncertain",
+          "margin": -0.552142353198853
+        },
+        {
+          "id": "C15-001125",
+          "smoke_assessment": "uncertain",
+          "margin": -0.3712502753962061
+        }
+      ],
+      "weights_path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/scene-head.npz",
+      "weights_sha256": "288623cfad29f0ceb1037fc21b51276e007c267aa60ae7680b2149751584f5f2"
+    }
+  ],
+  "training_scope": "Frozen-encoder linear head only",
+  "production_model_changed": false,
+  "gate_passed": false
+}

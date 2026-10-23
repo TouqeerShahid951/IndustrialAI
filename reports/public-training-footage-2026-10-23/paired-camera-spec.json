@@ -1,0 +1,50 @@
+{
+  "protocol": "New development camera split; previous MmodalFire scores are historical diagnostics, not validation for this model",
+  "training_camera_family": "mmodalfire-xian-ch01",
+  "retired_validation_clip_ids": [
+    "C01",
+    "C02",
+    "C03",
+    "C04",
+    "C05",
+    "C06",
+    "C07",
+    "C08",
+    "C09",
+    "C10",
+    "C11",
+    "C12",
+    "C13",
+    "C14",
+    "C15"
+  ],
+  "base_training_manifest": "reports/public-training-footage-2026-10-23/training-manifest.json",
+  "positive_frames_per_smoke_clip": 8,
+  "negative_frames_per_clear_or_documented_mist_clip": 14,
+  "ridge_lambda": 0.1,
+  "threshold": 0,
+  "backbone_frozen": true,
+  "heldout_groups": [
+    "workplace-all",
+    "kmu-unknown",
+    "ucf-unknown",
+    "bilkent-empty-room-all",
+    "firesense-workshop"
+  ],
+  "training_and_validation_share_camera_family": false,
+  "scene_sample_hz": 2,
+  "temporal_rule": {
+    "min_hits": 3,
+    "min_span_seconds": 1.0,
+    "window_seconds": 2.0,
+    "merge_gap_seconds": 2.0
+  },
+  "scope": "Smoke scene classifier only; original fire detector and app remain unchanged",
+  "decision_made_by": "agent methodological choice after public-data audit",
+  "frozen_before_training_and_heldout_inference": true,
+  "limitations": [
+    "Previously exposed development scenes, not a locked blind test",
+    "MmodalFire laboratory images are now training data and cannot validate this candidate",
+    "Public image-source provenance and assistant labels remain limited"
+  ]
+}

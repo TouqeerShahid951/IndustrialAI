@@ -1,0 +1,56 @@
+{
+  "original_labels_unchanged": true,
+  "posthoc_review": true,
+  "frames": [
+    {
+      "clip_id": "clip-007",
+      "frame_index": 90,
+      "seconds": 3.0,
+      "candidate_score": 0.002287561586096885,
+      "control_score": -0.5306288603917328,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/prediction-review/clip-007-000090.png",
+      "sha256": "a6aa24da7695ec57dfbbb2100f7cb6c08afc7d282e46a53165ab7f0e2777d4a8",
+      "smoke_assessment": "absent_visible",
+      "review_status": "assistant_reviewed",
+      "source_type": "non_scene_title_card",
+      "note": "No visible smoke in this inspected frame; outside the original reviewed interval. Do not extrapolate to neighboring times."
+    },
+    {
+      "clip_id": "clip-007",
+      "frame_index": 270,
+      "seconds": 9.0,
+      "candidate_score": 0.010684981893695785,
+      "control_score": 0.1999066807775865,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/prediction-review/clip-007-000270.png",
+      "sha256": "b0534e0652532540199f555d6cf7a5509bbaf64bd7aa60cc11373626e82d9dcb",
+      "smoke_assessment": "absent_visible",
+      "review_status": "assistant_reviewed",
+      "source_type": "camera_scene",
+      "note": "No visible smoke in this inspected frame; outside the original reviewed interval. Do not extrapolate to neighboring times."
+    },
+    {
+      "clip_id": "clip-007",
+      "frame_index": 825,
+      "seconds": 27.5,
+      "candidate_score": 0.048383532065230966,
+      "control_score": 0.15960804538485968,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/prediction-review/clip-007-000825.png",
+      "sha256": "b70a16beab5dee2a43c690b725a2e45ed9677cd7007215af6758c7ace3367744",
+      "smoke_assessment": "present",
+      "review_status": "assistant_reviewed",
+      "note": "Visible gray plume near/below the foreground structure; earlier than the user-confirmed core. Single-frame assistant assessment only."
+    },
+    {
+      "clip_id": "clip-007",
+      "frame_index": 960,
+      "seconds": 32.0,
+      "candidate_score": 0.022846073056628086,
+      "control_score": 0.03364905424793742,
+      "path": "/Users/tabbasi/Downloads/IndustrialAI/outputs/public-training-footage-2026-10-23/prediction-review/clip-007-000960.png",
+      "sha256": "fa54f3777cd8bff99080873097ed599d8d797fb425659c7c92f6ed5bd8eb44f3",
+      "smoke_assessment": "present",
+      "review_status": "assistant_reviewed",
+      "note": "Visible gray plume near/below the foreground structure; earlier than the user-confirmed core. Single-frame assistant assessment only."
+    }
+  ]
+}
