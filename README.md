@@ -2,6 +2,8 @@
 
 The Mac MVP provides authenticated CCTV upload, full-video analysis, source-timestamp playback, incident review and evidence export. Its five capabilities are fire, smoke, suspected smoking behavior, explicit no-helmet evidence and restricted-area intrusion. The frontend follows the selected Soft Graphite and Sage mockups.
 
+**Continuing this project? Read the [agent handoff](HANDOFF.md)** for the chat's decisions, current model/data results, local-only dependencies and the public-footage acquisition plan. The upload-and-review demo is implemented; smoke perception remains unresolved, and experimental classifiers have not replaced the application detector.
+
 ## Run on this Mac
 
 The configured workspace already has dependencies and verified model weights. Start the API and single worker together:
